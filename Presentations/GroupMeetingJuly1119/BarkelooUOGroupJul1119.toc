@@ -5,11 +5,10 @@
 \beamer@sectionintoc {2}{Searching for Flavor Changing Neutral Current Signatures}{8}{0}{2}
 \beamer@subsectionintoc {2}{1}{FCNCs with Photons}{8}{0}{2}
 \beamer@subsectionintoc {2}{2}{Object Preselection Cuts}{8}{0}{2}
-\beamer@subsectionintoc {2}{3}{Top and Neutrino Reconstruction}{11}{0}{2}
-\beamer@sectionintoc {3}{Neural Network}{14}{0}{3}
-\beamer@subsectionintoc {3}{1}{Architecture}{14}{0}{3}
-\beamer@subsectionintoc {3}{2}{Neural Network Outcomes}{18}{0}{3}
-\beamer@sectionintoc {4}{Continuing Analysis}{26}{0}{4}
-\beamer@subsectionintoc {4}{1}{Region Creation}{26}{0}{4}
-\beamer@sectionintoc {5}{Outlook and Conclusions}{27}{0}{5}
-\beamer@sectionintoc {6}{Backup}{29}{1}{6}
+\beamer@sectionintoc {3}{Neural Network}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Architecture}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Neural Network Outcomes}{13}{0}{3}
+\beamer@sectionintoc {4}{Continuing Analysis}{18}{0}{4}
+\beamer@subsectionintoc {4}{1}{Region Creation}{18}{0}{4}
+\beamer@sectionintoc {5}{Outlook and Conclusions}{19}{0}{5}
+\beamer@sectionintoc {6}{Backup}{21}{1}{6}

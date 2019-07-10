@@ -139,129 +139,59 @@
 \begin{itemize}
 \item  Leading Jet $p_T$
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/jet0_pt.png} \\
-\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/jet0_pt.png}
+%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/jet0_pt.png} \\
+%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/jet0_pt.png}
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
 \item Lead Photon
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/photon0_pt.png} \\
-\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/photon0_pt.png}
+%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/photon0_pt.png} \\
+%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/photon0_pt.png}
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
 \item Lepton E
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/lepton_e.png} \\
-\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/lepton_e.png}
+%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/lepton_e.png} \\
+%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/lepton_e.png}
 \end{column}
 \end{columns}
 }
 
-\frame{\frametitle{Preselection Objects with $N_{BJet}= 1$ }
-\begin{columns}
-\begin{column}{0.02\textwidth}
-\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%\rotatebox{90}{Muon Channel        } 
-\end{column}
-\begin{column}{0.33\textwidth}
-\begin{itemize}
-\item $\gamma_{iso}$
-\end{itemize}
-\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/photon0_iso.png} \\
-\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/photon0_iso.png}
-\end{column}
-\begin{column}{0.33\textwidth}
-\begin{itemize}
-\item $\Delta R_{j\gamma}$
-\end{itemize}
-\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/deltaRjgam.png} \\
-\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/deltaRjgam.png}
-\end{column}
-\begin{column}{0.33\textwidth}
-\begin{itemize}
-\item $\Delta R_{l\gamma}$
-\end{itemize}
-\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/deltaRlgam.png} \\
-\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/deltaRlgam.png}
-\end{column}
-\end{columns}
-}
+%\frame{\frametitle{Preselection Objects with $N_{BJet}= 1$ }
+%\begin{columns}
+%\begin{column}{0.02\textwidth}
+%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%%\rotatebox{90}{Muon Channel        } 
+%\end{column}
+%\begin{column}{0.33\textwidth}
+%\begin{itemize}
+%\item $\gamma_{iso}$
+%\end{itemize}
+%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/photon0_iso.png} \\
+%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/photon0_iso.png}
+%\end{column}
+%\begin{column}{0.33\textwidth}
+%\begin{itemize}
+%\item $\Delta R_{j\gamma}$
+%\end{itemize}
+%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/deltaRjgam.png} \\
+%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/deltaRjgam.png}
+%\end{column}
+%\begin{column}{0.33\textwidth}
+%\begin{itemize}
+%\item $\Delta R_{l\gamma}$
+%\end{itemize}
+%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/deltaRlgam.png} \\
+%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/deltaRlgam.png}
+%\end{column}
+%\end{columns}
+%}
 
-\subsection{Top and Neutrino Reconstruction}
-\frame{\frametitle{Individual Top Reconstruction}
-\begin{itemize}
-\item  We can reconstruct top candidates from basic physics objects and $E_T^{miss}$
-\item $E_T^{miss}$ is calculated to balance the event energy in the transverse plane of the detector
-\item The other particles are combined in the only way the signal topology would allow two top quark candidates
-\begin{itemize}
-\item Standard model top candidate: b-jet + lepton + neutrino 
-\item FCNC Top: Photon + Light Jet
-\end{itemize}
-\end{itemize}
-}
 
 %%%%%%%%%%%%%%%%
 
-
-\frame{\frametitle{Neutrinos}
-\begin{itemize}
-\item All missing energy in signal topology is from neutrino
-\item We have $E_T^{miss}$ and its direction   
-\begin{itemize}
-\item Can calulate  $E_{Tx}^{miss}$ and  $E_{Ty}^{miss}$ easily
-\item Ambiguous direction along the z-axis
-\end{itemize}
-\item A minimization of this $\chi^2$ will allow us to determine the z momentum of the neutrino: $\chi^2 = \frac{(m_{b,l,\nu}-m_t)^2}{\sigma^2_{SMtop}}+\frac{(m_{l,\nu}-m_W)^2}{\sigma^2_W} $
-\end{itemize}
-
-%\[ \chi^2 = \frac{(m_{b,l,\nu}-m_t)^2}{\sigma^2_{SMtop}}+\frac{(m_{l,\nu}-m_W)^2}{\sigma^2_W}  \]
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\centering
-\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/plotsloose/el_h_met_met.png}
-\captionof{figure}{e-channel $E_T^{miss}$ distribution}
-\end{column} 
-\begin{column}{0.5\textwidth}
-\centering
-\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/plotsloose/el_h_min_chi2.png}
-\captionof{figure}{e-channel $\chi^2$ distribution}
-\end{column}
-\end{columns}
-*Plots from previous release, same methodology used, same results
-}
-
-\frame{
-\[ \chi^2 = \frac{(m_{b,l,\nu}-m_t)^2}{\sigma^2_{SMtop}}+\frac{(m_{l,\nu}-m_W)^2}{\sigma^2_W}  \]
-\begin{columns}
-\begin{column}{0.02\textwidth}
-\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%\rotatebox{90}{Muon Channel        } 
-\end{column}
-\begin{column}{0.33\textwidth}
-\begin{itemize}
-\item $\chi^2$
-\end{itemize}
-\includegraphics[width=.8\textwidth]{Images/ejetsvarplots/nu_chi2.png} \\
-\includegraphics[width=.8\textwidth]{Images/mujetsvarplots/nu_chi2.png}
-\end{column}
-\begin{column}{0.33\textwidth}
-\begin{itemize}
-\item$\chi^2_{SMTop}$
-\end{itemize}
-\includegraphics[width=.8\textwidth]{Images/ejetsvarplots/sm_chi2.png} \\
-\includegraphics[width=.8\textwidth]{Images/mujetsvarplots/sm_chi2.png}
-\end{column}
-\begin{column}{0.33\textwidth}
-\begin{itemize}
-\item $\chi^2_{W}$
-\end{itemize}
-\includegraphics[width=.8\textwidth]{Images/ejetsvarplots/w_chi2.png} \\
-\includegraphics[width=.8\textwidth]{Images/mujetsvarplots/w_chi2.png}
-\end{column}
-\end{columns}
-}
 
 \section{Neural Network}
 \subsection{Architecture}
@@ -274,19 +204,6 @@
 \centering
 \includegraphics[width=0.7\textwidth]{Images/neural_net2.jpeg}
 \captionof{figure}{\href{http://cs231n.github.io/neural-networks-1/}{[Ref: Neural Network]}}
-}
-\frame{\frametitle{Neural Network Optimizers}
-\begin{itemize}
-\item Various optimization functions can be used, however we use Adam (Adaptive Moment Estimation)
-\begin{itemize}
-\item Adam computes adaptive learning rates for every parameter and stores a history of the parameters used to calculate the next step
-\item Stores first (mean) and second (uncentered variance) moments of the gradients used during training
-\item Converges very fast and is less computationally intensive
-\end{itemize}
-\end{itemize}
-\centering
-\includegraphics[width=0.35\textwidth]{Images/AdamComparison.png}
-\captionof{figure}{\href{https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/}{[Ref:Machine Learning Mastry]}}
 }
 
 \frame{\frametitle{Neural Network Model Inputs}
@@ -328,51 +245,7 @@
 \end{columns}
 }
 
-\frame{\frametitle{Neural Network Separation, Electron Channel}
-\begin{columns}
-\begin{column}{0.02\textwidth}
-\rotatebox{90}{Minimal Inputs \qquad \qquad Extended Inputs \qquad} 
-%\rotatebox{90}{Muon Channel        } 
-\end{column}
-\begin{column}{0.48\textwidth}
-\begin{itemize}
-\item  1 Hidden Layer
-\end{itemize}
-\includegraphics[width=.85\textwidth]{SmallNpart1modelouts/ejetsboth1hidnpart0sigbkg.png} \\
-\includegraphics[width=.85\textwidth]{SmallNpart1modelouts/ejetsboth1hidnpart1sigbkg.png}
-\end{column}
-\begin{column}{0.48\textwidth}
-\begin{itemize}
-\item 2 Hidden Layers
-\end{itemize}
-\includegraphics[width=.85\textwidth]{SmallNpart1modelouts/ejetsboth2hidnpart0sigbkg.png} \\
-\includegraphics[width=.85\textwidth]{SmallNpart1modelouts/ejetsboth2hidnpart1sigbkg.png}
-\end{column}
-\end{columns}
-}
 
-\frame{\frametitle{Neural Network Separation, Muon Channel}
-\begin{columns}
-\begin{column}{0.02\textwidth}
-\rotatebox{90}{Minimal Inputs \qquad \qquad Extended Inputs\qquad} 
-%\rotatebox{90}{Muon Channel        } 
-\end{column}
-\begin{column}{0.48\textwidth}
-\begin{itemize}
-\item  1 Hidden Layer
-\end{itemize}
-\includegraphics[width=.85\textwidth]{Images/modelouts/mujetsboth1hidnpart0sigbkg.png} \\
-\includegraphics[width=.85\textwidth]{Images/modelouts/mujetsboth1hidnpart1sigbkg.png}
-\end{column}
-\begin{column}{0.48\textwidth}
-\begin{itemize}
-\item 2 Hidden Layers
-\end{itemize}
-\includegraphics[width=.85\textwidth]{Images/modelouts/mujetsboth2hidnpart0sigbkg.png} \\
-\includegraphics[width=.85\textwidth]{Images/modelouts/mujetsboth2hidnpart1sigbkg.png}
-\end{column}
-\end{columns}
-}
 
 \frame{\frametitle{ROC Curves for Multiple Models}
 \begin{columns}
@@ -384,8 +257,8 @@
 \begin{itemize}
 \item Electron Channel
 \end{itemize}
-%\includegraphics[width=1.0\textwidth]{Images/modelouts/ejetsbothroc.png} 
-\includegraphics[width=1.0\textwidth]{SmallNpart1modelouts/ejetsbothroc.png} 
+\includegraphics[width=1.0\textwidth]{Images/modelouts/ejetsbothroc.png} 
+%\includegraphics[width=1.0\textwidth]{SmallNpart1modelouts/ejetsbothroc.png} 
 \end{column}
 \begin{column}{0.5\textwidth}
 \begin{itemize}
@@ -400,38 +273,7 @@
 \end{itemize}
 }
 
-\frame{\frametitle{Significance Plots, Electron Channel}
-\begin{columns}
-\begin{column}{0.02\textwidth}
-\rotatebox{90}{Minimal Inputs \qquad Extended Inputs\qquad} 
-%\rotatebox{90}{Muon Channel        } 
-\end{column}
-\begin{column}{0.48\textwidth}
-\centering
-\begin{itemize}
-\item  1 Hidden Layer
-\end{itemize}
-\includegraphics[width=0.7\textwidth]{SmallNpart1modelouts/ejetsboth1hidnpart0SigVsBR.png} 
-\includegraphics[width=0.7\textwidth]{SmallNpart1modelouts/ejetsboth1hidnpart1SigVsBR.png} 
-\end{column}
-\begin{column}{0.48\textwidth}
-\centering
-\begin{itemize}
-\item 2 Hidden Layers
-\end{itemize}
-{%
-\setlength{\fboxsep}{0pt}%
-\setlength{\fboxrule}{1pt}%
-\fbox{\includegraphics[width=0.7\textwidth]{SmallNpart1modelouts/ejetsboth2hidnpart0SigVsBR.png}}%
-}\\
-%\includegraphics[width=0.7\textwidth]{Images/modelouts/ejetsboth2hidnpart0SigVsBR.png} 
-\includegraphics[width=0.7\textwidth]{SmallNpart1modelouts/ejetsboth2hidnpart1SigVsBR.png}
-\end{column}
-\end{columns}
-\begin{itemize}
-\item Significance:  S=$\frac{n_{S}}{\sqrt{n_{S}+n_{B}}}$
-\end{itemize}
-}
+
 
 \frame{\frametitle{Significance Plots, Electron Channel}
 \begin{columns}
@@ -447,6 +289,7 @@
 \end{column}
 \end{columns}
 }
+
 \frame{\frametitle{Significance Plots, Muon Channel}
 \begin{columns}
 \begin{column}{0.48\textwidth}
@@ -605,9 +448,10 @@ met & 0.47 \\
 }
 
 \frame{\frametitle{Input Variables}
-Extended Inputs: [`photon0iso','photon0pt','mqgam','mlgam','mtSM', 'deltaRjgam','deltaRbl','MWT','ST','njets','nbjets','wchi2','jet0pt', 'deltaRlgam', 'leptone','met','bjet0pt']
-\\ 
-Minimal Inputs: ['photon0iso','photon0pt','deltaRjgam','deltaRbl','MWT', 'ST','njets','wchi2','jet0pt','deltaRlgam','leptone','met','bjet0pt']
+['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam','deltaRbl',\\
+'MWT','ST','njets','wchi2','jet0pt','deltaRlgam','leptone','met','bjet0pt']
+
+
 }
 
 \frame{\frametitle{Integrated Luminosity}
