@@ -93,18 +93,6 @@
 \includegraphics[width=0.7\textwidth]{../../Thesis/ThesisImages/backgrounds.png}
 }
 
-
-\subsection{New Ntuple Production}
-\frame{\frametitle{New Ntuple Production}
-\begin{itemize}
-\item New tools have been recently developed in the Top Group (VORGamma, Duplicate Event Removal)
-\item Replacing Custom Event Saver with that of tt+gamma group, more support
-\item Custom post-grid local processing code developing
-\item Will transition with the currently running ntuples to local mini-ntuple creation
-\item Beginning to work with TRExFitter to push toward the statistical part of the analysis
-\end{itemize}
-}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Searching for Flavor Changing Neutral Current Signatures}
 
@@ -209,21 +197,12 @@
 \frame{\frametitle{Neural Network Model Inputs}
 \begin{itemize}
 \item Using keras on top of tensorflow various input parameters are tested for model behavior
-\item Networks are set up with 1 input layer, either 1 or 2 hidden layers with 10 nodes, and 1 output node
+\item Networks are set up with 1 input layer, 2 hidden layers with 10 nodes (+1 bias node), and 1 output node
 \item Each hidden layer has 20\% dropout to prevent overtraining by removing codependency between nodes
 \item Batch size of 100 used and each network is allowed 200 epochs (with patience=50), all models converge and end early with reasonable batch sizes
 \item Optimizer: Adam
 \item Loss Function: Binary Cross Entropy
-\end{itemize}
-}
-
-\frame{\frametitle{Neural Network Model Inputs}
-\begin{itemize}
-\item Minimal set of variables including kinematic and geometric variables chosen based on their separation power
-\item Minimal variable set tested: $\gamma_{iso}$, $\gamma_{p_T}$,$\Delta R_{j\gamma}$,$\Delta R_{b l}$, $M_T^W$, $S_T$,$n_{jets}$,$\chi^2_W$, $\text{jet}_{0p_T}$,$\Delta R_{l\gamma}$,$\text{lepton}_E$, MET, $\text{bjet}_{0p_T}$
-\item Add in extra variables to help training and see if improvement: High level variables/combinations that we know would be helpful in a cut based approach such as $m_{q\gamma}$,$m_{l\gamma}$, more $\chi^2$ fit information, etc.
-\item A complex enough network should be able to figure out most of these straight forward combinations by itself 
-\item Every MC sample is split into train/test/validation Sets (64\%,20\%,16\%) combined and shuffled for network analysis
+\item Many sets of input variables tested, best results from follow-up studies shown
 \end{itemize}
 }
 
@@ -247,31 +226,6 @@
 
 
 
-\frame{\frametitle{ROC Curves for Multiple Models}
-\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%\rotatebox{90}{Muon Channel        } 
-%\end{column}
-\begin{column}{0.5\textwidth}
-\begin{itemize}
-\item Electron Channel
-\end{itemize}
-\includegraphics[width=1.0\textwidth]{Images/modelouts/ejetsbothroc.png} 
-%\includegraphics[width=1.0\textwidth]{SmallNpart1modelouts/ejetsbothroc.png} 
-\end{column}
-\begin{column}{0.5\textwidth}
-\begin{itemize}
-\item Muon Channel
-\end{itemize}
-\includegraphics[width=1.0\textwidth]{Images/modelouts/mujetsbothroc.png}
-%\includegraphics[width=1.0\textwidth]{SmallNpart1modelouts/mujetsbothroc.png} 
-\end{column}
-\end{columns}
-\begin{itemize}
-\item All of these are very close (visually and by area), want to explore deeper to pick best model
-\end{itemize}
-}
 
 
 
@@ -307,13 +261,15 @@
 
 \frame{\frametitle{Cut Optimization}
 \begin{itemize}
-\item Cut optimization gives a pretty consistent value for a wide range of Branching Ratios
-\item Close depending on the model but can differ slightly if optimizing for discovery vs. optimal limit setting 
-\item To reasonable precision the suggested cuts from the previous plots are identical $\text{NN}_{\text{cut}}=0.98$ for both channels
-\item Can implement this cut going forward with the rest of the analysis and make sure it behaves in various orthogonal control and validation regions
+\item Follow up changes allow a better limit with a cut that is less tempermental and harsh (0.92/0.95 instead of 0.98)
+\item Estimated limit reduced by a factor of 2 by reweighting the number of events the model saw by taking advantage of the loss function
+\[-(y \text{log}(p)+(1-y)\text{log}(1-p))\]
+\item y - binary indicator (0 or 1) if class label is the correct classification for observation 
+\item p - predicted probability observation is the class label (0 or 1)
+
 \end{itemize}
 }
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Continuing Analysis}
 \subsection{Region Creation}
@@ -339,7 +295,16 @@
 \end{itemize}
 }
 
-
+\subsection{New Ntuple Production}
+\frame{\frametitle{New Ntuple Production}
+\begin{itemize}
+\item New tools have been recently developed in the Top Group (VORGamma, Duplicate Event Removal)
+\item Replacing Custom Event Saver with that of tt+gamma group, more support
+\item Custom post-grid local processing code developing
+\item Will transition with the currently running ntuples to local mini-ntuple creation
+\item Beginning to work with TRExFitter to push toward the statistical part of the analysis
+\end{itemize}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Outlook and Conclusions}
 
@@ -348,26 +313,11 @@
 \item Still lots to be done
 \item Fake Rates $e\rightarrow\gamma$ and $j\rightarrow\gamma$ will be investigated next
 \item Full MC grid run of MC16a/d/e samples is complete, using for current investigations
-\item Full Analysis transitioned to be able to run on condor nodes
-\begin{itemize}
-\item  Capable of handling much larger samples by directly using grid output files
-\item Necessary to look at MC16a/d/e samples and full 2018 data set in a reasonable amount of time (especially with VRs/CRs)
-\end{itemize}
-\item Initial neural network studies are completing, can push forward with another step of the analysis
+\item Happy with the state of the neural network studies, any further reduction would require significant time for insignificant gain \\
+\item Questions?
 \end{itemize}
 }
 
-
-
-\frame{\frametitle{Conclusion}
-\begin{itemize}
-\item Any excess signal would be indicative of some physics beyond the Standard Model that couples strongly to the top sector
-\item With the inclusion of the neural network significant gains can be made in the search for FCNCs with top quark decays 
-\item FCNCs with enhanced rates are important pieces for testing many new theories
-\item Analysis is going after a long lull due to MC Production delays
-\item Thank you!
-\end{itemize}
-}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -376,6 +326,12 @@
 \section{Backup}
 \frame{\frametitle{Backup}
 }
+\frame{\frametitle{FCNC Diagrams}
+\centering
+\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/FCNCLoop.png}
+\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/penguinFCNC.png}
+}
+
 \frame{\frametitle{NN Input Variable Correlations}
 \centering
 \includegraphics[height=.8\textheight]{Images/correlations.png}
