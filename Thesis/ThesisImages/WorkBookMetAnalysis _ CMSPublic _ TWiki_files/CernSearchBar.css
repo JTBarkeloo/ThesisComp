@@ -1,0 +1,67 @@
+.patternMetaMenu ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.patternMetaMenu ul form {
+    display: block;
+}    
+
+.cernTWikiSearch {
+    position: relative;
+}
+
+.cernTWikiSearch ul.engineList {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 15px 0;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 15px 0 0;
+    left: 11px;
+    position: absolute;
+    top: 4px;
+}
+
+.cernTWikiSearch ul.engineList > li {
+    display: none;
+    text-align: left;
+    line-height: 1em;
+    margin-bottom: 1px;
+}
+
+.cernTWikiSearch ul.engineList.open > li {
+    display: block;
+}
+
+.cernTWikiSearch ul.engineList > li:first-child {
+    display: block;
+}
+
+.cernTWikiSearch ul.engineList > li:last-child {
+    margin-bottom: 0px;
+}
+
+.cernTWikiSearch ul.engineList img {
+    width: 15px;
+    height: 15px;
+}
+
+.cernTWikiSearch ul.engineList .engineDescription {
+    display: none;
+}
+
+.cernTWikiSearch input.twikiInputField {
+    padding: .1em .2em .1em 2.5em;
+}
+
+.cernTWikiSearch input.twikiInputField::-webkit-input-placeholder, /* WebKit browsers */
+     .cernTWikiSearch input.twikiInputField:-ms-input-placeholder, /* Internet Explorer 10+ */
+         .cernTWikiSearch input.twikiInputField::-moz-placeholder, /* Mozilla Firefox 19+ */     
+          .cernTWikiSearch input.twikiInputField:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #555;
+}
+
+.cernTWikiSearch span.allWebsScopeDescription.disabled {
+    text-decoration: line-through;
+}

@@ -1,0 +1,119 @@
+@techreport{ATLAS-CONF-2016-069,
+	title         = "{Search for New Phenomena in Dijet Events with the ATLAS
+	Detector at $\sqrt{s}$=13 TeV with 2015 and 2016 data}",
+	institution   = "CERN",
+	collaboration = "ATLAS Collaboration",
+	address       = "Geneva",
+	number        = "ATLAS-CONF-2016-069",
+	month         = "Aug",
+	year          = "2016",
+	reportNumber  = "ATLAS-CONF-2016-069",
+	url           = "http://cds.cern.ch/record/2206212",
+}
+
+@article{Dijet13TeV_2015EOY_Atlas,
+	author         = "Aad, Georges and others",
+	title          = "{Search for new phenomena in dijet mass and angular
+	distributions from $pp$ collisions at $\sqrt{s}=$ 13 TeV
+	with the ATLAS detector}",
+	collaboration  = "ATLAS",
+	journal        = "Phys. Lett.",
+	volume         = "B754",
+	year           = "2016",
+	pages          = "302-322",
+	doi            = "10.1016/j.physletb.2016.01.032",
+	eprint         = "1512.01530",
+	archivePrefix  = "arXiv",
+	primaryClass   = "hep-ex",
+	reportNumber   = "CERN-PH-EP-2015-311",
+	SLACcitation   = "%%CITATION = ARXIV:1512.01530;%%"
+}
+
+@techreport{ATLAS-CONF-2015-042,
+	title         = "{Search for New Phenomena in Dijet Mass and Angular
+	Distributions with the ATLAS Detector at √s = 13 TeV}",
+	institution   = "CERN",
+	address       = "Geneva",
+	number        = "ATLAS-CONF-2015-042",
+	month         = "Aug",
+	year          = "2015",
+	reportNumber  = "ATLAS-CONF-2015-042",
+	url           = "http://cds.cern.ch/record/2048113",
+}
+
+@article{DijetAngular8TeV_ATLAS,
+	title = {Search for New Phenomena in Dijet Angular Distributions in Proton-Proton Collisions at $\sqrt{s}=8\text{ }\text{ }\mathrm{TeV}$ Measured with the ATLAS Detector},
+	collaboration = {ATLAS Collaboration},
+	journal = {Phys. Rev. Lett.},
+	volume = {114},
+	issue = {22},
+	pages = {221802},
+	numpages = {17},
+	year = {2015},
+	month = {Jun},
+	publisher = {American Physical Society},
+	doi = {10.1103/PhysRevLett.114.221802},
+	url = {http://link.aps.org/doi/10.1103/PhysRevLett.114.221802}
+}
+
+@article{DijetResonance8TeV_ATLAS,
+	title = {Search for new phenomena in the dijet mass distribution using $pp$ collision data at $\sqrt{s}=8\text{ }\text{ }\mathrm{TeV}$ with the ATLAS detector},
+	collaboration = {ATLAS Collaboration},
+	journal = {Phys. Rev. D},
+	volume = {91},
+	issue = {5},
+	pages = {052007},
+	numpages = {25},
+	year = {2015},
+	month = {Mar},
+	publisher = {American Physical Society},
+	doi = {10.1103/PhysRevD.91.052007},
+	url = {http://link.aps.org/doi/10.1103/PhysRevD.91.052007}
+}
+
+@article{ATLAS,
+      title         = "{The ATLAS Experiment at the CERN Large Hadron Collider}",
+      journal       = "J. Instrum.",
+      collaboration = "ATLAS Collaboration",
+      volume        = "3",
+      pages         = "S08003. 437 p",
+      year          = "2008",
+      url           = "http://cds.cern.ch/record/1129811",
+      note          = "Also published by CERN Geneva in 2010",
+}
+
+@article{ALICE,
+      title         = "{The ALICE experiment at the CERN LHC. A Large Ion
+                       Collider Experiment}",
+      journal       = "J. Instrum.",
+      collaboration = "ALICE Collaboration",
+      volume        = "3",
+      pages         = "S08002. 259 p",
+      year          = "2008",
+      url           = "http://cds.cern.ch/record/1129812",
+      note          = "Also published by CERN Geneva in 2010",
+}
+
+@article{CMS,
+      title         = "{The CMS experiment at the CERN LHC. The Compact Muon
+                       Solenoid experiment}",
+      journal       = "J. Instrum.",
+      collaboration = "CMS Collaboration",
+      volume        = "3",
+      pages         = "S08004. 361 p",
+      year          = "2008",
+      url           = "http://cds.cern.ch/record/1129810",
+      note          = "Also published by CERN Geneva in 2010",
+}
+
+@article{LHCb,
+      title         = "{The LHCb Detector at the LHC}",
+      journal       = "J. Instrum.",
+      collaboration = "LHCb Collaboration",
+      number        = "LHCb-DP-2008-001. CERN-LHCb-DP-2008-001",
+      volume        = "3",
+      pages         = "S08005",
+      year          = "2008",
+      url           = "http://cds.cern.ch/record/1129809",
+      note          = "Also published by CERN Geneva in 2010",
+}

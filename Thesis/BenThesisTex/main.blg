@@ -1,0 +1,39 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: cv.aux
+A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: Theory.aux
+A level-1 auxiliary file: Jets.aux
+A level-1 auxiliary file: Detector.aux
+A level-1 auxiliary file: Calorimetry.aux
+A level-1 auxiliary file: Calibration.aux
+A level-1 auxiliary file: SearchStrategy.aux
+A level-1 auxiliary file: Results.aux
+A level-1 auxiliary file: Conclusion.aux
+The style file: unsrt.bst
+Database file #1: main.bib
+Warning--entry type for "Topoclustering420" isn't style-file defined
+--line 469 of file main.bib
+Warning--empty author in DijetISR_Resolved
+Warning--empty journal in DijetTLA
+Warning--empty journal in DijetISR
+Warning--empty author in DijetResonance8TeV_ATLAS
+Warning--empty journal in Dijet13TeV_80pb
+Warning--empty journal in DMForum
+Warning--empty author in ATLAS
+Warning--empty author in CMS
+Warning--empty author in ALICE
+Warning--empty author in LHCb
+Warning--empty journal in DeMelis:2119882
+Warning--empty author in IDPerf
+Warning--empty author and editor in LArTDR
+Warning--empty journal in LArTopoclustering
+Warning--empty journal in JES
+Warning--empty author in JetCleaning
+Warning--empty author in CMSDijet
+Warning--empty journal in DMWorkingGroup
+Warning--empty journal in CMSAngular
+Warning--empty author in DijetOutlook
+(There were 21 warnings)

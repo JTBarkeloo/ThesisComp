@@ -1,0 +1,77 @@
+\babel@toc {USenglish}{}
+\contentsline {chapter}{\numberline {I}\uppercase {Introduction}}{1}
+\contentsline {chapter}{\numberline {II}\uppercase {Theory}}{3}
+\contentsline {section}{ \numberline {2.1} The Standard Model}{3}
+\contentsline {section}{ \numberline {2.2} Physics beyond the Standard Model}{5}
+\contentsline {section}{ \numberline {2.3} Benchmark Signals}{7}
+\contentsline {subsection}{ \numberline {2.3.1} Excited Quarks}{7}
+\contentsline {subsection}{ \numberline {2.3.2} $W'$ Bosons}{8}
+\contentsline {subsection}{ \numberline {2.3.3} Excited W Bosons}{9}
+\contentsline {subsection}{ \numberline {2.3.4} $Z'$ Dark Matter Mediator}{10}
+\contentsline {subsection}{ \numberline {2.3.5} Quantum Black Holes}{12}
+\contentsline {chapter}{\numberline {III}\uppercase {The Strong Force and Jets}}{15}
+\contentsline {section}{ \numberline {3.1} Parton Distribution Functions}{16}
+\contentsline {section}{ \numberline {3.2} Anatomy of a Collision}{18}
+\contentsline {subsection}{ \numberline {3.2.1} Hard Scatter and Parton Showering}{19}
+\contentsline {subsection}{ \numberline {3.2.2} Pileup and Underlying Event}{20}
+\contentsline {subsection}{ \numberline {3.2.3} Hadronization}{22}
+\contentsline {section}{ \numberline {3.3} Jets}{23}
+\contentsline {subsection}{ \numberline {3.3.1} The Anti-$k_t$ jet algorithm}{24}
+\contentsline {chapter}{\numberline {IV}\uppercase {Machine and Detector}}{28}
+\contentsline {section}{ \numberline {4.1} The Large Hadron Collider}{28}
+\contentsline {subsection}{ \numberline {4.1.1} Bunches and bunch trains}{29}
+\contentsline {section}{ \numberline {4.2} The ATLAS Detector}{30}
+\contentsline {subsection}{ \numberline {4.2.1} Coordinate System}{31}
+\contentsline {subsection}{ \numberline {4.2.2} Magnet System}{32}
+\contentsline {subsection}{ \numberline {4.2.3} Inner Detector}{32}
+\contentsline {subsubsection}{ Pixel and Semiconductor Trackers}{32}
+\contentsline {subsubsection}{ Transition Radiation Tracker}{33}
+\contentsline {subsection}{ \numberline {4.2.4} Calorimeters}{34}
+\contentsline {subsubsection}{ Electromagnetic Calorimeter}{35}
+\contentsline {subsubsection}{ Hadronic Calorimeter}{36}
+\contentsline {subsection}{ \numberline {4.2.5} Muon Spectrometers}{37}
+\contentsline {subsection}{ \numberline {4.2.6} Forward Detectors}{38}
+\contentsline {subsection}{ \numberline {4.2.7} Trigger and Data Acquisition}{38}
+\contentsline {subsubsection}{ Level-1 Trigger}{39}
+\contentsline {subsubsection}{ High Level Trigger}{40}
+\contentsline {subsection}{ \numberline {4.2.8} Dead Time}{42}
+\contentsline {subsection}{ \numberline {4.2.9} Data Processing}{43}
+\contentsline {chapter}{\numberline {V}\uppercase {Calorimetry and Triggering}}{45}
+\contentsline {section}{ \numberline {5.1} The LAr Calorimeter Pulse}{45}
+\contentsline {section}{ \numberline {5.2} Readout Path}{46}
+\contentsline {section}{ \numberline {5.3} Energy Summing and Triggering Path}{47}
+\contentsline {section}{ \numberline {5.4} The Level-1 Calorimeter System}{48}
+\contentsline {subsection}{ \numberline {5.4.1} Receiver and PreProcessor Module}{50}
+\contentsline {subsection}{ \numberline {5.4.2} Cluster and Jet/Energy-Sum Processors}{53}
+\contentsline {section}{ \numberline {5.5} High-Level Trigger}{54}
+\contentsline {chapter}{\numberline {VI}\uppercase {Trigger and Calibration}}{57}
+\contentsline {section}{ \numberline {6.1} Trigger Strategy}{57}
+\contentsline {section}{ \numberline {6.2} Event Selection Criteria}{57}
+\contentsline {section}{ \numberline {6.3} Jet Formation and Definition}{59}
+\contentsline {section}{ \numberline {6.4} Jet Calibration}{60}
+\contentsline {section}{ \numberline {6.5} Jet Cleaning}{62}
+\contentsline {section}{ \numberline {6.6} Mistimed Events in 2015 and 2016 Data}{64}
+\contentsline {subsection}{ \numberline {6.6.1} The L1Calo Saturated BCID Trigger}{64}
+\contentsline {subsubsection}{ Identification and Reconstruction of Mistimed Events}{66}
+\contentsline {chapter}{\numberline {VII}\uppercase {Search Strategy}}{70}
+\contentsline {section}{ \numberline {7.1} Background Fit}{71}
+\contentsline {subsection}{ \numberline {7.1.1} The Wilks' Statistical Test}{72}
+\contentsline {subsection}{ \numberline {7.1.2} The Sliding Window Fit (SWiFt)}{73}
+\contentsline {section}{ \numberline {7.2} Search Phase}{77}
+\contentsline {subsection}{ \numberline {7.2.1} BumpHunter}{77}
+\contentsline {chapter}{\numberline {VIII}\uppercase {Results}}{79}
+\contentsline {section}{ \numberline {8.1} Limit Setting and Bayes' Theorum}{83}
+\contentsline {section}{ \numberline {8.2} Uncertainties}{84}
+\contentsline {subsection}{ \numberline {8.2.1} Jet Energy Scale Uncertainty}{84}
+\contentsline {subsection}{ \numberline {8.2.2} Luminosity Uncertainty}{86}
+\contentsline {subsection}{ \numberline {8.2.3} Function Choice Uncertainty}{86}
+\contentsline {subsection}{ \numberline {8.2.4} Statistical Uncertainty}{86}
+\contentsline {section}{ \numberline {8.3} Limits on Benchmark Signals}{87}
+\contentsline {chapter}{\numberline {IX}\uppercase {Complementary Searches and Outlook}}{93}
+\contentsline {section}{ \numberline {9.1} Trigger-Level Analysis}{93}
+\contentsline {section}{ \numberline {9.2} Dijet + Initial State Radiation Searches}{96}
+\contentsline {section}{ \numberline {9.3} Combined limits on Dark Matter Models}{99}
+\contentsline {section}{ \numberline {9.4} Dijet Angular Search}{103}
+\contentsline {section}{ \numberline {9.5} Outlook}{106}
+\contentsline {section}{ \numberline {9.6} Conclusion}{106}
+\contentsline {chapter}{REFERENCES CITED}{108}

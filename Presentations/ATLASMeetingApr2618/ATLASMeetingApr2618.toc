@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Brief Background Top FCNC}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{FCNC at the LHC}{5}{0}{1}
+\beamer@sectionintoc {2}{Overlap Removal Implementation}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Ways of producing photons}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{FCNCs with Photons}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Object Preselection Cuts}{10}{0}{2}
+\beamer@subsectionintoc {2}{4}{Overlap Removal Implications}{12}{0}{2}
+\beamer@sectionintoc {3}{Current Status, Region Implementation}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Region Creation}{14}{0}{3}
+\beamer@subsectionintoc {4}{1}{Conclusion}{19}{0}{3}
+\beamer@sectionintoc {5}{Backup}{20}{1}{4}
