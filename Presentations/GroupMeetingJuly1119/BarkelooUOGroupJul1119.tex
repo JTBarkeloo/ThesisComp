@@ -97,16 +97,15 @@
 	\item Exactly one lepton (e or $\mu$) $\geq$ 25 GeV
 	\item Exactly one good photon $\geq$ 15GeV
 	\item Missing Transverse Energy $\geq$ 30GeV
-	\item $\geq 2$ Jets (at least 1 b-tag)
+	\item $\geq 1$ Jets
 	\end{itemize}
-\item Plots shown will be with MC16a and Data15/16 (36.2 $\text{fb}^{-1}$)
-
+\item Plots shown will be with MC16a and Data15/16 (36.2 $\text{fb}^{-1}$) for quicker turnaround
+\item N.B. we expect slightly higher MC values - $t\bar{t}+\gamma$ sample not finished in time
 \end{itemize}
 }
 
-
-
-\frame{\frametitle{Preselection Objects with $N_{BJet}= 1$ }
+\frame{\frametitle{Preselection Objects}
+Signal MC Scaled to 1\% $\sigma_{t\bar{t}}$
 \begin{columns}
 \begin{column}{0.02\textwidth}
 \rotatebox{90}{Muon Channel \qquad  Electron Channel} 
@@ -116,22 +115,22 @@
 \begin{itemize}
 \item  Leading Jet $p_T$
 \end{itemize}
-%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/jet0_pt.png} \\
-%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/jet0_pt.png}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_leadJet_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_leadJet_pt}.png}
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
 \item Lead Photon
 \end{itemize}
-%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/photon0_pt.png} \\
-%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/photon0_pt.png}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_photon_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_photon_pt}.png}
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
 \item Lepton E
 \end{itemize}
-%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/lepton_e.png} \\
-%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/lepton_e.png}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_lepton_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_lepton_pt}.png}
 \end{column}
 \end{columns}
 }
@@ -142,26 +141,19 @@
 %\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
 %%\rotatebox{90}{Muon Channel        } 
 %\end{column}
-%\begin{column}{0.33\textwidth}
+%\begin{column}{0.5\textwidth}
 %\begin{itemize}
 %\item $\gamma_{iso}$
 %\end{itemize}
-%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/photon0_iso.png} \\
-%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/photon0_iso.png}
+%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/photon0_iso.png} \\
+%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/photon0_iso.png}
 %\end{column}
-%\begin{column}{0.33\textwidth}
+%\begin{column}{0.5\textwidth}
 %\begin{itemize}
 %\item $\Delta R_{j\gamma}$
 %\end{itemize}
-%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/deltaRjgam.png} \\
-%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/deltaRjgam.png}
-%\end{column}
-%\begin{column}{0.33\textwidth}
-%\begin{itemize}
-%\item $\Delta R_{l\gamma}$
-%\end{itemize}
-%\includegraphics[width=.85\textwidth]{Images/ejetsvarplots/deltaRlgam.png} \\
-%\includegraphics[width=.85\textwidth]{Images/mujetsvarplots/deltaRlgam.png}
+%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/deltaRjgam.png} \\
+%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/deltaRjgam.png}
 %\end{column}
 %\end{columns}
 %}
@@ -260,6 +252,63 @@
 \end{column}
 \end{columns}
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Neural Network Cut Applied}
+
+\frame{\frametitle{Neural Network Cut Application Muon Channel}
+Signal MC Scaled to .01\% $\sigma_{t\bar{t}}$
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{NN($\leq$ 0.95) \qquad NN($>$0.95)} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  Leading Jet $p_T$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.SR.SRh_leadJet_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.VR1.VR1h_leadJet_pt}.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lead Photon
+\end{itemize}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.SR.SRh_photon_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.VR1.VR1h_photon_pt}.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lepton $p_{T}$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.SR.SRh_lepton_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.VR1.VR1h_lepton_pt}.png}
+\end{column}
+\end{columns}
+Binning becomes more of an issue with such few events in SR, should use larger bins
+}
+
+%\frame{\frametitle{Objects With NN Cut Electron Channel }
+%\begin{columns}
+%\begin{column}{0.02\textwidth}
+%\rotatebox{90}{Background \qquad  Signal Region} 
+%%\rotatebox{90}{Muon Channel        } 
+%\end{column}
+%\begin{column}{0.5\textwidth}
+%\begin{itemize}
+%\item $\gamma_{iso}$
+%\end{itemize}
+%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/photon0_iso.png} \\
+%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/photon0_iso.png}
+%\end{column}
+%\begin{column}{0.5\textwidth}
+%\begin{itemize}
+%\item $\Delta R_{j\gamma}$
+%\end{itemize}
+%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/deltaRjgam.png} \\
+%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/deltaRjgam.png}
+%\end{column}
+%\end{columns}
+%}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -281,7 +330,7 @@
 \subsection{New Ntuple Production}
 \frame{\frametitle{New Ntuple Production}
 \begin{itemize}
-\item New tools have been recently developed in the Top Group (VGammaORTool, Duplicate Event Removal)
+\item New tools have been recently developed in the Top Group (\href{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/VGammaORTool}{Ref:VGammaORTool}, Duplicate Event Removal,etc.)
 \item Replacing Custom Event Saver with that of tt+gamma group, more support and faster integration of new tools
 \item Custom post-grid local processing code developing
 \item Will transition with the currently running ntuples to local mini-ntuple creation
