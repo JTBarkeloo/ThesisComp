@@ -219,6 +219,7 @@ Signal MC Scaled to 1\% $\sigma_{t\bar{t}}$
 \includegraphics[width=.85\textwidth]{Images/mujetsOuts/sigbkg.png}
 \end{column}
 \end{columns}
+
 }
 
 
@@ -236,6 +237,7 @@ Signal MC Scaled to 1\% $\sigma_{t\bar{t}}$
 \includegraphics[width=0.85\textwidth]{Images/ejetsOuts/CutVsBR.png} 
 \end{column}
 \end{columns}
+Branching ratio with Significance = 2:  2.4e-5
 }
 
 \frame{\frametitle{Significance Plots, Muon Channel}
@@ -251,40 +253,36 @@ Signal MC Scaled to 1\% $\sigma_{t\bar{t}}$
 \includegraphics[width=0.85\textwidth]{Images/mujetsOuts/CutVsBR.png} 
 \end{column}
 \end{columns}
+Branching ratio with Significance = 2:  2.5e-5
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Neural Network Cut Applied}
 
-\frame{\frametitle{Neural Network Cut Application Muon Channel}
-Signal MC Scaled to .01\% $\sigma_{t\bar{t}}$
+\frame{\frametitle{Neural Network Cut Application Electron Channel}
+Signal MC Scaled to .1\% $\sigma_{t\bar{t}}$
 \begin{columns}
 \begin{column}{0.02\textwidth}
-\rotatebox{90}{NN($\leq$ 0.95) \qquad NN($>$0.95)} 
+\rotatebox{90}{NN($\leq$ 0.96) \qquad NN($>$0.96)} 
 %\rotatebox{90}{Muon Channel        } 
 \end{column}
-\begin{column}{0.33\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{itemize}
-\item  Leading Jet $p_T$
+\item $m_{q\gamma}$
 \end{itemize}
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.SR.SRh_leadJet_pt}.png} \\
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.VR1.VR1h_leadJet_pt}.png}
+\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.SR.SRh_qgam_m}.png} \\
+\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.VR1.VR1h_qgam_m}.png}
 \end{column}
-\begin{column}{0.33\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{itemize}
-\item Lead Photon
+\item $m_{l \nu b}$
 \end{itemize}
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.SR.SRh_photon_pt}.png} \\
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.VR1.VR1h_photon_pt}.png}
-\end{column}
-\begin{column}{0.33\textwidth}
-\begin{itemize}
-\item Lepton $p_{T}$
-\end{itemize}
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.SR.SRh_lepton_pt}.png} \\
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsNoSkip_01percent/{mu.VR1.VR1h_lepton_pt}.png}
+%\includegraphics[width=.8\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{mu.SR.SRh_lepton_pt}.png} \\
+%\includegraphics[width=.8\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{mu.VR1.VR1h_lepton_pt}.png}
+\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.SR.SRh_sm_top_m}.png} \\
+\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.VR1.VR1h_sm_top_m}.png}
 \end{column}
 \end{columns}
-Binning becomes more of an issue with such few events in SR. Semi-erratic event weights start to become apparent with very few events and many bins.
+Binning becomes more of an issue with such few events in SR. Should improve with stats from further MC campaigns. Missing sample very evident here
 }
 
 %\frame{\frametitle{Objects With NN Cut Electron Channel }
@@ -345,7 +343,7 @@ Binning becomes more of an issue with such few events in SR. Semi-erratic event 
 \item As always, still lots to be done
 \item Fake Rates $e\rightarrow\gamma$ and $j\rightarrow\gamma$ to be investigated
 \item Using full MC16a/Data15,16 for quick iterations, have access to full MC/Data sets 
-\item Happy with the state of the neural network studies, any further reduction would require significant time for insignificant gain \\
+\item Happy with the state of the neural network studies, any further reduction would require significant time for insignificant gain, factor ~2 improvement thanks to feedback I got during this meeting \\
 \item Questions?
 \end{itemize}
 }
