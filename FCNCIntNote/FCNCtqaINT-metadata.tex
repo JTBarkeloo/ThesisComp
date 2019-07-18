@@ -19,28 +19,28 @@
 }
 
 % Author - this does not work with revtex (add it after \begin{document})
-\author{The ATLAS Collaboration}
+%\author{Jason Barkeloo}
 
 % Authors and list of contributors to the analysis
 % \AtlasAuthorContributor also adds the name to the author list
 % Include package latex/atlascontribute to use this
 % Use authblk package if there are multiple authors, which is included by latex/atlascontribute
-% \usepackage{authblk}
+ \usepackage{authblk}
 % Use the following 3 lines to have all institutes on one line
-% \makeatletter
-% \renewcommand\AB@affilsepx{, \protect\Affilfont}
-% \makeatother
-% \renewcommand\Authands{, } % avoid ``. and'' for last author
-% \renewcommand\Affilfont{\itshape\small} % affiliation formatting
-% \AtlasAuthorContributor{First AtlasAuthorContributor}{a}{Author's contribution.}
+ \makeatletter
+ \renewcommand\AB@affilsepx{, \protect\Affilfont}
+ \makeatother
+ \renewcommand\Authands{, } % avoid ``. and'' for last author
+ \renewcommand\Affilfont{\itshape\small} % affiliation formatting
+ \AtlasAuthorContributor{Jason Barkeloo}{a}{All Aspects}
 % \AtlasAuthorContributor{Second AtlasAuthorContributor}{b}{Author's contribution.}
 % \AtlasAuthorContributor{Third AtlasAuthorContributor}{a}{Author's contribution.}
 % \AtlasContributor{Fourth AtlasContributor}{Contribution to the analysis.}
-% \author[a]{First Author}
-% \author[a]{Second Author}
+% \author[a]{Jason Barkeloo}
+%% \author[a]{Second Author}
 % \author[b]{Third Author}
-% \affil[a]{One Institution}
-% \affil[b]{Another Institution}
+ \affil[a]{University of Oregon}
+%% \affil[b]{Another Institution}
 
 % If a special author list should be indicated via a link use the following code:
 % Include the two lines below if you do not use atlasstyle:
