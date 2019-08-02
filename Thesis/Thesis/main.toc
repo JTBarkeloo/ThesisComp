@@ -8,44 +8,43 @@
 \contentsline {section}{ \numberline {2.3} The Top Quark}{4}% 
 \contentsline {chapter}{\numberline {III}\uppercase {The Large Hadron Collider and the ATLAS Detector}}{5}% 
 \contentsline {section}{ \numberline {3.1} The Large Hadron Collider}{5}% 
-\contentsline {section}{ \numberline {3.2} The ATLAS Detector}{5}% 
-\contentsline {subsection}{ \numberline {3.2.1} Coordinate System}{5}% 
-\contentsline {subsection}{ \numberline {3.2.2} Magnet Setup}{5}% 
-\contentsline {subsection}{ \numberline {3.2.3} SubDetectors}{5}% 
-\contentsline {subsubsection}{ Inner Detector}{5}% 
-\contentsline {subsubsection}{ Middle Layers, EMCal, HCal}{5}% 
-\contentsline {subsubsection}{ Muon Calorimeter}{5}% 
-\contentsline {subsection}{ \numberline {3.2.4} Trigger and Data Acquisition}{6}% 
-\contentsline {subsubsection}{ L1Calo}{6}% 
-\contentsline {subsubsection}{ HLT}{6}% 
-\contentsline {subsubsection}{ Data Farm Information}{6}% 
-\contentsline {subsubsection}{ Luminosity Measurements}{6}% 
-\contentsline {chapter}{\numberline {IV}\uppercase {Simulation}}{7}% 
-\contentsline {section}{ \numberline {4.1} Simulation of pp collisions}{7}% 
-\contentsline {subsection}{ \numberline {4.1.1} MC Generators Used for LHC Physics}{7}% 
-\contentsline {subsection}{ \numberline {4.1.2} Detector Simulation}{7}% 
-\contentsline {subsubsection}{ Showering in the Detector}{7}% 
-\contentsline {subsection}{ \numberline {4.1.3} Object Reconstruction}{7}% 
-\contentsline {subsubsection}{ Electrons}{7}% 
-\contentsline {subsubsection}{ Photons}{7}% 
-\contentsline {subsubsection}{ Jets}{7}% 
-\contentsline {subsubsection}{ Muons}{7}% 
-\contentsline {subsection}{ \numberline {4.1.4} Creation of FCNC Signal Events}{7}% 
-\contentsline {subsubsection}{ MadGraph5 amc@NLO}{7}% 
-\contentsline {chapter}{\numberline {V}\uppercase {Search Strategy}}{8}% 
-\contentsline {section}{ \numberline {5.1} Major Backgrounds}{8}% 
-\contentsline {section}{ \numberline {5.2} Event Reconstruction}{8}% 
-\contentsline {section}{ \numberline {5.3} Data and Simulation Event PreSelection}{8}% 
-\contentsline {section}{ \numberline {5.4} Control and Validation Regions}{8}% 
-\contentsline {section}{ \numberline {5.5} Signal Region}{8}% 
-\contentsline {section}{ \numberline {5.6} Neural Network}{8}% 
-\contentsline {subsection}{ \numberline {5.6.1} Architecture and Studies}{8}% 
-\contentsline {chapter}{\numberline {VI}\uppercase {Results}}{9}% 
-\contentsline {section}{ \numberline {6.1} Uncertainties}{9}% 
-\contentsline {section}{ \numberline {6.2} Statistical Treatment of Results}{9}% 
-\contentsline {section}{ \numberline {6.3} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{9}% 
-\contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{10}% 
-\contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{10}% 
-\contentsline {section}{ \numberline {7.2} Future Directions}{10}% 
-\contentsline {section}{ \numberline {7.3} Conclusion}{10}% 
-\contentsline {chapter}{REFERENCES CITED}{11}% 
+\contentsline {section}{ \numberline {3.2} The ATLAS Detector}{6}% 
+\contentsline {subsection}{ \numberline {3.2.1} Coordinate System}{7}% 
+\contentsline {subsection}{ \numberline {3.2.2} Magnet Setup}{8}% 
+\contentsline {subsection}{ \numberline {3.2.3} SubDetectors}{8}% 
+\contentsline {subsubsection}{ Inner Detector}{8}% 
+\contentsline {subsubsection}{ Middle Layers, EMCal, HCal}{9}% 
+\contentsline {subsubsection}{ Muon Calorimeter}{10}% 
+\contentsline {subsection}{ \numberline {3.2.4} Trigger and Data Acquisition}{11}% 
+\contentsline {subsubsection}{ L1Calo}{12}% 
+\contentsline {subsubsection}{ HLT}{12}% 
+\contentsline {subsubsection}{ Luminosity Measurements}{12}% 
+\contentsline {chapter}{\numberline {IV}\uppercase {Simulation}}{14}% 
+\contentsline {section}{ \numberline {4.1} Simulation of pp collisions}{14}% 
+\contentsline {subsection}{ \numberline {4.1.1} MC Generators Used for LHC Physics}{14}% 
+\contentsline {subsection}{ \numberline {4.1.2} Detector Simulation}{14}% 
+\contentsline {subsubsection}{ Showering in the Detector}{14}% 
+\contentsline {subsection}{ \numberline {4.1.3} Object Reconstruction}{14}% 
+\contentsline {subsubsection}{ Electrons}{14}% 
+\contentsline {subsubsection}{ Photons}{14}% 
+\contentsline {subsubsection}{ Jets}{14}% 
+\contentsline {subsubsection}{ Muons}{14}% 
+\contentsline {subsection}{ \numberline {4.1.4} Creation of FCNC Signal Events}{14}% 
+\contentsline {subsubsection}{ MadGraph5 amc@NLO}{14}% 
+\contentsline {chapter}{\numberline {V}\uppercase {Search Strategy}}{15}% 
+\contentsline {section}{ \numberline {5.1} Major Backgrounds}{15}% 
+\contentsline {section}{ \numberline {5.2} Event Reconstruction}{15}% 
+\contentsline {section}{ \numberline {5.3} Data and Simulation Event PreSelection}{15}% 
+\contentsline {section}{ \numberline {5.4} Control and Validation Regions}{15}% 
+\contentsline {section}{ \numberline {5.5} Signal Region}{15}% 
+\contentsline {section}{ \numberline {5.6} Neural Network}{15}% 
+\contentsline {subsection}{ \numberline {5.6.1} Architecture and Studies}{15}% 
+\contentsline {chapter}{\numberline {VI}\uppercase {Results}}{16}% 
+\contentsline {section}{ \numberline {6.1} Uncertainties}{16}% 
+\contentsline {section}{ \numberline {6.2} Statistical Treatment of Results}{16}% 
+\contentsline {section}{ \numberline {6.3} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{16}% 
+\contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{17}% 
+\contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{17}% 
+\contentsline {section}{ \numberline {7.2} Future Directions}{17}% 
+\contentsline {section}{ \numberline {7.3} Conclusion}{17}% 
+\contentsline {chapter}{REFERENCES CITED}{18}% 
