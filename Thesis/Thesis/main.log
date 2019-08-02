@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  2 AUG 2019 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  2 AUG 2019 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -940,6 +940,9 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
+(c:/texlive/2018/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
 (c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 ) (./main.aux
@@ -951,18 +954,18 @@ LaTeX Warning: Label `fig:ATLASInnerDet' multiply defined.
 ) (./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1032,17 +1035,17 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-Package layouts Warning: Layout scale set to 0.5 on input line 39.
+Package layouts Warning: Layout scale set to 0.5 on input line 41.
 
 ABD: EveryShipout initializing macros
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 39.
+loading the todonotes package. on input line 41.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 39.
+LaTeX Info: Redefining \selectfont on input line 41.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -1126,12 +1129,12 @@ Dictionary: translator-basic-dictionary, Language: English
 (c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1156,17 +1159,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
  (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
 
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
  []
 
@@ -1175,7 +1178,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
 ] [5
 
 ] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
  []
 
@@ -1245,17 +1248,27 @@ Overfull \hbox (26.91597pt too wide) detected at line 14
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 18
+Overfull \hbox (26.91597pt too wide) detected at line 15
  \OT1/cmr/m/n/12 3.2.4.  
  []
 
 
-Overfull \hbox (15.98456pt too wide) detected at line 22
+Overfull \hbox (26.91597pt too wide) detected at line 16
+ \OT1/cmr/m/n/12 3.2.5.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 17
+ \OT1/cmr/m/n/12 3.2.6.  
+ []
+
+
+Overfull \hbox (15.98456pt too wide) detected at line 21
  \OT1/cmr/m/n/12 IV.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 23
+Overfull \hbox (31.87698pt too wide) detected at line 22
  \OT1/cmr/m/n/12 4.1.  
  []
 
@@ -1263,23 +1276,48 @@ Overfull \hbox (31.87698pt too wide) detected at line 23
 
 
 ]
-Overfull \hbox (26.91597pt too wide) detected at line 24
+Overfull \hbox (26.91597pt too wide) detected at line 23
  \OT1/cmr/m/n/12 4.1.1.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 25
+Overfull \hbox (26.91597pt too wide) detected at line 24
  \OT1/cmr/m/n/12 4.1.2.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 27
+Overfull \hbox (26.91597pt too wide) detected at line 25
  \OT1/cmr/m/n/12 4.1.3.  
  []
 
 
+Overfull \hbox (31.87698pt too wide) detected at line 26
+ \OT1/cmr/m/n/12 4.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 27
+ \OT1/cmr/m/n/12 4.2.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 28
+ \OT1/cmr/m/n/12 4.2.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 29
+ \OT1/cmr/m/n/12 4.2.3.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 31
+ \OT1/cmr/m/n/12 4.2.4.  
+ []
+
+
 Overfull \hbox (26.91597pt too wide) detected at line 32
- \OT1/cmr/m/n/12 4.1.4.  
+ \OT1/cmr/m/n/12 4.2.5.  
  []
 
 
@@ -1332,7 +1370,7 @@ Overfull \hbox (31.87698pt too wide) detected at line 43
  \OT1/cmr/m/n/12 6.1.  
  []
 
-
+[8]
 Overfull \hbox (31.87698pt too wide) detected at line 44
  \OT1/cmr/m/n/12 6.2.  
  []
@@ -1352,7 +1390,7 @@ Overfull \hbox (31.87698pt too wide) detected at line 47
  \OT1/cmr/m/n/12 7.1.  
  []
 
-[8]
+
 Overfull \hbox (31.87698pt too wide) detected at line 48
  \OT1/cmr/m/n/12 7.2.  
  []
@@ -1367,7 +1405,7 @@ Overfull \hbox (31.87698pt too wide) detected at line 49
 \openout5 = `main.toc'.
 
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
  []
 
@@ -1378,7 +1416,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
  [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
  []
 
@@ -1403,35 +1441,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
 
  (./Theory.tex
 [Theory]
-) [4
+
+Overfull \hbox (56.29793pt too wide) detected at line 39
+\OML/cmm/m/it/12 V[] \OT1/cmr/m/n/12 = [] = []
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 42.
+
+[4
 
 
 
-]
+]) [5]
 \openout2 = `LHCDetector.aux'.
 
  (./LHCDetector.tex
 [The Large Hadron Collider and the ATLAS Detector]
-<../ThesisImages/LHCImages/AcceleratorComplex.png, id=83, 4296.6924pt x 3047.62
+<../ThesisImages/LHCImages/AcceleratorComplex.png, id=88, 4296.6924pt x 3047.62
 59pt>
 File: ../ThesisImages/LHCImages/AcceleratorComplex.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/AcceleratorComplex.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/AcceleratorComplex.png  used
  on input line 11.
 (pdftex.def)             Requested size: 433.62pt x 307.52412pt.
-<../ThesisImages/LHCImages/AtlasDetector.png, id=85, 1621.05624pt x 1041.8925pt
+<../ThesisImages/LHCImages/AtlasDetector.png, id=90, 1621.05624pt x 1041.8925pt
 >
 File: ../ThesisImages/LHCImages/AtlasDetector.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/AtlasDetector.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/AtlasDetector.png  used on i
 nput line 23.
 (pdftex.def)             Requested size: 433.62pt x 278.69157pt.
-[5
+[6
 
 
 
  <../ThesisImages/LHCImages/AcceleratorComplex.png>]
-<../ThesisImages/LHCImages/ParticleInteractions.jpg, id=90, 476.78125pt x 386.4
+<../ThesisImages/LHCImages/ParticleInteractions.jpg, id=95, 476.78125pt x 386.4
 4376pt>
 File: ../ThesisImages/LHCImages/ParticleInteractions.jpg Graphic file (type jpg
 )
@@ -1443,8 +1490,8 @@ ed on input line 31.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <../ThesisImages/LHCImages/AtlasDetector.png (PNG copy)>]
-<../ThesisImages/LHCImages/ATLASCoords.png, id=94, 230.36063pt x 260.47313pt>
+[7 <../ThesisImages/LHCImages/AtlasDetector.png (PNG copy)>]
+<../ThesisImages/LHCImages/ATLASCoords.png, id=99, 230.36063pt x 260.47313pt>
 File: ../ThesisImages/LHCImages/ATLASCoords.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASCoords.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASCoords.png  used on inp
@@ -1454,94 +1501,102 @@ ut line 44.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <../ThesisImages/LHCImages/ParticleInteractions.jpg>]
-<../ThesisImages/LHCImages/ATLASInnerDetector.png, id=98, 793.46437pt x 499.867
-5pt>
+[8 <../ThesisImages/LHCImages/ParticleInteractions.jpg>]
+<../ThesisImages/LHCImages/ATLASMagnetWinding.png, id=104, 662.475pt x 515.6765
+6pt>
+File: ../ThesisImages/LHCImages/ATLASMagnetWinding.png Graphic file (type png)
+<use ../ThesisImages/LHCImages/ATLASMagnetWinding.png>
+Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMagnetWinding.png  used
+ on input line 55.
+(pdftex.def)             Requested size: 216.81pt x 168.7653pt.
+<../ThesisImages/LHCImages/ATLASInnerDetector.png, id=105, 793.46437pt x 499.86
+75pt>
 File: ../ThesisImages/LHCImages/ATLASInnerDetector.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASInnerDetector.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASInnerDetector.png  used
- on input line 61.
+ on input line 67.
 (pdftex.def)             Requested size: 216.81pt x 136.58302pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/LHCImages/ATLASInnerStructure.png, id=99, 496.10344pt x 415.55
-25pt>
+<../ThesisImages/LHCImages/ATLASInnerStructure.png, id=106, 496.10344pt x 415.5
+525pt>
 File: ../ThesisImages/LHCImages/ATLASInnerStructure.png Graphic file (type png)
 
 <use ../ThesisImages/LHCImages/ATLASInnerStructure.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASInnerStructure.png  use
-d on input line 70.
+d on input line 76.
 (pdftex.def)             Requested size: 216.81pt x 181.60721pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <../ThesisImages/LHCImages/ATLASCoords.png>]
-<../ThesisImages/LHCImages/ATLASCaloSystem.png, id=105, 682.80093pt x 400.49625
+[9 <../ThesisImages/LHCImages/ATLASCoords.png> <../ThesisImages/LHCImages/ATLAS
+MagnetWinding.PNG>]
+<../ThesisImages/LHCImages/ATLASCaloSystem.png, id=112, 682.80093pt x 400.49625
 pt>
 File: ../ThesisImages/LHCImages/ATLASCaloSystem.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASCaloSystem.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASCaloSystem.png  used on
- input line 80.
+ input line 86.
 (pdftex.def)             Requested size: 433.62pt x 254.34285pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <../ThesisImages/LHCImages/ATLASInnerDetector.PNG> <../ThesisImages/LHCImage
-s/ATLASInnerStructure.PNG>]
-<../ThesisImages/LHCImages/ATLASMuonSystem.png, id=111, 714.41907pt x 535.2497p
+[10 <../ThesisImages/LHCImages/ATLASInnerDetector.PNG> <../ThesisImages/LHCImag
+es/ATLASInnerStructure.PNG>]
+<../ThesisImages/LHCImages/ATLASMuonSystem.png, id=118, 714.41907pt x 535.2497p
 t>
 File: ../ThesisImages/LHCImages/ATLASMuonSystem.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASMuonSystem.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMuonSystem.png  used on
- input line 93.
+ input line 99.
 (pdftex.def)             Requested size: 433.62pt x 324.87656pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <../ThesisImages/LHCImages/ATLASCaloSystem.PNG>]
-<../ThesisImages/LHCImages/ATLASTDAQR2.png, id=116, 752.8125pt x 569.87906pt>
+[11 <../ThesisImages/LHCImages/ATLASCaloSystem.PNG>]
+<../ThesisImages/LHCImages/ATLASTDAQR2.png, id=123, 752.8125pt x 569.87906pt>
 File: ../ThesisImages/LHCImages/ATLASTDAQR2.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASTDAQR2.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASTDAQR2.png  used on inp
-ut line 103.
+ut line 109.
 (pdftex.def)             Requested size: 433.62pt x 328.26051pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11 <../ThesisImages/LHCImages/ATLASMuonSystem.PNG>]
-<../ThesisImages/LHCImages/ATLASLumi.png, id=121, 798.985pt x 574.145pt>
+[12 <../ThesisImages/LHCImages/ATLASMuonSystem.PNG>]
+<../ThesisImages/LHCImages/ATLASLumi.png, id=128, 798.985pt x 574.145pt>
 File: ../ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASLumi.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASLumi.png  used on input
- line 118.
+ line 124.
 (pdftex.def)             Requested size: 216.81pt x 155.79216pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/LHCImages/meanIntperCrossing.png, id=122, 798.985pt x 574.145p
+<../ThesisImages/LHCImages/meanIntperCrossing.png, id=129, 798.985pt x 574.145p
 t>
 File: ../ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/meanIntperCrossing.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/meanIntperCrossing.png  used
- on input line 126.
+ on input line 132.
 (pdftex.def)             Requested size: 216.81pt x 155.79216pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [12 <../ThesisImages/LHCImages/ATLASTDAQR2.PNG>] [13 <../ThesisImages/LHCImag
+) [13 <../ThesisImages/LHCImages/ATLASTDAQR2.PNG>] [14 <../ThesisImages/LHCImag
 es/ATLASLumi.png> <../ThesisImages/LHCImages/meanIntperCrossing.png>]
 \openout2 = `Simulation.aux'.
 
 
 (./Simulation.tex
 [Simulation]
-) [14
+) [15
 
 
 
@@ -1550,7 +1605,7 @@ es/ATLASLumi.png> <../ThesisImages/LHCImages/meanIntperCrossing.png>]
 
  (./SearchStrategy.tex
 [Search Strategy]
-) [15
+) [16
 
 
 
@@ -1559,7 +1614,7 @@ es/ATLASLumi.png> <../ThesisImages/LHCImages/meanIntperCrossing.png>]
 
  (./Results.tex
 [Results]
-) [16
+) [17
 
 
 
@@ -1568,14 +1623,14 @@ es/ATLASLumi.png> <../ThesisImages/LHCImages/meanIntperCrossing.png>]
 
  (./Conclusion.tex
 [Complementary Searches and Outlook]
-) [17
+) [18
 
 
 
-] (./main.bbl [18
+] (./main.bbl [19
 
 
-]) [19] (./main.aux (./cover.aux) (./abstract.aux)
+]) [20] (./main.aux (./cover.aux) (./abstract.aux)
 (./cv.aux) (./Introduction.aux) (./Theory.aux) (./LHCDetector.aux)
 (./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
 
@@ -1655,6 +1710,7 @@ pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
   lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
    ifpdf.sty    2018/09/07 v3.3 Provides the ifpdf switch
  ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+  hhline.sty    2014/10/28 v2.03 Table rule package (DPC)
 placeins.sty    2005/04/18  v 2.2
 supp-pdf.mkii
 epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
@@ -1684,6 +1740,7 @@ LHCDetector.tex
 ../ThesisImages/LHCImages/AtlasDetector.png
 ../ThesisImages/LHCImages/ParticleInteractions.jpg
 ../ThesisImages/LHCImages/ATLASCoords.png
+../ThesisImages/LHCImages/ATLASMagnetWinding.png
 ../ThesisImages/LHCImages/ATLASInnerDetector.png
 ../ThesisImages/LHCImages/ATLASInnerStructure.png
 ../ThesisImages/LHCImages/ATLASCaloSystem.png
@@ -1703,24 +1760,25 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28644 strings out of 492616
- 568729 string characters out of 6132769
- 604188 words of memory out of 5000000
- 32036 multiletter control sequences out of 15000+600000
+ 28666 strings out of 492616
+ 569241 string characters out of 6132769
+ 609666 words of memory out of 5000000
+ 32054 multiletter control sequences out of 15000+600000
  539347 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,8n,83p,3436b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,10n,83p,3436b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti12.pfb>
-Output written on main.pdf (30 pages, 5294540 bytes).
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (31 pages, 5520203 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 189 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
