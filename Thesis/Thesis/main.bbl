@@ -72,31 +72,27 @@ G.~Eilam, J.~L. Hewett, and A.~Soni.
 \newblock {\em Phys. Rev.}, D44:1473--1484, 1991.
 \newblock [Erratum: Phys. Rev.D59,039901(1999)].
 
-\bibitem{LHCAccComplex}
-Esma Mobs.
-\newblock {The CERN accelerator complex. Complexe des accélérateurs du CERN}.
-\newblock Jul 2016.
-\newblock General Photo.
+\bibitem{GrossmanLecture}
+Yuval Grossman.
+\newblock {Introduction to flavor physics}.
+\newblock In {\em {Flavianet School on Flavour Physics Karlsruhe, Germany,
+  September 7-18, 2009}}, pages 111--144, 2014.
+\newblock [,73(2014)].
 
-\bibitem{ATLAS}
-{The ATLAS Experiment at the CERN Large Hadron Collider}.
-\newblock {\em J. Instrum.}, 3:S08003. 437 p, 2008.
+\bibitem{CKM1}
+Nicola Cabibbo.
+\newblock {Unitary Symmetry and Leptonic Decays}.
+\newblock {\em Phys. Rev. Lett.}, 10:531--533, 1963.
+\newblock [,648(1963)].
 
-\bibitem{ParticleInteractions}
-Joao Pequenao.
-\newblock {Event Cross Section in a computer generated image of the ATLAS
-  detector.}
-\newblock Mar 2008.
+\bibitem{CKM2}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock {CP Violation in the Renormalizable Theory of Weak Interaction}.
+\newblock {\em Prog. Theor. Phys.}, 49:652--657, 1973.
 
-\bibitem{ATLASCoords}
-Fabian Kuger.
-\newblock Signal formation processes in micromegas detectors and quality
-  control for large size detector construction for the atlas new small wheel.
-\newblock 08 2017.
-
-\bibitem{ATLASTDAQ}
-Moritz Backes.
-\newblock {The ATLAS Trigger System: Ready for Run-2}.
-\newblock {\em PoS}, LeptonPhoton2015:045, 2016.
+\bibitem{Wolfenstein}
+Lincoln Wolfenstein.
+\newblock {Parametrization of the Kobayashi-Maskawa Matrix}.
+\newblock {\em Phys. Rev. Lett.}, 51:1945, 1983.
 
 \end{thebibliography}

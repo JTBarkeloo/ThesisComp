@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  2 AUG 2019 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  17 AUG 2019 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,85 +943,163 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (c:/texlive/2018/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 )
-(c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
-Package: placeins 2005/04/18  v 2.2
-) (./main.aux
-(./cover.aux) (./abstract.aux) (./cv.aux) (./Introduction.aux) (./Theory.aux)
-(./LHCDetector.aux
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-LaTeX Warning: Label `fig:ATLASInnerDet' multiply defined.
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-) (./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
-\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
-(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count378
-\scratchdimen=\dimen292
-\scratchbox=\box69
-\nofMPsegments=\count379
-\nofMParguments=\count380
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count381
-\MPscratchDim=\dimen293
-\MPnumerator=\count382
-\makeMPintoPDFobject=\count383
-\everyMPtoPDFconversion=\toks44
-) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen292
+\Hy@linkcounter=\count378
+\Hy@pagecounter=\count379
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count380
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count381
+
+(c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen293
+\Fld@menulength=\count382
+\Field@Width=\dimen294
+\Fld@charsize=\dimen295
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count383
+\c@Item=\count384
+\c@Hfootnote=\count385
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count386
+\c@bookmark@seq@number=\count387
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip114
+)
+(c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (./main.aux
+(./cover.aux) (./abstract.aux) (./cv.aux) (./Introduction.aux) (./Theory.aux)
+(./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count388
+\scratchdimen=\dimen296
+\scratchbox=\box69
+\nofMPsegments=\count389
+\nofMParguments=\count390
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count391
+\MPscratchDim=\dimen297
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
+\everyMPtoPDFconversion=\toks44
+) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -1035,17 +1113,17 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-Package layouts Warning: Layout scale set to 0.5 on input line 41.
+Package layouts Warning: Layout scale set to 0.5 on input line 43.
 
 ABD: EveryShipout initializing macros
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 41.
+loading the todonotes package. on input line 43.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 41.
+LaTeX Info: Redefining \selectfont on input line 43.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -1129,12 +1207,35 @@ Dictionary: translator-basic-dictionary, Language: English
 (c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+\AtBeginShipoutBox=\box70
+
+
+Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
+Package hyperref Info: Link coloring OFF on input line 43.
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count394
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+
+(./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1159,17 +1260,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
  (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
@@ -1178,7 +1279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
 ] [5
 
 ] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
@@ -1218,106 +1319,121 @@ Overfull \hbox (31.87698pt too wide) detected at line 8
  []
 
 
-Overfull \hbox (16.30678pt too wide) detected at line 9
- \OT1/cmr/m/n/12 III.  
+Overfull \hbox (26.91597pt too wide) detected at line 9
+ \OT1/cmr/m/n/12 2.3.1.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 10
- \OT1/cmr/m/n/12 3.1.  
+Overfull \hbox (26.91597pt too wide) detected at line 10
+ \OT1/cmr/m/n/12 2.3.2.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 11
- \OT1/cmr/m/n/12 3.2.  
+ \OT1/cmr/m/n/12 2.4.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 12
- \OT1/cmr/m/n/12 3.2.1.  
+Overfull \hbox (31.87698pt too wide) detected at line 12
+ \OT1/cmr/m/n/12 2.5.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 13
- \OT1/cmr/m/n/12 3.2.2.  
+Overfull \hbox (16.30678pt too wide) detected at line 13
+ \OT1/cmr/m/n/12 III.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 14
- \OT1/cmr/m/n/12 3.2.3.  
+Overfull \hbox (31.87698pt too wide) detected at line 14
+ \OT1/cmr/m/n/12 3.1.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 15
- \OT1/cmr/m/n/12 3.2.4.  
+ \OT1/cmr/m/n/12 3.1.1.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 16
- \OT1/cmr/m/n/12 3.2.5.  
+ \OT1/cmr/m/n/12 3.1.2.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 17
- \OT1/cmr/m/n/12 3.2.6.  
+ \OT1/cmr/m/n/12 3.1.3.  
  []
 
 
-Overfull \hbox (15.98456pt too wide) detected at line 21
- \OT1/cmr/m/n/12 IV.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 22
- \OT1/cmr/m/n/12 4.1.  
+Overfull \hbox (31.87698pt too wide) detected at line 18
+ \OT1/cmr/m/n/12 3.2.  
  []
 
 [7
 
 
 ]
+Overfull \hbox (26.91597pt too wide) detected at line 19
+ \OT1/cmr/m/n/12 3.2.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 20
+ \OT1/cmr/m/n/12 3.2.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 21
+ \OT1/cmr/m/n/12 3.2.3.  
+ []
+
+
 Overfull \hbox (26.91597pt too wide) detected at line 23
- \OT1/cmr/m/n/12 4.1.1.  
+ \OT1/cmr/m/n/12 3.2.4.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 24
- \OT1/cmr/m/n/12 4.1.2.  
+ \OT1/cmr/m/n/12 3.2.5.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 25
- \OT1/cmr/m/n/12 4.1.3.  
+Overfull \hbox (15.98456pt too wide) detected at line 26
+ \OT1/cmr/m/n/12 IV.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 26
+Overfull \hbox (31.87698pt too wide) detected at line 27
+ \OT1/cmr/m/n/12 4.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 28
  \OT1/cmr/m/n/12 4.2.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 27
- \OT1/cmr/m/n/12 4.2.1.  
+Overfull \hbox (31.87698pt too wide) detected at line 29
+ \OT1/cmr/m/n/12 4.3.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 28
- \OT1/cmr/m/n/12 4.2.2.  
+Overfull \hbox (31.87698pt too wide) detected at line 30
+ \OT1/cmr/m/n/12 4.4.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 29
- \OT1/cmr/m/n/12 4.2.3.  
+Overfull \hbox (31.87698pt too wide) detected at line 31
+ \OT1/cmr/m/n/12 4.5.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 31
- \OT1/cmr/m/n/12 4.2.4.  
+Overfull \hbox (31.87698pt too wide) detected at line 32
+ \OT1/cmr/m/n/12 4.6.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 32
- \OT1/cmr/m/n/12 4.2.5.  
+Overfull \hbox (26.91597pt too wide) detected at line 33
+ \OT1/cmr/m/n/12 4.6.1.  
  []
 
 
@@ -1341,88 +1457,48 @@ Overfull \hbox (31.87698pt too wide) detected at line 37
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 38
- \OT1/cmr/m/n/12 5.4.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 39
- \OT1/cmr/m/n/12 5.5.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 40
- \OT1/cmr/m/n/12 5.6.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 41
- \OT1/cmr/m/n/12 5.6.1.  
- []
-
-
-Overfull \hbox (15.98456pt too wide) detected at line 42
+Overfull \hbox (15.98456pt too wide) detected at line 38
  \OT1/cmr/m/n/12 VI.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 43
+Overfull \hbox (31.87698pt too wide) detected at line 39
  \OT1/cmr/m/n/12 6.1.  
  []
 
 [8]
-Overfull \hbox (31.87698pt too wide) detected at line 44
+Overfull \hbox (31.87698pt too wide) detected at line 40
  \OT1/cmr/m/n/12 6.2.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 45
+Overfull \hbox (31.87698pt too wide) detected at line 41
  \OT1/cmr/m/n/12 6.3.  
  []
 
-
-Overfull \hbox (20.54979pt too wide) detected at line 46
- \OT1/cmr/m/n/12 VII.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 47
- \OT1/cmr/m/n/12 7.1.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 48
- \OT1/cmr/m/n/12 7.2.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 49
- \OT1/cmr/m/n/12 7.3.  
- []
-
 )
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 (./main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
+\tf@lof=\write7
+\openout7 = `main.lof'.
 
  [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
  [11
 
@@ -1436,167 +1512,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
 
 
-]) [2] [3]
+]
+
+LaTeX Warning: Reference `ch:LHCDetector' on page 2 undefined on input line 16.
+
+
+) [2] [3]
 \openout2 = `Theory.aux'.
 
  (./Theory.tex
 [Theory]
-
-Overfull \hbox (56.29793pt too wide) detected at line 39
-\OML/cmm/m/it/12 V[] \OT1/cmr/m/n/12 = [] = []
- []
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 42.
-
 [4
 
 
 
-]) [5]
-\openout2 = `LHCDetector.aux'.
+]
 
- (./LHCDetector.tex
-[The Large Hadron Collider and the ATLAS Detector]
-<../ThesisImages/LHCImages/AcceleratorComplex.png, id=88, 4296.6924pt x 3047.62
-59pt>
-File: ../ThesisImages/LHCImages/AcceleratorComplex.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/AcceleratorComplex.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/AcceleratorComplex.png  used
- on input line 11.
-(pdftex.def)             Requested size: 433.62pt x 307.52412pt.
-<../ThesisImages/LHCImages/AtlasDetector.png, id=90, 1621.05624pt x 1041.8925pt
->
-File: ../ThesisImages/LHCImages/AtlasDetector.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/AtlasDetector.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/AtlasDetector.png  used on i
-nput line 23.
-(pdftex.def)             Requested size: 433.62pt x 278.69157pt.
-[6
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[5]
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 67.
 
- <../ThesisImages/LHCImages/AcceleratorComplex.png>]
-<../ThesisImages/LHCImages/ParticleInteractions.jpg, id=95, 476.78125pt x 386.4
-4376pt>
-File: ../ThesisImages/LHCImages/ParticleInteractions.jpg Graphic file (type jpg
-)
-<use ../ThesisImages/LHCImages/ParticleInteractions.jpg>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ParticleInteractions.jpg  us
-ed on input line 31.
-(pdftex.def)             Requested size: 433.62pt x 351.48157pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 <../ThesisImages/LHCImages/AtlasDetector.png (PNG copy)>]
-<../ThesisImages/LHCImages/ATLASCoords.png, id=99, 230.36063pt x 260.47313pt>
-File: ../ThesisImages/LHCImages/ATLASCoords.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASCoords.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASCoords.png  used on inp
-ut line 44.
-(pdftex.def)             Requested size: 216.81pt x 245.1508pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 <../ThesisImages/LHCImages/ParticleInteractions.jpg>]
-<../ThesisImages/LHCImages/ATLASMagnetWinding.png, id=104, 662.475pt x 515.6765
-6pt>
-File: ../ThesisImages/LHCImages/ATLASMagnetWinding.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASMagnetWinding.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMagnetWinding.png  used
- on input line 55.
-(pdftex.def)             Requested size: 216.81pt x 168.7653pt.
-<../ThesisImages/LHCImages/ATLASInnerDetector.png, id=105, 793.46437pt x 499.86
-75pt>
-File: ../ThesisImages/LHCImages/ATLASInnerDetector.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASInnerDetector.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASInnerDetector.png  used
- on input line 67.
-(pdftex.def)             Requested size: 216.81pt x 136.58302pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../ThesisImages/LHCImages/ATLASInnerStructure.png, id=106, 496.10344pt x 415.5
-525pt>
-File: ../ThesisImages/LHCImages/ATLASInnerStructure.png Graphic file (type png)
-
-<use ../ThesisImages/LHCImages/ATLASInnerStructure.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASInnerStructure.png  use
-d on input line 76.
-(pdftex.def)             Requested size: 216.81pt x 181.60721pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9 <../ThesisImages/LHCImages/ATLASCoords.png> <../ThesisImages/LHCImages/ATLAS
-MagnetWinding.PNG>]
-<../ThesisImages/LHCImages/ATLASCaloSystem.png, id=112, 682.80093pt x 400.49625
-pt>
-File: ../ThesisImages/LHCImages/ATLASCaloSystem.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASCaloSystem.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASCaloSystem.png  used on
- input line 86.
-(pdftex.def)             Requested size: 433.62pt x 254.34285pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <../ThesisImages/LHCImages/ATLASInnerDetector.PNG> <../ThesisImages/LHCImag
-es/ATLASInnerStructure.PNG>]
-<../ThesisImages/LHCImages/ATLASMuonSystem.png, id=118, 714.41907pt x 535.2497p
-t>
-File: ../ThesisImages/LHCImages/ATLASMuonSystem.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASMuonSystem.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMuonSystem.png  used on
- input line 99.
-(pdftex.def)             Requested size: 433.62pt x 324.87656pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <../ThesisImages/LHCImages/ATLASCaloSystem.PNG>]
-<../ThesisImages/LHCImages/ATLASTDAQR2.png, id=123, 752.8125pt x 569.87906pt>
-File: ../ThesisImages/LHCImages/ATLASTDAQR2.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASTDAQR2.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASTDAQR2.png  used on inp
-ut line 109.
-(pdftex.def)             Requested size: 433.62pt x 328.26051pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12 <../ThesisImages/LHCImages/ATLASMuonSystem.PNG>]
-<../ThesisImages/LHCImages/ATLASLumi.png, id=128, 798.985pt x 574.145pt>
-File: ../ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASLumi.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASLumi.png  used on input
- line 124.
-(pdftex.def)             Requested size: 216.81pt x 155.79216pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../ThesisImages/LHCImages/meanIntperCrossing.png, id=129, 798.985pt x 574.145p
-t>
-File: ../ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/meanIntperCrossing.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/meanIntperCrossing.png  used
- on input line 132.
-(pdftex.def)             Requested size: 216.81pt x 155.79216pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [13 <../ThesisImages/LHCImages/ATLASTDAQR2.PNG>] [14 <../ThesisImages/LHCImag
-es/ATLASLumi.png> <../ThesisImages/LHCImages/meanIntperCrossing.png>]
+[6] [7] [8] [9] [10] [11] [12]) [13]
 \openout2 = `Simulation.aux'.
 
-
-(./Simulation.tex
+ (./Simulation.tex
 [Simulation]
-) [15
+) [14
 
 
 
@@ -1605,7 +1549,7 @@ es/ATLASLumi.png> <../ThesisImages/LHCImages/meanIntperCrossing.png>]
 
  (./SearchStrategy.tex
 [Search Strategy]
-) [16
+) [15
 
 
 
@@ -1614,7 +1558,31 @@ es/ATLASLumi.png> <../ThesisImages/LHCImages/meanIntperCrossing.png>]
 
  (./Results.tex
 [Results]
-) [17
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+) [16
 
 
 
@@ -1623,16 +1591,21 @@ es/ATLASLumi.png> <../ThesisImages/LHCImages/meanIntperCrossing.png>]
 
  (./Conclusion.tex
 [Complementary Searches and Outlook]
-) [18
+) [17
 
 
 
-] (./main.bbl [19
+] (./main.bbl [18
 
 
-]) [20] (./main.aux (./cover.aux) (./abstract.aux)
-(./cv.aux) (./Introduction.aux) (./Theory.aux) (./LHCDetector.aux)
-(./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
+]) [19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+ (./main.aux (./cover.aux) (./abstract.aux)
+(./cv.aux) (./Introduction.aux) (./Theory.aux) (./Simulation.aux)
+(./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
+
 
  *File List*
 uothesis_3.cls    
@@ -1711,22 +1684,49 @@ pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
    ifpdf.sty    2018/09/07 v3.3 Provides the ifpdf switch
  ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
   hhline.sty    2014/10/28 v2.03 Table rule package (DPC)
+hyperref.sty    2018/11/30 v6.88e Hypertext links for LaTeX
+hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
+  ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+ intcalc.sty    2016/05/16 v1.2 Expandable calculations with integers (HO)
+etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
+kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
+pdftexcmds.sty    2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
+  bitset.sty    2016/05/16 v1.2 Handle bit-vector datatype (HO)
+uniquecounter.sty    2016/05/16 v1.3 Provide unlimited unique counter (HO)
+letltxmacro.sty    2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2016/05/16 v1.3 Wrapper for package hooks (HO)
+xcolor-patch.sty    2016/05/16 xcolor patch
+atveryend.sty    2016/05/16 v1.9 Hooks at the very end of document (HO)
+atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
+refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
+ hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+ auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
+kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
+  pd1enc.def    2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+ hpdftex.def    2018/11/30 v6.88e Hyperref driver for pdfTeX
+rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 placeins.sty    2005/04/18  v 2.2
 supp-pdf.mkii
 epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
-infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
   grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
-kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
- ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
-kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
-etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
-pdftexcmds.sty    2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
 epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
   ts1enc.dfu    2018/10/05 v1.2f UTF-8 support for inputenc
 translator-basic-dictionary-English.dict    
 siunitx-abbreviations.cfg    2017/11/26 v2.7k siunitx: Abbreviated units
+ nameref.sty    2016/05/21 v2.44 Cross-referencing by name of section
+gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
+    main.out
+    main.out
     umsa.fd    2013/01/14 v3.01 AMS symbols A
     umsb.fd    2013/01/14 v3.01 AMS symbols B
    cover.tex
@@ -1735,19 +1735,6 @@ abstract.tex
   omscmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
 Introduction.tex
   Theory.tex
-LHCDetector.tex
-../ThesisImages/LHCImages/AcceleratorComplex.png
-../ThesisImages/LHCImages/AtlasDetector.png
-../ThesisImages/LHCImages/ParticleInteractions.jpg
-../ThesisImages/LHCImages/ATLASCoords.png
-../ThesisImages/LHCImages/ATLASMagnetWinding.png
-../ThesisImages/LHCImages/ATLASInnerDetector.png
-../ThesisImages/LHCImages/ATLASInnerStructure.png
-../ThesisImages/LHCImages/ATLASCaloSystem.png
-../ThesisImages/LHCImages/ATLASMuonSystem.png
-../ThesisImages/LHCImages/ATLASTDAQR2.png
-../ThesisImages/LHCImages/ATLASLumi.png
-../ThesisImages/LHCImages/meanIntperCrossing.png
 Simulation.tex
 SearchStrategy.tex
  Results.tex
@@ -1755,30 +1742,50 @@ Conclusion.tex
     main.bbl
  ***********
 
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: DA3AA4BA35D20699B611FE2CD79081E1;2908
+(rerunfilecheck)             After:  066056F5AAEBEC4B8350C9FDB88DC26C;3246.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
  ) 
 Here is how much of TeX's memory you used:
- 28666 strings out of 492616
- 569241 string characters out of 6132769
- 609666 words of memory out of 5000000
- 32054 multiletter control sequences out of 15000+600000
- 539347 words of font info for 51 fonts, out of 8000000 for 9000
+ 32095 strings out of 492616
+ 619054 string characters out of 6132769
+ 697738 words of memory out of 5000000
+ 35396 multiletter control sequences out of 15000+600000
+ 542455 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,10n,83p,3436b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,13n,83p,3436b,956s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (31 pages, 5520203 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb>
+Output written on main.pdf (30 pages, 248250 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 425 compressed objects within 5 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,8 +16,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{pdflscape}
 \usepackage{lineno}
+%\linenumbers
 \usepackage{hhline}
-
+\usepackage{hyperref} %If you get an error due to hyperref package, delete your old INT.aux file then recompile.
+\pdfstringdefDisableCommands{\let\uppercase\relax}
 
 \justifiedtrue
 
@@ -47,7 +49,7 @@
 
 \include{Introduction}
 \include{Theory}
-\include{LHCDetector}
+%\include{LHCDetector}
 \include{Simulation}
 \include{SearchStrategy}
 \include{Results}
