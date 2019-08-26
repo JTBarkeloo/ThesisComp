@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  17 AUG 2019 23:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  25 AUG 2019 23:32
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main.tex -synctex
 (./main.tex
 LaTeX2e <2018-12-01>
 (./uothesis_3.cls
@@ -1060,7 +1060,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: placeins 2005/04/18  v 2.2
 ) (./main.aux
 (./cover.aux) (./abstract.aux) (./cv.aux) (./Introduction.aux) (./Theory.aux)
-(./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
+(./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux)
+(./appendicies.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -1329,151 +1330,201 @@ Overfull \hbox (26.91597pt too wide) detected at line 10
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 11
- \OT1/cmr/m/n/12 2.4.  
+Overfull \hbox (26.91597pt too wide) detected at line 11
+ \OT1/cmr/m/n/12 2.3.3.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 12
- \OT1/cmr/m/n/12 2.5.  
+ \OT1/cmr/m/n/12 2.4.  
  []
 
 
-Overfull \hbox (16.30678pt too wide) detected at line 13
- \OT1/cmr/m/n/12 III.  
+Overfull \hbox (26.91597pt too wide) detected at line 13
+ \OT1/cmr/m/n/12 2.4.1.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 14
- \OT1/cmr/m/n/12 3.1.  
+Overfull \hbox (26.91597pt too wide) detected at line 14
+ \OT1/cmr/m/n/12 2.4.2.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 15
- \OT1/cmr/m/n/12 3.1.1.  
+ \OT1/cmr/m/n/12 2.4.3.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 16
- \OT1/cmr/m/n/12 3.1.2.  
+Overfull \hbox (31.87698pt too wide) detected at line 16
+ \OT1/cmr/m/n/12 2.5.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 17
- \OT1/cmr/m/n/12 3.1.3.  
+ \OT1/cmr/m/n/12 2.5.1.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 18
- \OT1/cmr/m/n/12 3.2.  
+Overfull \hbox (26.91597pt too wide) detected at line 18
+ \OT1/cmr/m/n/12 2.5.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 19
+ \OT1/cmr/m/n/12 2.5.3.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 20
+ \OT1/cmr/m/n/12 2.5.4.  
  []
 
 [7
 
 
 ]
-Overfull \hbox (26.91597pt too wide) detected at line 19
- \OT1/cmr/m/n/12 3.2.1.  
+Overfull \hbox (16.30678pt too wide) detected at line 21
+ \OT1/cmr/m/n/12 III.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 20
- \OT1/cmr/m/n/12 3.2.2.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 21
- \OT1/cmr/m/n/12 3.2.3.  
+Overfull \hbox (31.87698pt too wide) detected at line 22
+ \OT1/cmr/m/n/12 3.1.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 23
- \OT1/cmr/m/n/12 3.2.4.  
+ \OT1/cmr/m/n/12 3.1.1.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 24
+ \OT1/cmr/m/n/12 3.1.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 25
+ \OT1/cmr/m/n/12 3.1.3.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 26
+ \OT1/cmr/m/n/12 3.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 27
+ \OT1/cmr/m/n/12 3.2.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 28
+ \OT1/cmr/m/n/12 3.2.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 29
+ \OT1/cmr/m/n/12 3.2.3.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 31
+ \OT1/cmr/m/n/12 3.2.4.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 32
  \OT1/cmr/m/n/12 3.2.5.  
  []
 
 
-Overfull \hbox (15.98456pt too wide) detected at line 26
+Overfull \hbox (15.98456pt too wide) detected at line 34
  \OT1/cmr/m/n/12 IV.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 27
+Overfull \hbox (31.87698pt too wide) detected at line 35
  \OT1/cmr/m/n/12 4.1.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 28
+Overfull \hbox (31.87698pt too wide) detected at line 36
  \OT1/cmr/m/n/12 4.2.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 29
+Overfull \hbox (31.87698pt too wide) detected at line 37
  \OT1/cmr/m/n/12 4.3.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 30
+Overfull \hbox (31.87698pt too wide) detected at line 38
  \OT1/cmr/m/n/12 4.4.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 31
+Overfull \hbox (31.87698pt too wide) detected at line 39
  \OT1/cmr/m/n/12 4.5.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 32
+Overfull \hbox (31.87698pt too wide) detected at line 40
  \OT1/cmr/m/n/12 4.6.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 33
+Overfull \hbox (26.91597pt too wide) detected at line 41
  \OT1/cmr/m/n/12 4.6.1.  
  []
 
 
-Overfull \hbox (11.74571pt too wide) detected at line 34
+Overfull \hbox (11.74571pt too wide) detected at line 42
  \OT1/cmr/m/n/12 V.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 35
+Overfull \hbox (31.87698pt too wide) detected at line 43
  \OT1/cmr/m/n/12 5.1.  
  []
 
-
-Overfull \hbox (31.87698pt too wide) detected at line 36
+[8]
+Overfull \hbox (31.87698pt too wide) detected at line 44
  \OT1/cmr/m/n/12 5.2.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 37
+Overfull \hbox (31.87698pt too wide) detected at line 45
  \OT1/cmr/m/n/12 5.3.  
  []
 
 
-Overfull \hbox (15.98456pt too wide) detected at line 38
+Overfull \hbox (15.98456pt too wide) detected at line 46
  \OT1/cmr/m/n/12 VI.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 39
+Overfull \hbox (31.87698pt too wide) detected at line 47
  \OT1/cmr/m/n/12 6.1.  
  []
 
-[8]
-Overfull \hbox (31.87698pt too wide) detected at line 40
+
+Overfull \hbox (31.87698pt too wide) detected at line 48
  \OT1/cmr/m/n/12 6.2.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 41
+Overfull \hbox (31.87698pt too wide) detected at line 49
  \OT1/cmr/m/n/12 6.3.  
+ []
+
+
+Overfull \hbox (11.74571pt too wide) detected at line 51
+ \OT1/cmr/m/n/12 A.  
+ []
+
+
+Overfull \hbox (11.25822pt too wide) detected at line 52
+ \OT1/cmr/m/n/12 B.  
  []
 
 )
@@ -1533,14 +1584,130 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [5]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 67.
+               Default added (so using `tbp') on input line 71.
 
-[6] [7] [8] [9] [10] [11] [12]) [13]
+[6] [7] [8] [9] [10] [11] [12] [13]
+<../ThesisImages/Theory/ttprodxsec.png, id=479, 1986.42125pt x 1353.055pt>
+File: ../ThesisImages/Theory/ttprodxsec.png Graphic file (type png)
+<use ../ThesisImages/Theory/ttprodxsec.png>
+Package pdftex.def Info: ../ThesisImages/Theory/ttprodxsec.png  used on input l
+ine 211.
+(pdftex.def)             Requested size: 433.62pt x 295.36067pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/Theory/singtprodxsec.png, id=480, 829.59938pt x 538.26094pt>
+File: ../ThesisImages/Theory/singtprodxsec.png Graphic file (type png)
+<use ../ThesisImages/Theory/singtprodxsec.png>
+Package pdftex.def Info: ../ThesisImages/Theory/singtprodxsec.png  used on inpu
+t line 218.
+(pdftex.def)             Requested size: 433.62pt x 281.33461pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15 <../ThesisImages/Theory/ttprodxsec.png>]
+<../ThesisImages/Theory/LOPairProdDiags.png, id=499, 740.7675pt x 384.6872pt>
+File: ../ThesisImages/Theory/LOPairProdDiags.png Graphic file (type png)
+<use ../ThesisImages/Theory/LOPairProdDiags.png>
+Package pdftex.def Info: ../ThesisImages/Theory/LOPairProdDiags.png  used on in
+put line 232.
+(pdftex.def)             Requested size: 433.62pt x 225.1849pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <../ThesisImages/Theory/singtprodxsec.png>]
+<../ThesisImages/Theory/LOSingProdDiags.png, id=507, 974.89218pt x 305.64188pt>
+
+File: ../ThesisImages/Theory/LOSingProdDiags.png Graphic file (type png)
+<use ../ThesisImages/Theory/LOSingProdDiags.png>
+Package pdftex.def Info: ../ThesisImages/Theory/LOSingProdDiags.png  used on in
+put line 241.
+(pdftex.def)             Requested size: 433.62pt x 135.94724pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <../ThesisImages/Theory/LOPairProdDiags.png>]
+<../ThesisImages/Theory/SMTopDecays.png, id=518, 969.6225pt x 374.90062pt>
+File: ../ThesisImages/Theory/SMTopDecays.png Graphic file (type png)
+<use ../ThesisImages/Theory/SMTopDecays.png>
+Package pdftex.def Info: ../ThesisImages/Theory/SMTopDecays.png  used on input 
+line 251.
+(pdftex.def)             Requested size: 433.62pt x 167.65686pt.
+ [18 <../ThesisImages/Theory/LOSingProdDiags.png> <../ThesisImages/Theory/SMTop
+Decays.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 258.
+
+<../ThesisImages/Theory/topdecayproducts.jpg, id=528, 602.25pt x 470.75874pt>
+File: ../ThesisImages/Theory/topdecayproducts.jpg Graphic file (type jpg)
+<use ../ThesisImages/Theory/topdecayproducts.jpg>
+Package pdftex.def Info: ../ThesisImages/Theory/topdecayproducts.jpg  used on i
+nput line 274.
+(pdftex.def)             Requested size: 216.81pt x 169.47302pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19] [20 <../ThesisImages/Theory/topdecayproducts.jpg>] [21] [22]
+<../ThesisImages/Theory/GIMDiagramsa.png, id=552, 580.41844pt x 518.6878pt>
+File: ../ThesisImages/Theory/GIMDiagramsa.png Graphic file (type png)
+<use ../ThesisImages/Theory/GIMDiagramsa.png>
+Package pdftex.def Info: ../ThesisImages/Theory/GIMDiagramsa.png  used on input
+ line 306.
+(pdftex.def)             Requested size: 173.44534pt x 154.99812pt.
+ [23 <../ThesisImages/Theory/GIMDiagramsa.png>]
+<../ThesisImages/Theory/GIMDiagrams.png, id=559, 1157.07281pt x 518.6878pt>
+File: ../ThesisImages/Theory/GIMDiagrams.png Graphic file (type png)
+<use ../ThesisImages/Theory/GIMDiagrams.png>
+Package pdftex.def Info: ../ThesisImages/Theory/GIMDiagrams.png  used on input 
+line 319.
+(pdftex.def)             Requested size: 390.25534pt x 174.94273pt.
+ [24 <../ThesisImages/Theory/GIMDiagrams.png>]
+<../ThesisImages/Theory/FCNCLoop.png, id=567, 580.41844pt x 432.11438pt>
+File: ../ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
+<use ../ThesisImages/Theory/FCNCLoop.png>
+Package pdftex.def Info: ../ThesisImages/Theory/FCNCLoop.png  used on input lin
+e 332.
+(pdftex.def)             Requested size: 216.81pt x 161.4095pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 338.
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 353--353
+[]\OT1/cmr/m/n/12 TABLE 2.4. |Ex-pected branch-ing ra-tios for var-i-ous flavor
+-changing neu-tral
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 353--353
+\OT1/cmr/m/n/12 cur-rent pro-cesses in the Stan-dard Model and mul-ti-ple the-o
+-ries that pre-dict
+ []
+
+[25 <../ThesisImages/Theory/FCNCLoop.png>] [26] [27]
+Overfull \hbox (21.8496pt too wide) in paragraph at lines 369--370
+[]\OT1/cmr/bx/n/12 R-Parity Vi-o-lat-ing Su-per-sym-met-ric Mod-els (RPV):  \OT
+1/cmr/m/n/12 An-other su-per-sym-met-ric
+ []
+
+[28]
+<../ThesisImages/Theory/AllFCNCDiagrams.png, id=621, 983.17313pt x 207.02344pt>
+
+File: ../ThesisImages/Theory/AllFCNCDiagrams.png Graphic file (type png)
+<use ../ThesisImages/Theory/AllFCNCDiagrams.png>
+Package pdftex.def Info: ../ThesisImages/Theory/AllFCNCDiagrams.png  used on in
+put line 380.
+(pdftex.def)             Requested size: 433.62pt x 91.30539pt.
+) [29 <../ThesisImages/Theory/AllFCNCDiagrams.PNG>]
 \openout2 = `Simulation.aux'.
 
  (./Simulation.tex
 [Simulation]
-) [14
+) [30
 
 
 
@@ -1549,7 +1716,7 @@ LaTeX Warning: No positions in optional float specifier.
 
  (./SearchStrategy.tex
 [Search Strategy]
-) [15
+) [31
 
 
 
@@ -1582,7 +1749,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
 
-) [16
+) [32
 
 
 
@@ -1591,20 +1758,35 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
  (./Conclusion.tex
 [Complementary Searches and Outlook]
-) [17
+) [33
 
 
 
-] (./main.bbl [18
+]
+\openout2 = `appendicies.aux'.
+
+ (./appendicies.tex (./Derivation_appendix.tex
+[Derivation Information (TOPQ1)]
+) [34
 
 
-]) [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+
+] (./MC_samples_appendix.tex
+[Complete List of Monte Carlo Samples Used]
+) [35
+
+
+]) (./main.bbl [36
+
+
+
+] [37]) [38]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (./main.aux (./cover.aux) (./abstract.aux)
 (./cv.aux) (./Introduction.aux) (./Theory.aux) (./Simulation.aux)
-(./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
+(./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux) (./appendicies.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 
 
  *File List*
@@ -1735,38 +1917,42 @@ abstract.tex
   omscmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
 Introduction.tex
   Theory.tex
+../ThesisImages/Theory/ttprodxsec.png
+../ThesisImages/Theory/singtprodxsec.png
+../ThesisImages/Theory/LOPairProdDiags.png
+../ThesisImages/Theory/LOSingProdDiags.png
+../ThesisImages/Theory/SMTopDecays.png
+../ThesisImages/Theory/topdecayproducts.jpg
+../ThesisImages/Theory/GIMDiagramsa.png
+../ThesisImages/Theory/GIMDiagrams.png
+../ThesisImages/Theory/FCNCLoop.png
+../ThesisImages/Theory/AllFCNCDiagrams.png
 Simulation.tex
 SearchStrategy.tex
  Results.tex
 Conclusion.tex
+appendicies.tex
+Derivation_appendix.tex
+MC_samples_appendix.tex
     main.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: DA3AA4BA35D20699B611FE2CD79081E1;2908
-(rerunfilecheck)             After:  066056F5AAEBEC4B8350C9FDB88DC26C;3246.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: EAB42095CE4EB250893AAEFCD333E870;3822.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 32095 strings out of 492616
- 619054 string characters out of 6132769
- 697738 words of memory out of 5000000
- 35396 multiletter control sequences out of 15000+600000
+ 32289 strings out of 492616
+ 623162 string characters out of 6132769
+ 701593 words of memory out of 5000000
+ 35516 multiletter control sequences out of 15000+600000
  542455 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,13n,83p,3436b,956s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,13n,83p,1869b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-di
@@ -1782,10 +1968,10 @@ e1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on main.pdf (30 pages, 248250 bytes).
+Output written on main.pdf (49 pages, 678774 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 88 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 752 PDF objects out of 1000 (max. 8388607)
+ 637 compressed objects within 7 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 551 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,48 +10,49 @@ A level-1 auxiliary file: Simulation.aux
 A level-1 auxiliary file: SearchStrategy.aux
 A level-1 auxiliary file: Results.aux
 A level-1 auxiliary file: Conclusion.aux
+A level-1 auxiliary file: appendicies.aux
 The style file: unsrt.bst
 Database file #1: main.bib
 Warning--empty journal in TopMass2017
-You've used 17 entries,
+You've used 30 entries,
             1791 wiz_defined-function locations,
-            579 strings with 5947 characters,
-and the built_in function-call counts, 3840 in all, are:
-= -- 352
-> -- 128
+            670 strings with 7894 characters,
+and the built_in function-call counts, 6839 in all, are:
+= -- 622
+> -- 244
 < -- 1
-+ -- 51
-- -- 34
-* -- 245
-:= -- 624
-add.period$ -- 56
-call.type$ -- 17
-change.case$ -- 17
++ -- 95
+- -- 65
+* -- 459
+:= -- 1112
+add.period$ -- 96
+call.type$ -- 30
+change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 164
-empty$ -- 394
-format.name$ -- 34
-if$ -- 864
+cite$ -- 31
+duplicate$ -- 281
+empty$ -- 697
+format.name$ -- 65
+if$ -- 1530
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 17
-newline$ -- 93
-num.names$ -- 17
-pop$ -- 21
+int.to.str$ -- 30
+missing$ -- 30
+newline$ -- 159
+num.names$ -- 30
+pop$ -- 33
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 69
+skip$ -- 113
 stack$ -- 0
-substring$ -- 328
-swap$ -- 26
+substring$ -- 610
+swap$ -- 39
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 34
-width$ -- 19
-write$ -- 197
+while$ -- 60
+width$ -- 32
+write$ -- 342
 (There was 1 warning)

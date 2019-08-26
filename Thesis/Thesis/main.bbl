@@ -95,4 +95,77 @@ Lincoln Wolfenstein.
 \newblock {Parametrization of the Kobayashi-Maskawa Matrix}.
 \newblock {\em Phys. Rev. Lett.}, 51:1945, 1983.
 
+\bibitem{GIM}
+S.~L. Glashow, J.~Iliopoulos, and L.~Maiani.
+\newblock {Weak Interactions with Lepton-Hadron Symmetry}.
+\newblock {\em Phys. Rev.}, D2:1285--1292, 1970.
+
+\bibitem{BDiscovery}
+S.~W. Herb et~al.
+\newblock {Observation of a Dimuon Resonance at 9.5-GeV in 400-GeV
+  Proton-Nucleus Collisions}.
+\newblock {\em Phys. Rev. Lett.}, 39:252--255, 1977.
+
+\bibitem{TopObsD0}
+S.~Abachi et~al.
+\newblock {Search for high mass top quark production in $p\bar{p}$ collisions
+  at $\sqrt{s} = 1.8$ TeV}.
+\newblock {\em Phys. Rev. Lett.}, 74:2422--2426, 1995.
+
+\bibitem{TopReview}
+Markus Cristinziani and Martijn Mulders.
+\newblock {Top-quark physics at the Large Hadron Collider}.
+\newblock {\em J. Phys.}, G44(6):063001, 2017.
+
+\bibitem{2HDM-2}
+J.~A. Aguilar-Saavedra.
+\newblock {Top flavor-changing neutral interactions: Theoretical expectations
+  and experimental detection}.
+\newblock {\em Acta Phys. Polon.}, B35:2695--2710, 2004.
+
+\bibitem{2HDM-3}
+David Atwood, Laura Reina, and Amarjit Soni.
+\newblock {Phenomenology of two Higgs doublet models with flavor changing
+  neutral currents}.
+\newblock {\em Phys. Rev.}, D55:3156--3176, 1997.
+
+\bibitem{QS-1}
+J.~A. Aguilar-Saavedra and B.~M. Nobre.
+\newblock {Rare top decays t ---> c gamma, t ---> cg and CKM unitarity}.
+\newblock {\em Phys. Lett.}, B553:251--260, 2003.
+
+\bibitem{QS-2}
+J.~A. Aguilar-Saavedra.
+\newblock {Effects of mixing with quark singlets}.
+\newblock {\em Phys. Rev.}, D67:035003, 2003.
+\newblock [Erratum: Phys. Rev.D69,099901(2004)].
+
+\bibitem{RPVSusyFCNC}
+Jin~Min Yang, Bing-Lin Young, and X.~Zhang.
+\newblock {Flavor changing top quark decays in r parity violating SUSY}.
+\newblock {\em Phys. Rev.}, D58:055001, 1998.
+
+\bibitem{XDFCNC}
+Kaustubh Agashe, Gilad Perez, and Amarjit Soni.
+\newblock {Collider Signals of Top Quark Flavor Violation from a Warped Extra
+  Dimension}.
+\newblock {\em Phys. Rev.}, D75:015002, 2007.
+
+\bibitem{Trodden:1998ym}
+Mark Trodden.
+\newblock {Electroweak baryogenesis}.
+\newblock {\em Rev. Mod. Phys.}, 71:1463--1500, 1999.
+
+\bibitem{Branco:2011iw}
+G.~C. Branco, P.~M. Ferreira, L.~Lavoura, M.~N. Rebelo, Marc Sher, and Joao~P.
+  Silva.
+\newblock {Theory and phenomenology of two-Higgs-doublet models}.
+\newblock {\em Phys. Rept.}, 516:1--102, 2012.
+
+\bibitem{MSSM-2}
+Andreas Crivellin and Ulrich Nierste.
+\newblock {Chirally enhanced corrections to FCNC processes in the generic
+  MSSM}.
+\newblock {\em Phys. Rev.}, D81:095007, 2010.
+
 \end{thebibliography}
