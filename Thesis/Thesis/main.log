@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  25 AUG 2019 23:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  25 AUG 2019 23:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1694,15 +1694,14 @@ Overfull \hbox (21.8496pt too wide) in paragraph at lines 369--370
 1/cmr/m/n/12 An-other su-per-sym-met-ric
  []
 
-[28]
-<../ThesisImages/Theory/AllFCNCDiagrams.png, id=621, 983.17313pt x 207.02344pt>
+<../ThesisImages/Theory/AllFCNCDiagrams.png, id=615, 983.17313pt x 207.02344pt>
 
 File: ../ThesisImages/Theory/AllFCNCDiagrams.png Graphic file (type png)
 <use ../ThesisImages/Theory/AllFCNCDiagrams.png>
 Package pdftex.def Info: ../ThesisImages/Theory/AllFCNCDiagrams.png  used on in
-put line 380.
+put line 379.
 (pdftex.def)             Requested size: 433.62pt x 91.30539pt.
-) [29 <../ThesisImages/Theory/AllFCNCDiagrams.PNG>]
+[28]) [29 <../ThesisImages/Theory/AllFCNCDiagrams.PNG>]
 \openout2 = `Simulation.aux'.
 
  (./Simulation.tex
@@ -1968,7 +1967,7 @@ e1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on main.pdf (49 pages, 678774 bytes).
+Output written on main.pdf (49 pages, 678881 bytes).
 PDF statistics:
  752 PDF objects out of 1000 (max. 8388607)
  637 compressed objects within 7 object streams
