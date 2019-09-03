@@ -356,6 +356,7 @@ $t\rightarrow c H                    $ & $ 3*10^{-15} $  & $ \leq 2*10^{-3} $ & 
 \end{table}
 
 \subsection{New Physics With Enhancements to FCNCs}
+\label{sec:bsmFCNC}
 Various theoretical models that include physics beyond what is included in the Standard Model are proposed to solve problems that exist with the Standard Model or an explanation of known phenomena that are not in agreement with the Standard Model.  Various models seek to solve different problems, e.g. providing a dark matter candidate or fixing the naturalness problem of the Standard Model resulting from an unexpectedly high amount of fine-tuning from loop corrections to the Higgs mass.  
 Top quark FCNCs in the Standard Model are so currently so far from experimental reach ($\approx 10$ orders of magnitude) that they are impossible to observe even with major improvements to the accelerator and detector techonologies.  Table \ref{tab:FCNCLimits} also shows a variety of theories beyond the Standard Model which predict large enhancements to FCNC top couplings.  For the most part these enhancements come from terms that have very heavy particles moving in the loops.  Therefore searching for FCNCs with top quarks provides a particularly good handle to study models of new physics and rule out the phase spaces of these models by lowering the expected limit.  An explanation of the various models explored in Table \ref{tab:FCNCLimits} follows.
 
@@ -380,10 +381,42 @@ All four the neutral boson mediated FCNC channelss can be searched for individua
 	\caption{Flavor-changing neutral current top quark decays.}
 	\label{fig:AllFCNCs}
 \end{figure}
-%Theories that address naturalness issues in the Standard Model generally have non-trivial flavor structure
 
+The channels involving the all of the various neutral bosns can be serached for with the ATLAS detector in both single-top production modes as well as the decay mode through $t\bar{t}$ events.  All of the production channels provide a sharp separation between $u\rightarrow tX$ and $c\rightarrow tX$ but have fewer statistics than decays in the decay mode using $t\bar{t}$ events.  Some final states of these variouos FCNC events such as those involving the decay mode search for $t\rightarrow q Z$ can explot a tri-lepton final state ($Z\rightarrow ll$, with the other top decaying leptonically$t\rightarrow bW\rightarrow bl\nu$).  The process that involves the Higgs boson has the advantage of looking at a wide range of potential final states of the Higgs and can be successfully tackled using different methods.
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/Theory/fcnc_tXu_sep18.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/Theory/fcnc_tXc_sep18.png}
+	\caption{Flavor-changing limits from a variety of expeiments in every channel $t\rightarrow uX$(top) and $r\rightarrow cX$(bottom).}
+	\label{fig:FCNCLimsBox}
+\end{figure}
 
+Limits have been set on these FCNC processes at various expierments in the past.  The electron-prodon collider HERA at DESY, the electron-proton collider LEP at CERN, and the proton-proton colliders the Tevatron at Fermilab and the LHC at CERN have all had experiments searching for the FCNC proccesses.  The collected limits of these experiments are shown in Figure \ref{fig:FCNCLimsBox}.  Due to the energy of these early colliders 209 GeV center of mass energy for LEP and 318 GeV for HERA only production modes could be searched for as they are below the production threshold for $t\bar{t}$ pairs. The diagrams looked for at these experiments are shown in Figure \ref{fig:fcncHera} (HERA) and Figure \ref{fig:fcncLep} (LEP).
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.4\columnwidth]{../ThesisImages/Theory/HeraFCNC.png}
+	\caption{FCNC diagram for the search in single top production at the electron-proton collider HERA.}
+	\label{fig:fcncHera}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.4\columnwidth]{../ThesisImages/Theory/LepFCNC.png}
+	\caption{FCNC diagram for the search in single top production at the electron-positron collider, LEP.}
+	\label{fig:fcncLep}
+\end{figure}
+
+Shown in Figure \ref{fig:FCNClimits} are the Standard Model theoretical predictions, various beyond the Standard model predictions (as discussed in Section \ref{sec:bsmFCNC}), and experimental limits for all processes $t\rightarrow Xq$ where q is an up-type quark and X is any neutral boson.  
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.9\columnwidth]{../ThesisImages/Theory/AllFCNCLimits.png}
+	\caption{Flavor-changing neutral current theoretical branching ratios and experimental limits (both ATLAS and CMS) updated through 2018.}
+	\label{fig:FCNClimits}
+\end{figure}
+
+Since the publication of Figure \ref{fig:FCNClimits} the ATLAS experiment has published a result in the production mode of the $t\rightarrow q\gamma$ vertex using 81 $\text{fb}^{-1}$ of data (LHC data runs between 2015-2017).  Upper limits have been set on $t\rightarrow u \gamma$ left-handed (right-handed) branching ratio of $2.8\times 10^{-5}$ ($6.1\times 10^{-5}$) and upper limits on $t \rightarrow c \gamma$ left-handed (right-handed) branching ratio of $22\times10^{-5}$ ($18\times10^{-5}$) \cite{GregorFCNC}.  Production mode searches offer better reach for $t\rightarrow u \gamma$ over $t\rightarrow c \gamma$ due to the higher prevelance of up quarks in the parton distribution function of the colliding protons.
+
+This dissertation presents a complementary search for the process $t\rightarrow q \gamma$ to the ATLAS single top production search in the decay channel using top quark pair events.  The process $t\bar{t} \rightarrow bWq\gamma \rightarrow bl\nu q\gamma$ will be searched for using the ATLAS detector.  This final state ($b l \nu q \gamma$) is a straightforward channel in that it has one of each type of object that can be reconstructed with ATLAS.  There are 2 jets from the quarks but one is a b-jet that has qualities that can distinguish it from a normal quark jet which will be discussed in Section \ref{sec:bjetReco}.  In addition to the jets the final state also has a charged lepton (here we will look in the electron and muon channels), a photon, and a neutrino.  The reconstruction of these objects is discussed in Chapter \ref{ch:Simulation}.  The FCNC process is a unique process where a top quark decays directly into an up-type quark and a photon we can require that the jet and photon we measure can be reconstructed into a top quark by making a mass requirement which gives an excellent handle for separating signal and background.
 
 
 

@@ -6,6 +6,7 @@ A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: cv.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Theory.aux
+A level-1 auxiliary file: LHCDetector.aux
 A level-1 auxiliary file: Simulation.aux
 A level-1 auxiliary file: SearchStrategy.aux
 A level-1 auxiliary file: Results.aux
@@ -14,45 +15,50 @@ A level-1 auxiliary file: appendicies.aux
 The style file: unsrt.bst
 Database file #1: main.bib
 Warning--empty journal in TopMass2017
-You've used 30 entries,
+Warning--empty journal in GregorFCNC
+Warning--empty journal in LHCAccComplex
+Warning--empty author in ATLAS
+Warning--empty note in ParticleInteractions
+Warning--empty journal in ATLASCoords
+You've used 36 entries,
             1791 wiz_defined-function locations,
-            670 strings with 7894 characters,
-and the built_in function-call counts, 6839 in all, are:
-= -- 622
-> -- 244
+            706 strings with 8866 characters,
+and the built_in function-call counts, 7761 in all, are:
+= -- 702
+> -- 269
 < -- 1
-+ -- 95
-- -- 65
-* -- 459
-:= -- 1112
-add.period$ -- 96
-call.type$ -- 30
-change.case$ -- 30
++ -- 107
+- -- 71
+* -- 509
+:= -- 1265
+add.period$ -- 114
+call.type$ -- 36
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 281
-empty$ -- 697
-format.name$ -- 65
-if$ -- 1530
+cite$ -- 42
+duplicate$ -- 327
+empty$ -- 795
+format.name$ -- 71
+if$ -- 1727
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 30
-newline$ -- 159
-num.names$ -- 30
-pop$ -- 33
+int.to.str$ -- 36
+missing$ -- 35
+newline$ -- 189
+num.names$ -- 35
+pop$ -- 51
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 113
+skip$ -- 131
 stack$ -- 0
-substring$ -- 610
-swap$ -- 39
+substring$ -- 658
+swap$ -- 41
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 60
-width$ -- 32
-write$ -- 342
-(There was 1 warning)
+warning$ -- 6
+while$ -- 67
+width$ -- 38
+write$ -- 400
+(There were 6 warnings)

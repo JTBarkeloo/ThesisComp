@@ -17,33 +17,42 @@
 \BOOKMARK [2][-]{subsection.2.5.2}{ \040The GIM Mechanism}{section.2.5}% 17
 \BOOKMARK [2][-]{subsection.2.5.3}{ \040New Physics With Enhancements to FCNCs}{section.2.5}% 18
 \BOOKMARK [2][-]{subsection.2.5.4}{ \040Current Measurements of Top FCNCs}{section.2.5}% 19
-\BOOKMARK [0][-]{figure.caption.14}{Simulation}{}% 20
-\BOOKMARK [1][-]{section.3.1}{ \040Simulation of pp collisions}{figure.caption.14}% 21
-\BOOKMARK [2][-]{subsection.3.1.1}{ \040MC Generators Used for LHC Physics}{section.3.1}% 22
-\BOOKMARK [2][-]{subsection.3.1.2}{ \040Detector Simulation}{section.3.1}% 23
-\BOOKMARK [2][-]{subsection.3.1.3}{ \040Showering in the Detector}{section.3.1}% 24
-\BOOKMARK [1][-]{section.3.2}{ \040Object Reconstruction}{figure.caption.14}% 25
-\BOOKMARK [2][-]{subsection.3.2.1}{ \040Electrons}{section.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.2.2}{ \040Photons}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.3}{ \040Jets}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.4}{ \040Muons}{section.3.2}% 29
-\BOOKMARK [2][-]{subsection.3.2.5}{ \040Creation of FCNC Signal Events}{section.3.2}% 30
-\BOOKMARK [0][-]{subsubsection.3.2.5.1}{Search Strategy}{}% 31
-\BOOKMARK [1][-]{section.4.1}{ \040Major Backgrounds}{subsubsection.3.2.5.1}% 32
-\BOOKMARK [1][-]{section.4.2}{ \040Event Reconstruction}{subsubsection.3.2.5.1}% 33
-\BOOKMARK [1][-]{section.4.3}{ \040Data and Simulation Event PreSelection}{subsubsection.3.2.5.1}% 34
-\BOOKMARK [1][-]{section.4.4}{ \040Control and Validation Regions}{subsubsection.3.2.5.1}% 35
-\BOOKMARK [1][-]{section.4.5}{ \040Signal Region}{subsubsection.3.2.5.1}% 36
-\BOOKMARK [1][-]{section.4.6}{ \040Neural Network}{subsubsection.3.2.5.1}% 37
-\BOOKMARK [2][-]{subsection.4.6.1}{ \040Architecture and Studies}{section.4.6}% 38
-\BOOKMARK [0][-]{subsection.4.6.1}{Results}{}% 39
-\BOOKMARK [1][-]{section.5.1}{ \040Uncertainties}{subsection.4.6.1}% 40
-\BOOKMARK [1][-]{section.5.2}{ \040Statistical Treatment of Results}{subsection.4.6.1}% 41
-\BOOKMARK [1][-]{section.5.3}{ \040Limit on Branching Ratio tq}{subsection.4.6.1}% 42
-\BOOKMARK [0][-]{section.5.3}{Complementary Searches and Outlook}{}% 43
-\BOOKMARK [1][-]{section.6.1}{ \040Comparison with Complementary Searches}{section.5.3}% 44
-\BOOKMARK [1][-]{section.6.2}{ \040Future Directions}{section.5.3}% 45
-\BOOKMARK [1][-]{section.6.3}{ \040Conclusion}{section.5.3}% 46
-\BOOKMARK [0][-]{section.6.3}{ \040 Derivation Information \(TOPQ1\)}{}% 47
-\BOOKMARK [0][-]{section.6.3}{ \040 Complete List of Monte Carlo Samples Used}{}% 48
-\BOOKMARK [0][-]{section.6.3}{REFERENCES CITED}{}% 49
+\BOOKMARK [0][-]{figure.caption.18}{The Large Hadron Collider and the ATLAS Detector}{}% 20
+\BOOKMARK [1][-]{section.3.1}{ \040The Large Hadron Collider}{figure.caption.18}% 21
+\BOOKMARK [1][-]{section.3.2}{ \040The ATLAS Detector}{figure.caption.18}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{ \040Coordinate System}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.2}{ \040Magnet Setup}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.3}{ \040Inner Detector}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.4}{ \040Middle Layers, EMCal, HCal}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.5}{ \040Muon Calorimeter}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.6}{ \040Trigger and Data Acquisition}{section.3.2}% 28
+\BOOKMARK [0][-]{figure.caption.30}{Simulation}{}% 29
+\BOOKMARK [1][-]{section.4.1}{ \040Simulation of pp collisions}{figure.caption.30}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{ \040MC Generators Used for LHC Physics}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{ \040Detector Simulation}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.3}{ \040Showering in the Detector}{section.4.1}% 33
+\BOOKMARK [1][-]{section.4.2}{ \040Object Reconstruction}{figure.caption.30}% 34
+\BOOKMARK [2][-]{subsection.4.2.1}{ \040Electrons}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.2}{ \040Photons}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.3}{ \040Jets}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.4}{ \040Muons}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.5}{ \040Creation of FCNC Signal Events}{section.4.2}% 39
+\BOOKMARK [0][-]{subsubsection.4.2.5.1}{Search Strategy}{}% 40
+\BOOKMARK [1][-]{section.5.1}{ \040Major Backgrounds}{subsubsection.4.2.5.1}% 41
+\BOOKMARK [1][-]{section.5.2}{ \040Event Reconstruction}{subsubsection.4.2.5.1}% 42
+\BOOKMARK [1][-]{section.5.3}{ \040Data and Simulation Event PreSelection}{subsubsection.4.2.5.1}% 43
+\BOOKMARK [1][-]{section.5.4}{ \040Control and Validation Regions}{subsubsection.4.2.5.1}% 44
+\BOOKMARK [1][-]{section.5.5}{ \040Signal Region}{subsubsection.4.2.5.1}% 45
+\BOOKMARK [1][-]{section.5.6}{ \040Neural Network}{subsubsection.4.2.5.1}% 46
+\BOOKMARK [2][-]{subsection.5.6.1}{ \040Architecture and Studies}{section.5.6}% 47
+\BOOKMARK [0][-]{subsection.5.6.1}{Results}{}% 48
+\BOOKMARK [1][-]{section.6.1}{ \040Uncertainties}{subsection.5.6.1}% 49
+\BOOKMARK [1][-]{section.6.2}{ \040Statistical Treatment of Results}{subsection.5.6.1}% 50
+\BOOKMARK [1][-]{section.6.3}{ \040Limit on Branching Ratio tq}{subsection.5.6.1}% 51
+\BOOKMARK [0][-]{section.6.3}{Complementary Searches and Outlook}{}% 52
+\BOOKMARK [1][-]{section.7.1}{ \040Comparison with Complementary Searches}{section.6.3}% 53
+\BOOKMARK [1][-]{section.7.2}{ \040Future Directions}{section.6.3}% 54
+\BOOKMARK [1][-]{section.7.3}{ \040Conclusion}{section.6.3}% 55
+\BOOKMARK [0][-]{section.7.3}{ \040 Derivation Information \(TOPQ1\)}{}% 56
+\BOOKMARK [0][-]{section.7.3}{ \040 Complete List of Monte Carlo Samples Used}{}% 57
+\BOOKMARK [0][-]{section.7.3}{REFERENCES CITED}{}% 58
