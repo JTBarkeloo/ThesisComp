@@ -18,48 +18,33 @@
 \contentsline {subsection}{ \numberline {2.5.2} The GIM Mechanism}{23}{subsection.2.5.2}% 
 \contentsline {subsection}{ \numberline {2.5.3} New Physics With Enhancements to FCNCs}{26}{subsection.2.5.3}% 
 \contentsline {subsection}{ \numberline {2.5.4} Current Measurements of Top FCNCs}{29}{subsection.2.5.4}% 
-\contentsline {chapter}{\numberline {III}\uppercase {The Large Hadron Collider and the ATLAS Detector}}{34}{figure.caption.18}% 
-\contentsline {section}{ \numberline {3.1} The Large Hadron Collider}{34}{section.3.1}% 
-\contentsline {section}{ \numberline {3.2} The ATLAS Detector}{35}{section.3.2}% 
-\contentsline {subsection}{ \numberline {3.2.1} Coordinate System}{36}{subsection.3.2.1}% 
-\contentsline {subsection}{ \numberline {3.2.2} Magnet Setup}{37}{subsection.3.2.2}% 
-\contentsline {subsection}{ \numberline {3.2.3} Inner Detector}{37}{subsection.3.2.3}% 
-\contentsline {subsection}{ \numberline {3.2.4} Middle Layers, EMCal, HCal}{38}{subsection.3.2.4}% 
-\contentsline {subsection}{ \numberline {3.2.5} Muon Calorimeter}{39}{subsection.3.2.5}% 
-\contentsline {subsection}{ \numberline {3.2.6} Trigger and Data Acquisition}{40}{subsection.3.2.6}% 
-\contentsline {subsubsection}{ L1Calo}{41}{subsubsection.3.2.6.1}% 
-\contentsline {subsubsection}{ HLT}{41}{subsubsection.3.2.6.2}% 
-\contentsline {subsubsection}{ Luminosity Measurements}{41}{subsubsection.3.2.6.3}% 
-\contentsline {chapter}{\numberline {IV}\uppercase {Simulation}}{43}{figure.caption.30}% 
-\contentsline {section}{ \numberline {4.1} Simulation of pp collisions}{43}{section.4.1}% 
-\contentsline {subsection}{ \numberline {4.1.1} MC Generators Used for LHC Physics}{43}{subsection.4.1.1}% 
-\contentsline {subsection}{ \numberline {4.1.2} Detector Simulation}{43}{subsection.4.1.2}% 
-\contentsline {subsection}{ \numberline {4.1.3} Showering in the Detector}{43}{subsection.4.1.3}% 
-\contentsline {section}{ \numberline {4.2} Object Reconstruction}{43}{section.4.2}% 
-\contentsline {subsection}{ \numberline {4.2.1} Electrons}{43}{subsection.4.2.1}% 
-\contentsline {subsection}{ \numberline {4.2.2} Photons}{43}{subsection.4.2.2}% 
-\contentsline {subsection}{ \numberline {4.2.3} Jets}{43}{subsection.4.2.3}% 
-\contentsline {subsubsection}{ B-Jets}{43}{subsubsection.4.2.3.1}% 
-\contentsline {subsection}{ \numberline {4.2.4} Muons}{43}{subsection.4.2.4}% 
-\contentsline {subsection}{ \numberline {4.2.5} Creation of FCNC Signal Events}{43}{subsection.4.2.5}% 
-\contentsline {subsubsection}{ MadGraph5 amc@NLO}{43}{subsubsection.4.2.5.1}% 
-\contentsline {chapter}{\numberline {V}\uppercase {Search Strategy}}{44}{subsubsection.4.2.5.1}% 
-\contentsline {section}{ \numberline {5.1} Major Backgrounds}{44}{section.5.1}% 
-\contentsline {section}{ \numberline {5.2} Event Reconstruction}{44}{section.5.2}% 
-\contentsline {section}{ \numberline {5.3} Data and Simulation Event PreSelection}{44}{section.5.3}% 
-\contentsline {section}{ \numberline {5.4} Control and Validation Regions}{44}{section.5.4}% 
-\contentsline {section}{ \numberline {5.5} Signal Region}{44}{section.5.5}% 
-\contentsline {section}{ \numberline {5.6} Neural Network}{44}{section.5.6}% 
-\contentsline {subsection}{ \numberline {5.6.1} Architecture and Studies}{44}{subsection.5.6.1}% 
-\contentsline {chapter}{\numberline {VI}\uppercase {Results}}{45}{subsection.5.6.1}% 
-\contentsline {section}{ \numberline {6.1} Uncertainties}{45}{section.6.1}% 
-\contentsline {section}{ \numberline {6.2} Statistical Treatment of Results}{45}{section.6.2}% 
-\contentsline {section}{ \numberline {6.3} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{45}{section.6.3}% 
-\contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{46}{section.6.3}% 
-\contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{46}{section.7.1}% 
-\contentsline {section}{ \numberline {7.2} Future Directions}{46}{section.7.2}% 
-\contentsline {section}{ \numberline {7.3} Conclusion}{46}{section.7.3}% 
- \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
-\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{47}{section.7.3}% 
-\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{48}{section.7.3}% 
-\contentsline {chapter}{REFERENCES CITED}{49}{section.7.3}% 
+\contentsline {chapter}{\numberline {III}\uppercase {Simulation}}{34}{figure.caption.18}% 
+\contentsline {section}{ \numberline {3.1} Simulation of pp collisions}{34}{section.3.1}% 
+\contentsline {subsection}{ \numberline {3.1.1} MC Generators Used for LHC Physics}{34}{subsection.3.1.1}% 
+\contentsline {subsection}{ \numberline {3.1.2} Detector Simulation}{34}{subsection.3.1.2}% 
+\contentsline {subsection}{ \numberline {3.1.3} Showering in the Detector}{34}{subsection.3.1.3}% 
+\contentsline {section}{ \numberline {3.2} Object Reconstruction}{34}{section.3.2}% 
+\contentsline {subsection}{ \numberline {3.2.1} Electrons}{34}{subsection.3.2.1}% 
+\contentsline {subsection}{ \numberline {3.2.2} Photons}{34}{subsection.3.2.2}% 
+\contentsline {subsection}{ \numberline {3.2.3} Jets}{34}{subsection.3.2.3}% 
+\contentsline {subsubsection}{ B-Jets}{34}{subsubsection.3.2.3.1}% 
+\contentsline {subsection}{ \numberline {3.2.4} Muons}{34}{subsection.3.2.4}% 
+\contentsline {subsection}{ \numberline {3.2.5} Creation of FCNC Signal Events}{34}{subsection.3.2.5}% 
+\contentsline {subsubsection}{ MadGraph5 amc@NLO}{34}{subsubsection.3.2.5.1}% 
+\contentsline {chapter}{\numberline {IV}\uppercase {Search Strategy}}{35}{subsubsection.3.2.5.1}% 
+\contentsline {section}{ \numberline {4.1} Major Backgrounds}{35}{section.4.1}% 
+\contentsline {section}{ \numberline {4.2} Event Reconstruction}{35}{section.4.2}% 
+\contentsline {section}{ \numberline {4.3} Data and Simulation Event PreSelection}{35}{section.4.3}% 
+\contentsline {section}{ \numberline {4.4} Control and Validation Regions}{35}{section.4.4}% 
+\contentsline {section}{ \numberline {4.5} Signal Region}{35}{section.4.5}% 
+\contentsline {section}{ \numberline {4.6} Neural Network}{35}{section.4.6}% 
+\contentsline {subsection}{ \numberline {4.6.1} Architecture and Studies}{35}{subsection.4.6.1}% 
+\contentsline {chapter}{\numberline {V}\uppercase {Results}}{36}{subsection.4.6.1}% 
+\contentsline {section}{ \numberline {5.1} Uncertainties}{36}{section.5.1}% 
+\contentsline {section}{ \numberline {5.2} Statistical Treatment of Results}{36}{section.5.2}% 
+\contentsline {section}{ \numberline {5.3} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{36}{section.5.3}% 
+\contentsline {chapter}{\numberline {VI}\uppercase {Complementary Searches and Outlook}}{37}{section.5.3}% 
+\contentsline {section}{ \numberline {6.1} Comparison with Complementary Searches}{37}{section.6.1}% 
+\contentsline {section}{ \numberline {6.2} Future Directions}{37}{section.6.2}% 
+\contentsline {section}{ \numberline {6.3} Conclusion}{37}{section.6.3}% 
+\contentsline {chapter}{REFERENCES CITED}{38}{section.6.3}% 
