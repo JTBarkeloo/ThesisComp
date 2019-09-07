@@ -2,10 +2,22 @@
 \chapter{The Large Hadron Collider and the ATLAS Detector}
 \label{ch:LHCDetector}
 
-This chapter details the experimental details of the collider complex at the LHC and specifically the ATLAS detector used to produce, collect and measure various particle properties.
+This chapter details the experimental details of the collider complex at the LHC and specifically the ATLAS detector used to produce, collect, and measure various particle properties.  The subsystems of the ATLAS detector are described in detail.
 \section{The Large Hadron Collider}
-Section:LHC
+\label{Section:LHC}
+The LHC is the world's largest and most energetic particle accelerator.  As a hadron collider the LHC collides particles made up of quarks, typically proton-proton collisions.  Protons, as opposed to electrons/positrons at a previous collider such as LEP, have much higher mass and have a significantly smaller amount of energy loss during acceleration due to synchrotron radiation (which scales as $\frac{1}{m^4}$).  Due to this the LHC is able to reach a much higher center of mass energy using the same circular ring used by LEP.  
+This higher energy comes at a cost though.  Due to hadrons being made up of constituent partons (quarks and gluons) not all of which interact in any given collision the particles that dont take place in the hard interaction are left over and create a 'messier' environment in the detectors.  Whereas in lepton colliders all of the energy that goes into the collision is present in the final state particles coming from the interaction point.  The implication of this is that hadron colliders cannot known the momentum along the beam axis and only know the momentum in the transverse plane due to conservation of momentum.
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/LHCImages/LHCDetecPlacement.png}
+	\caption[Map of LHC and the various detector experiments: ATLAS, CMS, LHCb, and ALICE located under the Franco-Swiss border near Geneva]{Map of LHC and the various detector experiments: ATLAS, CMS, LHCb, and ALICE  located under the Franco-Swiss border near Geneva\cite{ATLASCoords}}
+	\label{fig:LHCDetPlace}
+\end{figure}
+
+The LHC is housed in a 27 km ring running beneath the Franco-Swiss border near Geneva, Switzerland and accelerates beams of protons (ions) to a center of mass energy of 13 TeV (5 TeV) using two counterpropagating circular beams around the ring.  The particles are then collided at one of the four primary interaction points, each of which house a dedicated detector as shown in Figure \ref{fig:LHCDetPlace}. 
+
+In addition to the LHC beam line the accelerator uses a series of smaller accelerators to increase the energy of the particles before being introduced into the LHC.  This accelerator complex is detailed in Figure \ref{fig:AcceleratorMap}.  The start of the accelerator chain, and source of LHC protons, is the Linear Accelerator 2 (LINAC 2, purple) where hydrogen gas is placed inside of an electric field which separates the protons and electrons.  The remaining protons are passed through radiofrequency (RF) cavities and accelerated to 50 MeV using electric fields which oscillate at a frequency specific to the distance between any two RF cavities.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/LHCImages/AcceleratorComplex.png}
@@ -14,7 +26,57 @@ Section:LHC
 	\label{fig:AcceleratorMap}
 \end{figure}
 
+After leaving LINAC 2 the protons are injected into the Proton Synchrotron Booster (BOOSTER, light purple) and accelerated to 1.4 GeV before being passed to the Proton Synchrotron (PS, magenta) in two batches with a separation of 1.2 seconds.  The PS accelerates the protons to 25 GeV to be injected into the Super Proton Synchrotron (SPS, blue) in a series of four batches seperated by 3.6 seconds and are accelerated to 450 GeV.  The SPS is the second largest accelerator in the complex.  After being reaching the 450 GeV of the SPS the particles are split and injected into the LHC in opposing directions where they are further accelerated to a collision energy of 6.5 TeV per beam leading to a center of mass energy of 13 TeV for the LHC during Run-2.
 
+The first proton-proton collisions were produced in the LHC in 2008 at the injection energy of the SPS, $\sqrt{s} =900$ GeV.  During testing a faulty electrical connection caused a magnet quench, a sudden loss of superconductivity, to occur.  This broke the nearby magnets and caused a delay in operations until late 2009 when LHC Run-1 began at a collision energy of $\sqrt{s} = 7$ TeV and later raised to $\sqrt{s}=8$ TeV in 2012 to complete Run-1.  Various upgrade and repairs on the LHC occured throughout the long shutdown between 2012-2015 where the center of mass energy was increased to the LHC Run-2 energy of $\sqrt{s} = 13$ TeV.
+
+\subsection{LHC Magnets}
+The energies achieved in the collisions are only possible due to the LHC magnets that bend and focus the colliding particles.  The LHC uses the most powerful magnet technology that can be produced on an industrial scale.  There are 1232 superconducting dipole magnets each being 15m in length, weighing 35 tonnes, and producing uniform magnetic fields of up to 8.4 T.  The niobium-titanium cables must be cooled to 1.9 K and operate with a current of 11,800 A.  Of these 1232 magnets 1104 are used to bend the particles around the ring and the remaining 128 are used in the beam dump.  To achieve the same center of mass energy using standard non-superconducting magnets the 27 km LHC would instead have to be upwards of 120 km long.
+
+Since the bunches of particles are charged they will naturally diverge while traveling if not focused.  To correct for this an additional 392 quadrupole magnets, 5-7m in length, are used to focus the beam.  These quadrupoles are used in pairs: one which focuses in the horizontal plane and defocuses in the vertical plane and the other focuses in the vertical plane and defocuses in the horizontal plane.  Together these magnets can keep the beam squeezed to a usable size.  All of these magnets have two aperatures, one for each of the counter-propagating beams.
+
+\subsection{Luminosity}
+The amount of data collected at collider experiments is determined not only by the center of mass energy of colliding particles but also the rate of events produced.  This rate is called the luminosity and can be determined by the square of the number of particles in each bunch (since any one in one bunch can interact with any one in the other), the time between bunches, and the cross section of the bunch (or probability of a collision).
+\[ \mathcal{L}=\frac{1}{\sigma}\frac{dN}{dt} \]
+For any given proton-proton pair the luminosity can be expressed as:
+\[ \mathcal{L}=\frac{1}{4\pi \sigma_x \sigma_y} \]
+and can be expanded for the whole beam with the inclusion of the number of protons per bunch ($N_1$ and $N_2$), the number of bunches ($N_b$), and the frequency at which the bunches overlap ($f$) to:
+\[ \mathcal{L}=\frac{N_1 N_2 N_b f}{4 \pi \sigma_x \sigma_y} \]
+which can be iterated over the running time of the LHC (the total time with beams of proper size and energy propagating through the LHC) giving the total delivered luminosity.  This total integrated luminosity as a function of time during LHC Run-2 is shown in Figure \ref{fig:ATLASLumi}.  This luminosity value can be mulitplied by the probability, or cross section, of any particular final state to obtain the number of times that final state is produced with a given luminosity.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\columnwidth]{../ThesisImages/LHCImages/ATLASLumi.png}
+	\caption{Total integrated luminosity as a function of time delivered by the LHC(green), recorded (yellow) and declared good for physics analysis (blue) by the ATLAS detector throughout Run 2 consisting entirely of 13 TeV $pp$ collisions (figure from the ATLAS Collaboration).}
+	\label{fig:ATLASLumi}
+\end{figure}
+
+
+\subsection{Pileup}
+
+Increasing the luminosity is very beneficial for increasing the statistics needed when searching for rare events but it brings additional challenges as well.  Most interactions at any given detector are not hard-scatter events that correspond to poentially interesting physics cases but are instead soft collisions which create noise in the various detector experiments.  The LHC works hard to deliver as much data to the experiments as possible and delivers bunches of protons at a time.  It is possible for multiple pairs of protons to undergo these soft ineleastic collisions at a time.  The average number of interactions per bunch crossing, or pileup $\langle{\mu}\rangle$, for Run-2 was 33.7, shown in Figure \ref{fig:ATLASmeanIntperCrossing}. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\columnwidth]{../ThesisImages/LHCImages/meanIntperCrossing.png}
+	\caption{Luminosity-weighted distribution of the mean number of interactions per bunch crossing for the entirety of Run 2 shown by individual years, 2015 (yellow), 2016(orange), 2017 (purple), 2018 (green), as well as an integrated total (blue) (figure from the ATLAS Collaboration).
+	}
+	\label{fig:ATLASmeanIntperCrossing}
+\end{figure}
+ The pileup must be accounted for when separating the tracks and energy deposited within a detector from an interesting hard-scatter event from the other soft collisions which occur at nearly the same time.  The difficulty of separating out one event from another can be seen in Figure \ref{fig:HighPileup} where there are 28 reconstructed verticies.  An extreme case of 65 reconstructed verticies is also shown in Figure \ref{fig:HighPileup2}.  As the LHC will continue to operate in the future at higher and higher luminosities the amount of pileup that will need to be dealt with will continue to increase.  
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\columnwidth]{../ThesisImages/LHCImages/28VertexPileup.png}
+	\caption{ A candidate dimuon event ($Z\rightarrow \mu^+ \mu^-$) with 28 reconstructed verticies collected in 2018 with the ATLAS detector.
+	}
+	\label{fig:HighPileup}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\columnwidth]{../ThesisImages/LHCImages/65VertexPileup.png}
+	\caption{ A candidate dimuon event ($Z\rightarrow \mu^+ \mu^-$) with 65 reconstructed verticies collected in 2017 with the ATLAS detector.
+	}
+	\label{fig:HighPileup2}
+\end{figure}
 
 \section{The ATLAS Detector}
 Section:ATLAS
@@ -117,23 +179,7 @@ All of these subsystems lead into actual data farm
 %\subsubsection{Data Farm Information}
 %\subsubsubsection{Trigger Rates}
 %\subsubsubsection{Amount of Data}
-\subsubsection{Luminosity Measurements}
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/LHCImages/ATLASLumi.png}
-	\caption{Total integrated luminosity as a function of time delivered by the LHC(green), recorded (yellow) and declared good for physics analysis (blue) by the ATLAS detector throughout Run 2 consisting entirely of 13 TeV $pp$ collisions.
-	}
-	\label{fig:ATLASLumi}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/LHCImages/meanIntperCrossing.png}
-	\caption{Luminosity-weighted distribution of the mean number of interactions per bunch crossing for the entirety of Run 2 shown by individual years, 2015 (yellow), 2016(orange), 2017 (purple), 2018 (green), as well as an integrated total (blue).
-	}
-	\label{fig:ATLASmeanIntperCrossingi}
-\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%                                                                                                   %%%%%%%% 
