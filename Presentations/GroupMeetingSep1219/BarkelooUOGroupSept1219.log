@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  9 SEP 2019 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  9 SEP 2019 16:10
 entering extended mode
 **./BarkelooUOGroupSept1219.tex
 (BarkelooUOGroupSept1219.tex
@@ -922,7 +922,7 @@ Package pdftex.def Info: ../../Thesis/ThesisImages/fcncttbar.png  used on input
  <../../Thesis/ThesisImages/fcncttbar.png>] [5
 
 ]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 137--137
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 136--136
 [][]  
  []
 
@@ -932,7 +932,7 @@ File: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_leadJet_pt.png Graph
 ic file (type png)
 <use Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_leadJet_pt.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_l
-eadJet_pt.png  used on input line 137.
+eadJet_pt.png  used on input line 136.
 (pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
 <Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_leadJet_pt.png, id=171, 6
 98.61pt x 473.77pt>
@@ -940,7 +940,7 @@ File: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_leadJet_pt.png Graph
 ic file (type png)
 <use Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_leadJet_pt.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_l
-eadJet_pt.png  used on input line 137.
+eadJet_pt.png  used on input line 136.
 (pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
 <Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_photon_pt.png, id=172, 69
 8.61pt x 473.77pt>
@@ -948,7 +948,7 @@ File: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_photon_pt.png Graphi
 c file (type png)
 <use Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_photon_pt.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_p
-hoton_pt.png  used on input line 137.
+hoton_pt.png  used on input line 136.
 (pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
 <Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_photon_pt.png, id=173, 69
 8.61pt x 473.77pt>
@@ -956,7 +956,7 @@ File: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_photon_pt.png Graphi
 c file (type png)
 <use Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_photon_pt.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_p
-hoton_pt.png  used on input line 137.
+hoton_pt.png  used on input line 136.
 (pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
 <Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_lepton_pt.png, id=174, 69
 8.61pt x 473.77pt>
@@ -964,7 +964,7 @@ File: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_lepton_pt.png Graphi
 c file (type png)
 <use Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_lepton_pt.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_l
-epton_pt.png  used on input line 137.
+epton_pt.png  used on input line 136.
 (pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
 <Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_lepton_pt.png, id=175, 69
 8.61pt x 473.77pt>
@@ -972,7 +972,7 @@ File: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_lepton_pt.png Graphi
 c file (type png)
 <use Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_lepton_pt.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_l
-epton_pt.png  used on input line 137.
+epton_pt.png  used on input line 136.
 (pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
 [6
 
@@ -985,7 +985,7 @@ lotsSkip1percent/mu.presel.preselh_photon_pt.png> <./Images/onlyNNCut/plotsSkip
 <Images/neural_net2.jpeg, id=189, 793.96625pt x 389.455pt>
 File: Images/neural_net2.jpeg Graphic file (type jpg)
 <use Images/neural_net2.jpeg>
-Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 178.
+Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 177.
 (pdftex.def)             Requested size: 215.10196pt x 105.5108pt.
  [7
 
@@ -995,7 +995,7 @@ Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 178.
 [9
 
 ]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 224--224
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 223--223
 [][]  
  []
 
@@ -1003,211 +1003,186 @@ Overfull \hbox (0.79733pt too wide) in paragraph at lines 224--224
 File: Images/previousEJetOuts/sigbkg.png Graphic file (type png)
 <use Images/previousEJetOuts/sigbkg.png>
 Package pdftex.def Info: Images/previousEJetOuts/sigbkg.png  used on input line
- 224.
+ 223.
 (pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
 <Images/previousMuJetOuts/sigbkg.png, id=231, 462.528pt x 346.896pt>
 File: Images/previousMuJetOuts/sigbkg.png Graphic file (type png)
 <use Images/previousMuJetOuts/sigbkg.png>
 Package pdftex.def Info: Images/previousMuJetOuts/sigbkg.png  used on input lin
-e 224.
+e 223.
 (pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-<Images/ejetsOuts/sigbkg.png, id=232, 462.528pt x 346.896pt>
-File: Images/ejetsOuts/sigbkg.png Graphic file (type png)
-<use Images/ejetsOuts/sigbkg.png>
-Package pdftex.def Info: Images/ejetsOuts/sigbkg.png  used on input line 224.
-(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-<Images/mujetsOuts/sigbkg.png, id=233, 462.528pt x 346.896pt>
+<Images/mujetsOuts/sigbkg.png, id=232, 462.528pt x 346.896pt>
 File: Images/mujetsOuts/sigbkg.png Graphic file (type png)
 <use Images/mujetsOuts/sigbkg.png>
-Package pdftex.def Info: Images/mujetsOuts/sigbkg.png  used on input line 224.
+Package pdftex.def Info: Images/mujetsOuts/sigbkg.png  used on input line 223.
+(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
+File: Images/mujetsOuts/sigbkg.png Graphic file (type png)
+<use Images/mujetsOuts/sigbkg.png>
+Package pdftex.def Info: Images/mujetsOuts/sigbkg.png  used on input line 223.
 (pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
 [10
 
  <./Images/previousEJetOuts/sigbkg.png> <./Images/previousMuJetOuts/sigbkg.png>
- <./Images/ejetsOuts/sigbkg.png> <./Images/mujetsOuts/sigbkg.png>]
-File: Images/ejetsOuts/sigbkg.png Graphic file (type png)
-<use Images/ejetsOuts/sigbkg.png>
-Package pdftex.def Info: Images/ejetsOuts/sigbkg.png  used on input line 242.
-(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-<Images/ejetsOuts/significance2.png, id=250, 1084.05pt x 722.7pt>
-File: Images/ejetsOuts/significance2.png Graphic file (type png)
-<use Images/ejetsOuts/significance2.png>
-Package pdftex.def Info: Images/ejetsOuts/significance2.png  used on input line
- 242.
-(pdftex.def)             Requested size: 125.37404pt x 83.57741pt.
-<Images/ejetsOuts/SigVsBR.png, id=251, 462.528pt x 346.896pt>
-File: Images/ejetsOuts/SigVsBR.png Graphic file (type png)
-<use Images/ejetsOuts/SigVsBR.png>
-Package pdftex.def Info: Images/ejetsOuts/SigVsBR.png  used on input line 242.
-(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-<Images/ejetsOuts/CutVsBR.png, id=252, 462.528pt x 346.896pt>
-File: Images/ejetsOuts/CutVsBR.png Graphic file (type png)
-<use Images/ejetsOuts/CutVsBR.png>
-Package pdftex.def Info: Images/ejetsOuts/CutVsBR.png  used on input line 242.
-(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
- [11
-
- <./Images/ejetsOuts/significance2.png> <./Images/ejetsOuts/SigVsBR.png> <./Ima
-ges/ejetsOuts/CutVsBR.png>]
+ <./Images/mujetsOuts/sigbkg.png>]
 File: Images/mujetsOuts/sigbkg.png Graphic file (type png)
 <use Images/mujetsOuts/sigbkg.png>
-Package pdftex.def Info: Images/mujetsOuts/sigbkg.png  used on input line 258.
+Package pdftex.def Info: Images/mujetsOuts/sigbkg.png  used on input line 240.
 (pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-<Images/mujetsOuts/significance2.png, id=268, 1084.05pt x 722.7pt>
+<Images/mujetsOuts/significance2.png, id=248, 1084.05pt x 722.7pt>
 File: Images/mujetsOuts/significance2.png Graphic file (type png)
 <use Images/mujetsOuts/significance2.png>
 Package pdftex.def Info: Images/mujetsOuts/significance2.png  used on input lin
-e 258.
+e 240.
 (pdftex.def)             Requested size: 125.37404pt x 83.57741pt.
-<Images/mujetsOuts/SigVsBR.png, id=269, 462.528pt x 346.896pt>
+<Images/mujetsOuts/SigVsBR.png, id=249, 462.528pt x 346.896pt>
 File: Images/mujetsOuts/SigVsBR.png Graphic file (type png)
 <use Images/mujetsOuts/SigVsBR.png>
-Package pdftex.def Info: Images/mujetsOuts/SigVsBR.png  used on input line 258.
+Package pdftex.def Info: Images/mujetsOuts/SigVsBR.png  used on input line 240.
 
 (pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-<Images/mujetsOuts/CutVsBR.png, id=270, 462.528pt x 346.896pt>
+<Images/mujetsOuts/CutVsBR.png, id=250, 462.528pt x 346.896pt>
 File: Images/mujetsOuts/CutVsBR.png Graphic file (type png)
 <use Images/mujetsOuts/CutVsBR.png>
-Package pdftex.def Info: Images/mujetsOuts/CutVsBR.png  used on input line 258.
+Package pdftex.def Info: Images/mujetsOuts/CutVsBR.png  used on input line 240.
 
 (pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
- [12
+ [11
 
  <./Images/mujetsOuts/significance2.png> <./Images/mujetsOuts/SigVsBR.png> <./I
 mages/mujetsOuts/CutVsBR.png>]
-Overfull \hbox (3.85289pt too wide) in paragraph at lines 287--287
+Overfull \hbox (3.85289pt too wide) in paragraph at lines 269--269
 [][]  
  []
 
-<Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_qgam_m.png, id=286, 698.61pt x
+<Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_qgam_m.png, id=266, 698.61pt x
  473.77pt>
 File: Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_qgam_m.png Graphic file (
 type png)
 <use Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_qgam_m.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_qgam_m
-.png  used on input line 287.
+.png  used on input line 269.
 (pdftex.def)             Requested size: 107.55098pt x 72.93477pt.
-<Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_qgam_m.png, id=287, 698.61pt
+<Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_qgam_m.png, id=267, 698.61pt
  x 473.77pt>
 File: Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_qgam_m.png Graphic file
  (type png)
 <use Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_qgam_m.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_qgam
-_m.png  used on input line 287.
+_m.png  used on input line 269.
 (pdftex.def)             Requested size: 107.55098pt x 72.93477pt.
-<Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_sm_top_m.png, id=288, 698.61pt
+<Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_sm_top_m.png, id=268, 698.61pt
  x 473.77pt>
 File: Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_sm_top_m.png Graphic file
  (type png)
 <use Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_sm_top_m.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_sm_top
-_m.png  used on input line 287.
+_m.png  used on input line 269.
 (pdftex.def)             Requested size: 107.55098pt x 72.93477pt.
-<Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_sm_top_m.png, id=289, 698.61
+<Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_sm_top_m.png, id=269, 698.61
 pt x 473.77pt>
 File: Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_sm_top_m.png Graphic fi
 le (type png)
 <use Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_sm_top_m.png>
 Package pdftex.def Info: Images/onlyNNCut/plotsNoSkip_1percent/el.VR1.VR1h_sm_t
-op_m.png  used on input line 287.
+op_m.png  used on input line 269.
 (pdftex.def)             Requested size: 107.55098pt x 72.93477pt.
 
-Overfull \vbox (2.88649pt too high) detected at line 287
+Overfull \vbox (2.88649pt too high) detected at line 269
  []
 
-[13
+[12
 
  <./Images/onlyNNCut/plotsNoSkip_1percent/el.SR.SRh_qgam_m.png> <./Images/onlyN
 NCut/plotsNoSkip_1percent/el.VR1.VR1h_qgam_m.png> <./Images/onlyNNCut/plotsNoSk
 ip_1percent/el.SR.SRh_sm_top_m.png> <./Images/onlyNNCut/plotsNoSkip_1percent/el
-.VR1.VR1h_sm_top_m.png>] [14
+.VR1.VR1h_sm_top_m.png>] [13
+
+] [14
 
 ] [15
-
-] [16
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 356.
+(hyperref)                removing `\translate ' on input line 338.
 
-[17
+[16
 
 ]
-<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=341, 580.41844pt x 432.11438
+<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=321, 580.41844pt x 432.11438
 pt>
 File: ../../Thesis/ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/Theory/FCNCLoop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/FCNCLoop.png  used on
- input line 364.
+ input line 346.
 (pdftex.def)             Requested size: 122.91406pt x 91.50494pt.
-<../../Thesis/ThesisImages/penguinFCNC.png, id=342, 1020.81375pt x 629.35126pt>
+<../../Thesis/ThesisImages/penguinFCNC.png, id=322, 1020.81375pt x 629.35126pt>
 
 File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/penguinFCNC.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/penguinFCNC.png  used on inp
-ut line 364.
+ut line 346.
 (pdftex.def)             Requested size: 122.91406pt x 75.77817pt.
- [18
+ [17
 
  <../../Thesis/ThesisImages/Theory/FCNCLoop.png> <../../Thesis/ThesisImages/pen
 guinFCNC.png>]
-<Images/correlations.png, id=351, 346.896pt x 346.896pt>
+<Images/correlations.png, id=331, 346.896pt x 346.896pt>
 File: Images/correlations.png Graphic file (type png)
 <use Images/correlations.png>
-Package pdftex.def Info: Images/correlations.png  used on input line 369.
+Package pdftex.def Info: Images/correlations.png  used on input line 351.
 (pdftex.def)             Requested size: 188.29498pt x 188.29593pt.
- [19
+ [18
 
- <./Images/correlations.png>] [20
+ <./Images/correlations.png>] [19
 
 ]
-Overfull \hbox (8.68301pt too wide) in paragraph at lines 442--442
+Overfull \hbox (8.68301pt too wide) in paragraph at lines 424--424
 []\OT1/cmss/m/n/10 ['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam
 ','deltaRbl',  
  []
 
-[21
+[20
 
 ]
-<../../Thesis/ThesisImages/2017PeakLumiByFill.pdf, id=375, 569.12625pt x 408.52
+<../../Thesis/ThesisImages/2017PeakLumiByFill.pdf, id=355, 569.12625pt x 408.52
 625pt>
 File: ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf Graphic file (type pdf)
 <use ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf>
 Package pdftex.def Info: ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf  used
- on input line 447.
+ on input line 429.
 (pdftex.def)             Requested size: 307.28987pt x 220.58842pt.
 
-Overfull \vbox (8.85541pt too high) detected at line 447
+Overfull \vbox (8.85541pt too high) detected at line 429
  []
 
-[22
+[21
 
  <../../Thesis/ThesisImages/2017PeakLumiByFill.pdf, page is rotated 90 degrees>
 ]
-<../../Thesis/ThesisImages/BSMDiagrams.png, id=426, 1166.10657pt x 630.10406pt>
+<../../Thesis/ThesisImages/BSMDiagrams.png, id=406, 1166.10657pt x 630.10406pt>
 
 File: ../../Thesis/ThesisImages/BSMDiagrams.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/BSMDiagrams.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/BSMDiagrams.png  used on inp
-ut line 451.
+ut line 433.
 (pdftex.def)             Requested size: 307.28987pt x 166.04416pt.
- [23
+ [22
 
- <../../Thesis/ThesisImages/BSMDiagrams.png>] [24
+ <../../Thesis/ThesisImages/BSMDiagrams.png>] [23
 
 ]
-<../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png, id=441, 903.375pt 
-x 924.45375pt>
-File: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png Graphic file (
-type png)
-<use ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram
-.png  used on input line 472.
+<../../Thesis/ThesisImages/SimulationNN/B-tagging_diagram.png, id=421, 903.375p
+t x 924.45375pt>
+File: ../../Thesis/ThesisImages/SimulationNN/B-tagging_diagram.png Graphic file
+ (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/B-tagging_diagram.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/B-tagging_diagr
+am.png  used on input line 454.
 (pdftex.def)             Requested size: 183.99384pt x 188.29593pt.
- [25
+ [24
 
- <../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>] [26
+ <../../Thesis/ThesisImages/SimulationNN/B-tagging_diagram.png>] [25
 
 ]
 \tf@nav=\write6
@@ -1219,20 +1194,21 @@ Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram
 \tf@snm=\write8
 \openout8 = `BarkelooUOGroupSept1219.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 479.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 479.
- (BarkelooUOGroupSept1219.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 479.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 479.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 461.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 461.
+
+(BarkelooUOGroupSept1219.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 461.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 461.
 Package rerunfilecheck Info: File `BarkelooUOGroupSept1219.out' has not changed
 .
-(rerunfilecheck)             Checksum: 8652DA56B80C032383FD86412493713B;788.
+(rerunfilecheck)             Checksum: 01FA3C5AE34B584A90D2B95135649A82;789.
  ) 
 Here is how much of TeX's memory you used:
- 18713 strings out of 492896
- 361377 string characters out of 3130341
- 434858 words of memory out of 3000000
- 22115 multiletter control sequences out of 15000+200000
+ 18692 strings out of 492896
+ 360775 string characters out of 3130341
+ 435858 words of memory out of 3000000
+ 22097 multiletter control sequences out of 15000+200000
  13595 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,59p,809b,704s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1254,9 +1230,9 @@ miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/jason/.mi
 ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/jason/.mikt
 ex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb></home/jason/.miktex
 /texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on BarkelooUOGroupSept1219.pdf (26 pages, 1231842 bytes).
+Output written on BarkelooUOGroupSept1219.pdf (25 pages, 1129921 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 282 words of extra memory for PDF output out of 10000 (max. 10000000)
 
