@@ -18,7 +18,7 @@
 \begin{document}
 \title{Search for Flavor Changing Neutral Currents in Top Quark Decays}
 \subtitle{$t \rightarrow q \gamma$}
-\subtitle{B-Tagging Working Point and EGamma Fakes}
+\subtitle{B-Tagging Working Point and $e \rightarrow \gamma$ Fakes}
 \author[Barkeloo]{Jason Barkeloo}
 
 \titlegraphic{\includegraphics[width=4cm]{../ATLAS-Logo-Ref-RGB.png}\hspace*{2.75cm}~%
@@ -100,10 +100,32 @@
 	\item Missing Transverse Energy $\geq$ 30GeV
 	\item $\geq 1$ Jets
 	\end{itemize}
-\item Plots shown will be with MC16a and Data15/16 (36.2 $\text{fb}^{-1}$) for quicker turnaround
-\item N.B. we expect slightly higher MC values - $t\bar{t}+\gamma$ sample not finished in time
+\item Further exploration of the BJets will be discussed
 \end{itemize}
 }
+
+\frame{\frametitle{B-tagging}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item
+\item
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\centering
+\includegraphics[height=.65\textheight]{../../Thesis/ThesisImages/SimulationNN/B-tagging_diagram.png}
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{Mv2c10}
+\centering
+\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/SimulationNN/BTagMV2c10andRejVsEff.png}
+
+\href{https://arxiv.org/pdf/1805.01845.pdf}{JHEP 08 (2018) 89}
+}
+
 
 \frame{\frametitle{Neural Network Results}
 \begin{columns}
@@ -115,22 +137,28 @@
 \begin{itemize}
 \item  70\% Working Point
 \end{itemize}
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_leadJet_pt}.png} \\
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_leadJet_pt}.png}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag70/modelouts/significanceejetsboth2hidnpart02.png} \\
+\tiny BR with Sig=2: $1.25\times10^{-5}$\\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag70/modelouts/significancemujetsboth2hidnpart02.png}\\
+BR with Sig=2: $1.31\times10^{-5}$
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
 \item 77\% Working Point
 \end{itemize}
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_photon_pt}.png} \\
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_photon_pt}.png}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significanceejetsboth2hidnpart02.png} \\
+\tiny BR with Sig=2: $1.23\times10^{-5}$\\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significancemujetsboth2hidnpart02.png}\\
+BR with Sig=2: $1.18\times10^{-5}$
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
 \item 85\% Working Point
 \end{itemize}
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_lepton_pt}.png} \\
-\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_lepton_pt}.png}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag85/modelouts/significanceejetsboth2hidnpart02.png} \\
+\tiny BR with Sig=2: $1.28\times10^{-5}$\\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag85/modelouts/significancemujetsboth2hidnpart02.png}\\
+BR with Sig=2: $1.19\times10^{-5}$
 \end{column}
 \end{columns}
 }
@@ -164,39 +192,6 @@
 
 \section{Neural Network}
 \subsection{Neural Network Studies}
-
-\frame{\frametitle{Neural Network Architecture}
-\begin{itemize}
-\item Using Keras on top of Tensorflow various input parameters are tested for model behavior
-\item A Dense Neural Network with variable number of input variables and hidden layers are explored
-\item Cut optimization has been performed with full Run 2 luminosity for potential reach of the search
-\end{itemize}
-\centering
-\includegraphics[width=0.7\textwidth]{Images/neural_net2.jpeg}
-\captionof{figure}{\href{http://cs231n.github.io/neural-networks-1/}{[Ref: Neural Network]}}
-}
-
-\frame{\frametitle{Neural Network Model Inputs}
-\begin{itemize}
-\item Using keras on top of tensorflow various input parameters are tested for model behavior
-\item Networks are set up with 1 input layer, 2 hidden layers with 10 nodes (+1 bias node) \href{https://www.quora.com/What-is-bias-in-artificial-neural-network}{[Ref: Bias]}, and 1 output node
-\item Each hidden layer has 20\% dropout to prevent overtraining by removing codependency between nodes
-\item Batch size of 100 used and each network is allowed 200 epochs (with patience=50), all models converge and end early with reasonable batch sizes
-\item Optimizer: Adam
-\item Loss Function: Binary Cross Entropy
-\item Many sets of input variables tested, best results from follow-up studies shown
-\end{itemize}
-}
-
-\frame{\frametitle{Cut Optimization}
-\begin{itemize}
-\item Follow up changes allow a better limit with a cut that is slightly less harsh (0.96/0.95 instead of 0.98)
-\item Estimated limit reduced by a factor of 2 by reweighting the number of events the model saw by taking advantage of the loss function
-\[\text{Loss} = -\frac{1}{N}\sum_{i=1}^{N}y_{i} \text{log}(p(y_{i}))+(1-y_{i})\text{log}(1-p(y_{i}))\]
-\item y - binary indicator (0 or 1) if class label is the correct classification for observation 
-\item p - predicted probability observation is the class label (0 or 1)
-\end{itemize}
-} 
 
 \frame{\frametitle{Neural Network Separation}
 \begin{columns}
@@ -239,34 +234,32 @@
 Branching ratio with Significance = 2:  2.5e-5
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Neural Network Cut Applied}
-
-\frame{\frametitle{Neural Network Cut Application Electron Channel}
-Signal MC Scaled to .1\% $\sigma_{t\bar{t}}$
-\begin{columns}
-\begin{column}{0.02\textwidth}
-\rotatebox{90}{NN($\leq$ 0.96) \qquad NN($>$0.96)} 
-%\rotatebox{90}{Muon Channel        } 
-\end{column}
-\begin{column}{0.5\textwidth}
-\begin{itemize}
-\item $m_{q\gamma}$
-\end{itemize}
-\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.SR.SRh_qgam_m}.png} \\
-\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.VR1.VR1h_qgam_m}.png}
-\end{column}
-\begin{column}{0.5\textwidth}
-\begin{itemize}
-\item $m_{l \nu b}$
-\end{itemize}
-%\includegraphics[width=.8\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{mu.SR.SRh_lepton_pt}.png} \\
-%\includegraphics[width=.8\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{mu.VR1.VR1h_lepton_pt}.png}
-\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.SR.SRh_sm_top_m}.png} \\
-\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.VR1.VR1h_sm_top_m}.png}
-\end{column}
-\end{columns}
-Binning becomes more of an issue with such few events in SR. Should improve with stats from further MC campaigns. Missing sample very evident here.
-}
+%\frame{\frametitle{Neural Network Cut Application Electron Channel}
+%Signal MC Scaled to .1\% $\sigma_{t\bar{t}}$
+%\begin{columns}
+%\begin{column}{0.02\textwidth}
+%\rotatebox{90}{NN($\leq$ 0.96) \qquad NN($>$0.96)} 
+%%\rotatebox{90}{Muon Channel        } 
+%\end{column}
+%\begin{column}{0.5\textwidth}
+%\begin{itemize}
+%\item $m_{q\gamma}$
+%\end{itemize}
+%\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.SR.SRh_qgam_m}.png} \\
+%\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.VR1.VR1h_qgam_m}.png}
+%\end{column}
+%\begin{column}{0.5\textwidth}
+%\begin{itemize}
+%\item $m_{l \nu b}$
+%\end{itemize}
+%%\includegraphics[width=.8\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{mu.SR.SRh_lepton_pt}.png} \\
+%%\includegraphics[width=.8\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{mu.VR1.VR1h_lepton_pt}.png}
+%\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.SR.SRh_sm_top_m}.png} \\
+%\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.VR1.VR1h_sm_top_m}.png}
+%\end{column}
+%\end{columns}
+%Binning becomes more of an issue with such few events in SR. Should improve with stats from further MC campaigns. Missing sample very evident here.
+%}
 
 %\frame{\frametitle{Objects With NN Cut Electron Channel }
 %\begin{columns}
@@ -294,19 +287,19 @@ Binning becomes more of an issue with such few events in SR. Should improve with
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Continuing Analysis}
-\subsection{Region Creation}
-\frame{\frametitle{Control and Validation Regions}
-\begin{itemize}
-\item Validation and Control Regions are created orthogonal to Signal Region for large backgrounds
-\item VR for ($t\bar{t}+\gamma$), ($W+\gamma$)
-\item CRs for regions without real photons
-\begin{itemize}
-\item These regions include $t\bar{t}$ and $W$ rich samples with 0 good photons, so many events new regions should probably be created
-\end{itemize}
-\item Previous cuts to make these regions make less sense to do now with NN Cuts since NN contains information on all of these cuts
-\end{itemize}
-}
+%\section{Continuing Analysis}
+%\subsection{Region Creation}
+%\frame{\frametitle{Control and Validation Regions}
+%\begin{itemize}
+%\item Validation and Control Regions are created orthogonal to Signal Region for large backgrounds
+%\item VR for ($t\bar{t}+\gamma$), ($W+\gamma$)
+%\item CRs for regions without real photons
+%\begin{itemize}
+%\item These regions include $t\bar{t}$ and $W$ rich samples with 0 good photons, so many events new regions should probably be created
+%\end{itemize}
+%\item Previous cuts to make these regions make less sense to do now with NN Cuts since NN contains information on all of these cuts
+%\end{itemize}
+%}
 
 \subsection{New Ntuple Production}
 \frame{\frametitle{New Ntuple Production}
@@ -324,8 +317,7 @@ Binning becomes more of an issue with such few events in SR. Should improve with
 \frame{\frametitle{Outlook}
 \begin{itemize}
 \item As always, still lots to be done
-\item Fake Rates $e\rightarrow\gamma$ and $j\rightarrow\gamma$ to be investigated
-\item Using full MC16a/Data15,16 for quick iterations, have access to full MC/Data sets 
+\item Fake Rates $e\rightarrow\gamma$ and $j\rightarrow\gamma$ are being investigated, $e\rightarrow \gamma$ shown here, $j\rightarrow \gamma$ to be investigated soon.
 \item Happy with the state of the neural network studies, any further reduction would require significant time for insignificant gain, factor ~2 improvement thanks to feedback I got during this meeting \\
 \item Questions?
 \end{itemize}
@@ -448,10 +440,10 @@ met & 0.47 \\
 \end{itemize}
 }
 
-\frame{\frametitle{B-tagging}
-\centering
-\includegraphics[height=.8\textheight]{../../Thesis/ThesisImages/SimulationNN/B-tagging_diagram.png}
-}
+%\frame{\frametitle{B-tagging}
+%\centering
+%\includegraphics[height=.8\textheight]{../../Thesis/ThesisImages/SimulationNN/B-tagging_diagram.png}
+%}
 
 \frame{\frametitle{}
 \[ \mathcal{L}^{eff}_{tq\gamma} = - e \bar{c} \frac{i \sigma^{\mu\nu}q_{\nu}}{m_t}(\lambda^{L}_{ct}P_L + \lambda^{R}_{ct}P_{R}) t A_{\mu} +H.c.
