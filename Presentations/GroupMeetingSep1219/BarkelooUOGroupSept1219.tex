@@ -103,13 +103,17 @@
 \item Further exploration of the BJets will be discussed
 \end{itemize}
 }
+\section{B-tagging Working Point}
 
 \frame{\frametitle{B-tagging}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{itemize}
-\item
-\item
+\item B Hadrons travel a measureable distance before decay
+\item Tracks originate from outside of interaction point (Seconday Vertex)
+\item Backtracking tracks in displaced vertex gives an impact parameter
+\item Decay chain MVA attempts to reconstruct decay of the jet
+\item Outputs of these algorithms used in a BDT to determine if a Jet is from a b-quark
 \end{itemize}
 \end{column}
 \begin{column}{0.5\textwidth}
@@ -120,13 +124,17 @@
 }
 
 \frame{\frametitle{Mv2c10}
-\centering
-\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/SimulationNN/BTagMV2c10andRejVsEff.png}
-
+MV2c10 is used to tag b-jets. The c10 implies a 10\% c-jet fraction in the background training sample.  Can use various fixed-cut working points for b-jet identification.  \\
+Using a different working point can change which jets are identified as originating from b-quarks in the Analysis.
+\begin{center}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/SimulationNN/BTagMV2c10andRejVsEff.png}\\
 \href{https://arxiv.org/pdf/1805.01845.pdf}{JHEP 08 (2018) 89}
+\end{center}
 }
 
 
+\section{Neural Network}
+\subsection{Neural Network Studies}
 \frame{\frametitle{Neural Network Results}
 \begin{columns}
 \begin{column}{0.02\textwidth}
@@ -190,8 +198,6 @@ BR with Sig=2: $1.19\times10^{-5}$
 %%%%%%%%%%%%%%%%
 
 
-\section{Neural Network}
-\subsection{Neural Network Studies}
 
 \frame{\frametitle{Neural Network Separation}
 \begin{columns}
@@ -201,7 +207,10 @@ BR with Sig=2: $1.19\times10^{-5}$
 \end{column}
 \begin{column}{0.48\textwidth}
 \begin{itemize}
-\item  Previous
+\item  MCee integral small range: 424,051.
+\item DATAee integral small range: 468,832
+\item MCeg integral small range: 110822
+\item DATAeg integral small range: 118198
 \end{itemize}
 \includegraphics[width=.85\textwidth]{Images/previousEJetOuts/sigbkg.png} \\
 \includegraphics[width=.85\textwidth]{Images/previousMuJetOuts/sigbkg.png}
