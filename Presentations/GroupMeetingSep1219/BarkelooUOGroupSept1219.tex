@@ -71,6 +71,7 @@
 \subsection{FCNC at the LHC} 
 
 \frame{\frametitle{FCNC: What are we looking for? $t\bar{t}\rightarrow W (\rightarrow l \nu) b+ q\gamma$}
+Will further investigate BJets here.
 \begin{itemize}
 \item Final state topology
 	\begin{itemize}
@@ -82,29 +83,27 @@
 	\end{itemize}
 \end{itemize}
 \centering
-\includegraphics[width=0.4\textwidth]{../../Thesis/ThesisImages/fcncttbar.png}
+\includegraphics[width=0.35\textwidth]{../../Thesis/ThesisImages/fcncttbar.png}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Object Preselection Cuts }
-
-
-\frame{\frametitle{Object Preselection}
-\begin{itemize}
-\item We preselect events with objects that look like similar to our expected topology
-\item Require:
-	\begin{itemize}
-	\item Exactly one lepton (e or $\mu$) $\geq$ 25 GeV
-	\item Exactly one good photon $\geq$ 15GeV
-	\item Missing Transverse Energy $\geq$ 30GeV
-	\item $\geq 1$ Jets
-	\end{itemize}
-\item Further exploration of the BJets will be discussed
-\end{itemize}
-}
-\section{B-tagging Working Point}
-
+%
+%\subsection{Object Preselection Cuts }
+%\frame{\frametitle{Object Preselection}
+%\begin{itemize}
+%\item We preselect events with objects that look like similar to our expected topology
+%\item Require:
+%	\begin{itemize}
+%	\item Exactly one lepton (e or $\mu$) $\geq$ 25 GeV
+%	\item Exactly one good photon $\geq$ 15GeV
+%	\item Missing Transverse Energy $\geq$ 30GeV
+%	\item $\geq 1$ Jets
+%	\end{itemize}
+%\item Further exploration of the BJets will be discussed
+%\end{itemize}
+%}
+\section{B-tagging Working Point Selection}
+\subsection{B-tagging Background}
 \frame{\frametitle{B-tagging}
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -125,7 +124,7 @@
 
 \frame{\frametitle{Mv2c10}
 MV2c10 is used to tag b-jets. The c10 implies a 10\% c-jet fraction in the background training sample.  Can use various fixed-cut working points for b-jet identification.  \\
-Using a different working point can change which jets are identified as originating from b-quarks in the Analysis.
+Using a different working point can change which jets are identified as originating from b-quarks in the analysis.
 \begin{center}
 \includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/SimulationNN/BTagMV2c10andRejVsEff.png}\\
 \href{https://arxiv.org/pdf/1805.01845.pdf}{JHEP 08 (2018) 89}
@@ -133,8 +132,25 @@ Using a different working point can change which jets are identified as originat
 }
 
 
-\section{Neural Network}
-\subsection{Neural Network Studies}
+\subsection{Neural Network on B-tagging WPs}
+
+\frame{\frametitle{Neural Network Reminder}
+\begin{columns}
+\begin{column}{0.48\textwidth}
+\centering
+\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0sigbkg.png} 
+\includegraphics[width=0.85\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significancemujetsboth2hidnpart02.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+\centering
+\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0SigVsBR.png} 
+\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0CutVsBR.png} 
+\end{column}
+\end{columns}
+Branching ratio with Significance = 2:  1.18e-5
+}
+
+
 \frame{\frametitle{Neural Network Results}
 \begin{columns}
 \begin{column}{0.02\textwidth}
@@ -196,51 +212,84 @@ BR with Sig=2: $1.19\times10^{-5}$
 
 
 %%%%%%%%%%%%%%%%
+\section{$e\rightarrow \gamma$ Fake Rate: Initial Studies}
+\subsection{Initial Studies}
+
+\frame{\frametitle{Fake Rate Studies}
+\begin{centering}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/ZeeFakeDiagram.png}\\
+\end{centering}
+Want to be able to correct the number of fake photons predicted in MC to those present in Data
+}
+
+
+\frame{\frametitle{Fake Rate Object Selection}
+\begin{itemize}
+\item Want to calculate fake rate in events which could enter the signal region.
+\item Create 2 control regions: $Z\rightarrow ee$ and $Z\rightarrow e \gamma$
+\item Require:
+	\begin{itemize}
+	\item Common Object Selection (MET,Jets,Triggers, etc.)
+	\item Exactly 1Bjet
+	\item $Z\rightarrow ee:$ 2 Opposite Sign Electrons, 86.1 GeV $< m_{e^+ e^-} <$96.1 GeV
+	\item $Z\rightarrow e\gamma :$1 Electron, $\geq$1 Photon,  86.1 GeV $< m_{e \gamma} <$96.1 GeV
+
+	\end{itemize}
+\end{itemize}
+}
 
 
 
-\frame{\frametitle{Neural Network Separation}
+\frame{\frametitle{Truth Study / Scale Factor}
+\begin{center}
+\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/TruthStudyFakes.png}
+\end{center}
+Catagories: Simple mis-match, mis-match to truth photon (Reco pt $\geq$10\% higher than truth), non prompt photon, prompt photons
+}
+\subsection{Basic 1D Fake Rate Scale Factor}
+
+\frame{Data and MC \frametitle{$m_{ee}, m_{e\gamma}$}
 \begin{columns}
 \begin{column}{0.02\textwidth}
-\rotatebox{90}{Muon Channel \qquad Electron Channel \qquad} 
+\rotatebox{90}{$m_{e\gamma}$ \qquad \qquad \qquad $m_{ee}$\qquad} 
 %\rotatebox{90}{Muon Channel        } 
 \end{column}
 \begin{column}{0.48\textwidth}
 \begin{itemize}
-\item  MCee integral small range: 424,051.
-\item DATAee integral small range: 468,832
-\item MCeg integral small range: 110822
-\item DATAeg integral small range: 118198
+\item Data
+%\item  MCee integral small range: 424,051.  - Vgam: 429789 - All 430225
+%\item DATAee integral small range: 468,832
+%\item MCeg integral small range: 110822     - Vgam: 115066 - All 152420
+%\item DATAeg integral small range: 118198
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/previousEJetOuts/sigbkg.png} \\
-\includegraphics[width=.85\textwidth]{Images/previousMuJetOuts/sigbkg.png}
+\includegraphics[width=.85\textwidth]{Images/MCVgamee.png} \\
+\includegraphics[width=.85\textwidth]{Images/MCVgameg.png}
 \end{column}
 \begin{column}{0.48\textwidth}
 \begin{itemize}
-\item Current
+\item Monte Carlo
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/mujetsOuts/sigbkg.png} \\
-\includegraphics[width=.85\textwidth]{Images/mujetsOuts/sigbkg.png}
+\includegraphics[width=.85\textwidth]{Images/Dataee.png} \\
+\includegraphics[width=.85\textwidth]{Images/Dataeg.png}
 \end{column}
 \end{columns}
-
 }
 
 
-\frame{\frametitle{Significance Plots, Muon Channel}
-\begin{columns}
-\begin{column}{0.48\textwidth}
+\frame{\frametitle{Scale Factor}
+\[ \text{FR}^{\text{e-fake}}=\frac{N_{e,\gamma}}{N_{e,e}+N_{e,\gamma}}\]
+
+\[  \text{SF}^{\text{e-fake}}_{\text{FR}} = \frac{\text{FR}^{\text{e-fake}}_{\text{data}}}{\text{FR}^{\text{e-fake}}_{\text{MC}}}\]
+Basic Scale Factor can be calculated for the entire spectrum:
+$\text{FR}^{\text{e-fake}}_{\text{data}} = 0.201$\\
+$\text{FR}^{\text{e-fake}}_{\text{MC}} = 0.212$\\
+$\text{SF}^{\text{e-fake}}_{\text{FR}} =0.953$
+}
+
+\subsection{2D Fake Rate Scale Factor}
+\frame{\frametitle{Next Steps - 2D Fake Rate}
 \centering
-\includegraphics[width=0.85\textwidth]{Images/mujetsOuts/sigbkg.png} 
-\includegraphics[width=0.85\textwidth]{Images/mujetsOuts/significance2.png} 
-\end{column}
-\begin{column}{0.48\textwidth}
-\centering
-\includegraphics[width=0.85\textwidth]{Images/mujetsOuts/SigVsBR.png} 
-\includegraphics[width=0.85\textwidth]{Images/mujetsOuts/CutVsBR.png} 
-\end{column}
-\end{columns}
-Branching ratio with Significance = 2:  2.5e-5
+%\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/TruthStudyFakes.png}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\frame{\frametitle{Neural Network Cut Application Electron Channel}
@@ -310,16 +359,7 @@ Branching ratio with Significance = 2:  2.5e-5
 %\end{itemize}
 %}
 
-\subsection{New Ntuple Production}
-\frame{\frametitle{New Ntuple Production}
-\begin{itemize}
-\item New tools have been recently developed in the Top Group (\href{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/VGammaORTool}{Ref:VGammaORTool}, Duplicate Event Removal,etc.)
-\item Replacing Custom Event Saver with that of tt+gamma group, more support and faster integration of new tools
-\item Custom post-grid local processing code developing
-\item Will transition with the currently running ntuples to local mini-ntuple creation
-\item Beginning to work with TRExFitter to push toward the statistical part of the analysis
-\end{itemize}
-}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Outlook and Conclusions}
 
@@ -327,7 +367,7 @@ Branching ratio with Significance = 2:  2.5e-5
 \begin{itemize}
 \item As always, still lots to be done
 \item Fake Rates $e\rightarrow\gamma$ and $j\rightarrow\gamma$ are being investigated, $e\rightarrow \gamma$ shown here, $j\rightarrow \gamma$ to be investigated soon.
-\item Happy with the state of the neural network studies, any further reduction would require significant time for insignificant gain, factor ~2 improvement thanks to feedback I got during this meeting \\
+\item Was able to squeak an extra factor of 2 out of Neural Network since I had to redo it for working points anyway
 \item Questions?
 \end{itemize}
 }
