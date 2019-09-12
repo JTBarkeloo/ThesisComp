@@ -235,6 +235,7 @@ Want to be able to correct the number of fake photons predicted in MC to those p
 	\item $Z\rightarrow e\gamma :$1 Electron, $\geq$1 Photon,  86.1 GeV $< m_{e \gamma} <$96.1 GeV
 
 	\end{itemize}
+\item Tag and Probe Method used 
 \end{itemize}
 }
 
@@ -246,6 +247,7 @@ Want to be able to correct the number of fake photons predicted in MC to those p
 \end{center}
 Catagories: Simple mis-match, mis-match to truth photon (Reco pt $\geq$10\% higher than truth), non prompt photon, prompt photons
 }
+
 \subsection{Basic 1D Fake Rate Scale Factor}
 
 \frame{Data and MC \frametitle{$m_{ee}, m_{e\gamma}$}
@@ -262,15 +264,15 @@ Catagories: Simple mis-match, mis-match to truth photon (Reco pt $\geq$10\% high
 %\item MCeg integral small range: 110822     - Vgam: 115066 - All 152420
 %\item DATAeg integral small range: 118198
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/MCVgamee.png} \\
-\includegraphics[width=.85\textwidth]{Images/MCVgameg.png}
+\includegraphics[width=.85\textwidth]{Images/Dataee.png} \\
+\includegraphics[width=.85\textwidth]{Images/Dataeg.png}
 \end{column}
 \begin{column}{0.48\textwidth}
 \begin{itemize}
 \item Monte Carlo
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/Dataee.png} \\
-\includegraphics[width=.85\textwidth]{Images/Dataeg.png}
+\includegraphics[width=.85\textwidth]{Images/MCVgamee.png} \\
+\includegraphics[width=.85\textwidth]{Images/MCVgameg.png}
 \end{column}
 \end{columns}
 }
@@ -286,78 +288,50 @@ $\text{FR}^{\text{e-fake}}_{\text{MC}} = 0.212$\\
 $\text{SF}^{\text{e-fake}}_{\text{FR}} =0.953$
 }
 
+\frame{\frametitle{Scale Factors As Functions of Probe pt and eta}
+\begin{columns}
+\begin{column}{0.48\textwidth}
+Probe $p_T$
+\includegraphics[width=\textwidth]{Images/pt1DSF.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+Probe $\eta$
+\includegraphics[width=\textwidth]{Images/eta1DSF.png}
+\end{column}
+\end{columns}
+Good to check but in practice these are done using 2D Scale Factors
+}
+
 \subsection{2D Fake Rate Scale Factor}
+
+\frame{\frametitle{Data and MC Distributions}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{ee region \qquad \qquad e$\gamma$ region\qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Data
+\end{itemize}
+\includegraphics[width=.85\textwidth]{Images/dataPhotonElectronPT.png} \\
+\includegraphics[width=.85\textwidth]{Images/dataElectronElectronPT.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Monte Carlo
+\end{itemize}
+\includegraphics[width=.85\textwidth]{Images/mcPhotonElectronPT.png} \\
+\includegraphics[width=.85\textwidth]{Images/mcElectronElectronPT.png}
+\end{column}
+\end{columns}
+}
+
 \frame{\frametitle{Next Steps - 2D Fake Rate}
 \centering
-%\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/TruthStudyFakes.png}
+\includegraphics[width=\textwidth]{Images/2DSF.png}
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\frame{\frametitle{Neural Network Cut Application Electron Channel}
-%Signal MC Scaled to .1\% $\sigma_{t\bar{t}}$
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{NN($\leq$ 0.96) \qquad NN($>$0.96)} 
-%%\rotatebox{90}{Muon Channel        } 
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item $m_{q\gamma}$
-%\end{itemize}
-%\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.SR.SRh_qgam_m}.png} \\
-%\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.VR1.VR1h_qgam_m}.png}
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item $m_{l \nu b}$
-%\end{itemize}
-%%\includegraphics[width=.8\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{mu.SR.SRh_lepton_pt}.png} \\
-%%\includegraphics[width=.8\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{mu.VR1.VR1h_lepton_pt}.png}
-%\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.SR.SRh_sm_top_m}.png} \\
-%\includegraphics[width=.7\textwidth]{Images/onlyNNCut/plotsNoSkip_1percent/{el.VR1.VR1h_sm_top_m}.png}
-%\end{column}
-%\end{columns}
-%Binning becomes more of an issue with such few events in SR. Should improve with stats from further MC campaigns. Missing sample very evident here.
-%}
 
-%\frame{\frametitle{Objects With NN Cut Electron Channel }
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{Background \qquad  Signal Region} 
-%%\rotatebox{90}{Muon Channel        } 
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item $\gamma_{iso}$
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/photon0_iso.png} \\
-%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/photon0_iso.png}
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item $\Delta R_{j\gamma}$
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/deltaRjgam.png} \\
-%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/deltaRjgam.png}
-%\end{column}
-%\end{columns}
-%}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\section{Continuing Analysis}
-%\subsection{Region Creation}
-%\frame{\frametitle{Control and Validation Regions}
-%\begin{itemize}
-%\item Validation and Control Regions are created orthogonal to Signal Region for large backgrounds
-%\item VR for ($t\bar{t}+\gamma$), ($W+\gamma$)
-%\item CRs for regions without real photons
-%\begin{itemize}
-%\item These regions include $t\bar{t}$ and $W$ rich samples with 0 good photons, so many events new regions should probably be created
-%\end{itemize}
-%\item Previous cuts to make these regions make less sense to do now with NN Cuts since NN contains information on all of these cuts
-%\end{itemize}
-%}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -366,7 +340,8 @@ $\text{SF}^{\text{e-fake}}_{\text{FR}} =0.953$
 \frame{\frametitle{Outlook}
 \begin{itemize}
 \item As always, still lots to be done
-\item Fake Rates $e\rightarrow\gamma$ and $j\rightarrow\gamma$ are being investigated, $e\rightarrow \gamma$ shown here, $j\rightarrow \gamma$ to be investigated soon.
+\item Fake Rate: $e\rightarrow\gamma$ has been investigated, further systematic investigations will continue
+\item Fake Rate: $j\rightarrow \gamma$ to be investigated soon
 \item Was able to squeak an extra factor of 2 out of Neural Network since I had to redo it for working points anyway
 \item Questions?
 \end{itemize}

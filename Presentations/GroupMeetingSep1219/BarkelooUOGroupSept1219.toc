@@ -7,6 +7,6 @@
 \beamer@sectionintoc {3}{$e\rightarrow \gamma $ Fake Rate: Initial Studies}{9}{0}{3}
 \beamer@subsectionintoc {3}{1}{Initial Studies}{9}{0}{3}
 \beamer@subsectionintoc {3}{2}{Basic 1D Fake Rate Scale Factor}{12}{0}{3}
-\beamer@subsectionintoc {3}{3}{2D Fake Rate Scale Factor}{14}{0}{3}
-\beamer@sectionintoc {4}{Outlook and Conclusions}{15}{0}{4}
-\beamer@sectionintoc {5}{Backup}{16}{1}{5}
+\beamer@subsectionintoc {3}{3}{2D Fake Rate Scale Factor}{15}{0}{3}
+\beamer@sectionintoc {4}{Outlook and Conclusions}{17}{0}{4}
+\beamer@sectionintoc {5}{Backup}{18}{1}{5}
