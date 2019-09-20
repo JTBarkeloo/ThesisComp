@@ -11,54 +11,58 @@ A level-1 auxiliary file: Simulation.aux
 A level-1 auxiliary file: SearchStrategy.aux
 A level-1 auxiliary file: Results.aux
 A level-1 auxiliary file: Conclusion.aux
-A level-1 auxiliary file: appendicies.aux
 The style file: unsrt.bst
 Database file #1: main.bib
 Warning--empty journal in TopMass2017
 Warning--empty journal in GregorFCNC
+Warning--empty journal in ATLASCoords
 Warning--empty journal in LHCAccComplex
 Warning--empty author in ATLAS
 Warning--empty note in ParticleInteractions
-Warning--empty journal in ATLASCoords
-You've used 36 entries,
+Warning--empty institution in Capeans:1291633
+Warning--empty author and editor in CERN-LHCC-97-016
+Warning--empty author and editor in CERN-LHCC-96-041
+Warning--empty author and editor in CERN-LHCC-96-042
+Warning--empty note in Outreach:1457044
+You've used 43 entries,
             1791 wiz_defined-function locations,
-            706 strings with 8866 characters,
-and the built_in function-call counts, 7761 in all, are:
-= -- 702
-> -- 269
-< -- 1
-+ -- 107
-- -- 71
-* -- 509
-:= -- 1265
-add.period$ -- 114
-call.type$ -- 36
-change.case$ -- 36
+            743 strings with 10126 characters,
+and the built_in function-call counts, 8872 in all, are:
+= -- 798
+> -- 316
+< -- 2
++ -- 127
+- -- 84
+* -- 581
+:= -- 1449
+add.period$ -- 135
+call.type$ -- 43
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 327
-empty$ -- 795
-format.name$ -- 71
-if$ -- 1727
+cite$ -- 54
+duplicate$ -- 389
+empty$ -- 910
+format.name$ -- 84
+if$ -- 1974
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 35
-newline$ -- 189
-num.names$ -- 35
-pop$ -- 51
+int.to.str$ -- 43
+missing$ -- 40
+newline$ -- 221
+num.names$ -- 39
+pop$ -- 69
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 131
+skip$ -- 148
 stack$ -- 0
-substring$ -- 658
-swap$ -- 41
-text.length$ -- 1
+substring$ -- 676
+swap$ -- 47
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 67
-width$ -- 38
-write$ -- 400
-(There were 6 warnings)
+warning$ -- 11
+while$ -- 73
+width$ -- 45
+write$ -- 471
+(There were 11 warnings)

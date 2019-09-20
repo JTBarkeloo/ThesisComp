@@ -175,6 +175,12 @@ Georges Aad et~al.
   13$ TeV with the ATLAS experiment}.
 \newblock 2019.
 
+\bibitem{ATLASCoords}
+Fabian Kuger.
+\newblock Signal formation processes in micromegas detectors and quality
+  control for large size detector construction for the atlas new small wheel.
+\newblock 08 2017.
+
 \bibitem{LHCAccComplex}
 Esma Mobs.
 \newblock {The CERN accelerator complex. Complexe des accélérateurs du CERN}.
@@ -191,11 +197,41 @@ Joao Pequenao.
   detector.}
 \newblock Mar 2008.
 
-\bibitem{ATLASCoords}
-Fabian Kuger.
-\newblock Signal formation processes in micromegas detectors and quality
-  control for large size detector construction for the atlas new small wheel.
-\newblock 08 2017.
+\bibitem{Capeans:1291633}
+M~Capeans, G~Darbo, K~Einsweiller, M~Elsing, T~Flick, M~Garcia-Sciveres,
+  C~Gemme, H~Pernegger, O~Rohne, and R~Vuillermet.
+\newblock {ATLAS Insertable B-Layer Technical Design Report}.
+\newblock Technical Report CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
+
+\bibitem{CERN-LHCC-97-016}
+{\em {ATLAS inner detector: Technical Design Report, 1}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1997.
+
+\bibitem{Takubo:2017wvt}
+Yosuke Takubo.
+\newblock {ATLAS IBL operational experience}.
+\newblock {\em PoS}, Vertex2016:004, 2017.
+
+\bibitem{Potamianos:2016ptf}
+Karolos Potamianos.
+\newblock {The upgraded Pixel detector and the commissioning of the Inner
+  Detector tracking of the ATLAS experiment for Run-2 at the Large Hadron
+  Collider}.
+\newblock {\em PoS}, EPS-HEP2015:261, 2015.
+
+\bibitem{CERN-LHCC-96-041}
+{\em {ATLAS liquid-argon calorimeter: Technical Design Report}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1996.
+
+\bibitem{CERN-LHCC-96-042}
+{\em {ATLAS tile calorimeter: Technical Design Report}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1996.
+
+\bibitem{Outreach:1457044}
+ATLAS Outreach.
+\newblock {ATLAS Fact Sheet : To raise awareness of the ATLAS detector and
+  collaboration on the LHC}.
+\newblock 2010.
 
 \bibitem{ATLASTDAQ}
 Moritz Backes.
