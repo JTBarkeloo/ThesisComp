@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  27 SEP 2019 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  27 SEP 2019 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1058,7 +1058,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
-) (./main.aux)
+) (./main.aux
+(./cover.aux) (./abstract.aux) (./cv.aux) (./Introduction.aux) (./Theory.aux)
+(./LHCDetector.aux
+
+LaTeX Warning: Label `fig:ATLASInnerDet' multiply defined.
+
+) (./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -1079,7 +1085,6 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count388
@@ -1281,40 +1286,339 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
+(./main.toc
+Overfull \hbox (7.17632pt too wide) detected at line 2
+ \OT1/cmr/m/n/12 I.  
+ []
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-\tf@toc=\write6
-\openout6 = `main.toc'.
+Overfull \hbox (31.87698pt too wide) detected at line 3
+ \OT1/cmr/m/n/12 1.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 4
+ \OT1/cmr/m/n/12 1.2.  
+ []
+
+
+Overfull \hbox (11.74155pt too wide) detected at line 5
+ \OT1/cmr/m/n/12 II.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 6
+ \OT1/cmr/m/n/12 2.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 7
+ \OT1/cmr/m/n/12 2.2.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 8
+ \OT1/cmr/m/n/12 2.3.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 9
+ \OT1/cmr/m/n/12 2.3.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 10
+ \OT1/cmr/m/n/12 2.3.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 11
+ \OT1/cmr/m/n/12 2.3.3.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 12
+ \OT1/cmr/m/n/12 2.4.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 13
+ \OT1/cmr/m/n/12 2.4.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 14
+ \OT1/cmr/m/n/12 2.4.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 15
+ \OT1/cmr/m/n/12 2.4.3.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 16
+ \OT1/cmr/m/n/12 2.5.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 17
+ \OT1/cmr/m/n/12 2.5.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 18
+ \OT1/cmr/m/n/12 2.5.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 19
+ \OT1/cmr/m/n/12 2.5.3.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 20
+ \OT1/cmr/m/n/12 2.5.4.  
+ []
 
 [7
 
 
 ]
+Overfull \hbox (16.30678pt too wide) detected at line 21
+ \OT1/cmr/m/n/12 III.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 22
+ \OT1/cmr/m/n/12 3.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 23
+ \OT1/cmr/m/n/12 3.1.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 24
+ \OT1/cmr/m/n/12 3.1.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 25
+ \OT1/cmr/m/n/12 3.1.3.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 26
+ \OT1/cmr/m/n/12 3.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 27
+ \OT1/cmr/m/n/12 3.2.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 28
+ \OT1/cmr/m/n/12 3.2.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 29
+ \OT1/cmr/m/n/12 3.2.3.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 30
+ \OT1/cmr/m/n/12 3.2.4.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 31
+ \OT1/cmr/m/n/12 3.2.5.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 32
+ \OT1/cmr/m/n/12 3.2.6.  
+ []
+
+
+Overfull \hbox (15.98456pt too wide) detected at line 35
+ \OT1/cmr/m/n/12 IV.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 36
+ \OT1/cmr/m/n/12 4.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 37
+ \OT1/cmr/m/n/12 4.1.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 38
+ \OT1/cmr/m/n/12 4.1.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 39
+ \OT1/cmr/m/n/12 4.1.3.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 40
+ \OT1/cmr/m/n/12 4.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 41
+ \OT1/cmr/m/n/12 4.2.1.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 42
+ \OT1/cmr/m/n/12 4.2.2.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 43
+ \OT1/cmr/m/n/12 4.2.3.  
+ []
+
+[8]
+Overfull \hbox (26.91597pt too wide) detected at line 45
+ \OT1/cmr/m/n/12 4.2.4.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 46
+ \OT1/cmr/m/n/12 4.2.5.  
+ []
+
+
+Overfull \hbox (11.74571pt too wide) detected at line 48
+ \OT1/cmr/m/n/12 V.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 49
+ \OT1/cmr/m/n/12 5.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 50
+ \OT1/cmr/m/n/12 5.2.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 51
+ \OT1/cmr/m/n/12 5.3.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 52
+ \OT1/cmr/m/n/12 5.4.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 53
+ \OT1/cmr/m/n/12 5.5.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 54
+ \OT1/cmr/m/n/12 5.6.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 55
+ \OT1/cmr/m/n/12 5.6.1.  
+ []
+
+
+Overfull \hbox (15.98456pt too wide) detected at line 56
+ \OT1/cmr/m/n/12 VI.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 57
+ \OT1/cmr/m/n/12 6.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 58
+ \OT1/cmr/m/n/12 6.2.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 59
+ \OT1/cmr/m/n/12 6.3.  
+ []
+
+
+Overfull \hbox (20.54979pt too wide) detected at line 60
+ \OT1/cmr/m/n/12 VII.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 61
+ \OT1/cmr/m/n/12 7.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 62
+ \OT1/cmr/m/n/12 7.2.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 63
+ \OT1/cmr/m/n/12 7.3.  
+ []
+
+)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
+(./main.lof
 
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+Package natbib Warning: Citation `TopWG' on page x undefined on input line 15.
 
+
+Underfull \hbox (badness 4819) in paragraph at lines 15--15
+  [][]\OT1/cmr/m/n/12 Flavor-changing neutral current theoretical branching rat
+ios and 
+ []
+
+[10
+
+] [11])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-[8
-
-]
+ [12]
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
+(./main.lot
 
-Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+Package natbib Warning: Citation `2HDM-2' on page xiii undefined on input line 
+5.
 
+)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
-[9
+ [13
 
 ]
 \openout2 = `Introduction.aux'.
@@ -1377,42 +1681,16 @@ Package natbib Warning: Citation `RPVSUSY' on page 2 undefined on input line 14
 
 Package natbib Warning: Citation `2HDM' on page 2 undefined on input line 14.
 
-
-LaTeX Warning: Reference `ch:Theory' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Reference `ch:LHCDetector' on page 2 undefined on input line 16.
-
-
-
-LaTeX Warning: Reference `ch:Simulation' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Reference `ch:SearchStrategy' on page 2 undefined on input line 
-16.
-
-
-LaTeX Warning: Reference `ch:Results' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Reference `ch:Conclusion' on page 2 undefined on input line 16.
-
 ) [2] [3]
 \openout2 = `Theory.aux'.
 
  (./Theory.tex
 [Theory]
-
-LaTeX Warning: Reference `tab:SM' on page 4 undefined on input line 13.
-
 [4
 
 
 
 ]
-
-LaTeX Warning: Reference `tab:SM' on page 5 undefined on input line 17.
-
 
 Package natbib Warning: Citation `PDG2018' on page 5 undefined on input line 57
 .
@@ -1426,13 +1704,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5]
 
-LaTeX Warning: Reference `SMParticles' on page 6 undefined on input line 70.
-
-
-LaTeX Warning: Reference `tab:SMGaugePart' on page 6 undefined on input line 70
-.
-
-
 Package natbib Warning: Citation `GrossmanLecture' on page 6 undefined on input
  line 70.
 
@@ -1440,11 +1711,7 @@ Package natbib Warning: Citation `GrossmanLecture' on page 6 undefined on input
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 71.
 
-[6]
-
-LaTeX Warning: Reference `sec:EWSB' on page 7 undefined on input line 100.
-
-[7] [8] [9] [10] [11]
+[6] [7] [8] [9] [10] [11]
 
 Package natbib Warning: Citation `CKM1' on page 12 undefined on input line 168.
 
@@ -1486,7 +1753,7 @@ Package natbib Warning: Citation `TopObs' on page 14 undefined on input line 20
 Package natbib Warning: Citation `TopObsD0' on page 14 undefined on input line 
 208.
 
-<../ThesisImages/Theory/ttprodxsec.png, id=149, 1986.42125pt x 1353.055pt>
+<../ThesisImages/Theory/ttprodxsec.png, id=562, 1986.42125pt x 1353.055pt>
 File: ../ThesisImages/Theory/ttprodxsec.png Graphic file (type png)
 <use ../ThesisImages/Theory/ttprodxsec.png>
 Package pdftex.def Info: ../ThesisImages/Theory/ttprodxsec.png  used on input l
@@ -1503,7 +1770,7 @@ Package natbib Warning: Citation `TopWG' on page 14 undefined on input line 212
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/Theory/singtprodxsec.png, id=150, 829.59938pt x 538.26094pt>
+<../ThesisImages/Theory/singtprodxsec.png, id=563, 829.59938pt x 538.26094pt>
 File: ../ThesisImages/Theory/singtprodxsec.png Graphic file (type png)
 <use ../ThesisImages/Theory/singtprodxsec.png>
 Package pdftex.def Info: ../ThesisImages/Theory/singtprodxsec.png  used on inpu
@@ -1520,40 +1787,19 @@ Package natbib Warning: Citation `TopWG' on page 14 undefined on input line 219
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:ttbarXSec' on page 14 undefined on input line 223
-.
-
 [14] [15 <../ThesisImages/Theory/ttprodxsec.png>]
-
-LaTeX Warning: Reference `fig:LOprod' on page 16 undefined on input line 228.
-
-
-LaTeX Warning: Reference `fig:LOprod' on page 16 undefined on input line 228.
-
-
-LaTeX Warning: Reference `fig:ttbarXSec' on page 16 undefined on input line 228
-.
-
-<../ThesisImages/Theory/LOPairProdDiags.png, id=162, 740.7675pt x 384.6872pt>
+<../ThesisImages/Theory/LOPairProdDiags.png, id=577, 740.7675pt x 384.6872pt>
 File: ../ThesisImages/Theory/LOPairProdDiags.png Graphic file (type png)
 <use ../ThesisImages/Theory/LOPairProdDiags.png>
 Package pdftex.def Info: ../ThesisImages/Theory/LOPairProdDiags.png  used on in
 put line 232.
 (pdftex.def)             Requested size: 433.62pt x 225.1849pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:LOprodSing' on page 16 undefined on input line 23
-7.
-
-
-LaTeX Warning: Reference `fig:singtXSec' on page 16 undefined on input line 237
-.
-
 [16 <../ThesisImages/Theory/singtprodxsec.png>]
-<../ThesisImages/Theory/LOSingProdDiags.png, id=171, 974.89218pt x 305.64188pt>
+<../ThesisImages/Theory/LOSingProdDiags.png, id=585, 974.89218pt x 305.64188pt>
 
 File: ../ThesisImages/Theory/LOSingProdDiags.png Graphic file (type png)
 <use ../ThesisImages/Theory/LOSingProdDiags.png>
@@ -1564,50 +1810,20 @@ put line 241.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:SMDecays' on page 17 undefined on input line 246.
-
-
-
-LaTeX Warning: Reference `fig:SMDecays' on page 17 undefined on input line 246.
-
-
-
-LaTeX Warning: Reference `sec:CKM' on page 17 undefined on input line 246.
-
-
-LaTeX Warning: Reference `fig:SMDecays' on page 17 undefined on input line 246.
-
-
-
-LaTeX Warning: Reference `sec:FCNC' on page 17 undefined on input line 246.
-
 [17 <../ThesisImages/Theory/LOPairProdDiags.png>]
-<../ThesisImages/Theory/SMTopDecays.png, id=179, 969.6225pt x 374.90062pt>
+<../ThesisImages/Theory/SMTopDecays.png, id=596, 969.6225pt x 374.90062pt>
 File: ../ThesisImages/Theory/SMTopDecays.png Graphic file (type png)
 <use ../ThesisImages/Theory/SMTopDecays.png>
 Package pdftex.def Info: ../ThesisImages/Theory/SMTopDecays.png  used on input 
 line 251.
 (pdftex.def)             Requested size: 433.62pt x 167.65686pt.
-
-
-LaTeX Warning: Reference `fig:ttdecayprods' on page 18 undefined on input line 
-256.
-
-
-LaTeX Warning: Reference `tab:WFinals' on page 18 undefined on input line 256.
-
-
-LaTeX Warning: Reference `fig:ttdecayprods' on page 18 undefined on input line 
-256.
-
-[18 <../ThesisImages/Theory/LOSingProdDiags.png> <../ThesisImages/Theory/SMTopD
-ecays.png>]
+ [18 <../ThesisImages/Theory/LOSingProdDiags.png> <../ThesisImages/Theory/SMTop
+Decays.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 258.
 
-<../ThesisImages/Theory/topdecayproducts.jpg, id=188, 602.25pt x 470.75874pt>
+<../ThesisImages/Theory/topdecayproducts.jpg, id=607, 602.25pt x 470.75874pt>
 File: ../ThesisImages/Theory/topdecayproducts.jpg Graphic file (type jpg)
 <use ../ThesisImages/Theory/topdecayproducts.jpg>
 Package pdftex.def Info: ../ThesisImages/Theory/topdecayproducts.jpg  used on i
@@ -1629,54 +1845,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Package natbib Warning: Citation `TopReview' on page 20 undefined on input line
  282.
 
-[20 <../ThesisImages/Theory/topdecayproducts.jpg>]
-
-LaTeX Warning: Reference `tab:SMGaugePart' on page 21 undefined on input line 2
-89.
-
-
-LaTeX Warning: Reference `fig:SMDecays' on page 21 undefined on input line 289.
-
-
-[21]
-
-LaTeX Warning: Reference `fig:SMDecays' on page 22 undefined on input line 297.
-
-
-[22]
-
-LaTeX Warning: Reference `fig:KaonBox' on page 23 undefined on input line 303.
-
-<../ThesisImages/Theory/GIMDiagramsa.png, id=211, 580.41844pt x 518.6878pt>
+[20 <../ThesisImages/Theory/topdecayproducts.jpg>] [21] [22]
+<../ThesisImages/Theory/GIMDiagramsa.png, id=629, 580.41844pt x 518.6878pt>
 File: ../ThesisImages/Theory/GIMDiagramsa.png Graphic file (type png)
 <use ../ThesisImages/Theory/GIMDiagramsa.png>
 Package pdftex.def Info: ../ThesisImages/Theory/GIMDiagramsa.png  used on input
  line 307.
 (pdftex.def)             Requested size: 173.44534pt x 154.99812pt.
-[23 <../ThesisImages/Theory/GIMDiagramsa.png>]
+ [23 <../ThesisImages/Theory/GIMDiagramsa.png>]
 
 Package natbib Warning: Citation `GIM' on page 24 undefined on input line 316.
 
-<../ThesisImages/Theory/GIMDiagrams.png, id=219, 1157.07281pt x 518.6878pt>
+<../ThesisImages/Theory/GIMDiagrams.png, id=635, 1157.07281pt x 518.6878pt>
 File: ../ThesisImages/Theory/GIMDiagrams.png Graphic file (type png)
 <use ../ThesisImages/Theory/GIMDiagrams.png>
 Package pdftex.def Info: ../ThesisImages/Theory/GIMDiagrams.png  used on input 
 line 320.
 (pdftex.def)             Requested size: 390.25534pt x 174.94273pt.
-
-LaTeX Warning: Reference `fig:KaonBox2' on page 24 undefined on input line 329.
-
-
-
-LaTeX Warning: Reference `fig:FCNCLoop' on page 24 undefined on input line 329.
-
-
-
-LaTeX Warning: Reference `tab:FCNCLimits' on page 24 undefined on input line 32
-9.
-
 [24 <../ThesisImages/Theory/GIMDiagrams.png>]
-<../ThesisImages/Theory/FCNCLoop.png, id=225, 580.41844pt x 432.11438pt>
+<../ThesisImages/Theory/FCNCLoop.png, id=644, 580.41844pt x 432.11438pt>
 File: ../ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
 <use ../ThesisImages/Theory/FCNCLoop.png>
 Package pdftex.def Info: ../ThesisImages/Theory/FCNCLoop.png  used on input lin
@@ -1743,16 +1930,7 @@ ne 354.
 Package natbib Warning: Citation `XDFCNC' on page 25 undefined on input line 35
 4.
 
-[25 <../ThesisImages/Theory/FCNCLoop.png>]
-
-LaTeX Warning: Reference `tab:FCNCLimits' on page 26 undefined on input line 36
-2.
-
-
-LaTeX Warning: Reference `tab:FCNCLimits' on page 26 undefined on input line 36
-2.
-
-[26]
+[25 <../ThesisImages/Theory/FCNCLoop.png>] [26]
 
 Package natbib Warning: Citation `Trodden:1998ym' on page 27 undefined on input
  line 364.
@@ -1792,11 +1970,7 @@ Overfull \hbox (21.8496pt too wide) in paragraph at lines 371--372
 Package natbib Warning: Citation `XDFCNC' on page 28 undefined on input line 37
 3.
 
-
-LaTeX Warning: Reference `fig:AllFCNCs' on page 28 undefined on input line 378.
-
-
-<../ThesisImages/Theory/AllFCNCDiagrams.png, id=242, 983.17313pt x 207.02344pt>
+<../ThesisImages/Theory/AllFCNCDiagrams.png, id=661, 983.17313pt x 207.02344pt>
 
 File: ../ThesisImages/Theory/AllFCNCDiagrams.png Graphic file (type png)
 <use ../ThesisImages/Theory/AllFCNCDiagrams.png>
@@ -1804,345 +1978,12 @@ Package pdftex.def Info: ../ThesisImages/Theory/AllFCNCDiagrams.png  used on in
 put line 381.
 (pdftex.def)             Requested size: 433.62pt x 91.30539pt.
 [28]
-<../ThesisImages/Theory/fcnc_tXu_sep18.png, id=248, 1987.425pt x 2090.81125pt>
+<../ThesisImages/Theory/fcnc_tXu_sep18.png, id=666, 1987.425pt x 2090.81125pt>
 File: ../ThesisImages/Theory/fcnc_tXu_sep18.png Graphic file (type png)
 <use ../ThesisImages/Theory/fcnc_tXu_sep18.png>
 Package pdftex.def Info: ../ThesisImages/Theory/fcnc_tXu_sep18.png  used on inp
 ut line 390.
 (pdftex.def)             Requested size: 216.81pt x 228.07576pt.
-<../ThesisImages/Theory/fcnc_tXc_sep18.png, id=249, 1987.425pt x 2090.81125pt>
+<../ThesisImages/Theory/fcnc_tXc_sep18.png, id=667, 1987.425pt x 2090.81125pt>
 File: ../ThesisImages/Theory/fcnc_tXc_sep18.png Graphic file (type png)
-<use ../ThesisImages/Theory/fcnc_tXc_sep18.png>
-Package pdftex.def Info: ../ThesisImages/Theory/fcnc_tXc_sep18.png  used on inp
-ut line 391.
-(pdftex.def)             Requested size: 216.81pt x 228.07576pt.
-
-
-Package natbib Warning: Citation `TopWG' on page 29 undefined on input line 392
-.
-
-
-Package natbib Warning: Citation `TopWG' on page 29 undefined on input line 392
-.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:FCNCLimsBox' on page 29 undefined on input line 3
-96.
-
-
-LaTeX Warning: Reference `fig:fcncHera' on page 29 undefined on input line 396.
-
-
-
-LaTeX Warning: Reference `fig:fcncLep' on page 29 undefined on input line 396.
-
-<../ThesisImages/Theory/HeraFCNC.png, id=250, 842.39719pt x 577.40718pt>
-File: ../ThesisImages/Theory/HeraFCNC.png Graphic file (type png)
-<use ../ThesisImages/Theory/HeraFCNC.png>
-Package pdftex.def Info: ../ThesisImages/Theory/HeraFCNC.png  used on input lin
-e 399.
-(pdftex.def)             Requested size: 173.44534pt x 118.88025pt.
-<../ThesisImages/Theory/LepFCNC.png, id=251, 819.06pt x 603.75563pt>
-File: ../ThesisImages/Theory/LepFCNC.png Graphic file (type png)
-<use ../ThesisImages/Theory/LepFCNC.png>
-Package pdftex.def Info: ../ThesisImages/Theory/LepFCNC.png  used on input line
- 405.
-(pdftex.def)             Requested size: 173.44534pt x 127.85187pt.
-[29 <../ThesisImages/Theory/AllFCNCDiagrams.png>] [30 <../ThesisImages/Theory/f
-cnc_tXu_sep18.png> <../ThesisImages/Theory/fcnc_tXc_sep18.png>]
-
-LaTeX Warning: Reference `fig:FCNClimits' on page 31 undefined on input line 41
-0.
-
-
-LaTeX Warning: Reference `sec:bsmFCNC' on page 31 undefined on input line 410.
-
-<../ThesisImages/Theory/AllFCNCLimits.png, id=266, 1986.42125pt x 1777.64125pt>
-
-File: ../ThesisImages/Theory/AllFCNCLimits.png Graphic file (type png)
-<use ../ThesisImages/Theory/AllFCNCLimits.png>
-Package pdftex.def Info: ../ThesisImages/Theory/AllFCNCLimits.png  used on inpu
-t line 413.
-(pdftex.def)             Requested size: 390.25534pt x 349.22905pt.
-
-Package natbib Warning: Citation `TopWG' on page 31 undefined on input line 414
-.
-
-
-Package natbib Warning: Citation `TopWG' on page 31 undefined on input line 414
-.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:FCNClimits' on page 31 undefined on input line 41
-8.
-
-
-Package natbib Warning: Citation `GregorFCNC' on page 31 undefined on input lin
-e 418.
-
-[31 <../ThesisImages/Theory/HeraFCNC.png> <../ThesisImages/Theory/LepFCNC.png>]
-
-LaTeX Warning: Reference `sec:bjetReco' on page 32 undefined on input line 420.
-
-
-
-LaTeX Warning: Reference `ch:Simulation' on page 32 undefined on input line 420
-.
-
-[32 <../ThesisImages/Theory/AllFCNCLimits.png>]) [33]
-\openout2 = `LHCDetector.aux'.
-
- (./LHCDetector.tex
-[The Large Hadron Collider and the ATLAS Detector]
-<../ThesisImages/LHCImages/LHCDetecPlacement.png, id=285, 1413.02907pt x 490.83
-376pt>
-File: ../ThesisImages/LHCImages/LHCDetecPlacement.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/LHCDetecPlacement.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/LHCDetecPlacement.png  used 
-on input line 13.
-(pdftex.def)             Requested size: 433.62pt x 150.62154pt.
-
-Package natbib Warning: Citation `ATLASCoords' on page 34 undefined on input li
-ne 14.
-
-
-Package natbib Warning: Citation `ATLASCoords' on page 34 undefined on input li
-ne 14.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:LHCDetPlace' on page 34 undefined on input line 1
-8.
-
-[34
-
-
-
-]
-
-LaTeX Warning: Reference `fig:AcceleratorMap' on page 35 undefined on input lin
-e 20.
-
-<../ThesisImages/LHCImages/AcceleratorComplex.png, id=292, 4296.6924pt x 3047.6
-259pt>
-File: ../ThesisImages/LHCImages/AcceleratorComplex.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/AcceleratorComplex.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/AcceleratorComplex.png  used
- on input line 23.
-(pdftex.def)             Requested size: 433.62pt x 307.52412pt.
-
-Package natbib Warning: Citation `LHCAccComplex' on page 35 undefined on input 
-line 25.
-
-
-Package natbib Warning: Citation `LHCAccComplex' on page 35 undefined on input 
-line 25.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35 <../ThesisImages/LHCImages/LHCDetecPlacement.png>] [36 <../ThesisImages/LHC
-Images/AcceleratorComplex.png>] [37]
-
-LaTeX Warning: Reference `fig:ATLASLumi' on page 38 undefined on input line 45.
-
-
-<../ThesisImages/LHCImages/ATLASLumi.png, id=311, 798.985pt x 574.145pt>
-File: ../ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASLumi.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASLumi.png  used on input
- line 48.
-(pdftex.def)             Requested size: 303.53267pt x 218.11604pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38]
-
-LaTeX Warning: Reference `fig:ATLASmeanIntperCrossing' on page 39 undefined on 
-input line 56.
-
-<../ThesisImages/LHCImages/meanIntperCrossing.png, id=316, 798.985pt x 574.145p
-t>
-File: ../ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/meanIntperCrossing.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/meanIntperCrossing.png  used
- on input line 59.
-(pdftex.def)             Requested size: 303.53267pt x 218.11604pt.
-
-LaTeX Warning: Reference `fig:HighPileup' on page 39 undefined on input line 64
-.
-
-
-LaTeX Warning: Reference `fig:HighPileup2' on page 39 undefined on input line 6
-4.
-
-<../ThesisImages/LHCImages/28VertexPileup.png, id=317, 2862.17822pt x 1889.7531
-7pt>
-File: ../ThesisImages/LHCImages/28VertexPileup.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/28VertexPileup.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/28VertexPileup.png  used on 
-input line 67.
-(pdftex.def)             Requested size: 303.53267pt x 200.40515pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[39 <../ThesisImages/LHCImages/ATLASLumi.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../ThesisImages/LHCImages/65VertexPileup.png, id=324, 5018.75pt x 3345.49875pt
->
-File: ../ThesisImages/LHCImages/65VertexPileup.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/65VertexPileup.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/65VertexPileup.png  used on 
-input line 75.
-(pdftex.def)             Requested size: 303.53267pt x 202.30376pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[40 <../ThesisImages/LHCImages/meanIntperCrossing.png>]
-
-LaTeX Warning: Reference `fig:ATLASOverview' on page 41 undefined on input line
- 83.
-
-
-Package natbib Warning: Citation `ATLAS' on page 41 undefined on input line 83.
-
-
-<../ThesisImages/LHCImages/AtlasDetector.png, id=332, 1621.05624pt x 1041.8925p
-t>
-File: ../ThesisImages/LHCImages/AtlasDetector.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/AtlasDetector.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/AtlasDetector.png  used on i
-nput line 86.
-(pdftex.def)             Requested size: 433.62pt x 278.69157pt.
-
-Package natbib Warning: Citation `ATLAS' on page 41 undefined on input line 88.
-
-
-
-Package natbib Warning: Citation `ATLAS' on page 41 undefined on input line 88.
-
-
-
-LaTeX Warning: Reference `sec:InnerDet' on page 41 undefined on input line 91.
-
-
-LaTeX Warning: Reference `sec:EMHCal' on page 41 undefined on input line 91.
-
-
-LaTeX Warning: Reference `sec:MuCal' on page 41 undefined on input line 91.
-
-
-LaTeX Warning: Reference `fig:ATLASInteractions' on page 41 undefined on input 
-line 91.
-
-
-LaTeX Warning: Reference `sec:ATLASMagnet' on page 41 undefined on input line 9
-2.
-
-[41 <../ThesisImages/LHCImages/28VertexPileup.png> <../ThesisImages/LHCImages/6
-5VertexPileup.png>] [42 <../ThesisImages/LHCImages/AtlasDetector.png (PNG copy)
->]
-<../ThesisImages/LHCImages/ParticleInteractions.jpg, id=347, 903.375pt x 732.73
-75pt>
-File: ../ThesisImages/LHCImages/ParticleInteractions.jpg Graphic file (type jpg
-)
-<use ../ThesisImages/LHCImages/ParticleInteractions.jpg>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ParticleInteractions.jpg  us
-ed on input line 96.
-(pdftex.def)             Requested size: 433.62pt x 351.72119pt.
-
-
-Package natbib Warning: Citation `ParticleInteractions' on page 43 undefined on
- input line 98.
-
-
-Package natbib Warning: Citation `ParticleInteractions' on page 43 undefined on
- input line 98.
-
-
-LaTeX Warning: Reference `ATLASCoords' on page 43 undefined on input line 104.
-
-[43 <../ThesisImages/LHCImages/ParticleInteractions.jpg>]
-<../ThesisImages/LHCImages/ATLASCoords.png, id=353, 541.27219pt x 645.91313pt>
-File: ../ThesisImages/LHCImages/ATLASCoords.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASCoords.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASCoords.png  used on inp
-ut line 108.
-(pdftex.def)             Requested size: 216.81pt x 258.72534pt.
-
-
-Package natbib Warning: Citation `ATLASCoords' on page 44 undefined on input li
-ne 110.
-
-
-Package natbib Warning: Citation `ATLASCoords' on page 44 undefined on input li
-ne 110.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[44]
-
-LaTeX Warning: Reference `fig:ATLASMagnetWinding' on page 45 undefined on input
- line 124.
-
-<../ThesisImages/LHCImages/ATLASMagnetWinding.png, id=359, 662.475pt x 515.6765
-6pt>
-File: ../ThesisImages/LHCImages/ATLASMagnetWinding.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASMagnetWinding.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMagnetWinding.png  used
- on input line 127.
-(pdftex.def)             Requested size: 303.53267pt x 236.26987pt.
-
-Package natbib Warning: Citation `ATLAS' on page 45 undefined on input line 129
-.
-
-
-Package natbib Warning: Citation `ATLAS' on page 45 undefined on input line 129
-.
-
-[45 <../ThesisImages/LHCImages/ATLASCoords.png>]
-
-Package natbib Warning: Citation `Capeans:1291633' on page 46 undefined on inpu
-t line 136.
-
-
-Package natbib Warning: Citation `CERN-LHCC-97-016' on page 46 undefined on inp
-ut line 136.
-
-
-LaTeX Warning: Reference `sec:bjetReco' on page 46 undefined on input line 136.
-
-
-
-LaTeX Warning: Reference `fig:ATLASInnerDet' on page 46 undefined on input line
- 136.
-
-<../ThesisImages/LHCImages/ATLASInnerDetector.png, id=367, 793.46437pt x 499.86
-75pt>
-File: ../ThesisImages/LHCImages/ATLASInnerDetector.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASInnerDetector.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASInnerDetector.png  used
- on input line 140.
-(pdftex.def)             Requested size: 346.89731pt x 218.53894pt.
-
-Package natbib Warning: Citation `ATLAS' on page 46 undefined on input line 142
-.
-
-
-Package natbib Warning: Citation `ATLAS' on page 46 undefined on input line 142
-.
-
-[46 <../ThesisImages/LHCImages/ATLASMagnetWinding.png>]
-
-LaTeX Warning: Reference `fig:
+<use ../ThesisImages
