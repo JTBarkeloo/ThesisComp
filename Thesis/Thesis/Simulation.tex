@@ -48,8 +48,7 @@ These generators are commonly interfaced, usually with \textsc{pythia} for showe
 
 \section{Object Reconstruction}
 
-After the events are simulated, or collected in case of real data, all there is is a collection of energy deposits within the detector.  These energy deposits must be transformed into meaningful physics objects through reconstruction.  Reconstruction is typically done in two major parts using the specialized detectors covered in Chapter \ref{ch:LHCDetector}.  The Inner Detector and Muon System turn patterns of hits within the tracking detectors into tracks that have direction and momentum information.  The calorimeter system transforms the energy deposits within the calorimeters into calibrated energy deposits with a particular position.  These tracks and calorimeter deposits are used to create physics objects (electrons, muons, etc.) by using particle identification techniques to reconstruct the underlying physics event.  For the analysis presented in this dissertation the final state signal particles that need to be reconstructed are a lepton (an electron or a muon), two quarks (one light flavor and on b quark), one photon, and one neutrino (missing transverse energy as it is the only particle that does not interact with the detector).  Each of these particles has a particular signature in the subdetectors of the ATLAS detector, shown in Figure \ref{fig:ATLASInteractions}.
-
+After the events are simulated, or collected in case of real data, all there is is a collection of energy deposits within the detector.  These energy deposits must be transformed into meaningful physics objects through reconstruction.  Reconstruction is typically done in two major parts using the specialized detectors covered in Chapter \ref{ch:LHCDetector}.  The Inner Detector and Muon System turn patterns of hits within the tracking detectors into tracks that have direction and momentum information.  The calorimeter system transforms the energy deposits within the calorimeters into calibrated energy deposits with a particular position.  These tracks and calorimeter deposits are used to create physics objects (electrons, muons, etc.) by using particle identification techniques to reconstruct the underlying physics event.  For the analysis presented in this dissertation the final state signal particles that need to be reconstructed are one lepton (an electron or a muon), one photon, two quarks (one light flavor and on b quark), and one neutrino (missing transverse energy as it is the only particle that does not interact with the detector).  Each of these particles has a particular signature in the subdetectors of the ATLAS detector, shown in Figure \ref{fig:ATLASInteractions}.
 
 \begin{figure}[h!]
 	\centering
@@ -61,15 +60,18 @@ After the events are simulated, or collected in case of real data, all there is 
 
 
 \subsection{Electrons}
+\subsection{Muons}
 \subsection{Photons}
 \subsection{Jets}
 \subsubsection{B-Jets}
 \label{sec:bjetReco}
-\subsection{Muons}
-\subsection{Creation of FCNC Signal Events}
+
+
+\section{Creation of Flavor Changing Neutral Current Signal Events}
 \label{Sec:MG5Sig}
-\subsubsection{MadGraph5 amc@NLO}
+\subsection{MadGraph5 amc@NLO}
 Comparison of kinematics between standard ttbar events
+- param card in appendix
 ATLAS Production of these events
 TopQ1 Slimming/Skimming
 

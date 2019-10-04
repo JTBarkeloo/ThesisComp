@@ -7,13 +7,13 @@
 \contentsline {subsection}{ \numberline {1.1.4} Monte Carlo Generators Used for LHC Physics}{5}{subsection.1.1.4}% 
 \contentsline {section}{ \numberline {1.2} Object Reconstruction}{5}{section.1.2}% 
 \contentsline {subsection}{ \numberline {1.2.1} Electrons}{8}{subsection.1.2.1}% 
-\contentsline {subsection}{ \numberline {1.2.2} Photons}{8}{subsection.1.2.2}% 
-\contentsline {subsection}{ \numberline {1.2.3} Jets}{8}{subsection.1.2.3}% 
-\contentsline {subsubsection}{ B-Jets}{8}{subsubsection.1.2.3.1}% 
-\contentsline {subsection}{ \numberline {1.2.4} Muons}{8}{subsection.1.2.4}% 
-\contentsline {subsection}{ \numberline {1.2.5} Creation of FCNC Signal Events}{8}{subsection.1.2.5}% 
-\contentsline {subsubsection}{ MadGraph5 amc@NLO}{8}{subsubsection.1.2.5.1}% 
-\contentsline {chapter}{\numberline {II}\uppercase {Search Strategy}}{9}{subsubsection.1.2.5.1}% 
+\contentsline {subsection}{ \numberline {1.2.2} Muons}{8}{subsection.1.2.2}% 
+\contentsline {subsection}{ \numberline {1.2.3} Photons}{8}{subsection.1.2.3}% 
+\contentsline {subsection}{ \numberline {1.2.4} Jets}{8}{subsection.1.2.4}% 
+\contentsline {subsubsection}{ B-Jets}{8}{subsubsection.1.2.4.1}% 
+\contentsline {section}{ \numberline {1.3} Creation of Flavor Changing Neutral Current Signal Events}{8}{section.1.3}% 
+\contentsline {subsection}{ \numberline {1.3.1} MadGraph5 amc@NLO}{8}{subsection.1.3.1}% 
+\contentsline {chapter}{\numberline {II}\uppercase {Search Strategy}}{9}{subsection.1.3.1}% 
 \contentsline {section}{ \numberline {2.1} Major Backgrounds}{9}{section.2.1}% 
 \contentsline {section}{ \numberline {2.2} Event Reconstruction}{9}{section.2.2}% 
 \contentsline {section}{ \numberline {2.3} Data and Simulation Event PreSelection}{9}{section.2.3}% 
