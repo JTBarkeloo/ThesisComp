@@ -1,11 +1,65 @@
-\chapter{Simulation}
+\chapter{Simulation and Reconstruction}
 \label{ch:Simulation}
 
-\section{Simulation of pp collisions}
-\subsection{MC Generators Used for LHC Physics}
+This chapter presents details on the simulation of various physics processes and the reconstruction of physics objects for both simulated events and data events.  
+
+\section{Simulation of pp Collisions}
+To draw conclusions from ATLAS experimental data it is necessary to make accurate theoretical predictions about the processes being searched for.  Having accurate background models can help identify when a data signal is behaving in a way that might suggest new physics.  Due to the stochastic nature of particle physics collisions and interactions it is not practical to create exact predictions, instead the ATLAS experiment uses Monte Carlo (MC) simulations to make predictions.  MC simulations are done by repeated random sampling of possible physical processes that can occur at any given time to a particle.  The possibilities change based on factors such as particle energy and particle environment.  A flow chart for the entire simulation chain is shown in Figure \ref{fig:SimMCFlow}. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/MCFlow.png}
+	\caption[A pictoral view of the different steps for the creation of a MC event.]{A pictoral view of the different steps for the creation of a MC event. \cite{MaxThesis} 
+	}
+	\label{fig:SimMCFlow}
+\end{figure}
+
+\subsection{ Matrix Element Calculation and Parton Distribution Functions}
+
+Particle interactions at LHC energies do not involve the entire proton.  The consituent partons that create the proton (the two up quarks, down quark, and the sea of gluons) are what interact in any given event.  The gluons create many virtual quark-antiquark pairs which can itneract as well.  The valence quarks, the ups and down that make up the proton, are the major portion of interacting partons at low energies, mainly inelastic interactions.  At LHC energies deep inelastic scattering is possible and the sea quarks play a more dominant role.  Proton structure is described by a Parton Distribution Function (PDF) which gives the probability of of finding any parton with a particular momentum fraction and is shown in Figure \ref{fig:PDF}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/PDF.png}
+	\caption[The bands are the momentum fraction, $x$, times the unpolarized parton distribution function obtained in NNLO NNPDF3.0 global analysis at scales $\mu^2= 10$ GeV and $\mu^2 = 100 \text{ GeV}^2$]{The bands are the momentum fraction, $x$, times the unpolarized parton distribution function obtained in NNLO NNPDF3.0 global analysis at scales $\mu^2= 10 \text{ GeV}^2$ and $\mu^2 = 100 \text{ GeV}^2$ \cite{PDG2018} 
+	}
+	\label{fig:PDF}
+\end{figure}
+The PDFs and hard scattering processes are included in the calulation of the Matrix Elements (ME) of any interaction.  Hard scattering processes can be descibed by Feynman diagrams, a representation of their amplitudes.  Combining the PDFs and hard scattering amplitudes gives the probability of a particular interaction occuring.  Calculation of the MEs is the first stage of simulation and is done to a specified order in perturbation theory: leading order (LO), next-to-leading order (NLO), etc.  Higher order calculations lead to more accurate predictions but grow in complexity exponentially making them hard to calculate both theoretically and computationally.  This is what often restricts how accurate a process can be simulated.  
+
+\subsection{Parton Shower Calculation}
+The next stage of simulating an event is the parton shower.  These parton shower calculations deal with the quantum chromodynamic processes.  In any interaction the particles that carry color can spontaneously emit gluons which can go on to create more gluons or quark-antiquark pairs.  Depending on when this happens in the hard scattering process it is called initial state radiation (ISR) or final state radiation (FSR).   The hard scattering partons as well as any additional radiated particles are used as inputs to parton shower calculations which determine how the quarks and gluons proceed through to the final state particles seen in the detector.  This includes calculation of hadronization processes and futher decay processes into the final state particles.
+
 \subsection{Detector Simulation}
-\subsection{Showering in the Detector}
+The final stage of creating a MC event is the detector simulation.  The information from the event generators are processed using \textsc{geant4} \cite{Geant4} and a detailed model of the ATLAS detector.  \textsc{geant4} simulates how various particles propagate through and interact with the material properties of the detector and where they leave energy which would then be measured by the ATLAS detector in an actual event.  The result of this MC event construction flow is a collection of simulated data that is similar in structure to actual data collected using the ATLAS experiment.  The energy deposits in both MC and real data are then reconstucted using the same software and physics objects are reconstructed.  For MC this allows for comparison between the physics object reconstruction and the truth record, or the types of particles fed into the detector simulation.
+
+\subsection{Monte Carlo Generators Used for LHC Physics}
+
+A variety of different MC generators are used in the creation of simulated events.  Different generators can sepecializing in simulating different physics processes and handle various precision (eg., LO vs. NLO). The MC generators used in this search are summarized in this section.
+
+\textsc{MadGraph} aMC@NLO \cite{MadGraph}: An amplitude and event generator at LO and NLO for hard processes.  Extendable to various models including effective field theory (EFT) models used in BSM searches.  This generator is used to create the signal events searched for in this dissertation: discussed in Section \ref{Sec:MG5Sig}. 
+
+\textsc{powheg} \cite{Powheg1,Powheg2}: \textbf{Po}sitive \textbf{W}eight \textbf{H}ardest \textbf{E}mission \textbf{G}enerator is an NLO event generator that can be interfaced with other generators (i.e. \textsc{pythia}) for showering.
+
+\textsc{pythia} \cite{Pythia8}: A generator used most often for QCD final state hard processes and showering.  It is commonly interfaced with other generators for showering within the ATLAS detector.
+\textsc{sherpa} \cite{Sherpa11,Sherpa22}: A multi-parton LO generator with an emphasis on merging ME and Parton Showering.
+
+These generators are commonly interfaced, usually with \textsc{pythia} for showering, and this is possible due to a common file format developed at the Les Houches Accords \cite{Alwall:2006yp}.  This allows a specialty generator to be created and used to generate hard processes and then simulate the rest of the event with common showering generators that might lack the ability to simulate the process in question.
+
 \section{Object Reconstruction}
+
+After the events are simulated, or collected in case of real data, all there is is a collection of energy deposits within the detector.  These energy deposits must be transformed into meaningful physics objects through reconstruction.  Reconstruction is typically done in two major parts using the specialized detectors covered in Chapter \ref{ch:LHCDetector}.  The Inner Detector and Muon System turn patterns of hits within the tracking detectors into tracks that have direction and momentum information.  The calorimeter system transforms the energy deposits within the calorimeters into calibrated energy deposits with a particular position.  These tracks and calorimeter deposits are used to create physics objects (electrons, muons, etc.) by using particle identification techniques to reconstruct the underlying physics event.  For the analysis presented in this dissertation the final state signal particles that need to be reconstructed are a lepton (an electron or a muon), two quarks (one light flavor and on b quark), one photon, and one neutrino (missing transverse energy as it is the only particle that does not interact with the detector).  Each of these particles has a particular signature in the subdetectors of the ATLAS detector, shown in Figure \ref{fig:ATLASInteractions}.
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/ParticleInteractions.jpg}
+	\caption[Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.]{Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.  Solid lines indicate interactions while dashed lines indicate that no interactions typically occur in that section of the detector. \cite{ParticleInteractions} 
+	}
+	\label{fig:ATLASInteractions}
+\end{figure}
+
+
 \subsection{Electrons}
 \subsection{Photons}
 \subsection{Jets}
@@ -13,10 +67,14 @@
 \label{sec:bjetReco}
 \subsection{Muons}
 \subsection{Creation of FCNC Signal Events}
+\label{Sec:MG5Sig}
 \subsubsection{MadGraph5 amc@NLO}
 Comparison of kinematics between standard ttbar events
 ATLAS Production of these events
 TopQ1 Slimming/Skimming
+
+
+
 
 
 
