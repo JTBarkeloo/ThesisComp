@@ -50,7 +50,7 @@ These generators are commonly interfaced, usually with \textsc{pythia} for showe
 
 After the events are simulated, or collected in case of real data, all there is is a collection of energy deposits within the detector.  These energy deposits must be transformed into meaningful physics objects through reconstruction.  Reconstruction is typically done in two major parts using the specialized detectors covered in Chapter \ref{ch:LHCDetector}.  The Inner Detector and Muon System turn patterns of hits within the tracking detectors into tracks that have direction and momentum information.  The calorimeter system transforms the energy deposits within the calorimeters into calibrated energy deposits with a particular position.  These tracks and calorimeter deposits are used to create physics objects (electrons, muons, etc.) by using particle identification techniques to reconstruct the underlying physics event.  For the analysis presented in this dissertation the final state signal particles that need to be reconstructed are one lepton (an electron or a muon), one photon, two quarks (one light flavor and on b quark), and one neutrino (missing transverse energy as it is the only particle that does not interact with the detector).  Each of these particles has a particular signature in the subdetectors of the ATLAS detector, shown in Figure \ref{fig:ATLASInteractions}.
 
-\begin{figure}[h!]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/ParticleInteractions.jpg}
 	\caption[Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.]{Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.  Solid lines indicate interactions while dashed lines indicate that no interactions typically occur in that section of the detector. \cite{ParticleInteractions} 
@@ -60,19 +60,60 @@ After the events are simulated, or collected in case of real data, all there is 
 
 
 \subsection{Electrons}
+Electrons interacting with the ATLAS detector leave a track in the Inner Detector as well as a cluster of energy in the electromagnetic calorimeter.  The track and cluster are required to be matched together to be identified as an electron candidate\cite{ElectronID}.  As electrons move through the detector they create electromagnetic showers through bremsstrahlung which can produce electron-positron pairs.  The process continues as the particles continue to give energy to the detector.  This collection of electrons, positrons, and photons creates a signature energy cluster in the calorimeter.  
+
+Electron identification algorithms are applied to the electron candidates to separate prompt and isolated electron candidates from electrons that come from backgrounds such as converted photons and misidentified jets.  Non-prompt electrons are from 
 \subsection{Muons}
+\cite{MuonID}
 \subsection{Photons}
+\cite{PhotonID}
 \subsection{Jets}
+\cite{antikt}
+%Ben\cite{CambridgeAachen}
+%Ben\cite{JetCleaning}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/VarJetAlgs.png}
+	\caption[C]{\cite{antikt} 
+	}
+	\label{fig:VarJetAlgs}
+\end{figure}
+
 \subsubsection{B-Jets}
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/Simulation/B-tagging_diagram.png}
+	\caption[C]{\cite{Takubo:2017wvt} 
+	}
+	\label{fig:BTagVars}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png}
+	\caption[C]{\cite{Takubo:2017wvt} 
+	}
+	\label{fig:BTag}
+\end{figure}
+
+
+%\cite{Takubo:2017wvt}%IBL Preformance
 \label{sec:bjetReco}
 
+\subsection{Missing Transverse Energy}
+\cite{METreco}
 
 \section{Creation of Flavor Changing Neutral Current Signal Events}
 \label{Sec:MG5Sig}
 \subsection{MadGraph5 amc@NLO}
 Comparison of kinematics between standard ttbar events
+
 - param card in appendix
+
 ATLAS Production of these events
+
 TopQ1 Slimming/Skimming
 
 

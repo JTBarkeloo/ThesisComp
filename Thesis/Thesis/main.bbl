@@ -63,4 +63,50 @@ Joao Pequenao.
   detector.}
 \newblock Mar 2008.
 
+\bibitem{ElectronID}
+Morad Aaboud et~al.
+\newblock {Electron reconstruction and identification in the ATLAS experiment
+  using the 2015 and 2016 LHC proton-proton collision data at $\sqrt{s}$ = 13
+  TeV}.
+\newblock {\em Eur. Phys. J.}, C79(8):639, 2019.
+
+\bibitem{MuonID}
+Sébastien Rettie.
+\newblock {Muon identification and performance in the ATLAS experiment}.
+\newblock {\em PoS}, DIS2018:097, 2018.
+
+\bibitem{PhotonID}
+Morad Aaboud et~al.
+\newblock {Measurement of the photon identification efficiencies with the ATLAS
+  detector using LHC Run 2 data collected in 2015 and 2016}.
+\newblock {\em Eur. Phys. J.}, C79(3):205, 2019.
+
+\bibitem{antikt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{CambridgeAachen}
+M.~Wobisch and T.~Wengler.
+\newblock {Hadronization corrections to jet cross-sections in deep inelastic
+  scattering}.
+\newblock In {\em {Monte Carlo generators for HERA physics. Proceedings,
+  Workshop, Hamburg, Germany, 1998-1999}}, pages 270--279, 1998.
+
+\bibitem{JetCleaning}
+{Selection of jets produced in 13TeV proton-proton collisions with the ATLAS
+  detector}.
+\newblock Technical Report ATLAS-CONF-2015-029, CERN, Geneva, Jul 2015.
+
+\bibitem{Takubo:2017wvt}
+Yosuke Takubo.
+\newblock {ATLAS IBL operational experience}.
+\newblock {\em PoS}, Vertex2016:004, 2017.
+
+\bibitem{METreco}
+Morad Aaboud et~al.
+\newblock {Performance of missing transverse momentum reconstruction with the
+  ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
+\newblock {\em Eur. Phys. J.}, C78(11):903, 2018.
+
 \end{thebibliography}
