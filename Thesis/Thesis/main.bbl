@@ -70,6 +70,15 @@ Morad Aaboud et~al.
   TeV}.
 \newblock {\em Eur. Phys. J.}, C79(8):639, 2019.
 
+\bibitem{ElectronCalib1}
+
+
+\bibitem{ElectronCalib2}
+{ATLAS Collaboration}.
+\newblock {Electron and photon energy calibration with the ATLAS detector using
+  data collected in 2015 at $\sqrt{s} = 13 \mathrm{\ Te\kern -0.1em V}$}, Aug
+  2016.
+
 \bibitem{MuonID}
 Sébastien Rettie.
 \newblock {Muon identification and performance in the ATLAS experiment}.
@@ -97,6 +106,15 @@ M.~Wobisch and T.~Wengler.
 {Selection of jets produced in 13TeV proton-proton collisions with the ATLAS
   detector}.
 \newblock Technical Report ATLAS-CONF-2015-029, CERN, Geneva, Jul 2015.
+
+\bibitem{JetJVT}
+The~ATLAS collaboration.
+\newblock {Tagging and suppression of pileup jets}.
+\newblock 2014.
+
+\bibitem{JetCleanTwiki}
+S.~Schramm.
+\newblock Howtocleanjets2016 : Jet-based event cleaning, 2016.
 
 \bibitem{Takubo:2017wvt}
 Yosuke Takubo.

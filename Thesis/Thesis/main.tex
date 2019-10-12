@@ -1,6 +1,7 @@
 \documentclass[dissertation, copyright, final, gsmodern]{uothesis_3}
 \setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{4}
+\usepackage[linktocpage]{hyperref}
 \usepackage[USenglish]{babel}
 \usepackage{todonotes}
 \usepackage{subfig}
@@ -18,7 +19,10 @@
 \usepackage{lineno}
 %\linenumbers
 \usepackage{hhline}
-\usepackage{hyperref} %If you get an error due to hyperref package, delete your old INT.aux file then recompile.
+\usepackage{tabularx}
+\setcounter{tocdepth}{3}% Include \subsubsection in ToC
+%\usepackage{hyperref} %If you get an error due to hyperref package, delete your old INT.aux file then recompile.
+
 \pdfstringdefDisableCommands{\let\uppercase\relax}
 
 \justifiedtrue
@@ -44,12 +48,13 @@
 \include{cover}
 \include{abstract}
 \include{cv}
+
 %\include{acknowledgements}  %%acknowledgements page optional
 \maketitle
 
-%\include{Introduction}
-%\include{Theory}
-%\include{LHCDetector}
+\include{Introduction}
+\include{Theory}
+\include{LHCDetector}
 \include{Simulation}
 \include{SearchStrategy}
 \include{Results}

@@ -1,33 +1,66 @@
 \babel@toc {USenglish}{}
-\contentsline {chapter}{\numberline {I}\uppercase {Simulation and Reconstruction}}{1}{Doc-Start}% 
-\contentsline {section}{ \numberline {1.1} Simulation of pp Collisions}{1}{section.1.1}% 
-\contentsline {subsection}{ \numberline {1.1.1} Matrix Element Calculation and Parton Distribution Functions}{2}{subsection.1.1.1}% 
-\contentsline {subsection}{ \numberline {1.1.2} Parton Shower Calculation}{4}{subsection.1.1.2}% 
-\contentsline {subsection}{ \numberline {1.1.3} Detector Simulation}{4}{subsection.1.1.3}% 
-\contentsline {subsection}{ \numberline {1.1.4} Monte Carlo Generators Used for LHC Physics}{5}{subsection.1.1.4}% 
-\contentsline {section}{ \numberline {1.2} Object Reconstruction}{5}{section.1.2}% 
-\contentsline {subsection}{ \numberline {1.2.1} Electrons}{7}{subsection.1.2.1}% 
-\contentsline {subsection}{ \numberline {1.2.2} Muons}{8}{subsection.1.2.2}% 
-\contentsline {subsection}{ \numberline {1.2.3} Photons}{8}{subsection.1.2.3}% 
-\contentsline {subsection}{ \numberline {1.2.4} Jets}{8}{subsection.1.2.4}% 
-\contentsline {subsubsection}{ B-Jets}{9}{subsubsection.1.2.4.1}% 
-\contentsline {subsection}{ \numberline {1.2.5} Missing Transverse Energy}{10}{subsection.1.2.5}% 
-\contentsline {section}{ \numberline {1.3} Creation of Flavor Changing Neutral Current Signal Events}{11}{section.1.3}% 
-\contentsline {subsection}{ \numberline {1.3.1} MadGraph5 amc@NLO}{11}{subsection.1.3.1}% 
-\contentsline {chapter}{\numberline {II}\uppercase {Search Strategy}}{12}{subsection.1.3.1}% 
-\contentsline {section}{ \numberline {2.1} Major Backgrounds}{12}{section.2.1}% 
-\contentsline {section}{ \numberline {2.2} Event Reconstruction}{12}{section.2.2}% 
-\contentsline {section}{ \numberline {2.3} Data and Simulation Event PreSelection}{12}{section.2.3}% 
-\contentsline {section}{ \numberline {2.4} Control and Validation Regions}{12}{section.2.4}% 
-\contentsline {section}{ \numberline {2.5} Signal Region}{12}{section.2.5}% 
-\contentsline {section}{ \numberline {2.6} Neural Network}{12}{section.2.6}% 
-\contentsline {subsection}{ \numberline {2.6.1} Architecture and Studies}{12}{subsection.2.6.1}% 
-\contentsline {chapter}{\numberline {III}\uppercase {Analysis And Results}}{13}{subsection.2.6.1}% 
-\contentsline {section}{ \numberline {3.1} Uncertainties}{13}{section.3.1}% 
-\contentsline {section}{ \numberline {3.2} Statistical Treatment of Results}{13}{section.3.2}% 
-\contentsline {section}{ \numberline {3.3} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{13}{section.3.3}% 
-\contentsline {chapter}{\numberline {IV}\uppercase {Complementary Searches and Outlook}}{14}{section.3.3}% 
-\contentsline {section}{ \numberline {4.1} Comparison with Complementary Searches}{14}{section.4.1}% 
-\contentsline {section}{ \numberline {4.2} Future Directions}{14}{section.4.2}% 
-\contentsline {section}{ \numberline {4.3} Conclusion}{14}{section.4.3}% 
-\contentsline {chapter}{REFERENCES CITED}{15}{section.4.3}% 
+\contentsline {chapter}{\numberline {I}\uppercase {Introduction}}{1}{Doc-Start}% 
+\contentsline {section}{ \numberline {1.1} The Standard Model Top Quark}{1}{section.1.1}% 
+\contentsline {section}{ \numberline {1.2} Searching for FCNC Top Quark Decays}{2}{section.1.2}% 
+\contentsline {chapter}{\numberline {II}\uppercase {Theory}}{4}{section.1.2}% 
+\contentsline {section}{ \numberline {2.1} The Standard Model Particles}{4}{section.2.1}% 
+\contentsline {section}{ \numberline {2.2} The Standard Model Interactions}{6}{section.2.2}% 
+\contentsline {section}{ \numberline {2.3} Electroweak Symmetry Breaking}{8}{section.2.3}% 
+\contentsline {subsection}{ \numberline {2.3.1} Gauge Boson Masses}{9}{subsection.2.3.1}% 
+\contentsline {subsection}{ \numberline {2.3.2} Fermion Masses}{10}{subsection.2.3.2}% 
+\contentsline {subsection}{ \numberline {2.3.3} The CKM Matrix}{12}{subsection.2.3.3}% 
+\contentsline {section}{ \numberline {2.4} The Top Quark}{13}{section.2.4}% 
+\contentsline {subsection}{ \numberline {2.4.1} Discovering The Top Quark}{14}{subsection.2.4.1}% 
+\contentsline {subsection}{ \numberline {2.4.2} Production and Decay At Hadron Colliders}{16}{subsection.2.4.2}% 
+\contentsline {subsection}{ \numberline {2.4.3} Beyond the Standard Model Top Quark Physics}{20}{subsection.2.4.3}% 
+\contentsline {section}{ \numberline {2.5} The Flavor-Changing Neutral Current}{21}{section.2.5}% 
+\contentsline {subsection}{ \numberline {2.5.1} The Standard Model Flavor Sector}{21}{subsection.2.5.1}% 
+\contentsline {subsection}{ \numberline {2.5.2} The GIM Mechanism}{23}{subsection.2.5.2}% 
+\contentsline {subsection}{ \numberline {2.5.3} New Physics With Enhancements to FCNCs}{26}{subsection.2.5.3}% 
+\contentsline {subsection}{ \numberline {2.5.4} Current Measurements of Top FCNCs}{29}{subsection.2.5.4}% 
+\contentsline {chapter}{\numberline {III}\uppercase {The Large Hadron Collider and the ATLAS Detector}}{34}{figure.caption.18}% 
+\contentsline {section}{ \numberline {3.1} The Large Hadron Collider}{34}{section.3.1}% 
+\contentsline {subsection}{ \numberline {3.1.1} LHC Magnets}{37}{subsection.3.1.1}% 
+\contentsline {subsection}{ \numberline {3.1.2} Luminosity}{37}{subsection.3.1.2}% 
+\contentsline {subsection}{ \numberline {3.1.3} Pileup}{39}{subsection.3.1.3}% 
+\contentsline {section}{ \numberline {3.2} The ATLAS Detector}{41}{section.3.2}% 
+\contentsline {subsection}{ \numberline {3.2.1} Common Detector Variables and the ATLAS Coordinate System}{42}{subsection.3.2.1}% 
+\contentsline {subsection}{ \numberline {3.2.2} Magnet Setup}{44}{subsection.3.2.2}% 
+\contentsline {subsection}{ \numberline {3.2.3} Inner Detector}{45}{subsection.3.2.3}% 
+\contentsline {subsection}{ \numberline {3.2.4} Electromagnetic and Hadronic Calorimeters}{48}{subsection.3.2.4}% 
+\contentsline {subsection}{ \numberline {3.2.5} Muon System}{52}{subsection.3.2.5}% 
+\contentsline {subsection}{ \numberline {3.2.6} Trigger and Data Acquisition}{54}{subsection.3.2.6}% 
+\contentsline {subsubsection}{ Level 1 Calorimeter}{56}{subsubsection.3.2.6.1}% 
+\contentsline {subsubsection}{ High Level Trigger}{56}{subsubsection.3.2.6.2}% 
+\contentsline {chapter}{\numberline {IV}\uppercase {Simulation and Reconstruction}}{57}{subsubsection.3.2.6.2}% 
+\contentsline {section}{ \numberline {4.1} Simulation of pp Collisions}{57}{section.4.1}% 
+\contentsline {subsection}{ \numberline {4.1.1} Matrix Element Calculation and Parton Distribution Functions}{58}{subsection.4.1.1}% 
+\contentsline {subsection}{ \numberline {4.1.2} Parton Shower Calculation}{60}{subsection.4.1.2}% 
+\contentsline {subsection}{ \numberline {4.1.3} Detector Simulation}{60}{subsection.4.1.3}% 
+\contentsline {subsection}{ \numberline {4.1.4} Monte Carlo Generators Used for LHC Physics}{61}{subsection.4.1.4}% 
+\contentsline {section}{ \numberline {4.2} Object Reconstruction}{61}{section.4.2}% 
+\contentsline {subsection}{ \numberline {4.2.1} Electrons}{63}{subsection.4.2.1}% 
+\contentsline {subsection}{ \numberline {4.2.2} Muons}{65}{subsection.4.2.2}% 
+\contentsline {subsection}{ \numberline {4.2.3} Photons}{66}{subsection.4.2.3}% 
+\contentsline {subsection}{ \numberline {4.2.4} Jets}{68}{subsection.4.2.4}% 
+\contentsline {subsubsection}{ B-Jets}{70}{subsubsection.4.2.4.1}% 
+\contentsline {subsection}{ \numberline {4.2.5} Missing Transverse Energy}{71}{subsection.4.2.5}% 
+\contentsline {section}{ \numberline {4.3} Creation of Flavor Changing Neutral Current Signal Events}{72}{section.4.3}% 
+\contentsline {subsection}{ \numberline {4.3.1} MadGraph5 amc@NLO}{72}{subsection.4.3.1}% 
+\contentsline {chapter}{\numberline {V}\uppercase {Search Strategy}}{73}{subsection.4.3.1}% 
+\contentsline {section}{ \numberline {5.1} Major Backgrounds}{73}{section.5.1}% 
+\contentsline {section}{ \numberline {5.2} Event Reconstruction}{73}{section.5.2}% 
+\contentsline {section}{ \numberline {5.3} Data and Simulation Event PreSelection}{73}{section.5.3}% 
+\contentsline {section}{ \numberline {5.4} Control and Validation Regions}{73}{section.5.4}% 
+\contentsline {section}{ \numberline {5.5} Signal Region}{73}{section.5.5}% 
+\contentsline {section}{ \numberline {5.6} Neural Network}{73}{section.5.6}% 
+\contentsline {subsection}{ \numberline {5.6.1} Architecture and Studies}{73}{subsection.5.6.1}% 
+\contentsline {chapter}{\numberline {VI}\uppercase {Analysis And Results}}{74}{subsection.5.6.1}% 
+\contentsline {section}{ \numberline {6.1} Uncertainties}{74}{section.6.1}% 
+\contentsline {section}{ \numberline {6.2} Statistical Treatment of Results}{74}{section.6.2}% 
+\contentsline {section}{ \numberline {6.3} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{74}{section.6.3}% 
+\contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{75}{section.6.3}% 
+\contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{75}{section.7.1}% 
+\contentsline {section}{ \numberline {7.2} Future Directions}{75}{section.7.2}% 
+\contentsline {section}{ \numberline {7.3} Conclusion}{75}{section.7.3}% 
+\contentsline {chapter}{REFERENCES CITED}{76}{section.7.3}% 
