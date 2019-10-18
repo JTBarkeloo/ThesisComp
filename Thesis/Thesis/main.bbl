@@ -57,6 +57,35 @@ Johan Alwall et~al.
 \newblock {A Standard format for Les Houches event files}.
 \newblock {\em Comput. Phys. Commun.}, 176:300--304, 2007.
 
+\bibitem{UFOModel}
+Artur Amorim, Juan~Pedro Araque, Nuno~Filipe Castro, Jose Santiago, and Rui
+  Santos.
+\newblock {Production of t$\gamma$, tZ and tH via Flavour Changing Neutral
+  Currents}.
+\newblock {\em PoS}, TOP2015:067, 2016.
+
+\bibitem{Dim6TermsOld}
+R.~A. Coimbra, P.~M. Ferreira, R.~B. Guedes, O.~Oliveira, A.~Onofre, R.~Santos,
+  and Miguel Won.
+\newblock {Dimension six FCNC operators and top production at the LHC}.
+\newblock {\em Phys. Rev.}, D79:014006, 2009.
+
+\bibitem{Dim6Terms}
+B.~Grzadkowski, M.~Iskrzynski, M.~Misiak, and J.~Rosiek.
+\newblock {Dimension-Six Terms in the Standard Model Lagrangian}.
+\newblock {\em JHEP}, 10:085, 2010.
+
+\bibitem{TopCouplingsAguilarSaavedra}
+J.~A. Aguilar-Saavedra.
+\newblock {A Minimal set of top anomalous couplings}.
+\newblock {\em Nucl. Phys.}, B812:181--204, 2009.
+
+\bibitem{Degrande:2014tta}
+Celine Degrande, Fabio Maltoni, Jian Wang, and Cen Zhang.
+\newblock {Automatic computations at next-to-leading order in QCD for top-quark
+  flavor-changing neutral processes}.
+\newblock {\em Phys. Rev.}, D91:034024, 2015.
+
 \bibitem{ParticleInteractions}
 Joao Pequenao.
 \newblock {Event Cross Section in a computer generated image of the ATLAS
@@ -116,10 +145,28 @@ The~ATLAS collaboration.
 S.~Schramm.
 \newblock Howtocleanjets2016 : Jet-based event cleaning, 2016.
 
-\bibitem{Takubo:2017wvt}
-Yosuke Takubo.
-\newblock {ATLAS IBL operational experience}.
-\newblock {\em PoS}, Vertex2016:004, 2017.
+\bibitem{CMSct}
+Albert~M Sirunyan et~al.
+\newblock {Measurement of b hadron lifetimes in pp collisions at $\sqrt{s} =$ 8
+  TeV}.
+\newblock {\em Eur. Phys. J.}, C78(6):457, 2018.
+\newblock [Erratum: Eur. Phys. J.C78,no.7,561(2018)].
+
+\bibitem{BTagImg}
+N.~Bartosik.
+\newblock Luminositypublicresultsrun2, 2019.
+
+\bibitem{BJet1718}
+Francesco~Armando Di~Bello.
+\newblock {Optimisation of the ATLAS $b$-tagging algorithms for the 2017-2018
+  LHC data-taking}.
+\newblock {\em PoS}, EPS-HEP2017:733, 2017.
+
+\bibitem{BJetMVA}
+Morad Aaboud et~al.
+\newblock {Measurements of b-jet tagging efficiency with the ATLAS detector
+  using $ t\overline{t} $ events at $ \sqrt{s}=13 $ TeV}.
+\newblock {\em JHEP}, 08:089, 2018.
 
 \bibitem{METreco}
 Morad Aaboud et~al.

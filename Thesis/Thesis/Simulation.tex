@@ -46,6 +46,68 @@ A variety of different MC generators are used in the creation of simulated event
 
 These generators are commonly interfaced, usually with \textsc{pythia} for showering, and this is possible due to a common file format developed at the Les Houches Accords \cite{Alwall:2006yp}.  This allows a specialty generator to be created and used to generate hard processes and then simulate the rest of the event with common showering generators that might lack the ability to simulate the process in question.
 
+
+
+%%%%%%% FCNC Generation
+\section{Creation of Flavor Changing Neutral Current Signal Events}
+\label{Sec:MG5Sig}
+To create simulated signal events the typical Standard Model models must be extended to include higher order terms.  A Universal FeynRules Output (UFO)  \cite{UFOModel} model was created to include dimension 6 operators (\cite{Dim6TermsOld, Dim6Terms}).  These individual operators are turned on for the specific final state being produced.  The original operators can be reduced to a minimal set of coupling to anamalous finals states (i.e. FCNC final states) \cite{TopCouplingsAguilarSaavedra} which are used.  This effective field theory method of signal production is beneficial as it allows for production of signal events that are not dependent on any particular BSM model.  This method of including dimension-6 effective operators can be used to produce any of the top FCNC channels, for example in the $t\rightarrow qZ$ process \cite{FCNCtqZ}.
+
+\subsection{FCNC Events Produced With MadGraph5 amc@NLO}
+
+Signal events have been produced using MadGraph5 amc@NLO following \cite{Degrande:2014tta}.  Before official ATLAS datasets can be produced and the entirety of the event reconstructed through the entire ATLAS detector validation of the model must be preformed.  10,000 events were produced locally at truth level to compare the kinematics of produced events in $t\bar{t}\rightarrow bWq\gamma$ to the kinematics of official production $t\bar{t}$ events. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/FCNCValidation/singleTops.png}
+	\caption{
+	}
+%	\label{fig:SimMCFlow}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/FCNCValidation/ttBarSys.png}
+	\caption{
+	}
+%	\label{fig:SimMCFlow}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/FCNCValidation/lepton.png}
+	\caption{
+	}
+%	\label{fig:SimMCFlow}
+\end{figure} 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/FCNCValidation/quarks.png}
+	\caption{
+	}
+%	\label{fig:SimMCFlow}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/FCNCValidation/photon.png}
+	\caption{
+	}
+%	\label{fig:SimMCFlow}
+\end{figure}
+
+
+Comparison of kinematics between standard ttbar events
+
+- param card in appendix
+
+ATLAS Production of these events
+
+TopQ1 Slimming/Skimming
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Object Reconstruction}
 
 After the events are simulated, or collected in case of real data, all there is is a collection of energy deposits within the detector.  These energy deposits must be transformed into meaningful physics objects through reconstruction.  Reconstruction is typically done in two major parts using the specialized detectors covered in Chapter \ref{ch:LHCDetector}.  The Inner Detector and Muon System turn patterns of hits within the tracking detectors into tracks that have direction and momentum information.  The calorimeter system transforms the energy deposits within the calorimeters into calibrated energy deposits with a particular position.  These tracks and calorimeter deposits are used to create physics objects (electrons, muons, etc.) by using particle identification techniques to reconstruct the underlying physics event.  For the analysis presented in this dissertation the final state signal particles that need to be reconstructed are one lepton (an electron or a muon), one photon, two quarks (one light flavor and on b quark), and one neutrino (missing transverse energy as it is the only particle that does not interact with the detector).  Each of these particles has a particular signature in the subdetectors of the ATLAS detector, shown in Figure \ref{fig:ATLASInteractions}.
@@ -142,21 +204,28 @@ Jet cleaning is also applied to remove events with jets built from known noisy p
 \item For jets with $20 \mathrm{ GeV } < p_{T} < 60 \mathrm{ GeV }$ and $|\eta| \geq 2.4$: if any jet is bad, then reject the event
 \item For jets with $p_{T} \geq 60 \mathrm{ GeV }$: if any jet is bad, then reject the event
 \end{enumerate}
+
+
 \subsubsection{B-Jets}
 
+While jets originate from any quark jets coming from b quarks can be identified due to their decay products.  B quarks hadronize into b-hadrons which have a relatively long lifetime compared to many other hadrons produced from light quarks.  The longer lifetime and the relativistic speeds the hadrons travel at mean the particle travels a measureable distance before it decays ($400-500 \mu m$)\cite{CMSct}.  This means that the vertex reconstructed from the energy coming from a b hadron decay can be traced back to a point that does not correspond to the primary vertex of the event.    A pictoral representation of a b quark decay can be seen inf Figure \ref{fig:BTagVars} and the b jet vertex is called the secondary vertex.  
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.5\columnwidth]{../ThesisImages/Simulation/B-tagging_diagram.png}
-	\caption[C]{\cite{Takubo:2017wvt} 
+	\caption[Pictoral representation of an event with a b jet showing the secondary vertex and impact parameter]{Pictoral representation of an event with a b jet showing the secondary vertex and impact parameter \cite{BTagImg} 
 	}
 	\label{fig:BTagVars}
 \end{figure}
 
+In addition to the secondary vertex other variables are helpful at identifiying jets coming from b quarks.  Back tracing the tracks within the displaced vertex the minimum distance between the track and the interaction point can be measured, the impact parameter.  Reconstructing the decay chain of the jet is also used in determining the providence of the jet.  This information is used in a multivariate analysis (MVA) to identify jets coming from b-quarks and reject jets coming from light quarks.
+
+The MVA used in this analysis is the MV2c10 is the discriminant used for bjet identification \cite{BJet1718}.  The output distributions for various flavors of jets as well as background rejection and signal efficiency plots are shown in Figure \ref{fig:BTag}.  The c10 in the algorithm name refers to the background training sample of the MVA consisting of a 10\% fraction of c-jets.  The 77\% efficiency fixed-cut working point for b-jet identification was chosen for this analysis, discussed in Section \ref{sec:NN}.  Differences in efficiency of b-tagging between data and simulation is taken into account with working point specific scale factors provided by the ATLAS Flavour Tagging Combined Preformance group.
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png}
-	\caption[C]{\cite{Takubo:2017wvt} 
+	\caption[The MV2c10 output for b,c, and light flavored jets in simulated $t\bar{t}$ and the background rejection as a function of the b-jet efficiency]{The MV2c10 output for b,c, and light flavored jets in simulated $t\bar{t}$ and the background rejection as a function of the b-jet efficiency \cite{BJetMVA}
 	}
 	\label{fig:BTag}
 \end{figure}
@@ -166,18 +235,15 @@ Jet cleaning is also applied to remove events with jets built from known noisy p
 \label{sec:bjetReco}
 
 \subsection{Missing Transverse Energy}
-\cite{METreco}
+The remaining signal object that has yet to be discussed it the neutrino coming from the W boson decay.  Neutrinos do not interact with the detectors as they pass through the ATLAS detector.  The only way to measure any properties of the neutrino in ATLAS events is to use conservation of momentum.  As previously mentioned the collision energy is unknown as partons do not carry a consistent fraction of the beam proton energy.  However, in the transverse plane to the beamline the total momentum is known to be very small.  Before the collision there is on the order of 1 GeV of momentume in the transverse plane.  Knowing the state before the collision we know that the total transverse momentum of the collision products should be approximately zero.
 
-\section{Creation of Flavor Changing Neutral Current Signal Events}
-\label{Sec:MG5Sig}
-\subsection{MadGraph5 amc@NLO}
-Comparison of kinematics between standard ttbar events
+Any imbalance in the momentum is referred to as Missing Transverse Momentum ($\slashed{E}_T$).  The negative vector sum of all reconstructed objects plus an additional soft term are used to calculate the missing energy in the x-plane and the y-plane\cite{METreco}.  A magnitude and aziumuthal angle are calculated to give the \textbf{$\slashed{E}_T$} vector in the transverse plane but this does not directly correspond to a neutrino which also has a momentum in the z direction.
 
-- param card in appendix
-
-ATLAS Production of these events
-
-TopQ1 Slimming/Skimming
+\subsubsection{Neutrino Reconstruction}
+In this analysis the signal region contains only one source of missing energy so all of the missing energy can be used to reconstruct a neturino object.  There is an ambiguity in the choice of the neutrino z-momentum.  To find the z-momentum a $\chi^2$ minimization is done:
+\[ \chi^2 = \chi_{\text{SMTop}}^2 + \chi_{\text{W}}^2 \]
+\[ \chi^2 = \frac{(m_{\text{bjet},l,\nu}-m_t)^2}{\sigma_{\text{SMTop}}^2} + \frac{(m_{l,\nu}-m_W)^2}{\sigma_W^2} \]
+The widths $sigma_{\text{SMTop}}$ and $\sigma_W^2$ are determined from signal Monte Carlo.  The event objects are combined to calculate the invariant mass of the top quark (the combination of the b-jet, lepton and neutrino) and the W boson (combination of the lepton and neutrino).  This is done while varying the z momentum of the neturino.  The neutrino momentum that corresponds to the smallest $\chi^2$ value is given assigned to the neutrino object for further use in the analysis.  The $\chi^2$ values were also used as a discriminating variable and fed into a neural network (Section \ref{sec:NN}) with $\chi_W^2$ having the stronger separation between signal and background. 
 
 
 
