@@ -4,78 +4,61 @@ The top-level auxiliary file: main.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: cv.aux
-A level-1 auxiliary file: Introduction.aux
-A level-1 auxiliary file: Theory.aux
-A level-1 auxiliary file: LHCDetector.aux
 A level-1 auxiliary file: Simulation.aux
 A level-1 auxiliary file: SearchStrategy.aux
 A level-1 auxiliary file: Results.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: unsrt.bst
 Database file #1: main.bib
-Warning--entry type for "TopWG" isn't style-file defined
---line 741 of file main.bib
-Warning--entry type for "ATLASLumi" isn't style-file defined
---line 757 of file main.bib
 Warning--entry type for "BTagImg" isn't style-file defined
 --line 773 of file main.bib
 Warning--entry type for "MaxThesis" isn't style-file defined
 --line 1001 of file main.bib
 Warning--entry type for "JetCleanTwiki" isn't style-file defined
---line 1809 of file main.bib
-Warning--empty journal in TopMass2017
-Warning--empty journal in GregorFCNC
-Warning--empty journal in ATLASCoords
-Warning--empty journal in LHCAccComplex
-Warning--empty author in ATLAS
-Warning--empty institution in Capeans:1291633
-Warning--empty author and editor in CERN-LHCC-97-016
-Warning--empty author and editor in CERN-LHCC-96-041
-Warning--empty author and editor in CERN-LHCC-96-042
-Warning--empty note in Outreach:1457044
+--line 1845 of file main.bib
 Warning--empty note in ParticleInteractions
 Warning--empty author in ElectronCalib1
 Warning--empty author in JetCleaning
 Warning--empty journal in JetJVT
-You've used 77 entries,
+You've used 32 entries,
             1791 wiz_defined-function locations,
-            934 strings with 15753 characters,
-and the built_in function-call counts, 15443 in all, are:
-= -- 1331
-> -- 627
-< -- 4
-+ -- 246
-- -- 169
-* -- 995
-:= -- 2534
-add.period$ -- 231
-call.type$ -- 77
-change.case$ -- 74
+            655 strings with 9031 characters,
+and the built_in function-call counts, 6245 in all, are:
+= -- 504
+> -- 303
+< -- 2
++ -- 115
+- -- 83
+* -- 408
+:= -- 1049
+add.period$ -- 92
+call.type$ -- 32
+change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 91
-duplicate$ -- 684
-empty$ -- 1593
-format.name$ -- 169
-if$ -- 3431
+cite$ -- 36
+duplicate$ -- 280
+empty$ -- 633
+format.name$ -- 83
+if$ -- 1371
 int.to.chr$ -- 0
-int.to.str$ -- 77
-missing$ -- 67
-newline$ -- 385
-num.names$ -- 71
-pop$ -- 151
+int.to.str$ -- 32
+missing$ -- 26
+newline$ -- 159
+num.names$ -- 30
+pop$ -- 68
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 278
+skip$ -- 119
 stack$ -- 0
-substring$ -- 1013
-swap$ -- 91
-text.length$ -- 4
+substring$ -- 313
+swap$ -- 41
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 14
-while$ -- 131
-width$ -- 79
-write$ -- 825
-(There were 19 warnings)
+warning$ -- 4
+while$ -- 55
+width$ -- 34
+write$ -- 338
+(There were 7 warnings)

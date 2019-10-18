@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  18 OCT 2019 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  18 OCT 2019 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,12 +1067,8 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 (c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 ) (./main.aux
-(./cover.aux) (./abstract.aux) (./cv.aux) (./Introduction.aux) (./Theory.aux)
-(./LHCDetector.aux
-
-LaTeX Warning: Label `fig:ATLASInnerDet' multiply defined.
-
-) (./Simulation.aux) (./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
+(./cover.aux) (./abstract.aux) (./cv.aux) (./Simulation.aux)
+(./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -1093,6 +1089,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count389
@@ -1304,331 +1301,170 @@ Overfull \hbox (31.87698pt too wide) detected at line 3
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 4
- \OT1/cmr/m/n/12 1.2.  
+Overfull \hbox (26.91597pt too wide) detected at line 4
+ \OT1/cmr/m/n/12 1.1.1.  
  []
 
 
-Overfull \hbox (11.74155pt too wide) detected at line 5
- \OT1/cmr/m/n/12 II.  
+Overfull \hbox (26.91597pt too wide) detected at line 5
+ \OT1/cmr/m/n/12 1.1.2.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 6
- \OT1/cmr/m/n/12 2.1.  
+Overfull \hbox (26.91597pt too wide) detected at line 6
+ \OT1/cmr/m/n/12 1.1.3.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 7
- \OT1/cmr/m/n/12 2.2.  
+Overfull \hbox (26.91597pt too wide) detected at line 7
+ \OT1/cmr/m/n/12 1.1.4.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 8
- \OT1/cmr/m/n/12 2.3.  
+ \OT1/cmr/m/n/12 1.2.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 9
- \OT1/cmr/m/n/12 2.3.1.  
+ \OT1/cmr/m/n/12 1.2.1.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 10
- \OT1/cmr/m/n/12 2.3.2.  
+Overfull \hbox (31.87698pt too wide) detected at line 10
+ \OT1/cmr/m/n/12 1.3.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 11
- \OT1/cmr/m/n/12 2.3.3.  
+ \OT1/cmr/m/n/12 1.3.1.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 12
- \OT1/cmr/m/n/12 2.4.  
+Overfull \hbox (26.91597pt too wide) detected at line 12
+ \OT1/cmr/m/n/12 1.3.2.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 13
- \OT1/cmr/m/n/12 2.4.1.  
+ \OT1/cmr/m/n/12 1.3.3.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 14
- \OT1/cmr/m/n/12 2.4.2.  
+ \OT1/cmr/m/n/12 1.3.4.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 15
- \OT1/cmr/m/n/12 2.4.3.  
+Overfull \hbox (26.91597pt too wide) detected at line 16
+ \OT1/cmr/m/n/12 1.3.5.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 16
- \OT1/cmr/m/n/12 2.5.  
+Overfull \hbox (11.74155pt too wide) detected at line 18
+ \OT1/cmr/m/n/12 II.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 17
- \OT1/cmr/m/n/12 2.5.1.  
+Overfull \hbox (31.87698pt too wide) detected at line 19
+ \OT1/cmr/m/n/12 2.1.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 18
- \OT1/cmr/m/n/12 2.5.2.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 19
- \OT1/cmr/m/n/12 2.5.3.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 20
- \OT1/cmr/m/n/12 2.5.4.  
+Overfull \hbox (31.87698pt too wide) detected at line 20
+ \OT1/cmr/m/n/12 2.2.  
  []
 
 [7
 
 
 ]
-Overfull \hbox (16.30678pt too wide) detected at line 21
- \OT1/cmr/m/n/12 III.  
+Overfull \hbox (31.87698pt too wide) detected at line 21
+ \OT1/cmr/m/n/12 2.3.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 22
- \OT1/cmr/m/n/12 3.1.  
+ \OT1/cmr/m/n/12 2.4.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 23
- \OT1/cmr/m/n/12 3.1.1.  
+Overfull \hbox (31.87698pt too wide) detected at line 23
+ \OT1/cmr/m/n/12 2.5.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 24
- \OT1/cmr/m/n/12 3.1.2.  
+Overfull \hbox (31.87698pt too wide) detected at line 24
+ \OT1/cmr/m/n/12 2.6.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 25
- \OT1/cmr/m/n/12 3.1.3.  
+ \OT1/cmr/m/n/12 2.6.1.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 26
+Overfull \hbox (16.30678pt too wide) detected at line 26
+ \OT1/cmr/m/n/12 III.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 27
+ \OT1/cmr/m/n/12 3.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 28
  \OT1/cmr/m/n/12 3.2.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 27
- \OT1/cmr/m/n/12 3.2.1.  
+Overfull \hbox (31.87698pt too wide) detected at line 29
+ \OT1/cmr/m/n/12 3.3.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 28
- \OT1/cmr/m/n/12 3.2.2.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 29
- \OT1/cmr/m/n/12 3.2.3.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 30
- \OT1/cmr/m/n/12 3.2.4.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 31
- \OT1/cmr/m/n/12 3.2.5.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 32
- \OT1/cmr/m/n/12 3.2.6.  
- []
-
-
-Overfull \hbox (15.98456pt too wide) detected at line 35
+Overfull \hbox (15.98456pt too wide) detected at line 30
  \OT1/cmr/m/n/12 IV.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 36
+Overfull \hbox (31.87698pt too wide) detected at line 31
  \OT1/cmr/m/n/12 4.1.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 37
- \OT1/cmr/m/n/12 4.1.1.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 38
- \OT1/cmr/m/n/12 4.1.2.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 39
- \OT1/cmr/m/n/12 4.1.3.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 40
- \OT1/cmr/m/n/12 4.1.4.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 41
+Overfull \hbox (31.87698pt too wide) detected at line 32
  \OT1/cmr/m/n/12 4.2.  
  []
 
-[8]
-Overfull \hbox (26.91597pt too wide) detected at line 42
- \OT1/cmr/m/n/12 4.2.1.  
- []
 
-
-Overfull \hbox (31.87698pt too wide) detected at line 43
+Overfull \hbox (31.87698pt too wide) detected at line 33
  \OT1/cmr/m/n/12 4.3.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 44
- \OT1/cmr/m/n/12 4.3.1.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 45
- \OT1/cmr/m/n/12 4.3.2.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 46
- \OT1/cmr/m/n/12 4.3.3.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 47
- \OT1/cmr/m/n/12 4.3.4.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 49
- \OT1/cmr/m/n/12 4.3.5.  
- []
-
-
-Overfull \hbox (11.74571pt too wide) detected at line 51
- \OT1/cmr/m/n/12 V.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 52
- \OT1/cmr/m/n/12 5.1.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 53
- \OT1/cmr/m/n/12 5.2.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 54
- \OT1/cmr/m/n/12 5.3.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 55
- \OT1/cmr/m/n/12 5.4.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 56
- \OT1/cmr/m/n/12 5.5.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 57
- \OT1/cmr/m/n/12 5.6.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 58
- \OT1/cmr/m/n/12 5.6.1.  
- []
-
-
-Overfull \hbox (15.98456pt too wide) detected at line 59
- \OT1/cmr/m/n/12 VI.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 60
- \OT1/cmr/m/n/12 6.1.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 61
- \OT1/cmr/m/n/12 6.2.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 62
- \OT1/cmr/m/n/12 6.3.  
- []
-
-[9]
-Overfull \hbox (20.54979pt too wide) detected at line 63
- \OT1/cmr/m/n/12 VII.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 64
- \OT1/cmr/m/n/12 7.1.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 65
- \OT1/cmr/m/n/12 7.2.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 66
- \OT1/cmr/m/n/12 7.3.  
  []
 
 )
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+
+ []
+
+(./main.lof [9
+
+])
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
  [10]
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
 
  []
 
-(./main.lof
-Underfull \hbox (badness 4819) in paragraph at lines 15--15
-  []\OT1/cmr/m/n/12 Flavor-changing neutral current theoretical branching ratio
-s and 
- []
-
-[11
-
-] [12])
-\tf@lof=\write7
-\openout7 = `main.lof'.
-
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-
- []
-
 (./main.lot
-Underfull \hbox (badness 3792) in paragraph at lines 6--6
+Underfull \hbox (badness 3792) in paragraph at lines 2--2
   []\OT1/cmr/m/n/12 Photon identification variables used for \OT1/cmr/m/it/12 l
 oose \OT1/cmr/m/n/12 and \OT1/cmr/m/it/12 tight \OT1/cmr/m/n/12 photon 
  []
@@ -1637,390 +1473,14 @@ oose \OT1/cmr/m/n/12 and \OT1/cmr/m/it/12 tight \OT1/cmr/m/n/12 photon
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [14
+ [11
 
 ]
-\openout2 = `Introduction.aux'.
-
- (./Introduction.tex
-[Introduction]
-[1
-
-
-
-
-]) [2] [3]
-\openout2 = `Theory.aux'.
-
- (./Theory.tex
-[Theory]
-[4
-
-
-
-]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 71.
-
-[6] [7] [8] [9] [10] [11] [12] [13]
-<../ThesisImages/Theory/ttprodxsec.png, id=690, 1986.42125pt x 1353.055pt>
-File: ../ThesisImages/Theory/ttprodxsec.png Graphic file (type png)
-<use ../ThesisImages/Theory/ttprodxsec.png>
-Package pdftex.def Info: ../ThesisImages/Theory/ttprodxsec.png  used on input l
-ine 211.
-(pdftex.def)             Requested size: 433.62pt x 295.36067pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../ThesisImages/Theory/singtprodxsec.png, id=693, 829.59938pt x 538.26094pt>
-File: ../ThesisImages/Theory/singtprodxsec.png Graphic file (type png)
-<use ../ThesisImages/Theory/singtprodxsec.png>
-Package pdftex.def Info: ../ThesisImages/Theory/singtprodxsec.png  used on inpu
-t line 218.
-(pdftex.def)             Requested size: 433.62pt x 281.33461pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14] [15 <../ThesisImages/Theory/ttprodxsec.png>]
-<../ThesisImages/Theory/LOPairProdDiags.png, id=712, 740.7675pt x 384.6872pt>
-File: ../ThesisImages/Theory/LOPairProdDiags.png Graphic file (type png)
-<use ../ThesisImages/Theory/LOPairProdDiags.png>
-Package pdftex.def Info: ../ThesisImages/Theory/LOPairProdDiags.png  used on in
-put line 232.
-(pdftex.def)             Requested size: 433.62pt x 225.1849pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16 <../ThesisImages/Theory/singtprodxsec.png>]
-<../ThesisImages/Theory/LOSingProdDiags.png, id=721, 974.89218pt x 305.64188pt>
-
-File: ../ThesisImages/Theory/LOSingProdDiags.png Graphic file (type png)
-<use ../ThesisImages/Theory/LOSingProdDiags.png>
-Package pdftex.def Info: ../ThesisImages/Theory/LOSingProdDiags.png  used on in
-put line 241.
-(pdftex.def)             Requested size: 433.62pt x 135.94724pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17 <../ThesisImages/Theory/LOPairProdDiags.png>]
-<../ThesisImages/Theory/SMTopDecays.png, id=733, 969.6225pt x 374.90062pt>
-File: ../ThesisImages/Theory/SMTopDecays.png Graphic file (type png)
-<use ../ThesisImages/Theory/SMTopDecays.png>
-Package pdftex.def Info: ../ThesisImages/Theory/SMTopDecays.png  used on input 
-line 251.
-(pdftex.def)             Requested size: 433.62pt x 167.65686pt.
- [18 <../ThesisImages/Theory/LOSingProdDiags.png> <../ThesisImages/Theory/SMTop
-Decays.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 258.
-
-<../ThesisImages/Theory/topdecayproducts.jpg, id=743, 602.25pt x 470.75874pt>
-File: ../ThesisImages/Theory/topdecayproducts.jpg Graphic file (type jpg)
-<use ../ThesisImages/Theory/topdecayproducts.jpg>
-Package pdftex.def Info: ../ThesisImages/Theory/topdecayproducts.jpg  used on i
-nput line 274.
-(pdftex.def)             Requested size: 216.81pt x 169.47302pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19] [20 <../ThesisImages/Theory/topdecayproducts.jpg>] [21] [22]
-<../ThesisImages/Theory/GIMDiagramsa.png, id=769, 580.41844pt x 518.6878pt>
-File: ../ThesisImages/Theory/GIMDiagramsa.png Graphic file (type png)
-<use ../ThesisImages/Theory/GIMDiagramsa.png>
-Package pdftex.def Info: ../ThesisImages/Theory/GIMDiagramsa.png  used on input
- line 307.
-(pdftex.def)             Requested size: 173.44534pt x 154.99812pt.
- [23 <../ThesisImages/Theory/GIMDiagramsa.png>]
-<../ThesisImages/Theory/GIMDiagrams.png, id=777, 1157.07281pt x 518.6878pt>
-File: ../ThesisImages/Theory/GIMDiagrams.png Graphic file (type png)
-<use ../ThesisImages/Theory/GIMDiagrams.png>
-Package pdftex.def Info: ../ThesisImages/Theory/GIMDiagrams.png  used on input 
-line 320.
-(pdftex.def)             Requested size: 390.25534pt x 174.94273pt.
- [24 <../ThesisImages/Theory/GIMDiagrams.png>]
-<../ThesisImages/Theory/FCNCLoop.png, id=785, 580.41844pt x 432.11438pt>
-File: ../ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
-<use ../ThesisImages/Theory/FCNCLoop.png>
-Package pdftex.def Info: ../ThesisImages/Theory/FCNCLoop.png  used on input lin
-e 333.
-(pdftex.def)             Requested size: 216.81pt x 161.4095pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 339.
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 354--354
-[]\OT1/cmr/m/n/12 TABLE 2.4. |Ex-pected branch-ing ra-tios for var-i-ous flavor
--changing neu-tral
- []
-
-[25 <../ThesisImages/Theory/FCNCLoop.png>] [26] [27]
-Overfull \hbox (21.8496pt too wide) in paragraph at lines 371--372
-[]\OT1/cmr/bx/n/12 R-Parity Vi-o-lat-ing Su-per-sym-met-ric Mod-els (RPV):  \OT
-1/cmr/m/n/12 An-other su-per-sym-met-ric
- []
-
-<../ThesisImages/Theory/AllFCNCDiagrams.png, id=833, 983.17313pt x 207.02344pt>
-
-File: ../ThesisImages/Theory/AllFCNCDiagrams.png Graphic file (type png)
-<use ../ThesisImages/Theory/AllFCNCDiagrams.png>
-Package pdftex.def Info: ../ThesisImages/Theory/AllFCNCDiagrams.png  used on in
-put line 381.
-(pdftex.def)             Requested size: 433.62pt x 91.30539pt.
-[28]
-<../ThesisImages/Theory/fcnc_tXu_sep18.png, id=839, 1987.425pt x 2090.81125pt>
-File: ../ThesisImages/Theory/fcnc_tXu_sep18.png Graphic file (type png)
-<use ../ThesisImages/Theory/fcnc_tXu_sep18.png>
-Package pdftex.def Info: ../ThesisImages/Theory/fcnc_tXu_sep18.png  used on inp
-ut line 390.
-(pdftex.def)             Requested size: 216.81pt x 228.07576pt.
-<../ThesisImages/Theory/fcnc_tXc_sep18.png, id=840, 1987.425pt x 2090.81125pt>
-File: ../ThesisImages/Theory/fcnc_tXc_sep18.png Graphic file (type png)
-<use ../ThesisImages/Theory/fcnc_tXc_sep18.png>
-Package pdftex.def Info: ../ThesisImages/Theory/fcnc_tXc_sep18.png  used on inp
-ut line 391.
-(pdftex.def)             Requested size: 216.81pt x 228.07576pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../ThesisImages/Theory/HeraFCNC.png, id=846, 842.39719pt x 577.40718pt>
-File: ../ThesisImages/Theory/HeraFCNC.png Graphic file (type png)
-<use ../ThesisImages/Theory/HeraFCNC.png>
-Package pdftex.def Info: ../ThesisImages/Theory/HeraFCNC.png  used on input lin
-e 399.
-(pdftex.def)             Requested size: 173.44534pt x 118.88025pt.
-<../ThesisImages/Theory/LepFCNC.png, id=847, 819.06pt x 603.75563pt>
-File: ../ThesisImages/Theory/LepFCNC.png Graphic file (type png)
-<use ../ThesisImages/Theory/LepFCNC.png>
-Package pdftex.def Info: ../ThesisImages/Theory/LepFCNC.png  used on input line
- 405.
-(pdftex.def)             Requested size: 173.44534pt x 127.85187pt.
-[29 <../ThesisImages/Theory/AllFCNCDiagrams.png>] [30 <../ThesisImages/Theory/f
-cnc_tXu_sep18.png> <../ThesisImages/Theory/fcnc_tXc_sep18.png>]
-<../ThesisImages/Theory/AllFCNCLimits.png, id=863, 1986.42125pt x 1777.64125pt>
-
-File: ../ThesisImages/Theory/AllFCNCLimits.png Graphic file (type png)
-<use ../ThesisImages/Theory/AllFCNCLimits.png>
-Package pdftex.def Info: ../ThesisImages/Theory/AllFCNCLimits.png  used on inpu
-t line 413.
-(pdftex.def)             Requested size: 390.25534pt x 349.22905pt.
-
-Underfull \hbox (badness 1189) in paragraph at lines 410--417
-\OT1/cmr/m/n/12 be-yond the Stan-dard Model pre-dic-tions (as dis-cussed in Sec
--tion []2.5.3[]), and
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[31 <../ThesisImages/Theory/HeraFCNC.png> <../ThesisImages/Theory/LepFCNC.png>]
-[32 <../ThesisImages/Theory/AllFCNCLimits.png>]) [33]
-\openout2 = `LHCDetector.aux'.
-
- (./LHCDetector.tex
-[The Large Hadron Collider and the ATLAS Detector]
-<../ThesisImages/LHCImages/LHCDetecPlacement.png, id=886, 1413.02907pt x 490.83
-376pt>
-File: ../ThesisImages/LHCImages/LHCDetecPlacement.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/LHCDetecPlacement.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/LHCDetecPlacement.png  used 
-on input line 12.
-(pdftex.def)             Requested size: 433.62pt x 150.62154pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[34
-
-
-
-]
-<../ThesisImages/LHCImages/AcceleratorComplex.png, id=895, 4296.6924pt x 3047.6
-259pt>
-File: ../ThesisImages/LHCImages/AcceleratorComplex.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/AcceleratorComplex.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/AcceleratorComplex.png  used
- on input line 22.
-(pdftex.def)             Requested size: 433.62pt x 307.52412pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35 <../ThesisImages/LHCImages/LHCDetecPlacement.png>] [36 <../ThesisImages/LHC
-Images/AcceleratorComplex.png>] [37]
-<../ThesisImages/LHCImages/ATLASLumi.png, id=916, 798.985pt x 574.145pt>
-File: ../ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASLumi.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASLumi.png  used on input
- line 47.
-(pdftex.def)             Requested size: 303.53267pt x 218.11604pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38]
-<../ThesisImages/LHCImages/meanIntperCrossing.png, id=924, 798.985pt x 574.145p
-t>
-File: ../ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/meanIntperCrossing.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/meanIntperCrossing.png  used
- on input line 58.
-(pdftex.def)             Requested size: 303.53267pt x 218.11604pt.
-<../ThesisImages/LHCImages/28VertexPileup.png, id=929, 2862.17822pt x 1889.7531
-7pt>
-File: ../ThesisImages/LHCImages/28VertexPileup.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/28VertexPileup.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/28VertexPileup.png  used on 
-input line 66.
-(pdftex.def)             Requested size: 303.53267pt x 200.40515pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[39 <../ThesisImages/LHCImages/ATLASLumi.png>]
-<../ThesisImages/LHCImages/65VertexPileup.png, id=937, 5018.75pt x 3345.49875pt
->
-File: ../ThesisImages/LHCImages/65VertexPileup.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/65VertexPileup.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/65VertexPileup.png  used on 
-input line 74.
-(pdftex.def)             Requested size: 303.53267pt x 202.30376pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[40 <../ThesisImages/LHCImages/meanIntperCrossing.png> <../ThesisImages/LHCImag
-es/28VertexPileup.png>]
-<../ThesisImages/LHCImages/AtlasDetector.png, id=947, 1621.05624pt x 1041.8925p
-t>
-File: ../ThesisImages/LHCImages/AtlasDetector.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/AtlasDetector.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/AtlasDetector.png  used on i
-nput line 85.
-(pdftex.def)             Requested size: 433.62pt x 278.69157pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[41 <../ThesisImages/LHCImages/65VertexPileup.png>] [42 <../ThesisImages/LHCIma
-ges/AtlasDetector.png (PNG copy)>]
-<../ThesisImages/LHCImages/ATLASCoords.png, id=966, 541.27219pt x 645.91313pt>
-File: ../ThesisImages/LHCImages/ATLASCoords.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASCoords.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASCoords.png  used on inp
-ut line 101.
-(pdftex.def)             Requested size: 216.81pt x 258.72534pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43]
-<../ThesisImages/LHCImages/ATLASMagnetWinding.png, id=974, 662.475pt x 515.6765
-6pt>
-File: ../ThesisImages/LHCImages/ATLASMagnetWinding.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASMagnetWinding.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMagnetWinding.png  used
- on input line 120.
-(pdftex.def)             Requested size: 303.53267pt x 236.26987pt.
- [44 <../ThesisImages/LHCImages/ATLASCoords.png>]
-<../ThesisImages/LHCImages/ATLASInnerDetector.png, id=986, 793.46437pt x 499.86
-75pt>
-File: ../ThesisImages/LHCImages/ATLASInnerDetector.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASInnerDetector.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASInnerDetector.png  used
- on input line 133.
-(pdftex.def)             Requested size: 346.89731pt x 218.53894pt.
- [45 <../ThesisImages/LHCImages/ATLASMagnetWinding.png>]
-<../ThesisImages/LHCImages/tracking.png, id=998, 1249.66875pt x 462.97969pt>
-File: ../ThesisImages/LHCImages/tracking.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/tracking.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/tracking.png  used on input 
-line 143.
-(pdftex.def)             Requested size: 433.62pt x 160.64655pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[46 <../ThesisImages/LHCImages/ATLASInnerDetector.png>]
-<../ThesisImages/LHCImages/ATLASInnerStructure.png, id=1007, 250.34328pt x 218.
-2554pt>
-File: ../ThesisImages/LHCImages/ATLASInnerStructure.png Graphic file (type png)
-
-<use ../ThesisImages/LHCImages/ATLASInnerStructure.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASInnerStructure.png  use
-d on input line 154.
-(pdftex.def)             Requested size: 216.81pt x 189.02809pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[47 <../ThesisImages/LHCImages/tracking.PNG>] [48 <../ThesisImages/LHCImages/AT
-LASInnerStructure.png (PNG copy)>]
-<../ThesisImages/LHCImages/ATLASCaloSystem.png, id=1027, 682.80093pt x 400.4962
-5pt>
-File: ../ThesisImages/LHCImages/ATLASCaloSystem.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASCaloSystem.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASCaloSystem.png  used on
- input line 172.
-(pdftex.def)             Requested size: 433.62pt x 254.34285pt.
-<../ThesisImages/LHCImages/LArAccordian.png, id=1031, 604.05675pt x 483.60675pt
->
-File: ../ThesisImages/LHCImages/LArAccordian.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/LArAccordian.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/LArAccordian.png  used on in
-put line 181.
-(pdftex.def)             Requested size: 216.81pt x 173.57436pt.
- [49 <../ThesisImages/LHCImages/ATLASCaloSystem.png>] [50 <../ThesisImages/LHCI
-mages/LArAccordian.png>]
-<../ThesisImages/LHCImages/MaterialBudget.png, id=1047, 1048.66782pt x 341.7768
-7pt>
-File: ../ThesisImages/LHCImages/MaterialBudget.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/MaterialBudget.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/MaterialBudget.png  used on 
-input line 191.
-(pdftex.def)             Requested size: 433.62pt x 141.32367pt.
- [51 <../ThesisImages/LHCImages/MaterialBudget.png>]
-<../ThesisImages/LHCImages/InteractionLengths.png, id=1057, 426.84468pt x 292.0
-9125pt>
-File: ../ThesisImages/LHCImages/InteractionLengths.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/InteractionLengths.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/InteractionLengths.png  used
- on input line 204.
-(pdftex.def)             Requested size: 346.89731pt x 237.3993pt.
-<../ThesisImages/LHCImages/ATLASMuonSystem.png, id=1062, 714.41907pt x 535.2497
-pt>
-File: ../ThesisImages/LHCImages/ATLASMuonSystem.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASMuonSystem.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMuonSystem.png  used on
- input line 216.
-(pdftex.def)             Requested size: 433.62pt x 324.87656pt.
- [52 <../ThesisImages/LHCImages/InteractionLengths.png>] [53 <../ThesisImages/L
-HCImages/ATLASMuonSystem.png>] [54]
-<../ThesisImages/LHCImages/ATLASTDAQR2.png, id=1082, 752.8125pt x 569.87906pt>
-File: ../ThesisImages/LHCImages/ATLASTDAQR2.png Graphic file (type png)
-<use ../ThesisImages/LHCImages/ATLASTDAQR2.png>
-Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASTDAQR2.png  used on inp
-ut line 237.
-(pdftex.def)             Requested size: 433.62pt x 328.26051pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[55] [56 <../ThesisImages/LHCImages/ATLASTDAQR2.png>]) [57]
 \openout2 = `Simulation.aux'.
 
  (./Simulation.tex
 [Simulation and Reconstruction]
-<../ThesisImages/Simulation/MCFlow.png, id=1101, 874.76813pt x 651.93562pt>
+<../ThesisImages/Simulation/MCFlow.png, id=285, 874.76813pt x 651.93562pt>
 File: ../ThesisImages/Simulation/MCFlow.png Graphic file (type png)
 <use ../ThesisImages/Simulation/MCFlow.png>
 Package pdftex.def Info: ../ThesisImages/Simulation/MCFlow.png  used on input l
@@ -2029,28 +1489,33 @@ ine 11.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58
+[1
+
 
 
 
 ]
-<../ThesisImages/Simulation/PDF.png, id=1109, 931.22906pt x 596.98032pt>
+<../ThesisImages/Simulation/PDF.png, id=294, 931.22906pt x 596.98032pt>
 File: ../ThesisImages/Simulation/PDF.png Graphic file (type png)
 <use ../ThesisImages/Simulation/PDF.png>
 Package pdftex.def Info: ../ThesisImages/Simulation/PDF.png  used on input line
  23.
 (pdftex.def)             Requested size: 433.62pt x 277.97556pt.
- [59 <../ThesisImages/Simulation/MCFlow.png>] [60 <../ThesisImages/Simulation/P
-DF.png>] [61] [62]
-<../ThesisImages/FCNCValidation/singleTops.png, id=1160, 1118.67938pt x 241.652
-82pt>
+ [2 <../ThesisImages/Simulation/MCFlow.png>] [3 <../ThesisImages/Simulation/PDF
+.png>] [4]
+
+Package natbib Warning: Citation `UFO' on page 5 undefined on input line 54.
+
+[5]
+<../ThesisImages/FCNCValidation/singleTops.png, id=344, 1118.67938pt x 241.6528
+2pt>
 File: ../ThesisImages/FCNCValidation/singleTops.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/singleTops.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/singleTops.png  used on
  input line 62.
 (pdftex.def)             Requested size: 433.62pt x 93.66899pt.
-<../ThesisImages/FCNCValidation/ttBarSys.png, id=1161, 1087.06125pt x 231.11343
-pt>
+<../ThesisImages/FCNCValidation/ttBarSys.png, id=345, 1087.06125pt x 231.11343p
+t>
 File: ../ThesisImages/FCNCValidation/ttBarSys.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/ttBarSys.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/ttBarSys.png  used on i
@@ -2060,8 +1525,7 @@ nput line 73.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/FCNCValidation/lepton.png, id=1162, 721.19438pt x 231.11343pt>
-
+<../ThesisImages/FCNCValidation/lepton.png, id=346, 721.19438pt x 231.11343pt>
 File: ../ThesisImages/FCNCValidation/lepton.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/lepton.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/lepton.png  used on inp
@@ -2070,37 +1534,41 @@ ut line 81.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/FCNCValidation/quarks.png, id=1164, 1091.57813pt x 231.11343pt
->
+<../ThesisImages/FCNCValidation/quarks.png, id=348, 1091.57813pt x 231.11343pt>
+
 File: ../ThesisImages/FCNCValidation/quarks.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/quarks.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/quarks.png  used on inp
 ut line 90.
 (pdftex.def)             Requested size: 433.62pt x 91.80544pt.
-[63 <../ThesisImages/FCNCValidation/singleTops.png>] [64 <../ThesisImages/FCNCV
-alidation/ttBarSys.png> <../ThesisImages/FCNCValidation/lepton.png> <../ThesisI
-mages/FCNCValidation/quarks.png>]
-<../ThesisImages/FCNCValidation/photon.png, id=1177, 465.23813pt x 307.1475pt>
+[6 <../ThesisImages/FCNCValidation/singleTops.png>] [7 <../ThesisImages/FCNCVal
+idation/ttBarSys.png> <../ThesisImages/FCNCValidation/lepton.png> <../ThesisIma
+ges/FCNCValidation/quarks.png>]
+<../ThesisImages/FCNCValidation/photon.png, id=363, 465.23813pt x 307.1475pt>
 File: ../ThesisImages/FCNCValidation/photon.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/photon.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/photon.png  used on inp
 ut line 99.
 (pdftex.def)             Requested size: 346.89731pt x 229.02434pt.
-<../ThesisImages/FCNCValidation/PhotonLHRH.png, id=1179, 416.30531pt x 268.0012
-5pt>
+<../ThesisImages/FCNCValidation/PhotonLHRH.png, id=365, 414.79968pt x 273.27094
+pt>
 File: ../ThesisImages/FCNCValidation/PhotonLHRH.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/PhotonLHRH.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/PhotonLHRH.png  used on
  input line 110.
-(pdftex.def)             Requested size: 346.89731pt x 223.32835pt.
+(pdftex.def)             Requested size: 346.89731pt x 228.54526pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[65 <../ThesisImages/FCNCValidation/photon.png>] [66 <../ThesisImages/FCNCValid
-ation/PhotonLHRH.PNG>]
-<../ThesisImages/Simulation/ParticleInteractions.jpg, id=1193, 903.375pt x 732.
-7375pt>
+[8 <../ThesisImages/FCNCValidation/photon.png>]
+
+LaTeX Warning: Reference `ch:LHCDetector' on page 9 undefined on input line 124
+.
+
+[9 <../ThesisImages/FCNCValidation/PhotonLHRH.PNG>]
+<../ThesisImages/Simulation/ParticleInteractions.jpg, id=377, 903.375pt x 732.7
+375pt>
 File: ../ThesisImages/Simulation/ParticleInteractions.jpg Graphic file (type jp
 g)
 <use ../ThesisImages/Simulation/ParticleInteractions.jpg>
@@ -2111,10 +1579,15 @@ sed on input line 128.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[67] [68 <../ThesisImages/Simulation/ParticleInteractions.jpg>] [69] [70]
-[71] [72]
-<../ThesisImages/Simulation/VarJetAlgs.png, id=1240, 912.40875pt x 649.67719pt>
+[10] [11 <../ThesisImages/Simulation/ParticleInteractions.jpg>] [12]
 
+LaTeX Warning: Reference `sec:EMHCal' on page 13 undefined on input line 144.
+
+
+LaTeX Warning: Reference `sec:MuCal' on page 13 undefined on input line 147.
+
+[13] [14] [15]
+<../ThesisImages/Simulation/VarJetAlgs.png, id=427, 912.40875pt x 649.67719pt>
 File: ../ThesisImages/Simulation/VarJetAlgs.png Graphic file (type png)
 <use ../ThesisImages/Simulation/VarJetAlgs.png>
 Package pdftex.def Info: ../ThesisImages/Simulation/VarJetAlgs.png  used on inp
@@ -2124,29 +1597,29 @@ ut line 199.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[73] [74 <../ThesisImages/Simulation/VarJetAlgs.png>] [75]
-<../ThesisImages/Simulation/B-tagging_diagram.png, id=1272, 903.375pt x 924.453
-75pt>
+[16] [17 <../ThesisImages/Simulation/VarJetAlgs.png>] [18]
+<../ThesisImages/Simulation/B-tagging_diagram.png, id=458, 903.375pt x 924.4537
+5pt>
 File: ../ThesisImages/Simulation/B-tagging_diagram.png Graphic file (type png)
 <use ../ThesisImages/Simulation/B-tagging_diagram.png>
 Package pdftex.def Info: ../ThesisImages/Simulation/B-tagging_diagram.png  used
  on input line 226.
 (pdftex.def)             Requested size: 216.81pt x 221.85933pt.
- [76 <../ThesisImages/Simulation/B-tagging_diagram.png>]
-<../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png, id=1285, 903.375pt x 459
-.96844pt>
+ [19 <../ThesisImages/Simulation/B-tagging_diagram.png>]
+<../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png, id=471, 903.375pt x 459.
+96844pt>
 File: ../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png Graphic file (type p
 ng)
 <use ../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png>
 Package pdftex.def Info: ../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png  
 used on input line 238.
 (pdftex.def)             Requested size: 433.62pt x 220.78935pt.
- [77 <../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png>] [78]) [79]
+ [20 <../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png>] [21]) [22]
 \openout2 = `SearchStrategy.aux'.
 
  (./SearchStrategy.tex
 [Search Strategy]
-) [80
+) [23
 
 
 
@@ -2179,7 +1652,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
 
-) [81
+) [24
 
 
 
@@ -2194,20 +1667,27 @@ Overfull \hbox (275.88922pt too wide) in paragraph at lines 7--9
 rs? - https://www.sciencedirect.com/science/article/pii/S0550321319301269 
  []
 
-) [82
+) [25
 
 
 
-] (./main.bbl [83
+] (./main.bbl [26
 
 
-] [84] [85] [86] [87]) [88]
+] [27])
+
+Package natbib Warning: There were undefined citations.
+
+[28]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
- (./main.aux (./cover.aux)
-(./abstract.aux) (./cv.aux) (./Introduction.aux) (./Theory.aux)
-(./LHCDetector.aux) (./Simulation.aux) (./SearchStrategy.aux) (./Results.aux)
-(./Conclusion.aux))
+ (./main.aux (./cover.aux) (./abstract.aux) (./cv.aux) (./Simulation.aux)
+(./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
 
 
@@ -2338,42 +1818,6 @@ siunitx-abbreviations.cfg    2017/11/26 v2.7k siunitx: Abbreviated units
 abstract.tex
       cv.tex
   omscmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
-Introduction.tex
-  Theory.tex
-../ThesisImages/Theory/ttprodxsec.png
-../ThesisImages/Theory/singtprodxsec.png
-../ThesisImages/Theory/LOPairProdDiags.png
-../ThesisImages/Theory/LOSingProdDiags.png
-../ThesisImages/Theory/SMTopDecays.png
-../ThesisImages/Theory/topdecayproducts.jpg
-../ThesisImages/Theory/GIMDiagramsa.png
-../ThesisImages/Theory/GIMDiagrams.png
-../ThesisImages/Theory/FCNCLoop.png
-../ThesisImages/Theory/AllFCNCDiagrams.png
-../ThesisImages/Theory/fcnc_tXu_sep18.png
-../ThesisImages/Theory/fcnc_tXc_sep18.png
-../ThesisImages/Theory/HeraFCNC.png
-../ThesisImages/Theory/LepFCNC.png
-../ThesisImages/Theory/AllFCNCLimits.png
-LHCDetector.tex
-../ThesisImages/LHCImages/LHCDetecPlacement.png
-../ThesisImages/LHCImages/AcceleratorComplex.png
-../ThesisImages/LHCImages/ATLASLumi.png
-../ThesisImages/LHCImages/meanIntperCrossing.png
-../ThesisImages/LHCImages/28VertexPileup.png
-../ThesisImages/LHCImages/65VertexPileup.png
-../ThesisImages/LHCImages/AtlasDetector.png
-../ThesisImages/LHCImages/ATLASCoords.png
-../ThesisImages/LHCImages/ATLASMagnetWinding.png
-../ThesisImages/LHCImages/ATLASInnerDetector.png
-../ThesisImages/LHCImages/tracking.png
-../ThesisImages/LHCImages/ATLASInnerStructure.png
-../ThesisImages/LHCImages/ATLASCaloSystem.png
-../ThesisImages/LHCImages/LArAccordian.png
-../ThesisImages/LHCImages/MaterialBudget.png
-../ThesisImages/LHCImages/InteractionLengths.png
-../ThesisImages/LHCImages/ATLASMuonSystem.png
-../ThesisImages/LHCImages/ATLASTDAQR2.png
 Simulation.tex
 ../ThesisImages/Simulation/MCFlow.png
 ../ThesisImages/Simulation/PDF.png
@@ -2395,41 +1839,38 @@ Conclusion.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D0412A5599162EC560D70616DDF60F34;5354.
+(rerunfilecheck)             Checksum: 203655C0DD0C43CFB42FE6E142026098;2634.
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 32900 strings out of 492616
- 637233 string characters out of 6132769
- 709065 words of memory out of 5000000
- 35939 multiletter control sequences out of 15000+600000
- 545123 words of font info for 75 fonts, out of 8000000 for 9000
+ 32315 strings out of 492616
+ 623917 string characters out of 6132769
+ 700113 words of memory out of 5000000
+ 35586 multiletter control sequences out of 15000+600000
+ 542015 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,83p,1869b,1163s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,17n,83p,1669b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/201
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (102 pages, 25428715 bytes).
+blic/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb>
+Output written on main.pdf (39 pages, 1565678 bytes).
 PDF statistics:
- 1473 PDF objects out of 1728 (max. 8388607)
- 1156 compressed objects within 12 object streams
- 290 named destinations out of 1000 (max. 500000)
- 862 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

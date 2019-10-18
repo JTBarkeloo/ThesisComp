@@ -1,66 +1,33 @@
-\BOOKMARK [0][-]{Doc-Start}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.1.1}{ \040The Standard Model Top Quark}{Doc-Start}% 2
-\BOOKMARK [1][-]{section.1.2}{ \040Searching for FCNC Top Quark Decays}{Doc-Start}% 3
-\BOOKMARK [0][-]{section.1.2}{Theory}{}% 4
-\BOOKMARK [1][-]{section.2.1}{ \040The Standard Model Particles}{section.1.2}% 5
-\BOOKMARK [1][-]{section.2.2}{ \040The Standard Model Interactions}{section.1.2}% 6
-\BOOKMARK [1][-]{section.2.3}{ \040Electroweak Symmetry Breaking}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.2.3.1}{ \040Gauge Boson Masses}{section.2.3}% 8
-\BOOKMARK [2][-]{subsection.2.3.2}{ \040Fermion Masses}{section.2.3}% 9
-\BOOKMARK [2][-]{subsection.2.3.3}{ \040The CKM Matrix}{section.2.3}% 10
-\BOOKMARK [1][-]{section.2.4}{ \040The Top Quark}{section.1.2}% 11
-\BOOKMARK [2][-]{subsection.2.4.1}{ \040Discovering The Top Quark}{section.2.4}% 12
-\BOOKMARK [2][-]{subsection.2.4.2}{ \040Production and Decay At Hadron Colliders}{section.2.4}% 13
-\BOOKMARK [2][-]{subsection.2.4.3}{ \040Beyond the Standard Model Top Quark Physics}{section.2.4}% 14
-\BOOKMARK [1][-]{section.2.5}{ \040The Flavor-Changing Neutral Current}{section.1.2}% 15
-\BOOKMARK [2][-]{subsection.2.5.1}{ \040The Standard Model Flavor Sector}{section.2.5}% 16
-\BOOKMARK [2][-]{subsection.2.5.2}{ \040The GIM Mechanism}{section.2.5}% 17
-\BOOKMARK [2][-]{subsection.2.5.3}{ \040New Physics With Enhancements to FCNCs}{section.2.5}% 18
-\BOOKMARK [2][-]{subsection.2.5.4}{ \040Current Measurements of Top FCNCs}{section.2.5}% 19
-\BOOKMARK [0][-]{figure.caption.18}{The Large Hadron Collider and the ATLAS Detector}{}% 20
-\BOOKMARK [1][-]{section.3.1}{ \040The Large Hadron Collider}{figure.caption.18}% 21
-\BOOKMARK [2][-]{subsection.3.1.1}{ \040LHC Magnets}{section.3.1}% 22
-\BOOKMARK [2][-]{subsection.3.1.2}{ \040Luminosity}{section.3.1}% 23
-\BOOKMARK [2][-]{subsection.3.1.3}{ \040Pileup}{section.3.1}% 24
-\BOOKMARK [1][-]{section.3.2}{ \040The ATLAS Detector}{figure.caption.18}% 25
-\BOOKMARK [2][-]{subsection.3.2.1}{ \040Common Detector Variables and the ATLAS Coordinate System}{section.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.2.2}{ \040Magnet Setup}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.3}{ \040Inner Detector}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.4}{ \040Electromagnetic and Hadronic Calorimeters}{section.3.2}% 29
-\BOOKMARK [2][-]{subsection.3.2.5}{ \040Muon System}{section.3.2}% 30
-\BOOKMARK [2][-]{subsection.3.2.6}{ \040Trigger and Data Acquisition}{section.3.2}% 31
-\BOOKMARK [3][-]{subsubsection.3.2.6.1}{ Level 1 Calorimeter}{subsection.3.2.6}% 32
-\BOOKMARK [3][-]{subsubsection.3.2.6.2}{ High Level Trigger}{subsection.3.2.6}% 33
-\BOOKMARK [0][-]{subsubsection.3.2.6.2}{Simulation and Reconstruction}{}% 34
-\BOOKMARK [1][-]{section.4.1}{ \040Simulation of pp Collisions}{subsubsection.3.2.6.2}% 35
-\BOOKMARK [2][-]{subsection.4.1.1}{ \040 Matrix Element Calculation and Parton Distribution Functions}{section.4.1}% 36
-\BOOKMARK [2][-]{subsection.4.1.2}{ \040Parton Shower Calculation}{section.4.1}% 37
-\BOOKMARK [2][-]{subsection.4.1.3}{ \040Detector Simulation}{section.4.1}% 38
-\BOOKMARK [2][-]{subsection.4.1.4}{ \040Monte Carlo Generators Used for LHC Physics}{section.4.1}% 39
-\BOOKMARK [1][-]{section.4.2}{ \040Creation of Flavor Changing Neutral Current Signal Events}{subsubsection.3.2.6.2}% 40
-\BOOKMARK [2][-]{subsection.4.2.1}{ \040FCNC Events Produced With MadGraph5 amc@NLO}{section.4.2}% 41
-\BOOKMARK [1][-]{section.4.3}{ \040Object Reconstruction}{subsubsection.3.2.6.2}% 42
-\BOOKMARK [2][-]{subsection.4.3.1}{ \040Electrons}{section.4.3}% 43
-\BOOKMARK [2][-]{subsection.4.3.2}{ \040Muons}{section.4.3}% 44
-\BOOKMARK [2][-]{subsection.4.3.3}{ \040Photons}{section.4.3}% 45
-\BOOKMARK [2][-]{subsection.4.3.4}{ \040Jets}{section.4.3}% 46
-\BOOKMARK [3][-]{subsubsection.4.3.4.1}{ B-Jets}{subsection.4.3.4}% 47
-\BOOKMARK [2][-]{subsection.4.3.5}{ \040Missing Transverse Energy}{section.4.3}% 48
-\BOOKMARK [3][-]{subsubsection.4.3.5.1}{ Neutrino Reconstruction}{subsection.4.3.5}% 49
-\BOOKMARK [0][-]{subsubsection.4.3.5.1}{Search Strategy}{}% 50
-\BOOKMARK [1][-]{section.5.1}{ \040Major Backgrounds}{subsubsection.4.3.5.1}% 51
-\BOOKMARK [1][-]{section.5.2}{ \040Event Reconstruction}{subsubsection.4.3.5.1}% 52
-\BOOKMARK [1][-]{section.5.3}{ \040Data and Simulation Event PreSelection}{subsubsection.4.3.5.1}% 53
-\BOOKMARK [1][-]{section.5.4}{ \040Control and Validation Regions}{subsubsection.4.3.5.1}% 54
-\BOOKMARK [1][-]{section.5.5}{ \040Signal Region}{subsubsection.4.3.5.1}% 55
-\BOOKMARK [1][-]{section.5.6}{ \040Neural Network}{subsubsection.4.3.5.1}% 56
-\BOOKMARK [2][-]{subsection.5.6.1}{ \040Architecture and Studies}{section.5.6}% 57
-\BOOKMARK [0][-]{subsection.5.6.1}{Analysis And Results}{}% 58
-\BOOKMARK [1][-]{section.6.1}{ \040Uncertainties}{subsection.5.6.1}% 59
-\BOOKMARK [1][-]{section.6.2}{ \040Statistical Treatment of Results}{subsection.5.6.1}% 60
-\BOOKMARK [1][-]{section.6.3}{ \040Limit on Branching Ratio tq}{subsection.5.6.1}% 61
-\BOOKMARK [0][-]{section.6.3}{Complementary Searches and Outlook}{}% 62
-\BOOKMARK [1][-]{section.7.1}{ \040Comparison with Complementary Searches}{section.6.3}% 63
-\BOOKMARK [1][-]{section.7.2}{ \040Future Directions}{section.6.3}% 64
-\BOOKMARK [1][-]{section.7.3}{ \040Conclusion}{section.6.3}% 65
-\BOOKMARK [0][-]{section.7.3}{REFERENCES CITED}{}% 66
+\BOOKMARK [0][-]{Doc-Start}{Simulation and Reconstruction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{ \040Simulation of pp Collisions}{Doc-Start}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{ \040 Matrix Element Calculation and Parton Distribution Functions}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{ \040Parton Shower Calculation}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{ \040Detector Simulation}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.4}{ \040Monte Carlo Generators Used for LHC Physics}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{ \040Creation of Flavor Changing Neutral Current Signal Events}{Doc-Start}% 7
+\BOOKMARK [2][-]{subsection.1.2.1}{ \040FCNC Events Produced With MadGraph5 amc@NLO}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{ \040Object Reconstruction}{Doc-Start}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{ \040Electrons}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.2}{ \040Muons}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.3}{ \040Photons}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.4}{ \040Jets}{section.1.3}% 13
+\BOOKMARK [3][-]{subsubsection.1.3.4.1}{ B-Jets}{subsection.1.3.4}% 14
+\BOOKMARK [2][-]{subsection.1.3.5}{ \040Missing Transverse Energy}{section.1.3}% 15
+\BOOKMARK [3][-]{subsubsection.1.3.5.1}{ Neutrino Reconstruction}{subsection.1.3.5}% 16
+\BOOKMARK [0][-]{subsubsection.1.3.5.1}{Search Strategy}{}% 17
+\BOOKMARK [1][-]{section.2.1}{ \040Major Backgrounds}{subsubsection.1.3.5.1}% 18
+\BOOKMARK [1][-]{section.2.2}{ \040Event Reconstruction}{subsubsection.1.3.5.1}% 19
+\BOOKMARK [1][-]{section.2.3}{ \040Data and Simulation Event PreSelection}{subsubsection.1.3.5.1}% 20
+\BOOKMARK [1][-]{section.2.4}{ \040Control and Validation Regions}{subsubsection.1.3.5.1}% 21
+\BOOKMARK [1][-]{section.2.5}{ \040Signal Region}{subsubsection.1.3.5.1}% 22
+\BOOKMARK [1][-]{section.2.6}{ \040Neural Network}{subsubsection.1.3.5.1}% 23
+\BOOKMARK [2][-]{subsection.2.6.1}{ \040Architecture and Studies}{section.2.6}% 24
+\BOOKMARK [0][-]{subsection.2.6.1}{Analysis And Results}{}% 25
+\BOOKMARK [1][-]{section.3.1}{ \040Uncertainties}{subsection.2.6.1}% 26
+\BOOKMARK [1][-]{section.3.2}{ \040Statistical Treatment of Results}{subsection.2.6.1}% 27
+\BOOKMARK [1][-]{section.3.3}{ \040Limit on Branching Ratio tq}{subsection.2.6.1}% 28
+\BOOKMARK [0][-]{section.3.3}{Complementary Searches and Outlook}{}% 29
+\BOOKMARK [1][-]{section.4.1}{ \040Comparison with Complementary Searches}{section.3.3}% 30
+\BOOKMARK [1][-]{section.4.2}{ \040Future Directions}{section.3.3}% 31
+\BOOKMARK [1][-]{section.4.3}{ \040Conclusion}{section.3.3}% 32
+\BOOKMARK [0][-]{section.4.3}{REFERENCES CITED}{}% 33
