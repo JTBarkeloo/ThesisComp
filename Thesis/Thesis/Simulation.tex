@@ -60,15 +60,18 @@ Signal events have been produced using MadGraph5 amc@NLO following \cite{Degrand
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/FCNCValidation/singleTops.png}
-	\caption{
+	\caption{ Normalized kinematics ($p_T$, $m_t$, and $y_t$) of individual top quarks produced by the model for each FCNC final state search and an official $t\bar{t}$ sample.
 	}
 %	\label{fig:SimMCFlow}
 \end{figure}
 
+
+The minimal couplings mean there is one scalar coupling introduced for each decay mode, $t\rightarrow c\gamma$ and $t\rightarrow u\gamma$.  All possible final states are shown in the figures in this section,the leptonic and hadronic decays of the W boson from the top quark that decays through the typical standard model decay mode $t\rightarrow bW$. 
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/FCNCValidation/ttBarSys.png}
-	\caption{
+	\caption{Normalized kinematics ($p_T$, $m_{t\bar{t}}$, and $y_{t\bar{t}}$) of the $t\bar{t}$ system produced by the model for each FCNC final state search and an official $t\bar{t}$ sample.
 	}
 %	\label{fig:SimMCFlow}
 \end{figure}
@@ -76,35 +79,43 @@ Signal events have been produced using MadGraph5 amc@NLO following \cite{Degrand
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/FCNCValidation/lepton.png}
-	\caption{
+	\caption{Normalized $p_T$ of the electron and muons produced by the model for each FCNC final state search and an official $t\bar{t}$ sample.
 	}
-%	\label{fig:SimMCFlow}
+	\label{fig:LepVal}
 \end{figure} 
 
+The lepton validation plots, Figure \ref{fig:LepVal} only show events where the W is forced to decay leptonically, as expected as well as the official sample which does not have a preference for the final state decay, the W bosons are allowed to decay leptonically or hadronically.  
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/FCNCValidation/quarks.png}
-	\caption{
+	\caption{Normalized $p_T$ of the up, charm, and bottom quarks produced by the model for each FCNC final state search and an official $t\bar{t}$ sample.
 	}
-%	\label{fig:SimMCFlow}
+	\label{fig:QuarkVal}
 \end{figure}
+No unexpected deviations from the Standard model produced $t\bar{t}$ samples are seen in any of the validation plots.  The deviations seen in Figure \ref{fig:QuarkVal} are misplaced quarks from NLO processes.  The shifted values in the up and charm $p_T$ spectrum are also expected as those samples the up or charm is coming directly from the top quark as opposed to a W boson which means it will have significantly boosted momentum. 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/FCNCValidation/photon.png}
-	\caption{
+	\includegraphics[width=.8\columnwidth]{../ThesisImages/FCNCValidation/photon.png}
+	\caption{Normalized $p_T$ of the photons produced by the model for each FCNC final state search and an official $t\bar{t}$ sample, there is 0 contribution from the official $t\bar{t}$ sample.
 	}
 %	\label{fig:SimMCFlow}
 \end{figure}
 
+In the model there are left and right handed scalar couplings.  Investigation into differences between the kinematics of the quarks produced using each of these couplings is shown in Figure \ref{fig:LHRHcomp}.
+\[ \mathcal{L}_{\gamma t c} = -e \bar{c} \frac{i\sigma^{\mu\nu}q_\nu}{m_t}(\lambda^L_{ct}P_L+\lambda^R_{ct}P_R )t A_\mu + h.c. \]
 
-Comparison of kinematics between standard ttbar events
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.8\columnwidth]{../ThesisImages/FCNCValidation/PhotonLHRH.png}
+	\caption{ Normalized $p_T$ of the photons produced by the model using the Left-handed (LH) and Right-handed (RH) couplings
+	}
+	\label{fig:LHRHcomp}
+\end{figure}
 
-- param card in appendix
+No differences in final state kinematics were shown in the right-handed coupling compared to the left-handed coupling.  Due to this only one coupling value was used in the production.  In the end only leptonic decays of the W were produced officially.  The leptonic state is simpler to search for than a final state not involving leptons because of the much larger backgrounds from QCD processes.  The lepton offers many handles for searching for these rare FCNC days.  Using the leptonic final state one does not have to use combinatorics for event reconstruction as each object is unique and comes from one particular object.  In this analysis the final state involves a light jet and a photon (from the FCNC decay) and a lepton, photon, and b-jet (from the Standard Model top decay).
 
-ATLAS Production of these events
 
-TopQ1 Slimming/Skimming
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
