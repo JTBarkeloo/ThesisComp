@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{The Standard Model and the Top Quark}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{The Standard Model}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{The Top Quark}{5}{0}{1}
+\beamer@sectionintoc {2}{Flavor Changing Neutral Current Searches with Top Quarks}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Theory Predictions and Experimental Limits}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{FCNC at the LHC}{13}{0}{2}
+\beamer@sectionintoc {3}{Searching for Flavor Changing Neutral Current Signatures}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Object Preselection Cuts}{14}{0}{3}
