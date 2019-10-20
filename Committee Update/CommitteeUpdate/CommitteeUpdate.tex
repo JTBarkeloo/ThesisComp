@@ -28,9 +28,9 @@
 \date{November 30, 2017}
 \frame{\titlepage}
 \frame{\frametitle{Table of Contents}\tableofcontents[hidesubsections]}
-\section{The Standard Model and the Top Quark}
-\frame{\frametitle{Table of Contents}\tableofcontents[currentsection,hideothersubsections]}
+%\frame{\frametitle{Table of Contents}\tableofcontents[currentsection,hideothersubsections]}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Background}
 \subsection{The Standard Model}
 
 %%%%%%%%%%%%%%%%
@@ -192,8 +192,6 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Flavor Changing Neutral Current Searches with Top Quarks}
-
 \subsection{Theory Predictions and Experimental Limits}
 
 
@@ -210,10 +208,10 @@
 \centering
 \includegraphics[width=0.55\textwidth]{../../Thesis/ThesisImages/Theory/AllFCNCLimits.png}
 \begin{itemize}
-\item Limits on $t\rightarrow \gamma q$ processes: \href{https://arxiv.org/abs/1511.03951}{[JHEP 04 (2016) 035]}
+\item Limits on $t\rightarrow \gamma q$ processes: \href{https://arxiv.org/abs/1908.08461}{arXiv:1908.08461}
 	\begin{itemize}
-	\item $t\rightarrow \gamma u < 1.3 x10^{-4}$
-	\item $t\rightarrow \gamma c < 1.7 x 10^{-3}$
+	\item $t\rightarrow \gamma u < 6.1 x10^{-5}$
+	\item $t\rightarrow \gamma c < 2.2 x 10^{-4}$
 	\end{itemize}
 \end{itemize}
 }
@@ -251,10 +249,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Searching for Flavor Changing Neutral Current Signatures}
-
-%\subsection{FCNCs with Photons}
-
+\section{Flavor Changing Neutral Current Searches with Top Quarks}
 \subsection{Object Preselection Cuts}
 
 
@@ -268,7 +263,6 @@
 	\item Missing Transverse Energy $\geq$ 30GeV
 	\item $\geq 2$ Jets (at least one being b-tagged)
 	\end{itemize}
-\item All following plots will have signal scaled to $1\%$ of $\sigma_{t\bar{t}}$, MC scaled to $36.07fb^{-1}$
 \end{itemize}
 }
 
@@ -278,80 +272,443 @@
 \item Major backgrounds include $t\bar{t}$, W+Jets, Z+Jets, + processes with an associated photon
 \end{itemize}
 \centering
-\includegraphics[width=0.7\textwidth]{../../ThesisImages/backgrounds.png}
+\includegraphics[width=0.7\textwidth]{../../Thesis/ThesisImages/backgrounds.png}
+}
+
+\frame{\frametitle{Preselection Objects}
+Signal MC Scaled to 1\% $\sigma_{t\bar{t}}$, No Overlap Removal but no dedicated gamma samples
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  Leading Jet $p_T$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_leadJet_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_leadJet_pt}.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lead Photon
+\end{itemize}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_photon_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_photon_pt}.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lepton E
+\end{itemize}
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{el.presel.preselh_lepton_pt}.png} \\
+\includegraphics[width=.95\textwidth]{Images/onlyNNCut/plotsSkip1percent/{mu.presel.preselh_lepton_pt}.png}
+\end{column}
+\end{columns}
+ No Overlap Removal but no dedicated gamma samples - Overall Scale Factors Needed
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Neural Network}
+\subsection{Neural Network Studies}
+
+\frame{\frametitle{Neural Network Architecture}
+\begin{itemize}
+\item Using Keras on top of Tensorflow various input parameters are tested for model behavior
+\item A Dense Neural Network with variable number of input variables and hidden layers are explored
+\item Cut optimization has been performed with full Run 2 luminosity for potential reach of the search
+\end{itemize}
+\centering
+\includegraphics[width=0.7\textwidth]{Images/neural_net2.jpeg}
+\captionof{figure}{\href{http://cs231n.github.io/neural-networks-1/}{[Ref: Neural Network]}}
+}
+
+\frame{\frametitle{Neural Network Model Inputs}
+\begin{itemize}
+\item Using keras on top of tensorflow various input parameters are tested for model behavior
+\item Networks are set up with 1 input layer, 2 hidden layers with 10 nodes (+1 bias node) \href{https://www.quora.com/What-is-bias-in-artificial-neural-network}{[Ref: Bias]}, and 1 output node
+\item Each hidden layer has 20\% dropout to prevent overtraining by removing codependency between nodes
+\item Batch size of 100 used and each network is allowed 200 epochs (with patience=50), all models converge and end early with reasonable batch sizes
+\item Optimizer: Adam
+\item Loss Function: Binary Cross Entropy
+\end{itemize}
+}
+
+\frame{\frametitle{Cut Optimization}
+\begin{itemize}
+
+\item  Reweighting the number of events the model saw by taking advantage of the loss function helps signal/background discrimination
+\[\text{Loss} = -\frac{1}{N}\sum_{i=1}^{N}y_{i} \text{log}(p(y_{i}))+(1-y_{i})\text{log}(1-p(y_{i}))\]
+\item y - binary indicator (0 or 1) if class label is the correct classification for observation 
+\item p - predicted probability observation is the class label (0 or 1)
+\end{itemize}
+} 
+
+
+\frame{\frametitle{Neural Network Example}
+$\mu+$jets Channel Example
+
+\begin{columns}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.95\textwidth]{Images/SeptNN/accuarcy.png} \\
+\includegraphics[width=.95\textwidth]{Images/SeptNN/SigVsBR.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+
+\includegraphics[width=.95\textwidth]{Images/SeptNN/loss.png} \\
+\includegraphics[width=.95\textwidth]{Images/SeptNN/significance2.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+
+\includegraphics[width=.95\textwidth]{Images/SeptNN/sigbkg.png} \\
+\includegraphics[width=.95\textwidth]{Images/SeptNN/CutVsBR.png}
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{B-tagging}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item B Hadrons travel a measureable distance before decay
+\item Tracks originate from outside of interaction point (Seconday Vertex)
+\item Backtracking tracks in displaced vertex gives an impact parameter
+\item Decay chain MVA attempts to reconstruct decay of the jet
+\item Outputs of these algorithms used in a BDT to determine if a Jet is from a b-quark
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\centering
+\includegraphics[height=.65\textheight]{../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png}
+\end{column}
+\end{columns}
+}
+
+
+\frame{\frametitle{Neural Network B-Tagging Results}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  70\% Working Point
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag70/modelouts/significanceejetsboth2hidnpart02.png} \\
+\tiny BR with Sig=2: $1.25\times10^{-5}$\\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag70/modelouts/significancemujetsboth2hidnpart02.png}\\
+BR with Sig=2: $1.31\times10^{-5}$
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item 77\% Working Point
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significanceejetsboth2hidnpart02.png} \\
+\tiny BR with Sig=2: $1.23\times10^{-5}$\\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significancemujetsboth2hidnpart02.png}\\
+BR with Sig=2: $1.18\times10^{-5}$
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item 85\% Working Point
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag85/modelouts/significanceejetsboth2hidnpart02.png} \\
+\tiny BR with Sig=2: $1.28\times10^{-5}$\\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag85/modelouts/significancemujetsboth2hidnpart02.png}\\
+BR with Sig=2: $1.19\times10^{-5}$
+\end{column}
+\end{columns}
+}
+
+\section{$e\rightarrow \gamma$ Fake Rate: Initial Studies}
+\subsection{Initial Studies}
+
+\frame{\frametitle{Fake Rate Studies}
+\begin{centering}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/ZeeFakeDiagram.png}\\
+\end{centering}
+Want to be able to correct the number of fake photons predicted in MC to those present in Data
+}
+
+\subsection{Basic 1D Fake Rate Scale Factor}
+
+\frame{Data and MC \frametitle{$m_{ee}, m_{e\gamma}$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{$m_{e\gamma}$ \qquad \qquad \qquad $m_{ee}$\qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Data
+%\item  MCee integral small range: 424,051.  - Vgam: 429789 - All 430225
+%\item DATAee integral small range: 468,832
+%\item MCeg integral small range: 110822     - Vgam: 115066 - All 152420
+%\item DATAeg integral small range: 118198
+\end{itemize}
+\includegraphics[width=.85\textwidth]{Images/Dataee.png} \\
+\includegraphics[width=.85\textwidth]{Images/Dataeg.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Monte Carlo
+\end{itemize}
+\includegraphics[width=.85\textwidth]{Images/MCVgamee.png} \\
+\includegraphics[width=.85\textwidth]{Images/MCVgameg.png}
+\end{column}
+\end{columns}
+}
+
+
+\frame{\frametitle{Scale Factor}
+\[ \text{FR}^{\text{e-fake}}=\frac{N_{e,\gamma}}{N_{e,e}+N_{e,\gamma}}\]
+
+\[  \text{SF}^{\text{e-fake}}_{\text{FR}} = \frac{\text{FR}^{\text{e-fake}}_{\text{data}}}{\text{FR}^{\text{e-fake}}_{\text{MC}}}\]
+Basic Scale Factor can be calculated for the entire spectrum:
+$\text{FR}^{\text{e-fake}}_{\text{data}} = 0.201$\\
+$\text{FR}^{\text{e-fake}}_{\text{MC}} = 0.212$\\
+$\text{SF}^{\text{e-fake}}_{\text{FR}} =0.953$
+}
+
+\frame{\frametitle{Scale Factors As Functions of Probe pt and eta}
+\begin{columns}
+\begin{column}{0.48\textwidth}
+Probe $p_T$
+\includegraphics[width=\textwidth]{Images/pt1DSF.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+Probe $\eta$
+\includegraphics[width=\textwidth]{Images/eta1DSF.png}
+\end{column}
+\end{columns}
+Good to check but in practice these are done using 2D Scale Factors
+}
+
+\subsection{2D Fake Rate Scale Factor}
+
+\frame{\frametitle{Data and MC Distributions}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{ee region \qquad \qquad e$\gamma$ region\qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Data
+\end{itemize}
+\includegraphics[width=.85\textwidth]{Images/dataPhotonElectronPT.png} \\
+\includegraphics[width=.85\textwidth]{Images/dataElectronElectronPT.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Monte Carlo
+\end{itemize}
+\includegraphics[width=.85\textwidth]{Images/mcPhotonElectronPT.png} \\
+\includegraphics[width=.85\textwidth]{Images/mcElectronElectronPT.png}
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{2D Fake Rate}
+\centering
+\includegraphics[width=.95\textwidth]{Images/2DSF.png}\\
+Fake rate will be recalculated using the newest ntuples soon
+}
+\section{First Analysis Plots}
+
+\frame{\frametitle{Analysis Plots}
+\begin{table}[]
+\tiny
+\begin{tabular}{lllllll} \hline
+ 		&	VR1:$W+\gamma$	 & VR2:$t\bar{t}+\gamma$	& VR3:$t\bar{t}$/W+Jets   & CR1: W+Jets Rich  & CR2: $t\bar{t}$ Rich & SR  \\ \hline \\
+$n_{\gamma}$&	=1	 & =1	   & =0 &= 0 & =0 & =1  \\ \hline \\
+$n_{\text{jet}}$&	$\geq$2	 & $\geq$4  & =4 & =3  & $\geq$5  & $\geq$2  \\ \hline \\
+$n_{b_{\text{jet}}}$&=0	 & =1 	   & =1 &  =1 &  =1 & =1  \\ \hline \\
+$n_{\text{lepton}}$& =1& =1 & =1 & =1& =1 & =1 \\ \hline \\
+Neural Network Cut &-	 &  $<$NNCut	& - & - & -  & $>$NNCut  \\ \hline \\
+\end{tabular}
+\end{table}
+Additional cuts are employed as well to slim out certain backgrounds.
+The following plots are for MC16a and Data 2015/2016, signal is scaled to 1\% $\sigma_{t\bar{t}}$ except for SR where it is scaled to $0.01\%\sigma_{t\bar{t}}$ 
+}
+
+
+
+\frame{\frametitle{VR1: $W+\gamma$ VR Plots - $m_{T}^W$, lepton $p_{T}$, $S_T$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR1_MWT.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR1_MWT.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR1_lep_pt.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR1_lep_pt.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR1_ST.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR1_ST.png}\\
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{VR2: $t\bar{t}+\gamma$ VR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR2_MWT.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR2_MWT.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR2_lep_pt.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR2_lep_pt.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR2_SMtop.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR2_SMtop.png}\\
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{W+Jets Rich CR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/CR1_MWT.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/CR1_MWT.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/CR1_lep_pt.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/CR1_lep_pt.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/CR1_SMtop.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/CR1_SMtop.png}\\
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{$t\bar{t}$ Rich CR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/CR2_MWT.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/CR2_MWT.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/CR2_lep_pt.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/CR2_lep_pt.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/CR2_SMtop.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/CR2_SMtop.png}\\
+\end{column}
+\end{columns}
+}
+
+
+
+\frame{\frametitle{$t\bar{t}$/W+Jets VR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR3_MWT.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR3_MWT.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR3_lep_pt.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR3_lep_pt.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/VR3_SMtop.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/mujets/Plots/VR3_SMtop.png}\\
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{SR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/ejets/Plots/SR_MWT.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/mujets/Plots/SR_MWT.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/ejets/Plots/SR_lep_pt.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/mujets/Plots/SR_lep_pt.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/ejets/Plots/SR_SMtop.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/mujets/Plots/SR_SMtop.png}\\
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{SR Plots - $S_T$, $\gamma$ $p_{T}$, $m_{q\gamma}$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/ejets/Plots/SR_ST.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/mujets/Plots/SR_ST.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/ejets/Plots/SR_ph_pt.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/mujets/Plots/SR_ph_pt.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/ejets/Plots/SR_mqph.png} \\
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/mujets/Plots/SR_mqph.png}\\
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{To-Do}
+\begin{itemize}
+\item Need to apply Z-Mass Cut to SR
+\item
+\item
+\end{itemize}
+}
+
+\frame{\frametitle{Timeline}
+\begin{itemize}
+\item
+\item
+\item
+\end{itemize}
+}
+
+\subsection{Conclusion}
+\frame{\frametitle{Conclusion}
+\begin{itemize}
+\item An excess signal would be indicative of some physics beyond the Standard Mode that couples strongly to the top sector
+\item The search for FCNCs with enhanced rates are important pieces of testing many new theories
+\item Barring any excess: with $\approx 138 \text{fb}^{-1}$ data at $\sqrt{s}=$ 13TeV setting an upper limit of  $\text{BR}(t\rightarrow q \gamma) <  3x10^{-5}$ is a reasonable goal, extrapolating from past results. 
+\end{itemize}
 }
 %
-%\frame{\frametitle{Preselection Objects}
-%
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%
-%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%%\rotatebox{90}{Muon Channel        } 
-%\end{column}
-%\begin{column}{0.33\textwidth}
-%\begin{itemize}
-%\item  Leading Jet $p_T$
-%\end{itemize}
-%\includegraphics[width=1.1\textwidth]{../../ThesisImages/plotsloose/el_h_leadJet_pt.png} \\
-%\includegraphics[width=1.1\textwidth]{../../ThesisImages/plotsloose/mu_h_leadJet_pt.png}
-%\end{column}
-%\begin{column}{0.33\textwidth}
-%\begin{itemize}
-%\item Photons
-%\end{itemize}
-%\includegraphics[width=1.1\textwidth]{../../ThesisImages/plotsloose/el_h_photon_e.png} \\
-%\includegraphics[width=1.1\textwidth]{../../ThesisImages/plotsloose/mu_h_photon_e.png}
-%\end{column}
-%\begin{column}{0.33\textwidth}
-%\begin{itemize}
-%\item Leptons
-%\end{itemize}
-%\includegraphics[width=1.1\textwidth]{../../ThesisImages/plotsloose/el_h_lepton_pt.png}\\
-%\includegraphics[width=1.1\textwidth]{../../ThesisImages/plotsloose/mu_h_lepton_pt.png}
-%\end{column}
-%\end{columns}
-%
-%}
-%
-%\subsection{Top and Neutrino Reconstruction}
-%\frame{\frametitle{Where are the Tops?}
-%\begin{itemize}
-%\item Must be 'reconstructed' from these objects as well as b-jets and $E_T^{miss}$
-%\item $E_T^{miss}$ is calculated to balance the event energy in the transverse plane of the detector
-%\item The other particles are combined in the only way the signal topology would allow two top quark candidates
-%\begin{itemize}
-%\item Standard model top candidate: b-jet + lepton + neutrino 
-%\item FCNC Top: Photon + Light Jet
-%\end{itemize}
-%\end{itemize}
-%}
-%
-%\frame{\frametitle{Neutrinos}
-%\begin{itemize}
-%\item All missing energy in signal topology is from neutrino
-%\item We have $E_T^{miss}$ and its' direction   
-%\begin{itemize}
-%\item Can calulate  $E_{Tx}^{miss}$ and  $E_{Ty}^{miss}$ easily
-%\item Ambiguous direction along the z-axis
-%\end{itemize}
-%\item A minimization of this $\chi^2$ will allow us to determine the z momentum of the neutrino: $\chi^2 = \frac{(m_{b,l,\nu}-m_t)^2}{\sigma^2_{SMtop}}+\frac{(m_{l,\nu}-m_W)^2}{\sigma^2_W} $
-%\end{itemize}
-%
-%%\[ \chi^2 = \frac{(m_{b,l,\nu}-m_t)^2}{\sigma^2_{SMtop}}+\frac{(m_{l,\nu}-m_W)^2}{\sigma^2_W}  \]
-%\begin{columns}
-%\begin{column}{0.5\textwidth}
-%\centering
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/el_h_met_met.png}
-%\captionof{figure}{e-channel $E_T^{miss}$ distribution}
-%\end{column} 
-%\begin{column}{0.5\textwidth}
-%\centering
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/el_h_min_chi2.png}
-%\captionof{figure}{e-channel $\chi^2$ distribution}
-%\end{column}
-%\end{columns}
-%}
 %
 %\frame{\frametitle{Reconstructed Tops}
 %\begin{columns}
@@ -376,80 +733,7 @@
 %\end{column}
 %\end{columns}
 %}
-%
-%
-%\frame{\frametitle{Thinning Out Backgrounds}
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item Reconstructing Z mass
-%\end{itemize}
-%\centering
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/el_h_lgam_m.png}\\
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/mu_h_lgam_m.png}
-%\end{column} 
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item Number of BJets
-%\end{itemize}
-%\centering
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/el_h_nBjets.png}\\
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/mu_h_nBjets.png}
-%\end{column}
-%\end{columns}
-%}
-%
-%\frame{\frametitle{Thinning Out Backgrounds: SM Top ($m_{l \nu b}$)}
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item Before Z-mass, Bjet cuts
-%\end{itemize}
-%\centering
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/el_h_sm_top_m.png}\\
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/mu_h_sm_top_m.png}
-%\end{column} 
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item After Cuts
-%\end{itemize}
-%\centering
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsstrict/el_h_sm_top_m.png}\\
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsstrict/mu_h_sm_top_m.png}
-%\end{column}
-%\end{columns}
-%}
-%
-%\frame{\frametitle{Thinning Out Backgrounds: FCNC Top}
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item Before Z-mass, Bjet cuts
-%\end{itemize}
-%\centering
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/el_h_qgam_m.png}\\
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsloose/mu_h_qgam_m.png}
-%\end{column} 
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item After Cuts
-%\end{itemize}
-%\centering
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsstrict/el_h_qgam_m.png}\\
-%\includegraphics[width=.9\textwidth]{../../ThesisImages/plotsstrict/mu_h_qgam_m.png}
-%\end{column}
-%\end{columns}
-%}
-%
+
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -470,58 +754,126 @@
 %}
 %
 %
-%\subsection{Conclusion}
-%\frame{\frametitle{Conclusion}
-%\begin{itemize}
-%\item An excess signal would be indicative of some physics beyond the Standard Mode that couples strongly to the top sector
-%\item The search for FCNCs with enhanced rates are important pieces of testing many new theories
-%\item The LHC continues to produce copious data to look though for these events!
-%\item Barring any excess: with $\approx 150 \text{fb}^{-1}$ data at $\sqrt{s}=$ 13TeV setting an upper limit of  $\text{BR}(t\rightarrow q \gamma) <  3x10^{-5}$ is a reasonable goal, extrapolating from past results. 
-%\end{itemize}
+
 %}
 %
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%\appendix
-%\section{Backup}
-%\frame{\frametitle{Backup}
-%}
-%\frame{\frametitle{Integrated Luminosity}
-%\centering
-%\includegraphics[width=1.\textwidth]{../../ThesisImages/2017PeakLumiByFill.pdf}
-%}
-%\frame{\frametitle{A Couple BSM Diagrams}
-%\centering
-%\includegraphics[width=1.\textwidth]{../../ThesisImages/BSMDiagrams.png}
-%}
-%
-%\frame{\frametitle{Jets/AntiKT}
-%
-%\[ d_{ij} = min(\frac{1}{p_{ti}^2},\frac{1}{p_{tj}^2}) \frac{\Delta_{ij}^2}{R^2}
-%\]
-%\[ d_{iB} = \frac{1}{p_{ti}^2}
-%\]
-%\[ \Delta_{ij}^2 = (\eta_i -\eta_j )^2 + (\phi_i - \phi_j )^2
-%\]
-%\begin{itemize}
-%\item Find minimum of entire set of $\{ d_{ij},d_{iB} \}$
-%\item If $d_{ij}$ is the minimum particles i,j are combined into one particle and removed from the list of particles
-%\item If $d_{iB}$ is the minimum i is labelled as a final jet and removed from the list of particles
-%\item Repeat until all particles are part of a jet with distance between jet axes $\Delta_{ij}$ is greater than R
-%\end{itemize}
-%}
-%
-%\frame{\frametitle{B-tagging}
-%\centering
-%\includegraphics[height=.8\textheight]{../../ThesisImages/B-tagging_diagram.png}
-%
-%}
-%\frame{\frametitle{}
-%\[ \mathcal{L}^{eff}_{tq\gamma} = - e \bar{c} \frac{i \sigma^{\mu\nu}q_{\nu}}{m_t}(\lambda^{L}_{ct}P_L + \lambda^{R}_{ct}P_{R}) t A_{\mu} +H.c.
-%\]
-%}
-%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\section{Backup}
+\frame{\frametitle{Backup}
+}
+
+\frame{\frametitle{Neural Network Model Inputs}
+\centering
+\scalebox{0.8}{ $\text{Separation} = \sum_{i}^{bins} \frac {n_{s i}-n_{b i}}{n_{s i}+n_{b i}}$}
+\begin{columns}
+\begin{column}{0.48\textwidth}
+\centering
+mu+jets channel\\
+\scalebox{0.6}{\begin{tabular}{cc}
+Variable & Separation \\
+\hline
+photon0iso & 41.18 \\
+mqgam & 28.27 \\
+photon0pt & 24.07 \\
+mtSM & 11.60 \\
+mlgam & 7.56 \\
+deltaRjgam & 5.64 \\
+deltaRbl & 4.42 \\
+MWT & 3.34 \\
+ST & 3.30 \\
+nuchi2 & 3.12 \\
+jet0pt & 2.81 \\
+njets & 2.07 \\
+smchi2 & 1.89 \\
+wchi2 & 1.87 \\
+jet0e & 1.52 \\
+deltaRlgam & 1.17 \\
+leptone & 0.87 \\
+deltaRjb & 0.86 \\
+met & 0.68 \\
+bjet0pt & 0.52 \\
+leptoniso & 0.27 \\
+\end{tabular}
+}
+\end{column}
+\begin{column}{0.48\textwidth}
+\centering
+e+jets channel \\
+\scalebox{0.6}{\begin{tabular}{c c}
+Variable & Separation\\
+\hline
+photon0pt & 23.14 \\
+mqgam & 22.73 \\
+photon0iso & 18.70 \\
+mtSM & 11.02 \\
+mlgam & 9.53 \\
+deltaRbl & 5.00 \\
+deltaRjgam & 4.60 \\
+ST & 3.83 \\
+MWT & 3.16 \\
+jet0pt & 2.47 \\
+njets & 1.70 \\
+nuchi2 & 1.59 \\
+deltaRlgam & 1.40 \\
+wchi2 & 1.33 \\
+smchi2 & 1.09 \\
+deltaRjb & 0.88 \\
+leptone & 0.85 \\
+leptoniso & 0.56 \\
+bjet0pt & 0.50 \\
+met & 0.47 \\
+\end{tabular}
+}
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{Input Variables}
+['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam','deltaRbl',\\
+'MWT','ST','njets','wchi2','jet0pt','deltaRlgam','leptone','met','bjet0pt']
+}
+
+\frame{\frametitle{FCNC Diagrams}
+\centering
+\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/Theory/FCNCLoop.png}
+\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/penguinFCNC.png}
+}
+\frame{\frametitle{A Couple of BSM Diagrams}
+\centering
+\includegraphics[width=1.\textwidth]{../../Thesis/ThesisImages/BSMDiagrams.png}
+}
+
+\frame{\frametitle{Jets/AntiKT}
+
+\[ d_{ij} = min(\frac{1}{p_{ti}^2},\frac{1}{p_{tj}^2}) \frac{\Delta_{ij}^2}{R^2}
+\]
+\[ d_{iB} = \frac{1}{p_{ti}^2}
+\]
+\[ \Delta_{ij}^2 = (\eta_i -\eta_j )^2 + (\phi_i - \phi_j )^2
+\]
+\begin{itemize}
+\item Find minimum of entire set of $\{ d_{ij},d_{iB} \}$
+\item If $d_{ij}$ is the minimum particles i,j are combined into one particle and removed from the list of particles
+\item If $d_{iB}$ is the minimum i is labelled as a final jet and removed from the list of particles
+\item Repeat until all particles are part of a jet with distance between jet axes $\Delta_{ij}$ is greater than R
+\end{itemize}
+}
+
+\frame{\frametitle{B-tagging}
+\centering
+\includegraphics[height=.8\textheight]{../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png}
+}
+
+\frame{\frametitle{}
+\[ \mathcal{L}^{eff}_{tq\gamma} = - e \bar{c} \frac{i \sigma^{\mu\nu}q_{\nu}}{m_t}(\lambda^{L}_{ct}P_L + \lambda^{R}_{ct}P_{R}) t A_{\mu} +H.c.
+\]
+}
+
+
+
 \end{document}
 %
 %%36.070

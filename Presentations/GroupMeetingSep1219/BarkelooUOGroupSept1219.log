@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  18 OCT 2019 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  19 OCT 2019 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,3 +833,454 @@ Dictionary: translator-environment-dictionary, Language: English
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-months-dictionary-E
 nglish.dict
 Dictionary: translator-months-dictionary, Language: English 
+)
+(c:/texlive/2018/texmf-dist/tex/latex/translator/translator-numbers-dictionary-
+English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(c:/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-
+English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (./BarkelooUOGroupSept1219.nav)
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 18.
+
+(c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 22.
+
+<../ATLAS-Logo-Ref-RGB.png, id=70, 583.7007pt x 307.1475pt>
+File: ../ATLAS-Logo-Ref-RGB.png Graphic file (type png)
+<use ../ATLAS-Logo-Ref-RGB.png>
+Package pdftex.def Info: ../ATLAS-Logo-Ref-RGB.png  used on input line 36.
+(pdftex.def)             Requested size: 113.81102pt x 59.88649pt.
+<../uo_logo_green_on_white_2.jpg, id=71, 803.0pt x 451.6875pt>
+File: ../uo_logo_green_on_white_2.jpg Graphic file (type jpg)
+<use ../uo_logo_green_on_white_2.jpg>
+Package pdftex.def Info: ../uo_logo_green_on_white_2.jpg  used on input line 36
+.
+(pdftex.def)             Requested size: 113.81102pt x 64.01463pt.
+
+Overfull \hbox (0.79945pt too wide) in paragraph at lines 36--36
+ [][]|  [] 
+ []
+
+[1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <../ATLAS-Logo-Ref-RGB.png (PNG copy)> <../uo_logo_green_on_white_2.jpg>]
+(./BarkelooUOGroupSept1219.toc) [2
+
+]
+<../../Thesis/ThesisImages/Theory/SMTopDecays2.png, id=121, 1224.82594pt x 432.
+11438pt>
+File: ../../Thesis/ThesisImages/Theory/SMTopDecays2.png Graphic file (type png)
+
+<use ../../Thesis/ThesisImages/Theory/SMTopDecays2.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/SMTopDecays2.png  use
+d on input line 67.
+(pdftex.def)             Requested size: 307.28987pt x 108.41075pt.
+ [3
+
+ <../../Thesis/ThesisImages/Theory/SMTopDecays2.png>]
+<../../Thesis/ThesisImages/fcncttbar.png, id=144, 423.08063pt x 419.31656pt>
+File: ../../Thesis/ThesisImages/fcncttbar.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/fcncttbar.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/fcncttbar.png  used on input
+ line 87.
+(pdftex.def)             Requested size: 107.55333pt x 106.59479pt.
+ [4
+
+ <../../Thesis/ThesisImages/fcncttbar.png>]
+<../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png, id=159, 903.375pt 
+x 924.45375pt>
+File: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png Graphic file (
+type png)
+<use ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram
+.png  used on input line 123.
+(pdftex.def)             Requested size: 149.49155pt x 152.98842pt.
+ [5
+
+ <../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>]
+<../../Thesis/ThesisImages/Simulation/BTagMV2c10andRejVsEff.png, id=172, 903.37
+5pt x 459.96844pt>
+File: ../../Thesis/ThesisImages/Simulation/BTagMV2c10andRejVsEff.png Graphic fi
+le (type png)
+<use ../../Thesis/ThesisImages/Simulation/BTagMV2c10andRejVsEff.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/BTagMV2c10andRejV
+sEff.png  used on input line 132.
+(pdftex.def)             Requested size: 245.83282pt x 125.16872pt.
+ [6
+
+ <../../Thesis/ThesisImages/Simulation/BTagMV2c10andRejVsEff.png>]
+<Images/btag77/mujetsboth2hidnpart0sigbkg.png, id=188, 462.528pt x 346.896pt>
+File: Images/btag77/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
+<use Images/btag77/mujetsboth2hidnpart0sigbkg.png>
+Package pdftex.def Info: Images/btag77/mujetsboth2hidnpart0sigbkg.png  used on 
+input line 151.
+(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/modelo
+uts/significancemujetsboth2hidnpart02.png, id=189, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/m
+odelouts/significancemujetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/mo
+delouts/significancemujetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag77/modelouts/significancemujetsboth2hidnpart02.png  used on inpu
+t line 151.
+(pdftex.def)             Requested size: 125.37404pt x 83.57741pt.
+<Images/btag77/mujetsboth2hidnpart0SigVsBR.png, id=190, 462.528pt x 346.896pt>
+File: Images/btag77/mujetsboth2hidnpart0SigVsBR.png Graphic file (type png)
+<use Images/btag77/mujetsboth2hidnpart0SigVsBR.png>
+Package pdftex.def Info: Images/btag77/mujetsboth2hidnpart0SigVsBR.png  used on
+ input line 151.
+(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
+<Images/btag77/mujetsboth2hidnpart0CutVsBR.png, id=191, 462.528pt x 346.896pt>
+File: Images/btag77/mujetsboth2hidnpart0CutVsBR.png Graphic file (type png)
+<use Images/btag77/mujetsboth2hidnpart0CutVsBR.png>
+Package pdftex.def Info: Images/btag77/mujetsboth2hidnpart0CutVsBR.png  used on
+ input line 151.
+(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
+ [7
+
+ <./Images/btag77/mujetsboth2hidnpart0sigbkg.png> <../../Thesis/ThesisImages/Si
+mulationNN/HiddenLayerStudiesBR0.002/btag77/modelouts/significancemujetsboth2hi
+dnpart02.png> <./Images/btag77/mujetsboth2hidnpart0SigVsBR.png> <./Images/btag7
+7/mujetsboth2hidnpart0CutVsBR.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 188--188
+[][]  
+ []
+
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/modelo
+uts/significanceejetsboth2hidnpart02.png, id=208, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/m
+odelouts/significanceejetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/mo
+delouts/significanceejetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag70/modelouts/significanceejetsboth2hidnpart02.png  used on input
+ line 188.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/modelo
+uts/significancemujetsboth2hidnpart02.png, id=209, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/m
+odelouts/significancemujetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/mo
+delouts/significancemujetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag70/modelouts/significancemujetsboth2hidnpart02.png  used on inpu
+t line 188.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/modelo
+uts/significanceejetsboth2hidnpart02.png, id=210, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/m
+odelouts/significanceejetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/mo
+delouts/significanceejetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag77/modelouts/significanceejetsboth2hidnpart02.png  used on input
+ line 188.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/m
+odelouts/significancemujetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/mo
+delouts/significancemujetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag77/modelouts/significancemujetsboth2hidnpart02.png  used on inpu
+t line 188.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/modelo
+uts/significanceejetsboth2hidnpart02.png, id=211, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/m
+odelouts/significanceejetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/mo
+delouts/significanceejetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag85/modelouts/significanceejetsboth2hidnpart02.png  used on input
+ line 188.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/modelo
+uts/significancemujetsboth2hidnpart02.png, id=212, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/m
+odelouts/significancemujetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/mo
+delouts/significancemujetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag85/modelouts/significancemujetsboth2hidnpart02.png  used on inpu
+t line 188.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+[8
+
+ <../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/model
+outs/significanceejetsboth2hidnpart02.png> <../../Thesis/ThesisImages/Simulatio
+nNN/HiddenLayerStudiesBR0.002/btag70/modelouts/significancemujetsboth2hidnpart0
+2.png> <../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77
+/modelouts/significanceejetsboth2hidnpart02.png> <../../Thesis/ThesisImages/Sim
+ulationNN/HiddenLayerStudiesBR0.002/btag85/modelouts/significanceejetsboth2hidn
+part02.png> <../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/b
+tag85/modelouts/significancemujetsboth2hidnpart02.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 215.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 215.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 215.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 215.
+
+<../../Thesis/ThesisImages/ZeeFakeDiagram.png, id=230, 976.64874pt x 508.90125p
+t>
+File: ../../Thesis/ThesisImages/ZeeFakeDiagram.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/ZeeFakeDiagram.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/ZeeFakeDiagram.png  used on 
+input line 223.
+(pdftex.def)             Requested size: 245.83282pt x 128.0947pt.
+[9
+
+ <../../Thesis/ThesisImages/ZeeFakeDiagram.png>] [10
+
+]
+<../../Thesis/ThesisImages/TruthStudyFakes.png, id=258, 1543.7675pt x 618.31pt>
+
+File: ../../Thesis/ThesisImages/TruthStudyFakes.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/TruthStudyFakes.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/TruthStudyFakes.png  used on
+ input line 249.
+(pdftex.def)             Requested size: 307.28987pt x 123.07486pt.
+ [11
+
+ <../../Thesis/ThesisImages/TruthStudyFakes.png>]
+Overfull \hbox (1.15842pt too wide) in paragraph at lines 278--278
+[][]  
+ []
+
+<Images/Dataee.png, id=273, 700.6175pt x 474.77374pt>
+File: Images/Dataee.png Graphic file (type png)
+<use Images/Dataee.png>
+Package pdftex.def Info: Images/Dataee.png  used on input line 278.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/Dataeg.png, id=274, 700.6175pt x 474.77374pt>
+File: Images/Dataeg.png Graphic file (type png)
+<use Images/Dataeg.png>
+Package pdftex.def Info: Images/Dataeg.png  used on input line 278.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/MCVgamee.png, id=275, 700.6175pt x 474.77374pt>
+File: Images/MCVgamee.png Graphic file (type png)
+<use Images/MCVgamee.png>
+Package pdftex.def Info: Images/MCVgamee.png  used on input line 278.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/MCVgameg.png, id=276, 700.6175pt x 474.77374pt>
+File: Images/MCVgameg.png Graphic file (type png)
+<use Images/MCVgameg.png>
+Package pdftex.def Info: Images/MCVgameg.png  used on input line 278.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+[12
+
+ <./Images/Dataee.png> <./Images/Dataeg.png> <./Images/MCVgamee.png> <./Images/
+MCVgameg.png>] [13
+
+]
+<Images/pt1DSF.png, id=303, 525.46312pt x 356.83313pt>
+File: Images/pt1DSF.png Graphic file (type png)
+<use Images/pt1DSF.png>
+Package pdftex.def Info: Images/pt1DSF.png  used on input line 303.
+(pdftex.def)             Requested size: 147.49782pt x 100.16304pt.
+<Images/eta1DSF.png, id=304, 700.6175pt x 475.7775pt>
+File: Images/eta1DSF.png Graphic file (type png)
+<use Images/eta1DSF.png>
+Package pdftex.def Info: Images/eta1DSF.png  used on input line 303.
+(pdftex.def)             Requested size: 147.49782pt x 100.16304pt.
+ [14
+
+ <./Images/pt1DSF.png> <./Images/eta1DSF.png>]
+Overfull \hbox (2.59097pt too wide) in paragraph at lines 328--328
+[][]  
+ []
+
+<Images/dataPhotonElectronPT.png, id=320, 700.6175pt x 475.7775pt>
+File: Images/dataPhotonElectronPT.png Graphic file (type png)
+<use Images/dataPhotonElectronPT.png>
+Package pdftex.def Info: Images/dataPhotonElectronPT.png  used on input line 32
+8.
+(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+<Images/dataElectronElectronPT.png, id=321, 700.6175pt x 475.7775pt>
+File: Images/dataElectronElectronPT.png Graphic file (type png)
+<use Images/dataElectronElectronPT.png>
+Package pdftex.def Info: Images/dataElectronElectronPT.png  used on input line 
+328.
+(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+<Images/mcPhotonElectronPT.png, id=322, 700.6175pt x 475.7775pt>
+File: Images/mcPhotonElectronPT.png Graphic file (type png)
+<use Images/mcPhotonElectronPT.png>
+Package pdftex.def Info: Images/mcPhotonElectronPT.png  used on input line 328.
+
+(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+<Images/mcElectronElectronPT.png, id=323, 700.6175pt x 475.7775pt>
+File: Images/mcElectronElectronPT.png Graphic file (type png)
+<use Images/mcElectronElectronPT.png>
+Package pdftex.def Info: Images/mcElectronElectronPT.png  used on input line 32
+8.
+(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+[15
+
+ <./Images/dataPhotonElectronPT.png> <./Images/dataElectronElectronPT.png> <./I
+mages/mcPhotonElectronPT.png> <./Images/mcElectronElectronPT.png>]
+<Images/2DSF.png, id=336, 700.6175pt x 475.7775pt>
+File: Images/2DSF.png Graphic file (type png)
+<use Images/2DSF.png>
+Package pdftex.def Info: Images/2DSF.png  used on input line 333.
+(pdftex.def)             Requested size: 307.28987pt x 208.67484pt.
+ [16
+
+ <./Images/2DSF.png>] [17
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\translate ' on input line 354.
+
+[18
+
+]
+<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=366, 580.41844pt x 432.11438
+pt>
+File: ../../Thesis/ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/Theory/FCNCLoop.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/FCNCLoop.png  used on
+ input line 362.
+(pdftex.def)             Requested size: 122.91406pt x 91.50494pt.
+<../../Thesis/ThesisImages/penguinFCNC.png, id=367, 1020.81375pt x 629.35126pt>
+
+File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/penguinFCNC.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/penguinFCNC.png  used on inp
+ut line 362.
+(pdftex.def)             Requested size: 122.91406pt x 75.77817pt.
+ [19
+
+ <../../Thesis/ThesisImages/Theory/FCNCLoop.png> <../../Thesis/ThesisImages/pen
+guinFCNC.png>]
+<Images/correlations.png, id=377, 346.896pt x 346.896pt>
+File: Images/correlations.png Graphic file (type png)
+<use Images/correlations.png>
+Package pdftex.def Info: Images/correlations.png  used on input line 367.
+(pdftex.def)             Requested size: 188.29498pt x 188.29593pt.
+ [20
+
+ <./Images/correlations.png>] [21
+
+]
+Overfull \hbox (8.68301pt too wide) in paragraph at lines 440--440
+[]\OT1/cmss/m/n/10 ['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam
+','deltaRbl',  
+ []
+
+[22
+
+]
+<../../Thesis/ThesisImages/2017PeakLumiByFill.pdf, id=401, 569.12625pt x 408.52
+625pt>
+File: ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf Graphic file (type pdf)
+<use ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf>
+Package pdftex.def Info: ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf  used
+ on input line 445.
+(pdftex.def)             Requested size: 307.28987pt x 220.58842pt.
+
+Overfull \vbox (8.85541pt too high) detected at line 445
+ []
+
+[23
+
+ <../../Thesis/ThesisImages/2017PeakLumiByFill.pdf, page is rotated 90 degrees>
+]
+<../../Thesis/ThesisImages/BSMDiagrams.png, id=452, 1166.10657pt x 630.10406pt>
+
+File: ../../Thesis/ThesisImages/BSMDiagrams.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/BSMDiagrams.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/BSMDiagrams.png  used on inp
+ut line 449.
+(pdftex.def)             Requested size: 307.28987pt x 166.04416pt.
+ [24
+
+ <../../Thesis/ThesisImages/BSMDiagrams.png>] [25
+
+] [26
+
+]
+\tf@nav=\write6
+\openout6 = `BarkelooUOGroupSept1219.nav'.
+
+\tf@toc=\write7
+\openout7 = `BarkelooUOGroupSept1219.toc'.
+
+\tf@snm=\write8
+\openout8 = `BarkelooUOGroupSept1219.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 477.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 477.
+
+(./BarkelooUOGroupSept1219.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 477.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 477.
+Package rerunfilecheck Info: File `BarkelooUOGroupSept1219.out' has not changed
+.
+(rerunfilecheck)             Checksum: F6462487645245ABB88B6BD8E11E9E62;829.
+ ) 
+Here is how much of TeX's memory you used:
+ 18590 strings out of 492616
+ 357044 string characters out of 6132769
+ 432096 words of memory out of 5000000
+ 21990 multiletter control sequences out of 15000+600000
+ 13595 words of font info for 50 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,22n,55p,807b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on BarkelooUOGroupSept1219.pdf (26 pages, 1515372 bytes).
+PDF statistics:
+ 559 PDF objects out of 1000 (max. 8388607)
+ 418 compressed objects within 5 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 312 words of extra memory for PDF output out of 10000 (max. 10000000)
+

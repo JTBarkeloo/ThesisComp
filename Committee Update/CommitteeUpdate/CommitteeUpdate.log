@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  18 OCT 2019 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  19 OCT 2019 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -845,32 +845,36 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./CommitteeUpdate.nav)
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
 
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 22.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 29.
+line 19.
 
 (c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<../ATLAS-Logo-Ref-RGB.png, id=49, 583.7007pt x 307.1475pt>
+Overfull \vbox (0.77788pt too high) detected at line 19
+ []
+
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 22.
+
+<../ATLAS-Logo-Ref-RGB.png, id=87, 583.7007pt x 307.1475pt>
 File: ../ATLAS-Logo-Ref-RGB.png Graphic file (type png)
 <use ../ATLAS-Logo-Ref-RGB.png>
 Package pdftex.def Info: ../ATLAS-Logo-Ref-RGB.png  used on input line 29.
 (pdftex.def)             Requested size: 113.81102pt x 59.88649pt.
-<../uo_logo_green_on_white_2.jpg, id=50, 803.0pt x 451.6875pt>
+<../uo_logo_green_on_white_2.jpg, id=88, 803.0pt x 451.6875pt>
 File: ../uo_logo_green_on_white_2.jpg Graphic file (type jpg)
 <use ../uo_logo_green_on_white_2.jpg>
 Package pdftex.def Info: ../uo_logo_green_on_white_2.jpg  used on input line 29
@@ -881,65 +885,86 @@ Overfull \hbox (0.79945pt too wide) in paragraph at lines 29--29
  [][]|  [] 
  []
 
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
 [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <../ATLAS-Logo-Ref-RGB.png (PNG copy)> <../uo_logo_green_on_white_2.jpg>]
-(./CommitteeUpdate.toc) [2
+(./CommitteeUpdate.toc)
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 
-] (./CommitteeUpdate.toc) [3
+
+[2
 
 ]
-<../../Thesis/ThesisImages/SMParticles.png, id=99, 1027.84pt x 983.675pt>
+<../../Thesis/ThesisImages/SMParticles.png, id=132, 1027.84pt x 983.675pt>
 File: ../../Thesis/ThesisImages/SMParticles.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/SMParticles.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SMParticles.png  used on inp
 ut line 50.
 (pdftex.def)             Requested size: 136.5733pt x 130.70406pt.
 
-Overfull \vbox (2.50436pt too high) detected at line 50
+Overfull \vbox (13.33765pt too high) detected at line 50
  []
 
-[4
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[3
 
  <../../Thesis/ThesisImages/SMParticles.png>]
-<../../Thesis/ThesisImages/ttbarevent.png, id=116, 722.7pt x 515.9275pt>
+<../../Thesis/ThesisImages/ttbarevent.png, id=156, 722.7pt x 515.9275pt>
 File: ../../Thesis/ThesisImages/ttbarevent.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/ttbarevent.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/ttbarevent.png  used on inpu
 t line 67.
-(pdftex.def)             Requested size: 168.64354pt x 120.39282pt.
- [5
+(pdftex.def)             Requested size: 161.05663pt x 114.97618pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[4
 
  <../../Thesis/ThesisImages/ttbarevent.png>]
-<../../Thesis/ThesisImages/Theory/LOPairProdDiags.png, id=129, 740.7675pt x 384
+<../../Thesis/ThesisImages/Theory/LOPairProdDiags.png, id=173, 740.7675pt x 384
 .6872pt>
 File: ../../Thesis/ThesisImages/Theory/LOPairProdDiags.png Graphic file (type p
 ng)
 <use ../../Thesis/ThesisImages/Theory/LOPairProdDiags.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/LOPairProdDiags.png  
 used on input line 81.
-(pdftex.def)             Requested size: 231.82837pt x 120.39282pt.
- [6
+(pdftex.def)             Requested size: 221.39552pt x 114.97618pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[5
 
  <../../Thesis/ThesisImages/Theory/LOPairProdDiags.png>]
-<../../Thesis/ThesisImages/Theory/ttprodxsec.png, id=143, 1986.42125pt x 1353.0
+<../../Thesis/ThesisImages/Theory/ttprodxsec.png, id=192, 1986.42125pt x 1353.0
 55pt>
 File: ../../Thesis/ThesisImages/Theory/ttprodxsec.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/Theory/ttprodxsec.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/ttprodxsec.png  used 
 on input line 90.
-(pdftex.def)             Requested size: 247.42305pt x 168.54922pt.
+(pdftex.def)             Requested size: 236.29916pt x 160.96596pt.
 
-[7
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[6
 
  <../../Thesis/ThesisImages/Theory/ttprodxsec.png>]
-<../../Thesis/ThesisImages/topdecay.png, id=160, 355.3275pt x 349.305pt>
+<../../Thesis/ThesisImages/topdecay.png, id=211, 355.3275pt x 349.305pt>
 File: ../../Thesis/ThesisImages/topdecay.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/topdecay.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/topdecay.png  used on input 
 line 107.
 (pdftex.def)             Requested size: 107.55098pt x 105.72504pt.
-<../../Thesis/ThesisImages/Theory/topdecayproducts.jpg, id=161, 602.25pt x 470.
+<../../Thesis/ThesisImages/Theory/topdecayproducts.jpg, id=212, 602.25pt x 470.
 75874pt>
 File: ../../Thesis/ThesisImages/Theory/topdecayproducts.jpg Graphic file (type 
 jpg)
@@ -952,52 +977,1010 @@ Overfull \hbox (15.36542pt too wide) in paragraph at lines 107--107
 [][]  
  []
 
-[8
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[7
 
  <../../Thesis/ThesisImages/topdecay.png> <../../Thesis/ThesisImages/Theory/top
 decayproducts.jpg>]
-<../../Thesis/ThesisImages/Theory/SMTopDecays.png, id=176, 969.6225pt x 374.900
+<../../Thesis/ThesisImages/Theory/SMTopDecays.png, id=231, 969.6225pt x 374.900
 62pt>
 File: ../../Thesis/ThesisImages/Theory/SMTopDecays.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/Theory/SMTopDecays.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/SMTopDecays.png  used
  on input line 132.
 (pdftex.def)             Requested size: 307.28987pt x 118.8151pt.
- [9
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[8
 
  <../../Thesis/ThesisImages/Theory/SMTopDecays.png>]
-<../../Thesis/ThesisImages/ModelLimits.png, id=190, 1411.52344pt x 572.1375pt>
+<../../Thesis/ThesisImages/ModelLimits.png, id=249, 1411.52344pt x 572.1375pt>
 File: ../../Thesis/ThesisImages/ModelLimits.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/ModelLimits.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/ModelLimits.png  used on inp
-ut line 204.
+ut line 202.
 (pdftex.def)             Requested size: 307.28987pt x 124.55238pt.
 
-[10
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[9
 
  <../../Thesis/ThesisImages/ModelLimits.png>]
-<../../Thesis/ThesisImages/Theory/AllFCNCLimits.png, id=205, 1986.42125pt x 177
+<../../Thesis/ThesisImages/Theory/AllFCNCLimits.png, id=267, 1986.42125pt x 177
 7.64125pt>
 File: ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png Graphic file (type png
 )
 <use ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png  us
-ed on input line 219.
+ed on input line 217.
 (pdftex.def)             Requested size: 169.01036pt x 151.24669pt.
- [11
 
- <../../Thesis/ThesisImages/Theory/AllFCNCLimits.png>] [12
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[10
+
+ <../../Thesis/ThesisImages/Theory/AllFCNCLimits.png>]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[11
 
 ]
-<../../Thesis/ThesisImages/fcncttbar.png, id=233, 423.08063pt x 419.31656pt>
+<../../Thesis/ThesisImages/fcncttbar.png, id=303, 423.08063pt x 419.31656pt>
 File: ../../Thesis/ThesisImages/fcncttbar.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/fcncttbar.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/fcncttbar.png  used on input
- line 250.
+ line 248.
 (pdftex.def)             Requested size: 122.91406pt x 121.81622pt.
- [13
 
- <../../Thesis/ThesisImages/fcncttbar.png>] [14
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[12
+
+ <../../Thesis/ThesisImages/fcncttbar.png>]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[13
+
+]
+<../../Thesis/ThesisImages/backgrounds.png, id=334, 1179.65718pt x 693.34032pt>
+
+File: ../../Thesis/ThesisImages/backgrounds.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/backgrounds.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/backgrounds.png  used on inp
+ut line 276.
+(pdftex.def)             Requested size: 215.10196pt x 126.42511pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[14
+
+ <../../Thesis/ThesisImages/backgrounds.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 308--308
+[][]  
+ []
+
+<Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_leadJet_pt.png, id=347, 6
+98.61pt x 473.77pt>
+File: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_leadJet_pt.png Graph
+ic file (type png)
+<use Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_leadJet_pt.png>
+Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_l
+eadJet_pt.png  used on input line 308.
+(pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
+<Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_leadJet_pt.png, id=348, 6
+98.61pt x 473.77pt>
+File: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_leadJet_pt.png Graph
+ic file (type png)
+<use Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_leadJet_pt.png>
+Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_l
+eadJet_pt.png  used on input line 308.
+(pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
+<Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_photon_pt.png, id=349, 69
+8.61pt x 473.77pt>
+File: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_photon_pt.png Graphi
+c file (type png)
+<use Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_photon_pt.png>
+Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_p
+hoton_pt.png  used on input line 308.
+(pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
+<Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_photon_pt.png, id=350, 69
+8.61pt x 473.77pt>
+File: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_photon_pt.png Graphi
+c file (type png)
+<use Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_photon_pt.png>
+Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_p
+hoton_pt.png  used on input line 308.
+(pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
+<Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_lepton_pt.png, id=351, 69
+8.61pt x 473.77pt>
+File: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_lepton_pt.png Graphi
+c file (type png)
+<use Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_lepton_pt.png>
+Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_l
+epton_pt.png  used on input line 308.
+(pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
+<Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_lepton_pt.png, id=352, 69
+8.61pt x 473.77pt>
+File: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_lepton_pt.png Graphi
+c file (type png)
+<use Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_lepton_pt.png>
+Package pdftex.def Info: Images/onlyNNCut/plotsSkip1percent/mu.presel.preselh_l
+epton_pt.png  used on input line 308.
+(pdftex.def)             Requested size: 96.33559pt x 65.32973pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[15
+
+ <./Images/onlyNNCut/plotsSkip1percent/el.presel.preselh_leadJet_pt.png> <./Ima
+ges/onlyNNCut/plotsSkip1percent/mu.presel.preselh_leadJet_pt.png> <./Images/onl
+yNNCut/plotsSkip1percent/el.presel.preselh_photon_pt.png> <./Images/onlyNNCut/p
+lotsSkip1percent/mu.presel.preselh_photon_pt.png> <./Images/onlyNNCut/plotsSkip
+1percent/el.presel.preselh_lepton_pt.png> <./Images/onlyNNCut/plotsSkip1percent
+/mu.presel.preselh_lepton_pt.png>]
+<Images/neural_net2.jpeg, id=365, 793.96625pt x 389.455pt>
+File: Images/neural_net2.jpeg Graphic file (type jpg)
+<use Images/neural_net2.jpeg>
+Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 324.
+(pdftex.def)             Requested size: 215.10196pt x 105.5108pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[16
+
+ <./Images/neural_net2.jpeg>]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[17
+
+]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[18
+
+]
+<Images/SeptNN/accuarcy.png, id=404, 462.528pt x 346.896pt>
+File: Images/SeptNN/accuarcy.png Graphic file (type png)
+<use Images/SeptNN/accuarcy.png>
+Package pdftex.def Info: Images/SeptNN/accuarcy.png  used on input line 367.
+(pdftex.def)             Requested size: 96.33559pt x 72.25217pt.
+<Images/SeptNN/SigVsBR.png, id=405, 462.528pt x 346.896pt>
+File: Images/SeptNN/SigVsBR.png Graphic file (type png)
+<use Images/SeptNN/SigVsBR.png>
+Package pdftex.def Info: Images/SeptNN/SigVsBR.png  used on input line 367.
+(pdftex.def)             Requested size: 96.33559pt x 72.25217pt.
+<Images/SeptNN/loss.png, id=406, 462.528pt x 346.896pt>
+File: Images/SeptNN/loss.png Graphic file (type png)
+<use Images/SeptNN/loss.png>
+Package pdftex.def Info: Images/SeptNN/loss.png  used on input line 367.
+(pdftex.def)             Requested size: 96.33559pt x 72.25217pt.
+<Images/SeptNN/significance2.png, id=407, 1084.05pt x 722.7pt>
+File: Images/SeptNN/significance2.png Graphic file (type png)
+<use Images/SeptNN/significance2.png>
+Package pdftex.def Info: Images/SeptNN/significance2.png  used on input line 36
+7.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<Images/SeptNN/sigbkg.png, id=408, 462.528pt x 346.896pt>
+File: Images/SeptNN/sigbkg.png Graphic file (type png)
+<use Images/SeptNN/sigbkg.png>
+Package pdftex.def Info: Images/SeptNN/sigbkg.png  used on input line 367.
+(pdftex.def)             Requested size: 96.33559pt x 72.25217pt.
+<Images/SeptNN/CutVsBR.png, id=409, 462.528pt x 346.896pt>
+File: Images/SeptNN/CutVsBR.png Graphic file (type png)
+<use Images/SeptNN/CutVsBR.png>
+Package pdftex.def Info: Images/SeptNN/CutVsBR.png  used on input line 367.
+(pdftex.def)             Requested size: 96.33559pt x 72.25217pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[19
+
+ <./Images/SeptNN/accuarcy.png> <./Images/SeptNN/SigVsBR.png> <./Images/SeptNN/
+loss.png> <./Images/SeptNN/significance2.png> <./Images/SeptNN/sigbkg.png> <./I
+mages/SeptNN/CutVsBR.png>]
+<../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png, id=429, 903.375pt 
+x 924.45375pt>
+File: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png Graphic file (
+type png)
+<use ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram
+.png  used on input line 385.
+(pdftex.def)             Requested size: 146.05923pt x 149.46764pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[20
+
+ <../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 422--422
+[][]  
+ []
+
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/modelo
+uts/significanceejetsboth2hidnpart02.png, id=444, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/m
+odelouts/significanceejetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/mo
+delouts/significanceejetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag70/modelouts/significanceejetsboth2hidnpart02.png  used on input
+ line 422.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/modelo
+uts/significancemujetsboth2hidnpart02.png, id=445, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/m
+odelouts/significancemujetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/mo
+delouts/significancemujetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag70/modelouts/significancemujetsboth2hidnpart02.png  used on inpu
+t line 422.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/modelo
+uts/significanceejetsboth2hidnpart02.png, id=446, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/m
+odelouts/significanceejetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/mo
+delouts/significanceejetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag77/modelouts/significanceejetsboth2hidnpart02.png  used on input
+ line 422.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/modelo
+uts/significancemujetsboth2hidnpart02.png, id=447, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/m
+odelouts/significancemujetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77/mo
+delouts/significancemujetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag77/modelouts/significancemujetsboth2hidnpart02.png  used on inpu
+t line 422.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/modelo
+uts/significanceejetsboth2hidnpart02.png, id=448, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/m
+odelouts/significanceejetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/mo
+delouts/significanceejetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag85/modelouts/significanceejetsboth2hidnpart02.png  used on input
+ line 422.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+<../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/modelo
+uts/significancemujetsboth2hidnpart02.png, id=449, 1084.05pt x 722.7pt>
+File: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/m
+odelouts/significancemujetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag85/mo
+delouts/significancemujetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SimulationNN/HiddenLayerStud
+iesBR0.002/btag85/modelouts/significancemujetsboth2hidnpart02.png  used on inpu
+t line 422.
+(pdftex.def)             Requested size: 96.33559pt x 64.21312pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[21
+
+ <../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag70/model
+outs/significanceejetsboth2hidnpart02.png> <../../Thesis/ThesisImages/Simulatio
+nNN/HiddenLayerStudiesBR0.002/btag70/modelouts/significancemujetsboth2hidnpart0
+2.png> <../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/btag77
+/modelouts/significanceejetsboth2hidnpart02.png> <../../Thesis/ThesisImages/Sim
+ulationNN/HiddenLayerStudiesBR0.002/btag77/modelouts/significancemujetsboth2hid
+npart02.png> <../../Thesis/ThesisImages/SimulationNN/HiddenLayerStudiesBR0.002/
+btag85/modelouts/significanceejetsboth2hidnpart02.png> <../../Thesis/ThesisImag
+es/SimulationNN/HiddenLayerStudiesBR0.002/btag85/modelouts/significancemujetsbo
+th2hidnpart02.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 424.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 424.
+
+<../../Thesis/ThesisImages/ZeeFakeDiagram.png, id=468, 976.64874pt x 508.90125p
+t>
+File: ../../Thesis/ThesisImages/ZeeFakeDiagram.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/ZeeFakeDiagram.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/ZeeFakeDiagram.png  used on 
+input line 432.
+(pdftex.def)             Requested size: 245.83282pt x 128.0947pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[22
+
+ <../../Thesis/ThesisImages/ZeeFakeDiagram.png>]
+Overfull \hbox (1.15842pt too wide) in paragraph at lines 461--461
+[][]  
+ []
+
+<Images/Dataee.png, id=485, 700.6175pt x 474.77374pt>
+File: Images/Dataee.png Graphic file (type png)
+<use Images/Dataee.png>
+Package pdftex.def Info: Images/Dataee.png  used on input line 461.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/Dataeg.png, id=486, 700.6175pt x 474.77374pt>
+File: Images/Dataeg.png Graphic file (type png)
+<use Images/Dataeg.png>
+Package pdftex.def Info: Images/Dataeg.png  used on input line 461.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/MCVgamee.png, id=487, 700.6175pt x 474.77374pt>
+File: Images/MCVgamee.png Graphic file (type png)
+<use Images/MCVgamee.png>
+Package pdftex.def Info: Images/MCVgamee.png  used on input line 461.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/MCVgameg.png, id=488, 700.6175pt x 474.77374pt>
+File: Images/MCVgameg.png Graphic file (type png)
+<use Images/MCVgameg.png>
+Package pdftex.def Info: Images/MCVgameg.png  used on input line 461.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[23
+
+ <./Images/Dataee.png> <./Images/Dataeg.png> <./Images/MCVgamee.png> <./Images/
+MCVgameg.png>]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[24
+
+]
+<Images/pt1DSF.png, id=516, 525.46312pt x 356.83313pt>
+File: Images/pt1DSF.png Graphic file (type png)
+<use Images/pt1DSF.png>
+Package pdftex.def Info: Images/pt1DSF.png  used on input line 486.
+(pdftex.def)             Requested size: 147.49782pt x 100.16304pt.
+<Images/eta1DSF.png, id=517, 700.6175pt x 475.7775pt>
+File: Images/eta1DSF.png Graphic file (type png)
+<use Images/eta1DSF.png>
+Package pdftex.def Info: Images/eta1DSF.png  used on input line 486.
+(pdftex.def)             Requested size: 147.49782pt x 100.16304pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[25
+
+ <./Images/pt1DSF.png> <./Images/eta1DSF.png>]
+Overfull \hbox (2.59097pt too wide) in paragraph at lines 511--511
+[][]  
+ []
+
+<Images/dataPhotonElectronPT.png, id=534, 700.6175pt x 475.7775pt>
+File: Images/dataPhotonElectronPT.png Graphic file (type png)
+<use Images/dataPhotonElectronPT.png>
+Package pdftex.def Info: Images/dataPhotonElectronPT.png  used on input line 51
+1.
+(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+<Images/dataElectronElectronPT.png, id=535, 700.6175pt x 475.7775pt>
+File: Images/dataElectronElectronPT.png Graphic file (type png)
+<use Images/dataElectronElectronPT.png>
+Package pdftex.def Info: Images/dataElectronElectronPT.png  used on input line 
+511.
+(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+<Images/mcPhotonElectronPT.png, id=536, 700.6175pt x 475.7775pt>
+File: Images/mcPhotonElectronPT.png Graphic file (type png)
+<use Images/mcPhotonElectronPT.png>
+Package pdftex.def Info: Images/mcPhotonElectronPT.png  used on input line 511.
+
+(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+<Images/mcElectronElectronPT.png, id=537, 700.6175pt x 475.7775pt>
+File: Images/mcElectronElectronPT.png Graphic file (type png)
+<use Images/mcElectronElectronPT.png>
+Package pdftex.def Info: Images/mcElectronElectronPT.png  used on input line 51
+1.
+(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[26
+
+ <./Images/dataPhotonElectronPT.png> <./Images/dataElectronElectronPT.png> <./I
+mages/mcPhotonElectronPT.png> <./Images/mcElectronElectronPT.png>]
+<Images/2DSF.png, id=551, 700.6175pt x 475.7775pt>
+File: Images/2DSF.png Graphic file (type png)
+<use Images/2DSF.png>
+Package pdftex.def Info: Images/2DSF.png  used on input line 517.
+(pdftex.def)             Requested size: 291.92444pt x 198.24255pt.
+
+Overfull \vbox (5.87062pt too high) detected at line 517
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[27
+
+ <./Images/2DSF.png>]
+Overfull \hbox (6.23372pt too wide) in paragraph at lines 534--534
+ [] 
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[28
+
+]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 557--557
+[][]  
+ []
+
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR1_MWT.png, id=578, 598.235pt x 67
+4.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR1_MWT.png Graphic file (type
+ png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR1_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR1_MWT.png
+  used on input line 557.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR1_MWT.png, id=579, 598.235pt x 6
+74.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR1_MWT.png Graphic file (typ
+e png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR1_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR1_MWT.pn
+g  used on input line 557.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR1_lep_pt.png, id=580, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR1_lep_pt.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR1_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR1_lep_pt.
+png  used on input line 557.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR1_lep_pt.png, id=581, 598.235pt 
+x 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR1_lep_pt.png Graphic file (
+type png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR1_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR1_lep_pt
+.png  used on input line 557.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR1_ST.png, id=582, 598.235pt x 674
+.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR1_ST.png Graphic file (type 
+png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR1_ST.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR1_ST.png 
+ used on input line 557.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR1_ST.png, id=583, 598.235pt x 67
+4.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR1_ST.png Graphic file (type
+ png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR1_ST.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR1_ST.png
+  used on input line 557.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+
+Overfull \vbox (0.4891pt too high) detected at line 557
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[29
+
+ <./Images/Plots/FCNCplots1percent/ejets/Plots/VR1_MWT.png> <./Images/Plots/FCN
+Cplots1percent/mujets/Plots/VR1_MWT.png> <./Images/Plots/FCNCplots1percent/ejet
+s/Plots/VR1_lep_pt.png> <./Images/Plots/FCNCplots1percent/mujets/Plots/VR1_lep_
+pt.png> <./Images/Plots/FCNCplots1percent/ejets/Plots/VR1_ST.png> <./Images/Plo
+ts/FCNCplots1percent/mujets/Plots/VR1_ST.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 578--578
+[][]  
+ []
+
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR2_MWT.png, id=596, 598.235pt x 67
+4.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR2_MWT.png Graphic file (type
+ png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR2_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR2_MWT.png
+  used on input line 578.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR2_MWT.png, id=597, 598.235pt x 6
+74.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR2_MWT.png Graphic file (typ
+e png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR2_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR2_MWT.pn
+g  used on input line 578.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR2_lep_pt.png, id=598, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR2_lep_pt.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR2_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR2_lep_pt.
+png  used on input line 578.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR2_lep_pt.png, id=599, 598.235pt 
+x 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR2_lep_pt.png Graphic file (
+type png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR2_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR2_lep_pt
+.png  used on input line 578.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR2_SMtop.png, id=600, 598.235pt x 
+674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR2_SMtop.png Graphic file (ty
+pe png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR2_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR2_SMtop.p
+ng  used on input line 578.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR2_SMtop.png, id=601, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR2_SMtop.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR2_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR2_SMtop.
+png  used on input line 578.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+
+Overfull \vbox (0.4891pt too high) detected at line 578
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[30
+
+ <./Images/Plots/FCNCplots1percent/ejets/Plots/VR2_MWT.png> <./Images/Plots/FCN
+Cplots1percent/mujets/Plots/VR2_MWT.png> <./Images/Plots/FCNCplots1percent/ejet
+s/Plots/VR2_lep_pt.png> <./Images/Plots/FCNCplots1percent/mujets/Plots/VR2_lep_
+pt.png> <./Images/Plots/FCNCplots1percent/ejets/Plots/VR2_SMtop.png> <./Images/
+Plots/FCNCplots1percent/mujets/Plots/VR2_SMtop.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 599--599
+[][]  
+ []
+
+<Images/Plots/FCNCplots1percent/ejets/Plots/CR1_MWT.png, id=614, 598.235pt x 67
+4.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/CR1_MWT.png Graphic file (type
+ png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/CR1_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/CR1_MWT.png
+  used on input line 599.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/CR1_MWT.png, id=615, 598.235pt x 6
+74.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/CR1_MWT.png Graphic file (typ
+e png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/CR1_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/CR1_MWT.pn
+g  used on input line 599.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/CR1_lep_pt.png, id=616, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/CR1_lep_pt.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/CR1_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/CR1_lep_pt.
+png  used on input line 599.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/CR1_lep_pt.png, id=617, 598.235pt 
+x 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/CR1_lep_pt.png Graphic file (
+type png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/CR1_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/CR1_lep_pt
+.png  used on input line 599.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/CR1_SMtop.png, id=618, 598.235pt x 
+674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/CR1_SMtop.png Graphic file (ty
+pe png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/CR1_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/CR1_SMtop.p
+ng  used on input line 599.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/CR1_SMtop.png, id=619, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/CR1_SMtop.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/CR1_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/CR1_SMtop.
+png  used on input line 599.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+
+Overfull \vbox (0.4891pt too high) detected at line 599
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[31
+
+ <./Images/Plots/FCNCplots1percent/ejets/Plots/CR1_MWT.png> <./Images/Plots/FCN
+Cplots1percent/mujets/Plots/CR1_MWT.png> <./Images/Plots/FCNCplots1percent/ejet
+s/Plots/CR1_lep_pt.png> <./Images/Plots/FCNCplots1percent/mujets/Plots/CR1_lep_
+pt.png> <./Images/Plots/FCNCplots1percent/ejets/Plots/CR1_SMtop.png> <./Images/
+Plots/FCNCplots1percent/mujets/Plots/CR1_SMtop.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 620--620
+[][]  
+ []
+
+<Images/Plots/FCNCplots1percent/ejets/Plots/CR2_MWT.png, id=633, 598.235pt x 67
+4.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/CR2_MWT.png Graphic file (type
+ png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/CR2_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/CR2_MWT.png
+  used on input line 620.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/CR2_MWT.png, id=634, 598.235pt x 6
+74.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/CR2_MWT.png Graphic file (typ
+e png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/CR2_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/CR2_MWT.pn
+g  used on input line 620.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/CR2_lep_pt.png, id=635, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/CR2_lep_pt.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/CR2_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/CR2_lep_pt.
+png  used on input line 620.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/CR2_lep_pt.png, id=636, 598.235pt 
+x 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/CR2_lep_pt.png Graphic file (
+type png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/CR2_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/CR2_lep_pt
+.png  used on input line 620.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/CR2_SMtop.png, id=637, 598.235pt x 
+674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/CR2_SMtop.png Graphic file (ty
+pe png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/CR2_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/CR2_SMtop.p
+ng  used on input line 620.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/CR2_SMtop.png, id=638, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/CR2_SMtop.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/CR2_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/CR2_SMtop.
+png  used on input line 620.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+
+Overfull \vbox (0.4891pt too high) detected at line 620
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[32
+
+ <./Images/Plots/FCNCplots1percent/ejets/Plots/CR2_MWT.png> <./Images/Plots/FCN
+Cplots1percent/mujets/Plots/CR2_MWT.png> <./Images/Plots/FCNCplots1percent/ejet
+s/Plots/CR2_lep_pt.png> <./Images/Plots/FCNCplots1percent/mujets/Plots/CR2_lep_
+pt.png> <./Images/Plots/FCNCplots1percent/ejets/Plots/CR2_SMtop.png> <./Images/
+Plots/FCNCplots1percent/mujets/Plots/CR2_SMtop.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 643--643
+[][]  
+ []
+
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR3_MWT.png, id=651, 598.235pt x 67
+4.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR3_MWT.png Graphic file (type
+ png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR3_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR3_MWT.png
+  used on input line 643.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR3_MWT.png, id=652, 598.235pt x 6
+74.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR3_MWT.png Graphic file (typ
+e png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR3_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR3_MWT.pn
+g  used on input line 643.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR3_lep_pt.png, id=653, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR3_lep_pt.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR3_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR3_lep_pt.
+png  used on input line 643.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR3_lep_pt.png, id=654, 598.235pt 
+x 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR3_lep_pt.png Graphic file (
+type png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR3_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR3_lep_pt
+.png  used on input line 643.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/ejets/Plots/VR3_SMtop.png, id=655, 598.235pt x 
+674.52pt>
+File: Images/Plots/FCNCplots1percent/ejets/Plots/VR3_SMtop.png Graphic file (ty
+pe png)
+<use Images/Plots/FCNCplots1percent/ejets/Plots/VR3_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/ejets/Plots/VR3_SMtop.p
+ng  used on input line 643.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots1percent/mujets/Plots/VR3_SMtop.png, id=656, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots1percent/mujets/Plots/VR3_SMtop.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots1percent/mujets/Plots/VR3_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots1percent/mujets/Plots/VR3_SMtop.
+png  used on input line 643.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+
+Overfull \vbox (0.4891pt too high) detected at line 643
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[33
+
+ <./Images/Plots/FCNCplots1percent/ejets/Plots/VR3_MWT.png> <./Images/Plots/FCN
+Cplots1percent/mujets/Plots/VR3_MWT.png> <./Images/Plots/FCNCplots1percent/ejet
+s/Plots/VR3_lep_pt.png> <./Images/Plots/FCNCplots1percent/mujets/Plots/VR3_lep_
+pt.png> <./Images/Plots/FCNCplots1percent/ejets/Plots/VR3_SMtop.png> <./Images/
+Plots/FCNCplots1percent/mujets/Plots/VR3_SMtop.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 664--664
+[][]  
+ []
+
+<Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_MWT.png, id=669, 598.235pt x 
+674.52pt>
+File: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_MWT.png Graphic file (ty
+pe png)
+<use Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_MWT.p
+ng  used on input line 664.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_MWT.png, id=670, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_MWT.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_MWT.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_MWT.
+png  used on input line 664.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_lep_pt.png, id=671, 598.235pt
+ x 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_lep_pt.png Graphic file 
+(type png)
+<use Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_lep_p
+t.png  used on input line 664.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_lep_pt.png, id=672, 598.235p
+t x 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_lep_pt.png Graphic file
+ (type png)
+<use Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_lep_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_lep_
+pt.png  used on input line 664.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_SMtop.png, id=673, 598.235pt 
+x 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_SMtop.png Graphic file (
+type png)
+<use Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_SMtop
+.png  used on input line 664.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_SMtop.png, id=674, 598.235pt
+ x 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_SMtop.png Graphic file 
+(type png)
+<use Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_SMtop.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_SMto
+p.png  used on input line 664.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+
+Overfull \vbox (0.4891pt too high) detected at line 664
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[34
+
+ <./Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_MWT.png> <./Images/Plots/F
+CNCplots0.01percent/mujets/Plots/SR_MWT.png> <./Images/Plots/FCNCplots0.01perce
+nt/ejets/Plots/SR_lep_pt.png> <./Images/Plots/FCNCplots0.01percent/mujets/Plots
+/SR_lep_pt.png> <./Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_SMtop.png> 
+<./Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_SMtop.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 685--685
+[][]  
+ []
+
+<Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ST.png, id=687, 598.235pt x 6
+74.52pt>
+File: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ST.png Graphic file (typ
+e png)
+<use Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ST.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ST.pn
+g  used on input line 685.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_ST.png, id=688, 598.235pt x 
+674.52pt>
+File: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_ST.png Graphic file (ty
+pe png)
+<use Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_ST.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_ST.p
+ng  used on input line 685.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ph_pt.png, id=689, 598.235pt 
+x 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ph_pt.png Graphic file (
+type png)
+<use Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ph_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ph_pt
+.png  used on input line 685.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_ph_pt.png, id=690, 598.235pt
+ x 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_ph_pt.png Graphic file 
+(type png)
+<use Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_ph_pt.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_ph_p
+t.png  used on input line 685.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_mqph.png, id=691, 598.235pt x
+ 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_mqph.png Graphic file (t
+ype png)
+<use Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_mqph.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_mqph.
+png  used on input line 685.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+<Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_mqph.png, id=692, 598.235pt 
+x 674.52pt>
+File: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_mqph.png Graphic file (
+type png)
+<use Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_mqph.png>
+Package pdftex.def Info: Images/Plots/FCNCplots0.01percent/mujets/Plots/SR_mqph
+.png  used on input line 685.
+(pdftex.def)             Requested size: 91.26497pt x 102.90274pt.
+
+Overfull \vbox (0.4891pt too high) detected at line 685
+ []
+
+
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[35
+
+ <./Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_ST.png> <./Images/Plots/FC
+NCplots0.01percent/mujets/Plots/SR_ST.png> <./Images/Plots/FCNCplots0.01percent
+/ejets/Plots/SR_ph_pt.png> <./Images/Plots/FCNCplots0.01percent/mujets/Plots/SR
+_ph_pt.png> <./Images/Plots/FCNCplots0.01percent/ejets/Plots/SR_mqph.png> <./Im
+ages/Plots/FCNCplots0.01percent/mujets/Plots/SR_mqph.png>]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[36
+
+]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[37
+
+]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[38
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\translate ' on input line 763.
+
+[39
+
+] [40
+
+]
+Overfull \hbox (8.68301pt too wide) in paragraph at lines 837--837
+[]\OT1/cmss/m/n/10 ['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam
+','deltaRbl',  
+ []
+
+[41
+
+]
+<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=763, 580.41844pt x 432.11438
+pt>
+File: ../../Thesis/ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/Theory/FCNCLoop.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/FCNCLoop.png  used on
+ input line 843.
+(pdftex.def)             Requested size: 122.91406pt x 91.50494pt.
+<../../Thesis/ThesisImages/penguinFCNC.png, id=764, 1020.81375pt x 629.35126pt>
+
+File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/penguinFCNC.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/penguinFCNC.png  used on inp
+ut line 843.
+(pdftex.def)             Requested size: 122.91406pt x 75.77817pt.
+ [42
+
+ <../../Thesis/ThesisImages/Theory/FCNCLoop.png> <../../Thesis/ThesisImages/pen
+guinFCNC.png>]
+<../../Thesis/ThesisImages/BSMDiagrams.png, id=773, 1166.10657pt x 630.10406pt>
+
+File: ../../Thesis/ThesisImages/BSMDiagrams.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/BSMDiagrams.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/BSMDiagrams.png  used on inp
+ut line 847.
+(pdftex.def)             Requested size: 307.28987pt x 166.04416pt.
+ [43
+
+ <../../Thesis/ThesisImages/BSMDiagrams.png>]
+[44
+
+]
+File: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png Graphic file (
+type png)
+<use ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram
+.png  used on input line 868.
+(pdftex.def)             Requested size: 179.76202pt x 183.9626pt.
+ [45
+
+] [46
 
 ]
 \tf@nav=\write6
@@ -1009,42 +1992,44 @@ Package pdftex.def Info: ../../Thesis/ThesisImages/fcncttbar.png  used on input
 \tf@snm=\write8
 \openout8 = `CommitteeUpdate.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 525.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 525.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 877.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 877.
  (./CommitteeUpdate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 525.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 525.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 877.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 877.
 Package rerunfilecheck Info: File `CommitteeUpdate.out' has not changed.
-(rerunfilecheck)             Checksum: 813D104E3F9ADC46266E9D8F1555CA2E;613.
+(rerunfilecheck)             Checksum: 0B006CDA57F1F80A51AA79E652A4BE4A;1113.
  ) 
 Here is how much of TeX's memory you used:
- 18444 strings out of 492616
- 351505 string characters out of 6132769
- 425056 words of memory out of 5000000
- 21894 multiletter control sequences out of 15000+600000
+ 18975 strings out of 492616
+ 372105 string characters out of 6132769
+ 432071 words of memory out of 5000000
+ 22289 multiletter control sequences out of 15000+600000
  13595 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,59p,799b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,22n,59p,799b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on CommitteeUpdate.pdf (14 pages, 1213643 bytes).
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
+2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on CommitteeUpdate.pdf (46 pages, 3071567 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 895 PDF objects out of 1000 (max. 8388607)
+ 690 compressed objects within 7 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 629 words of extra memory for PDF output out of 10000 (max. 10000000)
 
