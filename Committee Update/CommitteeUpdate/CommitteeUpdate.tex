@@ -19,13 +19,13 @@
 \begin{document}
 \title{Search for Flavor Changing Neutral Currents in Top Quark Decays}
 \subtitle{$t \rightarrow q \gamma$}
-\author[Barkeloo, Comprehensive Exam]{Jason Barkeloo}
+\author[Barkeloo, Committee Update]{Jason Barkeloo}
 
 \titlegraphic{\includegraphics[width=4cm]{../ATLAS-Logo-Ref-RGB.png}\hspace*{2.75cm}~%
    \includegraphics[width=4cm]{../uo_logo_green_on_white_2.jpg}
 }
 
-\date{November 30, 2017}
+\date{October 21, 2019}
 \frame{\titlepage}
 \frame{\frametitle{Table of Contents}\tableofcontents[hidesubsections]}
 %\frame{\frametitle{Table of Contents}\tableofcontents[currentsection,hideothersubsections]}
@@ -194,12 +194,12 @@
 
 \subsection{Theory Predictions and Experimental Limits}
 
-
-\frame{\frametitle{Top Flavor Changing Neutral Currents (FCNCs)}
-\includegraphics[width=1.\textwidth]{../../Thesis/ThesisImages/ModelLimits.png}
-\captionof{table}{Branching ratio enhancements in various beyond the standard model theories \href{https://arxiv.org/pdf/1311.2028.pdf}{[Snowmass Top Report]}}
-
-}
+%
+%\frame{\frametitle{Top Flavor Changing Neutral Currents (FCNCs)}
+%\includegraphics[width=1.\textwidth]{../../Thesis/ThesisImages/ModelLimits.png}
+%\captionof{table}{Branching ratio enhancements in various beyond the standard model theories \href{https://arxiv.org/pdf/1311.2028.pdf}{[Snowmass Top Report]}}
+%
+%}
 
 \frame{\frametitle{Top Flavor Changing Neutral Currents}
 \begin{itemize}
@@ -268,7 +268,7 @@
 
 \frame{\frametitle{Background Processes}
 \begin{itemize}
-\item Due to all of the processes at hadron colliders it is important to model similar event topologies well.
+\item Due to all of the processes at hadron colliders it is important to model similar event topologies well
 \item Major backgrounds include $t\bar{t}$, W+Jets, Z+Jets, + processes with an associated photon
 \end{itemize}
 \centering
@@ -333,7 +333,7 @@ Signal MC Scaled to 1\% $\sigma_{t\bar{t}}$, No Overlap Removal but no dedicated
 \item Loss Function: Binary Cross Entropy
 \end{itemize}
 }
-
+\subsection{Cut Optimization}
 \frame{\frametitle{Cut Optimization}
 \begin{itemize}
 
@@ -366,6 +366,7 @@ $\mu+$jets Channel Example
 \end{columns}
 }
 
+\subsection{Neural Network To Choose B-tagging Working Point}
 \frame{\frametitle{B-tagging}
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -471,19 +472,19 @@ $\text{FR}^{\text{e-fake}}_{\text{MC}} = 0.212$\\
 $\text{SF}^{\text{e-fake}}_{\text{FR}} =0.953$
 }
 
-\frame{\frametitle{Scale Factors As Functions of Probe pt and eta}
-\begin{columns}
-\begin{column}{0.48\textwidth}
-Probe $p_T$
-\includegraphics[width=\textwidth]{Images/pt1DSF.png}
-\end{column}
-\begin{column}{0.48\textwidth}
-Probe $\eta$
-\includegraphics[width=\textwidth]{Images/eta1DSF.png}
-\end{column}
-\end{columns}
-Good to check but in practice these are done using 2D Scale Factors
-}
+%\frame{\frametitle{Scale Factors As Functions of Probe pt and eta}
+%\begin{columns}
+%\begin{column}{0.48\textwidth}
+%Probe $p_T$
+%\includegraphics[width=\textwidth]{Images/pt1DSF.png}
+%\end{column}
+%\begin{column}{0.48\textwidth}
+%Probe $\eta$
+%\includegraphics[width=\textwidth]{Images/eta1DSF.png}
+%\end{column}
+%\end{columns}
+%Good to check but in practice these are done using 2D Scale Factors
+%}
 
 \subsection{2D Fake Rate Scale Factor}
 
@@ -534,6 +535,7 @@ The following plots are for MC16a and Data 2015/2016, signal is scaled to 1\% $\
 }
 
 
+\subsection{Validation Region Plots}
 
 \frame{\frametitle{VR1: $W+\gamma$ VR Plots - $m_{T}^W$, lepton $p_{T}$, $S_T$}
 \begin{columns}
@@ -577,7 +579,9 @@ The following plots are for MC16a and Data 2015/2016, signal is scaled to 1\% $\
 \end{columns}
 }
 
-\frame{\frametitle{W+Jets Rich CR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
+\subsection{CR Plots for Scale Factor}
+
+\frame{\frametitle{W+Jets Rich CR1 Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
 \begin{columns}
 \begin{column}{0.02\textwidth}
 \rotatebox{90}{Muon Channel \qquad  Electron Channel} 
@@ -598,7 +602,7 @@ The following plots are for MC16a and Data 2015/2016, signal is scaled to 1\% $\
 \end{columns}
 }
 
-\frame{\frametitle{$t\bar{t}$ Rich CR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
+\frame{\frametitle{$t\bar{t}$ Rich CR2 Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
 \begin{columns}
 \begin{column}{0.02\textwidth}
 \rotatebox{90}{Muon Channel \qquad  Electron Channel} 
@@ -621,7 +625,7 @@ The following plots are for MC16a and Data 2015/2016, signal is scaled to 1\% $\
 
 
 
-\frame{\frametitle{$t\bar{t}$/W+Jets VR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
+\frame{\frametitle{$t\bar{t}$/W+Jets VR3 Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
 \begin{columns}
 \begin{column}{0.02\textwidth}
 \rotatebox{90}{Muon Channel \qquad  Electron Channel} 
@@ -641,6 +645,8 @@ The following plots are for MC16a and Data 2015/2016, signal is scaled to 1\% $\
 \end{column}
 \end{columns}
 }
+
+\subsection{Signal Region Plots}
 
 \frame{\frametitle{SR Plots - $m_{T}^W$, lepton $p_{T}$, $m_{Wb}$}
 \begin{columns}
@@ -684,30 +690,92 @@ The following plots are for MC16a and Data 2015/2016, signal is scaled to 1\% $\
 \end{columns}
 }
 
+\frame{\frametitle{Scale Factor Calculation based on CR1/CR2}
+Further scale factors will be applied to the samples to account for mismodeling of the MC.  SF calculated based on the control regions (CR1,2) and test its performance in the validation region (VR3)\\ 
+
+\begin{columns}
+\begin{column}{0.33\textwidth}
+CR1
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots1percent}/ejets/Plots/CR1_nbjet.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+CR2
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/ejets/Plots/CR2_nbjet.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+VR3
+\includegraphics[width=.9\textwidth]{Images/Plots/{FCNCplots0.01percent}/ejets/Plots/VR3_nbjet.png}
+\end{column}
+\end{columns}
+\centering
+$\begin{bmatrix}
+N(W)_{\text{CR1}} & N(t\bar{t})_{\text{CR1}} \\
+N(W)_{\text{CR2}} & N(t\bar{t})_{\text{CR2}}
+\end{bmatrix}$ 
+$\begin{bmatrix}
+W_{\text{SF}} \\
+t\bar{t}_{\text{SF}}
+\end{bmatrix}$
+=
+$\begin{bmatrix}
+N(\text{data - bkg})_{\text{CR1}} \\
+N(\text{data - bkg})_{\text{CR2}}
+\end{bmatrix}$
+
+}
+
+\subsection{To-Do List/Timeline}
+
 \frame{\frametitle{To-Do}
 \begin{itemize}
-\item Need to apply Z-Mass Cut to SR
-\item
-\item
+\item Checking all MC/Data not just MC16a/2015/16 
+\item Calculation and verification of Scale Factor for $t\bar{t}$ and W+Jets
+\item Recalculation of $e\rightarrow \gamma$ Fake Rate SF using updated samples
+\item Calculation of $j \rightarrow \gamma$ Fake Rate SF using Data Driven ABCD method
+\item Systematics Grid Run on Signal Region to get systematic variations
+	\begin{itemize}
+	\item Learning how to apply systematics to TRExFitter 
+	\end{itemize}
+\item Learning how to do $CL_S$ method for limit setting in TRExFitter Framework
 \end{itemize}
 }
 
 \frame{\frametitle{Timeline}
 \begin{itemize}
-\item
-\item
-\item
+\item Dissertation Chapters 1-4 Complete (4 not copyedited yet)
+	\begin{itemize}
+	\item Chapter 1 - Very Brief Introduction
+	\item Chapter 2 - Theoretical Background
+	\item Chapter 3 - The LHC and ATLAS
+	\item Chapter 4 - Event Simulation and Object Reconstruction
+	\end{itemize}
+\item Aiming to continue writing about 1 chapter per month, although it gets a little iffy with the Analysis Chapter
+	\begin{itemize}
+	\item Remaining Chapters 
+		\begin{itemize}
+		\item Chapter 5: Search Strategy - Background Discussion, NN Discussion
+		\item Chapter 6: Analysis and Results
+		\item Chapter 7: Outlook for Future Searches
+		\item Various appendices
+		\end{itemize}
+	\end{itemize}
+\item Applying to Medical Physics Fellowships over the next 2 months
+	\begin{itemize}
+	\item All appointments start July 1 
+	\end{itemize}
+\item Finishing analysis to-do list by mid-late Jan.
+\item Would like to plan defense in mid-late Feb.
 \end{itemize}
 }
 
-\subsection{Conclusion}
-\frame{\frametitle{Conclusion}
-\begin{itemize}
-\item An excess signal would be indicative of some physics beyond the Standard Mode that couples strongly to the top sector
-\item The search for FCNCs with enhanced rates are important pieces of testing many new theories
-\item Barring any excess: with $\approx 138 \text{fb}^{-1}$ data at $\sqrt{s}=$ 13TeV setting an upper limit of  $\text{BR}(t\rightarrow q \gamma) <  3x10^{-5}$ is a reasonable goal, extrapolating from past results. 
-\end{itemize}
-}
+%\subsection{Conclusion}
+%\frame{\frametitle{Conclusion}
+%\begin{itemize}
+%\item An excess signal would be indicative of some physics beyond the Standard Mode that couples strongly to the top sector
+%\item The search for FCNCs with enhanced rates are important pieces of testing many new theories
+%\item Barring any excess: with $\approx 138 \text{fb}^{-1}$ data at $\sqrt{s}=$ 13TeV setting an upper limit of  $\text{BR}(t\rightarrow q \gamma) <  3x10^{-5}$ is a reasonable goal, extrapolating from past results. 
+%\end{itemize}
+%}
 %
 %
 %\frame{\frametitle{Reconstructed Tops}
