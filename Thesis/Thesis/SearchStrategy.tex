@@ -4,13 +4,159 @@
 %Deep thoughts go here.
 \section{Major Backgrounds}
 \section{Event Reconstruction}
+\section{Neural Network}
+\label{sec:NN} 
+To help distinguish signal events from the majority of background events a neural network was employeed for event classification.  Neural networks are multivariate methods that take a variety of inputs and output a number between 0 and 1.  The output value is a discriminating variable that will be used to classify events and determine which events make it into the final Signal Region selection.  Signal-like events accumulate towards 1 while background-like events cluster around 0.  Two neural networks are trained, one for the electron+jets final state and one for the muon+jets final state.  This section will discuss the neural network studies completed and their uses in the search for FCNC events.  
+
+\subsection{Input Variables}
+A wide variety of input variables to the neural network were studied in detail.  Studies were done using only low level variables such as the kinematic variables  ($p_T$, $\eta$, $\phi$, $E$)  of the physics objects in the signal region.  This was done as a complex enough neural network should be able to figure out useful high level/event level variables (i.e. invariant masses, geometric separations) but in practice a combination of some of these low level variables and high level variables used as inputs to the neural network proved to give the best separation and projected limits.  Using physical intuition to guide the neural network proved to be a valuable tool.
+
+Combinations of 29 input variables were tested to start with however variables such as $\eta$ and $\phi$ tend to not have significant weights in the neural network and are left out in favor the the high level variables that include them (e.g., $\Delta R$ values).  A measure of how different the variables are between signal and background is the Separation.  Table \ref{tab:Separations} shows the separation values for the variables that are inputs to the final neural network.  Comparisons between the shapes of the input variables are shown in Figures \ref{fig:VarPlots1}, \ref{fig:VarPlots2}, and \ref{fig:VarPlots3}
+\begin{table}[]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ccc}
+\hline
+Variable  &  Separation e+jets   & Separation $\mu$+jets   \\  \hline 
+$\gamma_{\text{iso}}$   &  41.18   &  18.70	\\   
+$p_T (\gamma)$            &  24.07   & 23.14  	\\
+$m_{q\gamma}$           &   28.27  &  22.73 	\\
+$m_{l\gamma}$             &  7.56   &  8.53 	\\
+$m_{bW} $                    &  11.60   & 11.02  	\\
+$\Delta R_{j\gamma}$ &   5.64  &  4.60 	\\
+$\Delta R_{b l}$            &   4.42  &  5.00 	\\
+$m_{T}^{W}$              &   3.34  &  3.16 	\\
+$S_T$                            &  3.30   &  3.83 	\\
+$n_{\text{jets}}$         &  2.07   &  1.70 	\\
+$\chi^{2}_{W}$           & 1.87    &  1.33 	\\
+$p_T (q)$                      &  2.81    &  2.47	\\
+$\Delta R_{l \gamma}$ &  1.17  &  1.40 	\\
+E (lepton)                       &  0.87   & 0.85	\\	
+$\slashed{E}_T  $          &  0.68   & 0.47 	\\
+$p_T (b)$                       & 0.52    & 0.50	\\ \hline
+\end{tabular}
+}
+\label{tab:Separations}
+\caption{Separation of normalized variables between signal and bacground in the e+jets and $\mu$+jets channels for the variables used as input to the final neural network.  }
+\end{center}
+\end{table}
+
+\[ \text{Separation} = \sum_{i}^{bins} \frac {n_{s i}-n_{b i}}{n_{s i}+n_{b i}}\]
+
+Typically the kinematic variables with photon information have the biggest separation values.  This is expected because the signal photon comes directly from the decay of a top quark and is much more energetic than background photons.  Additional shape comparision plots for other investigated variables are shown in Appendix \ref{app:NN}. 
+
+The neural networks are trained on MC events that have a chance of being in the signal region after basic event level cuts and optimized for signal significance.  Only events with 1 photon ($\>15 GeV$) and 1 bjet (MV2c10 77\% working point) are classified by the neural network.  The 77\% working point was chosen by training the neural network on events with only 1 bjet at each working point: 70\%, 77\%, and 85\% and picking the network and working point with the best estimated significance.  The b-tagging neural network study is shown in Section \ref{sec:btagNN}
+
+\begin{figure}[h!]
+\centering
+\subfloat[$\gamma_{iso}$ topo$E_{T}$cone40]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/photon0_iso.png}}\hfil
+\subfloat[$\gamma_{p_T}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/photon0_pt.png}}
+\vspace{-4.5mm}
+\subfloat[$m_{q \gamma}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/m_qgam.png}}\hfil
+\subfloat[$m_{l \gamma}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/m_lgam.png}}   
+\vspace{-4.5mm}
+\subfloat[$m_{bW}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/m_tSM.png}}\hfil
+\subfloat[$\Delta R_{j\gamma}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/deltaRjgam.png}}
+\caption{Normalized variables showing the shapes of neural network input variables: $\gamma_{iso}$ topo$E_{T}$cone40, $\gamma_{p_T}$, $m_{q \gamma}$, $m_{l \gamma}$, $m_{bW}$, and $\Delta R_{j\gamma}$ }
+\label{fig:VarPlots1}
+\end{figure}
+
+
+
+\begin{figure}[h!]
+\centering
+\subfloat[$\Delta R_{b l}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/deltaRbl.png}}\hfil
+\subfloat[$m_{T}^{W}$ ]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/MWT.png}}
+\vspace{-4.5mm}
+\subfloat[$S_T$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/S_T.png}}\hfil
+\subfloat[$n_{\text{jets}}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/njets.png}}   
+\vspace{-4.5mm}
+\subfloat[$\chi^{2}_{W}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/w_chi2.png}}\hfil
+\subfloat[$p_T (q)$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/jet0_pt.png}}
+\caption{Normalized variables showing the shapes of neural network input variables: $\Delta R_{b l}$, $m_{T}^{W}$ , $S_T$, $n_{\text{jets}}$, $\chi^{2}_{W}$, and $p_T (q)$}
+\label{fig:VarPlots2}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\subfloat[$\Delta R_{l \gamma}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/deltaRlgam.png}}\hfil
+\subfloat[E (lepton)]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/lepton_e.png}}
+\vspace{-4.5mm}
+\subfloat[$\slashed{E}_T  $]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/met.png}}\hfil
+\subfloat[$p_T (b)$ ]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/bjet0_pt.png}}   
+\caption{Normalized variables showing the shapes of neural network input variables: $\Delta R_{l \gamma}$, E (lepton), $\slashed{E}_T  $, and $p_T (b)$}
+\label{fig:VarPlots3}
+\end{figure}
+
+
+\subsection{Architecture}
+
+A variety of architecures of dense neural networks are studied using \textsc{Keras}\cite{Keras} on top of the \textsc{TensorFlow} backend \cite{TensorFlow}.  Each network has a number of input nodes equal to the number of input variables.  Networks with one, two, and three hidden layers are investigated each with 20 nodes.  The output layer contains only a single node.  Every node in one layer is connected to every node in the next layer and the previous layer.  Every connection is assigned a weight that is optimized during the training of the network.  For every node in the network a value is computed using the weights and input values of the previous nodes using an activation function.  Nodes with the highest output of this function are more important to the fit.  The activation function used on the internal nodes in this search is the Rectified Linear Unit activation function.
+\[ ReLU(x) = 
+\begin{cases}
+x, \qquad \text{if } x \geq 0\\
+0, \qquad \text{if } x < 0
+\end{cases}
+\]
+The output layer uses the sigmoid function, $\sigma(x)$, as an activation function.  The sigmoid function maps the output smoothly to the range (0,1).
+\[ \sigma(x) = \frac{1}{1+e^{-x}}
+\]
+Every training step the weights of each node are updated following an optimization algorithm, in this case the \textsc{Adam} optimizer\cite{AdamOpt}.  This optimizer follows the steepest gradient to reach the minimum of the parameter of interest called the loss function.  The loss function used for these classification neural networks is the binary cross entropy:
+\[\text{Loss} = -\frac{1}{N}\sum_{i=1}^{N}y_{i} \text{log}(p(y_{i}))+(1-y_{i})\text{log}(1-p(y_{i}))\]
+where y is a binary indicator (0 or 1) if class label is the correct classification for observation and p is the predicted probability observation is the class label (0 or 1).  The logarithmic nature of this loss function means it applys small values to correctly assigned event but more harshly punishes mismatching of events.  Therefore having a similar number of signal and background events that get weighted similarly can improve the behavior of the network.  In rare decay searches typically the amount of signal events is significantly smaller than the amount of background events in the training sample.  Using the weight functionality in keras the total number of signal events can be scaled to be similar to the number of background events. 
+
+Weighting the signal events this way allows the network to separate the signal and background events in a way that is significantly less harsh than without the weights by taking advantage of the loss function being used.  This improves the estimated significance of the neural network cut after the signal events are rescaled to their proper normalization values.  
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{../ThesisImages/SearchStrategy/neural_net2.jpeg}
+	\caption[Pictoral representation of neural network architecture with 3 input variables, 2 hidden layers with 4 nodes each, and 1 output layer.]{Pictoral representation of neural network architecture with 3 input variables, 2 hidden layers with 4 nodes each, and 1 output layer\cite{NNImage}.}
+	\label{fig:NNArch}
+\end{figure}
+
+Various hyperparameters are used as inputs into the neural network as well as the optimizer used.  The \textsc{Adam} optimizer has a default learning rate of 0.001 which was not changed throughout these studies.   The learning rate corresponds to the amount that weights are updated during training.  A learning rate that is too large can mean the network never settles into a local minima as it is always missing the minima or at the very least it can take much longer to converge into a minima.  As the neural network training for this search always converged quickly and to a similar value after being tested multiple different times the learning rate was not adapted.  
+
+Another hyperparameter of note is the batch size which defines the number of samples that are propagated through the network at once.  The batch size is of crucial importance in how long the training of the network takes.  A set of 1000 training samples with a batch size of 100 will propagate each set of 100 samples through the neural network every epoch, so 10 separate batches.  A larger batch size means that each epoch of the training takes a shorter amount of time.  However, as the weights are updated after each batch the network can take many more epochs to converge as the weights are being updated less frequently.  A batch size of 100 was used while training the networks presented in this chapter.  Larger batch sizes were tested with the only difference being the time each epoch took and the total time the network took to converge.
+
+Epochs are the total number of times the network has been trained over the entire training set.  All of the networks were allowed up to 200 epochs to converge with a \textsc{keras} patience value set to 50.  The loss function minimization would be done every batch and after each epoch the best possible value of the loss function is found.  If this value is better than any previous epoch the network is allowed to train for 50 more epochs until 50 epochs have passed without finding a new minimum loss function value which then terminates the training.  All models converge early and are terminated typically between epoch 80 and 120 meaning the loss function was minimized between epoch 30 and 70.  
+
+To avoid overtraining the network dropout regularization was used on each of the hidden layers.  Dropout has the effect of simulating a large number of networks with very different network structures by removing A dropout rate of 20\% was used meaning that for every batch 20\% of the weights of the hidden layer nodes were set to 0.  This forces the network to not become overly dependent on any given node and learning the data `by heart' as opposed to recognizing the trends in the sample. 
+
+\[ z = \frac{x - m }{q_3 - q_1} \]
+
+\[ \text{accuracy} = \frac{N(\text{event}_{NN} \geq 0.5|\text{signal})+ N(\text{event}_{NN} <0.5|\text{background})}{N(\text{signal})+N(\text{background})} \]
+where $N(\text{event}_{NN} \geq 0.5|\text{signal})$ is the number of signal events with $P_{\text{signal}}\geq 0.5$.  Essentially the accuracy is a measure of the mean of how often correct prediction values occur assuming a cut on the output of $\geq0.5$.
+% EJets Train Test Split
+% train, test, val
+% Sig: (72589, 47) (22685, 47) (18148, 47)
+%ttbar (963721, 47) (301163, 47) (240931, 47)
+%singleTop (56456, 47) (17643, 47) (14114, 47)
+%ttV (190610, 47) (59566, 47) (47653, 47)
+%diboson (68024, 47) (21258, 47) (17007, 47)
+%WJets (195049, 47) (60953, 47) (48763, 47)
+%ZJets (314462, 47) (98270, 47) (78616, 47)
+%Mujets train Test Val
+%Sig: (75607, 47) (23628, 47) (18902, 47)
+%ttbar (912851, 47) (285266, 47) (228213, 47)
+%singleTop (53772, 47) (16804, 47) (13444, 47)
+%ttV (153174, 47) (47868, 47) (38294, 47)
+%diboson (45536, 47) (14231, 47) (11384, 47)
+%WJets (189872, 47) (59335, 47) (47468, 47)
+%ZJets (104734, 47) (32730, 47) (26184, 47)
+% 80% train, 20% test
+% 80% newtrain, 20% val
+
+
+Sci-ket Learn \cite{ScikitLearn}
+\subsection{Hidden Layer Studies}
+\subsection{B-Tagging Working Point Studies}
+\label{sec:btagNN}
+
+BTag WP selection
 \section{Data and Simulation Event PreSelection}
 \section{Control and Validation Regions}
 \section{Signal Region}
-\section{Neural Network}
-\label{sec:NN}
-\subsection{Architecture and Studies}
-BTag WP selection
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
