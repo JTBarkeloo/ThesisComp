@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  25 OCT 2019 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  26 OCT 2019 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,9 +1115,7 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 )
 (c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
-) (./main.aux
-(./cover.aux) (./abstract.aux) (./cv.aux) (./SearchStrategy.aux) (./Results.aux
-) (./Conclusion.aux) (./appendicies.aux))
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -1339,174 +1337,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
-(./main.toc
-Overfull \hbox (7.17632pt too wide) detected at line 2
- \OT1/cmr/m/n/12 I.  
- []
 
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-Overfull \hbox (31.87698pt too wide) detected at line 3
- \OT1/cmr/m/n/12 1.1.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 4
- \OT1/cmr/m/n/12 1.2.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 5
- \OT1/cmr/m/n/12 1.3.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 6
- \OT1/cmr/m/n/12 1.3.1.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 7
- \OT1/cmr/m/n/12 1.3.2.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 8
- \OT1/cmr/m/n/12 1.3.3.  
- []
-
-
-Overfull \hbox (26.91597pt too wide) detected at line 9
- \OT1/cmr/m/n/12 1.3.4.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 10
- \OT1/cmr/m/n/12 1.4.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 11
- \OT1/cmr/m/n/12 1.5.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 12
- \OT1/cmr/m/n/12 1.6.  
- []
-
-
-Overfull \hbox (11.74155pt too wide) detected at line 13
- \OT1/cmr/m/n/12 II.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 14
- \OT1/cmr/m/n/12 2.1.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 15
- \OT1/cmr/m/n/12 2.2.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 16
- \OT1/cmr/m/n/12 2.3.  
- []
-
-
-Overfull \hbox (16.30678pt too wide) detected at line 17
- \OT1/cmr/m/n/12 III.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 18
- \OT1/cmr/m/n/12 3.1.  
- []
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
 [7
 
 
 ]
-Overfull \hbox (31.87698pt too wide) detected at line 19
- \OT1/cmr/m/n/12 3.2.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 20
- \OT1/cmr/m/n/12 3.3.  
- []
-
-
-Overfull \hbox (11.74571pt too wide) detected at line 22
- \OT1/cmr/m/n/12 A.  
- []
-
-
-Overfull \hbox (11.25822pt too wide) detected at line 23
- \OT1/cmr/m/n/12 B.  
- []
-
-
-Overfull \hbox (11.4235pt too wide) detected at line 24
- \OT1/cmr/m/n/12 C.  
- []
-
-)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
- [8]
 Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
-(./main.lof
-Underfull \hbox (badness 1558) in paragraph at lines 2--2
-  []\OT1/cmr/m/n/12 Normalized variables showing the shapes of neural network i
-nput 
- []
 
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
 
-Underfull \hbox (badness 1558) in paragraph at lines 9--9
-  []\OT1/cmr/m/n/12 Normalized variables showing the shapes of neural network i
-nput 
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 16--16
-  []\OT1/cmr/m/n/12 Normalized variables showing the shapes of neural network i
-nput 
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 22--22
-  []\OT1/cmr/m/n/12 Normalized variables showing the shapes of neural network i
-nput 
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 29--29
-  []\OT1/cmr/m/n/12 Normalized variables showing the shapes of neural network i
-nput 
- []
-
-)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [9
+[8
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
-(./main.lot)
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [10
+[9
 
 ]
 \openout2 = `SearchStrategy.aux'.
@@ -1520,60 +1384,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
 ]
 
-Package caption Warning: \label without proper reference on input line 39.
-See the caption package documentation for explanation.
-
-
 LaTeX Warning: Reference `tab:Separations' on page 2 undefined on input line 14
 .
+
+
+LaTeX Warning: Reference `fig:VarPlots1' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Reference `fig:VarPlots2' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Reference `fig:VarPlots3' on page 2 undefined on input line 14.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 15.
 
 [2]
-<../ThesisImages/SearchStrategy/varplots/photon0_iso.png, id=224, 578.16pt x 57
-8.16pt>
+
+LaTeX Warning: Reference `app:NN' on page 3 undefined on input line 46.
+
+
+LaTeX Warning: Reference `sec:btagNN' on page 3 undefined on input line 48.
+
+<../ThesisImages/SearchStrategy/varplots/photon0_iso.png, id=88, 578.16pt x 578
+.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_iso.png Graphic file (typ
 e png)
 <use ../ThesisImages/SearchStrategy/varplots/photon0_iso.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_iso.pn
 g  used on input line 52.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/photon0_pt.png, id=226, 578.16pt x 578
-.16pt>
+<../ThesisImages/SearchStrategy/varplots/photon0_pt.png, id=90, 578.16pt x 578.
+16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_pt.png Graphic file (type
  png)
 <use ../ThesisImages/SearchStrategy/varplots/photon0_pt.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_pt.png
   used on input line 53.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_qgam.png, id=227, 578.16pt x 578.16p
-t>
+<../ThesisImages/SearchStrategy/varplots/m_qgam.png, id=91, 578.16pt x 578.16pt
+>
 File: ../ThesisImages/SearchStrategy/varplots/m_qgam.png Graphic file (type png
 )
 <use ../ThesisImages/SearchStrategy/varplots/m_qgam.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_qgam.png  us
 ed on input line 55.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_lgam.png, id=228, 578.16pt x 578.16p
-t>
+<../ThesisImages/SearchStrategy/varplots/m_lgam.png, id=92, 578.16pt x 578.16pt
+>
 File: ../ThesisImages/SearchStrategy/varplots/m_lgam.png Graphic file (type png
 )
 <use ../ThesisImages/SearchStrategy/varplots/m_lgam.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_lgam.png  us
 ed on input line 56.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_tSM.png, id=229, 578.16pt x 578.16pt
->
+<../ThesisImages/SearchStrategy/varplots/m_tSM.png, id=93, 578.16pt x 578.16pt>
+
 File: ../ThesisImages/SearchStrategy/varplots/m_tSM.png Graphic file (type png)
 
 <use ../ThesisImages/SearchStrategy/varplots/m_tSM.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_tSM.png  use
 d on input line 58.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/deltaRjgam.png, id=230, 578.16pt x 578
-.16pt>
+<../ThesisImages/SearchStrategy/varplots/deltaRjgam.png, id=94, 578.16pt x 578.
+16pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRjgam.png Graphic file (type
  png)
 <use ../ThesisImages/SearchStrategy/varplots/deltaRjgam.png>
@@ -1581,46 +1456,45 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRjgam.png
   used on input line 59.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/deltaRbl.png, id=231, 578.16pt x 578.1
-6pt>
+<../ThesisImages/SearchStrategy/varplots/deltaRbl.png, id=95, 578.16pt x 578.16
+pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRbl.png Graphic file (type p
 ng)
 <use ../ThesisImages/SearchStrategy/varplots/deltaRbl.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRbl.png  
 used on input line 68.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/MWT.png, id=232, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/MWT.png, id=96, 578.16pt x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/MWT.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/MWT.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/MWT.png  used 
 on input line 69.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/S_T.png, id=233, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/S_T.png, id=97, 578.16pt x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/S_T.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/S_T.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/S_T.png  used 
 on input line 71.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/njets.png, id=234, 578.16pt x 578.16pt
->
+<../ThesisImages/SearchStrategy/varplots/njets.png, id=98, 578.16pt x 578.16pt>
+
 File: ../ThesisImages/SearchStrategy/varplots/njets.png Graphic file (type png)
 
 <use ../ThesisImages/SearchStrategy/varplots/njets.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/njets.png  use
 d on input line 72.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/w_chi2.png, id=235, 578.16pt x 578.16p
-t>
+<../ThesisImages/SearchStrategy/varplots/w_chi2.png, id=99, 578.16pt x 578.16pt
+>
 File: ../ThesisImages/SearchStrategy/varplots/w_chi2.png Graphic file (type png
 )
 <use ../ThesisImages/SearchStrategy/varplots/w_chi2.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/w_chi2.png  us
 ed on input line 74.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/jet0_pt.png, id=236, 578.16pt x 578.16
+<../ThesisImages/SearchStrategy/varplots/jet0_pt.png, id=100, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/jet0_pt.png Graphic file (type pn
 g)
@@ -1631,7 +1505,7 @@ sed on input line 75.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/deltaRlgam.png, id=237, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/deltaRlgam.png, id=101, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png Graphic file (type
  png)
@@ -1639,7 +1513,7 @@ File: ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png Graphic file (type
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png
   used on input line 82.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/lepton_e.png, id=238, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/lepton_e.png, id=102, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_e.png Graphic file (type p
 ng)
@@ -1647,13 +1521,13 @@ ng)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_e.png  
 used on input line 83.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/met.png, id=239, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/met.png, id=103, 578.16pt x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/met.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/met.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/met.png  used 
 on input line 85.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/bjet0_pt.png, id=240, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/bjet0_pt.png, id=104, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/bjet0_pt.png Graphic file (type p
 ng)
@@ -1675,10 +1549,22 @@ hesisImages/SearchStrategy/varplots/w_chi2.png> <../ThesisImages/SearchStrategy
 /varplots/jet0_pt.png>] [6 <../ThesisImages/SearchStrategy/varplots/deltaRlgam.
 png> <../ThesisImages/SearchStrategy/varplots/lepton_e.png> <../ThesisImages/Se
 archStrategy/varplots/met.png> <../ThesisImages/SearchStrategy/varplots/bjet0_p
-t.png>] [7
+t.png>]
+
+Package natbib Warning: Citation `Keras' on page 7 undefined on input line 94.
+
+
+Package natbib Warning: Citation `TensorFlow' on page 7 undefined on input line
+ 94.
+
+
+Package natbib Warning: Citation `AdamOpt' on page 7 undefined on input line 10
+4.
+
+[7
 
 ]
-<../ThesisImages/SearchStrategy/neural_net2.jpeg, id=308, 793.96625pt x 389.455
+<../ThesisImages/SearchStrategy/neural_net2.jpeg, id=171, 793.96625pt x 389.455
 pt>
 File: ../ThesisImages/SearchStrategy/neural_net2.jpeg Graphic file (type jpg)
 <use ../ThesisImages/SearchStrategy/neural_net2.jpeg>
@@ -1687,13 +1573,174 @@ on input line 112.
 (pdftex.def)             Requested size: 433.62pt x 212.70337pt.
 
 
+Package natbib Warning: Citation `NNImage' on page 8 undefined on input line 11
+3.
+
+
+Package natbib Warning: Citation `NNImage' on page 8 undefined on input line 11
+3.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9 <../ThesisImages/SearchStrategy/neural_net2.jpeg>] [10]) [11]
+[8] [9 <../ThesisImages/SearchStrategy/neural_net2.jpeg>]
+
+Package natbib Warning: Citation `ScikitLearn' on page 10 undefined on input li
+ne 127.
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 127--128
+[]\OT1/cmr/m/n/12 The in-put vari-ables into the neu-ral net-work are pre-pro-c
+essed us-ing the
+ []
+
+[10]
+
+LaTeX Warning: Reference `fig:ROCHidden' on page 11 undefined on input line 162
+.
+
+[11]
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
+sbothroc.png, id=191, 722.7pt x 722.7pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+/ejetsbothroc.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+ejetsbothroc.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/btag77/modelouts/ejetsbothroc.png  used on input line 166.
+(pdftex.def)             Requested size: 216.81pt x 216.81166pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
+tsbothroc.png, id=192, 722.7pt x 722.7pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+/mujetsbothroc.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+mujetsbothroc.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/btag77/modelouts/mujetsbothroc.png  used on input line 167.
+(pdftex.def)             Requested size: 216.81pt x 216.81166pt.
+
+
+LaTeX Warning: Reference `fig:HiddenSigBkg' on page 12 undefined on input line 
+172.
+
+[12 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+ejetsbothroc.png> <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/bta
+g77/modelouts/mujetsbothroc.png>]
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
+sboth1hidnpart0sigbkg.png, id=205, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+/ejetsboth1hidnpart0sigbkg.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+ejetsboth1hidnpart0sigbkg.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/btag77/modelouts/ejetsboth1hidnpart0sigbkg.png  used on input line 176.
+(pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
+sboth2hidnpart0sigbkg.png, id=206, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+ejetsboth2hidnpart0sigbkg.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/btag77/modelouts/ejetsboth2hidnpart0sigbkg.png  used on input line 177.
+(pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
+sboth3hidnpart0sigbkg.png, id=207, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+/ejetsboth3hidnpart0sigbkg.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+ejetsboth3hidnpart0sigbkg.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/btag77/modelouts/ejetsboth3hidnpart0sigbkg.png  used on input line 178.
+(pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
+tsboth1hidnpart0sigbkg.png, id=208, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+/mujetsboth1hidnpart0sigbkg.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+mujetsboth1hidnpart0sigbkg.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/btag77/modelouts/mujetsboth1hidnpart0sigbkg.png  used on input line 180.
+(pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
+tsboth2hidnpart0sigbkg.png, id=209, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+mujetsboth2hidnpart0sigbkg.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/btag77/modelouts/mujetsboth2hidnpart0sigbkg.png  used on input line 181.
+(pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
+tsboth3hidnpart0sigbkg.png, id=210, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+/mujetsboth3hidnpart0sigbkg.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+mujetsboth3hidnpart0sigbkg.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/btag77/modelouts/mujetsboth3hidnpart0sigbkg.png  used on input line 182.
+(pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/ej
+etsboth2hidnpart0accuarcy.png, id=211, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
+77/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
+7/ejetsboth2hidnpart0accuarcy.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input line 189.
+(pdftex.def)             Requested size: 216.81pt x 162.60709pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mu
+jetsboth2hidnpart0accuarcy.png, id=212, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
+77/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
+7/mujetsboth2hidnpart0accuarcy.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png  used on input line 190.
+
+(pdftex.def)             Requested size: 216.81pt x 162.60709pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/ej
+etsboth2hidnpart0loss.png, id=213, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
+77/ejetsboth2hidnpart0loss.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
+7/ejetsboth2hidnpart0loss.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line 197.
+(pdftex.def)             Requested size: 216.81pt x 162.60709pt.
+<../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mu
+jetsboth2hidnpart0loss.png, id=214, 462.528pt x 346.896pt>
+File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
+77/mujetsboth2hidnpart0loss.png Graphic file (type png)
+<use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
+7/mujetsboth2hidnpart0loss.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
+02/BestResults/btag77/mujetsboth2hidnpart0loss.png  used on input line 198.
+(pdftex.def)             Requested size: 216.81pt x 162.60709pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+ejetsboth1hidnpart0sigbkg.png> <../ThesisImages/SearchStrategy/HiddenLayerStudi
+esBR0.002/btag77/modelouts/ejetsboth2hidnpart0sigbkg.png> <../ThesisImages/Sear
+chStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejetsboth3hidnpart0sigbkg
+.png> <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelout
+s/mujetsboth1hidnpart0sigbkg.png> <../ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/btag77/modelouts/mujetsboth2hidnpart0sigbkg.png> <../ThesisImages/
+SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/mujetsboth3hidnpart0s
+igbkg.png>]) [14 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/Best
+Results/btag77/ejetsboth2hidnpart0accuarcy.png> <../ThesisImages/SearchStrategy
+/HiddenLayerStudiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png>
+ <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/e
+jetsboth2hidnpart0loss.png> <../ThesisImages/SearchStrategy/HiddenLayerStudiesB
+R0.002/BestResults/btag77/mujetsboth2hidnpart0loss.png>] [15]
 \openout2 = `Results.aux'.
 
-
-(./Results.tex
+ (./Results.tex
 [Analysis And Results]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1719,7 +1766,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
 
-) [12
+) [16
 
 
 
@@ -1734,7 +1781,7 @@ Overfull \hbox (275.88922pt too wide) in paragraph at lines 7--9
 rs? - https://www.sciencedirect.com/science/article/pii/S0550321319301269 
  []
 
-) [13
+) [17
 
 
 
@@ -1743,143 +1790,446 @@ rs? - https://www.sciencedirect.com/science/article/pii/S0550321319301269
 
  (./appendicies.tex (./Appendix_Derivation.tex
 [Derivation Information (TOPQ1)]
-) [14
+) [18
 
 
 
 ] (./Appendix_MC_samples.tex
 [Complete List of Monte Carlo Samples Used]
-) [15
+) [19
 
 
 ] (./Appendix_NN.tex
 [Additional Plots from NN Studies]
-<../ThesisImages/SearchStrategy/varplots/bjet0_e.png, id=351, 578.16pt x 578.16
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+LaTeX Warning: Reference `fig:VarPlots4' on page 20 undefined on input line 4.
+
+
+LaTeX Warning: Reference `fig:VarPlots5' on page 20 undefined on input line 4.
+
+<../ThesisImages/SearchStrategy/varplots/bjet0_e.png, id=278, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/bjet0_e.png Graphic file (type pn
 g)
 <use ../ThesisImages/SearchStrategy/varplots/bjet0_e.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/bjet0_e.png  u
-sed on input line 9.
+sed on input line 10.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/bjet0_eta.png, id=352, 578.16pt x 578.
+<../ThesisImages/SearchStrategy/varplots/bjet0_eta.png, id=279, 578.16pt x 578.
 16pt>
 File: ../ThesisImages/SearchStrategy/varplots/bjet0_eta.png Graphic file (type 
 png)
 <use ../ThesisImages/SearchStrategy/varplots/bjet0_eta.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/bjet0_eta.png 
- used on input line 10.
+ used on input line 11.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/deltaRjb.png, id=353, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/deltaRjb.png, id=280, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRjb.png Graphic file (type p
 ng)
 <use ../ThesisImages/SearchStrategy/varplots/deltaRjb.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRjb.png  
-used on input line 12.
+used on input line 13.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/jet0_e.png, id=354, 578.16pt x 578.16p
+<../ThesisImages/SearchStrategy/varplots/jet0_e.png, id=281, 578.16pt x 578.16p
 t>
 File: ../ThesisImages/SearchStrategy/varplots/jet0_e.png Graphic file (type png
 )
 <use ../ThesisImages/SearchStrategy/varplots/jet0_e.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/jet0_e.png  us
-ed on input line 13.
+ed on input line 14.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/jet0_eta.png, id=355, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/jet0_eta.png, id=282, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/jet0_eta.png Graphic file (type p
 ng)
 <use ../ThesisImages/SearchStrategy/varplots/jet0_eta.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/jet0_eta.png  
-used on input line 15.
+used on input line 16.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/nu_chi2.png, id=356, 578.16pt x 578.16
+<../ThesisImages/SearchStrategy/varplots/nu_chi2.png, id=283, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/nu_chi2.png Graphic file (type pn
 g)
 <use ../ThesisImages/SearchStrategy/varplots/nu_chi2.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/nu_chi2.png  u
-sed on input line 16.
+sed on input line 17.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+
+LaTeX Warning: Float too large for page by 8.21405pt on input line 20.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/lepton_pt.png, id=357, 578.16pt x 578.
+<../ThesisImages/SearchStrategy/varplots/lepton_pt.png, id=284, 578.16pt x 578.
 16pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_pt.png Graphic file (type 
 png)
 <use ../ThesisImages/SearchStrategy/varplots/lepton_pt.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_pt.png 
- used on input line 24.
+ used on input line 25.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/lepton_eta.png, id=358, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/lepton_eta.png, id=285, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_eta.png Graphic file (type
  png)
 <use ../ThesisImages/SearchStrategy/varplots/lepton_eta.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_eta.png
-  used on input line 25.
+  used on input line 26.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/lepton_iso.png, id=359, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/lepton_iso.png, id=286, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_iso.png Graphic file (type
  png)
 <use ../ThesisImages/SearchStrategy/varplots/lepton_iso.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_iso.png
-  used on input line 27.
+  used on input line 28.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/sm_chi2.png, id=360, 578.16pt x 578.16
+<../ThesisImages/SearchStrategy/varplots/sm_chi2.png, id=287, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/sm_chi2.png Graphic file (type pn
 g)
 <use ../ThesisImages/SearchStrategy/varplots/sm_chi2.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/sm_chi2.png  u
-sed on input line 28.
+sed on input line 29.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/photon0_e.png, id=361, 578.16pt x 578.
+<../ThesisImages/SearchStrategy/varplots/photon0_e.png, id=288, 578.16pt x 578.
 16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_e.png Graphic file (type 
 png)
 <use ../ThesisImages/SearchStrategy/varplots/photon0_e.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_e.png 
- used on input line 30.
+ used on input line 31.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/photon0_eta.png, id=362, 578.16pt x 57
+<../ThesisImages/SearchStrategy/varplots/photon0_eta.png, id=289, 578.16pt x 57
 8.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_eta.png Graphic file (typ
 e png)
 <use ../ThesisImages/SearchStrategy/varplots/photon0_eta.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_eta.pn
-g  used on input line 31.
+g  used on input line 32.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
 
-LaTeX Warning: Float too large for page by 8.21405pt on input line 34.
+LaTeX Warning: Float too large for page by 8.21405pt on input line 35.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [16
+[20
 
 
-] [17 <../ThesisImages/SearchStrategy/varplots/bjet0_e.png> <../ThesisImages/Se
+] [21 <../ThesisImages/SearchStrategy/varplots/bjet0_e.png> <../ThesisImages/Se
 archStrategy/varplots/bjet0_eta.png> <../ThesisImages/SearchStrategy/varplots/d
 eltaRjb.png> <../ThesisImages/SearchStrategy/varplots/jet0_e.png> <../ThesisIma
 ges/SearchStrategy/varplots/jet0_eta.png> <../ThesisImages/SearchStrategy/varpl
-ots/nu_chi2.png>] [18 <../ThesisImages/SearchStrategy/varplots/lepton_pt.png> <
+ots/nu_chi2.png>] [22 <../ThesisImages/SearchStrategy/varplots/lepton_pt.png> <
 ../ThesisImages/SearchStrategy/varplots/lepton_eta.png> <../ThesisImages/Search
 Strategy/varplots/lepton_iso.png> <../ThesisImages/SearchStrategy/varplots/sm_c
 hi2.png> <../ThesisImages/SearchStrategy/varplots/photon0_e.png> <../ThesisImag
-es/SearchStrategy/varplots/photon0_eta.png>]) (./main.bbl) [19
+es/SearchStrategy/varplots/photon0_eta.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 37.
+
+<../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png, id=330, 578.16pt
+ x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png Graphic file
+ (type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRlg
+am.png  used on input line 41.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/lepton_e.png, id=331, 578.16pt x
+ 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_e.png Graphic file (
+type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/lepton_e.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_e
+.png  used on input line 42.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/met.png, id=332, 578.16pt x 578.
+16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/met.png Graphic file (type 
+png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/met.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/met.png 
+ used on input line 44.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.png, id=333, 578.16pt x
+ 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.png Graphic file (
+type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt
+.png  used on input line 45.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png, id=334, 578.16p
+t x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png Graphic fil
+e (type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_
+iso.png  used on input line 52.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png, id=335, 578.16pt
+ x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png Graphic file
+ (type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_
+pt.png  used on input line 53.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.png, id=336, 578.16pt x 5
+78.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.png Graphic file (ty
+pe png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.p
+ng  used on input line 55.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.png, id=337, 578.16pt x 5
+78.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.png Graphic file (ty
+pe png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.p
+ng  used on input line 56.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png, id=338, 578.16pt x 57
+8.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png Graphic file (typ
+e png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.pn
+g  used on input line 58.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png, id=339, 578.16pt
+ x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png Graphic file
+ (type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjg
+am.png  used on input line 59.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl.png, id=340, 578.16pt x
+ 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl.png Graphic file (
+type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl
+.png  used on input line 66.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/MWT.png, id=341, 578.16pt x 578.
+16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/MWT.png Graphic file (type 
+png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/MWT.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/MWT.png 
+ used on input line 67.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/S_T.png, id=342, 578.16pt x 578.
+16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/S_T.png Graphic file (type 
+png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/S_T.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/S_T.png 
+ used on input line 69.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/njets.png, id=343, 578.16pt x 57
+8.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/njets.png Graphic file (typ
+e png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/njets.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/njets.pn
+g  used on input line 70.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.png, id=344, 578.16pt x 5
+78.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.png Graphic file (ty
+pe png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.p
+ng  used on input line 72.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/jet0_pt.png, id=345, 578.16pt x 
+578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_pt.png Graphic file (t
+ype png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/jet0_pt.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_pt.
+png  used on input line 73.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.png, id=346, 578.16pt x 
+578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.png Graphic file (t
+ype png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.
+png  used on input line 81.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png, id=347, 578.16pt 
+x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png Graphic file 
+(type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_et
+a.png  used on input line 82.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb.png, id=348, 578.16pt x
+ 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb.png Graphic file (
+type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb
+.png  used on input line 84.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.png, id=349, 578.16pt x 5
+78.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.png Graphic file (ty
+pe png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.p
+ng  used on input line 85.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta.png, id=350, 578.16pt x
+ 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta.png Graphic file (
+type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta
+.png  used on input line 87.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png, id=351, 578.16pt x 
+578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png Graphic file (t
+ype png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.
+png  used on input line 88.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+
+LaTeX Warning: Float too large for page by 8.21405pt on input line 91.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png, id=352, 578.16pt 
+x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png Graphic file 
+(type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_p
+t.png  used on input line 96.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/lepton_eta.png, id=353, 578.16pt
+ x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_eta.png Graphic file
+ (type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/lepton_eta.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_e
+ta.png  used on input line 97.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/lepton_iso.png, id=354, 578.16pt
+ x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_iso.png Graphic file
+ (type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/lepton_iso.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_i
+so.png  used on input line 99.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.png, id=355, 578.16pt x 
+578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.png Graphic file (t
+ype png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.
+png  used on input line 100.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png, id=356, 578.16pt 
+x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png Graphic file 
+(type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_
+e.png  used on input line 102.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+<../ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png, id=357, 578.16p
+t x 578.16pt>
+File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png Graphic fil
+e (type png)
+<use ../ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png>
+Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_
+eta.png  used on input line 103.
+(pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
+
+LaTeX Warning: Float too large for page by 8.21405pt on input line 106.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [23
+
+ <../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png> <../ThesisImage
+s/SearchStrategy/varplots/ejets/lepton_e.png> <../ThesisImages/SearchStrategy/v
+arplots/ejets/met.png> <../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.
+png>] [24 <../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png> <../T
+hesisImages/SearchStrategy/varplots/ejets/photon0_pt.png> <../ThesisImages/Sear
+chStrategy/varplots/ejets/m_qgam.png> <../ThesisImages/SearchStrategy/varplots/
+ejets/m_lgam.png> <../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png> <..
+/ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png>] [25 <../ThesisImag
+es/SearchStrategy/varplots/ejets/deltaRbl.png> <../ThesisImages/SearchStrategy/
+varplots/ejets/MWT.png> <../ThesisImages/SearchStrategy/varplots/ejets/S_T.png>
+ <../ThesisImages/SearchStrategy/varplots/ejets/njets.png> <../ThesisImages/Sea
+rchStrategy/varplots/ejets/w_chi2.png> <../ThesisImages/SearchStrategy/varplots
+/ejets/jet0_pt.png>] [26 <../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e
+.png> <../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png> <../ThesisI
+mages/SearchStrategy/varplots/ejets/deltaRjb.png> <../ThesisImages/SearchStrate
+gy/varplots/ejets/jet0_e.png> <../ThesisImages/SearchStrategy/varplots/ejets/je
+t0_eta.png> <../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png>]
+[27 <../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png> <../ThesisIma
+ges/SearchStrategy/varplots/ejets/lepton_eta.png> <../ThesisImages/SearchStrate
+gy/varplots/ejets/lepton_iso.png> <../ThesisImages/SearchStrategy/varplots/ejet
+s/sm_chi2.png> <../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png> <.
+./ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png>]) (./main.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[28
 
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+ (./main.aux (./cover.aux) (./abstract.aux) (./cv.aux)
+(./SearchStrategy.aux) (./Results.aux) (./Conclusion.aux) (./appendicies.aux)
 
-(./main.aux (./cover.aux) (./abstract.aux) (./cv.aux) (./SearchStrategy.aux)
-(./Results.aux) (./Conclusion.aux) (./appendicies.aux))
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
 
 
@@ -2029,6 +2379,30 @@ SearchStrategy.tex
 ../ThesisImages/SearchStrategy/varplots/met.png
 ../ThesisImages/SearchStrategy/varplots/bjet0_pt.png
 ../ThesisImages/SearchStrategy/neural_net2.jpeg
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejets
+bothroc.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/mujet
+sbothroc.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejets
+both1hidnpart0sigbkg.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejets
+both2hidnpart0sigbkg.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejets
+both3hidnpart0sigbkg.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/mujet
+sboth1hidnpart0sigbkg.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/mujet
+sboth2hidnpart0sigbkg.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/mujet
+sboth3hidnpart0sigbkg.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/eje
+tsboth2hidnpart0accuarcy.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/muj
+etsboth2hidnpart0accuarcy.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/eje
+tsboth2hidnpart0loss.png
+../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/muj
+etsboth2hidnpart0loss.png
  Results.tex
 Conclusion.tex
 appendicies.tex
@@ -2047,25 +2421,62 @@ Appendix_NN.tex
 ../ThesisImages/SearchStrategy/varplots/sm_chi2.png
 ../ThesisImages/SearchStrategy/varplots/photon0_e.png
 ../ThesisImages/SearchStrategy/varplots/photon0_eta.png
+../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png
+../ThesisImages/SearchStrategy/varplots/ejets/lepton_e.png
+../ThesisImages/SearchStrategy/varplots/ejets/met.png
+../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.png
+../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png
+../ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png
+../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.png
+../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.png
+../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png
+../ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png
+../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl.png
+../ThesisImages/SearchStrategy/varplots/ejets/MWT.png
+../ThesisImages/SearchStrategy/varplots/ejets/S_T.png
+../ThesisImages/SearchStrategy/varplots/ejets/njets.png
+../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.png
+../ThesisImages/SearchStrategy/varplots/ejets/jet0_pt.png
+../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.png
+../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png
+../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb.png
+../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.png
+../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta.png
+../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png
+../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png
+../ThesisImages/SearchStrategy/varplots/ejets/lepton_eta.png
+../ThesisImages/SearchStrategy/varplots/ejets/lepton_iso.png
+../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.png
+../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png
+../ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png
     main.bbl
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C2611580973C9C02DFBEB229A2CE8888;1687.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  8E9B473D9FFCDE1433220D11B2BDD994;1876.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 32383 strings out of 492616
- 628046 string characters out of 6132769
- 694300 words of memory out of 5000000
- 35654 multiletter control sequences out of 15000+600000
+ 32593 strings out of 492616
+ 641577 string characters out of 6132769
+ 703240 words of memory out of 5000000
+ 35808 multiletter control sequences out of 15000+600000
  542756 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,15n,89p,2195b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,15n,89p,2223b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/201
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-d
@@ -2081,10 +2492,10 @@ type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb>
-Output written on main.pdf (29 pages, 810263 bytes).
+Output written on main.pdf (37 pages, 1599034 bytes).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 345 compressed objects within 4 object streams
- 86 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 537 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 454 words of extra memory for PDF output out of 10000 (max. 10000000)
 
