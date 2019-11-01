@@ -1,4 +1,439 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{SM1Glashow}
+S.~L. Glashow.
+\newblock {Partial Symmetries of Weak Interactions}.
+\newblock {\em Nucl. Phys.}, 22:579--588, 1961.
+
+\bibitem{Higgs1}
+Peter~W. Higgs.
+\newblock {Broken Symmetries and the Masses of Gauge Bosons}.
+\newblock {\em Phys. Rev. Lett.}, 13:508--509, 1964.
+\newblock [,160(1964)].
+
+\bibitem{Higgs2}
+F.~Englert and R.~Brout.
+\newblock {Broken Symmetry and the Mass of Gauge Vector Mesons}.
+\newblock {\em Phys. Rev. Lett.}, 13:321--323, 1964.
+\newblock [,157(1964)].
+
+\bibitem{SM2Weinberg}
+Steven Weinberg.
+\newblock {A Model of Leptons}.
+\newblock {\em Phys. Rev. Lett.}, 19:1264--1266, 1967.
+
+\bibitem{SM3Salam}
+Abdus Salam.
+\newblock {Weak and Electromagnetic Interactions}.
+\newblock {\em Conf. Proc.}, C680519:367--377, 1968.
+
+\bibitem{Higgs3}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B716:1--29, 2012.
+
+\bibitem{Higgs4}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Phys. Lett.}, B716:30--61, 2012.
+
+\bibitem{TopObs}
+F.~Abe et~al.
+\newblock {Observation of top quark production in $\bar{p}p$ collisions}.
+\newblock {\em Phys. Rev. Lett.}, 74:2626--2631, 1995.
+
+\bibitem{TopMass2017}
+The~ATLAS collaboration.
+\newblock {Measurement of the top quark mass in the $t\bar{t}\rightarrow$
+  lepton+jets channel from $\sqrt{s}$=8 TeV ATLAS data}.
+\newblock 2017.
+
+\bibitem{PDG2018}
+M.~Tanabashi et~al.
+\newblock {Review of Particle Physics}.
+\newblock {\em Phys. Rev.}, D98(3):030001, 2018.
+
+\bibitem{2HDM-2}
+J.~A. Aguilar-Saavedra.
+\newblock {Top flavor-changing neutral interactions: Theoretical expectations
+  and experimental detection}.
+\newblock {\em Acta Phys. Polon.}, B35:2695--2710, 2004.
+
+\bibitem{MSSM}
+J.~J. Cao, G.~Eilam, M.~Frank, K.~Hikasa, G.~L. Liu, I.~Turan, and J.~M. Yang.
+\newblock {SUSY-induced FCNC top-quark processes at the large hadron collider}.
+\newblock {\em Phys. Rev.}, D75:075021, 2007.
+
+\bibitem{RPVSUSY}
+Junjie Cao, Zhaoxia Heng, Lei Wu, and Jin~Min Yang.
+\newblock {R-parity violating effects in top quark FCNC productions at LHC}.
+\newblock {\em Phys. Rev.}, D79:054003, 2009.
+
+\bibitem{2HDM}
+G.~Eilam, J.~L. Hewett, and A.~Soni.
+\newblock {Rare decays of the top quark in the standard and two Higgs doublet
+  models}.
+\newblock {\em Phys. Rev.}, D44:1473--1484, 1991.
+\newblock [Erratum: Phys. Rev.D59,039901(1999)].
+
+\bibitem{GrossmanLecture}
+Yuval Grossman.
+\newblock {Introduction to flavor physics}.
+\newblock In {\em {Flavianet School on Flavour Physics Karlsruhe, Germany,
+  September 7-18, 2009}}, pages 111--144, 2014.
+\newblock [,73(2014)].
+
+\bibitem{CKM1}
+Nicola Cabibbo.
+\newblock {Unitary Symmetry and Leptonic Decays}.
+\newblock {\em Phys. Rev. Lett.}, 10:531--533, 1963.
+\newblock [,648(1963)].
+
+\bibitem{CKM2}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock {CP Violation in the Renormalizable Theory of Weak Interaction}.
+\newblock {\em Prog. Theor. Phys.}, 49:652--657, 1973.
+
+\bibitem{Wolfenstein}
+Lincoln Wolfenstein.
+\newblock {Parametrization of the Kobayashi-Maskawa Matrix}.
+\newblock {\em Phys. Rev. Lett.}, 51:1945, 1983.
+
+\bibitem{GIM}
+S.~L. Glashow, J.~Iliopoulos, and L.~Maiani.
+\newblock {Weak Interactions with Lepton-Hadron Symmetry}.
+\newblock {\em Phys. Rev.}, D2:1285--1292, 1970.
+
+\bibitem{BDiscovery}
+S.~W. Herb et~al.
+\newblock {Observation of a Dimuon Resonance at 9.5-GeV in 400-GeV
+  Proton-Nucleus Collisions}.
+\newblock {\em Phys. Rev. Lett.}, 39:252--255, 1977.
+
+\bibitem{TopObsD0}
+S.~Abachi et~al.
+\newblock {Search for high mass top quark production in $p\bar{p}$ collisions
+  at $\sqrt{s} = 1.8$ TeV}.
+\newblock {\em Phys. Rev. Lett.}, 74:2422--2426, 1995.
+
+\bibitem{TopWG}
+LHC Top~Working Group.
+\newblock Lhctopwg summary plots, 2019.
+
+\bibitem{Abazov:2004cs}
+V.~M. Abazov et~al.
+\newblock {A precision measurement of the mass of the top quark}.
+\newblock {\em Nature}, 429:638--642, 2004.
+
+\bibitem{TopReview}
+Markus Cristinziani and Martijn Mulders.
+\newblock {Top-quark physics at the Large Hadron Collider}.
+\newblock {\em J. Phys.}, G44(6):063001, 2017.
+
+\bibitem{2HDM-3}
+David Atwood, Laura Reina, and Amarjit Soni.
+\newblock {Phenomenology of two Higgs doublet models with flavor changing
+  neutral currents}.
+\newblock {\em Phys. Rev.}, D55:3156--3176, 1997.
+
+\bibitem{QS-1}
+J.~A. Aguilar-Saavedra and B.~M. Nobre.
+\newblock {Rare top decays t ---> c gamma, t ---> cg and CKM unitarity}.
+\newblock {\em Phys. Lett.}, B553:251--260, 2003.
+
+\bibitem{QS-2}
+J.~A. Aguilar-Saavedra.
+\newblock {Effects of mixing with quark singlets}.
+\newblock {\em Phys. Rev.}, D67:035003, 2003.
+\newblock [Erratum: Phys. Rev.D69,099901(2004)].
+
+\bibitem{RPVSusyFCNC}
+Jin~Min Yang, Bing-Lin Young, and X.~Zhang.
+\newblock {Flavor changing top quark decays in r parity violating SUSY}.
+\newblock {\em Phys. Rev.}, D58:055001, 1998.
+
+\bibitem{XDFCNC}
+Kaustubh Agashe, Gilad Perez, and Amarjit Soni.
+\newblock {Collider Signals of Top Quark Flavor Violation from a Warped Extra
+  Dimension}.
+\newblock {\em Phys. Rev.}, D75:015002, 2007.
+
+\bibitem{Trodden:1998ym}
+Mark Trodden.
+\newblock {Electroweak baryogenesis}.
+\newblock {\em Rev. Mod. Phys.}, 71:1463--1500, 1999.
+
+\bibitem{Branco:2011iw}
+G.~C. Branco, P.~M. Ferreira, L.~Lavoura, M.~N. Rebelo, Marc Sher, and Joao~P.
+  Silva.
+\newblock {Theory and phenomenology of two-Higgs-doublet models}.
+\newblock {\em Phys. Rept.}, 516:1--102, 2012.
+
+\bibitem{MSSM-2}
+Andreas Crivellin and Ulrich Nierste.
+\newblock {Chirally enhanced corrections to FCNC processes in the generic
+  MSSM}.
+\newblock {\em Phys. Rev.}, D81:095007, 2010.
+
+\bibitem{GregorFCNC}
+Georges Aad et~al.
+\newblock {Search for flavour-changing neutral currents in processes with one
+  top quark and a photon using 81 fb$^{-1}$ of $pp$ collisions at $\sqrt{s} =
+  13$ TeV with the ATLAS experiment}.
+\newblock 2019.
+
+\bibitem{ATLASCoords}
+Fabian Kuger.
+\newblock Signal formation processes in micromegas detectors and quality
+  control for large size detector construction for the atlas new small wheel.
+\newblock 08 2017.
+
+\bibitem{LHCAccComplex}
+Esma Mobs.
+\newblock {The CERN accelerator complex. Complexe des accélérateurs du CERN}.
+\newblock Jul 2016.
+\newblock General Photo.
+
+\bibitem{ATLASLumi}
+The~ATLAS Collaboration.
+\newblock Luminosity public results run 2, 2019.
+
+\bibitem{ATLAS}
+{The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock {\em J. Instrum.}, 3:S08003. 437 p, 2008.
+
+\bibitem{Capeans:1291633}
+M~Capeans, G~Darbo, K~Einsweiller, M~Elsing, T~Flick, M~Garcia-Sciveres,
+  C~Gemme, H~Pernegger, O~Rohne, and R~Vuillermet.
+\newblock {ATLAS Insertable B-Layer Technical Design Report}.
+\newblock Technical Report CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
+
+\bibitem{CERN-LHCC-97-016}
+{\em {ATLAS inner detector: Technical Design Report, 1}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1997.
+
+\bibitem{Takubo:2017wvt}
+Yosuke Takubo.
+\newblock {ATLAS IBL operational experience}.
+\newblock {\em PoS}, Vertex2016:004, 2017.
+
+\bibitem{Potamianos:2016ptf}
+Karolos Potamianos.
+\newblock {The upgraded Pixel detector and the commissioning of the Inner
+  Detector tracking of the ATLAS experiment for Run-2 at the Large Hadron
+  Collider}.
+\newblock {\em PoS}, EPS-HEP2015:261, 2015.
+
+\bibitem{Mindur:2017nqn}
+Bartosz Mindur.
+\newblock {ATLAS Transition Radiation Tracker (TRT): Straw tubes for tracking
+  and particle identification at the Large Hadron Collider}.
+\newblock {\em Nucl. Instrum. Meth.}, A845:257--261, 2017.
+
+\bibitem{CERN-LHCC-96-041}
+{\em {ATLAS liquid-argon calorimeter: Technical Design Report}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1996.
+
+\bibitem{CERN-LHCC-96-042}
+{\em {ATLAS tile calorimeter: Technical Design Report}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1996.
+
+\bibitem{Outreach:1457044}
+ATLAS Outreach.
+\newblock {ATLAS Fact Sheet : To raise awareness of the ATLAS detector and
+  collaboration on the LHC}.
+\newblock 2010.
+
+\bibitem{ATLASTDAQ}
+Moritz Backes.
+\newblock {The ATLAS Trigger System: Ready for Run-2}.
+\newblock {\em PoS}, LeptonPhoton2015:045, 2016.
+
+\bibitem{MaxThesis}
+Chaowaroj Wanotayaroj and Jim Brau.
+\newblock {Search for a Scalar Partner of the Top Quark in the Jets+MET Final
+  State with the ATLAS detector}, Nov 2016.
+\newblock Presented 25 Oct 2016.
+
+\bibitem{Geant4}
+S.~Agostinelli et~al.
+\newblock {GEANT4: A Simulation toolkit}.
+\newblock {\em Nucl. Instrum. Meth.}, A506:250--303, 2003.
+
+\bibitem{MadGraph}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock {\em JHEP}, 07:079, 2014.
+
+\bibitem{Powheg1}
+Stefano Frixione, Paolo Nason, and Carlo Oleari.
+\newblock {Matching NLO QCD computations with Parton Shower simulations: the
+  POWHEG method}.
+\newblock {\em JHEP}, 11:070, 2007.
+
+\bibitem{Powheg2}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {A general framework for implementing NLO calculations in shower
+  Monte Carlo programs: the POWHEG BOX}.
+\newblock {\em JHEP}, 06:043, 2010.
+
+\bibitem{Pythia8}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+
+\bibitem{Sherpa11}
+T.~Gleisberg, Stefan. Hoeche, F.~Krauss, M.~Schonherr, S.~Schumann, F.~Siegert,
+  and J.~Winter.
+\newblock {Event generation with SHERPA 1.1}.
+\newblock {\em JHEP}, 02:007, 2009.
+
+\bibitem{Sherpa22}
+Enrico Bothmann et~al.
+\newblock {Event Generation with Sherpa 2.2}.
+\newblock {\em SciPost Phys.}, 7:034, 2019.
+
+\bibitem{Alwall:2006yp}
+Johan Alwall et~al.
+\newblock {A Standard format for Les Houches event files}.
+\newblock {\em Comput. Phys. Commun.}, 176:300--304, 2007.
+
+\bibitem{UFO}
+Celine Degrande, Claude Duhr, Benjamin Fuks, David Grellscheid, Olivier
+  Mattelaer, and Thomas Reiter.
+\newblock {UFO - The Universal FeynRules Output}.
+\newblock {\em Comput. Phys. Commun.}, 183:1201--1214, 2012.
+
+\bibitem{Dim6TermsOld}
+R.~A. Coimbra, P.~M. Ferreira, R.~B. Guedes, O.~Oliveira, A.~Onofre, R.~Santos,
+  and Miguel Won.
+\newblock {Dimension six FCNC operators and top production at the LHC}.
+\newblock {\em Phys. Rev.}, D79:014006, 2009.
+
+\bibitem{Dim6Terms}
+B.~Grzadkowski, M.~Iskrzynski, M.~Misiak, and J.~Rosiek.
+\newblock {Dimension-Six Terms in the Standard Model Lagrangian}.
+\newblock {\em JHEP}, 10:085, 2010.
+
+\bibitem{TopCouplingsAguilarSaavedra}
+J.~A. Aguilar-Saavedra.
+\newblock {A Minimal set of top anomalous couplings}.
+\newblock {\em Nucl. Phys.}, B812:181--204, 2009.
+
+\bibitem{FCNCtqZ}
+Zenro Hioki, Kazumasa Ohkuma, and Akira Uejima.
+\newblock {Effective Lagrangian Approach to Top Decay via Flavor Changing
+  Neutral Current}.
+\newblock In {\em {29th International Conference on Lepton and Photon
+  Interactions (LP2019) Toronto, Ontario, Canada, August 5-10, 2019}}, 2019.
+
+\bibitem{UFOModel}
+Artur Amorim, Juan~Pedro Araque, Nuno~Filipe Castro, Jose Santiago, and Rui
+  Santos.
+\newblock {Production of t$\gamma$, tZ and tH via Flavour Changing Neutral
+  Currents}.
+\newblock {\em PoS}, TOP2015:067, 2016.
+
+\bibitem{Degrande:2014tta}
+Celine Degrande, Fabio Maltoni, Jian Wang, and Cen Zhang.
+\newblock {Automatic computations at next-to-leading order in QCD for top-quark
+  flavor-changing neutral processes}.
+\newblock {\em Phys. Rev.}, D91:034024, 2015.
+
+\bibitem{ParticleInteractions}
+Joao Pequenao.
+\newblock {Event Cross Section in a computer generated image of the ATLAS
+  detector.}
+\newblock Mar 2008.
+
+\bibitem{ElectronID}
+Morad Aaboud et~al.
+\newblock {Electron reconstruction and identification in the ATLAS experiment
+  using the 2015 and 2016 LHC proton-proton collision data at $\sqrt{s}$ = 13
+  TeV}.
+\newblock {\em Eur. Phys. J.}, C79(8):639, 2019.
+
+\bibitem{ElectronCalib1}
+{Electron and photon energy calibration with the ATLAS detector using LHC Run 1
+  data}.
+\newblock {\em Eur. Phys. J.}, C74(10):3071, 2014.
+
+\bibitem{ElectronCalib2}
+{ATLAS Collaboration}.
+\newblock {Electron and photon energy calibration with the ATLAS detector using
+  data collected in 2015 at $\sqrt{s} = 13 \mathrm{\ Te\kern -0.1em V}$}, Aug
+  2016.
+
+\bibitem{MuonID}
+Sébastien Rettie.
+\newblock {Muon identification and performance in the ATLAS experiment}.
+\newblock {\em PoS}, DIS2018:097, 2018.
+
+\bibitem{PhotonID}
+Morad Aaboud et~al.
+\newblock {Measurement of the photon identification efficiencies with the ATLAS
+  detector using LHC Run 2 data collected in 2015 and 2016}.
+\newblock {\em Eur. Phys. J.}, C79(3):205, 2019.
+
+\bibitem{antikt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{CambridgeAachen}
+M.~Wobisch and T.~Wengler.
+\newblock {Hadronization corrections to jet cross-sections in deep inelastic
+  scattering}.
+\newblock In {\em {Monte Carlo generators for HERA physics. Proceedings,
+  Workshop, Hamburg, Germany, 1998-1999}}, pages 270--279, 1998.
+
+\bibitem{JetCleaning}
+{Selection of jets produced in 13TeV proton-proton collisions with the ATLAS
+  detector}.
+\newblock Technical Report ATLAS-CONF-2015-029, CERN, Geneva, Jul 2015.
+
+\bibitem{JetJVT}
+The~ATLAS collaboration.
+\newblock {Tagging and suppression of pileup jets}.
+\newblock 2014.
+
+\bibitem{JetCleanTwiki}
+S.~Schramm.
+\newblock Howtocleanjets2016 : Jet-based event cleaning, 2016.
+
+\bibitem{CMSct}
+Albert~M Sirunyan et~al.
+\newblock {Measurement of b hadron lifetimes in pp collisions at $\sqrt{s} =$ 8
+  TeV}.
+\newblock {\em Eur. Phys. J.}, C78(6):457, 2018.
+\newblock [Erratum: Eur. Phys. J.C78,no.7,561(2018)].
+
+\bibitem{BTagImg}
+N.~Bartosik.
+\newblock File:b-tagging diagram.png, 2016.
+
+\bibitem{BJet1718}
+Francesco~Armando Di~Bello.
+\newblock {Optimisation of the ATLAS $b$-tagging algorithms for the 2017-2018
+  LHC data-taking}.
+\newblock {\em PoS}, EPS-HEP2017:733, 2017.
+
+\bibitem{BJetMVA}
+Morad Aaboud et~al.
+\newblock {Measurements of b-jet tagging efficiency with the ATLAS detector
+  using $ t\overline{t} $ events at $ \sqrt{s}=13 $ TeV}.
+\newblock {\em JHEP}, 08:089, 2018.
+
+\bibitem{METreco}
+Morad Aaboud et~al.
+\newblock {Performance of missing transverse momentum reconstruction with the
+  ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
+\newblock {\em Eur. Phys. J.}, C78(11):903, 2018.
 
 \bibitem{Keras}
 F.~Chollet et~al.
@@ -10,14 +445,14 @@ Martín Abadi et~al.
   Distributed Systems}.
 \newblock 2016.
 
-\bibitem{NNImage}
-A.~Karpathy.
-\newblock Cs231n convolutional neural networks for visual recognition, 2015.
-
 \bibitem{AdamOpt}
 Diederik~P. Kingma and Jimmy Ba.
 \newblock {Adam: A Method for Stochastic Optimization}.
 \newblock 2014.
+
+\bibitem{NNImage}
+A.~Karpathy.
+\newblock Cs231n convolutional neural networks for visual recognition, 2015.
 
 \bibitem{ScikitLearn}
 Fabian Pedregosa et~al.
