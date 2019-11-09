@@ -6,14 +6,37 @@ This chapter will describe the major backgrounds and outline a search strategy u
 
 
 \section{Major Backgrounds}
+There are a large number of Standard Model processes that can end up in the signal region and share a similar final state topology as the studied signal process, $t\bar{t}\rightarrow b l \nu q \gamma$.  All of these processes are modeled with Monte Carlo( MC) simulation, with the exception of particles that fake other particles (leptons and photons) which are done using data-driven techniques because they are poorly modeled with MC.  A full list of the Monte Carlo samples used for each background can be found in Appendix \ref{app:MC_Samples}. 
 
+The dominant backgrounds in this search are Standard Model $t\bar{t}$, Standard Model $t\bar{t}+\gamma$, as well as W+jets and W+jets with an associated photon (W+jets+$\gamma$).  These along with minor backgrounds (Standard Model single top events, Z+jets (Z+jets+$\gamma$), $t\bar{t}$+Vector Boson, diboson) are all modeled with MC and some data-driven estimates and corrections are applied.  The various backgrounds modeled in this search as summarized here:
+
+\begin{description}
+\item[\textbf{SM Processes}:]  SM $t\bar{t}$, W+jets, Z+jets, single top, diboson, $t\bar{t}$+V are modeled with MC simulations.  Control and validation regions are designed to test preformance of the largest of these background proceses, $t\bar{t}$ and W+jets.  A discussion of the modeling of the major SM processes without photons and a derivation of additional scale factors for these processes is shown in Section \ref{sec:BKGnoPho}.
+
+\item[\textbf{SM Processes with an associated photon}:] SM + associated photon processes: $t\bar{t}+\gamma$, W+jets+$\gamma$, Z+jets+$\gamma$ are modeled with MC simulation and overlap removal is applied to the SM processes to remove events with similar phase spaces since these processes are a subset of the SM process.  MC simulations are created with additional statistics for these processes.  Additional details are presented in Section \ref{sec:BKGPho}.
+
+\item[\textbf{Fake Leptons}:] Non-prompt or fake electrons and muons can arise from semi-leptonic decay of $b$ and $c$ quarks.  For electrons additional contributions from photon conversions and jets in the electromagnetic calorimeter can lead to lepton fakes.  Muons can be faked via energetic showers in the hadronic calorimeter or from hadrons that punch-through the hadronic calorimeter.  The matrix method is used to estimate the number of events with fake leptons as described in Section \ref{sec:FakeLep}.
+
+\item[\textbf{Fake Photons}:] The number of events with fake photons are estimated using a $Z\rightarrow e^+ e^-$ tag-and-probe method discussed in Section \ref{sec:FakePho}.  Further, the ABCD method is used in Section \ref{sec:FakePho2} to estimate the number of fake photon events that arise from a jet faking a photon.
+
+\end{description}
+\subsection{Overlap Removal}
+\label{sec:OverlapRemoval}
+Tracks and energy deposits within the detector can, in some cases, be used to reconstruct multiple objects.  To prevent using these tracks and deposits multiple times a standard overlap removal procedure is applied to objects.  First, electrons that share tracks with any other electrons are removed.  Any electron sharing a track with a muon is then also removed.  Any jet that is found within  $\Delta R < 0.2$ of an electron is removed.  Then any jet with less than 3 tracks associated with it within $\Delta R < 0.2$ of a muon object is removed.  After that any muon found withing $\Delta R < 0.4$ of a jet is removed and any photon within $\Delta R < 0.4$ of an electron or muon object is removed. % Any jet found within $\Delta R < 0.4$ of a \textit{Loose} photon is also removed. 
+
+\subsection{Duplicate Event Removal}
+As specialized higher statistic samples are used for processes with prompt photons a double counting of events could occur with the nominal MC samples.  For example, in addition to the $t\bar{t}$ sample a sample of $t\bar{t}+\gamma$ events are used.  This is true for the W+jets/Z+jets and special samples of W+jets+$\gamma$ and Z+jets+$\gamma$.  Therefore a truth based matching scheme is used to remove events in the nominal samples that match with the photon types produced in the specialized $+\gamma$ samples i.e., they contain a truth photon that does not originate from a hadron or lepton.
 
 \section{Event Selection}
+This analysis is searching for $t\bar{t}$ candidate events where one of the top quarks decays through the most common decay path (a W boson that decays leptonically to an electron or muon and a bottom quark) and the other through the FCNC diagram to an up type light quark and a photon.  The selected decay path is then $t\bar{t} \rightarrow Wbq\gamma \rightarrow l\nu b q \gamma$ such that the final state will contain at least two jets exactly one of which is b-tagged using the MV2c10 algorithm, exactly one massive lepton (an electron or muon), exactly one highly energetic photon, missing transverse energy from the neutrino, and a large transverse W mass.  The transverse W mass requirement selects events that have a lepton and $\slashed{E}_T$ which are consistent with a leptonically decaying W boson, defined as:
+\[ m_T^{W} =  \sqrt{2\times p_{T_l}\times \slashed{E}_T \times (1 - \text{cos}(\phi_l -\phi_{\text{MET}}))}\]
+which is largest when the lepton and missing transverse energy are close in $\phi$ as would be expected from the decay products of a boosted W boson.  Events are selected loosely to include all possible kinematic regions of interest and then skimmed down to the individual regions for various studies.  This includes events that will not enter the signal region such as events with 0 photons or events with 0 b jets that are used to derive and test scale factors on the largest background samples and account for mismodeling of MC simulations. 
+
+For the events that have a chance of entering the final Signal Region i.e., events with exactly one b-tagged jet and exactly one photon, a neural network analysis is preformed to help separate the signal from the background using a variety of high dimensional cuts.  The neural network training and testing are described in Section \ref{sec:NN}.  The neural network is then applied to all events with 1 b-tagged jet and 1 photon and greatly increases signal purity while separating out the most dominant backgrounds, in particular $t\bar{t}$ and $t\bar{t}+\gamma$.
 
 
-
-\section{Event Reconstruction}
 %Something about neural network to feed into that section
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -64,7 +87,7 @@ $p_T (b)$                       &  0.51    &  0.53	\\ \hline
 
 Typically the kinematic variables with photon information have the biggest separation values.  This is expected because the signal photon comes directly from the decay of a top quark and is much more energetic than background photons.  Shape comparison plots for the $e$+jets channel and additional plots for other investigated variables are shown in Appendix \ref{app:NN}.  The largest difference in separation between the $e$+jets and $\mu$+jets channels is the photon isolation value.  This is due to the fact that all backgrounds are included and fake photon contamination from a large Z+jets background are expected.  Both networks preform similarly in their separation of signal and background events.  The network is able to learn and compensate for this behavior with the help of other variables that include the lepton and photon: $\Delta R_{l \gamma}$ and $m_{l\gamma}$.
 
-The neural networks are trained on MC events that have a chance of being in the signal region after basic event level cuts and optimized for signal significance.  Only events with 1 photon ($\>15 GeV$) and 1 bjet (MV2c10 77\% working point) are classified by the neural network.  The 77\% working point was chosen by training the neural network on events with only 1 bjet at each working point: 70\%, 77\%, and 85\% and picking the network and working point with the best estimated significance.  The b-tagging neural network study is shown in Section \ref{sec:btagNN}
+The neural networks are trained on MC events that have a chance of being in the signal region after basic event level cuts and optimized for signal significance.  Only events with 1 photon ($>15$ GeV) and 1 bjet (MV2c10 77\% working point) are classified by the neural network.  The 77\% working point was chosen by training the neural network on events with only 1 bjet at each working point: 70\%, 77\%, and 85\% and picking the network and working point with the best estimated significance.  The b-tagging neural network study is shown in Section \ref{sec:btagNN}
 
 \begin{figure}[h!]
 \centering
@@ -153,7 +176,7 @@ A second method to avoid overtraining the neural network is to make use of a tra
 
 One measure of the performance of the network is the accuracy. The \textsc{Keras} default accuracy measure is defined:
 \[ \text{accuracy} = \frac{N(\text{event}_{NN} \geq 0.5|\text{signal})+ N(\text{event}_{NN} <0.5|\text{background})}{N(\text{signal})+N(\text{background})} \]
-where $N(\text{event}_{NN} \geq 0.5|\text{signal})$ ($N(\text{event}_{NN} \geq 0.5|\text{signal})$) is the number of signal (background) events with $P_{\text{signal}}\geq 0.5$ ($P_{\text{signal}}< 0.5$).  Essentially the accuracy is a measure of the mean of how often correct prediction values occur assuming a cut on the output of $\geq0.5$.
+where $N(\text{event}_{NN} \geq 0.5|\text{signal})$ ($N(\text{event}_{NN} \geq 0.5|\text{signal})$) is the number of signal (background) events with $P_{\text{signal}}\geq 0.5$ ($P_{\text{signal}}< 0.5$).  Essentially, the accuracy is a measure of the mean of how often correct prediction values occur assuming a cut on the output of $\geq0.5$.
 
 % EJets Train Test Split
 % train, test, val
@@ -310,7 +333,7 @@ B-Tag Working Point  &  $e$+jets Branching Ratio   & $\mu$+jets Branching Ratio 
 \end{table}
 
 
-\subsection{Comparison of FCNC in Decay and Production via the Neural Network}
+%\subsection{Comparison of FCNC in Decay and Production via the Neural Network}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%  									        	 %%%%%%%%
@@ -318,16 +341,98 @@ B-Tag Working Point  &  $e$+jets Branching Ratio   & $\mu$+jets Branching Ratio 
 %%%%%%%%%										 %%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Data and Simulation Event PreSelection}
+
+\section{Initial Event Selection}
+
+Initial event selection is done to ensure that events that are accepted into the analysis are not contaminated by extremely noisey detector environments and happened during times when the ATLAS detector was accepting events properly.  All of the events  have the same initial set of criteria for determining whether or not the event is looked at any further for this analysis, applying to both MC and Data.  These initial checks are as follows:
+
+\begin{itemize}
+\item Only events occuring during runs good for physics
+\item Good Calorimeter status: Ensures that the LAr and Tile calorimeters are not experiencing a noise burst at the time of the event
+\item Requires a primay vertex to be reconstructed for the event which ensures timing of further reconstructed objects are placed with the correct vertex
+\item Global Trigger Decision: Selects events based on wheter they passed one of the triggers including the trigger thresholds, further discussion in Section \ref{sec:GTRIGDEC}
+\item Trigger Match: Select events where an electron or muon matches the trigger
+\item Overlap Removal as discussed in Section \ref{sec:OverlapRemoval}
+\item Ignore events that have a bad muon, occurs mostly in the transition region and the cathode strip chamber regions.
+\item Jet Cleaning: Removes events with jets formed from calorimeter information from sources that have nothing to do with the energy flow from the initial hard scatter interaction
+\end{itemize}
+
+These basic event selection values are applied to every event, in both MC and Data.  On top of these various kinematic cuts are added to form the additional analysis level objects and regions used in the analysis.  These additional kinematic cuts are examined more closely in Section \ref{sec:preselcuts} and in the discussion of region creation throughout the rest of the analysis e.g., Section \ref{sec:BkgEvalCRVR}.
+
+
+\subsection{Triggers}
+\label{sec:GTRIGDEC}
+Different HLT triggers are used for data taking periods for each year of Run 2.  This analysis takes advantage of single lepton triggers for electrons and muons to dramatically reduce backgrounds due to QCD events without leptons.  
+
+\begin{table}[]
+\small
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{c|c|c|c|c}
+\hline
+Year  &  $p_T$ threshold [GeV]   & Identification Menu & Isolation menu & L1 Seed  \\  \hline 
+2015   &    $\geq 24  $ &  Medium  &  None	& L1EM20VH	\\
+           &   $\geq 60   $ &   Medium  &  None	&  -	\\  
+            &  $\geq 120 $ &   Loose  &    None		& -	\\ \hline 
+  &   $\geq 26   $ &  Tight  &   Gradient (Loose) 	&  -	\\
+2016-2018  &   $\geq 60   $ &   Medium  &  None	&  -	\\  
+ &  $\geq 140 $ &   Loose  &  None	&  -	 \\ \hline     
+\end{tabular}
+\caption{The electron trigger requirements in the event selections}
+\label{tab:ElectronTrigs}
+}
+\end{center}
+\end{table}
+
+\begin{table}[]
+\small
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{c|c|c|c|c}
+\hline
+Year  &  $p_T$ threshold [GeV]   & Identification Menu & Isolation menu & L1 Seed  \\  \hline 
+2015   &    $\geq 20  $ & None  &  Gradient (Loose)	& L1MU15 \\
+           &   $\geq 50   $ &   None  &  None	&  -	\\   \hline 
+2016-2018  &   $\geq 26   $ &  None  &   Gradient (Medium) 	&  -	\\
+  &   $\geq 50   $ &   None  &  None	&  -	\\ \hline   
+\end{tabular}
+\caption{The muon trigger requirements in the event selections}
+\label{tab:MuonTrigs}
+}
+\end{center}
+\end{table}
+
+
+
+\section{Data and MC Pre-Selection Cuts}
+\label{sec:preselcuts}
+The Signal Region pre-selection is defined to select events that have an opportunity to enter the final search selection.  This pre-selection selects events with exactly one massive lepton, at least two jets (at least one of which is b-tagged at the 77\% working point), transverse momentum and exactly one photon such that it resembles the expected final-state toplogy for the signal.  All of the events have the same initial set of criteria for determining whether or not the event is looked at any further for this analysis, applying to both MC and Data.  These initial checks are as follows:
+%% Preselection Itemization
+\begin{itemize}
+\item
+\end{itemize}
+%%SR Pre Selection Plots
+Pre Selection Plots
 
 \section{Background Evaluation: Control and Validation Regions}
+\label{sec:BkgEvalCRVR}
 \subsection{Backgrounds Without Photons}
+\label{sec:BKGnoPho}
+
+For scale factors
+
 \subsection{Background With Photons}
+\label{sec:BKGPho}
 
 \section{Fake Rates}
-\subsection{Electron $\rightarrow$ Photon Fakes}
 \subsection{Jet $\rightarrow$ Lepton Fakes}
+\label{sec:FakeLep}
+
+\subsection{Electron $\rightarrow$ Photon Fakes}
+\label{sec:FakePho}
+
 \subsection{Jet $\rightarrow$ Photon Fakes}
+\label{sec:FakePho2}
 
 \section{Signal Region}
 
@@ -345,10 +450,35 @@ B-Tag Working Point  &  $e$+jets Branching Ratio   & $\mu$+jets Branching Ratio 
 
 
 
+%
+%### <<<<< settings for mc16a >>>>>
+%GRLDir  GoodRunsLists
+%GRLFile data15_13TeV/20170619/physics_25ns_21.0.19.xml data16_13TeV/20180129/physics_25ns_21.0.19.xml
+%PRWConfigFiles_FS dev/AnalysisTop/PileupReweighting/user.iconnell.Top.PRW.MC16a.FS.v2/prw.merged.root
+%PRWConfigFiles_AF dev/AnalysisTop/PileupReweighting/user.iconnell.Top.PRW.MC16a.AF.v2/prw.merged.root
+%PRWLumiCalcFiles GoodRunsLists/data15_13TeV/20170619/PHYS_StandardGRL_All_Good_25ns_276262-284484_OflLumi-13TeV-008.root GoodRunsLists/data16_13TeV/20180129/PHYS_StandardGRL_All_Good_25ns_297730-311481_OflLumi-13TeV-009.root
+%### <<<<< settings for mc16a >>>>>
+%
+%# ### <<<<< settings for mc16d >>>>>
+%# GRLDir  GoodRunsLists
+%# GRLFile data17_13TeV/20180619/physics_25ns_Triggerno17e33prim.xml
+%# PRWConfigFiles_FS dev/AnalysisTop/PileupReweighting/user.iconnell.Top.PRW.MC16d.FS.v2/prw.merged.root
+%# PRWConfigFiles_AF dev/AnalysisTop/PileupReweighting/user.iconnell.Top.PRW.MC16d.AF.v2/prw.merged.root
+%# PRWLumiCalcFiles GoodRunsLists/data17_13TeV/20180619/physics_25ns_Triggerno17e33prim.lumicalc.OflLumi-13TeV-010.root
+%# ### <<<<< settings for mc16d >>>>>
+%
+%# ### <<<<< settings for mc16e >>>>>
+%# GRLDir  GoodRunsLists
+%# GRLFile data18_13TeV/20190318/physics_25ns_Triggerno17e33prim.xml
+%# PRWConfigFiles_FS dev/AnalysisTop/PileupReweighting/user.iconnell.Top.PRW.MC16e.FS.v2/prw.merged.root
+%# PRWConfigFiles_AF dev/AnalysisTop/PileupReweighting/user.iconnell.Top.PRW.MC16e.AF.v2/prw.merged.root
+%# PRWLumiCalcFiles GoodRunsLists/data18_13TeV/20190318/ilumicalc_histograms_None_348885-364292_OflLumi-13TeV-010.root
+%
+%
 
+%
 
-
-
+%
 
 
 

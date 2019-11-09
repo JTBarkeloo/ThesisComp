@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  1 NOV 2019 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  8 NOV 2019 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,20 +1120,20 @@ Package: placeins 2005/04/18  v 2.2
 ) (./Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1170,24 +1170,24 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-Package layouts Warning: Layout scale set to 0.5 on input line 48.
+Package layouts Warning: Layout scale set to 0.5 on input line 49.
 
 ABD: EveryShipout initializing macros
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 48.
+loading the todonotes package. on input line 49.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 48.
+LaTeX Info: Redefining \selectfont on input line 49.
 \AtBeginShipoutBox=\box96
 
 
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 49.
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1196,9 +1196,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count404
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1286,12 +1286,12 @@ Dictionary: translator-basic-dictionary, Language: English
 (c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1316,17 +1316,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
  (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
@@ -1335,7 +1335,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 ] [5
 
 ] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
@@ -1350,130 +1350,140 @@ Overfull \hbox (31.87698pt too wide) detected at line 3
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 4
- \OT1/cmr/m/n/12 1.2.  
+Overfull \hbox (26.91597pt too wide) detected at line 4
+ \OT1/cmr/m/n/12 1.1.1.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 5
- \OT1/cmr/m/n/12 1.3.  
+Overfull \hbox (26.91597pt too wide) detected at line 5
+ \OT1/cmr/m/n/12 1.1.2.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 6
- \OT1/cmr/m/n/12 1.4.  
+ \OT1/cmr/m/n/12 1.2.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 7
- \OT1/cmr/m/n/12 1.4.1.  
+Overfull \hbox (31.87698pt too wide) detected at line 7
+ \OT1/cmr/m/n/12 1.3.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 8
- \OT1/cmr/m/n/12 1.4.2.  
+ \OT1/cmr/m/n/12 1.3.1.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 10
- \OT1/cmr/m/n/12 1.4.3.  
+Overfull \hbox (26.91597pt too wide) detected at line 9
+ \OT1/cmr/m/n/12 1.3.2.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 11
- \OT1/cmr/m/n/12 1.4.4.  
+ \OT1/cmr/m/n/12 1.3.3.  
  []
 
 
 Overfull \hbox (26.91597pt too wide) detected at line 12
- \OT1/cmr/m/n/12 1.4.5.  
+ \OT1/cmr/m/n/12 1.3.4.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 13
+ \OT1/cmr/m/n/12 1.4.  
+ []
+
+
+Overfull \hbox (26.91597pt too wide) detected at line 14
+ \OT1/cmr/m/n/12 1.4.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 15
  \OT1/cmr/m/n/12 1.5.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 14
+Overfull \hbox (31.87698pt too wide) detected at line 16
  \OT1/cmr/m/n/12 1.6.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 15
+Overfull \hbox (26.91597pt too wide) detected at line 17
  \OT1/cmr/m/n/12 1.6.1.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 16
+Overfull \hbox (26.91597pt too wide) detected at line 18
  \OT1/cmr/m/n/12 1.6.2.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 17
+Overfull \hbox (31.87698pt too wide) detected at line 19
  \OT1/cmr/m/n/12 1.7.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 18
+Overfull \hbox (26.91597pt too wide) detected at line 20
  \OT1/cmr/m/n/12 1.7.1.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 19
+Overfull \hbox (26.91597pt too wide) detected at line 21
  \OT1/cmr/m/n/12 1.7.2.  
  []
 
 
-Overfull \hbox (26.91597pt too wide) detected at line 20
+Overfull \hbox (26.91597pt too wide) detected at line 22
  \OT1/cmr/m/n/12 1.7.3.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 21
- \OT1/cmr/m/n/12 1.8.  
- []
-
-
-Overfull \hbox (11.74155pt too wide) detected at line 22
- \OT1/cmr/m/n/12 II.  
- []
-
-
-Overfull \hbox (31.87698pt too wide) detected at line 23
- \OT1/cmr/m/n/12 2.1.  
  []
 
 [7
 
 
 ]
-Overfull \hbox (31.87698pt too wide) detected at line 24
- \OT1/cmr/m/n/12 2.2.  
+Overfull \hbox (31.87698pt too wide) detected at line 23
+ \OT1/cmr/m/n/12 1.8.  
+ []
+
+
+Overfull \hbox (11.74155pt too wide) detected at line 24
+ \OT1/cmr/m/n/12 II.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 25
- \OT1/cmr/m/n/12 2.3.  
+ \OT1/cmr/m/n/12 2.1.  
  []
 
 
-Overfull \hbox (16.30678pt too wide) detected at line 26
- \OT1/cmr/m/n/12 III.  
+Overfull \hbox (31.87698pt too wide) detected at line 26
+ \OT1/cmr/m/n/12 2.2.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 27
- \OT1/cmr/m/n/12 3.1.  
+ \OT1/cmr/m/n/12 2.3.  
  []
 
 
-Overfull \hbox (31.87698pt too wide) detected at line 28
- \OT1/cmr/m/n/12 3.2.  
+Overfull \hbox (16.30678pt too wide) detected at line 28
+ \OT1/cmr/m/n/12 III.  
  []
 
 
 Overfull \hbox (31.87698pt too wide) detected at line 29
+ \OT1/cmr/m/n/12 3.1.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 30
+ \OT1/cmr/m/n/12 3.2.  
+ []
+
+
+Overfull \hbox (31.87698pt too wide) detected at line 31
  \OT1/cmr/m/n/12 3.3.  
  []
 
@@ -1482,7 +1492,7 @@ Overfull \hbox (31.87698pt too wide) detected at line 29
 \openout6 = `main.toc'.
 
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
@@ -1493,7 +1503,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \openout7 = `main.lof'.
 
  [10]
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
@@ -1508,337 +1518,340 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  (./SearchStrategy.tex
 [Search Strategy]
+
+LaTeX Warning: Reference `app:MC_Samples' on page 1 undefined on input line 9.
+
 [1
 
 
 
 
-]
+] [2] [3] [4]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 34.
+               Default added (so using `tbp') on input line 57.
 
 
-LaTeX Warning: Reference `app:NN' on page 2 undefined on input line 65.
+LaTeX Warning: Reference `app:NN' on page 5 undefined on input line 88.
 
-[2] [3]
-<../ThesisImages/SearchStrategy/varplots/photon0_iso.png, id=290, 578.16pt x 57
+[5] [6]
+<../ThesisImages/SearchStrategy/varplots/photon0_iso.png, id=327, 578.16pt x 57
 8.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_iso.png Graphic file (typ
 e png)
 <use ../ThesisImages/SearchStrategy/varplots/photon0_iso.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_iso.pn
-g  used on input line 71.
+g  used on input line 94.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/photon0_pt.png, id=292, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/photon0_pt.png, id=329, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_pt.png Graphic file (type
  png)
 <use ../ThesisImages/SearchStrategy/varplots/photon0_pt.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_pt.png
-  used on input line 72.
+  used on input line 95.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_qgam.png, id=293, 578.16pt x 578.16p
+<../ThesisImages/SearchStrategy/varplots/m_qgam.png, id=330, 578.16pt x 578.16p
 t>
 File: ../ThesisImages/SearchStrategy/varplots/m_qgam.png Graphic file (type png
 )
 <use ../ThesisImages/SearchStrategy/varplots/m_qgam.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_qgam.png  us
-ed on input line 74.
+ed on input line 97.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_lgam.png, id=294, 578.16pt x 578.16p
+<../ThesisImages/SearchStrategy/varplots/m_lgam.png, id=331, 578.16pt x 578.16p
 t>
 File: ../ThesisImages/SearchStrategy/varplots/m_lgam.png Graphic file (type png
 )
 <use ../ThesisImages/SearchStrategy/varplots/m_lgam.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_lgam.png  us
-ed on input line 75.
+ed on input line 98.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_tSM.png, id=295, 578.16pt x 578.16pt
+<../ThesisImages/SearchStrategy/varplots/m_tSM.png, id=332, 578.16pt x 578.16pt
 >
 File: ../ThesisImages/SearchStrategy/varplots/m_tSM.png Graphic file (type png)
 
 <use ../ThesisImages/SearchStrategy/varplots/m_tSM.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_tSM.png  use
-d on input line 77.
+d on input line 100.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/deltaRjgam.png, id=296, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/deltaRjgam.png, id=333, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRjgam.png Graphic file (type
  png)
 <use ../ThesisImages/SearchStrategy/varplots/deltaRjgam.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRjgam.png
-  used on input line 78.
+  used on input line 101.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/deltaRbl.png, id=297, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/deltaRbl.png, id=334, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRbl.png Graphic file (type p
 ng)
 <use ../ThesisImages/SearchStrategy/varplots/deltaRbl.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRbl.png  
-used on input line 87.
+used on input line 110.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/MWT.png, id=298, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/MWT.png, id=335, 578.16pt x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/MWT.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/MWT.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/MWT.png  used 
-on input line 88.
+on input line 111.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/S_T.png, id=299, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/S_T.png, id=336, 578.16pt x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/S_T.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/S_T.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/S_T.png  used 
-on input line 90.
+on input line 113.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/njets.png, id=300, 578.16pt x 578.16pt
+<../ThesisImages/SearchStrategy/varplots/njets.png, id=337, 578.16pt x 578.16pt
 >
 File: ../ThesisImages/SearchStrategy/varplots/njets.png Graphic file (type png)
 
 <use ../ThesisImages/SearchStrategy/varplots/njets.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/njets.png  use
-d on input line 91.
+d on input line 114.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/w_chi2.png, id=301, 578.16pt x 578.16p
+<../ThesisImages/SearchStrategy/varplots/w_chi2.png, id=338, 578.16pt x 578.16p
 t>
 File: ../ThesisImages/SearchStrategy/varplots/w_chi2.png Graphic file (type png
 )
 <use ../ThesisImages/SearchStrategy/varplots/w_chi2.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/w_chi2.png  us
-ed on input line 93.
+ed on input line 116.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/jet0_pt.png, id=302, 578.16pt x 578.16
+<../ThesisImages/SearchStrategy/varplots/jet0_pt.png, id=339, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/jet0_pt.png Graphic file (type pn
 g)
 <use ../ThesisImages/SearchStrategy/varplots/jet0_pt.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/jet0_pt.png  u
-sed on input line 94.
+sed on input line 117.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/deltaRlgam.png, id=303, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/deltaRlgam.png, id=340, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png Graphic file (type
  png)
 <use ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png
-  used on input line 101.
+  used on input line 124.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/lepton_e.png, id=304, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/lepton_e.png, id=341, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_e.png Graphic file (type p
 ng)
 <use ../ThesisImages/SearchStrategy/varplots/lepton_e.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_e.png  
-used on input line 102.
+used on input line 125.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/met.png, id=305, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/met.png, id=342, 578.16pt x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/met.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/met.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/met.png  used 
-on input line 104.
+on input line 127.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/bjet0_pt.png, id=306, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/bjet0_pt.png, id=343, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/bjet0_pt.png Graphic file (type p
 ng)
 <use ../ThesisImages/SearchStrategy/varplots/bjet0_pt.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/bjet0_pt.png  
-used on input line 105.
+used on input line 128.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5 <../ThesisImages/SearchStrategy/varplots/photon0_iso.png> <../ThesisImag
+[7] [8 <../ThesisImages/SearchStrategy/varplots/photon0_iso.png> <../ThesisImag
 es/SearchStrategy/varplots/photon0_pt.png> <../ThesisImages/SearchStrategy/varp
 lots/m_qgam.png> <../ThesisImages/SearchStrategy/varplots/m_lgam.png> <../Thesi
 sImages/SearchStrategy/varplots/m_tSM.png> <../ThesisImages/SearchStrategy/varp
-lots/deltaRjgam.png>] [6 <../ThesisImages/SearchStrategy/varplots/deltaRbl.png>
+lots/deltaRjgam.png>] [9 <../ThesisImages/SearchStrategy/varplots/deltaRbl.png>
  <../ThesisImages/SearchStrategy/varplots/MWT.png> <../ThesisImages/SearchStrat
 egy/varplots/S_T.png> <../ThesisImages/SearchStrategy/varplots/njets.png> <../T
 hesisImages/SearchStrategy/varplots/w_chi2.png> <../ThesisImages/SearchStrategy
-/varplots/jet0_pt.png>] [7 <../ThesisImages/SearchStrategy/varplots/deltaRlgam.
-png> <../ThesisImages/SearchStrategy/varplots/lepton_e.png> <../ThesisImages/Se
-archStrategy/varplots/met.png> <../ThesisImages/SearchStrategy/varplots/bjet0_p
-t.png>] [8
+/varplots/jet0_pt.png>] [10 <../ThesisImages/SearchStrategy/varplots/deltaRlgam
+.png> <../ThesisImages/SearchStrategy/varplots/lepton_e.png> <../ThesisImages/S
+earchStrategy/varplots/met.png> <../ThesisImages/SearchStrategy/varplots/bjet0_
+pt.png>] [11
 
 ]
-<../ThesisImages/SearchStrategy/neural_net2.jpeg, id=374, 793.96625pt x 389.455
+<../ThesisImages/SearchStrategy/neural_net2.jpeg, id=410, 793.96625pt x 389.455
 pt>
 File: ../ThesisImages/SearchStrategy/neural_net2.jpeg Graphic file (type jpg)
 <use ../ThesisImages/SearchStrategy/neural_net2.jpeg>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/neural_net2.jpeg  used 
-on input line 131.
+on input line 154.
 (pdftex.def)             Requested size: 433.62pt x 212.70337pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9] [10 <../ThesisImages/SearchStrategy/neural_net2.jpeg>]
-Underfull \hbox (badness 1221) in paragraph at lines 146--147
+[12] [13 <../ThesisImages/SearchStrategy/neural_net2.jpeg>]
+Underfull \hbox (badness 1221) in paragraph at lines 169--170
 []\OT1/cmr/m/n/12 The in-put vari-ables into the neu-ral net-work are pre-pro-c
 essed us-ing the
  []
 
-[11] [12]
+[14] [15]
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
-sbothroc.png, id=397, 722.7pt x 722.7pt>
+sbothroc.png, id=434, 722.7pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsbothroc.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 ejetsbothroc.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/btag77/modelouts/ejetsbothroc.png  used on input line 186.
+02/btag77/modelouts/ejetsbothroc.png  used on input line 209.
 (pdftex.def)             Requested size: 216.81pt x 216.81166pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
-tsbothroc.png, id=398, 722.7pt x 722.7pt>
+tsbothroc.png, id=435, 722.7pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /mujetsbothroc.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 mujetsbothroc.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/btag77/modelouts/mujetsbothroc.png  used on input line 187.
+02/btag77/modelouts/mujetsbothroc.png  used on input line 210.
 (pdftex.def)             Requested size: 216.81pt x 216.81166pt.
- [13 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
+ [16 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsbothroc.png> <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/bt
 ag77/modelouts/mujetsbothroc.png>]
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/ej
-etsboth2hidnpart0accuarcy.png, id=411, 462.528pt x 346.896pt>
+etsboth2hidnpart0accuarcy.png, id=447, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/ejetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input line 196.
+02/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input line 219.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mu
-jetsboth2hidnpart0accuarcy.png, id=412, 462.528pt x 346.896pt>
+jetsboth2hidnpart0accuarcy.png, id=448, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/mujetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png  used on input line 197.
+02/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png  used on input line 220.
 
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/ej
-etsboth2hidnpart0loss.png, id=413, 462.528pt x 346.896pt>
+etsboth2hidnpart0loss.png, id=449, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/ejetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/ejetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line 204.
+02/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line 227.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mu
-jetsboth2hidnpart0loss.png, id=414, 462.528pt x 346.896pt>
+jetsboth2hidnpart0loss.png, id=450, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/mujetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/mujetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/mujetsboth2hidnpart0loss.png  used on input line 205.
+02/BestResults/btag77/mujetsboth2hidnpart0loss.png  used on input line 228.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
+[17 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/ejetsboth2hidnpart0accuarcy.png> <../ThesisImages/SearchStrategy/HiddenLayerS
 tudiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png>]
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
-sboth1hidnpart0sigbkg.png, id=425, 462.528pt x 346.896pt>
+sboth1hidnpart0sigbkg.png, id=460, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsboth1hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 ejetsboth1hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/btag77/modelouts/ejetsboth1hidnpart0sigbkg.png  used on input line 216.
+02/btag77/modelouts/ejetsboth1hidnpart0sigbkg.png  used on input line 239.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
-sboth2hidnpart0sigbkg.png, id=426, 462.528pt x 346.896pt>
+sboth2hidnpart0sigbkg.png, id=461, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 ejetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/btag77/modelouts/ejetsboth2hidnpart0sigbkg.png  used on input line 217.
+02/btag77/modelouts/ejetsboth2hidnpart0sigbkg.png  used on input line 240.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
-sboth3hidnpart0sigbkg.png, id=427, 462.528pt x 346.896pt>
+sboth3hidnpart0sigbkg.png, id=462, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsboth3hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 ejetsboth3hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/btag77/modelouts/ejetsboth3hidnpart0sigbkg.png  used on input line 218.
+02/btag77/modelouts/ejetsboth3hidnpart0sigbkg.png  used on input line 241.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
-tsboth1hidnpart0sigbkg.png, id=428, 462.528pt x 346.896pt>
+tsboth1hidnpart0sigbkg.png, id=463, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /mujetsboth1hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 mujetsboth1hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/btag77/modelouts/mujetsboth1hidnpart0sigbkg.png  used on input line 220.
+02/btag77/modelouts/mujetsboth1hidnpart0sigbkg.png  used on input line 243.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
-tsboth2hidnpart0sigbkg.png, id=429, 462.528pt x 346.896pt>
+tsboth2hidnpart0sigbkg.png, id=464, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 mujetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/btag77/modelouts/mujetsboth2hidnpart0sigbkg.png  used on input line 221.
+02/btag77/modelouts/mujetsboth2hidnpart0sigbkg.png  used on input line 244.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
-tsboth3hidnpart0sigbkg.png, id=430, 462.528pt x 346.896pt>
+tsboth3hidnpart0sigbkg.png, id=465, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /mujetsboth3hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 mujetsboth3hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/btag77/modelouts/mujetsboth3hidnpart0sigbkg.png  used on input line 222.
+02/btag77/modelouts/mujetsboth3hidnpart0sigbkg.png  used on input line 245.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/si
-gnificanceejetsboth2hidnpart02.png, id=431, 1084.05pt x 722.7pt>
+gnificanceejetsboth2hidnpart02.png, id=466, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/significanceejetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/significanceejetsboth2hidnpart02.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/significanceejetsboth2hidnpart02.png  used on input line 
-229.
+252.
 (pdftex.def)             Requested size: 216.81pt x 144.53743pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/si
-gnificancemujetsboth2hidnpart02.png, id=432, 1084.05pt x 722.7pt>
+gnificancemujetsboth2hidnpart02.png, id=467, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/significancemujetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/significancemujetsboth2hidnpart02.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/significancemujetsboth2hidnpart02.png  used on input line
- 230.
+ 253.
 (pdftex.def)             Requested size: 216.81pt x 144.53743pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
+[18 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/ejetsboth2hidnpart0loss.png> <../ThesisImages/SearchStrategy/HiddenLayerStudi
 esBR0.002/BestResults/btag77/mujetsboth2hidnpart0loss.png>]
 
-LaTeX Warning: Text page 16 contains only floats.
+LaTeX Warning: Text page 19 contains only floats.
 
-[16 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
+[19 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
 ejetsboth1hidnpart0sigbkg.png> <../ThesisImages/SearchStrategy/HiddenLayerStudi
 esBR0.002/btag77/modelouts/ejetsboth2hidnpart0sigbkg.png> <../ThesisImages/Sear
 chStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejetsboth3hidnpart0sigbkg
@@ -1851,92 +1864,92 @@ s/btag77/significanceejetsboth2hidnpart02.png> <../ThesisImages/SearchStrategy/
 HiddenLayerStudiesBR0.002/BestResults/btag77/significancemujetsboth2hidnpart02.
 png>]
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/ej
-etsboth2hidnpart0loss.png, id=466, 462.528pt x 346.896pt>
+etsboth2hidnpart0loss.png, id=501, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/ejetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 0/ejetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag70/ejetsboth2hidnpart0loss.png  used on input line 244.
+02/BestResults/btag70/ejetsboth2hidnpart0loss.png  used on input line 267.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/ejetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/ejetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line 245.
+02/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line 268.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/ej
-etsboth2hidnpart0loss.png, id=467, 462.528pt x 346.896pt>
+etsboth2hidnpart0loss.png, id=502, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/ejetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
 5/ejetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag85/ejetsboth2hidnpart0loss.png  used on input line 246.
+02/BestResults/btag85/ejetsboth2hidnpart0loss.png  used on input line 269.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/ej
-etsboth2hidnpart0accuarcy.png, id=468, 462.528pt x 346.896pt>
+etsboth2hidnpart0accuarcy.png, id=503, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 0/ejetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag70/ejetsboth2hidnpart0accuarcy.png  used on input line 248.
+02/BestResults/btag70/ejetsboth2hidnpart0accuarcy.png  used on input line 271.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/ejetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input line 249.
+02/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input line 272.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/ej
-etsboth2hidnpart0accuarcy.png, id=469, 462.528pt x 346.896pt>
+etsboth2hidnpart0accuarcy.png, id=504, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
 5/ejetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag85/ejetsboth2hidnpart0accuarcy.png  used on input line 250.
+02/BestResults/btag85/ejetsboth2hidnpart0accuarcy.png  used on input line 273.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/mu
-jetsboth2hidnpart0loss.png, id=470, 462.528pt x 346.896pt>
+jetsboth2hidnpart0loss.png, id=505, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/mujetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 0/mujetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag70/mujetsboth2hidnpart0loss.png  used on input line 257.
+02/BestResults/btag70/mujetsboth2hidnpart0loss.png  used on input line 280.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/mujetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/mujetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/mujetsboth2hidnpart0loss.png  used on input line 258.
+02/BestResults/btag77/mujetsboth2hidnpart0loss.png  used on input line 281.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mu
-jetsboth2hidnpart0loss.png, id=471, 462.528pt x 346.896pt>
+jetsboth2hidnpart0loss.png, id=506, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/mujetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
 5/mujetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag85/mujetsboth2hidnpart0loss.png  used on input line 259.
+02/BestResults/btag85/mujetsboth2hidnpart0loss.png  used on input line 282.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/mu
-jetsboth2hidnpart0accuarcy.png, id=472, 462.528pt x 346.896pt>
+jetsboth2hidnpart0accuarcy.png, id=507, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 0/mujetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag70/mujetsboth2hidnpart0accuarcy.png  used on input line 261.
+02/BestResults/btag70/mujetsboth2hidnpart0accuarcy.png  used on input line 284.
 
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
@@ -1944,58 +1957,58 @@ File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/mujetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png  used on input line 262.
+02/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png  used on input line 285.
 
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mu
-jetsboth2hidnpart0accuarcy.png, id=473, 462.528pt x 346.896pt>
+jetsboth2hidnpart0accuarcy.png, id=508, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
 5/mujetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag85/mujetsboth2hidnpart0accuarcy.png  used on input line 263.
+02/BestResults/btag85/mujetsboth2hidnpart0accuarcy.png  used on input line 286.
 
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/ej
-etsboth2hidnpart0sigbkg.png, id=474, 462.528pt x 346.896pt>
+etsboth2hidnpart0sigbkg.png, id=509, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 0/ejetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag70/ejetsboth2hidnpart0sigbkg.png  used on input line 270.
+02/BestResults/btag70/ejetsboth2hidnpart0sigbkg.png  used on input line 293.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/ej
-etsboth2hidnpart0sigbkg.png, id=475, 462.528pt x 346.896pt>
+etsboth2hidnpart0sigbkg.png, id=510, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/ejetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/ejetsboth2hidnpart0sigbkg.png  used on input line 271.
+02/BestResults/btag77/ejetsboth2hidnpart0sigbkg.png  used on input line 294.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/ej
-etsboth2hidnpart0sigbkg.png, id=476, 462.528pt x 346.896pt>
+etsboth2hidnpart0sigbkg.png, id=511, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
 5/ejetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag85/ejetsboth2hidnpart0sigbkg.png  used on input line 272.
+02/BestResults/btag85/ejetsboth2hidnpart0sigbkg.png  used on input line 295.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/si
-gnificanceejetsboth2hidnpart02.png, id=477, 1084.05pt x 722.7pt>
+gnificanceejetsboth2hidnpart02.png, id=512, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/significanceejetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 0/significanceejetsboth2hidnpart02.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag70/significanceejetsboth2hidnpart02.png  used on input line 
-274.
+297.
 (pdftex.def)             Requested size: 143.09538pt x 95.38786pt.
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/significanceejetsboth2hidnpart02.png Graphic file (type png)
@@ -2003,57 +2016,57 @@ File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 7/significanceejetsboth2hidnpart02.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/significanceejetsboth2hidnpart02.png  used on input line 
-275.
+298.
 (pdftex.def)             Requested size: 143.09538pt x 95.38786pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/si
-gnificanceejetsboth2hidnpart02.png, id=478, 1084.05pt x 722.7pt>
+gnificanceejetsboth2hidnpart02.png, id=513, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/significanceejetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
 5/significanceejetsboth2hidnpart02.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag85/significanceejetsboth2hidnpart02.png  used on input line 
-276.
+299.
 (pdftex.def)             Requested size: 143.09538pt x 95.38786pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/mu
-jetsboth2hidnpart0sigbkg.png, id=479, 462.528pt x 346.896pt>
+jetsboth2hidnpart0sigbkg.png, id=514, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 0/mujetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag70/mujetsboth2hidnpart0sigbkg.png  used on input line 283.
+02/BestResults/btag70/mujetsboth2hidnpart0sigbkg.png  used on input line 306.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mu
-jetsboth2hidnpart0sigbkg.png, id=480, 462.528pt x 346.896pt>
+jetsboth2hidnpart0sigbkg.png, id=515, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 7/mujetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag77/mujetsboth2hidnpart0sigbkg.png  used on input line 284.
+02/BestResults/btag77/mujetsboth2hidnpart0sigbkg.png  used on input line 307.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mu
-jetsboth2hidnpart0sigbkg.png, id=481, 462.528pt x 346.896pt>
+jetsboth2hidnpart0sigbkg.png, id=516, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
 5/mujetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
-02/BestResults/btag85/mujetsboth2hidnpart0sigbkg.png  used on input line 285.
+02/BestResults/btag85/mujetsboth2hidnpart0sigbkg.png  used on input line 308.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/si
-gnificancemujetsboth2hidnpart02.png, id=482, 1084.05pt x 722.7pt>
+gnificancemujetsboth2hidnpart02.png, id=517, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/significancemujetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
 0/significancemujetsboth2hidnpart02.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag70/significancemujetsboth2hidnpart02.png  used on input line
- 287.
+ 310.
 (pdftex.def)             Requested size: 143.09538pt x 95.38786pt.
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/significancemujetsboth2hidnpart02.png Graphic file (type png)
@@ -2061,26 +2074,26 @@ File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 7/significancemujetsboth2hidnpart02.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/significancemujetsboth2hidnpart02.png  used on input line
- 288.
+ 311.
 (pdftex.def)             Requested size: 143.09538pt x 95.38786pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/si
-gnificancemujetsboth2hidnpart02.png, id=483, 1084.05pt x 722.7pt>
+gnificancemujetsboth2hidnpart02.png, id=518, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/significancemujetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
 5/significancemujetsboth2hidnpart02.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag85/significancemujetsboth2hidnpart02.png  used on input line
- 289.
+ 312.
 (pdftex.def)             Requested size: 143.09538pt x 95.38786pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 296.
+               Default added (so using `tbp') on input line 319.
 
-[17] [18 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/
+[20] [21 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/
 btag70/ejetsboth2hidnpart0loss.png> <../ThesisImages/SearchStrategy/HiddenLayer
 StudiesBR0.002/BestResults/btag85/ejetsboth2hidnpart0loss.png> <../ThesisImages
 /SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/ejetsboth2hidnpart
@@ -2091,7 +2104,7 @@ hesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mujetsb
 oth2hidnpart0loss.png> <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.00
 2/BestResults/btag70/mujetsboth2hidnpart0accuarcy.png> <../ThesisImages/SearchS
 trategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mujetsboth2hidnpart0accuar
-cy.png>] [19 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResu
+cy.png>] [22 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResu
 lts/btag70/ejetsboth2hidnpart0sigbkg.png> <../ThesisImages/SearchStrategy/Hidde
 nLayerStudiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0sigbkg.png> <../Thes
 isImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/ejetsboth2
@@ -2105,46 +2118,55 @@ hesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mujetsb
 oth2hidnpart0sigbkg.png> <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.
 002/BestResults/btag70/significancemujetsboth2hidnpart02.png> <../ThesisImages/
 SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/significancemujetsb
-oth2hidnpart02.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 328.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 328.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 328.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 330.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 330.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 330.
-
-) [20
+oth2hidnpart02.png>] [23
 
 ]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 367.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 387.
+
+[24]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 428.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 428.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 428.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 431.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 431.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 431.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 434.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 434.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 434.
+
+) [25] [26]
 \openout2 = `Results.aux'.
 
  (./Results.tex
@@ -2173,7 +2195,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
 
-) [21
+) [27
 
 
 
@@ -2188,20 +2210,20 @@ Overfull \hbox (275.88922pt too wide) in paragraph at lines 7--9
 rs? - https://www.sciencedirect.com/science/article/pii/S0550321319301269 
  []
 
-) [22
+) [28
 
 
 
-] (./main.bbl [23
+] (./main.bbl [29
 
 
-] [24] [25] [26] [27]) [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+] [30] [31] [32] [33]) [34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
  (./main.aux (./cover.aux)
 (./abstract.aux) (./cv.aux) (./SearchStrategy.aux) (./Results.aux)
 (./Conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 
 
  *File List*
@@ -2431,41 +2453,41 @@ Conclusion.tex
     main.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 806F94FD456733EE39AB066E03D3855A;2238.
+(rerunfilecheck)             Checksum: 6A00785ADD93DF8D045889DB51B333A7;2367.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 32830 strings out of 492616
- 646122 string characters out of 6132769
- 710661 words of memory out of 5000000
- 35980 multiletter control sequences out of 15000+600000
- 542756 words of font info for 66 fonts, out of 8000000 for 9000
+ 32866 strings out of 492616
+ 646658 string characters out of 6132769
+ 711403 words of memory out of 5000000
+ 36005 multiletter control sequences out of 15000+600000
+ 545136 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,15n,89p,2223b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,15n,89p,2224b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb>
-Output written on main.pdf (39 pages, 1348729 bytes).
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (45 pages, 1377462 bytes).
 PDF statistics:
- 760 PDF objects out of 1000 (max. 8388607)
- 568 compressed objects within 6 object streams
- 217 named destinations out of 1000 (max. 500000)
- 586 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 817 PDF objects out of 1000 (max. 8388607)
+ 615 compressed objects within 7 object streams
+ 227 named destinations out of 1000 (max. 500000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 

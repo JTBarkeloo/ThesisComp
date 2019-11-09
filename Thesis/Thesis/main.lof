@@ -1,68 +1,68 @@
 \babel@toc {USenglish}{}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\gamma _{iso}$ topo$E_{T}$cone40, $\gamma _{p_T}$, $m_{q \gamma }$, $m_{l \gamma }$, $m_{bW}$, and $\Delta R_{j\gamma }$ \relax }}{5}{figure.caption.2}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma _{iso}$ topo$E_{T}$cone40}}}{5}{subfigure.1.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma _{p_T}$}}}{5}{subfigure.1.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{q \gamma }$}}}{5}{subfigure.1.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{l \gamma }$}}}{5}{subfigure.1.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m_{bW}$}}}{5}{subfigure.1.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\Delta R_{j\gamma }$}}}{5}{subfigure.1.6}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\Delta R_{b l}$, $m_{T}^{W}$ , $S_T$, $n_{\text {jets}}$, $\chi ^{2}_{W}$, and $p_T (q)$\relax }}{6}{figure.caption.3}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{b l}$}}}{6}{subfigure.2.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_{T}^{W}$ }}}{6}{subfigure.2.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$S_T$}}}{6}{subfigure.2.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$n_{\text {jets}}$}}}{6}{subfigure.2.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\chi ^{2}_{W}$}}}{6}{subfigure.2.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$p_T (q)$}}}{6}{subfigure.2.6}% 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\Delta R_{l \gamma }$, E (lepton), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $, and $p_T (b)$\relax }}{7}{figure.caption.4}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{l \gamma }$}}}{7}{subfigure.3.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {E (lepton)}}}{7}{subfigure.3.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $}}}{7}{subfigure.3.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$p_T (b)$ }}}{7}{subfigure.3.4}% 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Pictoral representation of neural network architecture with 3 input variables, 2 hidden layers with 4 nodes each, and 1 output layer.}}{10}{figure.caption.5}% 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces ROC Curves are shown for both search channels for a varying number of hidden layers. Orange lines correspond to one hidden layer, blue to 2 hidden layers and green to 3 hidden layers. The blue and green curves have near identical AUC values: 0.950 and 0.951 for the $e$+jets case and $0.962$ for the $\mu $+jets cases.\relax }}{13}{figure.caption.6}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets ROC Curves}}}{13}{subfigure.5.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets ROC Curves}}}{13}{subfigure.5.2}% 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Accuracy plots for both channels for the 2 hidden layer neural network\relax }}{14}{figure.caption.7}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets Accuracy Curves}}}{14}{subfigure.6.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets Accuracy Curves}}}{14}{subfigure.6.2}% 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Loss plots for both channels for the 2 hidden layer neural network\relax }}{15}{figure.caption.8}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets Loss Curve}}}{15}{subfigure.7.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets Loss Curve}}}{15}{subfigure.7.2}% 
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Normalized neural network output signal and background distribution plots are shown for both search channels for a varying number of hidden layers.\relax }}{16}{figure.caption.9}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets:1 Hidden Layer}}}{16}{subfigure.8.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$e$+jets:2 Hidden Layers}}}{16}{subfigure.8.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$e$+jets:3 Hidden Layers}}}{16}{subfigure.8.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\mu $+jets:1 Hidden Layer}}}{16}{subfigure.8.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\mu $+jets:2 Hidden Layers}}}{16}{subfigure.8.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\mu $+jets:3 Hidden Layers}}}{16}{subfigure.8.6}% 
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Significance plots for both channels for the 2 hidden layer neural network.}}{16}{figure.caption.10}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets}}}{16}{subfigure.9.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets}}}{16}{subfigure.9.2}% 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Accuaracy and loss plots for the $e$+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{18}{figure.caption.11}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP Loss}}}{18}{subfigure.10.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP Loss}}}{18}{subfigure.10.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP Loss}}}{18}{subfigure.10.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Accuracy}}}{18}{subfigure.10.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Accuracy}}}{18}{subfigure.10.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Accuracy}}}{18}{subfigure.10.6}% 
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Accuaracy and loss plots for the $\mu $+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{18}{figure.caption.12}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP Loss}}}{18}{subfigure.11.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP Loss}}}{18}{subfigure.11.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP Loss}}}{18}{subfigure.11.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Accuracy}}}{18}{subfigure.11.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Accuracy}}}{18}{subfigure.11.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Accuracy}}}{18}{subfigure.11.6}% 
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Neural network output and significance plots for the $e$+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{19}{figure.caption.13}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP NN output}}}{19}{subfigure.12.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP NN output}}}{19}{subfigure.12.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP NN output}}}{19}{subfigure.12.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Significance}}}{19}{subfigure.12.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Significance}}}{19}{subfigure.12.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Significance}}}{19}{subfigure.12.6}% 
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Neural network output and significance plots for the $\mu $+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{19}{figure.caption.14}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP NN output}}}{19}{subfigure.13.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP NN output}}}{19}{subfigure.13.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP NN output}}}{19}{subfigure.13.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Significance}}}{19}{subfigure.13.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Significance}}}{19}{subfigure.13.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Significance}}}{19}{subfigure.13.6}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\gamma _{iso}$ topo$E_{T}$cone40, $\gamma _{p_T}$, $m_{q \gamma }$, $m_{l \gamma }$, $m_{bW}$, and $\Delta R_{j\gamma }$ \relax }}{8}{figure.caption.2}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma _{iso}$ topo$E_{T}$cone40}}}{8}{subfigure.1.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma _{p_T}$}}}{8}{subfigure.1.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{q \gamma }$}}}{8}{subfigure.1.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{l \gamma }$}}}{8}{subfigure.1.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m_{bW}$}}}{8}{subfigure.1.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\Delta R_{j\gamma }$}}}{8}{subfigure.1.6}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\Delta R_{b l}$, $m_{T}^{W}$ , $S_T$, $n_{\text {jets}}$, $\chi ^{2}_{W}$, and $p_T (q)$\relax }}{9}{figure.caption.3}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{b l}$}}}{9}{subfigure.2.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_{T}^{W}$ }}}{9}{subfigure.2.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$S_T$}}}{9}{subfigure.2.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$n_{\text {jets}}$}}}{9}{subfigure.2.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\chi ^{2}_{W}$}}}{9}{subfigure.2.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$p_T (q)$}}}{9}{subfigure.2.6}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\Delta R_{l \gamma }$, E (lepton), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $, and $p_T (b)$\relax }}{10}{figure.caption.4}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{l \gamma }$}}}{10}{subfigure.3.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {E (lepton)}}}{10}{subfigure.3.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $}}}{10}{subfigure.3.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$p_T (b)$ }}}{10}{subfigure.3.4}% 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Pictoral representation of neural network architecture with 3 input variables, 2 hidden layers with 4 nodes each, and 1 output layer.}}{13}{figure.caption.5}% 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ROC Curves are shown for both search channels for a varying number of hidden layers. Orange lines correspond to one hidden layer, blue to 2 hidden layers and green to 3 hidden layers. The blue and green curves have near identical AUC values: 0.950 and 0.951 for the $e$+jets case and $0.962$ for the $\mu $+jets cases.\relax }}{16}{figure.caption.6}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets ROC Curves}}}{16}{subfigure.5.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets ROC Curves}}}{16}{subfigure.5.2}% 
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Accuracy plots for both channels for the 2 hidden layer neural network\relax }}{17}{figure.caption.7}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets Accuracy Curves}}}{17}{subfigure.6.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets Accuracy Curves}}}{17}{subfigure.6.2}% 
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Loss plots for both channels for the 2 hidden layer neural network\relax }}{18}{figure.caption.8}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets Loss Curve}}}{18}{subfigure.7.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets Loss Curve}}}{18}{subfigure.7.2}% 
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Normalized neural network output signal and background distribution plots are shown for both search channels for a varying number of hidden layers.\relax }}{19}{figure.caption.9}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets:1 Hidden Layer}}}{19}{subfigure.8.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$e$+jets:2 Hidden Layers}}}{19}{subfigure.8.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$e$+jets:3 Hidden Layers}}}{19}{subfigure.8.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\mu $+jets:1 Hidden Layer}}}{19}{subfigure.8.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\mu $+jets:2 Hidden Layers}}}{19}{subfigure.8.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\mu $+jets:3 Hidden Layers}}}{19}{subfigure.8.6}% 
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Significance plots for both channels for the 2 hidden layer neural network.}}{19}{figure.caption.10}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets}}}{19}{subfigure.9.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets}}}{19}{subfigure.9.2}% 
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Accuaracy and loss plots for the $e$+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{21}{figure.caption.11}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP Loss}}}{21}{subfigure.10.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP Loss}}}{21}{subfigure.10.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP Loss}}}{21}{subfigure.10.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Accuracy}}}{21}{subfigure.10.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Accuracy}}}{21}{subfigure.10.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Accuracy}}}{21}{subfigure.10.6}% 
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Accuaracy and loss plots for the $\mu $+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{21}{figure.caption.12}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP Loss}}}{21}{subfigure.11.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP Loss}}}{21}{subfigure.11.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP Loss}}}{21}{subfigure.11.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Accuracy}}}{21}{subfigure.11.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Accuracy}}}{21}{subfigure.11.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Accuracy}}}{21}{subfigure.11.6}% 
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Neural network output and significance plots for the $e$+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{22}{figure.caption.13}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP NN output}}}{22}{subfigure.12.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP NN output}}}{22}{subfigure.12.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP NN output}}}{22}{subfigure.12.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Significance}}}{22}{subfigure.12.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Significance}}}{22}{subfigure.12.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Significance}}}{22}{subfigure.12.6}% 
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Neural network output and significance plots for the $\mu $+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{22}{figure.caption.14}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP NN output}}}{22}{subfigure.13.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP NN output}}}{22}{subfigure.13.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP NN output}}}{22}{subfigure.13.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Significance}}}{22}{subfigure.13.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Significance}}}{22}{subfigure.13.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Significance}}}{22}{subfigure.13.6}% 
