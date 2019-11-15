@@ -343,7 +343,7 @@ B-Tag Working Point  &  $e$+jets Branching Ratio   & $\mu$+jets Branching Ratio 
 
 
 \section{Initial Event Selection}
-
+\label{sec:InitSelec}
 Initial event selection is done to ensure that events that are accepted into the analysis are not contaminated by extremely noisey detector environments and happened during times when the ATLAS detector was accepting events properly.  All of the events  have the same initial set of criteria for determining whether or not the event is looked at any further for this analysis, applying to both MC and Data.  These initial checks are as follows:
 
 \begin{itemize}
@@ -357,7 +357,7 @@ Initial event selection is done to ensure that events that are accepted into the
 \item Jet Cleaning: Removes events with jets formed from calorimeter information from sources that have nothing to do with the energy flow from the initial hard scatter interaction
 \end{itemize}
 
-These basic event selection values are applied to every event, in both MC and Data.  On top of these various kinematic cuts are added to form the additional analysis level objects and regions used in the analysis.  These additional kinematic cuts are examined more closely in Section \ref{sec:preselcuts} and in the discussion of region creation throughout the rest of the analysis e.g., Section \ref{sec:BkgEvalCRVR}.
+These basic event selection values are applied to every event, in both MC and Data.  On top of these various kinematic cuts are added to form the additional analysis level objects and regions used in the analysis.  These additional kinematic cuts are examined more closely in Section \ref{sec:preselcuts} and in the discussion of kinematic region creation throughout the rest of the analysis e.g., Section \ref{sec:BkgEvalCRVR}.
 
 
 \subsection{Triggers}
@@ -409,17 +409,133 @@ Year  &  $p_T$ threshold [GeV]   & Identification Menu & Isolation menu & L1 See
 The Signal Region pre-selection is defined to select events that have an opportunity to enter the final search selection.  This pre-selection selects events with exactly one massive lepton, at least two jets (at least one of which is b-tagged at the 77\% working point), transverse momentum and exactly one photon such that it resembles the expected final-state toplogy for the signal.  All of the events have the same initial set of criteria for determining whether or not the event is looked at any further for this analysis, applying to both MC and Data.  These initial checks are as follows:
 %% Preselection Itemization
 \begin{itemize}
-\item
+\item Exactly 1 lepton (electron or muon) $p_T >$ 25 GeV
+\item At least two good jets ($p_T >$ 25 GeV)
+\item At least one b-tag (MV2c10, 77\% Working point)
+\item $\slashed{E}_T >$ 30 GeV and $m_T^W >$ 30 GeV (for events with electrons)
+\item $\slashed{E}_T >$ 20 GeV and $\slashed{E}_T + m_T^W >$ 60 GeV (for events with muons)
+\item Exactly 1 photon, $p_T >$ 50 GeV %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Change if change plots
 \end{itemize}
+
+These plots are also produced before additional scale factors to account for mismodelling of various processes are taken into account.  These include the fake rate scale factors for processes where a truth electron or hadron are reconstructed to a photon and scaling to account for further mismodeling based on the order of the MC events produced (leading order, next-to-leading order, etc.).  Only statistical uncertainties are shown
+
+Signal photons, which originate from a top quark decay, are very high $p_T$ whereas background photons typically result from soft processes.  A cut on the photon candidate $p_T$ removes much of the backgrounds while keeping a majority of the signal.  The photon $p_T$ in the preselection region is shown in Figure \ref{fig:PreSelPlots1}.  
 %%SR Pre Selection Plots
-Pre Selection Plots
+\begin{figure}[h!]
+\centering
+\subfloat[electron channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png}}\hfil
+\subfloat[muon channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}}
+\caption{Photon $p_T$ in the signal region pre-preselection region.  FCNC signal branching ratio is scaled to 1\%}
+\label{fig:PreSelPlots1}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\subfloat[electron channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ST.png}}\hfil
+\subfloat[muon channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ST.png}}
+\caption{$S_T$ in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1\%}
+\label{fig:PreSelPlots1}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\subfloat{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_SMtop.png}}\hfil
+\subfloat{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_SMtop.png}}
+\vspace{-3.mm} \setcounter{subfigure}{0}
+\subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_mqph.png}}\hfil
+\subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_mqph.png}}
+\caption{Top Mass Candidates in the signal region pre-selection: $m_{W b}$ and $m_{q\gamma}$. FCNC signal branching ratio is scaled to 1\%}
+\label{fig:PreSelTopMasses}
+\end{figure}
+
+
+In order to remove photon contributions from initial or final state radiation processes events are removed where the photon candidate is too close to another object
+%%% Photon DeltaR plots
+% DelR gam l
+% DelR gam j
+
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png}} \hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png}} \hfil  %Replace with JET Change
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_lep_pt.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_MWT.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_met.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_njet.png}}
+\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), $m_T^W$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region pre-selection for the electron+jets channel.  FCNC signal branching ratio is scaled to 1\% }
+\label{fig:PreSelPlots2}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}}\hfil  % Replace with JET Change
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_lep_pt.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_MWT.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_met.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_njet.png}}
+\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), $m_T^W$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region pre-selection for the muon+jets channel.  FCNC signal branching ratio is scaled to 1\%}
+\label{fig:PreSelPlots3}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_drqph.png}}\hfil
+\subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_drqph.png}}
+\caption{Distance between the photon and closest light jet: $\Delta R_{\gamma j}$ in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1\%}
+\label{fig:PreSelPlots5}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_NNejet.png}}\hfil
+\subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_NNmujet.png}}
+\caption{Output of the Neural Network in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1\%}
+\label{fig:PreSelPlots5}
+\end{figure}
 
 \section{Background Evaluation: Control and Validation Regions}
 \label{sec:BkgEvalCRVR}
+
 \subsection{Backgrounds Without Photons}
 \label{sec:BKGnoPho}
+Various background processes that do not have a real photon produced in the events can still enter the signal region if an electron or jet is mis-reconstructed as a photon.  Of these processes the largest contributors in the signal region are Standard Model $t\bar{t}$ and W+jets.  Designing a single control region satisfactorily close to the signal region is impossible.  Thus, two control regions are designed, one which is W+jets rich and the other $t\bar{t}$ rich.  Scale factors for these backgrounds are derived simultaneously and tested in a third similar region for validation before being applied to other regions.  
+These control and validation regions are defined as follows:
+\begin{itemize}
+\item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
+\item Exactly 1 lepton (electron or muon) $p_T >$ 25 GeV
+\item Number of Jets  ($p_T >$ 25 GeV) to define the regions
+	\begin{itemize}
+	\item Control Region 1 (W+Jets enriched): $n_{\text{jets}} = 3$
+	\item Validation Region: $n_{\text{jets}} =4$
+	\item Control Region 2 ($t\bar{t}$ enriched): $n_{\text{jets}} \geq 5$
+	\end{itemize}
+\item $\slashed{E}_T >$ 30 GeV and $m_T^W >$ 30 GeV (for events with electrons)
+\item $\slashed{E}_T >$ 20 GeV and $\slashed{E}_T + m_T^W >$ 60 GeV (for events with muons)
+\item Exactly 1 b-tagged jet (MV2c10, 77\% Working point)
+\item 0 photons, $p_T >$ 15 GeV
+\end{itemize}
 
-For scale factors
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/CR1_ST.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/VR3_ST.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/CR2_ST.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/CR1_ST.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/VR3_ST.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/CR2_ST.png}}
+\caption{$S_T$ distributions in the 3(a,d), 4(b,e) ,5+(c,f) jets control and validation regions. Electron channel is shown on the top and the muon channel on the bottom}
+\label{fig:CRSTs}
+\end{figure}
+
 
 \subsection{Background With Photons}
 \label{sec:BKGPho}
