@@ -13,12 +13,14 @@
 \contentsline {section}{ \numberline {1.4} Initial Event Selection}{23}{section.1.4}% 
 \contentsline {subsection}{ \numberline {1.4.1} Triggers}{24}{subsection.1.4.1}% 
 \contentsline {section}{ \numberline {1.5} Data and MC Pre-Selection Cuts}{25}{section.1.5}% 
-\contentsline {section}{ \numberline {1.6} Background Evaluation: Control and Validation Regions}{33}{section.1.6}% 
-\contentsline {subsection}{ \numberline {1.6.1} Backgrounds Without Photons}{33}{subsection.1.6.1}% 
-\contentsline {subsection}{ \numberline {1.6.2} Background With Photons}{35}{subsection.1.6.2}% 
-\contentsline {section}{ \numberline {1.7} Fake Rates}{35}{section.1.7}% 
-\contentsline {subsection}{ \numberline {1.7.1} Jet $\rightarrow $ Lepton Fakes}{35}{subsection.1.7.1}% 
-\contentsline {subsection}{ \numberline {1.7.2} Electron $\rightarrow $ Photon Fakes}{35}{subsection.1.7.2}% 
-\contentsline {subsection}{ \numberline {1.7.3} Jet $\rightarrow $ Photon Fakes}{35}{subsection.1.7.3}% 
-\contentsline {section}{ \numberline {1.8} Signal Region}{35}{section.1.8}% 
-\contentsline {chapter}{REFERENCES CITED}{36}{section.1.8}% 
+\contentsline {section}{ \numberline {1.6} Background Evaluation: Control and Validation Regions}{32}{section.1.6}% 
+\contentsline {subsection}{ \numberline {1.6.1} Backgrounds Without Photons}{32}{subsection.1.6.1}% 
+\contentsline {subsection}{ \numberline {1.6.2} Background With Photons}{37}{subsection.1.6.2}% 
+\contentsline {subsubsection}{ W+$\gamma $ Control Region}{37}{subsubsection.1.6.2.1}% 
+\contentsline {subsubsection}{ $t\bar {t}+\gamma $ Control Region}{37}{subsubsection.1.6.2.2}% 
+\contentsline {section}{ \numberline {1.7} Fake Rates}{37}{section.1.7}% 
+\contentsline {subsection}{ \numberline {1.7.1} Electron $\rightarrow $ Photon Fakes}{38}{subsection.1.7.1}% 
+\contentsline {subsection}{ \numberline {1.7.2} Jet $\rightarrow $ Lepton Fakes}{38}{subsection.1.7.2}% 
+\contentsline {subsection}{ \numberline {1.7.3} Jet $\rightarrow $ Photon Fakes}{40}{subsection.1.7.3}% 
+\contentsline {section}{ \numberline {1.8} Signal Region}{40}{section.1.8}% 
+\contentsline {chapter}{REFERENCES CITED}{41}{section.1.8}% 

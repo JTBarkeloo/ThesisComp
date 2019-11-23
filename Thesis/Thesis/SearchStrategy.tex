@@ -35,8 +35,6 @@ which is largest when the lepton and missing transverse energy are close in $\ph
 For the events that have a chance of entering the final Signal Region i.e., events with exactly one b-tagged jet and exactly one photon, a neural network analysis is preformed to help separate the signal from the background using a variety of high dimensional cuts.  The neural network training and testing are described in Section \ref{sec:NN}.  The neural network is then applied to all events with 1 b-tagged jet and 1 photon and greatly increases signal purity while separating out the most dominant backgrounds, in particular $t\bar{t}$ and $t\bar{t}+\gamma$.
 
 
-%Something about neural network to feed into that section
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -429,13 +427,17 @@ Signal photons, which originate from a top quark decay, are very high $p_T$ wher
 \label{fig:PreSelPlots1}
 \end{figure}
 
+Other variables of interest, i.e. those being used as inputs into the neural network are also showed in this section.  Figure \ref{fig:PreSelPlotsST} shows the $S_T$ and $m_T^W$ distributions.  Figure \ref{fig:PreSelTopMasses} shows the invariant mass distributions for both top quark candidates, $m_{Wb}$ and $m_{q\gamma}$.  The kinematic variables for the electron channel are shown in Figure \ref{fig:PreSelPlots2} and for the muon channel in Figure \ref{fig:PreSelPlots3}.  The neural network output of these events are shown in Figure \ref{fig:PreSelPlots5}
 
 \begin{figure}[h!]
 \centering
-\subfloat[electron channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ST.png}}\hfil
-\subfloat[muon channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ST.png}}
-\caption{$S_T$ in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1\%}
-\label{fig:PreSelPlots1}
+\subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ST.png}}\hfil
+\subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ST.png}}
+\vspace{-3.mm} \setcounter{subfigure}{0}
+\subfloat[electron channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_MWT.png}}\hfil
+\subfloat[muon channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_MWT.png}}
+\caption{$S_T$ and $m_T^W$ in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1\%}
+\label{fig:PreSelPlotsST}
 \end{figure}
 
 \begin{figure}[h!]
@@ -445,27 +447,33 @@ Signal photons, which originate from a top quark decay, are very high $p_T$ wher
 \vspace{-3.mm} \setcounter{subfigure}{0}
 \subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_mqph.png}}\hfil
 \subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_mqph.png}}
-\caption{Top Mass Candidates in the signal region pre-selection: $m_{W b}$ and $m_{q\gamma}$. FCNC signal branching ratio is scaled to 1\%}
+\caption{Top mass candidates in the signal region pre-selection: $m_{W b}$ and $m_{q\gamma}$. FCNC signal branching ratio is scaled to 1\%}
 \label{fig:PreSelTopMasses}
 \end{figure}
 
 
-In order to remove photon contributions from initial or final state radiation processes events are removed where the photon candidate is too close to another object
-%%% Photon DeltaR plots
-% DelR gam l
-% DelR gam j
+%\begin{figure}[h!]
+%\centering
+%\subfloat{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_drlph.png}}\hfil
+%\subfloat{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_drlph.png}}
+%\vspace{-3.mm} \setcounter{subfigure}{0}
+%\subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_drqph.png}}\hfil
+%\subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_drqph.png}}
+%\caption{Distance between the photon and closest light jet, $\Delta R_{l \gamma}$, and closest light jet, $\Delta R_{q\gamma}$, in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1\%}
+%\label{fig:PreSeDeltaRs}
+%\end{figure}
 
 
 \begin{figure}[h!]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png}} \hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png}} \hfil  %Replace with JET Change
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_jet0_pt.png}} \hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_lep_pt.png}}
 \vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_MWT.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_bjet0_pt.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_met.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_njet.png}}
-\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), $m_T^W$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region pre-selection for the electron+jets channel.  FCNC signal branching ratio is scaled to 1\% }
+\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region pre-selection for the electron+jets channel.  FCNC signal branching ratio is scaled to 1\% }
 \label{fig:PreSelPlots2}
 \end{figure}
 
@@ -473,23 +481,14 @@ In order to remove photon contributions from initial or final state radiation pr
 \begin{figure}[h!]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}}\hfil  % Replace with JET Change
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_jet0_pt.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_lep_pt.png}}
 \vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_MWT.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_bjet0_pt.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_met.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_njet.png}}
-\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), $m_T^W$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region pre-selection for the muon+jets channel.  FCNC signal branching ratio is scaled to 1\%}
+\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region pre-selection for the muon+jets channel.  FCNC signal branching ratio is scaled to 1\%}
 \label{fig:PreSelPlots3}
-\end{figure}
-
-
-\begin{figure}[h!]
-\centering
-\subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_drqph.png}}\hfil
-\subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_drqph.png}}
-\caption{Distance between the photon and closest light jet: $\Delta R_{\gamma j}$ in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1\%}
-\label{fig:PreSelPlots5}
 \end{figure}
 
 \begin{figure}[h!]
@@ -502,10 +501,11 @@ In order to remove photon contributions from initial or final state radiation pr
 
 \section{Background Evaluation: Control and Validation Regions}
 \label{sec:BkgEvalCRVR}
+Orthogonal regions to the signal region have been created to test the preformance of Monte Carlo samples.  Control and validation regions are designed to isolate specific physics processes to determine and test the efficacy of scale factors that will be applied to the final signal region Monte Carlo evets.  These control and validation regions need to be kinematically similar to the signal region such that derived scale factors can be translated directly into the signal region and orthogonal to make sure that there is little signal contamination in the regions.  Regions have been made to test the major backgrounds expected in the signal region: $t\bar{t}$, W+jets, as well as events similar events produced with an associated photon: $t\bar{t}+\gamma$ and W+Jets+$\gamma$.  Events without real photons are described in Section \ref{sec:BKGnoPho} and regions with a real photon are described in Section \ref{sec:BKGPho}.
 
 \subsection{Backgrounds Without Photons}
 \label{sec:BKGnoPho}
-Various background processes that do not have a real photon produced in the events can still enter the signal region if an electron or jet is mis-reconstructed as a photon.  Of these processes the largest contributors in the signal region are Standard Model $t\bar{t}$ and W+jets.  Designing a single control region satisfactorily close to the signal region is impossible.  Thus, two control regions are designed, one which is W+jets rich and the other $t\bar{t}$ rich.  Scale factors for these backgrounds are derived simultaneously and tested in a third similar region for validation before being applied to other regions.  
+Various background processes that do not have a real photon produced in the events can still enter the signal region if an electron or jet is mis-reconstructed as a photon.  Of these processes the largest contributors in the signal region are Standard Model $t\bar{t}$ and W+jets.  As the LHC attains higher and higher energies the QCD multijet backgrounds become increasingly hard to model due to the non-perturbative nature of the interactions.  A data-driven technique for accounting for these backgrounds is developed by scaling the major backgrounds to account for the QCD backgrounds that contribute extra jets to the major backgrounds.  Designing a single control region satisfactorily close to the signal region is impossible.  Thus, two control regions are designed, one which is W+jets rich and the other $t\bar{t}$ rich.  Scale factors for these backgrounds are derived simultaneously and tested in a third similar region for validation before being applied to other regions.  
 These control and validation regions are defined as follows:
 \begin{itemize}
 \item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
@@ -522,7 +522,6 @@ These control and validation regions are defined as follows:
 \item 0 photons, $p_T >$ 15 GeV
 \end{itemize}
 
-
 \begin{figure}[h!]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/CR1_ST.png}}\hfil
@@ -532,23 +531,116 @@ These control and validation regions are defined as follows:
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/CR1_ST.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/VR3_ST.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/CR2_ST.png}}
-\caption{$S_T$ distributions in the 3(a,d), 4(b,e) ,5+(c,f) jets control and validation regions. Electron channel is shown on the top and the muon channel on the bottom}
+\caption{$S_T$ distributions in the 3(a,d), 4(b,e), and 5+(c,f) jets control and validation regions. Electron channel is shown on the top and the muon channel on the bottom, before scale factors are determined.}
 \label{fig:CRSTs}
 \end{figure}
 
+The efficiency of scale factors derived using control regions 1 ($n_{\text{jets}}$=3) and 2 ($n_{\text{jets}}\geq$5) are then tested in the validation region ($n_{\text{jets}}$=4).  The scale factors for the $t\bar{t}$ and W+jets MC are derived using:
+\[ 
+\begin{bmatrix}  
+N(W)_{3j} & N(t\bar{t})_{3j} \\ N(W)_{5+j} & N(t\bar{t})_{5+j} \end{bmatrix} \begin{bmatrix} W_{SF} \\ t\bar{t}_{SF} \end{bmatrix} =
+ \begin{bmatrix} N(\text{data-bkg})_{3j} \\N(\text{data-bkg})_{5j} \end{bmatrix}
+\]
+Figure \ref{fig:CRSTs} shows the $S_T$ distribution in both electron and muon channels before scale factors are calculated for all three kinematically separate regions.  The large mismodelling occurs at low $S_T$ values as expected as QCD processes will typically add low energy jets to the events.  The  Figures \ref{fig:VR3ejpostscale}(electron channel) and \ref{fig:VR3mujpostscale}(muon channel) show various event-level variable plots for the validation region after the scale factors have been applied.
+
+The derived scale factors using these regions are shown in Table \ref{tab:CR12SFs}
+\begin{table}[h]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ccc}
+\hline
+Sample     &  e+jets SF   & $\mu$+jets SF  \\  \hline 
+W+jets    &  PUT IN VALUE   & PUT IN VALUE	\\
+$t\bar{t}$  &  PUT IN VALUE    &  PUT IN VALUE	\\ \hline
+\end{tabular}
+\caption{Derived $t\bar{t}$ and W+jets scale factors for QCD multijet backgrounds.  }
+\label{tab:CR12SFs}
+}
+\end{center}
+\end{table}
+
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/VR3_MWT.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/VR3_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/VR3_met.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/VR3_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/VR3_jet0_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_ejets/Plots/VR3_ST.png}}
+\caption{Event-level plots for the =4 jet validation region after scale factors have been applied in the electron channel.}
+\label{fig:VR3ejpostscale}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/VR3_MWT.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/VR3_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/VR3_met.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/VR3_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/VR3_jet0_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/ControlRegions/FCNC_All_mujets/Plots/VR3_ST.png}}
+\caption{Event-level plots for the =4 jet validation region after scale factors have been applied in the muon channel.}
+\label{fig:VR3mujpostscale}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Background With Photons}
 \label{sec:BKGPho}
 
-\section{Fake Rates}
-\subsection{Jet $\rightarrow$ Lepton Fakes}
-\label{sec:FakeLep}
+Standard Model processes that are produced with an extra real photon are irreducible background for this search as they can share the same final state as the signal events.  The largest contributors of these irreducible backgrounds are the major background samples discussed in the previous section with an associated photon ($t\bar{t}+\gamma$ and W+jets+$\gamma$).  Special Monte Carlo samples are produced for these samples (along with Z+jets+$\gamma$) that have higher statistics of these photon enriched events than the nominal samples.  However, as these samples (X+jets+$\gamma$) are subsets of the nominal sample(X+jets) duplicate events must be removed from the nominal sample.  This is done using the \textbf{MCTruthClassifier} tool which is detailed further in Section \ref{sec:Fakes}.  All events with a photon from the hard scattering are removed from the X+jets samples as they are contained within the X+jets+$\gamma$ samples.
+\subsubsection{W+$\gamma$ Control Region}
 
+\subsubsection{$t\bar{t}+\gamma$ Control Region}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Fake Rates}
+\label{sec:Fakes}
+
+Photons and leptons can be faked by various other particles in the detector depending on how they interact with the detector.  Section \ref{sec:FakeLep} discusses how jets faking leptons are accounted for where Sections \ref{sec:FakePho} and \ref{sec:FakePho2} discuss how electrons and jets can appear as photons and enter the signal region.  Photon fake rates and scale factors are determined using data-driven techniques and truth information in the MC samples.  Information in the truth record of the reconstruced photons is found using the \textbf{MCTruthClassifier} tool which preforms a \textit{Truth to Cluster} matching algorithm based on geometric separations, $\Delta R$, between various truth-level physics objects.
+
+A photon is considered as an electron fake if the truth particle ID is equal to the PDG ID of an electron or if the truth particle ID is equal to the PDG ID of a photon but a truth electron is within a distance of $\Delta R < 0.05$ as the photon is then assumed to have been originating from the electron.  
+
+A photon is considered a hadronic fake if the truth photon originates from any hadron or when the truth particle is a hadron.  These hadrons can be any meson or baryon within the initial hard interaction.
+
+
+Discussion of MCTruthClassifier stuffs%%%%%%%
 \subsection{Electron $\rightarrow$ Photon Fakes}
 \label{sec:FakePho}
 
+\subsection{Jet $\rightarrow$ Lepton Fakes}
+\label{sec:FakeLep}
+The final state is determined by the decay of the W boson throughout this search, resulting in a charged lepton and a neutrino.  However, this can be faked by the QCD multi-jet background if a jet is misidentified as a lepton.  Non-prompt and fake leptons can pass the event selection and come from predominantly QCD multi-jet processes with an associated photon.  These leptons can arise from semi-leptonic decay of bottom and charm quarks.  The electron final state has additional contributions from photon conversions in the electromagnetic calorimeter while muons can be faked from highly energetic hadrons that punch-through to the hadronic calorimeter before beginning their shower leaving only tracks similar to muons throughout the electormagnetic calorimeter.  
+
+The estimation for the lepton fake background in the signal region channels follows the fully data-driven Matrix Method\cite{MatrixMethod} approach which compares the number of leptons with looser lepton idenification and isolation requirements than those used in the search.  Electrons in the loose sample are required to have \textit{Medium} identification criteria but no isolation requirement is applied.  Similarly for muons the idenification criteria is \textit{Medium} and the requirement on the isolation is dropped.  The Matrix Method works under the assumption that the tight sample will contain mostly real leptons whereas the loose sample will be enriched with fake lepton events.  Therefore it follows that the number of leptons in the loose (tight) sample is simply a combination of the number of real and fake leptons in those samples:
+\[
+N^{\text{loose}} = N^{\text{loose}}_\text{real} +N^{\text{loose}}_\text{fake} \]
+\[
+N^{\text{tight}} = N^{\text{tight}}_\text{real} +N^{\text{tight}}_\text{fake} \]
+
+Then $\epsilon_\text{real}$ is defined as the probabilty of a real lepton in the loose sample to pass the tight selection and $\epsilon_\text{fake}$ as the probability of a fake lepton in the loose sample passing the tight selection.  Then the number of events with fake leptons in the tight sample can be estimated applying the following equation:
+\[  N_\text{fake}^\text{tight} = \frac{\epsilon_\text{fake}}{\epsilon_\text{real}-\epsilon_\text{fake}}(\epsilon_\text{real} N^\text{loose} -N^\text{tight})
+\]
+
+The real efficiencies, $\epsilon_\text{real}$, are estimated using the tag-and-probe method in $Z\rightarrow e^+ e^-$ and $Z\rightarrow \mu^+ \mu^-$ regions and the fake efficiencies, $\epsilon_\text{fake}$, are estimated in data samples which are dominated by non-prompt and fake leptons.  The efficiency measurements are provided centrally in ATLAS and are explained in much more detail in \cite{MatrixMethod}.  Individual weights are applied to the event identification caluclated as a function of these efficiencies which follow:
+\[ w_i = \frac{\epsilon_\text{fake}}{\epsilon_\text{real}-\epsilon_\text{fake}}(\epsilon_\text{real}-\delta_i) \]
+where $\delta_i$ is 1 if the event passes the tight selection and 0 otherwise.  These event weights are applied to the loose data sample to estimate the fake contributions from jets faking leptons.
+
 \subsection{Jet $\rightarrow$ Photon Fakes}
 \label{sec:FakePho2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Signal Region}
 
