@@ -17,10 +17,10 @@
 \contentsline {subsection}{ \numberline {1.6.1} Backgrounds Without Photons}{32}{subsection.1.6.1}% 
 \contentsline {subsection}{ \numberline {1.6.2} Background With Photons}{37}{subsection.1.6.2}% 
 \contentsline {subsubsection}{ W+$\gamma $ Control Region}{37}{subsubsection.1.6.2.1}% 
-\contentsline {subsubsection}{ $t\bar {t}+\gamma $ Control Region}{37}{subsubsection.1.6.2.2}% 
-\contentsline {section}{ \numberline {1.7} Fake Rates}{37}{section.1.7}% 
-\contentsline {subsection}{ \numberline {1.7.1} Electron $\rightarrow $ Photon Fakes}{38}{subsection.1.7.1}% 
-\contentsline {subsection}{ \numberline {1.7.2} Jet $\rightarrow $ Lepton Fakes}{38}{subsection.1.7.2}% 
-\contentsline {subsection}{ \numberline {1.7.3} Jet $\rightarrow $ Photon Fakes}{40}{subsection.1.7.3}% 
-\contentsline {section}{ \numberline {1.8} Signal Region}{40}{section.1.8}% 
-\contentsline {chapter}{REFERENCES CITED}{41}{section.1.8}% 
+\contentsline {subsubsection}{ $t\bar {t}+\gamma $ Control Region}{39}{subsubsection.1.6.2.2}% 
+\contentsline {section}{ \numberline {1.7} Fake Rates}{43}{section.1.7}% 
+\contentsline {subsection}{ \numberline {1.7.1} Electron $\rightarrow $ Photon Fakes}{43}{subsection.1.7.1}% 
+\contentsline {subsection}{ \numberline {1.7.2} Jet $\rightarrow $ Lepton Fakes}{45}{subsection.1.7.2}% 
+\contentsline {subsection}{ \numberline {1.7.3} Jet $\rightarrow $ Photon Fakes}{47}{subsection.1.7.3}% 
+\contentsline {section}{ \numberline {1.8} Signal Region}{47}{section.1.8}% 
+\contentsline {chapter}{REFERENCES CITED}{48}{section.1.8}% 
