@@ -774,9 +774,9 @@ where $\delta_i$ is 1 if the event passes the tight selection and 0 otherwise.  
 \subsection{Jet $\rightarrow$ Photon Fakes}
 \label{sec:FakePho2}
 
-The ABCD method is used to determine the amount of hadrons that fake photons in the analysis.  As has been shown in Section \ref{sec:BKGnoPho} the multi-jet background is poorly modeled, especially the high energies of Run-2.  An accurate estimation of this background that does not rely on the innacurate MC modelling is done using a data driven technique.  Scale factors to match MC predictions to data are derived in control regions with enriched hadronic fake contributions and applied in the signal region. 
+The ABCD method is used to determine the amount of hadrons that fake photons in the analysis.  As has been shown in Section \ref{sec:BKGnoPho} the multi-jet background is poorly modeled, especially the high energies of Run-2.  An accurate estimation of this background that does not rely on the innacurate MC modelling is done using a data driven technique.  Scale factors to match MC predictions to data are derived in control regions with enriched hadronic fake contributions and applied in the signal region.  The majority of hadronic fake photon events come from $t\bar{t}$ events where a final state jet radiates a non-prompt photon.  Additional small contributions come from similar topologies from W+jets and single top events.  
 
-The ABCD method requires four orthogonal and non-correlated regions of phase space.  Events that pass the preselection cuts but not the final event level cuts for the signal region can be used to craft these additional regions.  The photon isolation,  topo$E_{T}$cone40, and the transverse W mass, $m_T^W$ are chosen.  As the electron (muon) region requirement $m_T^W > 30$ GeV and $\slashed{E}_T >$ 30 GeV ($\slashed{E}_T + m_T^W > 60$ GeV) from the Matrix Method the regions can created similarly by simply reversing these cuts.  A pictoral representation of the regions is shown in Figure \ref{fig:ABCD}.  If these variables are uncorrelated then it follows that the ratio of isolated vs. non-isolated photons should not change depending on the kinematic variables unrealted to the photon.
+The ABCD method requires four orthogonal and non-correlated regions of phase space.  Events that pass the preselection cuts and the additional requirements for the final signal region cuts (photon $p_T$, b-jet multiplicity, and photon multiplicity) but not the final neural network cut for the signal region can be used to craft these additional regions.  The neural network cut is not used here to preserve statistics in the regions and should not effect the scale factor derivation as the regions are expected to be independent.  The photon isolation,  topo$E_{T}$cone40, and the transverse W mass, $m_T^W$ are chosen.  As the electron (muon) region requirement $m_T^W > 30$ GeV a ($\slashed{E}_T + m_T^W > 60$ GeV) from the Matrix Method the regions can created similarly by simply reversing these cuts.  A pictoral representation of the regions is shown in Figure \ref{fig:ABCD}.  If these variables are uncorrelated then it follows that the ratio of isolated vs. non-isolated photons should not change depending on the kinematic variables unrealted to the photon.  The hadronic fake rate is enhanced when the photons are classified as converted photons in the detector as seen in Figure \ref{fig:ABCDPlots}.
 
 \begin{figure}[h!]
 	\centering
@@ -790,12 +790,52 @@ The ABCD method requires four orthogonal and non-correlated regions of phase spa
 \frac{N_D^{\text{h-fake}}}{N_A^{\text{h-fake}}}=\frac{N_C^{\text{h-fake}}}{N_B^{\text{h-fake}}}
 \]
 
-To quantify the correlation between the variables used a double ratio $\theta_{\text{MC}}$ is defined:
+To quantify the correlation between the variables used a double ratio $\theta_{\text{MC}}$ is defined as a correction factor to ensure closure in accounting for imperfect simulation of fake photons in MC events. This correction factor is defined as:
 \[\theta_{\text{MC}}=\frac
 {\sfrac{N_\text{D,MC}^{\text{h-fake}}}{N_\text{C,MC}^{\text{h-fake}}}}
 {\sfrac{N_\text{A,MC}^{\text{h-fake}}}{N_\text{B,MC}^{\text{h-fake}}}}
 \]
-$\theta_\text{MC}$ will be 1 assuming no correlation.  Using these the hadron fake contribution in the signal region (D) is estimated with the following:
+ 
+ The number of events in MC samples where the truth photon comes from a hadron are listed in Table \ref{tab:abcdYieldsMC}.  A closure test is preformed on these yields for the correction factor $\theta_\text{MC}$ as shown in Table \ref{tab:abcdTheta}.  A systematic uncertainty of 50\% is set to this correction factor to account for further imperfect MC modelling.
+\begin{table}[h]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{c|c|c}
+\hline
+Channel:     &  e+jets   &$\mu$+jets \\  \hline 
+$N(A)^\text{h-fake}_\text{MC}$ Converted & $451 \pm 11 $   &  $120\pm 6$	\\ 
+$N(B)^\text{h-fake}_\text{MC}$ Converted & $4553 \pm 33 $   &  $1061\pm 17 $      \\ 
+$N(C)^\text{h-fake}_\text{MC}$ Converted & $22658 \pm 87 $   &  $25003\pm 93 $    \\ 
+$N(D)^\text{h-fake}_\text{MC}$ Converted & $2448 \pm 27 $   &  $2681\pm 31$      \\ \hline %Change Put in post fit values
+$N(A)^\text{h-fake}_\text{MC}$ Unconverted & $388\pm 11$         &  $107\pm 6$	\\ 
+$N(B)^\text{h-fake}_\text{MC}$ Unconverted & $2082\pm 21$       &  $524 \pm 12$       \\ 
+$N(C)^\text{h-fake}_\text{MC}$ Unconverted & $10202\pm 113$   &  $11751\pm55$     \\ 
+$N(D)^\text{h-fake}_\text{MC}$ Unconverted & $2131\pm33$        &  $2323 \pm 34$       \\ \hline
+\end{tabular}
+\caption{Monte Carlo hadronic photon origin event yields in each region for converted and unconverted photons, including statistical errors.   }
+\label{tab:abcdYieldsMC}
+}
+\end{center}
+\end{table}
+
+\begin{table}[h]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{cccc}
+\hline
+Channel:     &  $\frac{N^\text{h-fake}_\text{MC} (A)}{N^\text{h-fake}_\text{MC} (B)} [\%]$   &   $\frac{N^\text{h-fake}_\text{MC} (D)}{N^\text{h-fake}_\text{MC} (C)} [\%]$ & $\theta_\text{MC}$\\  \hline 
+Electron Channel, Converted    & $9.9\pm0.1$   & $10.8\pm .1$  & $1.09\pm0.03$	\\ 
+Electron Channel, Unconverted & $18.6\pm 0.5$	& $20.9\pm 0.4$   & $1.12 \pm 0.04$\\
+Muon Channel, Converted	        &	 $11.3\pm 0.6$	& $10.8\pm 0.1$  & $0.95\pm 0.05$\\
+Muon Channel, Unconverted     &  $20.4\pm 1.2$   & $19.7\pm 0.3$   & $0.97 \pm 0.06$       \\ \hline 
+\end{tabular}
+\caption{Closure test results and the resulting correction factor values, $\theta_\text{MC}$ for hadronic fake estimates including statistical errors.  }
+\label{tab:abcdTheta}
+}
+\end{center}
+\end{table}
+
+ Using these the hadron fake contribution in the signal region (D) is estimated with the following:
 \[N_\text{D,est.}^{\text{h-fake}} = \frac{N_\text{A,data}^{\text{h-fake}}\times N_\text{C,data}^{\text{h-fake}}}{N_\text{B,data}^{\text{h-fake}}}\times \theta_\text{MC}
 \]
 Where the number of estimated hadronic fake events $N_\text{A/B/C,data}^\text{h-fake}$ is defined by subtracting the sum of all background events from the total data events in the respective regions.  A scale factor for hadronic fakes can then be calculated using the esimates for the number of fakes in MC and data in the signal region using:
@@ -803,9 +843,56 @@ Where the number of estimated hadronic fake events $N_\text{A/B/C,data}^\text{h-
 \[\text{SF}^\text{h-fake} = \frac{N^\text{h-fake}_\text{D,est.}}{N^\text{h-fake}_\text{D,MC}}
 \]
 
-This scale factor is calculated in bins of photon variables ($p_T$, $\eta$, as well as converted/unconverted photon type) and are then applied to events where the MC photon comes from a truth hadron.
+\begin{figure}[h!]
+\centering
+\subfloat[Electron Channel, Converted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/ABCD/ejetsConverted.png}}\hfil
+\subfloat[Muon Channel, Converted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/ABCD/mujetsConverted.png}}
+\vspace{-3.mm} \setcounter{subfigure}{0}
+\subfloat[Electron Channel, Unconverted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png}}\hfil
+\subfloat[Muon Channel, Unconverted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png}}
+\caption{Regions used for the ABCD method shown for both converted and unconverted photon types, MC events are shown in the gradient histogram and data events with the black points.  All final signal region cuts are included except the neural network cut to give enough statistics in the regions for the ABCD method to be a reasonable estimate of the fake rate scale factor}
+\label{fig:ABCDPlots}
+\end{figure}
 
-%Change Add plots for abcd 2d histos
+This scale factor is calculated in terms of converted and unconverted photon types and are then applied to events where the MC photon comes from a truth hadron.
+
+
+\begin{table}[h]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{c|c|c}
+\hline
+Channel:     & Converted& Unconverted  \\  \hline 
+Electron Channel  & $1.04\pm 0.14 \pm 0.30$     &   $2.27\pm 0.22 \pm 0.89$	\\ 
+Muon Channel        & $1.64 \pm 1.40 \pm 0.44$   &   $2.27 \pm 0.41 \pm 0.88$\\ \hline %Change Put in post fit values
+\end{tabular}
+\caption{Hadron scale factors determined in data for both channels and both photon types using the ABCD method, statistical and systematic uncertainties are shown. }
+\label{tab:abcdSF}
+}
+\end{center}
+\end{table}
+
+The results shown in Table \ref{tab:abcdSF} are consistent with Figure \ref{fig:ABCDPlots}.  Shown in Figure \ref{fig:ABCDPlots} the separation of photons leads to smaller scale factors as the hadronic fakes are pulled out.  However, for unconverted photons the scale factors are similar as the bulk of the photons are in region D.  In addition to the systematic uncertainty propagated from $\theta_\text{MC}$ another estimation was done using a direct comparison of the scale factors in region D for events by reversing the final neural network cut.  Doing this allows the estimation to be completely blinded still while directly computing the scale factors. 
+
+Given the amount of preselection events that are expected to pass the final event selection is very small (on the order of 1\%) removing the few events that could end up in the signal region should result in sufficiently similar scale factors.  These scale factors are calculated and an additional systematic effect is estimated by comparing the two sets of scale factors.  The maximal value of the deviations is taken to be another source of systematic uncertainty. 
+
+%\[ SF(j\rightarrow \gamma) = 1+ \frac{N_\text{D,data}^\text{h-fake}}{N_\text{D,MC}^\text{h-fake}}\]
+%
+%\begin{table}[h]
+%\begin{center}
+%{\renewcommand{\arraystretch}{1.2}
+%\begin{tabular}{c|c|c}
+%\hline
+%Photon Type:     & Converted& Unconverted  \\  \hline 
+%Electron Channel  & $1.36\pm 0.05$  & 	$ 1.17\pm 0.04 $\\ 
+%Muon Channel        & $1.71 \pm 0.05$ &  $1.93 \pm 0.07$\\ \hline %These are direct calculations
+%\end{tabular}
+%\caption{Hadron scale factors determined in data for both channels and both photon types for the direct calculation method. }
+%\label{tab:directSF}
+%}
+%\end{center}
+%\end{table}
+%Change Use theta as a systematic variation for the number of events with hadron fakes
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
