@@ -742,10 +742,16 @@ A tag-and-probe method is employed to determine the fake rate for $e\rightarrow 
 	\item Exactly 1 photon $>$ 20 GeV
 	\end{itemize}
 \end{itemize}
-\[ \text{FR}_{\text{MC}}^{\text{e-fake}} = \frac{N_{e,\gamma}}{N_{e,e}} \]
-\[ \text{FR}_{\text{d.d.}}^{\text{e-fake}} = \frac{N_{e,\gamma}^{\text{data}}-N_{e,\gamma}^{\text{non-Z}}}{N_{e,e}^{\text{data}}-N_{e,e}^{\text{non-Z}}} \]
-\[  \text{SF}_{\text{FR}}^{\text{e-fake}} =\frac{ \text{FR}_{\text{d.d.}}^{\text{e-fake}}}{ \text{FR}_{\text{MC}}^{\text{e-fake}} }\]
 
+A fake rate can be inferred from MC defined as:
+\[ \text{FR}_{\text{MC}}^{\text{e-fake}} = \frac{N_{e,\gamma}}{N_{e,e}} \]
+
+where $N_\text{e,\gamma}$ ($N_\text{e,e}$) is the number of events observed in the $Z\rightarrow e \gamma$ ($Z\rightarrow ee)$ regions.  The MC subindex means that this is the fake rate derived using MC events.  A data driven fake rate is also defined in each region by subtracting the backgrounds that do not contribute to the Z-boson invariant mass peak using a sideband fit to the $m(l,\gamma)$ distribution defined as:
+\[ \text{FR}_{\text{d.d.}}^{\text{e-fake}} = \frac{N_{e,\gamma}^{\text{data}}-N_{e,\gamma}^{\text{non-Z}}}{N_{e,e}^{\text{data}}-N_{e,e}^{\text{non-Z}}} \]
+where the tails of the Z-boson peak are included as $N_\text{e,\gamma/e}^\text{non-Z}$.  Combining the fake rates from the data-driven and MC method a scale factor that can be applied as a correction to the samples where the truth MC photon comes from an electron is calculated by
+\[  \text{SF}_{\text{FR}}^{\text{e-fake}} =\frac{ \text{FR}_{\text{d.d.}}^{\text{e-fake}}}{ \text{FR}_{\text{MC}}^{\text{e-fake}} }.\]
+
+To give a sense of size the overall scale factor is derived to be $0.97 \pm 0.01$(stat).  In practice the scale factor is derived in bins of probe $p_T$ and $\eta$ as well as converted and unconverted photon type.
 %Change Add More, Finish Chapter
 
 \subsection{Jet $\rightarrow$ Lepton Fakes}
