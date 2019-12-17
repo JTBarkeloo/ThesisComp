@@ -743,15 +743,48 @@ A tag-and-probe method is employed to determine the fake rate for $e\rightarrow 
 	\end{itemize}
 \end{itemize}
 
+Distrbutions of the $p_T$ spectra of tag electrons and the probe electrons and photons (both converted and unconverted) in data and MC are shown in Figures \ref{fig:DataEgammaDist} and \ref{fig:McEgammaDist}.
+
+\begin{figure}[h!]
+\centering
+\subfloat[Probe: Electrons]{\includegraphics[width=.65\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png}} \\
+\subfloat[Probe: Converted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png}}\hfil
+\subfloat[Probe: Unconverted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png}}\hfil
+\caption{Probe $p_T$ vs leading electron $p_T$ in $Z\rightarrow e^+ e^- $ Data Events}
+\label{fig:DataEgammaDist}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\subfloat[Probe: Electrons]{\includegraphics[width=.65\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png}}\\
+\subfloat[Probe: Converted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png}}\hfil
+\subfloat[Probe: Unconverted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png}}\hfil
+\caption{Probe $p_T$ vs leading electron $p_T$ in $Z\rightarrow e^+ e^- $ MC Events}
+\label{fig:McEgammaDist}
+\end{figure}
+
+
 A fake rate can be inferred from MC defined as:
 \[ \text{FR}_{\text{MC}}^{\text{e-fake}} = \frac{N_{e,\gamma}}{N_{e,e}} \]
 
-where $N_\text{e,\gamma}$ ($N_\text{e,e}$) is the number of events observed in the $Z\rightarrow e \gamma$ ($Z\rightarrow ee)$ regions.  The MC subindex means that this is the fake rate derived using MC events.  A data driven fake rate is also defined in each region by subtracting the backgrounds that do not contribute to the Z-boson invariant mass peak using a sideband fit to the $m(l,\gamma)$ distribution defined as:
+where $N_\text{e, $\gamma$}$ ($N_\text{e,e}$) is the number of events observed in the $Z\rightarrow e \gamma$ ($Z\rightarrow ee)$ regions.  The MC subindex means that this is the fake rate derived using MC events.  A data driven fake rate is also defined in each region by subtracting the backgrounds that do not contribute to the Z-boson invariant mass peak using a sideband fit to the $m(l,\gamma)$ distribution defined as:
 \[ \text{FR}_{\text{d.d.}}^{\text{e-fake}} = \frac{N_{e,\gamma}^{\text{data}}-N_{e,\gamma}^{\text{non-Z}}}{N_{e,e}^{\text{data}}-N_{e,e}^{\text{non-Z}}} \]
-where the tails of the Z-boson peak are included as $N_\text{e,\gamma/e}^\text{non-Z}$.  Combining the fake rates from the data-driven and MC method a scale factor that can be applied as a correction to the samples where the truth MC photon comes from an electron is calculated by
+where the tails of the Z-boson peak are included as $N_\text{e, $\gamma$/e}^\text{non-Z}$.  Combining the fake rates from the data-driven and MC method a scale factor that can be applied as a correction to the samples where the truth MC photon comes from an electron is calculated by
 \[  \text{SF}_{\text{FR}}^{\text{e-fake}} =\frac{ \text{FR}_{\text{d.d.}}^{\text{e-fake}}}{ \text{FR}_{\text{MC}}^{\text{e-fake}} }.\]
 
-To give a sense of size the overall scale factor is derived to be $0.97 \pm 0.01$(stat).  In practice the scale factor is derived in bins of probe $p_T$ and $\eta$ as well as converted and unconverted photon type.
+To give a sense of size the overall scale factor is derived to be $0.97 \pm 0.01$(stat).  In practice the scale factor is derived in bins of probe $p_T$ and $\eta$ as well as converted and unconverted photon type.  
+\begin{figure}[h!]
+\centering
+\subfloat[Converted Photons]{\includegraphics[width=.75\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2DConverted.png}}\\
+\subfloat[Unconverted Photons]{\includegraphics[width=.75\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png}}
+\caption{2-Dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events for unconverted and converted photon types shown with statistical uncertainties.}
+\label{fig:EGammaSFs}
+\end{figure}
+
+As shown in Figure \ref{fig:EGammaSFs}, the 2D scale factors generally agree with the overall scale factor derived for all photons and $\eta - \phi$ bins but additional correction factors are calculated based on the conversion type and photon kinematic information.
+
+
+
 %Change Add More, Finish Chapter
 
 \subsection{Jet $\rightarrow$ Lepton Fakes}
@@ -880,7 +913,7 @@ Muon Channel        & $1.64 \pm 1.40 \pm 0.44$   &   $2.27 \pm 0.41 \pm 0.88$\\ 
 
 The results shown in Table \ref{tab:abcdSF} are consistent with Figure \ref{fig:ABCDPlots}.  Shown in Figure \ref{fig:ABCDPlots} the separation of photons leads to smaller scale factors as the hadronic fakes are pulled out.  However, for unconverted photons the scale factors are similar as the bulk of the photons are in region D.  In addition to the systematic uncertainty propagated from $\theta_\text{MC}$ another estimation was done using a direct comparison of the scale factors in region D for events by reversing the final neural network cut.  Doing this allows the estimation to be completely blinded still while directly computing the scale factors. 
 
-Given the amount of preselection events that are expected to pass the final event selection is very small (on the order of 1\%) removing the few events that could end up in the signal region should result in sufficiently similar scale factors.  These scale factors are calculated and an additional systematic effect is estimated by comparing the two sets of scale factors.  The maximal value of the deviations is taken to be another source of systematic uncertainty. 
+Given the amount of preselection events that are expected to pass the final event selection is very small (on the order of 1\%) removing the few events that could end up in the signal region should result in sufficiently similar scale factors.  These scale factors are calculated and an additional systematic effect is estimated by comparing the two sets of scale factors.  The maximal value of the deviations is taken to be a further source of systematic uncertainty. 
 
 %\[ SF(j\rightarrow \gamma) = 1+ \frac{N_\text{D,data}^\text{h-fake}}{N_\text{D,MC}^\text{h-fake}}\]
 %
