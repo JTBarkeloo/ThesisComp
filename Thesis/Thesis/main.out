@@ -73,10 +73,16 @@
 \BOOKMARK [1][-]{section.5.8}{ \040Signal Region}{subsubsection.4.3.5.1}% 73
 \BOOKMARK [0][-]{table.caption.95}{Analysis And Results}{}% 74
 \BOOKMARK [1][-]{section.6.1}{ \040Systematic Uncertainties}{table.caption.95}% 75
-\BOOKMARK [1][-]{section.6.2}{ \040Statistical Treatment of Results}{table.caption.95}% 76
-\BOOKMARK [1][-]{section.6.3}{ \040Limit on Branching Ratio tq}{table.caption.95}% 77
-\BOOKMARK [0][-]{section.6.3}{Complementary Searches and Outlook}{}% 78
-\BOOKMARK [1][-]{section.7.1}{ \040Comparison with Complementary Searches}{section.6.3}% 79
-\BOOKMARK [1][-]{section.7.2}{ \040Future Directions}{section.6.3}% 80
-\BOOKMARK [1][-]{section.7.3}{ \040Conclusion}{section.6.3}% 81
-\BOOKMARK [0][-]{section.7.3}{REFERENCES CITED}{}% 82
+\BOOKMARK [2][-]{subsection.6.1.1}{ \040Theoretical uncertainties}{section.6.1}% 76
+\BOOKMARK [2][-]{subsection.6.1.2}{ \040Experimental Uncertainties}{section.6.1}% 77
+\BOOKMARK [2][-]{subsection.6.1.3}{ \040Symmetrization, Smoothing, and Pruning of Systematic Uncertainties}{section.6.1}% 78
+\BOOKMARK [3][-]{subsubsection.6.1.3.1}{ Symmetrization}{subsection.6.1.3}% 79
+\BOOKMARK [3][-]{subsubsection.6.1.3.2}{ Smoothing}{subsection.6.1.3}% 80
+\BOOKMARK [3][-]{subsubsection.6.1.3.3}{ Pruning}{subsection.6.1.3}% 81
+\BOOKMARK [1][-]{section.6.2}{ \040Statistical Treatment of Results}{table.caption.95}% 82
+\BOOKMARK [1][-]{section.6.3}{ \040Limit on Branching Ratio tq}{table.caption.95}% 83
+\BOOKMARK [0][-]{section.6.3}{Complementary Searches and Outlook}{}% 84
+\BOOKMARK [1][-]{section.7.1}{ \040Comparison with Complementary Searches}{section.6.3}% 85
+\BOOKMARK [1][-]{section.7.2}{ \040Future Directions}{section.6.3}% 86
+\BOOKMARK [1][-]{section.7.3}{ \040Conclusion}{section.6.3}% 87
+\BOOKMARK [0][-]{section.7.3}{REFERENCES CITED}{}% 88

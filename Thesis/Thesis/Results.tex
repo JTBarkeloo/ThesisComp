@@ -2,13 +2,69 @@
 \chapter{Analysis And Results}
 \label{ch:Results}
 %Deep thoughts go here.
-\section{Systematic Uncertainties}
-\begin{description}
-\item[\textbf{Test}:]  Just a test to show the paragraph formatting for this section Just a test to show the paragraph formatting for this section Just a test to show the paragraph formatting for this section
-\item[\textbf{Test}:]  Just a test to show the paragraph formatting for this section
-\end{description}
-\section{Statistical Treatment of Results}
+This search is to attempt to observe the FCNC decay of a top quark $t \rightarrow q \gamma$ or to set an upper limit on the branching ratio of this decay process is no observation occurs.  As there was on significant excess of events in the collected data an upper limit on the branching ratio is set.  This chapter will discuss  the methods used to set the upper limit on the branching ratio as well as discussion of the systematic uncertainties within the experiment. 
 
+\section{Systematic Uncertainties}
+Various sources of uncertainty are considered for any analysis in high energy physics.  Statistical and systematic uncertainties are studied and propagated through to the final upper limit set on the branching ratio.  The statistical errors are related to the amount of data collected or MC events that are available and created for analysis.  More data events or more MC simulated events lead to a smaller statistical error due to random fluctuations of stochastic processes.  In this section the systematic errors will be discussed.  Systematic errors are derived from limitations from detector construction or a lack of complete understanding of physics objects or algorithms used in reconstruction.  Some sources of systematic uncertainties are provided centrally within ATLAS from studies carried out by other analysis teams such as errors on the jet energy resolution (JER) or luminosity amongst others. Other sources are particular to the analysis such as errors propagating from deriving data-driven backgrounds as discussed in the previous chapter.
+This section will briefly introduce and discuss the theoretical systematic uncertainties considered in this analysis including the modeling and experimental uncertainties as well as a discussion on systematic smoothing, symmetrization, and pruning used in the final fit. 
+
+\subsection{Theoretical uncertainties}
+\begin{description}
+\item[\textbf{Cross Section}:]  Just a test to show the paragraph formatting for this section Just a test to show the paragraph formatting for this section Just a test to show the paragraph formatting for this section
+\item[\textbf{Renormalization and Factorization Scale}:]  
+\item[\textbf{PDF Uncertainty}:]  
+\item[\textbf{Initial and Final State Radiation}:] 
+\item[\textbf{Normalization of Prompt Photon Contribution}:]  
+\item[\textbf{PDF Uncertainty}:]  
+\item[\textbf{$t\bar{t}$ Matrix Element and Shower Generator}:]  
+\end{description}
+
+\subsection{Experimental Uncertainties}
+\begin{description}
+\item[\textbf{Luminosity}:]  The uncertainty assessed to the total integrated luminosity is $\pm$2\% following a methodology outlined in Ref. \cite{ATLAS:2019pzw} from a preliminary calibration of the luminosity scale using x-y beam separation scans.
+
+\item[\textbf{Pile-up}:]  Events are re-weighted in the MC samples to match the number of interactions per bunch crossing in data.  Systematic uncertainties for pile-up are evaluated by scaling these distributions up and down.
+
+\item[\textbf{Lepton Identification and Trigger}:]   Lepton efficiencies contain the trigger, reconstruction, identification, and isolation efficiencies.  Scale factors are used to correct any deviation from data in the MC simulation.  Correction factors are derived from $Z\rightarrow ll$ and $J/ \psi \rightarrow ll$ decays for electrons \cite{ElectronID} and muons \cite{MuonID}.
+
+\item[\textbf{Lepton Energy Scale and Resolution}:]  The lepton energy (momentum) is calibrated using MC -based techniques.  Correction factors derived from dileptonic Z boson decay channels are applied to account for detector calibration mismodeling.  For electrons, the energy scale and resolution are calculated together with photons as the EGamma energy scale and resolution.  Various efficiencies are derived for the EGamma scale and resolution, e.g., varying the amount of material in front of the calorimeters, using various MC generators, and considering varying background fits \cite{ElectronID, PhotonID}.
+\item[\textbf{Photon Efficiency}:]  Scale factors for isolation are measured as described in Ref. \cite{Lesage:2017uzg} while additional scale factors for the photon ID efficiency are derived for photons using enriched $Z\rightarrow ee$ events where the similarity between electrons and photons in our detector is exploited using the matrix method as described in Section \ref{sec:FakePho}. These sets of scale factors are combined into a single set that is applied to MC simulation based on photon information.
+
+\item[\textbf{Photon Energy Scale and Resolution}:]  Photon energy scale and resolution are calculated together with electron energy scale and resolution.
+
+\item[\textbf{Jet Energy Scale}:]
+
+\item[\textbf{Jet Energy Resolution}:]
+
+\item[\textbf{Jet Flavor Fraction}:]  
+
+\item[\textbf{Jet Vertex Tagging}:]  The cut on the jet vertex tagging (JVT) discriminant is varied up and down \cite{JetJVT} and the certainty on the JVT scale factor is calculated which is then propagated through this analysis.
+
+\item[\textbf{b-tagging}:]  
+
+\item[\textbf{$\slashed{E}$ Uncertainties}:] 
+
+\item[\textbf{Further Background Estimation}:] Uncertainties on the data-driven scale factors calculated for this analyis as described in Section \ref{sec:Fakes} are applied and the scale factors are varied up and down by one standard deviation.
+
+\end{description}
+
+\subsection{Symmetrization, Smoothing, and Pruning of Systematic Uncertainties}
+
+Symmetrization and smoothing are methods used to minimize statistical fluctuations in various systematic sources.  Symmetrization centers the systematic uncertainty around a mean value and smoothing averages the expected number of events across bins in order to remove statistical fluctuations.
+
+\subsubsection{Symmetrization}
+Two-sided symmetrization is preformed when up and down variations are provided for any given systematic.  The difference between these variations is calculated and the half sum of the absolute deviations from the nominal is taken as a symmetric variation:
+\[ \text{ Symmetric Variation } = \frac{|\text{up} - \text{nominal}| +|\text{down}-\text{nominal}|}{2}  \]
+The nominal value is then varied up and down by this symmetrized value.  However, if only an up or a down variation is provided for a systematic one-sided symmetrization is used by mirroring the absolute deviation about the nominal value.  Experimental systematic sources are generally symmetrized while signal and background modelling contributions are not.
+
+\subsubsection{Smoothing}
+Smoothing is a technique used to average statistics across bins.  This prevents large statistical spikes in many systematic uncertainties that are expected to provide small contributions.  The smoothing algorithm depends on two parameters, the tolerance and maximal number of slope changes taking advantage of bin and neighboring bin information.  Distributions are rebinned until the statistical uncertainty of each bin is below the tolerance and then the number of slope changes in the distribution is checked.  If the number of slope changes is smaller than the threshold of four the distribution is kept, else the first step is performed again with the tolerance value halved.  The smoothing algorithm 353QH \cite{Friedman:695770} is run to avoid artificially flat uncertaties being introduced in the first two steps.  All uncertainties are smoothed unless stated otherwise.  Smoothing does not change the overall normalizations of the uncertainty.
+
+\subsubsection{Pruning}
+\textit{Pruning} uncertainties is done in order to reduce the number of nuisance parameters (NP) and stabalize the fit.  Uncertainties that would only have a small impact on the end result are removed.  An initial fit is calculated for each NP using the $\pm 1 \sigma$ variation, if the effect on the uncertainty is less than the given threshold of 1\% the contribution is removed from further fits. %Change to match final value on % threshold
+
+\section{Statistical Treatment of Results}
+Following \cite{Lista:2016chp}.
 \section{Limit on Branching Ratio t$\rightarrow$q$\gamma$}
 
 

@@ -466,4 +466,27 @@ The~ATLAS collaboration.
   the ATLAS detector}.
 \newblock 2014.
 
+\bibitem{ATLAS:2019pzw}
+The~ATLAS collaboration.
+\newblock {Luminosity determination in $pp$ collisions at $\sqrt{s}=13$ TeV
+  using the ATLAS detector at the LHC}.
+\newblock 2019.
+
+\bibitem{Lesage:2017uzg}
+Arthur Alexis~Jules Lesage.
+\newblock {Lepton and photon performance at ATLAS and CMS}.
+\newblock In {\em {5th Large Hadron Collider Physics Conference (LHCP 2017)
+  Shanghai, China, May 15-20, 2017}}, 2017.
+
+\bibitem{Friedman:695770}
+J~H Friedman.
+\newblock {Data analysis techniques for high energy particle physics}.
+\newblock (SLAC-176):96 p, Oct 1974.
+
+\bibitem{Lista:2016chp}
+Luca Lista.
+\newblock {Practical Statistics for Particle Physicists}.
+\newblock In {\em {Proceedings, 2016 European School of High-Energy Physics
+  (ESHEP2016): Skeikampen, Norway, June 15-28 2016}}, pages 213--258, 2017.
+
 \end{thebibliography}
