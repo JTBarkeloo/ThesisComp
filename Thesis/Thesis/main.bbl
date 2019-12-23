@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{SM1Glashow}
 S.~L. Glashow.
@@ -466,11 +466,35 @@ The~ATLAS collaboration.
   the ATLAS detector}.
 \newblock 2014.
 
-\bibitem{ATLAS:2019pzw}
+\bibitem{ttXSec}
+ATLAS Collaboration.
+\newblock Nnlo+nnll top-quark-pair cross sections, 2015.
+
+\bibitem{ATLAS:2018pmj}
 The~ATLAS collaboration.
-\newblock {Luminosity determination in $pp$ collisions at $\sqrt{s}=13$ TeV
-  using the ATLAS detector at the LHC}.
-\newblock 2019.
+\newblock {Measurements of inclusive and differential cross-sections of
+  $t\bar{t}\gamma$ production in leptonic final states in a fiducial volume at
+  $\sqrt{s}=13~\text{TeV}$ in ATLAS}.
+\newblock 2018.
+
+\bibitem{SingleTopXSec}
+ATLAS Collaboration.
+\newblock Nlo single-top channel cross sections, 2017.
+
+\bibitem{VXSec}
+ATLAS Collaboration.
+\newblock Pmgweakbosonprocesses, 2019.
+
+\bibitem{ATLAS-CONF-2019-021}
+{Luminosity determination in $pp$ collisions at $\sqrt{s}=13$ TeV using the
+  ATLAS detector at the LHC}.
+\newblock Technical Report ATLAS-CONF-2019-021, CERN, Geneva, Jun 2019.
+
+\bibitem{LUCID2}
+G.~Avoni et~al.
+\newblock The new lucid-2 detector for luminosity measurement and monitoring in
+  atlas.
+\newblock {\em JINST}, 13(07):P07017, 2018.
 
 \bibitem{Lesage:2017uzg}
 Arthur Alexis~Jules Lesage.
@@ -478,15 +502,54 @@ Arthur Alexis~Jules Lesage.
 \newblock In {\em {5th Large Hadron Collider Physics Conference (LHCP 2017)
   Shanghai, China, May 15-20, 2017}}, 2017.
 
+\bibitem{ATL-PHYS-PUB-2015-015}
+{Jet Calibration and Systematic Uncertainties for Jets Reconstructed in the
+  ATLAS Detector at $\sqrt{s}=13$ TeV}.
+\newblock Technical Report ATL-PHYS-PUB-2015-015, CERN, Geneva, Jul 2015.
+
 \bibitem{Friedman:695770}
 J~H Friedman.
 \newblock {Data analysis techniques for high energy particle physics}.
 \newblock (SLAC-176):96 p, Oct 1974.
+
+\bibitem{TRExFitter}
+ATLAS Collaboration.
+\newblock Trexfitter (previously known as tthfitter), 2019.
+
+\bibitem{Moneta:2010pm}
+Lorenzo Moneta, Kevin Belasco, Kyle~S. Cranmer, S.~Kreiss, Alfio Lazzaro,
+  Danilo Piparo, Gregory Schott, Wouter Verkerke, and Matthias Wolf.
+\newblock {The RooStats Project}.
+\newblock {\em PoS}, ACAT2010:057, 2010.
 
 \bibitem{Lista:2016chp}
 Luca Lista.
 \newblock {Practical Statistics for Particle Physicists}.
 \newblock In {\em {Proceedings, 2016 European School of High-Energy Physics
   (ESHEP2016): Skeikampen, Norway, June 15-28 2016}}, pages 213--258, 2017.
+
+\bibitem{Cowan:2010js}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock {Asymptotic formulae for likelihood-based tests of new physics}.
+\newblock {\em Eur. Phys. J.}, C71:1554, 2011.
+\newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
+
+\bibitem{Wilks:1938dza}
+S.~S. Wilks.
+\newblock {The Large-Sample Distribution of the Likelihood Ratio for Testing
+  Composite Hypotheses}.
+\newblock {\em Annals Math. Statist.}, 9(1):60--62, 1938.
+
+\bibitem{Read:2002hq}
+Alexander~L. Read.
+\newblock {Presentation of search results: The CL(s) technique}.
+\newblock {\em J. Phys.}, G28:2693--2704, 2002.
+\newblock [,11(2002)].
+
+\bibitem{Junk:1999kv}
+Thomas Junk.
+\newblock {Confidence level computation for combining searches with small
+  statistics}.
+\newblock {\em Nucl. Instrum. Meth.}, A434:435--443, 1999.
 
 \end{thebibliography}

@@ -27,6 +27,14 @@ Warning--entry type for "Keras" isn't style-file defined
 --line 1953 of file main.bib
 Warning--entry type for "NNImage" isn't style-file defined
 --line 1969 of file main.bib
+Warning--entry type for "ttXSec" isn't style-file defined
+--line 2651 of file main.bib
+Warning--entry type for "SingleTopXSec" isn't style-file defined
+--line 2689 of file main.bib
+Warning--entry type for "VXSec" isn't style-file defined
+--line 2703 of file main.bib
+Warning--entry type for "TRExFitter" isn't style-file defined
+--line 2779 of file main.bib
 Warning--empty journal in TopMass2017
 Warning--empty journal in GregorFCNC
 Warning--empty journal in ATLASCoords
@@ -44,48 +52,50 @@ Warning--empty journal in JetJVT
 Warning--empty journal in TensorFlow
 Warning--empty journal in AdamOpt
 Warning--empty journal in MatrixMethod
-Warning--empty journal in ATLAS:2019pzw
+Warning--empty journal in ATLAS:2018pmj
+Warning--empty author in ATLAS-CONF-2019-021
+Warning--empty author in ATL-PHYS-PUB-2015-015
 Warning--empty journal in Friedman:695770
 Warning--there's a number but no volume in Friedman:695770
-You've used 88 entries,
+You've used 100 entries,
             1791 wiz_defined-function locations,
-            989 strings with 17253 characters,
-and the built_in function-call counts, 17439 in all, are:
-= -- 1493
-> -- 699
-< -- 5
-+ -- 276
-- -- 188
-* -- 1088
-:= -- 2846
-add.period$ -- 262
-call.type$ -- 88
-change.case$ -- 85
+            1052 strings with 19049 characters,
+and the built_in function-call counts, 19498 in all, are:
+= -- 1663
+> -- 780
+< -- 7
++ -- 310
+- -- 210
+* -- 1213
+:= -- 3178
+add.period$ -- 294
+call.type$ -- 100
+change.case$ -- 97
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 786
-empty$ -- 1819
-format.name$ -- 188
-if$ -- 3885
+cite$ -- 122
+duplicate$ -- 874
+empty$ -- 2047
+format.name$ -- 210
+if$ -- 4343
 int.to.chr$ -- 0
-int.to.str$ -- 88
-missing$ -- 76
-newline$ -- 438
-num.names$ -- 82
-pop$ -- 204
+int.to.str$ -- 100
+missing$ -- 82
+newline$ -- 494
+num.names$ -- 92
+pop$ -- 240
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 327
+skip$ -- 365
 stack$ -- 0
-substring$ -- 1107
-swap$ -- 108
-text.length$ -- 5
+substring$ -- 1209
+swap$ -- 120
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 20
-while$ -- 147
-width$ -- 90
-write$ -- 930
-(There were 27 warnings)
+warning$ -- 22
+while$ -- 163
+width$ -- 103
+write$ -- 1052
+(There were 33 warnings)

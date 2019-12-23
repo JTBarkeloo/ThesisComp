@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  20 DEC 2019 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  23 DEC 2019 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4315,27 +4315,27 @@ Underfull \hbox (badness 1231) in paragraph at lines 53--54
 [144] [145]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 76.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 68.
+(hyperref)                removing `\rightarrow' on input line 76.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 76.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 76.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 68.
+(hyperref)                removing `\gamma' on input line 76.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 76.
 
 ) [146]
 \openout2 = `Conclusion.aux'.
@@ -4854,13 +4854,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
- 35016 strings out of 492616
- 723449 string characters out of 6132769
- 804425 words of memory out of 5000000
- 37633 multiletter control sequences out of 15000+600000
+ 35064 strings out of 492616
+ 724357 string characters out of 6132769
+ 804620 words of memory out of 5000000
+ 37669 multiletter control sequences out of 15000+600000
  550965 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,89p,2305b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,17n,89p,2305b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2018/texmf-
@@ -4883,10 +4883,10 @@ s/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1200.pfb>
-Output written on main.pdf (173 pages, 28648939 bytes).
+Output written on main.pdf (173 pages, 28652111 bytes).
 PDF statistics:
- 2550 PDF objects out of 2984 (max. 8388607)
- 1902 compressed objects within 20 object streams
- 590 named destinations out of 1000 (max. 500000)
+ 2577 PDF objects out of 2984 (max. 8388607)
+ 1929 compressed objects within 20 object streams
+ 602 named destinations out of 1000 (max. 500000)
  1788 words of extra memory for PDF output out of 10000 (max. 10000000)
 

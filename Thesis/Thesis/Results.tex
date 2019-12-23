@@ -10,7 +10,7 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \subsection{Theoretical uncertainties}
 \begin{description}
-\item[\textbf{Cross Section}:]  Just a test to show the paragraph formatting for this section Just a test to show the paragraph formatting for this section Just a test to show the paragraph formatting for this section
+\item[\textbf{Cross Section}:]  $t\bar{t}$ \cite{ttXSec} $t\bar{t}+\gamma$: \cite{ATLAS:2018pmj}, SingleTop: \cite{SingleTopXSec}, V+jest: \cite{VXSec}, VV:\cite{VXSec}
 \item[\textbf{Renormalization and Factorization Scale}:]  
 \item[\textbf{PDF Uncertainty}:]  
 \item[\textbf{Initial and Final State Radiation}:] 
@@ -21,7 +21,7 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \subsection{Experimental Uncertainties}
 \begin{description}
-\item[\textbf{Luminosity}:]  The uncertainty assessed to the total integrated luminosity is $\pm$2\% following a methodology outlined in Ref. \cite{ATLAS:2019pzw} from a preliminary calibration of the luminosity scale using x-y beam separation scans.
+\item[\textbf{Luminosity}:] The uncertainty in the combined 2015--2018 integrated luminosity is 1.7  \cite{ATLAS-CONF-2019-021}, obtained using the LUCID-2 detector \cite{LUCID2} for the primary luminosity measurements using x-y beam separation scans.
 
 \item[\textbf{Pile-up}:]  Events are re-weighted in the MC samples to match the number of interactions per bunch crossing in data.  Systematic uncertainties for pile-up are evaluated by scaling these distributions up and down.
 
@@ -34,7 +34,7 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \item[\textbf{Jet Energy Scale}:]
 
-\item[\textbf{Jet Energy Resolution}:]
+\item[\textbf{Jet Energy Resolution}:] \cite{ATL-PHYS-PUB-2015-015}
 
 \item[\textbf{Jet Flavor Fraction}:]  
 
@@ -64,7 +64,15 @@ Smoothing is a technique used to average statistics across bins.  This prevents 
 \textit{Pruning} uncertainties is done in order to reduce the number of nuisance parameters (NP) and stabalize the fit.  Uncertainties that would only have a small impact on the end result are removed.  An initial fit is calculated for each NP using the $\pm 1 \sigma$ variation, if the effect on the uncertainty is less than the given threshold of 1\% the contribution is removed from further fits. %Change to match final value on % threshold
 
 \section{Statistical Treatment of Results}
+A profile likelihood fit is performed simultaneously on the SR and W+$\gamma$+jets and $t\bar{t} +\gamma$+jets CRs.  The \textbf{TRExFitter} framework \cite{TRExFitter} was used for this analysis which provides a framework built upon existing code such as the \textbf{RooStats} project \cite{Moneta:2010pm}.
 Following \cite{Lista:2016chp}.
+
+A profile likelihood approach for treatment of nuisance parameters \cite{Cowan:2010js} is used. The motivation for this test statistic comes from Wilks' theorem that allows approximate aymptotic behavior $-2 \text{ln} \lambda(\mu)$ as a $\chi^2$ \cite{Wilks:1938dza}.
+
+CLs:\cite{Read:2002hq}
+
+Combining searches with small stats from Lizas: \cite{Junk:1999kv}
+
 \section{Limit on Branching Ratio t$\rightarrow$q$\gamma$}
 
 
