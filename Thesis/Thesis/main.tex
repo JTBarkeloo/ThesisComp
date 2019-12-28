@@ -18,6 +18,7 @@
 \usepackage{pdflscape}
 \usepackage{lineno}
 \usepackage{multicol}
+%\usepackage{appendix}
 %\usepackage{itemize}
 %\linenumbers
 \usepackage{xfrac}
@@ -46,7 +47,7 @@
 \newcommand*{\pt}{\ensuremath{p_{\text{T}}}\xspace}
 \newcommand*{\mjj}{\mbox{$m_{jj}$}}
 
-
+%\setcounter{tocdepth}{0}
 \begin{document}
 \include{cover}
 \include{abstract}
@@ -64,11 +65,10 @@
 \include{Conclusion}
 %%%%%%%%%\include{Ben}
 
+\setcounter{tocdepth}{-1}
 \appendix
-%\include{appendicies}
-%%%%%%%%%%%%%%%%%%%%appendices to include:
-%%%%%%%%%%madgraph paramcard
-%%%%%%%%%%TopQ1 skimming information
+\include{appendicies}
+%%%%%%%%%%%%%%%%%%%%
 
 
 \bibliographystyle{unsrt}

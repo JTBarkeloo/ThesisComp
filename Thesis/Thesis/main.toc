@@ -86,4 +86,12 @@
 \contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{147}{section.7.1}% 
 \contentsline {section}{ \numberline {7.2} Future Directions}{147}{section.7.2}% 
 \contentsline {section}{ \numberline {7.3} Conclusion}{147}{section.7.3}% 
-\contentsline {chapter}{REFERENCES CITED}{148}{section.7.3}% 
+ \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
+\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{148}{section.7.3}% 
+\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{149}{section.7.3}% 
+\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Additional Plots from NN Studies}}{150}{section.7.3}% 
+\contentsline {section}{ \numberline {C.1} Additional Shape Comparison Plots: $\mu $+jets channel}{150}{section.C.1}% 
+\contentsline {section}{ \numberline {C.2} Shape Comparison Plots: $e$+jets channel}{153}{section.C.2}% 
+\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{158}{figure.caption.102}% 
+\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Pull Plots}}{162}{figure.caption.105}% 
+\contentsline {chapter}{REFERENCES CITED}{163}{figure.caption.105}% 

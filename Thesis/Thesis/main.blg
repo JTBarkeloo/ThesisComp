@@ -11,6 +11,7 @@ A level-1 auxiliary file: Simulation.aux
 A level-1 auxiliary file: SearchStrategy.aux
 A level-1 auxiliary file: Results.aux
 A level-1 auxiliary file: Conclusion.aux
+A level-1 auxiliary file: appendicies.aux
 The style file: unsrt.bst
 Database file #1: main.bib
 Warning--entry type for "TopWG" isn't style-file defined
@@ -59,7 +60,7 @@ Warning--empty journal in Friedman:695770
 Warning--there's a number but no volume in Friedman:695770
 You've used 100 entries,
             1791 wiz_defined-function locations,
-            1052 strings with 19049 characters,
+            1053 strings with 19064 characters,
 and the built_in function-call counts, 19498 in all, are:
 = -- 1663
 > -- 780
