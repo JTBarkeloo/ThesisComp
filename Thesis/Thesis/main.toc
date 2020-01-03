@@ -1,20 +1,97 @@
 \babel@toc {USenglish}{}
-\contentsline {chapter}{\numberline {I}\uppercase {Analysis And Results}}{1}{Doc-Start}% 
-\contentsline {section}{ \numberline {1.1} Systematic Uncertainties}{1}{section.1.1}% 
-\contentsline {subsection}{ \numberline {1.1.1} Theoretical uncertainties}{2}{subsection.1.1.1}% 
-\contentsline {subsection}{ \numberline {1.1.2} Experimental Uncertainties}{2}{subsection.1.1.2}% 
-\contentsline {subsection}{ \numberline {1.1.3} Symmetrization, Smoothing, and Pruning of Systematic Uncertainties}{4}{subsection.1.1.3}% 
-\contentsline {subsubsection}{ Symmetrization}{4}{subsubsection.1.1.3.1}% 
-\contentsline {subsubsection}{ Smoothing}{5}{subsubsection.1.1.3.2}% 
-\contentsline {subsubsection}{ Pruning}{5}{subsubsection.1.1.3.3}% 
-\contentsline {section}{ \numberline {1.2} Statistical Treatment of Results}{6}{section.1.2}% 
-\contentsline {section}{ \numberline {1.3} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{6}{section.1.3}% 
+\contentsline {chapter}{\numberline {I}\uppercase {Introduction}}{1}{Doc-Start}% 
+\contentsline {section}{ \numberline {1.1} The Standard Model Top Quark}{1}{section.1.1}% 
+\contentsline {section}{ \numberline {1.2} Searching for FCNC Top Quark Decays}{2}{section.1.2}% 
+\contentsline {chapter}{\numberline {II}\uppercase {Theory}}{4}{section.1.2}% 
+\contentsline {section}{ \numberline {2.1} The Standard Model Particles}{4}{section.2.1}% 
+\contentsline {section}{ \numberline {2.2} The Standard Model Interactions}{6}{section.2.2}% 
+\contentsline {section}{ \numberline {2.3} Electroweak Symmetry Breaking}{8}{section.2.3}% 
+\contentsline {subsection}{ \numberline {2.3.1} Gauge Boson Masses}{9}{subsection.2.3.1}% 
+\contentsline {subsection}{ \numberline {2.3.2} Fermion Masses}{10}{subsection.2.3.2}% 
+\contentsline {subsection}{ \numberline {2.3.3} The CKM Matrix}{12}{subsection.2.3.3}% 
+\contentsline {section}{ \numberline {2.4} The Top Quark}{13}{section.2.4}% 
+\contentsline {subsection}{ \numberline {2.4.1} Discovering The Top Quark}{14}{subsection.2.4.1}% 
+\contentsline {subsection}{ \numberline {2.4.2} Production and Decay At Hadron Colliders}{16}{subsection.2.4.2}% 
+\contentsline {subsection}{ \numberline {2.4.3} Beyond the Standard Model Top Quark Physics}{20}{subsection.2.4.3}% 
+\contentsline {section}{ \numberline {2.5} The Flavor-Changing Neutral Current}{21}{section.2.5}% 
+\contentsline {subsection}{ \numberline {2.5.1} The Standard Model Flavor Sector}{21}{subsection.2.5.1}% 
+\contentsline {subsection}{ \numberline {2.5.2} The GIM Mechanism}{23}{subsection.2.5.2}% 
+\contentsline {subsection}{ \numberline {2.5.3} New Physics With Enhancements to FCNCs}{26}{subsection.2.5.3}% 
+\contentsline {subsection}{ \numberline {2.5.4} Current Measurements of Top FCNCs}{29}{subsection.2.5.4}% 
+\contentsline {chapter}{\numberline {III}\uppercase {The Large Hadron Collider and the ATLAS Detector}}{34}{figure.caption.18}% 
+\contentsline {section}{ \numberline {3.1} The Large Hadron Collider}{34}{section.3.1}% 
+\contentsline {subsection}{ \numberline {3.1.1} LHC Magnets}{37}{subsection.3.1.1}% 
+\contentsline {subsection}{ \numberline {3.1.2} Luminosity}{37}{subsection.3.1.2}% 
+\contentsline {subsection}{ \numberline {3.1.3} Pileup}{39}{subsection.3.1.3}% 
+\contentsline {section}{ \numberline {3.2} The ATLAS Detector}{41}{section.3.2}% 
+\contentsline {subsection}{ \numberline {3.2.1} Common Detector Variables and the ATLAS Coordinate System}{43}{subsection.3.2.1}% 
+\contentsline {subsection}{ \numberline {3.2.2} Magnet Setup}{44}{subsection.3.2.2}% 
+\contentsline {subsection}{ \numberline {3.2.3} Inner Detector}{45}{subsection.3.2.3}% 
+\contentsline {subsection}{ \numberline {3.2.4} Electromagnetic and Hadronic Calorimeters}{49}{subsection.3.2.4}% 
+\contentsline {subsection}{ \numberline {3.2.5} Muon System}{52}{subsection.3.2.5}% 
+\contentsline {subsection}{ \numberline {3.2.6} Trigger and Data Acquisition}{54}{subsection.3.2.6}% 
+\contentsline {subsubsection}{ Level 1 Calorimeter}{56}{subsubsection.3.2.6.1}% 
+\contentsline {subsubsection}{ High Level Trigger}{57}{subsubsection.3.2.6.2}% 
+\contentsline {chapter}{\numberline {IV}\uppercase {Simulation and Reconstruction}}{58}{subsubsection.3.2.6.2}% 
+\contentsline {section}{ \numberline {4.1} Simulation of pp Collisions}{58}{section.4.1}% 
+\contentsline {subsection}{ \numberline {4.1.1} Matrix Element Calculation and Parton Distribution Functions}{59}{subsection.4.1.1}% 
+\contentsline {subsection}{ \numberline {4.1.2} Parton Shower Calculation}{61}{subsection.4.1.2}% 
+\contentsline {subsection}{ \numberline {4.1.3} Detector Simulation}{61}{subsection.4.1.3}% 
+\contentsline {subsection}{ \numberline {4.1.4} Monte Carlo Generators Used for LHC Physics}{62}{subsection.4.1.4}% 
+\contentsline {section}{ \numberline {4.2} Creation of Flavor Changing Neutral Current Signal Events}{62}{section.4.2}% 
+\contentsline {subsection}{ \numberline {4.2.1} FCNC Events Produced With MadGraph5 aMC@NLO}{63}{subsection.4.2.1}% 
+\contentsline {section}{ \numberline {4.3} Object Reconstruction}{67}{section.4.3}% 
+\contentsline {subsection}{ \numberline {4.3.1} Electrons}{68}{subsection.4.3.1}% 
+\contentsline {subsection}{ \numberline {4.3.2} Muons}{70}{subsection.4.3.2}% 
+\contentsline {subsection}{ \numberline {4.3.3} Photons}{71}{subsection.4.3.3}% 
+\contentsline {subsection}{ \numberline {4.3.4} Jets}{74}{subsection.4.3.4}% 
+\contentsline {subsubsection}{ B-Jets}{76}{subsubsection.4.3.4.1}% 
+\contentsline {subsection}{ \numberline {4.3.5} Missing Transverse Energy}{78}{subsection.4.3.5}% 
+\contentsline {subsubsection}{ Neutrino Reconstruction}{79}{subsubsection.4.3.5.1}% 
+\contentsline {chapter}{\numberline {V}\uppercase {Search Strategy}}{80}{subsubsection.4.3.5.1}% 
+\contentsline {section}{ \numberline {5.1} Major Backgrounds}{80}{section.5.1}% 
+\contentsline {subsection}{ \numberline {5.1.1} Overlap Removal}{81}{subsection.5.1.1}% 
+\contentsline {subsection}{ \numberline {5.1.2} Duplicate Event Removal}{82}{subsection.5.1.2}% 
+\contentsline {section}{ \numberline {5.2} Event Selection}{82}{section.5.2}% 
+\contentsline {section}{ \numberline {5.3} Event Classification: Neural Network Optimization}{83}{section.5.3}% 
+\contentsline {subsection}{ \numberline {5.3.1} Input Variables}{84}{subsection.5.3.1}% 
+\contentsline {subsection}{ \numberline {5.3.2} Architecture}{90}{subsection.5.3.2}% 
+\contentsline {subsubsection}{ Training and Validation of Neural Networks}{93}{subsubsection.5.3.2.1}% 
+\contentsline {subsection}{ \numberline {5.3.3} Hidden Layer Studies}{95}{subsection.5.3.3}% 
+\contentsline {subsection}{ \numberline {5.3.4} B-Tagging Working Point Studies}{99}{subsection.5.3.4}% 
+\contentsline {section}{ \numberline {5.4} Initial Event Selection}{102}{section.5.4}% 
+\contentsline {subsection}{ \numberline {5.4.1} Triggers}{103}{subsection.5.4.1}% 
+\contentsline {section}{ \numberline {5.5} Data and MC Pre-Selection Cuts}{104}{section.5.5}% 
+\contentsline {section}{ \numberline {5.6} Background Evaluation: Control and Validation Regions}{111}{section.5.6}% 
+\contentsline {subsection}{ \numberline {5.6.1} Backgrounds Without Photons}{111}{subsection.5.6.1}% 
+\contentsline {subsection}{ \numberline {5.6.2} Background With Photons}{116}{subsection.5.6.2}% 
+\contentsline {subsubsection}{ W+$\gamma $ Control Region}{116}{subsubsection.5.6.2.1}% 
+\contentsline {subsubsection}{ $t\bar {t}+\gamma $ Control Region}{120}{subsubsection.5.6.2.2}% 
+\contentsline {section}{ \numberline {5.7} Fake Rates}{123}{section.5.7}% 
+\contentsline {subsection}{ \numberline {5.7.1} Electron $\rightarrow $ Photon Fakes}{123}{subsection.5.7.1}% 
+\contentsline {subsection}{ \numberline {5.7.2} Jet $\rightarrow $ Lepton Fakes}{128}{subsection.5.7.2}% 
+\contentsline {subsection}{ \numberline {5.7.3} Jet $\rightarrow $ Photon Fakes}{130}{subsection.5.7.3}% 
+\contentsline {section}{ \numberline {5.8} Signal Region}{136}{section.5.8}% 
+\contentsline {chapter}{\numberline {VI}\uppercase {Analysis And Results}}{141}{table.caption.95}% 
+\contentsline {section}{ \numberline {6.1} Systematic Uncertainties}{141}{section.6.1}% 
+\contentsline {subsection}{ \numberline {6.1.1} Theoretical uncertainties}{142}{subsection.6.1.1}% 
+\contentsline {subsection}{ \numberline {6.1.2} Experimental Uncertainties}{142}{subsection.6.1.2}% 
+\contentsline {subsection}{ \numberline {6.1.3} Symmetrization, Smoothing, and Pruning of Systematic Uncertainties}{144}{subsection.6.1.3}% 
+\contentsline {subsubsection}{ Symmetrization}{144}{subsubsection.6.1.3.1}% 
+\contentsline {subsubsection}{ Smoothing}{145}{subsubsection.6.1.3.2}% 
+\contentsline {subsubsection}{ Pruning}{145}{subsubsection.6.1.3.3}% 
+\contentsline {section}{ \numberline {6.2} Statistical Treatment of Results}{146}{section.6.2}% 
+\contentsline {section}{ \numberline {6.3} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{146}{section.6.3}% 
+\contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{147}{section.6.3}% 
+\contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{147}{section.7.1}% 
+\contentsline {section}{ \numberline {7.2} Future Directions}{147}{section.7.2}% 
+\contentsline {section}{ \numberline {7.3} Conclusion}{147}{section.7.3}% 
  \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
-\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{7}{section.1.3}% 
-\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{8}{table.caption.1}% 
-\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Additional Plots from NN Studies}}{13}{table.caption.6}% 
-\contentsline {section}{ \numberline {C.1} Additional Shape Comparison Plots: $\mu $+jets channel}{13}{section.C.1}% 
-\contentsline {section}{ \numberline {C.2} Shape Comparison Plots: $e$+jets channel}{16}{section.C.2}% 
-\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{21}{figure.caption.13}% 
-\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Pull Plots}}{25}{figure.caption.16}% 
-\contentsline {chapter}{REFERENCES CITED}{26}{figure.caption.16}% 
+\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{148}{section.7.3}% 
+\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{149}{table.caption.96}% 
+\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Additional Plots from NN Studies}}{154}{table.caption.101}% 
+\contentsline {section}{ \numberline {C.1} Additional Shape Comparison Plots: $\mu $+jets channel}{154}{section.C.1}% 
+\contentsline {section}{ \numberline {C.2} Shape Comparison Plots: $e$+jets channel}{157}{section.C.2}% 
+\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{162}{figure.caption.108}% 
+\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Pull Plots}}{166}{figure.caption.111}% 
+\contentsline {chapter}{REFERENCES CITED}{167}{figure.caption.111}% 
