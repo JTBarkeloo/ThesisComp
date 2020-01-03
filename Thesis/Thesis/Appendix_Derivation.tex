@@ -1,3 +1,24 @@
 \chapter{Derivation Information (TOPQ1)}
 
 Preselection is applied to both data and MC samples using the derivation framework in order to reduce the xAOD sample size.  TOPQ1 derivations were used and further skimmed for the specific n-tuples used in this analysis.
+TOPQ1 derivations are used for standard top analyses with at least one lepton and have the following definitions:
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ll}
+\hhline{==}
+Particle	&	 Definition  \\ \hline
+Electron  &  $|\eta|<2.5 $ and Electrons.DFCommonElectronsLHLoose \\
+Muon	& $|\eta|<2.5 $ and Muons.muonType=0 and Muons.DFCommonGoodMuon \\
+Small-R Jet& $|\eta|<2.5$ and AntiKt4EMTopoJets.DFCommonJets\_Calib \\
+Large-R Jet& $|\eta|<2.5$ and AntiKt10LCTopoTrimmedPtFrac5SmallR20Jets.DFCommonJets\_Calib \\
+ \hhline{==}
+\end{tabular}
+\caption{TOPQ1 Object Definitions}
+\label{tab:TOPQ1}
+}
+\end{center}
+\end{table}
+
+In addition to these object definitions TOPQ1 Derivations require trigger skimming of $\geq 1$ lepton with $p_\text{T}>20$GeV.
