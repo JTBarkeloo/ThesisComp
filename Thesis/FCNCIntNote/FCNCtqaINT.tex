@@ -57,11 +57,11 @@
 
 % Files with references for use with biblatex.
 % Note that biber gives an error if it finds empty bib files.
-% \addbibresource{FCNCtqaINT.bib}
-\addbibresource{bib/ATLAS.bib}
-\addbibresource{bib/CMS.bib}
-\addbibresource{bib/ConfNotes.bib}
-\addbibresource{bib/PubNotes.bib}
+%\addbibresource{FCNCtqaINT.bib}
+%\addbibresource{bib/ATLAS.bib}
+%\addbibresource{bib/CMS.bib}
+%\addbibresource{bib/ConfNotes.bib}
+%\addbibresource{bib/PubNotes.bib}
 
 % Paths for figures - do not forget the / at the end of the directory name.
 \graphicspath{{logos/}{figures/}}
@@ -103,11 +103,9 @@
 \end{itemize}
 
 %-------------------------------------------------------------------------------
-\newpage
-
-
-%-------------------------------------------------------------------------------
-
+%\newpage
+%\section{Introduction}
+%\label{sec:intro}
 \include{Introduction}
 
 %-------------------------------------------------------------------------------
@@ -164,10 +162,10 @@ Place your conclusion here.
 %-------------------------------------------------------------------------------
 % If you use biblatex and either biber or bibtex to process the bibliography
 % just say \printbibliography here
-\printbibliography
+%\printbibliography
 % If you want to use the traditional BibTeX you need to use the syntax below.
-% \bibliographystyle{obsolete/bst/atlasBibStyleWithTitle}
-% \bibliography{FCNCtqaINT,bib/ATLAS,bib/CMS,bib/ConfNotes,bib/PubNotes}
+\bibliographystyle{obsolete/bst/atlasBibStyleWithTitle}
+\bibliography{FCNCtqaINT,bib/ATLAS,bib/CMS,bib/ConfNotes,bib/PubNotes}
 %-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------
