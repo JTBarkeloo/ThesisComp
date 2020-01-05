@@ -10,13 +10,17 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \subsection{Theoretical uncertainties}
 \begin{description}
-\item[\textbf{Cross Section}:]  $t\bar{t}$ \cite{ttXSec} $t\bar{t}+\gamma$: \cite{ATLAS:2018pmj}, SingleTop: \cite{SingleTopXSec}, V+jest: \cite{VXSec}, VV:\cite{VXSec}
-\item[\textbf{Renormalization and Factorization Scale}:]  
-\item[\textbf{PDF Uncertainty}:]  
-\item[\textbf{Initial and Final State Radiation}:] 
-\item[\textbf{Normalization of Prompt Photon Contribution}:]  
-\item[\textbf{PDF Uncertainty}:]  
-\item[\textbf{$t\bar{t}$ Matrix Element and Shower Generator}:]  
+\item[\textbf{Cross Section}:]  Various cross sections for MC samples are separately varied up and down by one standard deviation for each process: $t\bar{t}$ ($\pm5.6\%$ \cite{ttXSec}), $t\bar{t}+\gamma$ ($\pm 8.0\%$ \cite{ATLAS:2018pmj}), single top(t-channel top $^{+4.0\%}_{-3.4\%}$, t-channel anti-top $^{+5.0\%}_{-4.5\%}$, s-channel top $^{+3.6\%}_{-3.1\%}$, s-channel anti-top $^{+4.8\%}_{-4.3\%}$, tW-channel $\pm 5.3\%$ \cite{SingleTopXSec}), V+jets ($\pm5\%$ \cite{VXSec}), and diboson VV ($\pm 6\%$ \cite{VXSec}).  Uncertainties on the prompt photon contribution from W/$t\bar{t}$+jets+$\gamma$ enter the fit as other nuisance parameters as the normalization is allowed to vary in the fit.
+
+\item[\textbf{Renormalization and Factorization Scale}:]  The effect of the choice of renormalization and factorization scales ($\mu_r$ and $\mu_f$) is estimated varying them independently or simultaneously up and down by a factor of 2 compared to the nominal value.  This is done using event weights and the maximum and deviations from the nominal are taken to be the up and down variations.
+
+\item[\textbf{PDF Uncertainty}:]  The PDF uncertainty is estimated using the PDF4LHC15 error set which contains 30 eigen variations which enter the fit as individual nuisance parameters.
+
+\item[\textbf{Initial and Final State Radiation}:] The effects of ISR are estimated by decreasing the total QCD radiation activity in the events.  These variations are avaialbe for single top and $t\bar{t}$ processes.  For single top processes the A14 tune is varied up (down) using the event weight Var3cUp (Var3cDown) and dividing (multiplying) $\mu_r$ and $\mu_f$ by a factor of 2.  For $t\bar{t}$ processes a sample with parameter $h_\text{damp}=3m_\text{top}$ is used in the same manner varying Var3cUp while the down variation uses event weights in the nominal sample.   FSR uncertainties are estimated varying parameters using the A14 tune by varying event weight (Var2) up and down. %Change if not using single top information
+
+\item[\textbf{Normalization of Prompt Photon Contribution}:]  The normalization of the prompt photon contributions that stem from the W+jets+$\gamma$ and $t\bar{t}$+jets+$\gamma$, the major backgrounds, enter the fit as free floating nuisance parameters.
+
+\item[\textbf{$\textbf{t}\bar{\textbf{t}}$ Matrix Element and Shower Generator}:]  To estimate the uncertainty based on our choice of MC generator and showering algorithm used to create the nominal sample (\textsc{Powheg-Box + Pythia}) is replaced by samples generated using \textsc{MadGraph5\_}a\textsc{MC@NLO + Pythia} and \textsc{Powheg-Box + Herwig}.
 \end{description}
 
 \subsection{Experimental Uncertainties}
@@ -32,17 +36,17 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \item[\textbf{Photon Energy Scale and Resolution}:]  Photon energy scale and resolution are calculated together with electron energy scale and resolution.
 
-\item[\textbf{Jet Energy Scale}:]
+\item[\textbf{Jet Energy Scale}:] The jet energy scale (JES) and its uncertainty are derived using combinations of measurements in both simulation and data.  The \textit{CategoryReduction} reduction parameter set (30 nuisance parameters) are varied up and down and used for categories such as \textit{in-situ} jet energy corrections, flavor composition and response, $\eta$ inter-calibration, b-jet energy scale, and pile-up.
 
-\item[\textbf{Jet Energy Resolution}:] \cite{ATL-PHYS-PUB-2015-015}
+\item[\textbf{Jet Energy Resolution}:] The jet energy resolution (JER) is measured independently for data and MC using two techniques \cite{ATL-PHYS-PUB-2015-015} which results in 8 separate nuisance parameters.  These nuisance parameters are one sided, as such the uncertainty is symmetrized.
 
-\item[\textbf{Jet Flavor Fraction}:]  
+%\item[\textbf{Jet Flavor Fraction}:]  Uncertainty arising from jet flavor composition the ratio of light-quark initiated to gluon-initiated jets is varied.  Nominally a 50:50 ratio is assumed with an uncertainty of 100\%.
 
 \item[\textbf{Jet Vertex Tagging}:]  The cut on the jet vertex tagging (JVT) discriminant is varied up and down \cite{JetJVT} and the certainty on the JVT scale factor is calculated which is then propagated through this analysis.
 
-\item[\textbf{b-tagging}:]  
+\item[\textbf{b-tagging}:]  Efficiencies for the various b-tagging working points are measured in data and scale factors are derived for simulation depending on the jet flavor.  The uncertainties on these scale factors are provided by the Flavor Tagging group for b, c, and light jets.
 
-\item[\textbf{$\slashed{E}$ Uncertainties}:] 
+\item[\textbf{$\slashed{E}$ Uncertainties}:]  Uncertainties on the lepton, photon, jet scale and resolution are propagated through to the missing transverse energy.  As such the impact on the $\slashed{E}$ uncertainty is estimated when evaluating the shift on the other variables.
 
 \item[\textbf{Further Background Estimation}:] Uncertainties on the data-driven scale factors calculated for this analyis as described in Section \ref{sec:Fakes} are applied and the scale factors are varied up and down by one standard deviation.
 
@@ -65,23 +69,68 @@ Smoothing is a technique used to average statistics across bins.  This prevents 
 
 \section{Statistical Treatment of Results}
 A profile likelihood fit is performed simultaneously on the SR and W+$\gamma$+jets and $t\bar{t} +\gamma$+jets CRs.  The \textbf{TRExFitter} framework \cite{TRExFitter} was used for this analysis which provides a framework built upon existing code such as the \textbf{RooStats} project \cite{Moneta:2010pm}.
-Following \cite{Lista:2016chp}.
+Following \cite{Lista:2016chp} as well as the fit preformed in \cite{GregorFCNC} we can define a likelihood function $\mathcal{L}$ that is generally defined in the following manner:
+\[ \mathcal{L} = \mathcal{L}(\mu,\theta|\overrightarrow{x})
+\]
+where the parameter $\mu$ is defined as the signal strength and $\theta$ as the set of nuisance parameters for the systematic uncertainties.  The parameter of interest in the fit is proxied as  $\overrightarrow{x}$.  The likelihood is computed using the following:
+\[ \mathcal{L} = \displaystyle\prod_{r}^{N_\text{regions}}  \displaystyle\prod_{i}^{N_\text{r,bins}} P(N_{r,i}|N_{r,i}^\text{s} + \displaystyle\sum_{b}^{N_\text{bkg}}N_{r,i}^\text{b}) \displaystyle\prod_{j}^{N_\text{NP}} G(x|1,\sigma_{j})
+\]
+using the following parameters:
+\begin{itemize}
+\item $N_{\text{regions}}$ is the number of regions considered in the fit
+\item $N_\text{r,bins}$ is the number of bins in region $r$
+\item $r$ is the index that runs over each of the different regions
+\item $i$ is the index that runs over the number of bins in the region being considered
+\item $P(x|\lambda)$ is the Poisson function with a mean $\lambda$
+\item $N_\text{r,i}$ is the observed number of events in bin $i$ of region $r$
+\item $N_\text{r,i}^\text{s}$ is the expected number of signal events in bin $i$ of region $r$
+\item $N_\text{bkg}$ is the number of background processes that are considered in the fit
+\item $b$ is the index that runs over all catagories of backgrounds considered
+\item $N_\text{r,i}^\text{b}$ is the expected number of events of background $b$ in bin $i$ of region $r$
+\item $N_\text{NP}$ is the total number of nuisance parameters (NPs) considered in the fit
+\item $j$ is the index that runs over the number of NPs
+\item $G(x|\mu,\sigma_{j})$ is a Gaussian function with mean $\mu$ and width $\sigma_\text{j}$ for the source of systematic uncertainty $j$ (this Gaussian is replaced with a Poisson function for statstisical uncertainties due to MC statistics)
+\end{itemize}
 
 A profile likelihood approach for treatment of nuisance parameters \cite{Cowan:2010js} is used. The motivation for this test statistic comes from Wilks' theorem that allows approximate aymptotic behavior $-2 \text{ln} \lambda(\mu)$ as a $\chi^2$ \cite{Wilks:1938dza}.
+
+The signal strength, $\mu$, enters the likelihood as
+\[ N_\text{r,i}^\text{s} = \mu \cdot N_\text{input,r}^\text{s} \cdot \rho_\text{r,i}
+\]
+with the number of signal events in region $r$, $N_\text{input,r}^\text{s}$ is scaled using the effective cross section $\sigma_\text{eff}^\text{coup}$ and $\rho_\text{r,i}$, the fraction of signal events in the respective bin $i$ and region $r$. 
+
+Physically we can interpret this signal strength as the ratio of the signal cross section to the predicted signal cross section.  However it both the decay mode and production (prod) mode are considered then we can interpret $\mu$ as 
+\[\mu = \frac{N_\text{fit}^\text{decay} + N_\text{fit}^\text{prod.}}{N_\text{input}^\text{decay} + N_\text{input}^\text{prod.}}
+\]then it follows that 
+\[\mu = \frac{\epsilon^\text{decay}\times \mathcal{A}^\text{decay} \times \sigma^\text{decay}_\text{eff, fit}\times L+\epsilon^\text{prod.}\times \mathcal{A}^\text{prod.} \times \sigma^\text{prod.}_\text{eff, fit} \times L}{\epsilon^\text{decay}\times \mathcal{A}^\text{decay} \times \sigma^\text{decay}_\text{eff, input} \times L+\epsilon^\text{prod.}\times \mathcal{A}^\text{prod.} \times \sigma^\text{prod.}_\text{eff, input}\times L}
+\]
+where the fitted (input) number of signal events per coupling (production/decay) $N_\text{fit (input)}^\text{coupling}$, the signal efficiencies $\sigma^\text{coupling}$, the detector acceptances $\mathcal{A}^\text{coupling}$, the fitted (input) effective cross sections $\sigma_\text{eff,fit(input)}^\text{coupling}$, and the luminosity $L$.  If it is then assumed that the detector acceptances and signal efficiencies are independent from the coupling strength and the fact that the signal samples have the same dependence on the coupling strength ($\sigma_\text{eff}^\text{decay}/ \sigma_\text{eff}^\text{prod.} = \text{constant}$) we can simplify the expression for the signal strength to the following form:
+\[ \mu = \frac{\sigma_\text{eff,fit}^\text{decay}}{\sigma_\text{eff,input}^\text{decay}}=\frac{\sigma_\text{eff,fit}^\text{prod.}}{\sigma_\text{eff,input}^\text{prod.}}
+\]
+
+The background-only hypothesis is fulfilled when $\mu=0$.
+For this search the signal strength can be classified in terms of the branching ratio (BR)
+
+\[ \mu = \frac{\text{BR}(t\rightarrow q\gamma) \cdot \text{BR}(t\rightarrow Wb)}{\text{BR}_\text{input}(t\rightarrow q\gamma) \cdot \text{BR}_\text{input}(t\rightarrow Wb)}
+\]
+Under the assumption that the top quark nominally decays only to a b quark and a W boson and the negligible decay mode being searched for this can be rewritten as 
+\[ \mu = \frac{\text{BR}(t\rightarrow q\gamma) \cdot|1-\text{BR}(t\rightarrow q\gamma)|}{\text{BR}_\text{input}(t\rightarrow q\gamma) \cdot|1-\text{BR}_\text{input}(t\rightarrow q\gamma)|}
+\]
+\[ \mu \approx \frac{\text{BR}(t\rightarrow q\gamma)}{\text{BR}_\text{input}(t\rightarrow q\gamma)}
+\]
+Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal branching ratio) are tested in order to calculated expected and observed limits. %Change - maybe move?
 
 CLs:\cite{Read:2002hq}
 
 Combining searches with small stats from Lizas: \cite{Junk:1999kv}
+
+\section{Nuisance Parameters}
 
 \section{Limit on Branching Ratio t$\rightarrow$q$\gamma$}
 
 
 
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%                                                                                                   %%%%%%%% 
-%%%%%%%%%%%%%                           BEN                                                                  %%%%%%%% 
-%%%%%%%%%%%%%                                                                                                   %%%%%%%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %This chapter contains co-authored material from Ref.~\cite{Dijet2017}, written as part of the ATLAS Collaboration.
 %\newline
