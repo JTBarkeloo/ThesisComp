@@ -1,0 +1,255 @@
+\newpage
+\section{Complete List of Monte Carlo Samples Used}
+\label{app:samples}
+The following MC samples have been used to simulate the signal and various Standard Model backgrounds at center of mass energy of 13 TeV.  MC16a, MC16d, and MC16e samples correspond to run conditions for years 2015/16, 2017, and 2018 respectively.   The newest unprescaled p-tag samples at the time of writing were used for each sample.
+
+
+\begin{table}[h!]
+\scriptsize
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} lcll @{}}
+\hhline{====}
+Process	&	 MC DSID		&	Generator	& Generator Tune  \\ \hline
+\multicolumn{4}{l}{Diboson processes, Full Simulation} \\ \hline
+$ZZ\rightarrow llll$ & 364250 & \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$ZW\rightarrow lll \nu$ & 364253& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$WW/ZZ \rightarrow ll \nu\nu$& 364254& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$WZ \rightarrow l \nu\nu\nu$ & 364255 & \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$ZZ \rightarrow qq\nu\nu$ & 364355& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$ZZ \rightarrow qq ll$ & 364356& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$WZ \rightarrow qq \nu\nu$ & 363357& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$WZ \rightarrow qqll$ & 363358& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$WW \rightarrow qq l^- \nu$ &363359& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$WW \rightarrow qq l^+ \nu$ & 363360& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$WZ \rightarrow qq l \nu$ & 363489& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\ \hline \\ 
+\multicolumn{4}{l}{$t\bar{t}+V$ processes} \\ \hline
+$t\bar{t}W$ & 410155 & \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\
+$t\bar{t}Z \rightarrow t\bar{t}\nu\nu$ & 410156 &\textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\
+$t\bar{t}Z \rightarrow t\bar{t}qq$ &410157 &\textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\
+$t\bar{t}Z \rightarrow t\bar{t}ee$ & 410218 &\textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\
+$t\bar{t}Z \rightarrow t\bar{t}\mu\mu$ & 410219 &\textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\
+$t\bar{t}Z \rightarrow t\bar{t}\tau\tau$ & 410220 &\textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\
+ \hhline{====}
+\end{tabular}
+\caption{List of MC16a (r-tag  9364) samples used in this search for the $t\bar{t}+V$ and diboson processes.  All samples are available and used for MC16d (r-tag 10201) and MC16e (r-tag 10724) unless otherwise stated.}
+\label{tab:MCSample2}
+}
+\end{center}
+\end{table}
+
+\begin{table}[h!]
+\scriptsize
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} lcll @{}}
+\hhline{====}
+Process	&	 MC DSID		&	Generator	& Generator Tune  \\ \hline
+\multicolumn{4}{l}{Signal samples for FCNC in decay mode: $pp\rightarrow t\bar{t} \rightarrow bl \nu q \gamma$, NLO, AFII} \\ \hline
+$tc\gamma$, anti-top	& 410980 	& \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen}	& A14 NNPDF23LO \\
+$tc\gamma$, top	& 410981	& \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen}	& A14 NNPDF23LO \\
+$tu\gamma$, anti-top	& 410984	& \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen}	& A14 NNPDF23LO \\
+$tu\gamma$, top	& 410985	& \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen}	& A14 NNPDF23LO \\ \hline \\
+\multicolumn{4}{l}{$t\bar{t}$ processes, Full Simuation} \\ \hline
+$t\bar{t}$ (NLO) & 410470	& \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14 NNPDF23LO \\
+$t\bar{t} + \gamma$ (LO) & 410389	& \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14 NNPDF23LO \\ \hline \\
+\multicolumn{4}{l}{$t\bar{t}$ processes, Variation Samples, NLO, AFII} \\ \hline
+$t\bar{t}$ (single lepton) & 410557	& \textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\ 
+$t\bar{t}$ (di-lepton) & 410558	& \textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\ 
+$t\bar{t}$ (single lepton) & 410464	& \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\ 
+$t\bar{t}$ (di-lepton) & 410465	& \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\ 
+$t\bar{t}$ (single lepton, $h_\text{damp}=3m_\text{top}$) & 410480	& \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14NNPDF23LO \\ 
+$t\bar{t}$ (di-lepton,$h_\text{damp}=3m_\text{top}$) & 410482	& \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14NNPDF23LO \\ 
+\hline \\
+\multicolumn{4}{l}{Single-top processes, NLO, Full Simulation} \\ \hline
+t-channel, top & 410658 & \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14 NNPDF23LO \\
+t-channel, anti-top & 410659 & \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14 NNPDF23LO \\
+s-channel, top & 410644 & \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14 NNPDF23LO \\
+s-channel, anti-top & 410645 & \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14 NNPDF23LO \\
+tW-channel, top & 410646 & \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14 NNPDF23LO \\
+tW-channel, anti-top & 410647 & \textsc{Powheg-Box + Pythia 8 + EvtGen} & A14 NNPDF23LO \\ \hline \\
+\multicolumn{4}{l}{Single-top processes, Variation Samples, NLO} \\ \hline
+t-channel, anti-top, AFII & 411032 &\textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\
+t-channel, top, AFII & 411033 & \textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\
+t-channel, AFII & 410560 & \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\ 
+s-channel, anti-top, AFII & 411034 &\textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\
+s-channel, top, AFII & 411035 & \textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\
+s-channel, AFII & 410561 & \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\ 
+tW-channel, anti-top, AFII & 411036 &\textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\
+tW-channel, top, AFII & 411037 & \textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\
+tW-channel, anti-top, AFII & 410654 &\textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\
+tW-channel, top, AFII & 410655 & \textsc{Powheg-Box + Herwig 7 + EvtGen} & MMHT2017lo68cl \\
+tW-channel, AFII & 412002& \textsc{MadGraph5\_aMC@NLO + Pythia 8 + EvtGen} & A14NNPDF23LO \\ 
+ \hhline{====}
+\end{tabular}
+\caption{List of MC16a (r-tag  9364) samples used in this search for the signal sample, $t\bar{t}$, and single-top processes.  All samples are available and used for MC16d (r-tag 10201) and MC16e (r-tag 10724) unless otherwise stated.}
+\label{tab:MCSample1}
+}
+\end{center}
+\end{table}
+
+
+\begin{table}[h!]
+\scriptsize
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} lcll @{}}
+\hhline{====}
+Process	&	 MC DSID		&	Generator	& Generator Tune  \\ \hline
+\multicolumn{4}{l}{W+Jets, Full Simulation} \\ \hline
+$W\rightarrow e\nu$, max$(H_T,p_T^V)<70$GeV, c veto, b veto &  364170&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, max$(H_T,p_T^V)<70$GeV, c filter, b veto & 364171&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, max$(H_T,p_T^V)<70$GeV, b filter & 364172&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c veto, b veto & 364173& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c filter, b veto & 364174& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, b filter & 364175& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c veto, b veto & 364176&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c filter, b veto & 364177& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, b filter & 364178& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c veto, b veto & 364179& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c filter, b veto & 364180& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, b filter &  364181& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 500GeV$<$max$(H_T,p_T^V)<1000$GeV & 364182& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, max$(H_T,p_T^V)>1000$GeV&  364183&  	 \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\	\\
+$W\rightarrow \mu\nu$, max$(H_T,p_T^V)<70$GeV, c veto, b veto &  364156& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, max$(H_T,p_T^V)<70$GeV, c filter, b veto & 364157& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, max$(H_T,p_T^V)<70$GeV, b filter & 364158& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c veto, b veto & 364159& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c filter, b veto & 364160& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, b filter & 364161& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c veto, b veto & 364162&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c filter, b veto & 364163& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, b filter & 364164& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c veto, b veto & 364165& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c filter, b veto & 364166& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, b filter &  364167& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 500GeV$<$max$(H_T,p_T^V)<1000$GeV & 364168& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, max$(H_T,p_T^V)>1000$GeV&  364169&	 \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\	\\
+$W\rightarrow \tau\nu$, max$(H_T,p_T^V)<70$GeV, c veto, b veto &  364184& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, max$(H_T,p_T^V)<70$GeV, c filter, b veto & 364185& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, max$(H_T,p_T^V)<70$GeV, b filter & 364186& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c veto, b veto & 364187& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c filter, b veto & 364188& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, b filter & 364189& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c veto, b veto & 364190&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c filter, b veto & 364191& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, b filter & 364192& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c veto, b veto & 364193& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c filter, b veto & 364194& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, b filter &  364195& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 500GeV$<$max$(H_T,p_T^V)<1000$GeV & 364196& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, max$(H_T,p_T^V)>1000$GeV&  364197&		 \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+ \hhline{====}
+\end{tabular}
+\caption{List of MC16a (r-tag  9364) samples used in this search for the W+jets background.  All samples are available and used for MC16d (r-tag 10201) and MC16e (r-tag 10724). All processes are simulated for up to 2 partons at NLO and 4 partons at LO.}
+\label{tab:MCSample3}
+}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h!]
+\scriptsize
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} lcll @{}}
+\hhline{====}
+Process	&	 MC DSID		&	Generator	& Generator Tune  \\ \hline
+\multicolumn{4}{l}{Z+Jets, Full Simulation} \\ \hline
+$Z\rightarrow ee$, max$(H_T,p_T^V)<70$GeV, c veto, b veto &  364114&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, max$(H_T,p_T^V)<70$GeV, c filter, b veto & 364115&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, max$(H_T,p_T^V)<70$GeV, b filter & 364116&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c veto, b veto & 364117& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c filter, b veto & 364118& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, b filter & 364119& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c veto, b veto & 364120&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c filter, b veto & 364121& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, b filter & 364122& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c veto, b veto & 364123& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c filter, b veto & 364124& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, b filter &  364125& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 500GeV$<$max$(H_T,p_T^V)<1000$GeV & 364126& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, max$(H_T,p_T^V)>1000$GeV&  364127&  	 \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\	\\
+$Z\rightarrow \mu\mu$, max$(H_T,p_T^V)<70$GeV, c veto, b veto &  364100&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, max$(H_T,p_T^V)<70$GeV, c filter, b veto & 364101&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, max$(H_T,p_T^V)<70$GeV, b filter & 364102&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c veto, b veto & 364103& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c filter, b veto & 364104& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, b filter & 364105& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c veto, b veto & 364106&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c filter, b veto & 364107& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, b filter & 364108& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c veto, b veto & 364109& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c filter, b veto & 364110& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, b filter &  364111& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 500GeV$<$max$(H_T,p_T^V)<1000$GeV & 364112& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, max$(H_T,p_T^V)>1000$GeV&  364113&  	 \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\	\\
+$Z\rightarrow \tau\tau$, max$(H_T,p_T^V)<70$GeV, c veto, b veto &  364128&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, max$(H_T,p_T^V)<70$GeV, c filter, b veto & 364129&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, max$(H_T,p_T^V)<70$GeV, b filter & 364130&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c veto, b veto & 364131& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, c filter, b veto & 364132& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 70GeV$<$max$(H_T,p_T^V)<140$GeV, b filter & 364133& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c veto, b veto & 364134&  \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, c filter, b veto & 364135& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 140GeV$<$max$(H_T,p_T^V)<280$GeV, b filter & 364136& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c veto, b veto & 364137& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, c filter, b veto & 364138& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 280GeV$<$max$(H_T,p_T^V)<500$GeV, b filter &  364139& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 500GeV$<$max$(H_T,p_T^V)<1000$GeV & 364140& \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, max$(H_T,p_T^V)>1000$GeV&  364141&  	 \textsc{Sherpa2.2.1} &NNPDF3.0 NNLO \\	\\
+ \hhline{====}
+\end{tabular}
+\caption{List of MC16a (r-tag  9364) samples used in this search for the Z+jets background.  All samples are available and used for MC16d (r-tag 10201) and MC16e (r-tag 10724). All processes are simulated for up to 2 partons at NLO and 4 partons at LO.}
+\label{tab:MCSample4}
+}
+\end{center}
+\end{table}
+
+\begin{table}[h!]
+\scriptsize
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} lcll @{}}
+\hhline{====}
+Process	&	 MC DSID		&	Generator	& Generator Tune  \\ \hline
+\multicolumn{4}{l}{Z+Jets+$\gamma$, Full Simulation} \\ \hline
+$Z\rightarrow ee$, 7GeV$<p_T^\gamma<15$GeV & 366140& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 15GeV$<p_T^\gamma<35$GeV & 366141& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 35GeV$<p_T^\gamma<70$GeV & 366142& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, 70GeV$<p_T^\gamma<140$GeV & 366143& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow ee$, $p_T^\gamma>140$GeV & 366144& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 7GeV$<p_T^\gamma<15$GeV & 366145& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 15GeV$<p_T^\gamma<35$GeV & 366146& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 35GeV$<p_T^\gamma<70$GeV & 366147& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, 70GeV$<p_T^\gamma<140$GeV & 366148& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \mu\mu$, $p_T^\gamma>140$GeV & 366149& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 7GeV$<p_T^\gamma<15$GeV & 366150& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 15GeV$<p_T^\gamma<35$GeV & 366151& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 35GeV$<p_T^\gamma<70$GeV & 366152& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, 70GeV$<p_T^\gamma<140$GeV & 366153& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\
+$Z\rightarrow \tau\tau$, $p_T^\gamma>140$GeV & 366154& \textsc{Sherpa2.2.4} &NNPDF3.0 NNLO \\ \hline \\
+\multicolumn{4}{l}{W+Jets+$\gamma$, Full Simulation} \\ \hline
+$W\rightarrow e\nu$, 7GeV$<p_T^\gamma<15$GeV & 364521& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 15GeV$<p_T^\gamma<35$GeV & 364522& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 35GeV$<p_T^\gamma<70$GeV & 364523& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, 70GeV$<p_T^\gamma<140$GeV & 364524& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow e\nu$, $p_T^\gamma>140$GeV & 364525& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 7GeV$<p_T^\gamma<15$GeV & 364526& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 15GeV$<p_T^\gamma<35$GeV & 364527& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 35GeV$<p_T^\gamma<70$GeV & 364528& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, 70GeV$<p_T^\gamma<140$GeV & 364529& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \mu\nu$, $p_T^\gamma>140$GeV & 364530& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 7GeV$<p_T^\gamma<15$GeV & 364531& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 15GeV$<p_T^\gamma<35$GeV & 364532& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 35GeV$<p_T^\gamma<70$GeV & 364533& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, 70GeV$<p_T^\gamma<140$GeV & 364534& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+$W\rightarrow \tau\nu$, $p_T^\gamma>140$GeV & 364535& \textsc{Sherpa2.2.2} &NNPDF3.0 NNLO \\
+ \hhline{====}
+\end{tabular}
+\caption{List of MC16a (r-tag  9364) samples used in this search for the W+jets+$\gamma$ and Z+jets+$\gamma$ backgrounds.  All samples are available and used for MC16d (r-tag 10201) and MC16e (r-tag 10724). All processes are simulated for up to 1 parton at NLO and 3 partons at LO.}
+\label{tab:MCSample5}
+}
+\end{center}
+\end{table}

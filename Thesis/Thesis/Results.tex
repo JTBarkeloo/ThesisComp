@@ -5,6 +5,7 @@
 This search is to attempt to observe the FCNC decay of a top quark $t \rightarrow q \gamma$ or to set an upper limit on the branching ratio of this decay process is no observation occurs.  As there was on significant excess of events in the collected data an upper limit on the branching ratio is set.  This chapter will discuss  the methods used to set the upper limit on the branching ratio as well as discussion of the systematic uncertainties within the experiment. 
 
 \section{Systematic Uncertainties}
+\label{sec:NPUncertainties}
 Various sources of uncertainty are considered for any analysis in high energy physics.  Statistical and systematic uncertainties are studied and propagated through to the final upper limit set on the branching ratio.  The statistical errors are related to the amount of data collected or MC events that are available and created for analysis.  More data events or more MC simulated events lead to a smaller statistical error due to random fluctuations of stochastic processes.  In this section the systematic errors will be discussed.  Systematic errors are derived from limitations from detector construction or a lack of complete understanding of physics objects or algorithms used in reconstruction.  Some sources of systematic uncertainties are provided centrally within ATLAS from studies carried out by other analysis teams such as errors on the jet energy resolution (JER) or luminosity amongst others. Other sources are particular to the analysis such as errors propagating from deriving data-driven backgrounds as discussed in the previous chapter.
 This section will briefly introduce and discuss the theoretical systematic uncertainties considered in this analysis including the modeling and experimental uncertainties as well as a discussion on systematic smoothing, symmetrization, and pruning used in the final fit. 
 
@@ -92,12 +93,13 @@ using the following parameters:
 \item $G(x|\mu,\sigma_{j})$ is a Gaussian function with mean $\mu$ and width $\sigma_\text{j}$ for the source of systematic uncertainty $j$ (this Gaussian is replaced with a Poisson function for statstisical uncertainties due to MC statistics)
 \end{itemize}
 
-A profile likelihood approach for treatment of nuisance parameters \cite{Cowan:2010js} is used. The motivation for this test statistic comes from Wilks' theorem that allows approximate aymptotic behavior $-2 \text{ln} \lambda(\mu)$ as a $\chi^2$ \cite{Wilks:1938dza}.
-
 The signal strength, $\mu$, enters the likelihood as
 \[ N_\text{r,i}^\text{s} = \mu \cdot N_\text{input,r}^\text{s} \cdot \rho_\text{r,i}
 \]
 with the number of signal events in region $r$, $N_\text{input,r}^\text{s}$ is scaled using the effective cross section $\sigma_\text{eff}^\text{coup}$ and $\rho_\text{r,i}$, the fraction of signal events in the respective bin $i$ and region $r$. 
+
+
+A profile likelihood approach for treatment of nuisance parameters\cite{Cowan:2010js} (systematic uncertainties presented in Section \ref{sec:NPUncertainties}) is used.
 
 Physically we can interpret this signal strength as the ratio of the signal cross section to the predicted signal cross section.  However it both the decay mode and production (prod) mode are considered then we can interpret $\mu$ as 
 \[\mu = \frac{N_\text{fit}^\text{decay} + N_\text{fit}^\text{prod.}}{N_\text{input}^\text{decay} + N_\text{input}^\text{prod.}}
@@ -118,17 +120,16 @@ Under the assumption that the top quark nominally decays only to a b quark and a
 \]
 \[ \mu \approx \frac{\text{BR}(t\rightarrow q\gamma)}{\text{BR}_\text{input}(t\rightarrow q\gamma)}
 \]
-Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal branching ratio) are tested in order to calculated expected and observed limits. %Change - maybe move?
+Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal branching ratio) are tested in order to calculated expected and observed limits using the $\text{CL}_\text{s}$ technique\cite{Read:2002hq} and presented in Section \ref{sec:Limits}.  The $\text{CL}_\text{s}$ technique makes use of a test statistic based on the negative log likelihood motivated by  Wilks' theorem that allows approximate aymptotic behavior $-2 \text{ln} \mathcal{L}(\mu)$ as a $\chi^2$ \cite{Wilks:1938dza}. %Change - maybe move?
 
-CLs:\cite{Read:2002hq}
 
-Combining searches with small stats from Lizas: \cite{Junk:1999kv}
+
 
 \section{Nuisance Parameters}
 
 \section{Limit on Branching Ratio t$\rightarrow$q$\gamma$}
-
-
+\label{sec:Limits}
+Combining searches with small stats from Lizas: \cite{Junk:1999kv}
 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

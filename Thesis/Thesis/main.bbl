@@ -534,17 +534,17 @@ Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock {\em Eur. Phys. J.}, C71:1554, 2011.
 \newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
 
-\bibitem{Wilks:1938dza}
-S.~S. Wilks.
-\newblock {The Large-Sample Distribution of the Likelihood Ratio for Testing
-  Composite Hypotheses}.
-\newblock {\em Annals Math. Statist.}, 9(1):60--62, 1938.
-
 \bibitem{Read:2002hq}
 Alexander~L. Read.
 \newblock {Presentation of search results: The CL(s) technique}.
 \newblock {\em J. Phys.}, G28:2693--2704, 2002.
 \newblock [,11(2002)].
+
+\bibitem{Wilks:1938dza}
+S.~S. Wilks.
+\newblock {The Large-Sample Distribution of the Likelihood Ratio for Testing
+  Composite Hypotheses}.
+\newblock {\em Annals Math. Statist.}, 9(1):60--62, 1938.
 
 \bibitem{Junk:1999kv}
 Thomas Junk.

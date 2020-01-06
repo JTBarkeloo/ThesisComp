@@ -72,7 +72,10 @@
 %-------------------------------------------------------------------------------
 % Generic document information
 %-------------------------------------------------------------------------------
-
+\usepackage{amsmath}
+\usepackage{slashed}
+\usepackage{hhline}
+\usepackage{tabularx}
 % Title, abstract and document 
 \input{FCNCtqaINT-metadata}
 % Author and title for the PDF file
@@ -109,20 +112,19 @@
 \include{Introduction}
 
 %-------------------------------------------------------------------------------
-\newpage
-\section{Object Definitions}
-\label{sec:objdef}
+\include{ObjectDefinition}
 %-------------------------------------------------------------------------------
 
 
 %-------------------------------------------------------------------------------
-\newpage
-\section{Event Selection}
-\label{sec:evsel}
+%\newpage
+%\section{Event Selection}
+%\label{sec:evsel}
+\include{EventSelection}
 %-------------------------------------------------------------------------------
 
-You can find some text snippets that can be used in papers in \texttt{latex/atlassnippets.sty}.
-To use them, provide the \texttt{snippets} option to \texttt{atlasphysics}.
+%You can find some text snippets that can be used in papers in \texttt{latex/atlassnippets.sty}.
+%To use them, provide the \texttt{snippets} option to \texttt{atlasphysics}.
 
 
 %-------------------------------------------------------------------------------
@@ -132,9 +134,7 @@ To use them, provide the \texttt{snippets} option to \texttt{atlasphysics}.
 %-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------
-\newpage
-\section{Neural Network for Signal Background Separation}
-\label{sec:neuralnet}
+\include{NeuralNetwork}
 %-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------
@@ -173,9 +173,6 @@ Place your conclusion here.
 % The argument gives the fraction of the text width used for the names
 %-------------------------------------------------------------------------------
 \clearpage
-The supporting notes for the analysis should also contain a list of contributors.
-This information should usually be included in \texttt{mydocument-metadata.tex}.
-The list should be printed either here or before the Table of Contents.
 \PrintAtlasContribute{0.30}
 
 
@@ -185,16 +182,18 @@ The list should be printed either here or before the Table of Contents.
 \part*{Appendices}
 \addcontentsline{toc}{part}{Appendices}
 %-------------------------------------------------------------------------------
+%\section{Introduction}
+%In an ATLAS note, use the appendices to include all the technical details of your work
+%that are relevant for the ATLAS Collaboration only (e.g.\ dataset details, software release used).
+%This information should be printed after the Bibliography.
+%-------------------------------------------------------------------------------
+\input{Appendix_Derivation}
+%-------------------------------------------------------------------------------
+\include{Appendix_MC_Samples}
+%-------------------------------------------------------------------------------
+\include{Appendix_NN}
+%-------------------------------------------------------------------------------
 
-In an ATLAS note, use the appendices to include all the technical details of your work
-that are relevant for the ATLAS Collaboration only (e.g.\ dataset details, software release used).
-This information should be printed after the Bibliography.
-%-------------------------------------------------------------------------------
-\section{Introduction}
-\label{sec:intro}
-%-------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------
-\section{Introduction}
 \label{sec:intro}
 %-------------------------------------------------------------------------------
 
