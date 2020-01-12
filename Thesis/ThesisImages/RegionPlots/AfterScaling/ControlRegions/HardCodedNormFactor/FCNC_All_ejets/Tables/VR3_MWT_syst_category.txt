@@ -1,2 +1,2 @@
- |       | FCNC      | t#bar{t} + jets      | t#bar{t} +  gam      | VV      | Single Top      | t#bar{t} + V      | W+Gam      | W + jets      | Z + jets      | Z+Gam |
- | Instrumental | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 |
+ |       | t#bar{t} + jets      | t#bar{t} +  #gamma      | VV      | Single Top      | t#bar{t} + V      | W+Gam      | W + jets      | Z + jets      | Z+Gam |
+ | Instrumental | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 | 1e-05 |

@@ -1,0 +1,74 @@
+<!--
+This xml file created automatically on: 
+2020-1-11
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="PreSel_ph_pt" InputFile="" >
+
+    <Data HistoName="PreSel_ph_pt_Data_regBin" InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root" HistoPath=""  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.001" ConstraintType="Poisson" /> 
+
+    <Sample Name="FCNC"  HistoPath=""  HistoName="PreSel_ph_pt_FCNC_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="0.1"  High="0.2"  Low="-1"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="ttbar"  HistoPath=""  HistoName="PreSel_ph_pt_ttbar_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+    <Sample Name="ttgam"  HistoPath=""  HistoName="PreSel_ph_pt_ttgam_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+    <Sample Name="VV"  HistoPath=""  HistoName="PreSel_ph_pt_VV_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+    <Sample Name="t"  HistoPath=""  HistoName="PreSel_ph_pt_t_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+    <Sample Name="ttV"  HistoPath=""  HistoName="PreSel_ph_pt_ttV_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+    <Sample Name="WGam"  HistoPath=""  HistoName="PreSel_ph_pt_WGam_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+    <Sample Name="WJets"  HistoPath=""  HistoName="PreSel_ph_pt_WJets_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+    <Sample Name="ZJets"  HistoPath=""  HistoName="PreSel_ph_pt_ZJets_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+    <Sample Name="ZGam"  HistoPath=""  HistoName="PreSel_ph_pt_ZGam_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_PreSel_ph_pt_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+    </Sample>
+
+
+
+  </Channel>  

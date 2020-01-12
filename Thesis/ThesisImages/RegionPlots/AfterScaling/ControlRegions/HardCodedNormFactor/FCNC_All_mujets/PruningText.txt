@@ -2,8 +2,6 @@
 -------/////// IN PRUNING PLOT ///////-------
 -------///////                 ///////-------
 In Region : VR3_ST
- -> In Sample : FCNC
- --->>  Dummy      is norm only
  -> In Sample : ttbar
  --->>  Dummy      is norm only
  -> In Sample : ttgam
@@ -23,8 +21,6 @@ In Region : VR3_ST
  -> In Sample : ZGam
  --->>  Dummy      is norm only
 In Region : CR1_ST
- -> In Sample : FCNC
- --->>  Dummy      is norm only
  -> In Sample : ttbar
  --->>  Dummy      is norm only
  -> In Sample : ttgam
@@ -44,8 +40,6 @@ In Region : CR1_ST
  -> In Sample : ZGam
  --->>  Dummy      is norm only
 In Region : CR2_ST
- -> In Sample : FCNC
- --->>  Dummy      is norm only
  -> In Sample : ttbar
  --->>  Dummy      is norm only
  -> In Sample : ttgam

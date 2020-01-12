@@ -1,6 +1,6 @@
 <!--
 This xml file created automatically on: 
-2019-12-5
+2020-1-10
 -->
 <!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
 
@@ -12,7 +12,7 @@ This xml file created automatically on:
   <Input>./FCNC_All_ejets/RooStats//FCNC_All_ejets_CR2_ST.xml</Input>
 
   <Measurement Name="FCNC_All_ejets" Lumi="1" LumiRelErr="0.1" ExportOnly="True"  >
-    <POI>SigXsecOverSM</POI>  
+    <POI>mu_tt</POI>  
     <ParamSetting Const="True">Lumi mu_tt mu_W</ParamSetting>
   </Measurement> 
 
