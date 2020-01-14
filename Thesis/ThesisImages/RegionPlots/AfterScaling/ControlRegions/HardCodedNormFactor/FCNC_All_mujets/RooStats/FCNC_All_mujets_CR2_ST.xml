@@ -1,6 +1,6 @@
 <!--
 This xml file created automatically on: 
-2020-1-10
+2020-1-14
 -->
 <!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
 
@@ -9,6 +9,12 @@ This xml file created automatically on:
     <Data HistoName="CR2_ST_Data_regBin" InputFile="FCNC_All_mujets/Histograms/FCNC_All_mujets_CR2_ST_histos.root" HistoPath=""  /> 
 
     <StatErrorConfig RelErrorThreshold="0.001" ConstraintType="Poisson" /> 
+
+    <Sample Name="FCNC"  HistoPath=""  HistoName="CR2_ST_FCNC_regBin"  InputFile="FCNC_All_mujets/Histograms/FCNC_All_mujets_CR2_ST_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1.00001"  Low="0.99999"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="0.1"  High="0.2"  Low="-1"  Const="False"   /> 
+    </Sample>
+
 
     <Sample Name="ttbar"  HistoPath=""  HistoName="CR2_ST_ttbar_regBin"  InputFile="FCNC_All_mujets/Histograms/FCNC_All_mujets_CR2_ST_histos.root"  NormalizeByTheory="True" >
       <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
