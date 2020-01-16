@@ -87,68 +87,52 @@ Will further investigate BJets here.
 \includegraphics[width=0.35\textwidth]{../../Thesis/ThesisImages/fcncttbar.png}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%\subsection{Object Preselection Cuts }
-%\frame{\frametitle{Object Preselection}
-%\begin{itemize}
-%\item We preselect events with objects that look like similar to our expected topology
-%\item Require:
-%	\begin{itemize}
-%	\item Exactly one lepton (e or $\mu$) $\geq$ 25 GeV
-%	\item Exactly one good photon $\geq$ 15GeV
-%	\item Missing Transverse Energy $\geq$ 30GeV
-%	\item $\geq 1$ Jets
-%	\end{itemize}
-%\item Further exploration of the BJets will be discussed
-%\end{itemize}
-%}
-
-
-%\subsection{Neural Network on B-tagging WPs}
-%
-%\frame{\frametitle{Neural Network Reminder}
-%\begin{columns}
-%\begin{column}{0.48\textwidth}
-%\centering
-%%\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0sigbkg.png} 
-%%\includegraphics[width=0.85\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significancemujetsboth2hidnpart02.png}
-%\end{column}
-%\begin{column}{0.48\textwidth}
-%\centering
-%%\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0SigVsBR.png} 
-%%\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0CutVsBR.png} 
-%\end{column}
-%\end{columns}
-%Branching ratio with Significance = 2:  1.18e-5
-%}
-%
-
-
-
-%\frame{\frametitle{Preselection Objects with $N_{BJet}= 1$ }
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%%\rotatebox{90}{Muon Channel        } 
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item $\gamma_{iso}$
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/photon0_iso.png} \\
-%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/photon0_iso.png}
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item $\Delta R_{j\gamma}$
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/deltaRjgam.png} \\
-%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/deltaRjgam.png}
-%\end{column}
-%\end{columns}
-%}
-
+\frame{\frametitle{Preselection NN Outputs}
+\begin{columns}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item $e$+jets
+\end{itemize}
+\includegraphics[width=.95\textwidth]{Images/PreSel_NNejet.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item $\mu$+jets
+\end{itemize}
+\includegraphics[width=.95\textwidth]{Images/PreSel_NNmujet.png}
+\end{column}
+\end{columns}
+}
+\subsection{Scale Factors for Non-Prompt Photon Samples}
+\frame{\frametitle{No Photon Scale Factors}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{SF Applied \qquad Before SF\qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item W+jets Rich
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR1_SMtop.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR1_SMtop_postFit.png} \\
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item $t\bar{t}$+jets Rich
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR2_SMtop.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR2_SMtop_postFit.png}
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item Validation Region
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png}
+\end{column}
+\end{columns}
+}
 
 %%%%%%%%%%%%%%%%
 \section{Fake Rate Studies}
@@ -179,9 +163,6 @@ Want to be able to correct the number of fake photons predicted in MC to those p
 \end{itemize}
 }
 
-
-\subsection{Basic 1D Fake Rate Scale Factor}
-
 \frame{Data and MC \frametitle{$m_{ee}, m_{e\gamma}$}
 \begin{columns}
 \begin{column}{0.02\textwidth}
@@ -191,10 +172,6 @@ Want to be able to correct the number of fake photons predicted in MC to those p
 \begin{column}{0.48\textwidth}
 \begin{itemize}
 \item Data
-%\item  MCee integral small range: 424,051.  - Vgam: 429789 - All 430225
-%\item DATAee integral small range: 468,832
-%\item MCeg integral small range: 110822     - Vgam: 115066 - All 152420
-%\item DATAeg integral small range: 118198
 \end{itemize}
 \includegraphics[width=.85\textwidth]{Images/Dataee.png} \\
 \includegraphics[width=.85\textwidth]{Images/Dataeg.png}
@@ -217,6 +194,10 @@ Want to be able to correct the number of fake photons predicted in MC to those p
 Basic Scale Factor can be calculated for the entire spectrum:
 $\text{SF}^{\text{e-fake}}_{\text{FR}} =0.97 \pm 0.01$\\
 In practice this scale factor is calculated for converted and unconverted photons as well as in bins of $\eta$ and $\phi$
+\begin{itemize}
+\item Converted photons pair produce before the ECAL leaving tracks in the Inner Detector
+\item Unconverted photons only pair produce inside of the ECAL
+\end{itemize}
 }
 
 \frame{\frametitle{Data and MC Distributions}
@@ -263,7 +244,7 @@ In practice this scale factor is calculated for converted and unconverted photon
 \end{itemize}
 \includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png}
 \end{column}
-\end{columns}
+\end{columns} 
 }
 
 
@@ -333,14 +314,15 @@ Want uncorrelated variables, use a correction factor to account to ensure closur
 \hline
 Channel:     & Converted& Unconverted  \\  \hline 
 Electron Channel  & $1.04\pm 0.14$     &   $2.27\pm 0.22$	\\ 
-Muon Channel        & $1.64 \pm 0.80$   &   $2.27 \pm 0.41$\\ \hline %Change Put in post fit values
+Muon Channel        & $1.64 \pm 1.40$   &   $2.27 \pm 0.41$\\ \hline %Change Put in post fit values
 \end{tabular}
 }
 \end{center}
 \end{table}
 }
 
-
+\section{Asimov Data Initial Fits}
+\subsection{Asimov Fit, e+jets channel MC16a}
 \frame{\frametitle{Asimov Data Fit}
 \begin{columns}
 \begin{column}{0.33\textwidth}
@@ -363,12 +345,26 @@ Muon Channel        & $1.64 \pm 0.80$   &   $2.27 \pm 0.41$\\ \hline %Change Put
 \end{column}
 
 \end{columns}
+Nominal signal strength $\mu = 1.0 \Rightarrow$ Branching Ratio = $10^{-3}$ \\
+\hfill
+\includegraphics[width=.6\textwidth]{Images/FCNC_All_ejets/NormFactors.png}
+\hfill
 }
 
-\frame{\frametitle{Asimov Likelihood}
-\includegraphics[width=.85\textwidth]{Images/FCNC_All_ejets/LHoodPlots/NLLscan_SigXsecOverSM.png}
-}
+%\frame{\frametitle{Asimov Likelihood}
+%\includegraphics[width=.85\textwidth]{Images/FCNC_All_ejets/LHoodPlots/NLLscan_SigXsecOverSM.png} \\
+%Wilk's Theorm allows us to use this as a goodness of fit technique.
+%}
 
+\frame{\frametitle{Statistical Limit from Asimov Fit}
+\begin{itemize}
+\item Expected signal strength $\mu= 0.13^{+0.05}_{-0.04}$
+\item Corresponds to BR($t\rightarrow q \gamma$) = $13\times 10^{-5}$
+\item Extrapolation to full data set limit: BR($t\rightarrow q \gamma$) $\approx 4\times 10^{-5}$
+\end{itemize}
+%\includegraphics[width=.3\textwidth]{Images/FCNC_All_ejets/NuisPar.png}
+%\includegraphics[width=.3\textwidth]{Images/FCNC_All_ejets/Pruning.png}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Outlook and Conclusions}
 
@@ -395,7 +391,7 @@ Muon Channel        & $1.64 \pm 0.80$   &   $2.27 \pm 0.41$\\ \hline %Change Put
 \includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/penguinFCNC.png}
 }
 
-\frame{\frametitle{No Photon Region Scale Factors Applied in Validation Region}
+\frame{\frametitle{No Photon Region SF Applied in Val Region}
 \begin{columns}
 \begin{column}{0.32\textwidth}
 \includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png} \\

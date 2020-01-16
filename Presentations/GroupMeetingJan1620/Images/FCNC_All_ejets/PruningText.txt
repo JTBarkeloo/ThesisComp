@@ -1403,12 +1403,12 @@ In Region : VR1_mqph
  --->>  LepSF_Mu_TTVA_SYST      is dropped
  --->>  LepSF_Mu_Trigger_STAT      is dropped
  --->>  LepSF_Mu_Trigger_SYST      is dropped
- --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_ID      is shape only
  --->>  PhotonSF_effIso      is shape only
  --->>  Pileup      is shape only
  --->>  JVT      is shape only
  --->>  EGamFake      is dropped
- --->>  JGamFake      is shape only
+ --->>  JGamFake      is dropped
  --->>  Scalemurmuf      is norm only
  --->>  PDF1      is not present
  --->>  PDF2      is not present
@@ -1497,7 +1497,7 @@ In Region : VR1_mqph
  --->>  JET_EffectiveNP_Statistical4      is dropped
  --->>  JET_EffectiveNP_Statistical5      is dropped
  --->>  JET_EffectiveNP_Statistical6      is dropped
- --->>  JET_EtaIntercalibration_Modeling1      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is shape only
  --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
  --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
@@ -1514,11 +1514,11 @@ In Region : VR1_mqph
  --->>  JER_EffectiveNP_6      is dropped
  --->>  JER_EffectiveNP_7restTerm      is dropped
  --->>  JET_Pileup_OffsetMu      is dropped
- --->>  JET_Pileup_OffsetNPV      is shape only
+ --->>  JET_Pileup_OffsetNPV      is dropped
  --->>  JET_Pileup_PtTerm      is dropped
  --->>  JET_Pileup_RhoTopology      is kept
  --->>  JET_PunchThrough_AFII      is dropped
- --->>  JET_RelativeNonClosure_AFII      is shape only
+ --->>  JET_RelativeNonClosure_AFII      is dropped
  --->>  JET_PunchThrough_MC16      is not present
  --->>  JET_SingleParticle_HighPt      is dropped
  -> In Sample : ttbar
@@ -1549,9 +1549,9 @@ In Region : VR1_mqph
  --->>  JGamFake      is kept
  --->>  Scalemurmuf      is dropped
  --->>  PDF1      is dropped
- --->>  PDF2      is shape only
+ --->>  PDF2      is dropped
  --->>  PDF3      is dropped
- --->>  PDF4      is kept
+ --->>  PDF4      is norm only
  --->>  PDF5      is dropped
  --->>  PDF6      is dropped
  --->>  PDF7      is dropped
@@ -1579,9 +1579,9 @@ In Region : VR1_mqph
  --->>  PDF29      is dropped
  --->>  PDF30      is dropped
  --->>  PDF1      is dropped
- --->>  PDF2      is shape only
+ --->>  PDF2      is dropped
  --->>  PDF3      is dropped
- --->>  PDF4      is kept
+ --->>  PDF4      is norm only
  --->>  PDF5      is dropped
  --->>  PDF6      is dropped
  --->>  PDF7      is dropped
@@ -1617,15 +1617,15 @@ In Region : VR1_mqph
  --->>  MET_SoftTrk_ResoPerp      is dropped
  --->>  MET_SoftTrk_Scale      is dropped
  --->>  EG_Resolution      is dropped
- --->>  EG_Scale      is shape only
+ --->>  EG_Scale      is dropped
  --->>  EG_Scale_AF2      is dropped
- --->>  JET_BJES_Response      is shape only
+ --->>  JET_BJES_Response      is dropped
  --->>  JET_EffectiveNP_Detector1      is dropped
  --->>  JET_EffectiveNP_Detector2      is dropped
  --->>  JET_EffectiveNP_Mixed1      is dropped
  --->>  JET_EffectiveNP_Mixed2      is dropped
  --->>  JET_EffectiveNP_Mixed3      is dropped
- --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling1      is kept
  --->>  JET_EffectiveNP_Modelling2      is dropped
  --->>  JET_EffectiveNP_Modelling3      is dropped
  --->>  JET_EffectiveNP_Modelling4      is dropped
@@ -1640,8 +1640,8 @@ In Region : VR1_mqph
  --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
  --->>  JET_EtaIntercalibration_TotalStat      is dropped
- --->>  JET_Flavor_Composition      is norm only
- --->>  JET_Flavor_Response      is kept
+ --->>  JET_Flavor_Composition      is kept
+ --->>  JET_Flavor_Response      is norm only
  --->>  JER_DataVsMC      is dropped
  --->>  JER_DataVsMCAFII      is not present
  --->>  JER_EffectiveNP_1      is dropped
@@ -1682,14 +1682,14 @@ In Region : VR1_mqph
  --->>  PhotonSF_ID      is dropped
  --->>  PhotonSF_effIso      is dropped
  --->>  Pileup      is shape only
- --->>  JVT      is shape only
+ --->>  JVT      is dropped
  --->>  EGamFake      is dropped
  --->>  JGamFake      is shape only
- --->>  Scalemurmuf      is kept
+ --->>  Scalemurmuf      is norm only
  --->>  PDF1      is dropped
- --->>  PDF2      is shape only
+ --->>  PDF2      is dropped
  --->>  PDF3      is dropped
- --->>  PDF4      is kept
+ --->>  PDF4      is norm only
  --->>  PDF5      is dropped
  --->>  PDF6      is dropped
  --->>  PDF7      is dropped
@@ -1717,9 +1717,9 @@ In Region : VR1_mqph
  --->>  PDF29      is dropped
  --->>  PDF30      is dropped
  --->>  PDF1      is dropped
- --->>  PDF2      is shape only
+ --->>  PDF2      is dropped
  --->>  PDF3      is dropped
- --->>  PDF4      is kept
+ --->>  PDF4      is norm only
  --->>  PDF5      is dropped
  --->>  PDF6      is dropped
  --->>  PDF7      is dropped
@@ -1778,7 +1778,7 @@ In Region : VR1_mqph
  --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
  --->>  JET_EtaIntercalibration_TotalStat      is dropped
- --->>  JET_Flavor_Composition      is kept
+ --->>  JET_Flavor_Composition      is norm only
  --->>  JET_Flavor_Response      is norm only
  --->>  JER_DataVsMC      is dropped
  --->>  JER_DataVsMCAFII      is not present
@@ -1889,19 +1889,19 @@ In Region : VR1_mqph
  --->>  Muons_Scale      is dropped
  --->>  Muons_Sagitta_ResBias      is dropped
  --->>  Muons_Sagitta_Rho      is dropped
- --->>  MET_SoftTrk_ResoPara      is dropped
+ --->>  MET_SoftTrk_ResoPara      is shape only
  --->>  MET_SoftTrk_ResoPerp      is kept
- --->>  MET_SoftTrk_Scale      is shape only
- --->>  EG_Resolution      is shape only
+ --->>  MET_SoftTrk_Scale      is dropped
+ --->>  EG_Resolution      is dropped
  --->>  EG_Scale      is dropped
  --->>  EG_Scale_AF2      is dropped
  --->>  JET_BJES_Response      is dropped
  --->>  JET_EffectiveNP_Detector1      is dropped
  --->>  JET_EffectiveNP_Detector2      is dropped
  --->>  JET_EffectiveNP_Mixed1      is dropped
- --->>  JET_EffectiveNP_Mixed2      is shape only
+ --->>  JET_EffectiveNP_Mixed2      is dropped
  --->>  JET_EffectiveNP_Mixed3      is dropped
- --->>  JET_EffectiveNP_Modelling1      is kept
+ --->>  JET_EffectiveNP_Modelling1      is norm only
  --->>  JET_EffectiveNP_Modelling2      is dropped
  --->>  JET_EffectiveNP_Modelling3      is dropped
  --->>  JET_EffectiveNP_Modelling4      is dropped
@@ -1911,13 +1911,13 @@ In Region : VR1_mqph
  --->>  JET_EffectiveNP_Statistical4      is dropped
  --->>  JET_EffectiveNP_Statistical5      is dropped
  --->>  JET_EffectiveNP_Statistical6      is dropped
- --->>  JET_EtaIntercalibration_Modeling1      is kept
+ --->>  JET_EtaIntercalibration_Modeling1      is norm only
  --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
  --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
  --->>  JET_EtaIntercalibration_TotalStat      is dropped
- --->>  JET_Flavor_Composition      is kept
- --->>  JET_Flavor_Response      is kept
+ --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Response      is norm only
  --->>  JER_DataVsMC      is dropped
  --->>  JER_DataVsMCAFII      is not present
  --->>  JER_EffectiveNP_1      is dropped
@@ -1929,8 +1929,8 @@ In Region : VR1_mqph
  --->>  JER_EffectiveNP_7restTerm      is dropped
  --->>  JET_Pileup_OffsetMu      is shape only
  --->>  JET_Pileup_OffsetNPV      is shape only
- --->>  JET_Pileup_PtTerm      is shape only
- --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_Pileup_PtTerm      is dropped
+ --->>  JET_Pileup_RhoTopology      is kept
  --->>  JET_PunchThrough_AFII      is not present
  --->>  JET_RelativeNonClosure_AFII      is not present
  --->>  JET_PunchThrough_MC16      is dropped
@@ -2192,7 +2192,7 @@ In Region : VR1_mqph
  --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
  --->>  JET_EtaIntercalibration_TotalStat      is dropped
- --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Composition      is dropped
  --->>  JET_Flavor_Response      is dropped
  --->>  JER_DataVsMC      is dropped
  --->>  JER_DataVsMCAFII      is not present
@@ -2236,7 +2236,7 @@ In Region : VR1_mqph
  --->>  Pileup      is shape only
  --->>  JVT      is dropped
  --->>  EGamFake      is dropped
- --->>  JGamFake      is shape only
+ --->>  JGamFake      is dropped
  --->>  Scalemurmuf      is kept
  --->>  PDF1      is not present
  --->>  PDF2      is not present
@@ -2303,7 +2303,7 @@ In Region : VR1_mqph
  --->>  Muons_Scale      is dropped
  --->>  Muons_Sagitta_ResBias      is dropped
  --->>  Muons_Sagitta_Rho      is dropped
- --->>  MET_SoftTrk_ResoPara      is shape only
+ --->>  MET_SoftTrk_ResoPara      is dropped
  --->>  MET_SoftTrk_ResoPerp      is dropped
  --->>  MET_SoftTrk_Scale      is dropped
  --->>  EG_Resolution      is dropped
@@ -2344,7 +2344,7 @@ In Region : VR1_mqph
  --->>  JET_Pileup_OffsetMu      is dropped
  --->>  JET_Pileup_OffsetNPV      is dropped
  --->>  JET_Pileup_PtTerm      is dropped
- --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_Pileup_RhoTopology      is kept
  --->>  JET_PunchThrough_AFII      is not present
  --->>  JET_RelativeNonClosure_AFII      is not present
  --->>  JET_PunchThrough_MC16      is dropped
@@ -2372,8 +2372,8 @@ In Region : VR1_mqph
  --->>  PhotonSF_ID      is dropped
  --->>  PhotonSF_effIso      is dropped
  --->>  Pileup      is shape only
- --->>  JVT      is shape only
- --->>  EGamFake      is shape only
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
  --->>  JGamFake      is kept
  --->>  Scalemurmuf      is kept
  --->>  PDF1      is not present
@@ -2453,7 +2453,7 @@ In Region : VR1_mqph
  --->>  JET_EffectiveNP_Mixed1      is dropped
  --->>  JET_EffectiveNP_Mixed2      is dropped
  --->>  JET_EffectiveNP_Mixed3      is dropped
- --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling1      is kept
  --->>  JET_EffectiveNP_Modelling2      is dropped
  --->>  JET_EffectiveNP_Modelling3      is dropped
  --->>  JET_EffectiveNP_Modelling4      is dropped
@@ -2463,13 +2463,13 @@ In Region : VR1_mqph
  --->>  JET_EffectiveNP_Statistical4      is dropped
  --->>  JET_EffectiveNP_Statistical5      is dropped
  --->>  JET_EffectiveNP_Statistical6      is dropped
- --->>  JET_EtaIntercalibration_Modeling1      is norm only
+ --->>  JET_EtaIntercalibration_Modeling1      is kept
  --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
  --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
  --->>  JET_EtaIntercalibration_TotalStat      is dropped
- --->>  JET_Flavor_Composition      is norm only
- --->>  JET_Flavor_Response      is norm only
+ --->>  JET_Flavor_Composition      is kept
+ --->>  JET_Flavor_Response      is kept
  --->>  JER_DataVsMC      is dropped
  --->>  JER_DataVsMCAFII      is not present
  --->>  JER_EffectiveNP_1      is dropped
@@ -2480,9 +2480,9 @@ In Region : VR1_mqph
  --->>  JER_EffectiveNP_6      is dropped
  --->>  JER_EffectiveNP_7restTerm      is dropped
  --->>  JET_Pileup_OffsetMu      is dropped
- --->>  JET_Pileup_OffsetNPV      is norm only
+ --->>  JET_Pileup_OffsetNPV      is kept
  --->>  JET_Pileup_PtTerm      is dropped
- --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_Pileup_RhoTopology      is kept
  --->>  JET_PunchThrough_AFII      is not present
  --->>  JET_RelativeNonClosure_AFII      is not present
  --->>  JET_PunchThrough_MC16      is dropped
@@ -2717,16 +2717,16 @@ In Region : VR1_mqph
  --->>  Muons_Scale      is dropped
  --->>  Muons_Sagitta_ResBias      is dropped
  --->>  Muons_Sagitta_Rho      is dropped
- --->>  MET_SoftTrk_ResoPara      is norm only
+ --->>  MET_SoftTrk_ResoPara      is kept
  --->>  MET_SoftTrk_ResoPerp      is kept
  --->>  MET_SoftTrk_Scale      is norm only
- --->>  EG_Resolution      is shape only
+ --->>  EG_Resolution      is dropped
  --->>  EG_Scale      is kept
  --->>  EG_Scale_AF2      is dropped
  --->>  JET_BJES_Response      is dropped
  --->>  JET_EffectiveNP_Detector1      is dropped
  --->>  JET_EffectiveNP_Detector2      is dropped
- --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is shape only
  --->>  JET_EffectiveNP_Mixed2      is dropped
  --->>  JET_EffectiveNP_Mixed3      is dropped
  --->>  JET_EffectiveNP_Modelling1      is kept
@@ -2739,13 +2739,13 @@ In Region : VR1_mqph
  --->>  JET_EffectiveNP_Statistical4      is dropped
  --->>  JET_EffectiveNP_Statistical5      is dropped
  --->>  JET_EffectiveNP_Statistical6      is dropped
- --->>  JET_EtaIntercalibration_Modeling1      is kept
+ --->>  JET_EtaIntercalibration_Modeling1      is norm only
  --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
  --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
  --->>  JET_EtaIntercalibration_TotalStat      is dropped
  --->>  JET_Flavor_Composition      is kept
- --->>  JET_Flavor_Response      is norm only
+ --->>  JET_Flavor_Response      is kept
  --->>  JER_DataVsMC      is dropped
  --->>  JER_DataVsMCAFII      is not present
  --->>  JER_EffectiveNP_1      is dropped
@@ -2856,13 +2856,13 @@ In Region : VR2_mqph
  --->>  Muons_Scale      is dropped
  --->>  Muons_Sagitta_ResBias      is dropped
  --->>  Muons_Sagitta_Rho      is dropped
- --->>  MET_SoftTrk_ResoPara      is shape only
+ --->>  MET_SoftTrk_ResoPara      is dropped
  --->>  MET_SoftTrk_ResoPerp      is shape only
  --->>  MET_SoftTrk_Scale      is dropped
- --->>  EG_Resolution      is dropped
- --->>  EG_Scale      is dropped
+ --->>  EG_Resolution      is shape only
+ --->>  EG_Scale      is shape only
  --->>  EG_Scale_AF2      is dropped
- --->>  JET_BJES_Response      is kept
+ --->>  JET_BJES_Response      is norm only
  --->>  JET_EffectiveNP_Detector1      is dropped
  --->>  JET_EffectiveNP_Detector2      is dropped
  --->>  JET_EffectiveNP_Mixed1      is dropped
@@ -2925,14 +2925,14 @@ In Region : VR2_mqph
  --->>  PhotonSF_ID      is dropped
  --->>  PhotonSF_effIso      is dropped
  --->>  Pileup      is shape only
- --->>  JVT      is kept
+ --->>  JVT      is norm only
  --->>  EGamFake      is kept
  --->>  JGamFake      is kept
  --->>  Scalemurmuf      is dropped
  --->>  PDF1      is dropped
- --->>  PDF2      is shape only
+ --->>  PDF2      is dropped
  --->>  PDF3      is dropped
- --->>  PDF4      is kept
+ --->>  PDF4      is norm only
  --->>  PDF5      is dropped
  --->>  PDF6      is dropped
  --->>  PDF7      is dropped
@@ -2960,9 +2960,9 @@ In Region : VR2_mqph
  --->>  PDF29      is dropped
  --->>  PDF30      is dropped
  --->>  PDF1      is dropped
- --->>  PDF2      is shape only
+ --->>  PDF2      is dropped
  --->>  PDF3      is dropped
- --->>  PDF4      is kept
+ --->>  PDF4      is norm only
  --->>  PDF5      is dropped
  --->>  PDF6      is dropped
  --->>  PDF7      is dropped
@@ -2998,7 +2998,7 @@ In Region : VR2_mqph
  --->>  MET_SoftTrk_ResoPerp      is dropped
  --->>  MET_SoftTrk_Scale      is dropped
  --->>  EG_Resolution      is dropped
- --->>  EG_Scale      is kept
+ --->>  EG_Scale      is norm only
  --->>  EG_Scale_AF2      is dropped
  --->>  JET_BJES_Response      is dropped
  --->>  JET_EffectiveNP_Detector1      is dropped
@@ -3063,14 +3063,14 @@ In Region : VR2_mqph
  --->>  PhotonSF_ID      is dropped
  --->>  PhotonSF_effIso      is dropped
  --->>  Pileup      is shape only
- --->>  JVT      is kept
+ --->>  JVT      is norm only
  --->>  EGamFake      is dropped
  --->>  JGamFake      is dropped
- --->>  Scalemurmuf      is kept
+ --->>  Scalemurmuf      is norm only
  --->>  PDF1      is dropped
- --->>  PDF2      is shape only
+ --->>  PDF2      is dropped
  --->>  PDF3      is dropped
- --->>  PDF4      is kept
+ --->>  PDF4      is norm only
  --->>  PDF5      is dropped
  --->>  PDF6      is dropped
  --->>  PDF7      is dropped
@@ -3098,9 +3098,9 @@ In Region : VR2_mqph
  --->>  PDF29      is dropped
  --->>  PDF30      is dropped
  --->>  PDF1      is dropped
- --->>  PDF2      is shape only
+ --->>  PDF2      is dropped
  --->>  PDF3      is dropped
- --->>  PDF4      is kept
+ --->>  PDF4      is norm only
  --->>  PDF5      is dropped
  --->>  PDF6      is dropped
  --->>  PDF7      is dropped
@@ -3198,8 +3198,8 @@ In Region : VR2_mqph
  --->>  LepSF_Mu_TTVA_SYST      is dropped
  --->>  LepSF_Mu_Trigger_STAT      is dropped
  --->>  LepSF_Mu_Trigger_SYST      is dropped
- --->>  PhotonSF_ID      is shape only
- --->>  PhotonSF_effIso      is shape only
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
  --->>  Pileup      is kept
  --->>  JVT      is kept
  --->>  EGamFake      is kept
@@ -3273,13 +3273,13 @@ In Region : VR2_mqph
  --->>  MET_SoftTrk_ResoPara      is norm only
  --->>  MET_SoftTrk_ResoPerp      is dropped
  --->>  MET_SoftTrk_Scale      is norm only
- --->>  EG_Resolution      is dropped
+ --->>  EG_Resolution      is norm only
  --->>  EG_Scale      is norm only
  --->>  EG_Scale_AF2      is dropped
  --->>  JET_BJES_Response      is dropped
  --->>  JET_EffectiveNP_Detector1      is norm only
  --->>  JET_EffectiveNP_Detector2      is dropped
- --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is norm only
  --->>  JET_EffectiveNP_Mixed2      is norm only
  --->>  JET_EffectiveNP_Mixed3      is dropped
  --->>  JET_EffectiveNP_Modelling1      is norm only
@@ -3574,7 +3574,7 @@ In Region : VR2_mqph
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
  --->>  JET_EtaIntercalibration_TotalStat      is dropped
  --->>  JET_Flavor_Composition      is norm only
- --->>  JET_Flavor_Response      is norm only
+ --->>  JET_Flavor_Response      is kept
  --->>  JER_DataVsMC      is dropped
  --->>  JER_DataVsMCAFII      is not present
  --->>  JER_EffectiveNP_1      is dropped
@@ -3586,7 +3586,7 @@ In Region : VR2_mqph
  --->>  JER_EffectiveNP_7restTerm      is dropped
  --->>  JET_Pileup_OffsetMu      is shape only
  --->>  JET_Pileup_OffsetNPV      is dropped
- --->>  JET_Pileup_PtTerm      is dropped
+ --->>  JET_Pileup_PtTerm      is shape only
  --->>  JET_Pileup_RhoTopology      is norm only
  --->>  JET_PunchThrough_AFII      is not present
  --->>  JET_RelativeNonClosure_AFII      is not present
@@ -3706,7 +3706,7 @@ In Region : VR2_mqph
  --->>  JET_EffectiveNP_Statistical4      is dropped
  --->>  JET_EffectiveNP_Statistical5      is dropped
  --->>  JET_EffectiveNP_Statistical6      is dropped
- --->>  JET_EtaIntercalibration_Modeling1      is norm only
+ --->>  JET_EtaIntercalibration_Modeling1      is dropped
  --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
  --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
  --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
@@ -3891,7 +3891,7 @@ In Region : VR2_mqph
  --->>  PhotonSF_ID      is dropped
  --->>  PhotonSF_effIso      is dropped
  --->>  Pileup      is kept
- --->>  JVT      is shape only
+ --->>  JVT      is dropped
  --->>  EGamFake      is kept
  --->>  JGamFake      is kept
  --->>  Scalemurmuf      is kept
@@ -4029,7 +4029,7 @@ In Region : VR2_mqph
  --->>  PhotonSF_ID      is dropped
  --->>  PhotonSF_effIso      is dropped
  --->>  Pileup      is kept
- --->>  JVT      is shape only
+ --->>  JVT      is dropped
  --->>  EGamFake      is shape only
  --->>  JGamFake      is dropped
  --->>  Scalemurmuf      is kept
