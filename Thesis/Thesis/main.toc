@@ -81,18 +81,18 @@
 \contentsline {subsubsection}{ Smoothing}{146}{subsubsection.6.1.3.2}% 
 \contentsline {subsubsection}{ Pruning}{147}{subsubsection.6.1.3.3}% 
 \contentsline {section}{ \numberline {6.2} Statistical Treatment of Results}{147}{section.6.2}% 
-\contentsline {section}{ \numberline {6.3} Nuisance Parameters}{150}{section.6.3}% 
-\contentsline {section}{ \numberline {6.4} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{150}{section.6.4}% 
-\contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{151}{section.6.4}% 
-\contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{151}{section.7.1}% 
-\contentsline {section}{ \numberline {7.2} Future Directions}{151}{section.7.2}% 
-\contentsline {section}{ \numberline {7.3} Conclusion}{151}{section.7.3}% 
+\contentsline {section}{ \numberline {6.3} Nuisance Parameters}{151}{section.6.3}% 
+\contentsline {section}{ \numberline {6.4} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{160}{section.6.4}% 
+\contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{161}{section.6.4}% 
+\contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{161}{section.7.1}% 
+\contentsline {section}{ \numberline {7.2} Future Directions}{161}{section.7.2}% 
+\contentsline {section}{ \numberline {7.3} Conclusion}{161}{section.7.3}% 
  \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
-\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{152}{section.7.3}% 
-\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{153}{table.caption.96}% 
-\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Additional Plots from NN Studies}}{158}{table.caption.101}% 
-\contentsline {section}{ \numberline {C.1} Additional Shape Comparison Plots: $\mu $+jets channel}{158}{section.C.1}% 
-\contentsline {section}{ \numberline {C.2} Shape Comparison Plots: $e$+jets channel}{161}{section.C.2}% 
-\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{166}{figure.caption.108}% 
-\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Pull Plots}}{170}{figure.caption.111}% 
-\contentsline {chapter}{REFERENCES CITED}{171}{figure.caption.111}% 
+\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{162}{section.7.3}% 
+\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{163}{table.caption.106}% 
+\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Additional Plots from NN Studies}}{168}{table.caption.111}% 
+\contentsline {section}{ \numberline {C.1} Additional Shape Comparison Plots: $\mu $+jets channel}{168}{section.C.1}% 
+\contentsline {section}{ \numberline {C.2} Shape Comparison Plots: $e$+jets channel}{171}{section.C.2}% 
+\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{176}{figure.caption.118}% 
+\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Pull Plots}}{180}{figure.caption.121}% 
+\contentsline {chapter}{REFERENCES CITED}{181}{figure.caption.121}% 

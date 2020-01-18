@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  14 JAN 2020 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  17 JAN 2020 16:02
 entering extended mode
 **./main.tex
 (main.tex
@@ -1342,26 +1342,26 @@ LaTeX Warning: Label `fig:ATLASInnerDet' multiply defined.
 (appendicies.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
  (/home/jason/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1393,24 +1393,24 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 
-Package layouts Warning: Layout scale set to 0.5 on input line 51.
+Package layouts Warning: Layout scale set to 0.5 on input line 52.
 
 ABD: EveryShipout initializing macros
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 51.
+loading the todonotes package. on input line 52.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 51.
+LaTeX Info: Redefining \selectfont on input line 52.
 \AtBeginShipoutBox=\box102
 
 
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 51.
+Package hyperref Info: Link coloring OFF on input line 52.
 (/home/jason/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1419,9 +1419,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count410
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
 
 (main.out) (main.out)
 \@outlinefile=\write5
@@ -1435,11 +1435,11 @@ Dictionary: translator-basic-dictionary, Language: English
 (/home/jason/.miktex/texmfs/install/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
  (/home/jason/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (/home/jason/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1466,7 +1466,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 
  []
 
@@ -1475,7 +1475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 ] [5
 
 ] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 
  []
 
@@ -1912,7 +1912,7 @@ Overfull \hbox (10.93184pt too wide) detected at line 97
 \openout6 = `main.toc'.
 
  [11]
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 
  []
 
@@ -1930,12 +1930,12 @@ Underfull \hbox (badness 1521) in paragraph at lines 198--198
 t/12 Z \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 e[]e[]$ \OT1/cmr/m/n/12 events 
  []
 
-[16] [17])
+[16] [17] [18])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [18]
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 
  []
 
@@ -1945,13 +1945,13 @@ Underfull \hbox (badness 3792) in paragraph at lines 6--6
 oose \OT1/cmr/m/n/12 and \OT1/cmr/m/it/12 tight \OT1/cmr/m/n/12 photon 
  []
 
-[19
+[20
 
 ])
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [20]
+ [21]
 \openout2 = `Introduction.aux'.
 
  (Introduction.tex
@@ -1980,7 +1980,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 71.
 
 [6] [7] [8] [9] [10] [11] [12] [13]
-<../ThesisImages/Theory/ttprodxsec.png, id=1018, 1986.42125pt x 1353.055pt>
+<../ThesisImages/Theory/ttprodxsec.png, id=1052, 1986.42125pt x 1353.055pt>
 File: ../ThesisImages/Theory/ttprodxsec.png Graphic file (type png)
 <use ../ThesisImages/Theory/ttprodxsec.png>
 Package pdftex.def Info: ../ThesisImages/Theory/ttprodxsec.png  used on input l
@@ -1990,7 +1990,7 @@ ine 211.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/Theory/singtprodxsec.png, id=1021, 829.59938pt x 538.26094pt>
+<../ThesisImages/Theory/singtprodxsec.png, id=1055, 829.59938pt x 538.26094pt>
 File: ../ThesisImages/Theory/singtprodxsec.png Graphic file (type png)
 <use ../ThesisImages/Theory/singtprodxsec.png>
 Package pdftex.def Info: ../ThesisImages/Theory/singtprodxsec.png  used on inpu
@@ -2000,7 +2000,7 @@ t line 218.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14] [15 <../ThesisImages/Theory/ttprodxsec.png>]
-<../ThesisImages/Theory/LOPairProdDiags.png, id=1041, 740.7675pt x 384.6872pt>
+<../ThesisImages/Theory/LOPairProdDiags.png, id=1075, 740.7675pt x 384.6872pt>
 File: ../ThesisImages/Theory/LOPairProdDiags.png Graphic file (type png)
 <use ../ThesisImages/Theory/LOPairProdDiags.png>
 Package pdftex.def Info: ../ThesisImages/Theory/LOPairProdDiags.png  used on in
@@ -2011,7 +2011,7 @@ put line 232.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16 <../ThesisImages/Theory/singtprodxsec.png>]
-<../ThesisImages/Theory/LOSingProdDiags.png, id=1049, 974.89218pt x 305.64188pt
+<../ThesisImages/Theory/LOSingProdDiags.png, id=1084, 974.89218pt x 305.64188pt
 >
 File: ../ThesisImages/Theory/LOSingProdDiags.png Graphic file (type png)
 <use ../ThesisImages/Theory/LOSingProdDiags.png>
@@ -2023,7 +2023,7 @@ put line 241.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [17 <../ThesisImages/Theory/LOPairProdDiags.png>]
-<../ThesisImages/Theory/SMTopDecays.png, id=1061, 969.6225pt x 374.90062pt>
+<../ThesisImages/Theory/SMTopDecays.png, id=1095, 969.6225pt x 374.90062pt>
 File: ../ThesisImages/Theory/SMTopDecays.png Graphic file (type png)
 <use ../ThesisImages/Theory/SMTopDecays.png>
 Package pdftex.def Info: ../ThesisImages/Theory/SMTopDecays.png  used on input 
@@ -2035,7 +2035,7 @@ Decays.png>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 258.
 
-<../ThesisImages/Theory/topdecayproducts.jpg, id=1071, 602.25pt x 470.75874pt>
+<../ThesisImages/Theory/topdecayproducts.jpg, id=1105, 602.25pt x 470.75874pt>
 File: ../ThesisImages/Theory/topdecayproducts.jpg Graphic file (type jpg)
 <use ../ThesisImages/Theory/topdecayproducts.jpg>
 Package pdftex.def Info: ../ThesisImages/Theory/topdecayproducts.jpg  used on i
@@ -2045,21 +2045,21 @@ nput line 274.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [19] [20 <../ThesisImages/Theory/topdecayproducts.jpg>] [21] [22]
-<../ThesisImages/Theory/GIMDiagramsa.png, id=1097, 580.41844pt x 518.6878pt>
+<../ThesisImages/Theory/GIMDiagramsa.png, id=1132, 580.41844pt x 518.6878pt>
 File: ../ThesisImages/Theory/GIMDiagramsa.png Graphic file (type png)
 <use ../ThesisImages/Theory/GIMDiagramsa.png>
 Package pdftex.def Info: ../ThesisImages/Theory/GIMDiagramsa.png  used on input
  line 307.
 (pdftex.def)             Requested size: 173.44534pt x 154.99812pt.
  [23 <../ThesisImages/Theory/GIMDiagramsa.png>]
-<../ThesisImages/Theory/GIMDiagrams.png, id=1105, 1157.07281pt x 518.6878pt>
+<../ThesisImages/Theory/GIMDiagrams.png, id=1139, 1157.07281pt x 518.6878pt>
 File: ../ThesisImages/Theory/GIMDiagrams.png Graphic file (type png)
 <use ../ThesisImages/Theory/GIMDiagrams.png>
 Package pdftex.def Info: ../ThesisImages/Theory/GIMDiagrams.png  used on input 
 line 320.
 (pdftex.def)             Requested size: 390.25534pt x 174.94273pt.
  [24 <../ThesisImages/Theory/GIMDiagrams.png>]
-<../ThesisImages/Theory/FCNCLoop.png, id=1113, 580.41844pt x 432.11438pt>
+<../ThesisImages/Theory/FCNCLoop.png, id=1147, 580.41844pt x 432.11438pt>
 File: ../ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
 <use ../ThesisImages/Theory/FCNCLoop.png>
 Package pdftex.def Info: ../ThesisImages/Theory/FCNCLoop.png  used on input lin
@@ -2081,7 +2081,7 @@ Overfull \hbox (21.8496pt too wide) in paragraph at lines 371--372
 1/cmr/m/n/12 An-other su-per-sym-met-ric
  []
 
-<../ThesisImages/Theory/AllFCNCDiagrams.png, id=1161, 983.17313pt x 207.02344pt
+<../ThesisImages/Theory/AllFCNCDiagrams.png, id=1195, 983.17313pt x 207.02344pt
 >
 File: ../ThesisImages/Theory/AllFCNCDiagrams.png Graphic file (type png)
 <use ../ThesisImages/Theory/AllFCNCDiagrams.png>
@@ -2089,14 +2089,14 @@ Package pdftex.def Info: ../ThesisImages/Theory/AllFCNCDiagrams.png  used on in
 put line 381.
 (pdftex.def)             Requested size: 433.62pt x 91.30539pt.
 [28]
-<../ThesisImages/Theory/fcnc_tXu_sep18.png, id=1167, 1987.425pt x 2090.81125pt>
+<../ThesisImages/Theory/fcnc_tXu_sep18.png, id=1202, 1987.425pt x 2090.81125pt>
 
 File: ../ThesisImages/Theory/fcnc_tXu_sep18.png Graphic file (type png)
 <use ../ThesisImages/Theory/fcnc_tXu_sep18.png>
 Package pdftex.def Info: ../ThesisImages/Theory/fcnc_tXu_sep18.png  used on inp
 ut line 390.
 (pdftex.def)             Requested size: 216.81pt x 228.07576pt.
-<../ThesisImages/Theory/fcnc_tXc_sep18.png, id=1168, 1987.425pt x 2090.81125pt>
+<../ThesisImages/Theory/fcnc_tXc_sep18.png, id=1203, 1987.425pt x 2090.81125pt>
 
 File: ../ThesisImages/Theory/fcnc_tXc_sep18.png Graphic file (type png)
 <use ../ThesisImages/Theory/fcnc_tXc_sep18.png>
@@ -2107,13 +2107,13 @@ ut line 391.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/Theory/HeraFCNC.png, id=1174, 842.39719pt x 577.40718pt>
+<../ThesisImages/Theory/HeraFCNC.png, id=1209, 842.39719pt x 577.40718pt>
 File: ../ThesisImages/Theory/HeraFCNC.png Graphic file (type png)
 <use ../ThesisImages/Theory/HeraFCNC.png>
 Package pdftex.def Info: ../ThesisImages/Theory/HeraFCNC.png  used on input lin
 e 399.
 (pdftex.def)             Requested size: 173.44534pt x 118.88025pt.
-<../ThesisImages/Theory/LepFCNC.png, id=1175, 819.06pt x 603.75563pt>
+<../ThesisImages/Theory/LepFCNC.png, id=1210, 819.06pt x 603.75563pt>
 File: ../ThesisImages/Theory/LepFCNC.png Graphic file (type png)
 <use ../ThesisImages/Theory/LepFCNC.png>
 Package pdftex.def Info: ../ThesisImages/Theory/LepFCNC.png  used on input line
@@ -2121,7 +2121,7 @@ Package pdftex.def Info: ../ThesisImages/Theory/LepFCNC.png  used on input line
 (pdftex.def)             Requested size: 173.44534pt x 127.85187pt.
 [29 <../ThesisImages/Theory/AllFCNCDiagrams.png>] [30 <../ThesisImages/Theory/f
 cnc_tXu_sep18.png> <../ThesisImages/Theory/fcnc_tXc_sep18.png>]
-<../ThesisImages/Theory/AllFCNCLimits.png, id=1190, 1986.42125pt x 1777.64125pt
+<../ThesisImages/Theory/AllFCNCLimits.png, id=1224, 1986.42125pt x 1777.64125pt
 >
 File: ../ThesisImages/Theory/AllFCNCLimits.png Graphic file (type png)
 <use ../ThesisImages/Theory/AllFCNCLimits.png>
@@ -2143,7 +2143,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  (LHCDetector.tex
 [The Large Hadron Collider and the ATLAS Detector]
-<../ThesisImages/LHCImages/LHCDetecPlacement.png, id=1213, 1413.02907pt x 490.8
+<../ThesisImages/LHCImages/LHCDetecPlacement.png, id=1247, 1413.02907pt x 490.8
 3376pt>
 File: ../ThesisImages/LHCImages/LHCDetecPlacement.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/LHCDetecPlacement.png>
@@ -2155,7 +2155,7 @@ on input line 12.
 
 
 ]
-<../ThesisImages/LHCImages/AcceleratorComplex.png, id=1222, 4296.6924pt x 3047.
+<../ThesisImages/LHCImages/AcceleratorComplex.png, id=1257, 4296.6924pt x 3047.
 6259pt>
 File: ../ThesisImages/LHCImages/AcceleratorComplex.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/AcceleratorComplex.png>
@@ -2164,21 +2164,21 @@ Package pdftex.def Info: ../ThesisImages/LHCImages/AcceleratorComplex.png  used
 (pdftex.def)             Requested size: 433.62pt x 307.52412pt.
  [35 <../ThesisImages/LHCImages/LHCDetecPlacement.png>] [36 <../ThesisImages/LH
 CImages/AcceleratorComplex.png>] [37]
-<../ThesisImages/LHCImages/ATLASLumi.png, id=1243, 798.985pt x 574.145pt>
+<../ThesisImages/LHCImages/ATLASLumi.png, id=1277, 798.985pt x 574.145pt>
 File: ../ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASLumi.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASLumi.png  used on input
  line 47.
 (pdftex.def)             Requested size: 303.53267pt x 218.11604pt.
  [38]
-<../ThesisImages/LHCImages/meanIntperCrossing.png, id=1251, 798.985pt x 574.145
+<../ThesisImages/LHCImages/meanIntperCrossing.png, id=1285, 798.985pt x 574.145
 pt>
 File: ../ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/meanIntperCrossing.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/meanIntperCrossing.png  used
  on input line 58.
 (pdftex.def)             Requested size: 303.53267pt x 218.11604pt.
-<../ThesisImages/LHCImages/28VertexPileup.png, id=1256, 2862.17822pt x 1889.753
+<../ThesisImages/LHCImages/28VertexPileup.png, id=1290, 2862.17822pt x 1889.753
 17pt>
 File: ../ThesisImages/LHCImages/28VertexPileup.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/28VertexPileup.png>
@@ -2186,7 +2186,7 @@ Package pdftex.def Info: ../ThesisImages/LHCImages/28VertexPileup.png  used on
 input line 66.
 (pdftex.def)             Requested size: 303.53267pt x 200.40515pt.
  [39 <../ThesisImages/LHCImages/ATLASLumi.png>]
-<../ThesisImages/LHCImages/65VertexPileup.png, id=1264, 5018.75pt x 3345.49875p
+<../ThesisImages/LHCImages/65VertexPileup.png, id=1298, 5018.75pt x 3345.49875p
 t>
 File: ../ThesisImages/LHCImages/65VertexPileup.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/65VertexPileup.png>
@@ -2195,7 +2195,7 @@ input line 74.
 (pdftex.def)             Requested size: 303.53267pt x 202.30376pt.
  [40 <../ThesisImages/LHCImages/meanIntperCrossing.png> <../ThesisImages/LHCIma
 ges/28VertexPileup.png>]
-<../ThesisImages/LHCImages/AtlasDetector.png, id=1274, 1621.05624pt x 1041.8925
+<../ThesisImages/LHCImages/AtlasDetector.png, id=1309, 1621.05624pt x 1041.8925
 pt>
 File: ../ThesisImages/LHCImages/AtlasDetector.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/AtlasDetector.png>
@@ -2204,7 +2204,7 @@ nput line 85.
 (pdftex.def)             Requested size: 433.62pt x 278.69157pt.
  [41 <../ThesisImages/LHCImages/65VertexPileup.png>] [42 <../ThesisImages/LHCIm
 ages/AtlasDetector.png (PNG copy)>]
-<../ThesisImages/LHCImages/ATLASCoords.png, id=1293, 541.27219pt x 645.91313pt>
+<../ThesisImages/LHCImages/ATLASCoords.png, id=1327, 541.27219pt x 645.91313pt>
 
 File: ../ThesisImages/LHCImages/ATLASCoords.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASCoords.png>
@@ -2213,7 +2213,7 @@ ut line 101.
 (pdftex.def)             Requested size: 216.81pt x 258.72534pt.
 
 [43]
-<../ThesisImages/LHCImages/ATLASMagnetWinding.png, id=1301, 662.475pt x 515.676
+<../ThesisImages/LHCImages/ATLASMagnetWinding.png, id=1335, 662.475pt x 515.676
 56pt>
 File: ../ThesisImages/LHCImages/ATLASMagnetWinding.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASMagnetWinding.png>
@@ -2221,7 +2221,7 @@ Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMagnetWinding.png  used
  on input line 120.
 (pdftex.def)             Requested size: 303.53267pt x 236.26987pt.
  [44 <../ThesisImages/LHCImages/ATLASCoords.png>]
-<../ThesisImages/LHCImages/ATLASInnerDetector.png, id=1313, 793.46437pt x 499.8
+<../ThesisImages/LHCImages/ATLASInnerDetector.png, id=1347, 793.46437pt x 499.8
 675pt>
 File: ../ThesisImages/LHCImages/ATLASInnerDetector.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASInnerDetector.png>
@@ -2229,14 +2229,14 @@ Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASInnerDetector.png  used
  on input line 133.
 (pdftex.def)             Requested size: 346.89731pt x 218.53894pt.
  [45 <../ThesisImages/LHCImages/ATLASMagnetWinding.png>]
-<../ThesisImages/LHCImages/tracking.png, id=1324, 1249.66875pt x 462.97969pt>
+<../ThesisImages/LHCImages/tracking.png, id=1358, 1249.66875pt x 462.97969pt>
 File: ../ThesisImages/LHCImages/tracking.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/tracking.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/tracking.png  used on input 
 line 143.
 (pdftex.def)             Requested size: 433.62pt x 160.64655pt.
  [46 <../ThesisImages/LHCImages/ATLASInnerDetector.png>]
-<../ThesisImages/LHCImages/ATLASInnerStructure.png, id=1333, 250.34328pt x 218.
+<../ThesisImages/LHCImages/ATLASInnerStructure.png, id=1368, 250.34328pt x 218.
 2554pt>
 File: ../ThesisImages/LHCImages/ATLASInnerStructure.png Graphic file (type png)
 
@@ -2246,14 +2246,14 @@ d on input line 154.
 (pdftex.def)             Requested size: 216.81pt x 189.02809pt.
  [47 <../ThesisImages/LHCImages/tracking.png>] [48 <../ThesisImages/LHCImages/A
 TLASInnerStructure.png (PNG copy)>]
-<../ThesisImages/LHCImages/ATLASCaloSystem.png, id=1353, 682.80093pt x 400.4962
+<../ThesisImages/LHCImages/ATLASCaloSystem.png, id=1387, 682.80093pt x 400.4962
 5pt>
 File: ../ThesisImages/LHCImages/ATLASCaloSystem.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASCaloSystem.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASCaloSystem.png  used on
  input line 172.
 (pdftex.def)             Requested size: 433.62pt x 254.34285pt.
-<../ThesisImages/LHCImages/LArAccordian.png, id=1357, 604.05675pt x 483.60675pt
+<../ThesisImages/LHCImages/LArAccordian.png, id=1391, 604.05675pt x 483.60675pt
 >
 File: ../ThesisImages/LHCImages/LArAccordian.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/LArAccordian.png>
@@ -2262,7 +2262,7 @@ put line 181.
 (pdftex.def)             Requested size: 216.81pt x 173.57436pt.
  [49 <../ThesisImages/LHCImages/ATLASCaloSystem.png>] [50 <../ThesisImages/LHCI
 mages/LArAccordian.png>]
-<../ThesisImages/LHCImages/MaterialBudget.png, id=1373, 1048.66782pt x 341.7768
+<../ThesisImages/LHCImages/MaterialBudget.png, id=1407, 1048.66782pt x 341.7768
 7pt>
 File: ../ThesisImages/LHCImages/MaterialBudget.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/MaterialBudget.png>
@@ -2270,14 +2270,14 @@ Package pdftex.def Info: ../ThesisImages/LHCImages/MaterialBudget.png  used on
 input line 191.
 (pdftex.def)             Requested size: 433.62pt x 141.32367pt.
  [51 <../ThesisImages/LHCImages/MaterialBudget.png>]
-<../ThesisImages/LHCImages/InteractionLengths.png, id=1383, 426.84468pt x 292.0
+<../ThesisImages/LHCImages/InteractionLengths.png, id=1417, 426.84468pt x 292.0
 9125pt>
 File: ../ThesisImages/LHCImages/InteractionLengths.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/InteractionLengths.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/InteractionLengths.png  used
  on input line 204.
 (pdftex.def)             Requested size: 346.89731pt x 237.3993pt.
-<../ThesisImages/LHCImages/ATLASMuonSystem.png, id=1386, 714.41907pt x 535.2497
+<../ThesisImages/LHCImages/ATLASMuonSystem.png, id=1420, 714.41907pt x 535.2497
 pt>
 File: ../ThesisImages/LHCImages/ATLASMuonSystem.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASMuonSystem.png>
@@ -2286,7 +2286,7 @@ Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASMuonSystem.png  used on
 (pdftex.def)             Requested size: 433.62pt x 324.87656pt.
  [52 <../ThesisImages/LHCImages/InteractionLengths.png>] [53 <../ThesisImages/L
 HCImages/ATLASMuonSystem.png>] [54]
-<../ThesisImages/LHCImages/ATLASTDAQR2.png, id=1406, 752.8125pt x 569.87906pt>
+<../ThesisImages/LHCImages/ATLASTDAQR2.png, id=1440, 752.8125pt x 569.87906pt>
 File: ../ThesisImages/LHCImages/ATLASTDAQR2.png Graphic file (type png)
 <use ../ThesisImages/LHCImages/ATLASTDAQR2.png>
 Package pdftex.def Info: ../ThesisImages/LHCImages/ATLASTDAQR2.png  used on inp
@@ -2298,7 +2298,7 @@ ut line 237.
 
  (Simulation.tex
 [Simulation and Reconstruction]
-<../ThesisImages/Simulation/MCFlow.png, id=1425, 874.76813pt x 651.93562pt>
+<../ThesisImages/Simulation/MCFlow.png, id=1459, 874.76813pt x 651.93562pt>
 File: ../ThesisImages/Simulation/MCFlow.png Graphic file (type png)
 <use ../ThesisImages/Simulation/MCFlow.png>
 Package pdftex.def Info: ../ThesisImages/Simulation/MCFlow.png  used on input l
@@ -2312,7 +2312,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
-<../ThesisImages/Simulation/PDF.png, id=1433, 931.22906pt x 596.98032pt>
+<../ThesisImages/Simulation/PDF.png, id=1468, 931.22906pt x 596.98032pt>
 File: ../ThesisImages/Simulation/PDF.png Graphic file (type png)
 <use ../ThesisImages/Simulation/PDF.png>
 Package pdftex.def Info: ../ThesisImages/Simulation/PDF.png  used on input line
@@ -2320,14 +2320,14 @@ Package pdftex.def Info: ../ThesisImages/Simulation/PDF.png  used on input line
 (pdftex.def)             Requested size: 433.62pt x 277.97556pt.
  [59 <../ThesisImages/Simulation/MCFlow.png>] [60 <../ThesisImages/Simulation/P
 DF.png>] [61] [62]
-<../ThesisImages/FCNCValidation/singleTops.png, id=1482, 1118.67938pt x 241.652
+<../ThesisImages/FCNCValidation/singleTops.png, id=1516, 1118.67938pt x 241.652
 82pt>
 File: ../ThesisImages/FCNCValidation/singleTops.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/singleTops.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/singleTops.png  used on
  input line 65.
 (pdftex.def)             Requested size: 433.62pt x 93.66899pt.
-<../ThesisImages/FCNCValidation/ttBarSys.png, id=1483, 1087.06125pt x 231.11343
+<../ThesisImages/FCNCValidation/ttBarSys.png, id=1517, 1087.06125pt x 231.11343
 pt>
 File: ../ThesisImages/FCNCValidation/ttBarSys.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/ttBarSys.png>
@@ -2335,14 +2335,14 @@ Package pdftex.def Info: ../ThesisImages/FCNCValidation/ttBarSys.png  used on i
 nput line 76.
 (pdftex.def)             Requested size: 433.62pt x 92.18982pt.
  [63 <../ThesisImages/FCNCValidation/singleTops.png>]
-<../ThesisImages/FCNCValidation/lepton.png, id=1494, 721.19438pt x 231.11343pt>
+<../ThesisImages/FCNCValidation/lepton.png, id=1528, 721.19438pt x 231.11343pt>
 
 File: ../ThesisImages/FCNCValidation/lepton.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/lepton.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/lepton.png  used on inp
 ut line 84.
 (pdftex.def)             Requested size: 433.62pt x 138.9583pt.
-<../ThesisImages/FCNCValidation/quarks.png, id=1496, 1091.57813pt x 231.11343pt
+<../ThesisImages/FCNCValidation/quarks.png, id=1530, 1091.57813pt x 231.11343pt
 >
 File: ../ThesisImages/FCNCValidation/quarks.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/quarks.png>
@@ -2353,7 +2353,7 @@ ut line 93.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/FCNCValidation/photon.png, id=1498, 465.23813pt x 307.1475pt>
+<../ThesisImages/FCNCValidation/photon.png, id=1532, 465.23813pt x 307.1475pt>
 File: ../ThesisImages/FCNCValidation/photon.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/photon.png>
 Package pdftex.def Info: ../ThesisImages/FCNCValidation/photon.png  used on inp
@@ -2364,7 +2364,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [64 <../ThesisImages/FCNCValidation/ttBarSys.png> <../ThesisImages/FCNCValidati
 on/lepton.png>]
-<../ThesisImages/FCNCValidation/PhotonLHRH.png, id=1504, 414.79968pt x 273.2709
+<../ThesisImages/FCNCValidation/PhotonLHRH.png, id=1539, 414.79968pt x 273.2709
 4pt>
 File: ../ThesisImages/FCNCValidation/PhotonLHRH.png Graphic file (type png)
 <use ../ThesisImages/FCNCValidation/PhotonLHRH.png>
@@ -2377,7 +2377,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [65 <../ThesisImages/FCNCValidation/quarks.png> <../ThesisImages/FCNCValidation
 /photon.png>] [66 <../ThesisImages/FCNCValidation/PhotonLHRH.png>]
-<../ThesisImages/Simulation/ParticleInteractions.jpg, id=1517, 903.375pt x 732.
+<../ThesisImages/Simulation/ParticleInteractions.jpg, id=1551, 903.375pt x 732.
 7375pt>
 File: ../ThesisImages/Simulation/ParticleInteractions.jpg Graphic file (type jp
 g)
@@ -2391,7 +2391,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [67] [68 <../ThesisImages/Simulation/ParticleInteractions.jpg>] [69] [70]
 [71] [72] [73]
-<../ThesisImages/Simulation/VarJetAlgs.png, id=1568, 912.40875pt x 649.67719pt>
+<../ThesisImages/Simulation/VarJetAlgs.png, id=1602, 912.40875pt x 649.67719pt>
 
 File: ../ThesisImages/Simulation/VarJetAlgs.png Graphic file (type png)
 <use ../ThesisImages/Simulation/VarJetAlgs.png>
@@ -2403,7 +2403,7 @@ ut line 202.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [74] [75 <../ThesisImages/Simulation/VarJetAlgs.png>]
-<../ThesisImages/Simulation/B-tagging_diagram.png, id=1589, 903.375pt x 924.453
+<../ThesisImages/Simulation/B-tagging_diagram.png, id=1623, 903.375pt x 924.453
 75pt>
 File: ../ThesisImages/Simulation/B-tagging_diagram.png Graphic file (type png)
 <use ../ThesisImages/Simulation/B-tagging_diagram.png>
@@ -2415,7 +2415,7 @@ Package pdftex.def Info: ../ThesisImages/Simulation/B-tagging_diagram.png  used
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [76]
-<../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png, id=1606, 903.375pt x 459
+<../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png, id=1641, 903.375pt x 459
 .96844pt>
 File: ../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png Graphic file (type p
 ng)
@@ -2439,7 +2439,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 55.
 
 [84] [85]
-<../ThesisImages/SearchStrategy/varplots/photon0_iso.png, id=1669, 578.16pt x 5
+<../ThesisImages/SearchStrategy/varplots/photon0_iso.png, id=1703, 578.16pt x 5
 78.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_iso.png Graphic file (typ
 e png)
@@ -2447,7 +2447,7 @@ e png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_iso.pn
 g  used on input line 92.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/photon0_pt.png, id=1670, 578.16pt x 57
+<../ThesisImages/SearchStrategy/varplots/photon0_pt.png, id=1704, 578.16pt x 57
 8.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_pt.png Graphic file (type
  png)
@@ -2455,7 +2455,7 @@ File: ../ThesisImages/SearchStrategy/varplots/photon0_pt.png Graphic file (type
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_pt.png
   used on input line 93.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_qgam.png, id=1671, 578.16pt x 578.16
+<../ThesisImages/SearchStrategy/varplots/m_qgam.png, id=1705, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/m_qgam.png Graphic file (type png
 )
@@ -2463,7 +2463,7 @@ File: ../ThesisImages/SearchStrategy/varplots/m_qgam.png Graphic file (type png
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_qgam.png  us
 ed on input line 95.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_lgam.png, id=1672, 578.16pt x 578.16
+<../ThesisImages/SearchStrategy/varplots/m_lgam.png, id=1706, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/m_lgam.png Graphic file (type png
 )
@@ -2471,7 +2471,7 @@ File: ../ThesisImages/SearchStrategy/varplots/m_lgam.png Graphic file (type png
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_lgam.png  us
 ed on input line 96.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/m_tSM.png, id=1673, 578.16pt x 578.16p
+<../ThesisImages/SearchStrategy/varplots/m_tSM.png, id=1707, 578.16pt x 578.16p
 t>
 File: ../ThesisImages/SearchStrategy/varplots/m_tSM.png Graphic file (type png)
 
@@ -2479,7 +2479,7 @@ File: ../ThesisImages/SearchStrategy/varplots/m_tSM.png Graphic file (type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/m_tSM.png  use
 d on input line 98.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/deltaRjgam.png, id=1674, 578.16pt x 57
+<../ThesisImages/SearchStrategy/varplots/deltaRjgam.png, id=1708, 578.16pt x 57
 8.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRjgam.png Graphic file (type
  png)
@@ -2491,7 +2491,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRjgam.png
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/deltaRbl.png, id=1675, 578.16pt x 578.
+<../ThesisImages/SearchStrategy/varplots/deltaRbl.png, id=1709, 578.16pt x 578.
 16pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRbl.png Graphic file (type p
 ng)
@@ -2499,21 +2499,21 @@ ng)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRbl.png  
 used on input line 108.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/MWT.png, id=1676, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/MWT.png, id=1710, 578.16pt x 578.16pt>
 
 File: ../ThesisImages/SearchStrategy/varplots/MWT.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/MWT.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/MWT.png  used 
 on input line 109.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/S_T.png, id=1677, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/S_T.png, id=1711, 578.16pt x 578.16pt>
 
 File: ../ThesisImages/SearchStrategy/varplots/S_T.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/S_T.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/S_T.png  used 
 on input line 111.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/njets.png, id=1678, 578.16pt x 578.16p
+<../ThesisImages/SearchStrategy/varplots/njets.png, id=1712, 578.16pt x 578.16p
 t>
 File: ../ThesisImages/SearchStrategy/varplots/njets.png Graphic file (type png)
 
@@ -2521,7 +2521,7 @@ File: ../ThesisImages/SearchStrategy/varplots/njets.png Graphic file (type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/njets.png  use
 d on input line 112.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/w_chi2.png, id=1679, 578.16pt x 578.16
+<../ThesisImages/SearchStrategy/varplots/w_chi2.png, id=1713, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/w_chi2.png Graphic file (type png
 )
@@ -2529,7 +2529,7 @@ File: ../ThesisImages/SearchStrategy/varplots/w_chi2.png Graphic file (type png
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/w_chi2.png  us
 ed on input line 114.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/jet0_pt.png, id=1680, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/jet0_pt.png, id=1714, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/jet0_pt.png Graphic file (type pn
 g)
@@ -2540,7 +2540,7 @@ sed on input line 115.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/deltaRlgam.png, id=1681, 578.16pt x 57
+<../ThesisImages/SearchStrategy/varplots/deltaRlgam.png, id=1715, 578.16pt x 57
 8.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png Graphic file (type
  png)
@@ -2548,7 +2548,7 @@ File: ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png Graphic file (type
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRlgam.png
   used on input line 122.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/lepton_e.png, id=1682, 578.16pt x 578.
+<../ThesisImages/SearchStrategy/varplots/lepton_e.png, id=1716, 578.16pt x 578.
 16pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_e.png Graphic file (type p
 ng)
@@ -2556,14 +2556,14 @@ ng)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_e.png  
 used on input line 123.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/met.png, id=1683, 578.16pt x 578.16pt>
+<../ThesisImages/SearchStrategy/varplots/met.png, id=1717, 578.16pt x 578.16pt>
 
 File: ../ThesisImages/SearchStrategy/varplots/met.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/varplots/met.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/met.png  used 
 on input line 125.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/bjet0_pt.png, id=1684, 578.16pt x 578.
+<../ThesisImages/SearchStrategy/varplots/bjet0_pt.png, id=1718, 578.16pt x 578.
 16pt>
 File: ../ThesisImages/SearchStrategy/varplots/bjet0_pt.png Graphic file (type p
 ng)
@@ -2588,7 +2588,7 @@ s/SearchStrategy/varplots/met.png> <../ThesisImages/SearchStrategy/varplots/bje
 t0_pt.png>] [90
 
 ]
-<../ThesisImages/SearchStrategy/neural_net2.jpeg, id=1745, 793.96625pt x 389.45
+<../ThesisImages/SearchStrategy/neural_net2.jpeg, id=1779, 793.96625pt x 389.45
 5pt>
 File: ../ThesisImages/SearchStrategy/neural_net2.jpeg Graphic file (type jpg)
 <use ../ThesisImages/SearchStrategy/neural_net2.jpeg>
@@ -2607,7 +2607,7 @@ essed us-ing the
 
 [93] [94]
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
-sbothroc.png, id=1768, 722.7pt x 722.7pt>
+sbothroc.png, id=1803, 722.7pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsbothroc.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
@@ -2616,7 +2616,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/btag77/modelouts/ejetsbothroc.png  used on input line 207.
 (pdftex.def)             Requested size: 216.81pt x 216.81166pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
-tsbothroc.png, id=1769, 722.7pt x 722.7pt>
+tsbothroc.png, id=1804, 722.7pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /mujetsbothroc.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
@@ -2628,7 +2628,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 /ejetsbothroc.png> <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/bt
 ag77/modelouts/mujetsbothroc.png>]
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/ej
-etsboth2hidnpart0accuarcy.png, id=1782, 462.528pt x 346.896pt>
+etsboth2hidnpart0accuarcy.png, id=1816, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2637,7 +2637,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input line 217.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mu
-jetsboth2hidnpart0accuarcy.png, id=1783, 462.528pt x 346.896pt>
+jetsboth2hidnpart0accuarcy.png, id=1817, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2647,7 +2647,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/ej
-etsboth2hidnpart0loss.png, id=1784, 462.528pt x 346.896pt>
+etsboth2hidnpart0loss.png, id=1818, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/ejetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2656,7 +2656,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line 225.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mu
-jetsboth2hidnpart0loss.png, id=1785, 462.528pt x 346.896pt>
+jetsboth2hidnpart0loss.png, id=1819, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/mujetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2672,7 +2672,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 7/ejetsboth2hidnpart0accuarcy.png> <../ThesisImages/SearchStrategy/HiddenLayerS
 tudiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png>]
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
-sboth1hidnpart0sigbkg.png, id=1795, 462.528pt x 346.896pt>
+sboth1hidnpart0sigbkg.png, id=1829, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsboth1hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
@@ -2681,7 +2681,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/btag77/modelouts/ejetsboth1hidnpart0sigbkg.png  used on input line 237.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
-sboth2hidnpart0sigbkg.png, id=1796, 462.528pt x 346.896pt>
+sboth2hidnpart0sigbkg.png, id=1830, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
@@ -2690,7 +2690,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/btag77/modelouts/ejetsboth2hidnpart0sigbkg.png  used on input line 238.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/ejet
-sboth3hidnpart0sigbkg.png, id=1797, 462.528pt x 346.896pt>
+sboth3hidnpart0sigbkg.png, id=1831, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /ejetsboth3hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
@@ -2699,7 +2699,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/btag77/modelouts/ejetsboth3hidnpart0sigbkg.png  used on input line 239.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
-tsboth1hidnpart0sigbkg.png, id=1798, 462.528pt x 346.896pt>
+tsboth1hidnpart0sigbkg.png, id=1832, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /mujetsboth1hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
@@ -2708,7 +2708,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/btag77/modelouts/mujetsboth1hidnpart0sigbkg.png  used on input line 241.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
-tsboth2hidnpart0sigbkg.png, id=1799, 462.528pt x 346.896pt>
+tsboth2hidnpart0sigbkg.png, id=1833, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
@@ -2717,7 +2717,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/btag77/modelouts/mujetsboth2hidnpart0sigbkg.png  used on input line 242.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/muje
-tsboth3hidnpart0sigbkg.png, id=1800, 462.528pt x 346.896pt>
+tsboth3hidnpart0sigbkg.png, id=1834, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts
 /mujetsboth3hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/btag77/modelouts/
@@ -2730,7 +2730,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/si
-gnificanceejetsboth2hidnpart02.png, id=1801, 1084.05pt x 722.7pt>
+gnificanceejetsboth2hidnpart02.png, id=1835, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/significanceejetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2740,7 +2740,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 250.
 (pdftex.def)             Requested size: 216.81pt x 144.53743pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/si
-gnificancemujetsboth2hidnpart02.png, id=1802, 1084.05pt x 722.7pt>
+gnificancemujetsboth2hidnpart02.png, id=1836, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/significancemujetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2771,7 +2771,7 @@ s/btag77/significanceejetsboth2hidnpart02.png> <../ThesisImages/SearchStrategy/
 HiddenLayerStudiesBR0.002/BestResults/btag77/significancemujetsboth2hidnpart02.
 png>]
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/ej
-etsboth2hidnpart0loss.png, id=1836, 462.528pt x 346.896pt>
+etsboth2hidnpart0loss.png, id=1870, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/ejetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2787,7 +2787,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line 266.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/ej
-etsboth2hidnpart0loss.png, id=1837, 462.528pt x 346.896pt>
+etsboth2hidnpart0loss.png, id=1871, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/ejetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
@@ -2796,7 +2796,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag85/ejetsboth2hidnpart0loss.png  used on input line 267.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/ej
-etsboth2hidnpart0accuarcy.png, id=1838, 462.528pt x 346.896pt>
+etsboth2hidnpart0accuarcy.png, id=1872, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2812,7 +2812,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input line 270.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/ej
-etsboth2hidnpart0accuarcy.png, id=1839, 462.528pt x 346.896pt>
+etsboth2hidnpart0accuarcy.png, id=1873, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
@@ -2825,7 +2825,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/mu
-jetsboth2hidnpart0loss.png, id=1840, 462.528pt x 346.896pt>
+jetsboth2hidnpart0loss.png, id=1874, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/mujetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2841,7 +2841,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/mujetsboth2hidnpart0loss.png  used on input line 279.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mu
-jetsboth2hidnpart0loss.png, id=1841, 462.528pt x 346.896pt>
+jetsboth2hidnpart0loss.png, id=1875, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/mujetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
@@ -2850,7 +2850,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag85/mujetsboth2hidnpart0loss.png  used on input line 280.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/mu
-jetsboth2hidnpart0accuarcy.png, id=1842, 462.528pt x 346.896pt>
+jetsboth2hidnpart0accuarcy.png, id=1876, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2868,7 +2868,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mu
-jetsboth2hidnpart0accuarcy.png, id=1843, 462.528pt x 346.896pt>
+jetsboth2hidnpart0accuarcy.png, id=1877, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
@@ -2881,7 +2881,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/ej
-etsboth2hidnpart0sigbkg.png, id=1844, 462.528pt x 346.896pt>
+etsboth2hidnpart0sigbkg.png, id=1878, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2890,7 +2890,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag70/ejetsboth2hidnpart0sigbkg.png  used on input line 291.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/ej
-etsboth2hidnpart0sigbkg.png, id=1845, 462.528pt x 346.896pt>
+etsboth2hidnpart0sigbkg.png, id=1879, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2899,7 +2899,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/ejetsboth2hidnpart0sigbkg.png  used on input line 292.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/ej
-etsboth2hidnpart0sigbkg.png, id=1846, 462.528pt x 346.896pt>
+etsboth2hidnpart0sigbkg.png, id=1880, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
@@ -2908,7 +2908,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag85/ejetsboth2hidnpart0sigbkg.png  used on input line 293.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/si
-gnificanceejetsboth2hidnpart02.png, id=1847, 1084.05pt x 722.7pt>
+gnificanceejetsboth2hidnpart02.png, id=1881, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/significanceejetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2926,7 +2926,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 296.
 (pdftex.def)             Requested size: 143.09538pt x 95.38786pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/si
-gnificanceejetsboth2hidnpart02.png, id=1848, 1084.05pt x 722.7pt>
+gnificanceejetsboth2hidnpart02.png, id=1882, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/significanceejetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
@@ -2939,7 +2939,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/mu
-jetsboth2hidnpart0sigbkg.png, id=1849, 462.528pt x 346.896pt>
+jetsboth2hidnpart0sigbkg.png, id=1883, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2948,7 +2948,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag70/mujetsboth2hidnpart0sigbkg.png  used on input line 304.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mu
-jetsboth2hidnpart0sigbkg.png, id=1850, 462.528pt x 346.896pt>
+jetsboth2hidnpart0sigbkg.png, id=1884, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 77/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2957,7 +2957,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag77/mujetsboth2hidnpart0sigbkg.png  used on input line 305.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/mu
-jetsboth2hidnpart0sigbkg.png, id=1851, 462.528pt x 346.896pt>
+jetsboth2hidnpart0sigbkg.png, id=1885, 462.528pt x 346.896pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
@@ -2966,7 +2966,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
 02/BestResults/btag85/mujetsboth2hidnpart0sigbkg.png  used on input line 306.
 (pdftex.def)             Requested size: 143.09538pt x 107.31961pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag70/si
-gnificancemujetsboth2hidnpart02.png, id=1852, 1084.05pt x 722.7pt>
+gnificancemujetsboth2hidnpart02.png, id=1886, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 70/significancemujetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag7
@@ -2984,7 +2984,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.0
  309.
 (pdftex.def)             Requested size: 143.09538pt x 95.38786pt.
 <../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag85/si
-gnificancemujetsboth2hidnpart02.png, id=1853, 1084.05pt x 722.7pt>
+gnificancemujetsboth2hidnpart02.png, id=1887, 1084.05pt x 722.7pt>
 File: ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag
 85/significancemujetsboth2hidnpart02.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults/btag8
@@ -3038,7 +3038,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 [103] [104]
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_ph_pt.png, id=1927, 598.235pt x 674.52pt>
+eSel_ph_pt.png, id=1961, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_ph_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3047,7 +3047,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_ph_pt.png  used on input line 423.
 (pdftex.def)             Requested size: 195.12767pt x 220.00891pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_ph_pt.png, id=1928, 598.235pt x 674.52pt>
+reSel_ph_pt.png, id=1962, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_ph_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3056,7 +3056,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_mujets/Plots/PreSel_ph_pt.png  used on input line 424.
 (pdftex.def)             Requested size: 195.12767pt x 220.00891pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_ST.png, id=1934, 598.235pt x 674.52pt>
+eSel_ST.png, id=1968, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3065,7 +3065,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_ST.png  used on input line 433.
 (pdftex.def)             Requested size: 216.81pt x 244.4532pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_ST.png, id=1935, 598.235pt x 674.52pt>
+reSel_ST.png, id=1969, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3074,7 +3074,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_mujets/Plots/PreSel_ST.png  used on input line 434.
 (pdftex.def)             Requested size: 216.81pt x 244.4532pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_MWT.png, id=1936, 598.235pt x 674.52pt>
+eSel_MWT.png, id=1970, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_MWT.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3083,7 +3083,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_MWT.png  used on input line 436.
 (pdftex.def)             Requested size: 195.12767pt x 220.00891pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_MWT.png, id=1937, 598.235pt x 674.52pt>
+reSel_MWT.png, id=1971, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_MWT.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3096,7 +3096,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_SMtop.png, id=1938, 598.235pt x 674.52pt>
+eSel_SMtop.png, id=1972, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_SMtop.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3105,7 +3105,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_SMtop.png  used on input line 444.
 (pdftex.def)             Requested size: 216.81pt x 244.4532pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_SMtop.png, id=1939, 598.235pt x 674.52pt>
+reSel_SMtop.png, id=1973, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_SMtop.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3114,7 +3114,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_mujets/Plots/PreSel_SMtop.png  used on input line 445.
 (pdftex.def)             Requested size: 216.81pt x 244.4532pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_mqph.png, id=1940, 598.235pt x 674.52pt>
+eSel_mqph.png, id=1974, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_mqph.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3123,7 +3123,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_mqph.png  used on input line 447.
 (pdftex.def)             Requested size: 216.81pt x 244.4532pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_mqph.png, id=1941, 598.235pt x 674.52pt>
+reSel_mqph.png, id=1975, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_mqph.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3142,7 +3142,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_ph_pt.png  used on input line 468.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_jet0_pt.png, id=1942, 598.235pt x 674.52pt>
+eSel_jet0_pt.png, id=1976, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_jet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3151,7 +3151,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_jet0_pt.png  used on input line 469.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_lep_pt.png, id=1943, 598.235pt x 674.52pt>
+eSel_lep_pt.png, id=1977, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_lep_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3160,7 +3160,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_lep_pt.png  used on input line 470.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_bjet0_pt.png, id=1944, 598.235pt x 674.52pt>
+eSel_bjet0_pt.png, id=1978, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_bjet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3169,7 +3169,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_bjet0_pt.png  used on input line 472.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_met.png, id=1945, 598.235pt x 674.52pt>
+eSel_met.png, id=1979, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_met.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3178,7 +3178,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_met.png  used on input line 473.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_njet.png, id=1946, 598.235pt x 674.52pt>
+eSel_njet.png, id=1980, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_njet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3197,7 +3197,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_mujets/Plots/PreSel_ph_pt.png  used on input line 482.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_jet0_pt.png, id=1947, 598.235pt x 674.52pt>
+reSel_jet0_pt.png, id=1981, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_jet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3206,7 +3206,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_mujets/Plots/PreSel_jet0_pt.png  used on input line 483.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_lep_pt.png, id=1948, 598.235pt x 674.52pt>
+reSel_lep_pt.png, id=1982, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_lep_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3215,7 +3215,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_mujets/Plots/PreSel_lep_pt.png  used on input line 484.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_bjet0_pt.png, id=1949, 598.235pt x 674.52pt>
+reSel_bjet0_pt.png, id=1983, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_bjet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3224,7 +3224,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_mujets/Plots/PreSel_bjet0_pt.png  used on input line 486.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_met.png, id=1950, 598.235pt x 674.52pt>
+reSel_met.png, id=1984, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_met.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3233,7 +3233,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_mujets/Plots/PreSel_met.png  used on input line 487.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_njet.png, id=1951, 598.235pt x 674.52pt>
+reSel_njet.png, id=1985, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_njet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3245,7 +3245,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/Pr
-eSel_NNejet.png, id=1952, 598.235pt x 674.52pt>
+eSel_NNejet.png, id=1986, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plo
 ts/PreSel_NNejet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plot
@@ -3254,7 +3254,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 /FCNC_All_ejets/Plots/PreSel_NNejet.png  used on input line 495.
 (pdftex.def)             Requested size: 216.81pt x 244.4532pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/P
-reSel_NNmujet.png, id=1953, 598.235pt x 674.52pt>
+reSel_NNmujet.png, id=1987, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Pl
 ots/PreSel_NNmujet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plo
@@ -3324,7 +3324,7 @@ lots/PreSel_NNejet.png> <../ThesisImages/RegionPlots/BeforeScaling/PreSelection
 
 ]
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/CR1_ST.png, id=2006, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/CR1_ST.png, id=2040, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/CR1_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3333,7 +3333,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/AfterScaling/ControlRegion
 s/HardCodedNormFactor/FCNC_All_ejets/Plots/CR1_ST.png  used on input line 526.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/VR3_ST.png, id=2007, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/VR3_ST.png, id=2041, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/VR3_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3342,7 +3342,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/AfterScaling/ControlRegion
 s/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_ST.png  used on input line 527.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/CR2_ST.png, id=2008, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/CR2_ST.png, id=2042, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/CR2_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3351,7 +3351,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/AfterScaling/ControlRegion
 s/HardCodedNormFactor/FCNC_All_ejets/Plots/CR2_ST.png  used on input line 528.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/CR1_ST.png, id=2009, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/CR1_ST.png, id=2043, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/CR1_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3361,7 +3361,7 @@ s/HardCodedNormFactor/FCNC_All_mujets/Plots/CR1_ST.png  used on input line 530.
 
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/VR3_ST.png, id=2010, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/VR3_ST.png, id=2044, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/VR3_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3371,7 +3371,7 @@ s/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_ST.png  used on input line 531.
 
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/CR2_ST.png, id=2011, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/CR2_ST.png, id=2045, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/CR2_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3389,7 +3389,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/VR3_MWT_postFit.png, id=2022, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/VR3_MWT_postFit.png, id=2057, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/VR3_MWT_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3399,7 +3399,7 @@ s/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png  used on input l
 ine 564.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/VR3_SMtop_postFit.png, id=2023, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/VR3_SMtop_postFit.png, id=2058, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3409,7 +3409,7 @@ s/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png  used on input
  line 565.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/VR3_met_postFit.png, id=2024, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/VR3_met_postFit.png, id=2059, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/VR3_met_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3419,7 +3419,7 @@ s/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png  used on input l
 ine 566.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/VR3_njet_postFit.png, id=2025, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/VR3_njet_postFit.png, id=2060, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/VR3_njet_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3429,7 +3429,7 @@ s/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png  used on input
 line 568.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/VR3_jet0_pt_postFit.png, id=2026, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/VR3_jet0_pt_postFit.png, id=2061, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3439,7 +3439,7 @@ s/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png  used on inp
 ut line 569.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_ejets/Plots/VR3_bjet0_pt_postFit.png, id=2027, 598.235pt x 674.52pt>
+NC_All_ejets/Plots/VR3_bjet0_pt_postFit.png, id=2062, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_ejets/Plots/VR3_bjet0_pt_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3452,7 +3452,7 @@ put line 570.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/VR3_MWT_postFit.png, id=2028, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/VR3_MWT_postFit.png, id=2063, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/VR3_MWT_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3462,7 +3462,7 @@ s/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_MWT_postFit.png  used on input
 line 577.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/VR3_SMtop_postFit.png, id=2029, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/VR3_SMtop_postFit.png, id=2064, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3472,7 +3472,7 @@ s/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_SMtop_postFit.png  used on inpu
 t line 578.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/VR3_met_postFit.png, id=2030, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/VR3_met_postFit.png, id=2065, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/VR3_met_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3482,7 +3482,7 @@ s/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_met_postFit.png  used on input
 line 579.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/VR3_njet_postFit.png, id=2031, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/VR3_njet_postFit.png, id=2066, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/VR3_njet_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3492,7 +3492,7 @@ s/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_njet_postFit.png  used on input
  line 581.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/VR3_jet0_pt_postFit.png, id=2032, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/VR3_jet0_pt_postFit.png, id=2067, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/VR3_jet0_pt_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3502,7 +3502,7 @@ s/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt_postFit.png  used on in
 put line 582.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FC
-NC_All_mujets/Plots/VR3_bjet0_pt_postFit.png, id=2033, 598.235pt x 674.52pt>
+NC_All_mujets/Plots/VR3_bjet0_pt_postFit.png, id=2068, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFact
 or/FCNC_All_mujets/Plots/VR3_bjet0_pt_postFit.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
@@ -3558,7 +3558,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 ]
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R1_ph_pt.png, id=2073, 598.235pt x 674.52pt>
+R1_ph_pt.png, id=2107, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR1_ph_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3567,7 +3567,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR1_ph_pt.png  used on input line 629.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R1_lep_pt.png, id=2074, 598.235pt x 674.52pt>
+R1_lep_pt.png, id=2108, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR1_lep_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3576,7 +3576,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR1_lep_pt.png  used on input line 630.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R1_jet0_pt.png, id=2075, 598.235pt x 674.52pt>
+R1_jet0_pt.png, id=2109, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR1_jet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3585,7 +3585,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR1_jet0_pt.png  used on input line 631.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R1_njet.png, id=2076, 598.235pt x 674.52pt>
+R1_njet.png, id=2110, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR1_njet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3594,7 +3594,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR1_njet.png  used on input line 633.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R1_MWT.png, id=2077, 598.235pt x 674.52pt>
+R1_MWT.png, id=2111, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR1_MWT.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3603,7 +3603,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR1_MWT.png  used on input line 634.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R1_ST.png, id=2078, 598.235pt x 674.52pt>
+R1_ST.png, id=2112, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR1_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3616,7 +3616,7 @@ s/FCNC_All_ejets/Plots/VR1_ST.png  used on input line 635.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR1_ph_pt.png, id=2079, 598.235pt x 674.52pt>
+VR1_ph_pt.png, id=2113, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR1_ph_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3625,7 +3625,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR1_ph_pt.png  used on input line 642.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR1_lep_pt.png, id=2080, 598.235pt x 674.52pt>
+VR1_lep_pt.png, id=2114, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR1_lep_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3634,7 +3634,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR1_lep_pt.png  used on input line 643.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR1_jet0_pt.png, id=2081, 598.235pt x 674.52pt>
+VR1_jet0_pt.png, id=2115, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR1_jet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3643,7 +3643,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR1_jet0_pt.png  used on input line 644.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR1_njet.png, id=2082, 598.235pt x 674.52pt>
+VR1_njet.png, id=2116, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR1_njet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3652,7 +3652,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR1_njet.png  used on input line 646.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR1_MWT.png, id=2083, 598.235pt x 674.52pt>
+VR1_MWT.png, id=2117, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR1_MWT.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3661,7 +3661,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR1_MWT.png  used on input line 647.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR1_ST.png, id=2084, 598.235pt x 674.52pt>
+VR1_ST.png, id=2118, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR1_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3707,7 +3707,7 @@ Overfull \hbox (9.42125pt too wide) in paragraph at lines 664--665
  []
 
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R2_ph_pt.png, id=2113, 598.235pt x 674.52pt>
+R2_ph_pt.png, id=2147, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR2_ph_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3716,7 +3716,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR2_ph_pt.png  used on input line 685.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R2_lep_pt.png, id=2114, 598.235pt x 674.52pt>
+R2_lep_pt.png, id=2148, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR2_lep_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3725,7 +3725,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR2_lep_pt.png  used on input line 686.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R2_jet0_pt.png, id=2115, 598.235pt x 674.52pt>
+R2_jet0_pt.png, id=2149, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR2_jet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3734,7 +3734,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR2_jet0_pt.png  used on input line 687.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R2_njet.png, id=2116, 598.235pt x 674.52pt>
+R2_njet.png, id=2150, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR2_njet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3743,7 +3743,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR2_njet.png  used on input line 689.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R2_MWT.png, id=2117, 598.235pt x 674.52pt>
+R2_MWT.png, id=2151, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR2_MWT.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3752,7 +3752,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/VR2_MWT.png  used on input line 690.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/V
-R2_ST.png, id=2118, 598.235pt x 674.52pt>
+R2_ST.png, id=2152, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/VR2_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -3764,7 +3764,7 @@ s/FCNC_All_ejets/Plots/VR2_ST.png  used on input line 691.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR2_ph_pt.png, id=2119, 598.235pt x 674.52pt>
+VR2_ph_pt.png, id=2153, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR2_ph_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3773,7 +3773,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR2_ph_pt.png  used on input line 698.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR2_lep_pt.png, id=2120, 598.235pt x 674.52pt>
+VR2_lep_pt.png, id=2154, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR2_lep_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3782,7 +3782,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR2_lep_pt.png  used on input line 699.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR2_jet0_pt.png, id=2121, 598.235pt x 674.52pt>
+VR2_jet0_pt.png, id=2155, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR2_jet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3791,7 +3791,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR2_jet0_pt.png  used on input line 700.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR2_njet.png, id=2122, 598.235pt x 674.52pt>
+VR2_njet.png, id=2156, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR2_njet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3800,7 +3800,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR2_njet.png  used on input line 702.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR2_MWT.png, id=2123, 598.235pt x 674.52pt>
+VR2_MWT.png, id=2157, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR2_MWT.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3809,7 +3809,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/VR2_MWT.png  used on input line 703.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-VR2_ST.png, id=2124, 598.235pt x 674.52pt>
+VR2_ST.png, id=2158, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/VR2_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -3852,7 +3852,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [123
 
 ]
-<../ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png, id=2160, 700.6175pt x 4
+<../ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png, id=2194, 700.6175pt x 4
 74.77374pt>
 File: ../ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png Graphic file (type 
 png)
@@ -3860,7 +3860,7 @@ png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png 
  used on input line 749.
 (pdftex.def)             Requested size: 281.85034pt x 191.00005pt.
-<../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png, id=2161, 700.6
+<../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png, id=2195, 700.6
 175pt x 474.77374pt>
 File: ../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png Graphic fi
 le (type png)
@@ -3868,7 +3868,7 @@ le (type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/FakeRates/2dEPConverted
 ptDa.png  used on input line 750.
 (pdftex.def)             Requested size: 216.81pt x 146.91753pt.
-<../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png, id=2162, 700
+<../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png, id=2196, 700
 .6175pt x 474.77374pt>
 File: ../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png Graphic 
 file (type png)
@@ -3877,7 +3877,7 @@ Package pdftex.def Info: ../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvert
 edptDa.png  used on input line 751.
 (pdftex.def)             Requested size: 216.81pt x 146.91753pt.
  [124]
-<../ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png, id=2167, 700.6175pt x 4
+<../ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png, id=2202, 700.6175pt x 4
 74.77374pt>
 File: ../ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png Graphic file (type 
 png)
@@ -3885,7 +3885,7 @@ png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png 
  used on input line 758.
 (pdftex.def)             Requested size: 281.85034pt x 191.00005pt.
-<../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png, id=2168, 700.6
+<../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png, id=2203, 700.6
 175pt x 474.77374pt>
 File: ../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png Graphic fi
 le (type png)
@@ -3893,7 +3893,7 @@ le (type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/FakeRates/2dEPConverted
 ptMC.png  used on input line 759.
 (pdftex.def)             Requested size: 216.81pt x 146.91753pt.
-<../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png, id=2169, 700
+<../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png, id=2204, 700
 .6175pt x 474.77374pt>
 File: ../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png Graphic 
 file (type png)
@@ -3910,7 +3910,7 @@ earchStrategy/FakeRates/2dEPConvertedptDa.png> <../ThesisImages/SearchStrategy/
 FakeRates/2dEPUnconvertedptDa.png>] [126 <../ThesisImages/SearchStrategy/FakeRa
 tes/2dEEptMC.png> <../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.p
 ng> <../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png>]
-<../ThesisImages/SearchStrategy/FakeRates/2DConverted.png, id=2185, 700.6175pt 
+<../ThesisImages/SearchStrategy/FakeRates/2DConverted.png, id=2219, 700.6175pt 
 x 475.7775pt>
 File: ../ThesisImages/SearchStrategy/FakeRates/2DConverted.png Graphic file (ty
 pe png)
@@ -3918,14 +3918,14 @@ pe png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/FakeRates/2DConverted.p
 ng  used on input line 777.
 (pdftex.def)             Requested size: 325.215pt x 220.84947pt.
-<../ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png, id=2186, 700.6175p
-t x 475.7775pt>
+<../ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png, id=2220, 525.46312
+pt x 356.83313pt>
 File: ../ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png Graphic file (
 type png)
 <use ../ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png>
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/FakeRates/2DUnconverted
 .png  used on input line 778.
-(pdftex.def)             Requested size: 325.215pt x 220.84947pt.
+(pdftex.def)             Requested size: 325.215pt x 220.8531pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3943,8 +3943,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 789.
 
-[128 <../ThesisImages/SearchStrategy/FakeRates/2DConverted.png (PNG copy)> <../
-ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png>] [129]
+[128 <../ThesisImages/SearchStrategy/FakeRates/2DConverted.png> <../ThesisImage
+s/SearchStrategy/FakeRates/2DUnconverted.png>] [129]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 812.
@@ -3958,7 +3958,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 812.
 
 [130]
-<../ThesisImages/SearchStrategy/ABCDpictoral.png, id=2214, 642.14906pt x 542.02
+<../ThesisImages/SearchStrategy/ABCDpictoral.png, id=2251, 642.14906pt x 542.02
 5pt>
 File: ../ThesisImages/SearchStrategy/ABCDpictoral.png Graphic file (type png)
 <use ../ThesisImages/SearchStrategy/ABCDpictoral.png>
@@ -3998,7 +3998,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [132 <../ThesisImages/SearchStrategy/ABCDpictoral.png>]
-<../ThesisImages/SearchStrategy/ABCD/ejetsConverted.png, id=2227, 525.46312pt x
+<../ThesisImages/SearchStrategy/ABCD/ejetsConverted.png, id=2263, 525.46312pt x
  356.83313pt>
 File: ../ThesisImages/SearchStrategy/ABCD/ejetsConverted.png Graphic file (type
  png)
@@ -4006,7 +4006,7 @@ File: ../ThesisImages/SearchStrategy/ABCD/ejetsConverted.png Graphic file (type
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/ABCD/ejetsConverted.png
   used on input line 886.
 (pdftex.def)             Requested size: 216.81pt x 147.23358pt.
-<../ThesisImages/SearchStrategy/ABCD/mujetsConverted.png, id=2228, 525.46312pt 
+<../ThesisImages/SearchStrategy/ABCD/mujetsConverted.png, id=2264, 525.46312pt 
 x 356.83313pt>
 File: ../ThesisImages/SearchStrategy/ABCD/mujetsConverted.png Graphic file (typ
 e png)
@@ -4014,7 +4014,7 @@ e png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/ABCD/mujetsConverted.pn
 g  used on input line 887.
 (pdftex.def)             Requested size: 216.81pt x 147.23358pt.
-<../ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png, id=2229, 525.46312pt
+<../ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png, id=2265, 525.46312pt
  x 356.83313pt>
 File: ../ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png Graphic file (ty
 pe png)
@@ -4022,7 +4022,7 @@ pe png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.p
 ng  used on input line 889.
 (pdftex.def)             Requested size: 216.81pt x 147.23358pt.
-<../ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png, id=2230, 525.46312p
+<../ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png, id=2266, 525.46312p
 t x 356.83313pt>
 File: ../ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png Graphic file (t
 ype png)
@@ -4058,7 +4058,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 943.
 
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_ph_pt.png, id=2256, 598.235pt x 674.52pt>
+R_ph_pt.png, id=2292, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_ph_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4067,7 +4067,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_ph_pt.png  used on input line 945.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_lep_pt.png, id=2257, 598.235pt x 674.52pt>
+R_lep_pt.png, id=2293, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_lep_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4076,7 +4076,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_lep_pt.png  used on input line 946.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_jet0_pt.png, id=2258, 598.235pt x 674.52pt>
+R_jet0_pt.png, id=2294, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_jet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4085,7 +4085,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_jet0_pt.png  used on input line 947.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_drlph.png, id=2259, 598.235pt x 674.52pt>
+R_drlph.png, id=2295, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_drlph.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4094,7 +4094,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_drlph.png  used on input line 949.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_phiso.png, id=2260, 598.235pt x 674.52pt>
+R_phiso.png, id=2296, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_phiso.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4103,7 +4103,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_phiso.png  used on input line 950.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_bjet0_pt.png, id=2261, 598.235pt x 674.52pt>
+R_bjet0_pt.png, id=2297, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_bjet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4116,7 +4116,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 957.
 
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_mqph.png, id=2262, 598.235pt x 674.52pt>
+R_mqph.png, id=2298, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_mqph.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4125,7 +4125,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_mqph.png  used on input line 959.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_SMtop.png, id=2263, 598.235pt x 674.52pt>
+R_SMtop.png, id=2299, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_SMtop.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4134,7 +4134,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_SMtop.png  used on input line 960.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_met.png, id=2264, 598.235pt x 674.52pt>
+R_met.png, id=2300, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_met.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4143,7 +4143,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_met.png  used on input line 961.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_njet.png, id=2265, 598.235pt x 674.52pt>
+R_njet.png, id=2301, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_njet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4152,7 +4152,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_njet.png  used on input line 963.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_MWT.png, id=2266, 598.235pt x 674.52pt>
+R_MWT.png, id=2302, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_MWT.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4161,7 +4161,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_ejets/Plots/SR_MWT.png  used on input line 964.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/S
-R_ST.png, id=2267, 598.235pt x 674.52pt>
+R_ST.png, id=2303, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Pl
 ots/SR_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plo
@@ -4174,7 +4174,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 971.
 
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_ph_pt.png, id=2268, 598.235pt x 674.52pt>
+SR_ph_pt.png, id=2304, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_ph_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4183,7 +4183,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_ph_pt.png  used on input line 973.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_lep_pt.png, id=2269, 598.235pt x 674.52pt>
+SR_lep_pt.png, id=2305, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_lep_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4192,7 +4192,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_lep_pt.png  used on input line 974.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_jet0_pt.png, id=2270, 598.235pt x 674.52pt>
+SR_jet0_pt.png, id=2306, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_jet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4201,7 +4201,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_jet0_pt.png  used on input line 975.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_drlph.png, id=2271, 598.235pt x 674.52pt>
+SR_drlph.png, id=2307, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_drlph.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4210,7 +4210,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_drlph.png  used on input line 977.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_phiso.png, id=2272, 598.235pt x 674.52pt>
+SR_phiso.png, id=2308, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_phiso.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4219,7 +4219,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_phiso.png  used on input line 978.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_bjet0_pt.png, id=2273, 598.235pt x 674.52pt>
+SR_bjet0_pt.png, id=2309, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_bjet0_pt.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4232,7 +4232,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 985.
 
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_mqph.png, id=2274, 598.235pt x 674.52pt>
+SR_mqph.png, id=2310, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_mqph.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4241,7 +4241,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_mqph.png  used on input line 987.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_SMtop.png, id=2275, 598.235pt x 674.52pt>
+SR_SMtop.png, id=2311, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_SMtop.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4250,7 +4250,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_SMtop.png  used on input line 988.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_met.png, id=2276, 598.235pt x 674.52pt>
+SR_met.png, id=2312, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_met.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4259,7 +4259,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_met.png  used on input line 989.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_njet.png, id=2277, 598.235pt x 674.52pt>
+SR_njet.png, id=2313, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_njet.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4268,7 +4268,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_njet.png  used on input line 991.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_MWT.png, id=2278, 598.235pt x 674.52pt>
+SR_MWT.png, id=2314, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_MWT.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4277,7 +4277,7 @@ Package pdftex.def Info: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegion
 s/FCNC_All_mujets/Plots/SR_MWT.png  used on input line 992.
 (pdftex.def)             Requested size: 143.09538pt x 161.3426pt.
 <../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/
-SR_ST.png, id=2279, 598.235pt x 674.52pt>
+SR_ST.png, id=2315, 598.235pt x 674.52pt>
 File: ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/P
 lots/SR_ST.png Graphic file (type png)
 <use ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Pl
@@ -4366,37 +4366,168 @@ Underfull \hbox (badness 1231) in paragraph at lines 58--59
  []
 
 [145] [146] [147] [148]
-Underfull \hbox (badness 2961) in paragraph at lines 102--103
+Underfull \hbox (badness 2961) in paragraph at lines 106--107
 []\OT1/cmr/m/n/12 A pro-file like-li-hood ap-proach for treat-ment of nui-sance
  parameters[[]]
  []
 
-[149]
+[149] [150]
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Pruning.png, id=2444, 
+939.51pt x 2320.67pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Pruning.png Graph
+ic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Pruning.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejet
+s/Pruning.png  used on input line 138.
+(pdftex.def)             Requested size: 216.81pt x 535.51341pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/NuisPar.png, id=2445, 
+798.985pt x 1457.445pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/NuisPar.png Graph
+ic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/NuisPar.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejet
+s/NuisPar.png  used on input line 145.
+(pdftex.def)             Requested size: 216.81pt x 395.47243pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Gammas.png, id=2446, 7
+98.985pt x 1256.695pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Gammas.png Graphi
+c file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Gammas.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejet
+s/Gammas.png  used on input line 152.
+(pdftex.def)             Requested size: 216.81pt x 340.99963pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/LHoodPlots/NLLscan_Sig
+XsecOverSM.png, id=2447, 698.61pt x 473.77pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/LHoodPlots/NLLsca
+n_SigXsecOverSM.png Graphic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/LHoodPlots/NLLscan
+_SigXsecOverSM.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejet
+s/LHoodPlots/NLLscan_SigXsecOverSM.png  used on input line 159.
+(pdftex.def)             Requested size: 216.81pt x 147.03345pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/CorrMatrix.png, id=244
+8, 798.985pt x 774.895pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/CorrMatrix.png Gr
+aphic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/CorrMatrix.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejet
+s/CorrMatrix.png  used on input line 166.
+(pdftex.def)             Requested size: 216.81pt x 210.26495pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Pruning.png, id=2449,
+ 939.51pt x 2320.67pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Pruning.png Grap
+hic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Pruning.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_muje
+ts/Pruning.png  used on input line 175.
+(pdftex.def)             Requested size: 216.81pt x 535.51341pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/NuisPar.png, id=2450,
+ 798.985pt x 1457.445pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/NuisPar.png Grap
+hic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/NuisPar.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_muje
+ts/NuisPar.png  used on input line 182.
+(pdftex.def)             Requested size: 216.81pt x 395.47243pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Gammas.png, id=2451, 
+798.985pt x 1256.695pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Gammas.png Graph
+ic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Gammas.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_muje
+ts/Gammas.png  used on input line 189.
+(pdftex.def)             Requested size: 216.81pt x 340.99963pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/LHoodPlots/NLLscan_Si
+gXsecOverSM.png, id=2452, 698.61pt x 473.77pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/LHoodPlots/NLLsc
+an_SigXsecOverSM.png Graphic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/LHoodPlots/NLLsca
+n_SigXsecOverSM.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_muje
+ts/LHoodPlots/NLLscan_SigXsecOverSM.png  used on input line 196.
+(pdftex.def)             Requested size: 216.81pt x 147.03345pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/CorrMatrix.png, id=24
+53, 798.985pt x 774.895pt>
+File: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/CorrMatrix.png G
+raphic file (type png)
+<use ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/CorrMatrix.png>
+Package pdftex.def Info: ../ThesisImages/RegionPlots/FinalRegions/FCNC_All_muje
+ts/CorrMatrix.png  used on input line 203.
+(pdftex.def)             Requested size: 216.81pt x 210.26495pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[151]
+
+LaTeX Warning: Text page 152 contains only floats.
+
+[152 <../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Pruning.png (PNG 
+copy)>] [153 <../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/NuisPar.p
+ng (PNG copy)>] [154 <../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/G
+ammas.png (PNG copy)> <../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/
+LHoodPlots/NLLscan_SigXsecOverSM.png (PNG copy)>] [155 <../ThesisImages/RegionP
+lots/FinalRegions/FCNC_All_ejets/CorrMatrix.png (PNG copy)>] [156 <../ThesisIma
+ges/RegionPlots/FinalRegions/FCNC_All_mujets/Pruning.png (PNG copy)>] [157 <../
+ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/NuisPar.png (PNG copy)>]
+[158 <../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Gammas.png (PNG 
+copy)> <../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/LHoodPlots/NLL
+scan_SigXsecOverSM.png (PNG copy)>] [159 <../ThesisImages/RegionPlots/FinalRegi
+ons/FCNC_All_mujets/CorrMatrix.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 130.
+(hyperref)                removing `\rightarrow' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 130.
+(hyperref)                removing `\gamma' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 209.
 
-) [150]
+) [160
+
+]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
@@ -4407,7 +4538,7 @@ Overfull \hbox (275.88922pt too wide) in paragraph at lines 7--9
 rs? - https://www.sciencedirect.com/science/article/pii/S0550321319301269 
  []
 
-) [151
+) [161
 
 
 
@@ -4421,7 +4552,7 @@ Overfull \hbox (13.2493pt too wide) in paragraph at lines 9--18
  [] 
  []
 
-) [152
+) [162
 
 
 
@@ -4447,12 +4578,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [153
+) [163
 
 
-] [154] [155] [156] [157] (Appendix_NN.tex
+] [164] [165] [166] [167] (Appendix_NN.tex
 [Additional Plots from NN Studies]
-<../ThesisImages/SearchStrategy/varplots/bjet0_e.png, id=2441, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/bjet0_e.png, id=2531, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/bjet0_e.png Graphic file (type pn
 g)
@@ -4460,7 +4591,7 @@ g)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/bjet0_e.png  u
 sed on input line 10.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/bjet0_eta.png, id=2442, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/bjet0_eta.png, id=2532, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/bjet0_eta.png Graphic file (type 
 png)
@@ -4468,7 +4599,7 @@ png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/bjet0_eta.png 
  used on input line 11.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/deltaRjb.png, id=2443, 578.16pt x 578.
+<../ThesisImages/SearchStrategy/varplots/deltaRjb.png, id=2533, 578.16pt x 578.
 16pt>
 File: ../ThesisImages/SearchStrategy/varplots/deltaRjb.png Graphic file (type p
 ng)
@@ -4476,7 +4607,7 @@ ng)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/deltaRjb.png  
 used on input line 13.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/jet0_e.png, id=2444, 578.16pt x 578.16
+<../ThesisImages/SearchStrategy/varplots/jet0_e.png, id=2534, 578.16pt x 578.16
 pt>
 File: ../ThesisImages/SearchStrategy/varplots/jet0_e.png Graphic file (type png
 )
@@ -4484,7 +4615,7 @@ File: ../ThesisImages/SearchStrategy/varplots/jet0_e.png Graphic file (type png
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/jet0_e.png  us
 ed on input line 14.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/jet0_eta.png, id=2445, 578.16pt x 578.
+<../ThesisImages/SearchStrategy/varplots/jet0_eta.png, id=2535, 578.16pt x 578.
 16pt>
 File: ../ThesisImages/SearchStrategy/varplots/jet0_eta.png Graphic file (type p
 ng)
@@ -4492,7 +4623,7 @@ ng)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/jet0_eta.png  
 used on input line 16.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/nu_chi2.png, id=2446, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/nu_chi2.png, id=2536, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/nu_chi2.png Graphic file (type pn
 g)
@@ -4506,7 +4637,7 @@ LaTeX Warning: Float too large for page by 8.21405pt on input line 20.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/lepton_pt.png, id=2447, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/lepton_pt.png, id=2537, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_pt.png Graphic file (type 
 png)
@@ -4514,7 +4645,7 @@ png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_pt.png 
  used on input line 25.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/lepton_eta.png, id=2448, 578.16pt x 57
+<../ThesisImages/SearchStrategy/varplots/lepton_eta.png, id=2538, 578.16pt x 57
 8.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_eta.png Graphic file (type
  png)
@@ -4522,7 +4653,7 @@ File: ../ThesisImages/SearchStrategy/varplots/lepton_eta.png Graphic file (type
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_eta.png
   used on input line 26.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/lepton_iso.png, id=2449, 578.16pt x 57
+<../ThesisImages/SearchStrategy/varplots/lepton_iso.png, id=2539, 578.16pt x 57
 8.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/lepton_iso.png Graphic file (type
  png)
@@ -4530,7 +4661,7 @@ File: ../ThesisImages/SearchStrategy/varplots/lepton_iso.png Graphic file (type
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/lepton_iso.png
   used on input line 28.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/sm_chi2.png, id=2450, 578.16pt x 578.1
+<../ThesisImages/SearchStrategy/varplots/sm_chi2.png, id=2540, 578.16pt x 578.1
 6pt>
 File: ../ThesisImages/SearchStrategy/varplots/sm_chi2.png Graphic file (type pn
 g)
@@ -4538,7 +4669,7 @@ g)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/sm_chi2.png  u
 sed on input line 29.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/photon0_e.png, id=2451, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/photon0_e.png, id=2541, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_e.png Graphic file (type 
 png)
@@ -4546,7 +4677,7 @@ png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/photon0_e.png 
  used on input line 31.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/photon0_eta.png, id=2452, 578.16pt x 5
+<../ThesisImages/SearchStrategy/varplots/photon0_eta.png, id=2542, 578.16pt x 5
 78.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/photon0_eta.png Graphic file (typ
 e png)
@@ -4560,19 +4691,19 @@ LaTeX Warning: Float too large for page by 8.21405pt on input line 35.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[158
+[168
 
 
-] [159 <../ThesisImages/SearchStrategy/varplots/bjet0_e.png> <../ThesisImages/S
+] [169 <../ThesisImages/SearchStrategy/varplots/bjet0_e.png> <../ThesisImages/S
 earchStrategy/varplots/bjet0_eta.png> <../ThesisImages/SearchStrategy/varplots/
 deltaRjb.png> <../ThesisImages/SearchStrategy/varplots/jet0_e.png> <../ThesisIm
 ages/SearchStrategy/varplots/jet0_eta.png> <../ThesisImages/SearchStrategy/varp
-lots/nu_chi2.png>] [160 <../ThesisImages/SearchStrategy/varplots/lepton_pt.png>
+lots/nu_chi2.png>] [170 <../ThesisImages/SearchStrategy/varplots/lepton_pt.png>
  <../ThesisImages/SearchStrategy/varplots/lepton_eta.png> <../ThesisImages/Sear
 chStrategy/varplots/lepton_iso.png> <../ThesisImages/SearchStrategy/varplots/sm
 _chi2.png> <../ThesisImages/SearchStrategy/varplots/photon0_e.png> <../ThesisIm
 ages/SearchStrategy/varplots/photon0_eta.png>]
-<../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png, id=2489, 578.16p
+<../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png, id=2579, 578.16p
 t x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png Graphic file
  (type png)
@@ -4580,7 +4711,7 @@ File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRlg
 am.png  used on input line 41.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/lepton_e.png, id=2490, 578.16pt 
+<../ThesisImages/SearchStrategy/varplots/ejets/lepton_e.png, id=2580, 578.16pt 
 x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_e.png Graphic file (
 type png)
@@ -4588,7 +4719,7 @@ type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_e
 .png  used on input line 42.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/met.png, id=2491, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/ejets/met.png, id=2581, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/met.png Graphic file (type 
 png)
@@ -4596,7 +4727,7 @@ png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/met.png 
  used on input line 44.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.png, id=2492, 578.16pt 
+<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.png, id=2582, 578.16pt 
 x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.png Graphic file (
 type png)
@@ -4604,7 +4735,7 @@ type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt
 .png  used on input line 45.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png, id=2493, 578.16
+<../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png, id=2583, 578.16
 pt x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png Graphic fil
 e (type png)
@@ -4612,7 +4743,7 @@ e (type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_
 iso.png  used on input line 52.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png, id=2494, 578.16p
+<../ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png, id=2584, 578.16p
 t x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png Graphic file
  (type png)
@@ -4620,7 +4751,7 @@ File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_
 pt.png  used on input line 53.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.png, id=2495, 578.16pt x 
+<../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.png, id=2585, 578.16pt x 
 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.png Graphic file (ty
 pe png)
@@ -4628,7 +4759,7 @@ pe png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/m_qgam.p
 ng  used on input line 55.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.png, id=2496, 578.16pt x 
+<../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.png, id=2586, 578.16pt x 
 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.png Graphic file (ty
 pe png)
@@ -4636,7 +4767,7 @@ pe png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/m_lgam.p
 ng  used on input line 56.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png, id=2497, 578.16pt x 5
+<../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png, id=2587, 578.16pt x 5
 78.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png Graphic file (typ
 e png)
@@ -4644,7 +4775,7 @@ e png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.pn
 g  used on input line 58.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png, id=2498, 578.16p
+<../ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png, id=2588, 578.16p
 t x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png Graphic file
  (type png)
@@ -4656,7 +4787,7 @@ am.png  used on input line 59.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl.png, id=2499, 578.16pt 
+<../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl.png, id=2589, 578.16pt 
 x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl.png Graphic file (
 type png)
@@ -4664,7 +4795,7 @@ type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRbl
 .png  used on input line 66.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/MWT.png, id=2500, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/ejets/MWT.png, id=2590, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/MWT.png Graphic file (type 
 png)
@@ -4672,7 +4803,7 @@ png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/MWT.png 
  used on input line 67.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/S_T.png, id=2501, 578.16pt x 578
+<../ThesisImages/SearchStrategy/varplots/ejets/S_T.png, id=2591, 578.16pt x 578
 .16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/S_T.png Graphic file (type 
 png)
@@ -4680,7 +4811,7 @@ png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/S_T.png 
  used on input line 69.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/njets.png, id=2502, 578.16pt x 5
+<../ThesisImages/SearchStrategy/varplots/ejets/njets.png, id=2592, 578.16pt x 5
 78.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/njets.png Graphic file (typ
 e png)
@@ -4688,7 +4819,7 @@ e png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/njets.pn
 g  used on input line 70.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.png, id=2503, 578.16pt x 
+<../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.png, id=2593, 578.16pt x 
 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.png Graphic file (ty
 pe png)
@@ -4696,7 +4827,7 @@ pe png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/w_chi2.p
 ng  used on input line 72.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/jet0_pt.png, id=2504, 578.16pt x
+<../ThesisImages/SearchStrategy/varplots/ejets/jet0_pt.png, id=2594, 578.16pt x
  578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_pt.png Graphic file (t
 ype png)
@@ -4707,7 +4838,7 @@ png  used on input line 73.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.png, id=2505, 578.16pt x
+<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.png, id=2595, 578.16pt x
  578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.png Graphic file (t
 ype png)
@@ -4715,7 +4846,7 @@ ype png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_e.
 png  used on input line 81.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png, id=2506, 578.16pt
+<../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png, id=2596, 578.16pt
  x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png Graphic file 
 (type png)
@@ -4723,7 +4854,7 @@ File: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/bjet0_et
 a.png  used on input line 82.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb.png, id=2507, 578.16pt 
+<../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb.png, id=2597, 578.16pt 
 x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb.png Graphic file (
 type png)
@@ -4731,7 +4862,7 @@ type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/deltaRjb
 .png  used on input line 84.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.png, id=2508, 578.16pt x 
+<../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.png, id=2598, 578.16pt x 
 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.png Graphic file (ty
 pe png)
@@ -4739,7 +4870,7 @@ pe png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_e.p
 ng  used on input line 85.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta.png, id=2509, 578.16pt 
+<../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta.png, id=2599, 578.16pt 
 x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta.png Graphic file (
 type png)
@@ -4747,7 +4878,7 @@ type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/jet0_eta
 .png  used on input line 87.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png, id=2510, 578.16pt x
+<../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png, id=2600, 578.16pt x
  578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png Graphic file (t
 ype png)
@@ -4761,7 +4892,7 @@ LaTeX Warning: Float too large for page by 8.21405pt on input line 91.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png, id=2511, 578.16pt
+<../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png, id=2601, 578.16pt
  x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png Graphic file 
 (type png)
@@ -4769,7 +4900,7 @@ File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_p
 t.png  used on input line 96.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/lepton_eta.png, id=2512, 578.16p
+<../ThesisImages/SearchStrategy/varplots/ejets/lepton_eta.png, id=2602, 578.16p
 t x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_eta.png Graphic file
  (type png)
@@ -4777,7 +4908,7 @@ File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_eta.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_e
 ta.png  used on input line 97.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/lepton_iso.png, id=2513, 578.16p
+<../ThesisImages/SearchStrategy/varplots/ejets/lepton_iso.png, id=2603, 578.16p
 t x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_iso.png Graphic file
  (type png)
@@ -4785,7 +4916,7 @@ File: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_iso.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/lepton_i
 so.png  used on input line 99.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.png, id=2514, 578.16pt x
+<../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.png, id=2604, 578.16pt x
  578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.png Graphic file (t
 ype png)
@@ -4793,7 +4924,7 @@ ype png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/sm_chi2.
 png  used on input line 100.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png, id=2515, 578.16pt
+<../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png, id=2605, 578.16pt
  x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png Graphic file 
 (type png)
@@ -4801,7 +4932,7 @@ File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_
 e.png  used on input line 102.
 (pdftex.def)             Requested size: 173.44534pt x 173.4405pt.
-<../ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png, id=2516, 578.16
+<../ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png, id=2606, 578.16
 pt x 578.16pt>
 File: ../ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png Graphic fil
 e (type png)
@@ -4815,25 +4946,25 @@ LaTeX Warning: Float too large for page by 8.21405pt on input line 106.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [161
+) [171
 
  <../ThesisImages/SearchStrategy/varplots/ejets/deltaRlgam.png> <../ThesisImage
 s/SearchStrategy/varplots/ejets/lepton_e.png> <../ThesisImages/SearchStrategy/v
 arplots/ejets/met.png> <../ThesisImages/SearchStrategy/varplots/ejets/bjet0_pt.
-png>] [162 <../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png> <../
+png>] [172 <../ThesisImages/SearchStrategy/varplots/ejets/photon0_iso.png> <../
 ThesisImages/SearchStrategy/varplots/ejets/photon0_pt.png> <../ThesisImages/Sea
 rchStrategy/varplots/ejets/m_qgam.png> <../ThesisImages/SearchStrategy/varplots
 /ejets/m_lgam.png> <../ThesisImages/SearchStrategy/varplots/ejets/m_tSM.png> <.
-./ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png>] [163 <../ThesisIm
+./ThesisImages/SearchStrategy/varplots/ejets/deltaRjgam.png>] [173 <../ThesisIm
 ages/SearchStrategy/varplots/ejets/deltaRbl.png> <../ThesisImages/SearchStrateg
 y/varplots/ejets/MWT.png> <../ThesisImages/SearchStrategy/varplots/ejets/S_T.pn
 g> <../ThesisImages/SearchStrategy/varplots/ejets/njets.png> <../ThesisImages/S
 earchStrategy/varplots/ejets/w_chi2.png> <../ThesisImages/SearchStrategy/varplo
-ts/ejets/jet0_pt.png>] [164 <../ThesisImages/SearchStrategy/varplots/ejets/bjet
+ts/ejets/jet0_pt.png>] [174 <../ThesisImages/SearchStrategy/varplots/ejets/bjet
 0_e.png> <../ThesisImages/SearchStrategy/varplots/ejets/bjet0_eta.png> <../Thes
 isImages/SearchStrategy/varplots/ejets/deltaRjb.png> <../ThesisImages/SearchStr
 ategy/varplots/ejets/jet0_e.png> <../ThesisImages/SearchStrategy/varplots/ejets
-/jet0_eta.png> <../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png>] [16
+/jet0_eta.png> <../ThesisImages/SearchStrategy/varplots/ejets/nu_chi2.png>] [17
 5 <../ThesisImages/SearchStrategy/varplots/ejets/lepton_pt.png> <../ThesisImage
 s/SearchStrategy/varplots/ejets/lepton_eta.png> <../ThesisImages/SearchStrategy
 /varplots/ejets/lepton_iso.png> <../ThesisImages/SearchStrategy/varplots/ejets/
@@ -4841,7 +4972,7 @@ sm_chi2.png> <../ThesisImages/SearchStrategy/varplots/ejets/photon0_e.png> <../
 ThesisImages/SearchStrategy/varplots/ejets/photon0_eta.png>]
 (Appendix_Syst_EGFake.tex
 [Systematic Variations for Electron to Photon Fake Rate Calculation]
-<../ThesisImages/SearchStrategy/2.5gevWindow/2DConverted.png, id=2594, 700.6175
+<../ThesisImages/SearchStrategy/2.5gevWindow/2DConverted.png, id=2684, 700.6175
 pt x 475.7775pt>
 File: ../ThesisImages/SearchStrategy/2.5gevWindow/2DConverted.png Graphic file 
 (type png)
@@ -4849,7 +4980,7 @@ File: ../ThesisImages/SearchStrategy/2.5gevWindow/2DConverted.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/2.5gevWindow/2DConverte
 d.png  used on input line 8.
 (pdftex.def)             Requested size: 325.215pt x 220.84947pt.
-<../ThesisImages/SearchStrategy/2.5gevWindow/2DUnconverted.png, id=2595, 700.61
+<../ThesisImages/SearchStrategy/2.5gevWindow/2DUnconverted.png, id=2685, 700.61
 75pt x 475.7775pt>
 File: ../ThesisImages/SearchStrategy/2.5gevWindow/2DUnconverted.png Graphic fil
 e (type png)
@@ -4860,7 +4991,7 @@ ted.png  used on input line 9.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/7.5gevWindow/2DConverted.png, id=2596, 700.6175
+<../ThesisImages/SearchStrategy/7.5gevWindow/2DConverted.png, id=2686, 700.6175
 pt x 474.77374pt>
 File: ../ThesisImages/SearchStrategy/7.5gevWindow/2DConverted.png Graphic file 
 (type png)
@@ -4868,7 +4999,7 @@ File: ../ThesisImages/SearchStrategy/7.5gevWindow/2DConverted.png Graphic file
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/7.5gevWindow/2DConverte
 d.png  used on input line 16.
 (pdftex.def)             Requested size: 325.215pt x 220.38354pt.
-<../ThesisImages/SearchStrategy/7.5gevWindow/2DUnconverted.png, id=2597, 700.61
+<../ThesisImages/SearchStrategy/7.5gevWindow/2DUnconverted.png, id=2687, 700.61
 75pt x 475.7775pt>
 File: ../ThesisImages/SearchStrategy/7.5gevWindow/2DUnconverted.png Graphic fil
 e (type png)
@@ -4879,7 +5010,7 @@ ted.png  used on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../ThesisImages/SearchStrategy/10gevWindow/2DConverted.png, id=2598, 700.6175p
+<../ThesisImages/SearchStrategy/10gevWindow/2DConverted.png, id=2688, 700.6175p
 t x 475.7775pt>
 File: ../ThesisImages/SearchStrategy/10gevWindow/2DConverted.png Graphic file (
 type png)
@@ -4887,7 +5018,7 @@ type png)
 Package pdftex.def Info: ../ThesisImages/SearchStrategy/10gevWindow/2DConverted
 .png  used on input line 24.
 (pdftex.def)             Requested size: 325.215pt x 220.84947pt.
-<../ThesisImages/SearchStrategy/10gevWindow/2DUnconverted.png, id=2599, 700.617
+<../ThesisImages/SearchStrategy/10gevWindow/2DUnconverted.png, id=2689, 700.617
 5pt x 475.7775pt>
 File: ../ThesisImages/SearchStrategy/10gevWindow/2DUnconverted.png Graphic file
  (type png)
@@ -4898,31 +5029,31 @@ ed.png  used on input line 25.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [166
+) [176
 
 
-] [167 <../ThesisImages/SearchStrategy/2.5gevWindow/2DConverted.png (PNG copy)>
+] [177 <../ThesisImages/SearchStrategy/2.5gevWindow/2DConverted.png (PNG copy)>
  <../ThesisImages/SearchStrategy/2.5gevWindow/2DUnconverted.png>]
-[168 <../ThesisImages/SearchStrategy/7.5gevWindow/2DConverted.png (PNG copy)> <
-../ThesisImages/SearchStrategy/7.5gevWindow/2DUnconverted.png>] [169 <../Thesis
+[178 <../ThesisImages/SearchStrategy/7.5gevWindow/2DConverted.png (PNG copy)> <
+../ThesisImages/SearchStrategy/7.5gevWindow/2DUnconverted.png>] [179 <../Thesis
 Images/SearchStrategy/10gevWindow/2DConverted.png> <../ThesisImages/SearchStrat
 egy/10gevWindow/2DUnconverted.png>] (Appendix_Systematics.tex
 [Systematic Pull Plots]
-) [170
+) [180
 
 
-]) (main.bbl [171
+]) (main.bbl [181
 
 
 
-] [172] [173] [174] [175] [176]) [177]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+] [182] [183] [184] [185] [186]) [187]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (main.aux
 (cover.aux) (abstract.aux) (cv.aux) (Introduction.aux) (Theory.aux)
 (LHCDetector.aux) (Simulation.aux) (SearchStrategy.aux) (Results.aux)
 (Conclusion.aux) (appendicies.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 
 
  *File List*
@@ -5396,6 +5527,18 @@ R_MWT.png
 ../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/S
 R_ST.png
  Results.tex
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Pruning.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/NuisPar.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Gammas.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/LHoodPlots/NLLscan_SigX
+secOverSM.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/CorrMatrix.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Pruning.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/NuisPar.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Gammas.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/LHoodPlots/NLLscan_Sig
+XsecOverSM.png
+../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/CorrMatrix.png
 Conclusion.tex
 appendicies.tex
 Appendix_Derivation.tex
@@ -5452,7 +5595,7 @@ Appendix_Systematics.tex
     main.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2BA133F1C2B97895224D90B5135BFFB9;7253.
 
@@ -5462,13 +5605,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 36418 strings out of 492896
- 765531 string characters out of 3130341
- 885516 words of memory out of 3000000
- 38895 multiletter control sequences out of 15000+200000
+ 36504 strings out of 492896
+ 769507 string characters out of 3130341
+ 890297 words of memory out of 3000000
+ 38951 multiletter control sequences out of 15000+200000
  551984 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,17n,89p,2307b,1232s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5495,9 +5638,9 @@ fs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/jason/.miktex/texmfs
 /install/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/jason/.miktex/texmfs/
 install/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/jason/.miktex/texmfs/i
 nstall/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (197 pages, 29757534 bytes).
+Output written on main.pdf (208 pages, 30991362 bytes).
 PDF statistics:
- 2879 PDF objects out of 2984 (max. 8388607)
- 691 named destinations out of 1000 (max. 500000)
- 2018 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2972 PDF objects out of 2984 (max. 8388607)
+ 712 named destinations out of 1000 (max. 500000)
+ 2068 words of extra memory for PDF output out of 10000 (max. 10000000)
 

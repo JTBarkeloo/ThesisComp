@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{The Large Hadron Collider}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{LHC And ATLAS}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Picking Through The Data}{3}{0}{1}
+\beamer@sectionintoc {2}{Search For Ultra Rare Decays}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Machine Learning}{3}{0}{2}
+\beamer@sectionintoc {3}{Outlook and Conclusions}{3}{0}{3}
+\beamer@sectionintoc {4}{Backup}{4}{1}{4}

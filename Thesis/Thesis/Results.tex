@@ -98,10 +98,14 @@ The signal strength, $\mu$, enters the likelihood as
 \]
 with the number of signal events in region $r$, $N_\text{input,r}^\text{s}$ is scaled using the effective cross section $\sigma_\text{eff}^\text{coup}$ and $\rho_\text{r,i}$, the fraction of signal events in the respective bin $i$ and region $r$. 
 
+The decay mode effective cross section is given by:
+\[\sigma_\text{eff, input}^\text{decay} = 2\times \sigma(pp\rightarrow t\bar{t}) \times \mathcal{B}(t\rightarrow Wb) \times \mathcal{B}(W\rightarrow l \nu)\times \mathcal{B}_\text{input}(t \rightarrow q \gamma)
+\]
+where $\sigma(pp\rightarrow t\bar{t}) =831.76$ pb, $\mathcal{B}(t\rightarrow bW) \approx1$, and $\mathcal{B}(W\rightarrow l \nu) =32.58\%$ .  The effective cross sections and couplings in the signal region are shown assuming the branching ratio to the FCNC decay mode $\mathcal{B}(t\rightarrow q \gamma) = 10^{-3}$ for q=u,c.  This implies that the total effective cross section used for the FCNC signal samples, $\sigma_\text{eff, input}^\text{decay}$, is 542 fb.  The final states of this analysis include both up type quark decay modes and the assumption is made that $\mathcal{B}(t\rightarrow u\gamma)$=$\mathcal{B}(t\rightarrow c\gamma)$.  As can be seen in figures of the Signal Region distributions in Section \ref{sec:SRPlots} the single top event rate is around 7\% of the total MC background.  Due to this the effect of the production mode ($u\rightarrow t\gamma$) is not further considered as the final state for single top production with an association photon has significant kinematic differences to the regions in this analysis.  These events would appear as a further subset of the single top background.  Reconstructing an invariant mass around the top quark mass from the photon and the leading light jet is a key input to the neural network discriminator.  This is unlikely to occur in the production mode.
 
 A profile likelihood approach for treatment of nuisance parameters\cite{Cowan:2010js} (systematic uncertainties presented in Section \ref{sec:NPUncertainties}) is used.
 
-Physically we can interpret this signal strength as the ratio of the signal cross section to the predicted signal cross section.  However it both the decay mode and production (prod) mode are considered then we can interpret $\mu$ as 
+Physically we can interpret this signal strength as the ratio of the signal cross section to the predicted signal cross section.  However if both the decay mode and production (prod) mode are considered then we can interpret $\mu$ as 
 \[\mu = \frac{N_\text{fit}^\text{decay} + N_\text{fit}^\text{prod.}}{N_\text{input}^\text{decay} + N_\text{input}^\text{prod.}}
 \]then it follows that 
 \[\mu = \frac{\epsilon^\text{decay}\times \mathcal{A}^\text{decay} \times \sigma^\text{decay}_\text{eff, fit}\times L+\epsilon^\text{prod.}\times \mathcal{A}^\text{prod.} \times \sigma^\text{prod.}_\text{eff, fit} \times L}{\epsilon^\text{decay}\times \mathcal{A}^\text{decay} \times \sigma^\text{decay}_\text{eff, input} \times L+\epsilon^\text{prod.}\times \mathcal{A}^\text{prod.} \times \sigma^\text{prod.}_\text{eff, input}\times L}
@@ -113,19 +117,94 @@ where the fitted (input) number of signal events per coupling (production/decay)
 The background-only hypothesis is fulfilled when $\mu=0$.
 For this search the signal strength can be classified in terms of the branching ratio (BR)
 
-\[ \mu = \frac{\text{BR}(t\rightarrow q\gamma) \cdot \text{BR}(t\rightarrow Wb)}{\text{BR}_\text{input}(t\rightarrow q\gamma) \cdot \text{BR}_\text{input}(t\rightarrow Wb)}
+\[ \mu = \frac{\mathcal{B}(t\rightarrow q\gamma) \times \mathcal{B}(t\rightarrow Wb)}{\mathcal{B}_\text{input}(t\rightarrow q\gamma) \times \mathcal{B}_\text{input}(t\rightarrow Wb)}
 \]
 Under the assumption that the top quark nominally decays only to a b quark and a W boson and the negligible decay mode being searched for this can be rewritten as 
-\[ \mu = \frac{\text{BR}(t\rightarrow q\gamma) \cdot|1-\text{BR}(t\rightarrow q\gamma)|}{\text{BR}_\text{input}(t\rightarrow q\gamma) \cdot|1-\text{BR}_\text{input}(t\rightarrow q\gamma)|}
+\[ \mu = \frac{\mathcal{B}(t\rightarrow q\gamma) \times|1-\mathcal{B}(t\rightarrow q\gamma)|}{\mathcal{B}_\text{input}(t\rightarrow q\gamma) \times|1-\mathcal{B}_\text{input}(t\rightarrow q\gamma)|}
 \]
-\[ \mu \approx \frac{\text{BR}(t\rightarrow q\gamma)}{\text{BR}_\text{input}(t\rightarrow q\gamma)}
+\[ \mu \approx \frac{\mathcal{B}(t\rightarrow q\gamma)}{\mathcal{B}_\text{input}(t\rightarrow q\gamma)}
 \]
-Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal branching ratio) are tested in order to calculated expected and observed limits using the $\text{CL}_\text{s}$ technique\cite{Read:2002hq} and presented in Section \ref{sec:Limits}.  The $\text{CL}_\text{s}$ technique makes use of a test statistic based on the negative log likelihood motivated by  Wilks' theorem that allows approximate aymptotic behavior $-2 \text{ln} \mathcal{L}(\mu)$ as a $\chi^2$ \cite{Wilks:1938dza}. %Change - maybe move?
+Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal branching ratio) are tested in order to calculated expected and observed limits using the $\text{CL}_\text{s}$ technique\cite{Read:2002hq} and presented in Section \ref{sec:Limits}.  The $\text{CL}_\text{s}$ technique makes use of a test statistic based on the negative log likelihood motivated by  Wilks' theorem that allows approximate aymptotic behavior $-2 \text{ln} \mathcal{L}(\mu)$ as a $\chi^2$ goodness of fit \cite{Wilks:1938dza}. %Change - maybe move?
 
 
 
 
 \section{Nuisance Parameters}
+The statistical analysis allows the uncertainties discussed in Section \ref{sec:NPUncertainties} to enter into the fits as nuisance parameters (NPs).  Each of these NPs is considered in all of the fit regions independently and dropped (pruned away) if it's effect is less than 1\%.  Many of the parameters are dropped and for some only the normalization or the shape impact is dropped.  A large number of NPs are considered for each region and include theory, experimental, and modeling uncertainties.
+
+%\subsection{$e$+jets Channel}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Pruning.png}
+	\caption[Nuisance parameters after pruning for $e$+jets channel]{Overview of nuisance parameters after pruning for the $e$+jets channel.  If shape or normalization impacts are smaller than 1\% that part of the nuisance parameter will be dropped in the final fit. }
+	\label{fig:Pruningejets}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/NuisPar.png}
+	\caption{Pull values for the various nuisance parameters considered in the fit for the $e$+jets channel.}
+	\label{fig:NPejets}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Gammas.png}
+	\caption{Bin by bin normalization $\gamma$ factors used in each region for the $e$+jets channel.}
+	\label{fig:Gammasejets}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/LHoodPlots/NLLscan_SigXsecOverSM.png}
+	\caption{Negative-log likelihood (goodness of fit) as a function of signal strength using data in all regions for the $e$+jets channel.}
+	\label{fig:NLLejets}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/CorrMatrix.png}
+	\caption[Correlation matrix  with at least one coefficient above 20\% for $e$+jets channel]{Correlation matrix  with at least one coefficient above 20\% for $e$+jets channel }
+	\label{fig:Correjets}
+\end{figure}
+
+%\input{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Tables/Yields_postFit}%SR_mqph_syst_postFit}
+%\subsection{$\mu$+jets Channel}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Pruning.png}
+	\caption[Nuisance parameters after pruning for $\mu$+jets channel]{Overview of nuisance parameters after pruning for the $\mu$+jets channel.  If shape or normalization impacts are smaller than 1\% that part of the nuisance parameter will be dropped in the final fit. }
+	\label{fig:Pruningmujets}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/NuisPar.png}
+	\caption{Pull values for the various nuisance parameters considered in the fit for the $\mu$+jets channel.}
+	\label{fig:NPmujets}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Gammas.png}
+	\caption{Bin by bin normalization $\gamma$ factors used in each region for the $\mu$+jets channel.}
+	\label{fig:Gammasmujets}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/LHoodPlots/NLLscan_SigXsecOverSM.png}
+	\caption{Negative-log likelihood (goodness of fit) as a function of signal strength using data in all regions for the $\mu$+jets channel.}
+	\label{fig:NLLmujets}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/CorrMatrix.png}
+	\caption[Correlation matrix  with at least one coefficient above 20\% for $\mu$+jets channel]{Correlation matrix  with at least one coefficient above 20\% for $\mu$+jets channel }
+	\label{fig:Corrmujets}
+\end{figure}
+% Change - Add Ranking Plots
 
 \section{Limit on Branching Ratio t$\rightarrow$q$\gamma$}
 \label{sec:Limits}

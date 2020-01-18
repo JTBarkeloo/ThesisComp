@@ -1,0 +1,407 @@
+<!--
+This xml file created automatically on: 
+2020-1-15
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="VR2_mqph" InputFile="" >
+
+    <Data HistoName="VR2_mqph_Data_regBin" InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root" HistoPath=""  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.001" ConstraintType="Poisson" /> 
+
+    <Sample Name="FCNC"  HistoPath=""  HistoName="VR2_mqph_FCNC_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="JVT"  High="1.0092"  Low="0.989257"   /> 
+      <OverallSys Name="Scalemurmuf"  High="1.12164"  Low="0.880714"   /> 
+      <OverallSys Name="JET_BJES_Response"  High="1.01028"  Low="0.989721"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.0257"  Low="0.974304"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.01357"  Low="0.986426"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.04017"  Low="0.95983"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.981814"  Low="1.01819"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.02753"  Low="0.972469"   /> 
+      <OverallSys Name="JET_RelativeNonClosure_AFII"  High="1.01031"  Low="0.989693"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="1"  High="1"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="MET_SoftTrk_ResoPerp"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_MET_SoftTrk_ResoPerp_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_MET_SoftTrk_ResoPerp_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EG_Resolution"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_EG_Resolution_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_EG_Resolution_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EG_Scale"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_EG_Scale_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_EG_Scale_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_EffectiveNP_Modelling1"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_JET_EffectiveNP_Modelling1_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_JET_EffectiveNP_Modelling1_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_Flavor_Composition"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_JET_Flavor_Composition_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_JET_Flavor_Composition_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_Flavor_Response"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_JET_Flavor_Response_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_JET_Flavor_Response_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_Pileup_RhoTopology"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_JET_Pileup_RhoTopology_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_JET_Pileup_RhoTopology_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_RelativeNonClosure_AFII"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_FCNC_JET_RelativeNonClosure_AFII_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_FCNC_JET_RelativeNonClosure_AFII_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ttbar"  HistoPath=""  HistoName="VR2_mqph_ttbar_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ttXsec"  High="1.056"  Low="0.944"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="JVT"  High="1.00911"  Low="0.989487"   /> 
+      <OverallSys Name="EGamFake"  High="1.03374"  Low="0.96626"   /> 
+      <OverallSys Name="JGamFake"  High="1.22888"  Low="0.771115"   /> 
+      <OverallSys Name="PDF4"  High="0.988301"  Low="1.0117"   /> 
+      <OverallSys Name="EG_Scale"  High="1.01056"  Low="0.989442"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.03035"  Low="0.969652"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.01451"  Low="0.985487"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.0418"  Low="0.9582"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.981236"  Low="1.01876"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.02971"  Low="0.970291"   /> 
+      <NormFactor Name="mu_tt"  Val="1.0189"  High="10"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttbar_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttbar_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttbar_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttbar_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttbar_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttbar_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ttgam"  HistoPath=""  HistoName="VR2_mqph_ttgam_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="JVT"  High="1.00972"  Low="0.98993"   /> 
+      <OverallSys Name="Scalemurmuf"  High="0.984844"  Low="0.945623"   /> 
+      <OverallSys Name="PDF4"  High="0.988301"  Low="1.0117"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.02188"  Low="0.978116"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.02775"  Low="0.972249"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.987741"  Low="1.01226"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.02242"  Low="0.977576"   /> 
+      <NormFactor Name="mu_ttgam"  Val="1"  High="2"  Low="0.5"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttgam_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttgam_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="VV"  HistoPath=""  HistoName="VR2_mqph_VV_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VVXsec"  High="1.06"  Low="0.94"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.0109"  Low="0.989103"   /> 
+      <OverallSys Name="Pileup"  High="1.02132"  Low="0.988045"   /> 
+      <OverallSys Name="JVT"  High="1.01024"  Low="0.989573"   /> 
+      <OverallSys Name="EGamFake"  High="1.04322"  Low="0.95678"   /> 
+      <OverallSys Name="JGamFake"  High="1.16628"  Low="0.83372"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPara"  High="1.02619"  Low="0.973808"   /> 
+      <OverallSys Name="MET_SoftTrk_Scale"  High="0.982711"  Low="1.01729"   /> 
+      <OverallSys Name="EG_Resolution"  High="1.01087"  Low="0.989127"   /> 
+      <OverallSys Name="EG_Scale"  High="0.959821"  Low="1.04018"   /> 
+      <OverallSys Name="JET_EffectiveNP_Detector1"  High="1.01417"  Low="0.985833"   /> 
+      <OverallSys Name="JET_EffectiveNP_Mixed1"  High="1.01173"  Low="0.988268"   /> 
+      <OverallSys Name="JET_EffectiveNP_Mixed2"  High="0.980002"  Low="1.02"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.11851"  Low="0.88149"   /> 
+      <OverallSys Name="JET_EffectiveNP_Statistical1"  High="1.01344"  Low="0.986555"   /> 
+      <OverallSys Name="JET_EffectiveNP_Statistical2"  High="0.983311"  Low="1.01669"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.05623"  Low="0.943774"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_TotalStat"  High="1.01667"  Low="0.983325"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.13562"  Low="0.864381"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.90688"  Low="1.09312"   /> 
+      <OverallSys Name="JET_Pileup_OffsetMu"  High="0.959525"  Low="1.04048"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.09358"  Low="0.906417"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_VV_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_VV_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_VV_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_VV_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_VV_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_VV_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_VV_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_VV_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="singleTop"  HistoPath=""  HistoName="VR2_mqph_singleTop_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="stXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.01165"  Low="0.988349"   /> 
+      <OverallSys Name="Pileup"  High="0.977028"  Low="1.01382"   /> 
+      <OverallSys Name="JVT"  High="1.01009"  Low="0.989552"   /> 
+      <OverallSys Name="EGamFake"  High="1.0144"  Low="0.985597"   /> 
+      <OverallSys Name="JGamFake"  High="1.09498"  Low="0.90502"   /> 
+      <OverallSys Name="PDF1"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF2"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF3"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF4"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF5"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF6"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF7"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF8"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF9"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF10"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF11"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF12"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF13"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF14"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF15"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF16"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF17"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF18"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF19"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF20"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF21"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF22"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF23"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF24"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF25"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF26"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF27"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF28"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF29"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="PDF30"  High="0.975021"  Low="1.02498"   /> 
+      <OverallSys Name="EG_Resolution"  High="0.98352"  Low="1.01648"   /> 
+      <OverallSys Name="EG_Scale"  High="1.01989"  Low="0.980108"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.01689"  Low="0.983108"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.02284"  Low="0.977162"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.986788"  Low="1.01321"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.01682"  Low="0.983182"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF1"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF1_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF1_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF2"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF2_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF2_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF3"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF3_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF3_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF4"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF4_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF4_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF5"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF5_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF5_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF6"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF6_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF6_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF7"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF7_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF7_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF8"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF8_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF8_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF9"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF9_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF9_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF10"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF10_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF10_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF11"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF11_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF11_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF12"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF12_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF12_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF13"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF13_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF13_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF14"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF14_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF14_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF15"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF15_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF15_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF16"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF16_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF16_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF17"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF17_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF17_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF18"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF18_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF18_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF19"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF19_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF19_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF20"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF20_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF20_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF21"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF21_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF21_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF22"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF22_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF22_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF23"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF23_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF23_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF24"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF24_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF24_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF25"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF25_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF25_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF26"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF26_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF26_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF27"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF27_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF27_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF28"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF28_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF28_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF29"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF29_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF29_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF30"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_singleTop_PDF30_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_singleTop_PDF30_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ttV"  HistoPath=""  HistoName="VR2_mqph_ttV_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.01024"  Low="0.98976"   /> 
+      <OverallSys Name="Pileup"  High="0.981402"  Low="1.00823"   /> 
+      <OverallSys Name="EGamFake"  High="1.02511"  Low="0.974894"   /> 
+      <OverallSys Name="JGamFake"  High="1.12419"  Low="0.875808"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.01657"  Low="0.98343"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.02424"  Low="0.975757"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.988617"  Low="1.01138"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.01721"  Low="0.982792"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EG_Resolution"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_EG_Resolution_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_EG_Resolution_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EG_Scale"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_EG_Scale_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_EG_Scale_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_EtaIntercalibration_Modeling1"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_JET_EtaIntercalibration_Modeling1_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_JET_EtaIntercalibration_Modeling1_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_Flavor_Response"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_JET_Flavor_Response_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_JET_Flavor_Response_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_Pileup_OffsetMu"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_JET_Pileup_OffsetMu_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_JET_Pileup_OffsetMu_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JET_Pileup_PtTerm"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ttV_JET_Pileup_PtTerm_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ttV_JET_Pileup_PtTerm_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="WGam"  HistoPath=""  HistoName="VR2_mqph_WGam_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.01062"  Low="0.989385"   /> 
+      <OverallSys Name="Pileup"  High="1.01114"  Low="0.982178"   /> 
+      <OverallSys Name="JVT"  High="1.01039"  Low="0.989303"   /> 
+      <OverallSys Name="Scalemurmuf"  High="1.14721"  Low="0.896339"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPara"  High="0.980619"  Low="1.01938"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.02154"  Low="0.978457"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.04231"  Low="0.957691"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.983383"  Low="1.01662"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.02037"  Low="0.979628"   /> 
+      <NormFactor Name="mu_WGam"  Val="1"  High="2"  Low="0.5"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WGam_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WGam_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WGam_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WGam_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="Scalemurmuf"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WGam_Scalemurmuf_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WGam_Scalemurmuf_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="WJets"  HistoPath=""  HistoName="VR2_mqph_WJets_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.01138"  Low="0.988621"   /> 
+      <OverallSys Name="JGamFake"  High="1.30945"  Low="0.690546"   /> 
+      <OverallSys Name="Scalemurmuf"  High="13.8227"  Low="0.726366"   /> 
+      <OverallSys Name="PDF1"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF2"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF3"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF4"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF5"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF6"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF7"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF8"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF9"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF10"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF11"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF12"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF13"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF14"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF15"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF16"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF17"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF18"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF19"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF20"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF21"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF22"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF23"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF24"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF25"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF26"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF27"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF28"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF29"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="PDF30"  High="1.9012"  Low="0.372666"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPara"  High="0.989425"  Low="1.01058"   /> 
+      <OverallSys Name="EG_Scale"  High="1.0233"  Low="0.976697"   /> 
+      <OverallSys Name="JET_BJES_Response"  High="1.02414"  Low="0.975864"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.0954"  Low="0.910906"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling2"  High="0.983259"  Low="1.01674"   /> 
+      <OverallSys Name="JET_EffectiveNP_Statistical2"  High="0.985344"  Low="1.01466"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.04468"  Low="0.961449"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_TotalStat"  High="1.02085"  Low="0.985278"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.18634"  Low="0.823374"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.928207"  Low="1.07179"   /> 
+      <OverallSys Name="JET_Pileup_OffsetNPV"  High="0.977244"  Low="1.02276"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.10227"  Low="0.90387"   /> 
+      <NormFactor Name="mu_W"  Val="1.438"  High="10"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="Scalemurmuf"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_Scalemurmuf_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_Scalemurmuf_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF1"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF1_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF1_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF2"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF2_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF2_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF3"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF3_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF3_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF4"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF4_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF4_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF5"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF5_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF5_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF6"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF6_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF6_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF7"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF7_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF7_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF8"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF8_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF8_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF9"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF9_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF9_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF10"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF10_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF10_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF11"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF11_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF11_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF12"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF12_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF12_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF13"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF13_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF13_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF14"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF14_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF14_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF15"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF15_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF15_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF16"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF16_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF16_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF17"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF17_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF17_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF18"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF18_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF18_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF19"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF19_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF19_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF20"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF20_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF20_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF21"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF21_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF21_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF22"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF22_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF22_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF23"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF23_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF23_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF24"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF24_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF24_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF25"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF25_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF25_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF26"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF26_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF26_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF27"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF27_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF27_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF28"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF28_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF28_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF29"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF29_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF29_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF30"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_WJets_PDF30_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_WJets_PDF30_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ZJets"  HistoPath=""  HistoName="VR2_mqph_ZJets_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.01121"  Low="0.988788"   /> 
+      <OverallSys Name="Pileup"  High="0.988504"  Low="1.0028"   /> 
+      <OverallSys Name="EGamFake"  High="1.0697"  Low="0.930298"   /> 
+      <OverallSys Name="JGamFake"  High="1.10216"  Low="0.897842"   /> 
+      <OverallSys Name="Scalemurmuf"  High="1.41249"  Low="0.749032"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPara"  High="0.989228"  Low="1.01077"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPerp"  High="0.975056"  Low="1.02494"   /> 
+      <OverallSys Name="MET_SoftTrk_Scale"  High="0.975828"  Low="1.02417"   /> 
+      <OverallSys Name="EG_Scale"  High="1.01228"  Low="0.987716"   /> 
+      <OverallSys Name="JET_EffectiveNP_Detector1"  High="1.01542"  Low="0.984579"   /> 
+      <OverallSys Name="JET_EffectiveNP_Mixed1"  High="1.01557"  Low="0.984426"   /> 
+      <OverallSys Name="JET_EffectiveNP_Mixed2"  High="0.984892"  Low="1.01511"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.03307"  Low="0.966925"   /> 
+      <OverallSys Name="JET_EffectiveNP_Statiscal3"  High="0.987602"  Low="1.0124"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.02609"  Low="0.973912"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_TotalStat"  High="1.01711"  Low="0.982888"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.06215"  Low="0.937851"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.965602"  Low="1.0344"   /> 
+      <OverallSys Name="JET_Pileup_OffsetMu"  High="0.98985"  Low="1.01015"   /> 
+      <OverallSys Name="JET_Pileup_OffsetNPV"  High="1.01354"  Low="0.986461"   /> 
+      <OverallSys Name="JET_Pileup_PtTerm"  High="1.0189"  Low="0.981097"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.04189"  Low="0.958112"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="Scalemurmuf"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_Scalemurmuf_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_Scalemurmuf_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF1"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF1_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF1_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF2"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF2_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF2_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF3"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF3_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF3_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF4"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF4_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF4_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF5"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF5_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF5_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF6"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF6_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF6_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF7"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF7_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF7_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF8"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF8_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF8_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF9"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF9_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF9_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF10"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF10_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF10_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF11"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF11_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF11_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF12"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF12_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF12_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF13"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF13_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF13_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF14"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF14_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF14_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF15"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF15_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF15_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF16"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF16_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF16_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF17"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF17_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF17_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF18"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF18_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF18_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF19"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF19_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF19_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF20"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF20_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF20_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF21"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF21_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF21_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF22"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF22_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF22_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF23"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF23_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF23_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF24"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF24_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF24_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF25"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF25_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF25_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF26"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF26_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF26_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF27"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF27_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF27_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF28"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF28_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF28_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF29"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF29_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF29_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="PDF30"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZJets_PDF30_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZJets_PDF30_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ZGam"  HistoPath=""  HistoName="VR2_mqph_ZGam_regBin"  InputFile="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.0123"  Low="0.987704"   /> 
+      <OverallSys Name="Pileup"  High="0.967496"  Low="1.03696"   /> 
+      <OverallSys Name="Scalemurmuf"  High="1.1394"  Low="0.91069"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPara"  High="1.01678"  Low="0.983222"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPerp"  High="0.970698"  Low="1.0293"   /> 
+      <OverallSys Name="MET_SoftTrk_Scale"  High="0.953814"  Low="1.04619"   /> 
+      <OverallSys Name="EG_Resolution"  High="0.988448"  Low="1.01155"   /> 
+      <OverallSys Name="EG_Scale"  High="1.02603"  Low="0.973968"   /> 
+      <OverallSys Name="JET_EffectiveNP_Mixed1"  High="0.985128"  Low="1.01487"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.01036"  Low="0.989643"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.06451"  Low="0.935491"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.973922"  Low="1.02608"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.02646"  Low="0.973539"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZGam_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZGam_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZGam_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZGam_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="Scalemurmuf"  HistoFileLow="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameLow="VR2_mqph_ZGam_Scalemurmuf_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="FCNC_All_ejets/Histograms/FCNC_All_ejets_VR2_mqph_histos.root"  HistoNameHigh="VR2_mqph_ZGam_Scalemurmuf_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+
+  </Channel>  
