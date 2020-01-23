@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  22 JAN 2020 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  23 JAN 2020 12:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -5638,7 +5638,7 @@ fs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/jason/.miktex/texmfs
 /install/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/jason/.miktex/texmfs/
 install/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/jason/.miktex/texmfs/i
 nstall/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (208 pages, 30991402 bytes).
+Output written on main.pdf (208 pages, 30990808 bytes).
 PDF statistics:
  2972 PDF objects out of 2984 (max. 8388607)
  712 named destinations out of 1000 (max. 500000)
