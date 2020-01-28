@@ -1,0 +1,786 @@
+-------///////                 ///////-------
+-------/////// IN PRUNING PLOT ///////-------
+-------///////                 ///////-------
+In Region : SR_mqph
+ -> In Sample : FCNC
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is shape only
+ -> In Sample : ttbar
+ --->>  ttXsec      is norm only
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ttgam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is shape only
+ --->>  JGamFake      is dropped
+ -> In Sample : VV
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is norm only
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : singleTop
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is norm only
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ttV
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : WGam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ -> In Sample : WJets
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is kept
+ -> In Sample : ZJets
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is shape only
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ZGam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is kept
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is kept
+In Region : VR1_mqph
+ -> In Sample : FCNC
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is shape only
+ --->>  PhotonSF_effIso      is shape only
+ --->>  Pileup      is shape only
+ --->>  JVT      is shape only
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ -> In Sample : ttbar
+ --->>  ttXsec      is norm only
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ttgam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is shape only
+ -> In Sample : VV
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is norm only
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is dropped
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : singleTop
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is norm only
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is kept
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ttV
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is shape only
+ --->>  Pileup      is shape only
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : WGam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ -> In Sample : WJets
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is kept
+ -> In Sample : ZJets
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is shape only
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ZGam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is shape only
+ --->>  JGamFake      is shape only
+In Region : VR2_mqph
+ -> In Sample : FCNC
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is kept
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is shape only
+ -> In Sample : ttbar
+ --->>  ttXsec      is norm only
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is norm only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ttgam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is norm only
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ -> In Sample : VV
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is norm only
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is kept
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : singleTop
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is norm only
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is kept
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ttV
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : WGam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is kept
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ -> In Sample : WJets
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is shape only
+ --->>  EGamFake      is shape only
+ --->>  JGamFake      is kept
+ -> In Sample : ZJets
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ -> In Sample : ZGam
+ --->>  ttXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is norm only
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is shape only
+ --->>  JGamFake      is dropped

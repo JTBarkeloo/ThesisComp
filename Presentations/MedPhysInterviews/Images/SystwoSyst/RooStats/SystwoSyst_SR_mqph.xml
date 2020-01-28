@@ -1,0 +1,137 @@
+<!--
+This xml file created automatically on: 
+2020-1-27
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="SR_mqph" InputFile="" >
+
+    <Data HistoName="SR_mqph_Data_regBin" InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root" HistoPath=""  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.001" ConstraintType="Poisson" /> 
+
+    <Sample Name="FCNC"  HistoPath=""  HistoName="SR_mqph_FCNC_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="0"  High="0.2"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_FCNC_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_FCNC_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_FCNC_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_FCNC_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ttbar"  HistoPath=""  HistoName="SR_mqph_ttbar_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ttXsec"  High="1.056"  Low="0.944"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Pileup"  High="0.999329"  Low="0.975995"   /> 
+      <OverallSys Name="EGamFake"  High="1.05884"  Low="0.941158"   /> 
+      <OverallSys Name="JGamFake"  High="1.13016"  Low="0.869839"   /> 
+      <NormFactor Name="mu_tt"  Val="1.0189"  High="10"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttbar_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttbar_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttbar_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttbar_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttbar_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttbar_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ttgam"  HistoPath=""  HistoName="SR_mqph_ttgam_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Pileup"  High="0.986281"  Low="1.0129"   /> 
+      <NormFactor Name="mu_ttgam"  Val="1"  High="2"  Low="0.5"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttgam_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttgam_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttgam_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttgam_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="VV"  HistoPath=""  HistoName="SR_mqph_VV_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VVXsec"  High="1.06"  Low="0.94"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Pileup"  High="1.13285"  Low="0.937509"   /> 
+      <OverallSys Name="EGamFake"  High="1.01297"  Low="0.987026"   /> 
+      <OverallSys Name="JGamFake"  High="1.31985"  Low="0.680148"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_VV_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_VV_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_VV_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_VV_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_VV_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_VV_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_VV_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_VV_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="singleTop"  HistoPath=""  HistoName="SR_mqph_singleTop_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="stXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Pileup"  High="0.963159"  Low="1.04567"   /> 
+      <OverallSys Name="EGamFake"  High="1.06659"  Low="0.933411"   /> 
+      <OverallSys Name="JGamFake"  High="1.01051"  Low="0.989489"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_singleTop_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_singleTop_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_singleTop_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_singleTop_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_singleTop_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_singleTop_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ttV"  HistoPath=""  HistoName="SR_mqph_ttV_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.012"  Low="0.987997"   /> 
+      <OverallSys Name="Pileup"  High="0.96354"  Low="1.02026"   /> 
+      <OverallSys Name="EGamFake"  High="1.05077"  Low="0.949227"   /> 
+      <OverallSys Name="JGamFake"  High="1.06042"  Low="0.939576"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttV_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttV_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttV_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttV_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttV_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttV_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ttV_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ttV_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="WGam"  HistoPath=""  HistoName="SR_mqph_WGam_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Pileup"  High="0.978681"  Low="1.04466"   /> 
+      <NormFactor Name="mu_WGam"  Val="1"  High="2"  Low="0.5"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_WGam_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_WGam_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="WJets"  HistoPath=""  HistoName="SR_mqph_WJets_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.01169"  Low="0.98831"   /> 
+      <OverallSys Name="Pileup"  High="0.866933"  Low="1.13173"   /> 
+      <OverallSys Name="JGamFake"  High="1.35602"  Low="0.643976"   /> 
+      <NormFactor Name="mu_W"  Val="1.438"  High="10"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_WJets_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_WJets_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_WJets_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_WJets_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ZJets"  HistoPath=""  HistoName="SR_mqph_ZJets_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.0112"  Low="0.988804"   /> 
+      <OverallSys Name="Pileup"  High="1.00721"  Low="1.01886"   /> 
+      <OverallSys Name="EGamFake"  High="1.08678"  Low="0.913224"   /> 
+      <OverallSys Name="JGamFake"  High="1.04807"  Low="0.951928"   /> 
+      <HistoSys Name="PhotonSF_effIso"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ZJets_PhotonSF_effIso_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ZJets_PhotonSF_effIso_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ZJets_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ZJets_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ZJets_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ZJets_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ZJets_EGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ZJets_EGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ZJets_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ZJets_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+    <Sample Name="ZGam"  HistoPath=""  HistoName="SR_mqph_ZGam_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="JVT"  High="0.970529"  Low="1.01494"   /> 
+      <OverallSys Name="JGamFake"  High="1.04244"  Low="0.957557"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ZGam_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ZGam_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JVT"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ZGam_JVT_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ZGam_JVT_Shape_Up_regBin"  HistoPathHigh=""   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_ZGam_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_ZGam_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
+    </Sample>
+
+
+
+  </Channel>  

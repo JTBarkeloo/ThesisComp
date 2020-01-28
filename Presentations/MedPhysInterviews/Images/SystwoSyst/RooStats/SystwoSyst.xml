@@ -1,0 +1,19 @@
+<!--
+This xml file created automatically on: 
+2020-1-27
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="SystwoSyst/RooStats/SystwoSyst" >
+
+
+  <Input>./SystwoSyst/RooStats//SystwoSyst_SR_mqph.xml</Input>
+  <Input>./SystwoSyst/RooStats//SystwoSyst_VR1_mqph.xml</Input>
+  <Input>./SystwoSyst/RooStats//SystwoSyst_VR2_mqph.xml</Input>
+
+  <Measurement Name="SystwoSyst" Lumi="1" LumiRelErr="0.1" ExportOnly="True"  >
+    <POI>SigXsecOverSM</POI>  
+    <ParamSetting Const="True">Lumi mu_tt mu_W</ParamSetting>
+  </Measurement> 
+
+</Combination>
