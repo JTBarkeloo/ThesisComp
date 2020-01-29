@@ -1,6 +1,6 @@
 <!--
 This xml file created automatically on: 
-2020-1-27
+2020-1-29
 -->
 <!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
 
@@ -12,7 +12,7 @@ This xml file created automatically on:
 
     <Sample Name="FCNC"  HistoPath=""  HistoName="SR_mqph_FCNC_regBin"  InputFile="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  NormalizeByTheory="True" >
       <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
-      <NormFactor Name="SigXsecOverSM"  Val="0"  High="0.2"  Low="0"  Const="False"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="1"  High="1.5"  Low="0"  Const="False"   /> 
       <HistoSys Name="Pileup"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_FCNC_Pileup_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_FCNC_Pileup_Shape_Up_regBin"  HistoPathHigh=""   /> 
       <HistoSys Name="JGamFake"  HistoFileLow="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameLow="SR_mqph_FCNC_JGamFake_Shape_Down_regBin"  HistoPathLow=""  HistoFileHigh="SystwoSyst/Histograms/SystwoSyst_SR_mqph_histos.root"  HistoNameHigh="SR_mqph_FCNC_JGamFake_Shape_Up_regBin"  HistoPathHigh=""   /> 
     </Sample>

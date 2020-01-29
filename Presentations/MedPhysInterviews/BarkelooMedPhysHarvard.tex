@@ -17,9 +17,9 @@
 %\usepackage{tikz-feynman}
 \usepackage{graphicx}
 \begin{document}
-\title{Searching for Ultra Rare Processes Using the Large Hadron Collider}
+\title{Searching for Ultra Rare Processes With the Large Hadron Collider}
 \subtitle{$t \rightarrow q \gamma$}
-\author[Barkeloo]{Jason Barkeloo}
+\author[\hyperlink{supplemental}{J. Barkeloo}]{Jason Barkeloo}
 
 \titlegraphic{\includegraphics[width=4cm]{../ATLAS-Logo-Ref-RGB.png}\hspace*{2.75cm}~%
    \includegraphics[width=4cm]{../uo_logo_green_on_white_2.jpg}
@@ -31,27 +31,13 @@
 %\end{itemize}
 %}
 
-\date{January 16, 2020}
+\date{February 6, 2020}
 \frame{\titlepage}
 \frame{\frametitle{Overview}\tableofcontents[]}%hidesubsections]}
-\section{The Large Hadron Collider}
+\section{The Large Hadron Collider and The Standard Model of Particle Physics}
 %\frame{\frametitle{Table of Contents}\tableofcontents[currentsection,hideothersubsections]}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{The Standard Model of Particle Physics}
-\frame{\frametitle{The Standard Model of Particle Physics}
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\begin{itemize}
-\item Newest Addition: Higgs Boson - 2012
-\item
-\end{itemize}
-\end{column}
-\begin{column}{0.5\textwidth}
-\centering
-\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/SMParticles.png}
-\end{column}
-\end{columns}
-}
+
 \subsection{LHC And ATLAS}
 
 \frame{\frametitle{The Large Hadron Collider}
@@ -60,8 +46,8 @@
 \begin{itemize}
 \item 27km ring beneath Franco-Swiss Border
 \item 4 Major Experiments
-\item Collides protons at $\sqrt{\text{s}}=$ 13TeV
-\item Over 11 Quadrillion events produced within the ATLAS detector so far
+\item Collides protons at center of mass energy 13TeV
+\item Over 11 Quadrillion ($10^{15}$) events produced within the ATLAS detector so far
 \end{itemize}
 }
 
@@ -73,18 +59,74 @@
 %\end{itemize}
 }
 
-\frame{\frametitle{Particles in ATLAS}
+\frame{\frametitle{Events in ATLAS}
+\begin{columns}
+\begin{column}{0.5\textwidth}
 \centering
-\includegraphics[width=.5\textwidth]{../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg}
+\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/LHCImages/2012_highPileup.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item LHC Provides around 600 million interactions/second
+\item Save compelling events
+\item Extremely large, messy data sets
+\item Detector well modeled for Monte Carlo event generation
+\end{itemize}
+\end{column}
+\end{columns}
+
+
 }
 
-\subsection{Picking Through The Data}
+\subsection{The Standard Model of Particle Physics}
+\frame{\frametitle{The Standard Model of Particle Physics}
+\centering
+\includegraphics[width=.55\textwidth]{../../Thesis/ThesisImages/SMParticles.png}
+\begin{itemize}
+\item Our current theory that attempts to explain everything
+	\begin{itemize}
+	\item Experimentally precise and well behaved
+	\item Very few exceptions (i.e. Neutrino Mass, Dark Matter Abundance)
+	\end{itemize}
+	\vspace{\baselineskip}
+\end{itemize}
+}
+
 \section{Search For Ultra Rare Decays}
-\subsection{Problems with the Standard Model}
-\frame{\frametitle{Standard Model Problems}
+\frame{\frametitle{The Top Quark and Flavor Changing Neutral Current Decays}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item Heaviest fundamental particle, $172.5\text{GeV/c}^{2}$
+\item Lifetime $5\times10^{-25}$s
+\begin{itemize}
+\item Allows study of single quark decay
+\end{itemize}
+\end{itemize}
+\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/Theory/SMTopDecays.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/Theory/AllFCNCLimits.png}
+\end{column}
+\end{columns}
 }
 
+
+
+\frame{\frametitle{Test}
+}
 \subsection{Machine Learning}
+\frame{\frametitle{Neural Networks}
+\begin{itemize}
+\item Advanced pattern recognition used to classify events
+\item A dense neural network is used with various low and high level variable inputs
+\item Supervised learning used to approximate any multidimensional function
+\end{itemize}
+\centering
+\includegraphics[width=0.7\textwidth]{Images/neural_net2.jpeg}
+\captionof{figure}{\href{http://cs231n.github.io/neural-networks-1/}{[Ref: Neural Network]}}
+}
 
 \frame{\frametitle{Analysis Neural Network Outputs}
 \begin{columns}
@@ -98,38 +140,43 @@
 \end{column}
 \end{columns}
 }
-\frame{\frametitle{Initial Output Plots}
+\subsection{Work In Progress - Results}
+\frame{\frametitle{Work In Progress - Results}
 \begin{columns}
 \begin{column}{0.35\textwidth}
 \begin{itemize}
-\item Validation Region 1
+\item Background Enriched Region 1
 \end{itemize}
 \includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/VR1_mqph.png} \\
 \end{column}
 \begin{column}{0.35\textwidth}
 \begin{itemize}
-\item Validation Region 2
+\item Background Enriched Region 2
 \end{itemize}
 \includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/VR2_mqph.png} \\
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
-\item Signal Region
+\item Signal Enriched Region
 \end{itemize}
 \includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/SR_mqph.png}
 \end{column}
 \end{columns}
+Statistics only limit BR($t\rightarrow q \gamma) \approx 4 \times 10^{-5}$
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Outlook and Conclusions}
+\section{Results and Conclusions}
 
 \frame{\frametitle{Outlook}
 \begin{itemize}
-\item 
-\item 
-\item Questions?
+\item The LHC is being used to search for signs of new physics down many avenues
+\item Stringent limits being set on processes help to rule out a variety of theoretical models
+\item Top quarks offer a unique handle for many searches for physics beyond the standard model
+\item This search expects to set competive limits for this ultra rare process
 \end{itemize}
+\centering
+\includegraphics[width=.5\textwidth]{../../Thesis/ThesisImages/ttbarevent.jpg}
 }
 
 
@@ -137,12 +184,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \appendix
+%\label{supplemental}
 \section{Backup}
+
 \frame{\frametitle{Backup}
+\label{supplemental}
 }
 \frame{\frametitle{Particles in ATLAS}
 \centering
-\includegraphics[width=.7\textwidth]{../../Thesis/ThesisImages/LHCImages/2012_highPileup.png}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg}
+}
+
+\frame{\frametitle{Luminosity and Pile-up}
+\centering
+\includegraphics[width=.49\textwidth]{../../Thesis/ThesisImages/LHCImages/ATLASLumi.png}
+\includegraphics[width=.49\textwidth]{../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png}
 }
 
 \frame{\frametitle{FCNC Diagrams}
