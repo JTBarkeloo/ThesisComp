@@ -18,7 +18,6 @@
 \usepackage{graphicx}
 \begin{document}
 \title{Searching for Ultra Rare Processes With the Large Hadron Collider}
-\subtitle{$t \rightarrow q \gamma$}
 \author[\hyperlink{supplemental}{J. Barkeloo}]{Jason Barkeloo}
 
 \titlegraphic{\includegraphics[width=4cm]{../ATLAS-Logo-Ref-RGB.png}\hspace*{2.75cm}~%
@@ -38,7 +37,7 @@
 %\frame{\frametitle{Table of Contents}\tableofcontents[currentsection,hideothersubsections]}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{LHC And ATLAS}
+\subsection{LHC and ATLAS}
 
 \frame{\frametitle{The Large Hadron Collider}
 \centering
@@ -47,17 +46,11 @@
 \item 27km ring beneath Franco-Swiss Border
 \item 4 Major Experiments
 \item Collides protons at center of mass energy 13TeV
-\item Over 11 Quadrillion ($10^{15}$) events produced within the ATLAS detector so far
+\item Over 10 Quadrillion ($10^{15}$) events produced within the ATLAS detector so far
 \end{itemize}
 }
 
-\frame{\frametitle{The ATLAS Detector}
-\centering
-\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/LHCImages/atlasdet.jpg}
-%\begin{itemize}
-%\item 10 Quadrillion events
-%\end{itemize}
-}
+
 
 \frame{\frametitle{Events in ATLAS}
 \begin{columns}
@@ -93,15 +86,18 @@
 }
 
 \section{Search For Ultra Rare Decays}
-\frame{\frametitle{The Top Quark and Flavor Changing Neutral Current Decays}
+\subsection{The Top Quark}
+\frame{\frametitle{The Top Quark and Flavor Changing Neutral Currents}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{itemize}
-\item Heaviest fundamental particle, $172.5\text{GeV/c}^{2}$
+\item Heaviest fundamental particle%, $172.5\text{GeV/c}^{2}$
 \item Lifetime $5\times10^{-25}$s
 \begin{itemize}
 \item Allows study of single quark decay
 \end{itemize}
+\item Top decays to bW essentially 100\% of the time
+\item Expect $\approx 10^8$ top pair events
 \end{itemize}
 \includegraphics[width=\textwidth]{../../Thesis/ThesisImages/Theory/SMTopDecays.png}
 \end{column}
@@ -112,10 +108,6 @@
 \end{columns}
 }
 
-
-
-\frame{\frametitle{Test}
-}
 \subsection{Machine Learning}
 \frame{\frametitle{Neural Networks}
 \begin{itemize}
@@ -128,20 +120,28 @@
 \captionof{figure}{\href{http://cs231n.github.io/neural-networks-1/}{[Ref: Neural Network]}}
 }
 
-\frame{\frametitle{Analysis Neural Network Outputs}
-\begin{columns}
-\begin{column}{0.5\textwidth}
+\frame{\frametitle{Neural Network Outputs}
 \centering
-\includegraphics[width=\textwidth]{../GroupMeetingJan1620/Images/PreSel_NNejet.png}
-\end{column}
-\begin{column}{0.5\textwidth}
-\centering
-\includegraphics[width=\textwidth]{../GroupMeetingJan1620/Images/PreSel_NNmujet.png}
-\end{column}
-\end{columns}
+\includegraphics[width=.5\textwidth]{../GroupMeetingJan1620/Images/PreSel_NNejet.png}\\
+%\begin{columns}
+%\begin{column}{0.5\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{../GroupMeetingJan1620/Images/PreSel_NNejet.png}
+%\end{column}
+%\begin{column}{0.5\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{../GroupMeetingJan1620/Images/PreSel_NNmujet.png}
+%\end{column}
+%\end{columns}
+Monte Carlo isnt perfect - Use data driven backgrounds to compensate!
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results and Conclusions}
+
 \subsection{Work In Progress - Results}
 \frame{\frametitle{Work In Progress - Results}
+Regions to check background modeling behavior compared with data while not unblinding the signal region are used
 \begin{columns}
 \begin{column}{0.35\textwidth}
 \begin{itemize}
@@ -162,18 +162,17 @@
 \includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/SR_mqph.png}
 \end{column}
 \end{columns}
-Statistics only limit BR($t\rightarrow q \gamma) \approx 4 \times 10^{-5}$
+Statistics only limit BR($t\rightarrow q \gamma) \leq 4 \times 10^{-5}$
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Results and Conclusions}
 
-\frame{\frametitle{Outlook}
+
+\frame{\frametitle{Conclusions}
 \begin{itemize}
-\item The LHC is being used to search for signs of new physics down many avenues
-\item Stringent limits being set on processes help to rule out a variety of theoretical models
-\item Top quarks offer a unique handle for many searches for physics beyond the standard model
-\item This search expects to set competive limits for this ultra rare process
+\item I have created model independent signal samples to search for new physics with flavor changing neutral current decays in top pair events
+\item Developed and implemented a neural network for signal classification
+\item Currently working to ensure well modeled backgrounds and account for systematic errors
+\item After unblinding if I find any excess in signal data events it is a strong indication of physics beyond the Standard Model
 \end{itemize}
 \centering
 \includegraphics[width=.5\textwidth]{../../Thesis/ThesisImages/ttbarevent.jpg}
@@ -190,9 +189,17 @@ Statistics only limit BR($t\rightarrow q \gamma) \approx 4 \times 10^{-5}$
 \frame{\frametitle{Backup}
 \label{supplemental}
 }
+
+
+
 \frame{\frametitle{Particles in ATLAS}
 \centering
 \includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg}
+}
+
+\frame{\frametitle{The ATLAS Detector}
+\centering
+\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/LHCImages/atlasdet.jpg}
 }
 
 \frame{\frametitle{Luminosity and Pile-up}
@@ -205,93 +212,91 @@ Statistics only limit BR($t\rightarrow q \gamma) \approx 4 \times 10^{-5}$
 \centering
 \includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/penguinFCNC.png}
 }
-%
-%\frame{\frametitle{No Photon Region SF Applied in Val Region}
-%\begin{columns}
-%\begin{column}{0.32\textwidth}
-%\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png} \\
-%\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png} \\
-%\end{column}
-%\begin{column}{0.32\textwidth}
-%\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png} \\
-%\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png}
-%\end{column}
-%\begin{column}{0.32\textwidth}
-%\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png} \\
-%\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_bjet0_pt_postFit.png}
-%\end{column}
-%\end{columns}
-%}
-%
+\subsection{Data Driven Backgrounds}
+\frame{\frametitle{Data Driven Backgrounds}
+\begin{itemize}
+\item Various physics processes are known to be poorly modeled, especially at the high energies and interaction rates of the LHC
+\end{itemize}
+\begin{columns}
 
+\begin{column}{0.5\textwidth}
+Before Scaling
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png} 
+\end{column}
+\begin{column}{0.5\textwidth}
+After Scaling
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png}
+\end{column}
+\end{columns}
+}
 %\frame{\frametitle{}
 %}
 
-%\frame{\frametitle{Neural Network Model Inputs}
-%\centering
-%\scalebox{0.8}{ $\text{Separation} = \sum_{i}^{bins} \frac {n_{s i}-n_{b i}}{n_{s i}+n_{b i}}$}
-%\begin{columns}
-%\begin{column}{0.48\textwidth}
-%\centering
-%mu+jets channel\\
-%\scalebox{0.6}{\begin{tabular}{cc}
-%Variable & Separation \\
-%\hline
-%photon0iso & 41.18 \\
-%mqgam & 28.27 \\
-%photon0pt & 24.07 \\
-%mtSM & 11.60 \\
-%mlgam & 7.56 \\
-%deltaRjgam & 5.64 \\
-%deltaRbl & 4.42 \\
-%MWT & 3.34 \\
-%ST & 3.30 \\
-%nuchi2 & 3.12 \\
-%jet0pt & 2.81 \\
-%njets & 2.07 \\
-%smchi2 & 1.89 \\
-%wchi2 & 1.87 \\
-%jet0e & 1.52 \\
-%deltaRlgam & 1.17 \\
-%leptone & 0.87 \\
-%deltaRjb & 0.86 \\
-%met & 0.68 \\
-%bjet0pt & 0.52 \\
-%leptoniso & 0.27 \\
-%\end{tabular}
-%}
-%\end{column}
-%\begin{column}{0.48\textwidth}
-%\centering
-%e+jets channel \\
-%\scalebox{0.6}{\begin{tabular}{c c}
-%Variable & Separation\\
-%\hline
-%photon0pt & 23.14 \\
-%mqgam & 22.73 \\
-%photon0iso & 18.70 \\
-%mtSM & 11.02 \\
-%mlgam & 9.53 \\
-%deltaRbl & 5.00 \\
-%deltaRjgam & 4.60 \\
-%ST & 3.83 \\
-%MWT & 3.16 \\
-%jet0pt & 2.47 \\
-%njets & 1.70 \\
-%nuchi2 & 1.59 \\
-%deltaRlgam & 1.40 \\
-%wchi2 & 1.33 \\
-%smchi2 & 1.09 \\
-%deltaRjb & 0.88 \\
-%leptone & 0.85 \\
-%leptoniso & 0.56 \\
-%bjet0pt & 0.50 \\
-%met & 0.47 \\
-%\end{tabular}
-%}
-%\end{column}
-%\end{columns}
-%}
+\frame{\frametitle{Neural Network Model Inputs}
+\centering
+\scalebox{0.8}{ $\text{Separation} = \sum_{i}^{bins} \frac {n_{s i}-n_{b i}}{n_{s i}+n_{b i}}$}
+\begin{columns}
+\begin{column}{0.48\textwidth}
+\centering
+mu+jets channel\\
+\scalebox{0.6}{\begin{tabular}{cc}
+Variable & Separation \\
+\hline
+photon0iso & 41.18 \\
+mqgam & 28.27 \\
+photon0pt & 24.07 \\
+mtSM & 11.60 \\
+mlgam & 7.56 \\
+deltaRjgam & 5.64 \\
+deltaRbl & 4.42 \\
+MWT & 3.34 \\
+ST & 3.30 \\
+nuchi2 & 3.12 \\
+jet0pt & 2.81 \\
+njets & 2.07 \\
+smchi2 & 1.89 \\
+wchi2 & 1.87 \\
+jet0e & 1.52 \\
+deltaRlgam & 1.17 \\
+leptone & 0.87 \\
+deltaRjb & 0.86 \\
+met & 0.68 \\
+bjet0pt & 0.52 \\
+leptoniso & 0.27 \\
+\end{tabular}
+}
+\end{column}
+\begin{column}{0.48\textwidth}
+\centering
+e+jets channel \\
+\scalebox{0.6}{\begin{tabular}{c c}
+Variable & Separation\\
+\hline
+photon0pt & 23.14 \\
+mqgam & 22.73 \\
+photon0iso & 18.70 \\
+mtSM & 11.02 \\
+mlgam & 9.53 \\
+deltaRbl & 5.00 \\
+deltaRjgam & 4.60 \\
+ST & 3.83 \\
+MWT & 3.16 \\
+jet0pt & 2.47 \\
+njets & 1.70 \\
+nuchi2 & 1.59 \\
+deltaRlgam & 1.40 \\
+wchi2 & 1.33 \\
+smchi2 & 1.09 \\
+deltaRjb & 0.88 \\
+leptone & 0.85 \\
+leptoniso & 0.56 \\
+bjet0pt & 0.50 \\
+met & 0.47 \\
+\end{tabular}
+}
+\end{column}
+\end{columns}
+}
 %
 %	\frame{\frametitle{Input Variables}
 %	['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam','deltaRbl',\\
