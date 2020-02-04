@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  29 JAN 2020 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  31 JAN 2020 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1298,30 +1298,28 @@ Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 121.
  [7
 
  <./Images/neural_net2.jpeg>]
-<../GroupMeetingJan1620/Images/PreSel_NNejet.png, id=178, 598.235pt x 674.52pt>
-
-File: ../GroupMeetingJan1620/Images/PreSel_NNejet.png Graphic file (type png)
-<use ../GroupMeetingJan1620/Images/PreSel_NNejet.png>
-Package pdftex.def Info: ../GroupMeetingJan1620/Images/PreSel_NNejet.png  used 
-on input line 137.
+<Images/PreSel_NNejet.png, id=178, 598.235pt x 674.52pt>
+File: Images/PreSel_NNejet.png Graphic file (type png)
+<use Images/PreSel_NNejet.png>
+Package pdftex.def Info: Images/PreSel_NNejet.png  used on input line 137.
 (pdftex.def)             Requested size: 153.64493pt x 173.24054pt.
 
 [8
 
- <../GroupMeetingJan1620/Images/PreSel_NNejet.png (PNG copy)>]
-<Images/SystwoSyst/Plots/VR1_mqph.png, id=191, 598.235pt x 674.52pt>
+ <./Images/PreSel_NNejet.png>]
+<Images/SystwoSyst/Plots/VR1_mqph.png, id=192, 598.235pt x 674.52pt>
 File: Images/SystwoSyst/Plots/VR1_mqph.png Graphic file (type png)
 <use Images/SystwoSyst/Plots/VR1_mqph.png>
 Package pdftex.def Info: Images/SystwoSyst/Plots/VR1_mqph.png  used on input li
 ne 166.
 (pdftex.def)             Requested size: 102.17532pt x 115.20207pt.
-<Images/SystwoSyst/Plots/VR2_mqph.png, id=192, 598.235pt x 674.52pt>
+<Images/SystwoSyst/Plots/VR2_mqph.png, id=193, 598.235pt x 674.52pt>
 File: Images/SystwoSyst/Plots/VR2_mqph.png Graphic file (type png)
 <use Images/SystwoSyst/Plots/VR2_mqph.png>
 Package pdftex.def Info: Images/SystwoSyst/Plots/VR2_mqph.png  used on input li
 ne 166.
 (pdftex.def)             Requested size: 102.17532pt x 115.20207pt.
-<Images/SystwoSyst/Plots/SR_mqph.png, id=193, 598.235pt x 674.52pt>
+<Images/SystwoSyst/Plots/SR_mqph.png, id=194, 598.235pt x 674.52pt>
 File: Images/SystwoSyst/Plots/SR_mqph.png Graphic file (type png)
 <use Images/SystwoSyst/Plots/SR_mqph.png>
 Package pdftex.def Info: Images/SystwoSyst/Plots/SR_mqph.png  used on input lin
@@ -1331,13 +1329,13 @@ e 166.
 
  <./Images/SystwoSyst/Plots/VR1_mqph.png> <./Images/SystwoSyst/Plots/VR2_mqph.p
 ng> <./Images/SystwoSyst/Plots/SR_mqph.png>]
-<../../Thesis/ThesisImages/ttbarevent.jpg, id=206, 722.7pt x 515.9275pt>
+<../../Thesis/ThesisImages/ttbarevent.jpg, id=207, 722.7pt x 515.9275pt>
 File: ../../Thesis/ThesisImages/ttbarevent.jpg Graphic file (type jpg)
 <use ../../Thesis/ThesisImages/ttbarevent.jpg>
 Package pdftex.def Info: ../../Thesis/ThesisImages/ttbarevent.jpg  used on inpu
 t line 179.
 (pdftex.def)             Requested size: 153.64493pt x 109.68628pt.
- [10
+[10
 
  <../../Thesis/ThesisImages/ttbarevent.jpg>]
 
@@ -1347,7 +1345,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [11
 
 ]
-<../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg, id=227, 903.375
+<../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg, id=228, 903.375
 pt x 732.7375pt>
 File: ../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg Graphic fil
 e (type jpg)
@@ -1358,7 +1356,7 @@ ons.jpg  used on input line 198.
  [12
 
  <../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg>]
-<../../Thesis/ThesisImages/LHCImages/atlasdet.jpg, id=237, 802.6788pt x 561.778
+<../../Thesis/ThesisImages/LHCImages/atlasdet.jpg, id=238, 802.6788pt x 561.778
 8pt>
 File: ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg Graphic file (type jpg)
 <use ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg>
@@ -1369,7 +1367,7 @@ Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg  used
 [13
 
  <../../Thesis/ThesisImages/LHCImages/atlasdet.jpg>]
-<../../Thesis/ThesisImages/LHCImages/ATLASLumi.png, id=248, 798.985pt x 574.145
+<../../Thesis/ThesisImages/LHCImages/ATLASLumi.png, id=249, 798.985pt x 574.145
 pt>
 File: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
 
@@ -1377,7 +1375,7 @@ File: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
 Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png  use
 d on input line 209.
 (pdftex.def)             Requested size: 150.57372pt x 108.19508pt.
-<../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png, id=249, 798.985pt 
+<../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png, id=250, 798.985pt 
 x 574.145pt>
 File: ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (
 type png)
@@ -1389,7 +1387,7 @@ Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing
 
  <../../Thesis/ThesisImages/LHCImages/ATLASLumi.png> <../../Thesis/ThesisImages
 /LHCImages/meanIntperCrossing.png>]
-<../../Thesis/ThesisImages/penguinFCNC.png, id=259, 1020.81375pt x 629.35126pt>
+<../../Thesis/ThesisImages/penguinFCNC.png, id=260, 1020.81375pt x 629.35126pt>
 
 File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/penguinFCNC.png>
@@ -1400,7 +1398,7 @@ ut line 214.
 
  <../../Thesis/ThesisImages/penguinFCNC.png>]
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_SMtop.png, id=269, 598.235pt x 674.52pt>
+mFactor/FCNC_All_ejets/Plots/VR3_SMtop.png, id=270, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCode
@@ -1410,7 +1408,7 @@ trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png  used on inp
 ut line 231.
 (pdftex.def)             Requested size: 122.9164pt x 138.58626pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png, id=270, 598.235pt x 674.52p
+mFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png, id=271, 598.235pt x 674.52p
 t>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
@@ -1448,8 +1446,8 @@ Package rerunfilecheck Info: File `BarkelooMedPhysHarvard.out' has not changed.
 (rerunfilecheck)             Checksum: E166F0BF575A685C8F193C81C7A388D7;740.
  ) 
 Here is how much of TeX's memory you used:
- 28502 strings out of 492616
- 552925 string characters out of 6132769
+ 28501 strings out of 492616
+ 552803 string characters out of 6132769
  611609 words of memory out of 5000000
  31890 multiletter control sequences out of 15000+600000
  540643 words of font info for 54 fonts, out of 8000000 for 9000
@@ -1465,9 +1463,9 @@ s/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 si8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive
 /2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on BarkelooMedPhysHarvard.pdf (17 pages, 4153204 bytes).
+Output written on BarkelooMedPhysHarvard.pdf (17 pages, 4149068 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
+ 341 PDF objects out of 1000 (max. 8388607)
  271 compressed objects within 3 object streams
  47 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
