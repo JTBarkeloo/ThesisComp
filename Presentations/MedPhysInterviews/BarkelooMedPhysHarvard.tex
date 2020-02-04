@@ -44,8 +44,11 @@
 \includegraphics[width=\textwidth]{../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png}
 \begin{itemize}
 \item 27km ring beneath Franco-Swiss Border
-\item 4 Major Experiments
+
 \item Collides protons at center of mass energy 13TeV
+\begin{itemize}
+\item Proton Therapy Machines around 100MeV (5 orders of magnitude smaller!)
+\end{itemize} %(compared to ~100MeV Proton Therapy Energies)
 \item Over 10 Quadrillion ($10^{15}$) events produced within the ATLAS detector so far
 \end{itemize}
 }
@@ -61,9 +64,10 @@
 \begin{column}{0.5\textwidth}
 \begin{itemize}
 \item LHC Provides around 600 million interactions/second
-\item Save compelling events
+\item Save compelling events $\rightarrow$ 10s of PB/year
 \item Extremely large, messy data sets
-\item Detector well modeled for Monte Carlo event generation
+\item Detector well modeled with \textsc{Geant4} 
+\item Monte Carlo techniques used for background event generation
 \end{itemize}
 \end{column}
 \end{columns}
@@ -74,12 +78,12 @@
 \subsection{The Standard Model of Particle Physics}
 \frame{\frametitle{The Standard Model of Particle Physics}
 \centering
-\includegraphics[width=.55\textwidth]{../../Thesis/ThesisImages/SMParticles.png}
+\includegraphics[width=.55\textwidth]{Images/SMParticles.png}
 \begin{itemize}
-\item Our current theory that attempts to explain everything
+\item Our current best theory that attempts to explain the building blocks of nature
 	\begin{itemize}
 	\item Experimentally precise and well behaved
-	\item Very few exceptions (i.e. Neutrino Mass, Dark Matter Abundance)
+	\item Very few exceptions (i.e. Dark Matter Abundance)
 	\end{itemize}
 	\vspace{\baselineskip}
 \end{itemize}
@@ -96,14 +100,14 @@
 \begin{itemize}
 \item Allows study of single quark decay
 \end{itemize}
-\item Top decays to bW essentially 100\% of the time
+\item Top decays to bW 100\% of the time
 \item Expect $\approx 10^8$ top pair events
 \end{itemize}
-\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/Theory/SMTopDecays.png}
+\includegraphics[width=\textwidth]{Images/SMTopDecays.png}
 \end{column}
 \begin{column}{0.5\textwidth}
 \centering
-\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/Theory/AllFCNCLimits.png}
+\includegraphics[width=\textwidth]{Images/AllFCNCLimits.png}
 \end{column}
 \end{columns}
 }
@@ -123,47 +127,50 @@
 \frame{\frametitle{Neural Network Outputs}
 \centering
 \includegraphics[width=.5\textwidth]{Images/PreSel_NNejet.png}\\
-%\begin{columns}
-%\begin{column}{0.5\textwidth}
-%\centering
-%\includegraphics[width=\textwidth]{../GroupMeetingJan1620/Images/PreSel_NNejet.png}
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\centering
-%\includegraphics[width=\textwidth]{../GroupMeetingJan1620/Images/PreSel_NNmujet.png}
-%\end{column}
-%\end{columns}
-Monte Carlo isnt perfect - Use data driven backgrounds to compensate!
+\begin{itemize}
+\item Excellent signal/background separation achieved
+\end{itemize}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results and Conclusions}
 
+\subsection{Data Driven Backgrounds}
+\frame{\frametitle{Data Driven Backgrounds}
+\begin{itemize}
+\item Various physics processes are known to be difficult to model, especially at the high energies and interaction rates of the LHC
+\end{itemize}
+\begin{columns}
+
+\begin{column}{0.5\textwidth}
+Before Scaling
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png} 
+\end{column}
+\begin{column}{0.5\textwidth}
+After Scaling
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png}
+\end{column}
+\end{columns}
+}
+
 \subsection{Work In Progress - Results}
 \frame{\frametitle{Work In Progress - Results}
-Regions to check background modeling behavior compared with data while not unblinding the signal region are used
+\begin{itemize}
+\item Regions to check background modeling behavior compared with data while not unblinding the signal region are used
+\end{itemize}
 \begin{columns}
 \begin{column}{0.35\textwidth}
-\begin{itemize}
-\item Background Enriched Region 1
-\end{itemize}
 \includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/VR1_mqph.png} \\
 \end{column}
 \begin{column}{0.35\textwidth}
-\begin{itemize}
-\item Background Enriched Region 2
-\end{itemize}
 \includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/VR2_mqph.png} \\
 \end{column}
 \begin{column}{0.33\textwidth}
-\begin{itemize}
-\item Signal Enriched Region
-\end{itemize}
-\includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/SR_mqph.png}
+\includegraphics[width=\textwidth]{Images/FCNC_All_ejetsPreSelFitFactors/Plots/PreSel_NNejet.png}\\
 \end{column}
 \end{columns}
-Statistics only limit BR($t\rightarrow q \gamma) \leq 4 \times 10^{-5}$
 }
+
 
 
 
@@ -172,7 +179,8 @@ Statistics only limit BR($t\rightarrow q \gamma) \leq 4 \times 10^{-5}$
 \item I have created model independent signal samples to search for new physics with flavor changing neutral current decays in top pair events
 \item Developed and implemented a neural network for signal classification
 \item Currently working to ensure well modeled backgrounds and account for systematic errors
-\item After unblinding if I find any excess in signal data events it is a strong indication of physics beyond the Standard Model
+\item Any excess in signal data events it is a strong indication of physics beyond the Standard Model
+\item Expected statistics only limit BR($t\rightarrow q \gamma) \leq 4 \times 10^{-5}$
 \end{itemize}
 \centering
 \includegraphics[width=.5\textwidth]{../../Thesis/ThesisImages/ttbarevent.jpg}
@@ -185,7 +193,7 @@ Statistics only limit BR($t\rightarrow q \gamma) \leq 4 \times 10^{-5}$
 \appendix
 %\label{supplemental}
 \section{Backup}
-
+\subsection{Backup/Other Materials}
 \frame{\frametitle{Backup}
 \label{supplemental}
 }
@@ -212,23 +220,8 @@ Statistics only limit BR($t\rightarrow q \gamma) \leq 4 \times 10^{-5}$
 \centering
 \includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/penguinFCNC.png}
 }
-\subsection{Data Driven Backgrounds}
-\frame{\frametitle{Data Driven Backgrounds}
-\begin{itemize}
-\item Various physics processes are known to be poorly modeled, especially at the high energies and interaction rates of the LHC
-\end{itemize}
-\begin{columns}
 
-\begin{column}{0.5\textwidth}
-Before Scaling
-\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png} 
-\end{column}
-\begin{column}{0.5\textwidth}
-After Scaling
-\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png}
-\end{column}
-\end{columns}
-}
+
 %\frame{\frametitle{}
 %}
 
@@ -297,6 +290,35 @@ met & 0.47 \\
 \end{column}
 \end{columns}
 }
+
+
+\frame{\frametitle{ILC ECAL1}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=.9\textwidth]{Images/ILCECal.png} \\
+\includegraphics[width=1.\textwidth]{Images/NNCorrection.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=.9\textwidth]{Images/ResoVEnergy.png} \\
+\includegraphics[width=.9\textwidth]{Images/ERes.png}
+\end{column}
+\end{columns}
+}
+
+
+\frame{\frametitle{ILC ECAL2}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=.8\textwidth]{Images/EngDraw.png} \\
+\includegraphics[width=.8\textwidth]{Images/SimulatedData.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Images/DataRun.png} \\
+\includegraphics[width=\textwidth]{Images/Data.png}
+\end{column}
+\end{columns}
+}
+
 %
 %	\frame{\frametitle{Input Variables}
 %	['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam','deltaRbl',\\

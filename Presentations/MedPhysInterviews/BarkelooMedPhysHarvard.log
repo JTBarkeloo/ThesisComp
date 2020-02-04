@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  31 JAN 2020 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  3 FEB 2020 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1201,12 +1201,12 @@ Package caption Info: End \AtBeginDocument code.
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 21.
 
-<../ATLAS-Logo-Ref-RGB.png, id=61, 583.7007pt x 307.1475pt>
+<../ATLAS-Logo-Ref-RGB.png, id=65, 583.7007pt x 307.1475pt>
 File: ../ATLAS-Logo-Ref-RGB.png Graphic file (type png)
 <use ../ATLAS-Logo-Ref-RGB.png>
 Package pdftex.def Info: ../ATLAS-Logo-Ref-RGB.png  used on input line 34.
 (pdftex.def)             Requested size: 113.81102pt x 59.88649pt.
-<../uo_logo_green_on_white_2.jpg, id=62, 803.0pt x 451.6875pt>
+<../uo_logo_green_on_white_2.jpg, id=66, 803.0pt x 451.6875pt>
 File: ../uo_logo_green_on_white_2.jpg Graphic file (type jpg)
 <use ../uo_logo_green_on_white_2.jpg>
 Package pdftex.def Info: ../uo_logo_green_on_white_2.jpg  used on input line 34
@@ -1223,26 +1223,26 @@ Overfull \hbox (0.79945pt too wide) in paragraph at lines 34--34
 (./BarkelooMedPhysHarvard.toc) [2
 
 ]
-<../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png, id=102, 1413.02907p
+<../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png, id=108, 1413.02907p
 t x 490.83376pt>
 File: ../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png Graphic file (t
 ype png)
 <use ../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.
-png  used on input line 51.
+png  used on input line 54.
 (pdftex.def)             Requested size: 307.28987pt x 106.7405pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 51.
+line 54.
 
 (c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1251,164 +1251,75 @@ thkerncmss.
 [3
 
  <../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png>]
-<../../Thesis/ThesisImages/LHCImages/2012_highPileup.png, id=117, 1027.84pt x 1
+<../../Thesis/ThesisImages/LHCImages/2012_highPileup.png, id=124, 1027.84pt x 1
 027.84pt>
 File: ../../Thesis/ThesisImages/LHCImages/2012_highPileup.png Graphic file (typ
 e png)
 <use ../../Thesis/ThesisImages/LHCImages/2012_highPileup.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/2012_highPileup.pn
-g  used on input line 72.
+g  used on input line 76.
 (pdftex.def)             Requested size: 153.64493pt x 153.63611pt.
- [4
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 76.
+
+[4
 
  <../../Thesis/ThesisImages/LHCImages/2012_highPileup.png>]
-<../../Thesis/ThesisImages/SMParticles.png, id=131, 1027.84pt x 983.675pt>
-File: ../../Thesis/ThesisImages/SMParticles.png Graphic file (type png)
-<use ../../Thesis/ThesisImages/SMParticles.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/SMParticles.png  used on inp
-ut line 86.
+<Images/SMParticles.png, id=140, 770.88pt x 737.75626pt>
+File: Images/SMParticles.png Graphic file (type png)
+<use Images/SMParticles.png>
+Package pdftex.def Info: Images/SMParticles.png  used on input line 90.
 (pdftex.def)             Requested size: 169.01036pt x 161.74402pt.
- [5
 
- <../../Thesis/ThesisImages/SMParticles.png>]
-<../../Thesis/ThesisImages/Theory/SMTopDecays.png, id=145, 969.6225pt x 374.900
-62pt>
-File: ../../Thesis/ThesisImages/Theory/SMTopDecays.png Graphic file (type png)
-<use ../../Thesis/ThesisImages/Theory/SMTopDecays.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/SMTopDecays.png  used
- on input line 109.
+Overfull \vbox (3.84436pt too high) detected at line 90
+ []
+
+[5
+
+ <./Images/SMParticles.png>]
+<Images/SMTopDecays.png, id=153, 969.6225pt x 374.90062pt>
+File: Images/SMTopDecays.png Graphic file (type png)
+<use Images/SMTopDecays.png>
+Package pdftex.def Info: Images/SMTopDecays.png  used on input line 113.
 (pdftex.def)             Requested size: 153.64493pt x 59.40182pt.
-<../../Thesis/ThesisImages/Theory/AllFCNCLimits.png, id=146, 1987.425pt x 1777.
-64125pt>
-File: ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png Graphic file (type png
-)
-<use ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png  us
-ed on input line 109.
-(pdftex.def)             Requested size: 153.64493pt x 137.41315pt.
+<Images/AllFCNCLimits.png, id=154, 1490.56876pt x 1333.23094pt>
+File: Images/AllFCNCLimits.png Graphic file (type png)
+<use Images/AllFCNCLimits.png>
+Package pdftex.def Info: Images/AllFCNCLimits.png  used on input line 113.
+(pdftex.def)             Requested size: 153.64493pt x 137.41994pt.
  [6
 
- <../../Thesis/ThesisImages/Theory/SMTopDecays.png> <../../Thesis/ThesisImages/
-Theory/AllFCNCLimits.png>]
-<Images/neural_net2.jpeg, id=162, 793.96625pt x 389.455pt>
+ <./Images/SMTopDecays.png> <./Images/AllFCNCLimits.png>]
+<Images/neural_net2.jpeg, id=170, 793.96625pt x 389.455pt>
 File: Images/neural_net2.jpeg Graphic file (type jpg)
 <use Images/neural_net2.jpeg>
-Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 121.
+Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 125.
 (pdftex.def)             Requested size: 215.10196pt x 105.5108pt.
  [7
 
  <./Images/neural_net2.jpeg>]
-<Images/PreSel_NNejet.png, id=178, 598.235pt x 674.52pt>
+<Images/PreSel_NNejet.png, id=185, 598.235pt x 674.52pt>
 File: Images/PreSel_NNejet.png Graphic file (type png)
 <use Images/PreSel_NNejet.png>
-Package pdftex.def Info: Images/PreSel_NNejet.png  used on input line 137.
+Package pdftex.def Info: Images/PreSel_NNejet.png  used on input line 133.
 (pdftex.def)             Requested size: 153.64493pt x 173.24054pt.
-
-[8
+ [8
 
  <./Images/PreSel_NNejet.png>]
-<Images/SystwoSyst/Plots/VR1_mqph.png, id=192, 598.235pt x 674.52pt>
-File: Images/SystwoSyst/Plots/VR1_mqph.png Graphic file (type png)
-<use Images/SystwoSyst/Plots/VR1_mqph.png>
-Package pdftex.def Info: Images/SystwoSyst/Plots/VR1_mqph.png  used on input li
-ne 166.
-(pdftex.def)             Requested size: 102.17532pt x 115.20207pt.
-<Images/SystwoSyst/Plots/VR2_mqph.png, id=193, 598.235pt x 674.52pt>
-File: Images/SystwoSyst/Plots/VR2_mqph.png Graphic file (type png)
-<use Images/SystwoSyst/Plots/VR2_mqph.png>
-Package pdftex.def Info: Images/SystwoSyst/Plots/VR2_mqph.png  used on input li
-ne 166.
-(pdftex.def)             Requested size: 102.17532pt x 115.20207pt.
-<Images/SystwoSyst/Plots/SR_mqph.png, id=194, 598.235pt x 674.52pt>
-File: Images/SystwoSyst/Plots/SR_mqph.png Graphic file (type png)
-<use Images/SystwoSyst/Plots/SR_mqph.png>
-Package pdftex.def Info: Images/SystwoSyst/Plots/SR_mqph.png  used on input lin
-e 166.
-(pdftex.def)             Requested size: 96.33559pt x 108.61499pt.
- [9
-
- <./Images/SystwoSyst/Plots/VR1_mqph.png> <./Images/SystwoSyst/Plots/VR2_mqph.p
-ng> <./Images/SystwoSyst/Plots/SR_mqph.png>]
-<../../Thesis/ThesisImages/ttbarevent.jpg, id=207, 722.7pt x 515.9275pt>
-File: ../../Thesis/ThesisImages/ttbarevent.jpg Graphic file (type jpg)
-<use ../../Thesis/ThesisImages/ttbarevent.jpg>
-Package pdftex.def Info: ../../Thesis/ThesisImages/ttbarevent.jpg  used on inpu
-t line 179.
-(pdftex.def)             Requested size: 153.64493pt x 109.68628pt.
-[10
-
- <../../Thesis/ThesisImages/ttbarevent.jpg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 185.
-
-[11
-
-]
-<../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg, id=228, 903.375
-pt x 732.7375pt>
-File: ../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg Graphic fil
-e (type jpg)
-<use ../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg>
-Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/ParticleInteracti
-ons.jpg  used on input line 198.
-(pdftex.def)             Requested size: 245.83282pt x 199.39587pt.
- [12
-
- <../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg>]
-<../../Thesis/ThesisImages/LHCImages/atlasdet.jpg, id=238, 802.6788pt x 561.778
-8pt>
-File: ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg Graphic file (type jpg)
-<use ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg>
-Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg  used
- on input line 203.
-(pdftex.def)             Requested size: 276.559pt x 193.55673pt.
-
-[13
-
- <../../Thesis/ThesisImages/LHCImages/atlasdet.jpg>]
-<../../Thesis/ThesisImages/LHCImages/ATLASLumi.png, id=249, 798.985pt x 574.145
-pt>
-File: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
-
-<use ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png  use
-d on input line 209.
-(pdftex.def)             Requested size: 150.57372pt x 108.19508pt.
-<../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png, id=250, 798.985pt 
-x 574.145pt>
-File: ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (
-type png)
-<use ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing
-.png  used on input line 209.
-(pdftex.def)             Requested size: 150.57372pt x 108.19508pt.
- [14
-
- <../../Thesis/ThesisImages/LHCImages/ATLASLumi.png> <../../Thesis/ThesisImages
-/LHCImages/meanIntperCrossing.png>]
-<../../Thesis/ThesisImages/penguinFCNC.png, id=260, 1020.81375pt x 629.35126pt>
-
-File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
-<use ../../Thesis/ThesisImages/penguinFCNC.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/penguinFCNC.png  used on inp
-ut line 214.
-(pdftex.def)             Requested size: 245.83282pt x 151.55635pt.
- [15
-
- <../../Thesis/ThesisImages/penguinFCNC.png>]
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_SMtop.png, id=270, 598.235pt x 674.52pt>
+mFactor/FCNC_All_ejets/Plots/VR3_SMtop.png, id=199, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCode
 dNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png  used on inp
-ut line 231.
+ut line 154.
 (pdftex.def)             Requested size: 122.9164pt x 138.58626pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png, id=271, 598.235pt x 674.52p
+mFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png, id=200, 598.235pt x 674.52p
 t>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
@@ -1417,16 +1328,157 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png  use
-d on input line 231.
+d on input line 154.
 (pdftex.def)             Requested size: 122.9164pt x 138.58626pt.
- [16
+
+[9
 
  <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNo
 rmFactor/FCNC_All_ejets/Plots/VR3_SMtop.png> <../../Thesis/ThesisImages/RegionP
 lots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_S
-Mtop_postFit.png>] [17
+Mtop_postFit.png>]
+<Images/SystwoSyst/Plots/VR1_mqph.png, id=212, 448.67625pt x 505.89pt>
+File: Images/SystwoSyst/Plots/VR1_mqph.png Graphic file (type png)
+<use Images/SystwoSyst/Plots/VR1_mqph.png>
+Package pdftex.def Info: Images/SystwoSyst/Plots/VR1_mqph.png  used on input li
+ne 172.
+(pdftex.def)             Requested size: 102.17532pt x 115.20207pt.
+<Images/SystwoSyst/Plots/VR2_mqph.png, id=213, 448.67625pt x 505.89pt>
+File: Images/SystwoSyst/Plots/VR2_mqph.png Graphic file (type png)
+<use Images/SystwoSyst/Plots/VR2_mqph.png>
+Package pdftex.def Info: Images/SystwoSyst/Plots/VR2_mqph.png  used on input li
+ne 172.
+(pdftex.def)             Requested size: 102.17532pt x 115.20207pt.
+<Images/FCNC_All_ejetsPreSelFitFactors/Plots/PreSel_NNejet.png, id=214, 448.676
+25pt x 505.89pt>
+File: Images/FCNC_All_ejetsPreSelFitFactors/Plots/PreSel_NNejet.png Graphic fil
+e (type png)
+<use Images/FCNC_All_ejetsPreSelFitFactors/Plots/PreSel_NNejet.png>
+Package pdftex.def Info: Images/FCNC_All_ejetsPreSelFitFactors/Plots/PreSel_NNe
+jet.png  used on input line 172.
+(pdftex.def)             Requested size: 101.40622pt x 114.33752pt.
+ [10
+
+ <./Images/SystwoSyst/Plots/VR1_mqph.png> <./Images/SystwoSyst/Plots/VR2_mqph.p
+ng> <./Images/FCNC_All_ejetsPreSelFitFactors/Plots/PreSel_NNejet.png>]
+<../../Thesis/ThesisImages/ttbarevent.jpg, id=229, 722.7pt x 515.9275pt>
+File: ../../Thesis/ThesisImages/ttbarevent.jpg Graphic file (type jpg)
+<use ../../Thesis/ThesisImages/ttbarevent.jpg>
+Package pdftex.def Info: ../../Thesis/ThesisImages/ttbarevent.jpg  used on inpu
+t line 187.
+(pdftex.def)             Requested size: 153.64493pt x 109.68628pt.
+ [11
+
+ <../../Thesis/ThesisImages/ttbarevent.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\translate ' on input line 193.
+
+[12
 
 ]
+<../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg, id=252, 903.375
+pt x 732.7375pt>
+File: ../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg Graphic fil
+e (type jpg)
+<use ../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/ParticleInteracti
+ons.jpg  used on input line 206.
+(pdftex.def)             Requested size: 245.83282pt x 199.39587pt.
+ [13
+
+ <../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg>]
+<../../Thesis/ThesisImages/LHCImages/atlasdet.jpg, id=263, 802.6788pt x 561.778
+8pt>
+File: ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg Graphic file (type jpg)
+<use ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg>
+Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg  used
+ on input line 211.
+(pdftex.def)             Requested size: 276.559pt x 193.55673pt.
+
+[14
+
+ <../../Thesis/ThesisImages/LHCImages/atlasdet.jpg>]
+<../../Thesis/ThesisImages/LHCImages/ATLASLumi.png, id=273, 798.985pt x 574.145
+pt>
+File: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
+
+<use ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png  use
+d on input line 217.
+(pdftex.def)             Requested size: 150.57372pt x 108.19508pt.
+<../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png, id=274, 798.985pt 
+x 574.145pt>
+File: ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (
+type png)
+<use ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing
+.png  used on input line 217.
+(pdftex.def)             Requested size: 150.57372pt x 108.19508pt.
+ [15
+
+ <../../Thesis/ThesisImages/LHCImages/ATLASLumi.png> <../../Thesis/ThesisImages
+/LHCImages/meanIntperCrossing.png>]
+<../../Thesis/ThesisImages/penguinFCNC.png, id=284, 1020.81375pt x 629.35126pt>
+
+File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/penguinFCNC.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/penguinFCNC.png  used on inp
+ut line 222.
+(pdftex.def)             Requested size: 245.83282pt x 151.55635pt.
+ [16
+
+ <../../Thesis/ThesisImages/penguinFCNC.png>] [17
+
+]
+<Images/ILCECal.png, id=306, 469.755pt x 264.23718pt>
+File: Images/ILCECal.png Graphic file (type png)
+<use Images/ILCECal.png>
+Package pdftex.def Info: Images/ILCECal.png  used on input line 306.
+(pdftex.def)             Requested size: 138.2795pt x 77.77994pt.
+<Images/NNCorrection.png, id=307, 807.015pt x 324.46219pt>
+File: Images/NNCorrection.png Graphic file (type png)
+<use Images/NNCorrection.png>
+Package pdftex.def Info: Images/NNCorrection.png  used on input line 306.
+(pdftex.def)             Requested size: 153.64493pt x 61.77222pt.
+<Images/ResoVEnergy.png, id=308, 813.79031pt x 512.66531pt>
+File: Images/ResoVEnergy.png Graphic file (type png)
+<use Images/ResoVEnergy.png>
+Package pdftex.def Info: Images/ResoVEnergy.png  used on input line 306.
+(pdftex.def)             Requested size: 138.2795pt x 87.11282pt.
+<Images/ERes.png, id=309, 1054.6903pt x 665.48625pt>
+File: Images/ERes.png Graphic file (type png)
+<use Images/ERes.png>
+Package pdftex.def Info: Images/ERes.png  used on input line 306.
+(pdftex.def)             Requested size: 138.2795pt x 87.24736pt.
+ [18
+
+ <./Images/ILCECal.PNG> <./Images/NNCorrection.PNG> <./Images/ResoVEnergy.PNG> 
+<./Images/ERes.PNG>]
+<Images/EngDraw.png, id=323, 1131.47719pt x 627.09282pt>
+File: Images/EngDraw.png Graphic file (type png)
+<use Images/EngDraw.png>
+Package pdftex.def Info: Images/EngDraw.png  used on input line 320.
+(pdftex.def)             Requested size: 122.9164pt x 68.11923pt.
+<Images/SimulatedData.png, id=324, 599.23875pt x 566.115pt>
+File: Images/SimulatedData.png Graphic file (type png)
+<use Images/SimulatedData.png>
+Package pdftex.def Info: Images/SimulatedData.png  used on input line 320.
+(pdftex.def)             Requested size: 122.9164pt x 116.11479pt.
+<Images/DataRun.png, id=325, 823.57687pt x 513.41812pt>
+File: Images/DataRun.png Graphic file (type png)
+<use Images/DataRun.png>
+Package pdftex.def Info: Images/DataRun.png  used on input line 320.
+(pdftex.def)             Requested size: 153.64493pt x 95.77994pt.
+<Images/Data.png, id=326, 676.02562pt x 440.39531pt>
+File: Images/Data.png Graphic file (type png)
+<use Images/Data.png>
+Package pdftex.def Info: Images/Data.png  used on input line 320.
+(pdftex.def)             Requested size: 153.64493pt x 100.09264pt.
+ [19
+
+ <./Images/EngDraw.PNG> <./Images/SimulatedData.PNG> <./Images/DataRun.PNG> <./
+Images/Data.PNG>]
 \tf@nav=\write6
 \openout6 = `BarkelooMedPhysHarvard.nav'.
 
@@ -1436,37 +1488,38 @@ Mtop_postFit.png>] [17
 \tf@snm=\write8
 \openout8 = `BarkelooMedPhysHarvard.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
  (./BarkelooMedPhysHarvard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
 Package rerunfilecheck Info: File `BarkelooMedPhysHarvard.out' has not changed.
 
-(rerunfilecheck)             Checksum: E166F0BF575A685C8F193C81C7A388D7;740.
+(rerunfilecheck)             Checksum: E34E02521CB03A931031018518B7A5FF;813.
  ) 
 Here is how much of TeX's memory you used:
- 28501 strings out of 492616
- 552803 string characters out of 6132769
- 611609 words of memory out of 5000000
- 31890 multiletter control sequences out of 15000+600000
- 540643 words of font info for 54 fonts, out of 8000000 for 9000
+ 28555 strings out of 492616
+ 553644 string characters out of 6132769
+ 611625 words of memory out of 5000000
+ 31931 multiletter control sequences out of 15000+600000
+ 540944 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,70p,806b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-si8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on BarkelooMedPhysHarvard.pdf (17 pages, 4149068 bytes).
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+si10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on BarkelooMedPhysHarvard.pdf (19 pages, 6683413 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
