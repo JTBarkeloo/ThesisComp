@@ -135,23 +135,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results and Conclusions}
 
-\subsection{Data Driven Backgrounds}
-\frame{\frametitle{Data Driven Backgrounds}
-\begin{itemize}
-\item Various physics processes are known to be difficult to model, especially at the high energies and interaction rates of the LHC
-\end{itemize}
-\begin{columns}
 
-\begin{column}{0.5\textwidth}
-Before Scaling
-\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png} 
-\end{column}
-\begin{column}{0.5\textwidth}
-After Scaling
-\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png}
-\end{column}
-\end{columns}
-}
 
 \subsection{Work In Progress - Results}
 \frame{\frametitle{Work In Progress - Results}
@@ -160,13 +144,13 @@ After Scaling
 \end{itemize}
 \begin{columns}
 \begin{column}{0.35\textwidth}
-\includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/VR1_mqph.png} \\
-\end{column}
-\begin{column}{0.35\textwidth}
 \includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/VR2_mqph.png} \\
 \end{column}
-\begin{column}{0.33\textwidth}
+\begin{column}{0.35\textwidth}
 \includegraphics[width=\textwidth]{Images/FCNC_All_ejetsPreSelFitFactors/Plots/PreSel_NNejet.png}\\
+\end{column}
+\begin{column}{0.33\textwidth}
+\includegraphics[width=.95\textwidth]{Images/SystwoSyst/Plots/SR_mqph.png} \\
 \end{column}
 \end{columns}
 }
@@ -176,9 +160,9 @@ After Scaling
 
 \frame{\frametitle{Conclusions}
 \begin{itemize}
-\item I have created model independent signal samples to search for new physics with flavor changing neutral current decays in top pair events
+\item I have created model independent signal samples to search for flavor changing neutral current decays in top pair events
 \item Developed and implemented a neural network for signal classification
-\item Currently working to ensure well modeled backgrounds and account for systematic errors
+\item Currently working to ensure well modeled backgrounds
 \item Any excess in signal data events it is a strong indication of physics beyond the Standard Model
 \item Expected statistics only limit BR($t\rightarrow q \gamma) \leq 4 \times 10^{-5}$
 \end{itemize}
@@ -214,6 +198,24 @@ After Scaling
 \centering
 \includegraphics[width=.49\textwidth]{../../Thesis/ThesisImages/LHCImages/ATLASLumi.png}
 \includegraphics[width=.49\textwidth]{../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png}
+}
+
+\subsection{Data Driven Backgrounds}
+\frame{\frametitle{Data Driven Backgrounds}
+\begin{itemize}
+\item Various physics processes are known to be difficult to model, especially at the high energies and interaction rates of the LHC
+\end{itemize}
+\begin{columns}
+
+\begin{column}{0.5\textwidth}
+Before Scaling
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png} 
+\end{column}
+\begin{column}{0.5\textwidth}
+After Scaling
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png}
+\end{column}
+\end{columns}
 }
 
 \frame{\frametitle{FCNC Diagrams}
