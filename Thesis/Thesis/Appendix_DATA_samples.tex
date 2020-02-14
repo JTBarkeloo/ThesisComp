@@ -1,0 +1,26 @@
+\chapter{Data Samples}
+
+To assure good data quality a number of basic requirements are set.  Events with bad detector conditions are rejected and not used for the data analysis i.e., where large parts of the detectors are missing from data acquisition due to problems throughout the run, or when the detector performance was affected by large noise burst.  In addition to this incomplete events or events with bad detector information are also rejected.  
+The Good Runs List (GRL) selection is an XML file that selects the well behaved luminosity blocks within larger data runs, each of which span 1-2 minutes of data acquisition.
+\begin{verbatim}
+data15_13TeV/20170619/physics_25ns_21.0.19.xml 
+data16_13TeV/20180129/physics_25ns_21.0.19.xml 
+data17_13TeV/20180619/physics_25ns_Triggerno17e33prim.xml
+data18_13TeV/20190219/physics_25ns_Triggerno17e33prim.xml
+\end{verbatim}
+\begin{table}[h]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{c|c}
+\hline
+ Year & Nominal Luminosity Value ($\text{fb}^{-1}$) \\ \hline 2015 & 3.220  \\
+2016 & 32.99 \\
+2017 & 44.31 \\
+2018 & 58.45 \\ \hline
+\end{tabular}
+\caption{Luminosity by year for LHC Run-2 }
+}
+\end{center}
+\end{table}
+
+Pileup-Reweighting files are also used to mimic the pile-up distribution measured in these data runs when running over MC samples.  To do this two files are used: one which contains information about the average pileup ($\mu$) distribution in MC and one containing information about the average $\mu$ distribution in data, generated from the GRL xml file.  The pile-up reweighting values are then calulated based on the difference in these two files.
