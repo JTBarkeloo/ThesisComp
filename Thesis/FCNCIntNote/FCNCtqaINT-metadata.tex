@@ -1,0 +1,62 @@
+%-------------------------------------------------------------------------------
+% This file contains the title, author and abstract.
+% It also contains all relevant document numbers used for an ATLAS note.
+%-------------------------------------------------------------------------------
+
+% Title
+\AtlasTitle{Search for flavour-changing neutral currents in top pair events with an associated photon using $\sqrt{s}=13$ TeV with the ATLAS detector}
+
+% Draft version:
+% Should be 1.0 for the first circulation, and 2.0 for the second circulation.
+% If given, adds draft version on front page, a 'DRAFT' box on top of each other page, 
+% and line numbers.
+% Comment or remove in final version.
+\AtlasVersion{0.1}
+
+% Abstract - % directly after { is important for correct indentation
+\AtlasAbstract{%
+This note presents the search for flavour-changing neutral currents in processes with top pairs where one top decays through the flavour-changing neutral current decay mode (to an up type quark and a photon) and the other decays through the most common standard model mode to a b-quark and a W boson.  The W boson then decays leptonically defining the channels searched (electron+jets and muon+jets).  Using the entire Run-2 data set of $\sqrt{s} = 13$ TeV data collected using the ATLAS experiment between 2015 and 2018 corresponding to a total integrated luminosity of 139  fb$^{-1}$.  A neural network was developed to separate signal and background events using both low level kinematic variables and high level variable combinations as inputs.  The signal events contain an isolated very high $p_T$ photon, a lepton, a b-tagged jet, another light jet, and missing transverse energy.  Various data driven techniques were used to estimate contributions to the background from events with a hard scatter photon or a photon faked by either a jet or an electron.  As there is no sensitivity for observation an upper limit on the branching ratio of this process is set for each channel and a combination of the channels.
+}
+
+% Author - this does not work with revtex (add it after \begin{document})
+%\author{Jason Barkeloo}
+
+% Authors and list of contributors to the analysis
+% \AtlasAuthorContributor also adds the name to the author list
+% Include package latex/atlascontribute to use this
+% Use authblk package if there are multiple authors, which is included by latex/atlascontribute
+ \usepackage{authblk}
+% Use the following 3 lines to have all institutes on one line
+ \makeatletter
+ \renewcommand\AB@affilsepx{, \protect\Affilfont}
+ \makeatother
+ \renewcommand\Authands{, } % avoid ``. and'' for last author
+ \renewcommand\Affilfont{\itshape\small} % affiliation formatting
+ \AtlasAuthorContributor{Jason Barkeloo}{a}{All Aspects of Analysis and Note}
+ \AtlasAuthorContributor{Jim Brau}{a}{Supervisor to Jason Barkeloo}
+% \AtlasAuthorContributor{Third AtlasAuthorContributor}{a}{Author's contribution.}
+% \AtlasContributor{Fourth AtlasContributor}{Contribution to the analysis.}
+% \author[a]{Jason Barkeloo}
+%% \author[a]{Second Author}
+% \author[b]{Third Author}
+ \affil[a]{University of Oregon}
+%% \affil[b]{Another Institution}
+
+% If a special author list should be indicated via a link use the following code:
+% Include the two lines below if you do not use atlasstyle:
+% \usepackage[marginal,hang]{footmisc}
+% \setlength{\footnotemargin}{0.5em}
+% Use the following lines in all cases:
+% \usepackage{authblk}
+% \author{The ATLAS Collaboration%
+% \thanks{The full author list can be found at:\newline
+%   \url{https://atlas.web.cern.ch/Atlas/PUBNOTES/ATL-PHYS-PUB-2017-007/authorlist.pdf}}
+% }
+
+% ATLAS reference code, to help ATLAS members to locate the paper
+\AtlasRefCode{GROUP-2017-XX}
+
+% ATLAS note number. Can be an COM, INT, PUB or CONF note
+% \AtlasNote{ATLAS-CONF-2017-XXX}
+% \AtlasNote{ATL-PHYS-PUB-2017-XXX}
+\AtlasNote{ATL-COM-PHYS-2020-XXX}
