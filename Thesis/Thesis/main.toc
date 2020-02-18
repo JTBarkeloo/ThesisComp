@@ -85,14 +85,15 @@
 \contentsline {section}{ \numberline {6.4} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{160}{section.6.4}% 
 \contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{161}{section.6.4}% 
 \contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{161}{section.7.1}% 
-\contentsline {section}{ \numberline {7.2} Future Directions}{161}{section.7.2}% 
-\contentsline {section}{ \numberline {7.3} Conclusion}{161}{section.7.3}% 
+\contentsline {section}{ \numberline {7.2} Future Directions}{162}{section.7.2}% 
+\contentsline {section}{ \numberline {7.3} Conclusion}{162}{section.7.3}% 
  \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
-\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{162}{section.7.3}% 
-\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{163}{table.caption.106}% 
-\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Additional Plots from NN Studies}}{168}{table.caption.111}% 
-\contentsline {section}{ \numberline {C.1} Additional Shape Comparison Plots: $\mu $+jets channel}{168}{section.C.1}% 
-\contentsline {section}{ \numberline {C.2} Shape Comparison Plots: $e$+jets channel}{171}{section.C.2}% 
-\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{176}{figure.caption.118}% 
-\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Pull Plots}}{180}{figure.caption.121}% 
-\contentsline {chapter}{REFERENCES CITED}{181}{figure.caption.121}% 
+\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{164}{section.7.3}% 
+\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{165}{table.caption.106}% 
+\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Data Samples}}{170}{table.caption.111}% 
+\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Additional Plots from NN Studies}}{172}{table.caption.112}% 
+\contentsline {section}{ \numberline {D.1} Additional Shape Comparison Plots: $\mu $+jets channel}{172}{section.D.1}% 
+\contentsline {section}{ \numberline {D.2} Shape Comparison Plots: $e$+jets channel}{175}{section.D.2}% 
+\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{180}{figure.caption.119}% 
+\contentsline {chapter}{\number@appendix {6}{F} \uppercase {Systematic Pull Plots}}{184}{figure.caption.122}% 
+\contentsline {chapter}{REFERENCES CITED}{185}{figure.caption.122}% 
