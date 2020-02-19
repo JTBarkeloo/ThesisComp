@@ -1,0 +1,235 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{SM1Glashow}
+S.~L. Glashow, {\em {Partial Symmetries of Weak Interactions}},
+\href{http://dx.doi.org/10.1016/0029-5582(61)90469-2}{Nucl. Phys. {\bfseries
+  22} (1961) 579--588}.
+%%CITATION = NUPHA,22,579;%%.
+
+\bibitem{Higgs1}
+P.~W. Higgs, {\em {Broken Symmetries and the Masses of Gauge Bosons}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{Phys. Rev. Lett.
+  {\bfseries 13} (1964) 508--509},
+[,160(1964)].
+%%CITATION = PRLTA,13,508;%%.
+
+\bibitem{Higgs2}
+F.~Englert and R.~Brout, {\em {Broken Symmetry and the Mass of Gauge Vector
+  Mesons}}, \href{http://dx.doi.org/10.1103/PhysRevLett.13.321}{Phys. Rev.
+  Lett. {\bfseries 13} (1964) 321--323},
+[,157(1964)].
+%%CITATION = PRLTA,13,321;%%.
+
+\bibitem{SM2Weinberg}
+S.~Weinberg, {\em {A Model of Leptons}},
+\href{http://dx.doi.org/10.1103/PhysRevLett.19.1264}{Phys. Rev. Lett.
+  {\bfseries 19} (1967) 1264--1266}.
+%%CITATION = PRLTA,19,1264;%%.
+
+\bibitem{SM3Salam}
+A.~Salam, {\em {Weak and Electromagnetic Interactions}},
+Conf. Proc. {\bfseries C680519} (1968) 367--377.
+%%CITATION = CONFP,C680519,367;%%.
+
+\bibitem{Higgs3}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}}, \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys. Lett.
+  {\bfseries B716} (2012) 1--29},
+\href{http://arxiv.org/abs/1207.7214}{{\ttfamily arXiv:1207.7214 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7214;%%.
+
+\bibitem{Higgs4}
+{CMS} Collaboration, S.~Chatrchyan {et~al.}, {\em {Observation of a new boson
+  at a mass of 125 GeV with the CMS experiment at the LHC}},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{Phys. Lett.
+  {\bfseries B716} (2012) 30--61},
+\href{http://arxiv.org/abs/1207.7235}{{\ttfamily arXiv:1207.7235 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{TopObs}
+{CDF} Collaboration, F.~Abe {et~al.}, {\em {Observation of top quark production
+  in $\bar{p}p$ collisions}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.74.2626}{Phys. Rev. Lett.
+  {\bfseries 74} (1995) 2626--2631},
+\href{http://arxiv.org/abs/hep-ex/9503002}{{\ttfamily arXiv:hep-ex/9503002
+  [hep-ex]}}.
+%%CITATION = HEP-EX/9503002;%%.
+
+\bibitem{TopMass2017}
+{ATLAS} Collaboration, T.~A. collaboration,
+{\em {Measurement of the top quark mass in the $t\bar{t}\rightarrow$
+  lepton+jets channel from $\sqrt{s}$=8 TeV ATLAS data}},.
+%%CITATION = ATLAS-CONF-2017-071;%%.
+
+\bibitem{PDG2018}
+{Particle Data Group} Collaboration, M.~Tanabashi {et~al.}, {\em {Review of
+  Particle Physics}},
+\href{http://dx.doi.org/10.1103/PhysRevD.98.030001}{Phys. Rev. {\bfseries D98}
+  (2018) 030001}.
+%%CITATION = PHRVA,D98,030001;%%.
+
+\bibitem{MSSM}
+J.~J. Cao, G.~Eilam, M.~Frank, K.~Hikasa, G.~L. Liu, I.~Turan,  and J.~M. Yang,
+  {\em {SUSY-induced FCNC top-quark processes at the large hadron collider}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.75.075021}{Phys. Rev. {\bfseries
+  D75} (2007) 075021},
+\href{http://arxiv.org/abs/hep-ph/0702264}{{\ttfamily arXiv:hep-ph/0702264
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0702264;%%.
+
+\bibitem{RPVSUSY}
+J.~Cao, Z.~Heng, L.~Wu,  and J.~M. Yang, {\em {R-parity violating effects in
+  top quark FCNC productions at LHC}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.79.054003}{Phys. Rev. {\bfseries
+  D79} (2009) 054003},
+\href{http://arxiv.org/abs/0812.1698}{{\ttfamily arXiv:0812.1698 [hep-ph]}}.
+%%CITATION = ARXIV:0812.1698;%%.
+
+\bibitem{2HDM}
+G.~Eilam, J.~L. Hewett,  and A.~Soni, {\em {Rare decays of the top quark in the
+  standard and two Higgs doublet models}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.44.1473,
+  10.1103/PhysRevD.59.039901}{Phys. Rev. {\bfseries D44} (1991) 1473--1484},
+[Erratum: Phys. Rev.D59,039901(1999)].
+%%CITATION = PHRVA,D44,1473;%%.
+
+\bibitem{ParticleInteractions}
+J.~Pequenao, {\em {Event Cross Section in a computer generated image of the
+  ATLAS detector.}}, Mar, 2008.
+
+\bibitem{ElectronID}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Electron reconstruction and
+  identification in the ATLAS experiment using the 2015 and 2016 LHC
+  proton-proton collision data at $\sqrt{s}$ = 13 TeV}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-019-7140-6}{Eur. Phys. J.
+  {\bfseries C79} (2019) 639},
+\href{http://arxiv.org/abs/1902.04655}{{\ttfamily arXiv:1902.04655
+  [physics.ins-det]}}.
+%%CITATION = ARXIV:1902.04655;%%.
+
+\bibitem{ElectronCalib1}
+{\em {Electron and photon energy calibration with the ATLAS detector using LHC
+  Run 1 data}}, \href{http://dx.doi.org/10.1140/epjc/s10052-014-3071-4}{Eur.
+  Phys. J. {\bfseries C74} (2014) 3071},
+  \href{http://arxiv.org/abs/1407.5063}{{\ttfamily arXiv:1407.5063}}.
+
+\bibitem{ElectronCalib2}
+{ATLAS Collaboration}, {\em {Electron and photon energy calibration with the
+  ATLAS detector using data collected in 2015 at $\sqrt{s} = 13 \mathrm{\
+  Te\kern -0.1em V}$}}, Aug, 2016, \url{https://cds.cern.ch/record/2203514}.
+
+\bibitem{MuonID}
+{ATLAS} Collaboration, S.~Rettie, {\em {Muon identification and performance in
+  the ATLAS experiment}},
+\href{http://dx.doi.org/10.22323/1.316.0097}{PoS {\bfseries DIS2018} (2018)
+  097}.
+%%CITATION = POSCI,DIS2018,097;%%.
+
+\bibitem{PhotonID}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Measurement of the photon
+  identification efficiencies with the ATLAS detector using LHC Run 2 data
+  collected in 2015 and 2016}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-019-6650-6}{Eur. Phys. J.
+  {\bfseries C79} (2019) 205},
+\href{http://arxiv.org/abs/1810.05087}{{\ttfamily arXiv:1810.05087 [hep-ex]}}.
+%%CITATION = ARXIV:1810.05087;%%.
+
+\bibitem{antikt}
+M.~Cacciari, G.~P. Salam,  and G.~Soyez, {\em {The anti-$k_t$ jet clustering
+  algorithm}}, \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{JHEP
+  {\bfseries 04} (2008) 063},
+\href{http://arxiv.org/abs/0802.1189}{{\ttfamily arXiv:0802.1189 [hep-ph]}}.
+%%CITATION = ARXIV:0802.1189;%%.
+
+\bibitem{CambridgeAachen}
+M.~Wobisch and T.~Wengler, {\em {Hadronization corrections to jet
+  cross-sections in deep inelastic scattering}}, pp.~,  270--279.
+\newblock 1998.
+\newblock \href{http://arxiv.org/abs/hep-ph/9907280}{{\ttfamily
+  arXiv:hep-ph/9907280 [hep-ph]}}.
+\newblock
+\url{https://inspirehep.net/record/484872/files/arXiv:hep-ph_9907280.pdf}.
+\newblock
+%%CITATION = HEP-PH/9907280;%%.
+
+\bibitem{JetCleaning}
+{\em {Selection of jets produced in 13TeV proton-proton collisions with the
+  ATLAS detector}}, Tech. Rep. ATLAS-CONF-2015-029, CERN, Geneva, Jul, 2015.
+\newblock \url{http://cds.cern.ch/record/2037702}.
+
+\bibitem{JetJVT}
+{ATLAS} Collaboration, T.~A. collaboration,
+{\em {Tagging and suppression of pileup jets}},.
+%%CITATION = ATLAS-CONF-2014-018;%%.
+
+\bibitem{JetCleanTwiki}
+S.~Schramm, {\em HowToCleanJets2016 : Jet-Based Event Cleaning}, 2016.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/HowToCleanJets2016}.
+
+\bibitem{CMSct}
+{CMS} Collaboration, A.~M. Sirunyan {et~al.}, {\em {Measurement of b hadron
+  lifetimes in pp collisions at $\sqrt{s} =$ 8 TeV}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-018-5929-3,
+  10.1140/epjc/s10052-018-6014-7}{Eur. Phys. J. {\bfseries C78} (2018) 457},
+  \href{http://arxiv.org/abs/1710.08949}{{\ttfamily arXiv:1710.08949
+  [hep-ex]}},
+[Erratum: Eur. Phys. J.C78,no.7,561(2018)].
+%%CITATION = ARXIV:1710.08949;%%.
+
+\bibitem{BTagImg}
+N.~Bartosik, {\em File:B-tagging diagram.png}, 2016.
+\newblock \url{https://commons.wikimedia.org/wiki/File:B-tagging_diagram.png}.
+
+\bibitem{BJet1718}
+{ATLAS} Collaboration, F.~A. Di~Bello, {\em {Optimisation of the ATLAS
+  $b$-tagging algorithms for the 2017-2018 LHC data-taking}},
+\href{http://dx.doi.org/10.22323/1.314.0733}{PoS {\bfseries EPS-HEP2017} (2017)
+  733}.
+%%CITATION = POSCI,EPS-HEP2017,733;%%.
+
+\bibitem{BJetMVA}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Measurements of b-jet tagging
+  efficiency with the ATLAS detector using $ t\overline{t} $ events at $
+  \sqrt{s}=13 $ TeV}}, \href{http://dx.doi.org/10.1007/JHEP08(2018)089}{JHEP
+  {\bfseries 08} (2018) 089},
+\href{http://arxiv.org/abs/1805.01845}{{\ttfamily arXiv:1805.01845 [hep-ex]}}.
+%%CITATION = ARXIV:1805.01845;%%.
+
+\bibitem{METreco}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Performance of missing
+  transverse momentum reconstruction with the ATLAS detector using
+  proton-proton collisions at $\sqrt{s}$ = 13 TeV}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-018-6288-9}{Eur. Phys. J.
+  {\bfseries C78} (2018) 903},
+\href{http://arxiv.org/abs/1802.08168}{{\ttfamily arXiv:1802.08168 [hep-ex]}}.
+%%CITATION = ARXIV:1802.08168;%%.
+
+\bibitem{Keras}
+F.~C. et~al., {\em Keras: The Python Deep Learning Library}, 2019.
+\newblock \url{https://keras.io}.
+
+\bibitem{TensorFlow}
+M.~Abadi {et~al.}, {\em {TensorFlow: Large-Scale Machine Learning on
+  Heterogeneous Distributed Systems}},
+\href{http://arxiv.org/abs/1603.04467}{{\ttfamily arXiv:1603.04467 [cs.DC]}}.
+%%CITATION = ARXIV:1603.04467;%%.
+
+\bibitem{AdamOpt}
+D.~P. Kingma and J.~Ba, {\em {Adam: A Method for Stochastic Optimization}},
+\href{http://arxiv.org/abs/1412.6980}{{\ttfamily arXiv:1412.6980 [cs.LG]}}.
+%%CITATION = ARXIV:1412.6980;%%.
+
+\bibitem{NNImage}
+A.~Karpathy, {\em CS231n Convolutional Neural Networks for Visual Recognition},
+  2015.
+\newblock \url{http://cs231n.github.io/neural-networks-1/}.
+
+\bibitem{ScikitLearn}
+F.~Pedregosa {et~al.}, {\em {Scikit-learn: Machine Learning in Python}}, J.
+  Machine Learning Res. {\bfseries 12} (2011) 2825--2830,
+\href{http://arxiv.org/abs/1201.0490}{{\ttfamily arXiv:1201.0490 [cs.LG]}}.
+%%CITATION = ARXIV:1201.0490;%%.
+
+\end{thebibliography}\endgroup

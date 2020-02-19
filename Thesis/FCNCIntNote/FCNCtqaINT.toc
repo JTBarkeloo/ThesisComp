@@ -1,0 +1,37 @@
+\babel@toc {UKenglish}{}
+\contentsline {section}{\numberline {1}Change Log}{4}{section.1}% 
+\contentsline {section}{\numberline {2}Introduction}{5}{section.2}% 
+\contentsline {section}{\numberline {3}Object Reconstruction}{7}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Electrons}{8}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Muons}{8}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Photons}{9}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Jets}{9}{subsection.3.4}% 
+\contentsline {subsubsection}{\numberline {3.4.1}B-Jets}{12}{subsubsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.5}Missing Transverse Energy}{13}{subsection.3.5}% 
+\contentsline {subsubsection}{\numberline {3.5.1}Neutrino Reconstruction}{14}{subsubsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.6}Overlap Removal}{14}{subsection.3.6}% 
+\contentsline {subsection}{\numberline {3.7}Duplicate Event Removal}{14}{subsection.3.7}% 
+\contentsline {section}{\numberline {4}Initial Event Selection}{15}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Triggers}{15}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Data and MC Pre-Selection Cuts}{15}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Background Evaluation: Control and Validation Regions}{17}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Backgrounds Without Photons}{17}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Background With Photons}{22}{subsubsection.4.3.2}% 
+\contentsline {subsubsection}{\numberline {4.3.3}W+$\gamma $ Control Region}{22}{subsubsection.4.3.3}% 
+\contentsline {subsubsection}{\numberline {4.3.4}$t\bar {t}+\gamma $ Control Region}{24}{subsubsection.4.3.4}% 
+\contentsline {section}{\numberline {5}Background Estimations}{30}{section.5}% 
+\contentsline {section}{\numberline {6}Neural Network for Signal Background Separation}{31}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}Event Classification: Neural Network Optimization}{31}{subsection.6.1}% 
+\contentsline {subsubsection}{\numberline {6.1.1}Input Variables}{31}{subsubsection.6.1.1}% 
+\contentsline {subsubsection}{\numberline {6.1.2}Architecture}{32}{subsubsection.6.1.2}% 
+\contentsline {subsubsection}{\numberline {6.1.3}Training and Validation of Neural Networks}{34}{subsubsection.6.1.3}% 
+\contentsline {subsubsection}{\numberline {6.1.4}Hidden Layer Studies}{34}{subsubsection.6.1.4}% 
+\contentsline {subsubsection}{\numberline {6.1.5}B-Tagging Working Point Studies}{35}{subsubsection.6.1.5}% 
+\contentsline {section}{\numberline {7}Analysis}{45}{section.7}% 
+\contentsline {section}{\numberline {8}Conclusion}{46}{section.8}% 
+\contentsline {part}{Appendices}{49}{part*.42}% 
+\contentsline {section}{\numberline {A}Derivation Information (TOPQ1)}{49}{appendix.A}% 
+\contentsline {section}{\numberline {B}Complete List of Monte Carlo Samples Used}{50}{appendix.B}% 
+\contentsline {section}{\numberline {C}Complete List of Monte Carlo Samples Used}{55}{appendix.C}% 
+\contentsline {section}{\numberline {D}Additional Shape Comparison Plots: $\mu $+jets channel}{55}{appendix.D}% 
+\contentsline {section}{\numberline {E}Shape Comparison Plots: $e$+jets channel}{55}{appendix.E}% 
