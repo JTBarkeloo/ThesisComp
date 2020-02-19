@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  14 FEB 2020 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  17 FEB 2020 11:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -1339,11 +1339,7 @@ Package: placeins 2005/04/18  v 2.2
 LaTeX Warning: Label `fig:ATLASInnerDet' multiply defined.
 
 ) (Simulation.aux) (SearchStrategy.aux) (Results.aux) (Conclusion.aux)
-(appendicies.aux
-
-LaTeX Warning: Label `tab:abcdSF' multiply defined.
-
-))
+(appendicies.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -1370,8 +1366,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-(/home/jason/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+ (/home/jason/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count404
 \scratchdimen=\dimen320
@@ -4540,7 +4535,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
-[Complementary Searches and Outlook]
+[Outlook and Conclusions]
 [161
 
 
@@ -5606,7 +5601,7 @@ Appendix_Systematics.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2BA133F1C2B97895224D90B5135BFFB9;7253.
+(rerunfilecheck)             Checksum: 021563F25389CBF4FFD3D7F64CCC5235;7242.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.90001pt have occurred.
@@ -5619,7 +5614,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
 Here is how much of TeX's memory you used:
  36527 strings out of 492896
  770001 string characters out of 3130341
- 890357 words of memory out of 3000000
+ 890457 words of memory out of 3000000
  38962 multiletter control sequences out of 15000+200000
  551984 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5648,7 +5643,7 @@ fs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/jason/.miktex/texmfs
 install/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/jason/.miktex/texmfs/i
 nstall/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/jason/.miktex/texmfs/in
 stall/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (213 pages, 31039421 bytes).
+Output written on main.pdf (213 pages, 31039416 bytes).
 PDF statistics:
  3011 PDF objects out of 3580 (max. 8388607)
  721 named destinations out of 1000 (max. 500000)

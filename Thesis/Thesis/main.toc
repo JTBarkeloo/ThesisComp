@@ -83,7 +83,7 @@
 \contentsline {section}{ \numberline {6.2} Statistical Treatment of Results}{147}{section.6.2}% 
 \contentsline {section}{ \numberline {6.3} Nuisance Parameters}{151}{section.6.3}% 
 \contentsline {section}{ \numberline {6.4} Limit on Branching Ratio t$\rightarrow $q$\gamma $}{160}{section.6.4}% 
-\contentsline {chapter}{\numberline {VII}\uppercase {Complementary Searches and Outlook}}{161}{section.6.4}% 
+\contentsline {chapter}{\numberline {VII}\uppercase {Outlook and Conclusions}}{161}{section.6.4}% 
 \contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{161}{section.7.1}% 
 \contentsline {section}{ \numberline {7.2} Future Directions}{162}{section.7.2}% 
 \contentsline {section}{ \numberline {7.3} Conclusion}{162}{section.7.3}% 

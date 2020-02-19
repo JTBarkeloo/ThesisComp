@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Brief Background}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{The Top Quark}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{FCNC at the LHC}{4}{0}{1}
+\beamer@sectionintoc {2}{Fake Rate Studies}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{$e\rightarrow \gamma $ Fake Rate Studies}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{$j\rightarrow \gamma $ Fake Rate Studies: ABCD Method}{11}{0}{2}
+\beamer@sectionintoc {3}{Asimov Data Initial Fits}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Asimov Fit, e+jets channel MC16a}{14}{0}{3}
+\beamer@sectionintoc {4}{Outlook and Conclusions}{16}{0}{4}
+\beamer@sectionintoc {5}{Backup}{17}{1}{5}
