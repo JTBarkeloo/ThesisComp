@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  18 FEB 2020 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.7.18)  18 FEB 2020 15:46
 entering extended mode
 **./BarkelooATLASFeb2020.tex
 (BarkelooATLASFeb2020.tex
@@ -1516,27 +1516,27 @@ hStrategy/ABCD/mujetsUnconverted.png>]
 File: Images/FCNC_All_ejets/Plots/VR1_mqph_postFit.png Graphic file (type png)
 <use Images/FCNC_All_ejets/Plots/VR1_mqph_postFit.png>
 Package pdftex.def Info: Images/FCNC_All_ejets/Plots/VR1_mqph_postFit.png  used
- on input line 315.
+ on input line 317.
 (pdftex.def)             Requested size: 96.33559pt x 108.61499pt.
 <Images/FCNC_All_ejets/Plots/VR2_mqph_postFit.png, id=282, 598.235pt x 674.52pt
 >
 File: Images/FCNC_All_ejets/Plots/VR2_mqph_postFit.png Graphic file (type png)
 <use Images/FCNC_All_ejets/Plots/VR2_mqph_postFit.png>
 Package pdftex.def Info: Images/FCNC_All_ejets/Plots/VR2_mqph_postFit.png  used
- on input line 315.
+ on input line 317.
 (pdftex.def)             Requested size: 96.33559pt x 108.61499pt.
 <Images/FCNC_All_ejets/Plots/SR_mqph_postFit.png, id=283, 598.235pt x 674.52pt>
 
 File: Images/FCNC_All_ejets/Plots/SR_mqph_postFit.png Graphic file (type png)
 <use Images/FCNC_All_ejets/Plots/SR_mqph_postFit.png>
 Package pdftex.def Info: Images/FCNC_All_ejets/Plots/SR_mqph_postFit.png  used 
-on input line 315.
+on input line 317.
 (pdftex.def)             Requested size: 96.33559pt x 108.61499pt.
 <Images/FCNC_All_ejets/NormFactors.png, id=284, 798.985pt x 293.095pt>
 File: Images/FCNC_All_ejets/NormFactors.png Graphic file (type png)
 <use Images/FCNC_All_ejets/NormFactors.png>
 Package pdftex.def Info: Images/FCNC_All_ejets/NormFactors.png  used on input l
-ine 315.
+ine 317.
 (pdftex.def)             Requested size: 184.3758pt x 67.63403pt.
  [14
 
@@ -1549,45 +1549,45 @@ Plots/VR2_mqph_postFit.png> <./Images/FCNC_All_ejets/Plots/SR_mqph_postFit.png>
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 347.
+(hyperref)                removing `\translate ' on input line 353.
 
 [17
 
 ]
-<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=322, 580.41844pt x 432.11438
+<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=324, 580.41844pt x 432.11438
 pt>
 File: ../../Thesis/ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/Theory/FCNCLoop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/FCNCLoop.png  used on
- input line 355.
+ input line 361.
 (pdftex.def)             Requested size: 122.91406pt x 91.50494pt.
-<../../Thesis/ThesisImages/penguinFCNC.png, id=323, 1020.81375pt x 629.35126pt>
+<../../Thesis/ThesisImages/penguinFCNC.png, id=325, 1020.81375pt x 629.35126pt>
 
 File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/penguinFCNC.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/penguinFCNC.png  used on inp
-ut line 355.
+ut line 361.
 (pdftex.def)             Requested size: 122.91406pt x 75.77817pt.
  [18
 
  <../../Thesis/ThesisImages/Theory/FCNCLoop.png> <../../Thesis/ThesisImages/pen
 guinFCNC.png>]
-Overfull \hbox (2.74178pt too wide) in paragraph at lines 386--386
+Overfull \hbox (2.74178pt too wide) in paragraph at lines 392--392
 [][]  
  []
 
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/CR1_SMtop.png, id=332, 598.235pt x 674.52pt>
+mFactor/FCNC_All_ejets/Plots/CR1_SMtop.png, id=333, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/CR1_SMtop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCode
 dNormFactor/FCNC_All_ejets/Plots/CR1_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR1_SMtop.png  used on inp
-ut line 386.
+ut line 392.
 (pdftex.def)             Requested size: 78.6683pt x 88.69933pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/CR1_SMtop_postFit.png, id=333, 598.235pt x 674.52p
+mFactor/FCNC_All_ejets/Plots/CR1_SMtop_postFit.png, id=334, 598.235pt x 674.52p
 t>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/CR1_SMtop_postFit.png Graphic file (type png)
@@ -1596,20 +1596,20 @@ edNormFactor/FCNC_All_ejets/Plots/CR1_SMtop_postFit.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/CR1_SMtop_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR1_SMtop_postFit.png  use
-d on input line 386.
+d on input line 392.
 (pdftex.def)             Requested size: 78.6683pt x 88.69933pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/CR2_SMtop.png, id=334, 598.235pt x 674.52pt>
+mFactor/FCNC_All_ejets/Plots/CR2_SMtop.png, id=335, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/CR2_SMtop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCode
 dNormFactor/FCNC_All_ejets/Plots/CR2_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR2_SMtop.png  used on inp
-ut line 386.
+ut line 392.
 (pdftex.def)             Requested size: 78.6683pt x 88.69933pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/CR2_SMtop_postFit.png, id=335, 598.235pt x 674.52p
+mFactor/FCNC_All_ejets/Plots/CR2_SMtop_postFit.png, id=336, 598.235pt x 674.52p
 t>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/CR2_SMtop_postFit.png Graphic file (type png)
@@ -1618,20 +1618,20 @@ edNormFactor/FCNC_All_ejets/Plots/CR2_SMtop_postFit.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/CR2_SMtop_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR2_SMtop_postFit.png  use
-d on input line 386.
+d on input line 392.
 (pdftex.def)             Requested size: 78.6683pt x 88.69933pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_SMtop.png, id=336, 598.235pt x 674.52pt>
+mFactor/FCNC_All_ejets/Plots/VR3_SMtop.png, id=337, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCode
 dNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png  used on inp
-ut line 386.
+ut line 392.
 (pdftex.def)             Requested size: 78.6683pt x 88.69933pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png, id=337, 598.235pt x 674.52p
+mFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png, id=338, 598.235pt x 674.52p
 t>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
@@ -1640,7 +1640,7 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png  use
-d on input line 386.
+d on input line 392.
 (pdftex.def)             Requested size: 78.6683pt x 88.69933pt.
 [19
 
@@ -1655,7 +1655,7 @@ Scaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png>
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png>]
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png, id=346, 598.235pt x 674.52pt>
+mFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png, id=347, 598.235pt x 674.52pt>
 
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png Graphic file (type png)
@@ -1663,7 +1663,7 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png  used 
-on input line 402.
+on input line 408.
 (pdftex.def)             Requested size: 88.5009pt x 99.78416pt.
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
@@ -1672,10 +1672,10 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png  use
-d on input line 402.
+d on input line 408.
 (pdftex.def)             Requested size: 88.5009pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png, id=347, 598.235pt x 674.52pt>
+mFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png, id=348, 598.235pt x 674.52pt>
 
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png Graphic file (type png)
@@ -1683,10 +1683,10 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png  used 
-on input line 402.
+on input line 408.
 (pdftex.def)             Requested size: 88.5009pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png, id=348, 598.235pt x 674.52pt
+mFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png, id=349, 598.235pt x 674.52pt
 >
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png Graphic file (type png)
@@ -1694,10 +1694,10 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png  used
- on input line 402.
+ on input line 408.
 (pdftex.def)             Requested size: 88.5009pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png, id=349, 598.235pt x 674.5
+mFactor/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png, id=350, 598.235pt x 674.5
 2pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png Graphic file (type pn
@@ -1706,10 +1706,10 @@ g)
 dNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png  u
-sed on input line 402.
+sed on input line 408.
 (pdftex.def)             Requested size: 88.5009pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_ejets/Plots/VR3_bjet0_pt_postFit.png, id=350, 598.235pt x 674.
+mFactor/FCNC_All_ejets/Plots/VR3_bjet0_pt_postFit.png, id=351, 598.235pt x 674.
 52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_bjet0_pt_postFit.png Graphic file (type p
@@ -1718,7 +1718,7 @@ ng)
 dNormFactor/FCNC_All_ejets/Plots/VR3_bjet0_pt_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_bjet0_pt_postFit.png  
-used on input line 402.
+used on input line 408.
 (pdftex.def)             Requested size: 88.5009pt x 99.78416pt.
  [20
 
@@ -1730,9 +1730,31 @@ olRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png> <../..
 /Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFacto
 r/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png> <../../Thesis/ThesisImages/Regi
 onPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR
-3_bjet0_pt_postFit.png>] [21
+3_bjet0_pt_postFit.png>]
+<Images/FCNC_All_ejets/Plots/VR1_mqph.png, id=359, 598.235pt x 674.52pt>
+File: Images/FCNC_All_ejets/Plots/VR1_mqph.png Graphic file (type png)
+<use Images/FCNC_All_ejets/Plots/VR1_mqph.png>
+Package pdftex.def Info: Images/FCNC_All_ejets/Plots/VR1_mqph.png  used on inpu
+t line 433.
+(pdftex.def)             Requested size: 96.33559pt x 108.61499pt.
+<Images/FCNC_All_ejets/Plots/VR2_mqph.png, id=360, 598.235pt x 674.52pt>
+File: Images/FCNC_All_ejets/Plots/VR2_mqph.png Graphic file (type png)
+<use Images/FCNC_All_ejets/Plots/VR2_mqph.png>
+Package pdftex.def Info: Images/FCNC_All_ejets/Plots/VR2_mqph.png  used on inpu
+t line 433.
+(pdftex.def)             Requested size: 96.33559pt x 108.61499pt.
+<Images/FCNC_All_ejets/Plots/SR_mqph.png, id=361, 598.235pt x 674.52pt>
+File: Images/FCNC_All_ejets/Plots/SR_mqph.png Graphic file (type png)
+<use Images/FCNC_All_ejets/Plots/SR_mqph.png>
+Package pdftex.def Info: Images/FCNC_All_ejets/Plots/SR_mqph.png  used on input
+ line 433.
+(pdftex.def)             Requested size: 96.33559pt x 108.61499pt.
+ [21
 
-] [22
+ <./Images/FCNC_All_ejets/Plots/VR1_mqph.png> <./Images/FCNC_All_ejets/Plots/VR
+2_mqph.png> <./Images/FCNC_All_ejets/Plots/SR_mqph.png>] [22
+
+] [23
 
 ]
 \tf@nav=\write6
@@ -1744,11 +1766,12 @@ onPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR
 \tf@snm=\write8
 \openout8 = `BarkelooATLASFeb2020.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
- (BarkelooATLASFeb2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 546.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 546.
+
+(BarkelooATLASFeb2020.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 546.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 546.
 Package rerunfilecheck Info: File `BarkelooATLASFeb2020.out' has not changed.
 (rerunfilecheck)             Checksum: 04B903B8FB7694469A7A92FF97F7132C;670.
 
@@ -1758,10 +1781,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 29606 strings out of 492896
- 585318 string characters out of 3130341
+ 29627 strings out of 492896
+ 585937 string characters out of 3130341
  623107 words of memory out of 3000000
- 32963 multiletter control sequences out of 15000+200000
+ 32979 multiletter control sequences out of 15000+200000
  548833 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,22n,73p,806b,704s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1785,9 +1808,9 @@ x/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/jason/.miktex/
 texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/jason/.miktex/te
 xmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb></home/jason/.miktex/texm
 fs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on BarkelooATLASFeb2020.pdf (22 pages, 1212990 bytes).
+Output written on BarkelooATLASFeb2020.pdf (23 pages, 1281462 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
 
