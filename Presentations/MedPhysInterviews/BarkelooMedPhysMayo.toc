@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{The Large Hadron Collider and The Standard Model of Particle Physics}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{LHC and ATLAS}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{The Standard Model of Particle Physics}{6}{0}{1}
+\beamer@sectionintoc {2}{Search For Ultra Rare Decays}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{The Top Quark}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Machine Learning}{8}{0}{2}
+\beamer@sectionintoc {3}{Results and Conclusions}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Work In Progress - Results}{10}{0}{3}
+\beamer@sectionintoc {4}{Backup}{12}{1}{4}
+\beamer@subsectionintoc {4}{1}{Backup/Other Materials}{12}{1}{4}
+\beamer@subsectionintoc {4}{2}{Data Driven Backgrounds}{15}{1}{4}
