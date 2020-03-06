@@ -64,15 +64,15 @@
 \contentsline {section}{ \numberline {5.5} Data and MC Pre-Selection Cuts}{104}{section.5.5}% 
 \contentsline {section}{ \numberline {5.6} Background Evaluation: Control and Validation Regions}{111}{section.5.6}% 
 \contentsline {subsection}{ \numberline {5.6.1} Backgrounds Without Photons}{111}{subsection.5.6.1}% 
-\contentsline {subsection}{ \numberline {5.6.2} Background With Photons}{116}{subsection.5.6.2}% 
-\contentsline {subsubsection}{ W+$\gamma $ Control Region}{116}{subsubsection.5.6.2.1}% 
-\contentsline {subsubsection}{ $t\bar {t}+\gamma $ Control Region}{120}{subsubsection.5.6.2.2}% 
-\contentsline {section}{ \numberline {5.7} Fake Rates}{123}{section.5.7}% 
-\contentsline {subsection}{ \numberline {5.7.1} Electron $\rightarrow $ Photon Fakes}{123}{subsection.5.7.1}% 
-\contentsline {subsection}{ \numberline {5.7.2} Jet $\rightarrow $ Lepton Fakes}{128}{subsection.5.7.2}% 
-\contentsline {subsection}{ \numberline {5.7.3} Jet $\rightarrow $ Photon Fakes}{130}{subsection.5.7.3}% 
-\contentsline {section}{ \numberline {5.8} Signal Region}{136}{section.5.8}% 
-\contentsline {chapter}{\numberline {VI}\uppercase {Analysis And Results}}{141}{table.caption.95}% 
+\contentsline {subsection}{ \numberline {5.6.2} Fake Rates}{116}{subsection.5.6.2}% 
+\contentsline {subsubsection}{ Electron $\rightarrow $ Photon Fakes}{116}{subsubsection.5.6.2.1}% 
+\contentsline {subsubsection}{ Jet $\rightarrow $ Lepton Fakes}{121}{subsubsection.5.6.2.2}% 
+\contentsline {subsubsection}{ Jet $\rightarrow $ Photon Fakes}{123}{subsubsection.5.6.2.3}% 
+\contentsline {subsection}{ \numberline {5.6.3} Backgrounds With Photons}{129}{subsection.5.6.3}% 
+\contentsline {subsubsection}{ W+$\gamma $ Control Region}{129}{subsubsection.5.6.3.1}% 
+\contentsline {subsubsection}{ $t\bar {t}+\gamma $ Control Region}{133}{subsubsection.5.6.3.2}% 
+\contentsline {section}{ \numberline {5.7} Signal Region}{136}{section.5.7}% 
+\contentsline {chapter}{\numberline {VI}\uppercase {Analysis And Results}}{141}{table.caption.93}% 
 \contentsline {section}{ \numberline {6.1} Systematic Uncertainties}{141}{section.6.1}% 
 \contentsline {subsection}{ \numberline {6.1.1} Theoretical uncertainties}{142}{subsection.6.1.1}% 
 \contentsline {subsection}{ \numberline {6.1.2} Experimental Uncertainties}{143}{subsection.6.1.2}% 
@@ -89,11 +89,11 @@
 \contentsline {section}{ \numberline {7.3} Conclusion}{162}{section.7.3}% 
  \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
 \contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{164}{section.7.3}% 
-\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{165}{table.caption.106}% 
-\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Data Samples}}{170}{table.caption.111}% 
-\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Additional Plots from NN Studies}}{172}{table.caption.112}% 
+\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{165}{table.caption.104}% 
+\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Data Samples}}{170}{table.caption.109}% 
+\contentsline {chapter}{\number@appendix {4}{D} \uppercase {Additional Plots from NN Studies}}{172}{table.caption.110}% 
 \contentsline {section}{ \numberline {D.1} Additional Shape Comparison Plots: $\mu $+jets channel}{172}{section.D.1}% 
 \contentsline {section}{ \numberline {D.2} Shape Comparison Plots: $e$+jets channel}{175}{section.D.2}% 
-\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{180}{figure.caption.119}% 
-\contentsline {chapter}{\number@appendix {6}{F} \uppercase {Systematic Pull Plots}}{184}{figure.caption.122}% 
-\contentsline {chapter}{REFERENCES CITED}{185}{figure.caption.122}% 
+\contentsline {chapter}{\number@appendix {5}{E} \uppercase {Systematic Variations for Electron to Photon Fake Rate Calculation}}{180}{figure.caption.117}% 
+\contentsline {chapter}{\number@appendix {6}{F} \uppercase {Systematic Pull Plots}}{184}{figure.caption.120}% 
+\contentsline {chapter}{REFERENCES CITED}{185}{figure.caption.120}% 

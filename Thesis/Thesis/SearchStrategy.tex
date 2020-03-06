@@ -504,7 +504,7 @@ Orthogonal regions to the signal region have been created to test the performanc
 
 \subsection{Backgrounds Without Photons}
 \label{sec:BKGnoPho}
-Various background processes that do not have a real photon produced in the events can still enter the signal region if an electron or jet is mis-reconstructed as a photon.  Of these processes the largest contributors in the signal region are Standard Model $t\bar{t}$ and W+jets.  As the LHC attains higher and higher energies the QCD multijet backgrounds become increasingly hard to model due to the non-perturbative nature of the interactions.  A data-driven techniqueto study these backgrounds was developed by scaling the major backgrounds without photons to account for the QCD backgrounds that contribute extra jets to the major backgrounds.  Designing a single control region satisfactorily close to the signal region is impossible.  Thus, two control regions are designed, one which is W+jets rich and the other $t\bar{t}$ rich.  Scale factors for these backgrounds are derived simultaneously and tested in a third similar region for validation before being applied to other regions.  
+Various background processes that do not have a real photon produced in the events can still enter the signal region if an electron or jet is mis-reconstructed as a photon.  Of these processes the largest contributors in the signal region are Standard Model $t\bar{t}$ and W+jets.  As the LHC attains higher and higher energies the QCD multijet backgrounds become increasingly hard to model due to the non-perturbative nature of the interactions.  A data-driven technique to study these backgrounds was developed by scaling the major backgrounds without photons to account for the QCD backgrounds that contribute extra jets to the major backgrounds.  Designing a single control region satisfactorily close to the signal region is impossible.  Thus, two control regions are designed, one which is W+jets rich and the other $t\bar{t}$ rich.  Scale factors for these backgrounds are derived simultaneously and tested in a third similar region for validation before being applied to other regions.  
 These control and validation regions are defined as follows:
 \begin{itemize}
 \item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
@@ -584,132 +584,10 @@ $t\bar{t}$  &  1.06    &  1.01	\\ \hline
 \caption{Event-level plots for the =4 jet validation region after scale factors have been applied in the muon channel.  FCNC signal branching ratio is scaled to 1.5\%.}
 \label{fig:VR3mujpostscale}
 \end{figure}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Background With Photons}
-\label{sec:BKGPho}
-
-Standard Model processes that are produced with an extra real photon are an irreducible background for this search as they can share the same final state as the signal events.  The largest contributors of these irreducible backgrounds are the major background samples discussed in the previous section with an associated photon ($t\bar{t}+\gamma$ and W+jets+$\gamma$).  Special Monte Carlo samples are produced for these samples (along with Z+jets+$\gamma$) that have higher statistics of these photon enriched events than the nominal samples.  However, as these samples (X+jets+$\gamma$) are subsets of the nominal sample(X+jets), duplicate events must be removed from the nominal sample.  This is done using the \textbf{MCTruthClassifier} tool that is detailed further in Section \ref{sec:Fakes}.  All events with a photon from the hard scattering are removed from the X+jets samples as they are contained within the X+jets+$\gamma$ samples.
-\subsubsection{W+$\gamma$ Control Region}
-A validation region for W+jets+$\gamma$ was created as it is one of the more dominant backgrounds other than $t\bar{t}$ and $t\bar{t}+\gamma$ events.  The normalization for the W+jets+$\gamma$ validation region enters as a free parameter into the final fit. The region selection for the W+jets+$\gamma$ is as follows:
-\begin{itemize}
-\item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
-\item Exactly 1 lepton (electron or muon) $p_T >$ 25 GeV
-\item At least 2 Jets  ($p_T >$ 25 GeV) 
-\item $\slashed{E}_T >$ 30 GeV and $m_T^W >$ 30 GeV (for events with electrons)
-\item $\slashed{E}_T >$ 20 GeV and $\slashed{E}_T + m_T^W >$ 60 GeV (for events with muons)
-\item Exactly 0 b-tagged jet (MV2c10, 77\% working point)
-\item Exactly 1 photon, $p_T >$ 50 GeV
-\item Photon isolation cuts: topo$E_T$cone40$<$4 GeV
-\item Z mass cut $|m_{l\gamma}-m_Z|V>$ 5 GeV
-\end{itemize}
-
-Distributions of kinematic variables in the electron (muon) channels are shown in Figure \ref{fig:VR1ej} (\ref{fig:VR1muj}).
-\begin{table}[h]
-\begin{center}
-{\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{c|c|c}
-\hline
-Channel:     &  e+jets   & $\mu$+jets  \\  \hline 
-W+jets+$\gamma$ SF    &  PUT IN VALUE   & PUT IN VALUE	\\ \hline  %Change Put in post fit values
-\end{tabular}
-\caption{Fit result W+jets+$\gamma$ normalization scale factors including both statistical and systematic uncertainties}
-\label{tab:VR1SFs} 
-}
-\end{center}
-\end{table}
-%Change : Add Discussion on agreement, allowing normalization into fit, postfit plots instead?
-
-\begin{figure}[h!]
-\centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_lep_pt.png}}\hfil  %Change to AfterScaling
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png}}
-\vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_MWT.png}}\hfil  %Change to AfterScaling
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_ST.png}}
-\caption{W+jets+$\gamma$ validation region plots for the electron channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
-\label{fig:VR1ej}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_lep_pt.png}}\hfil  %Change to AfterScaling
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png}}
-\vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_MWT.png}}\hfil  %Change to AfterScaling These are Prefit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_ST.png}}
-\caption{W+jets+$\gamma$ validation region plots for the muon channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
-\label{fig:VR1muj}
-\end{figure}
-
-\subsubsection{$t\bar{t}+\gamma$ Control Region}
-Another validation region was created for the other largest photon enriched samples, $t\bar{t}+\gamma$. The normalization for the $t\bar{t}+\gamma$ validation region enters as a free parameter into the final fit, and the region selection is as follows:
-\begin{itemize}
-\item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
-\item Exactly 1 lepton (electron or muon) $p_T >$ 25 GeV
-\item At least 4 Jets  ($p_T >$ 25 GeV) 
-\item $\slashed{E}_T >$ 30 GeV and $m_T^W >$ 30 GeV (for events with electrons)
-\item $\slashed{E}_T >$ 20 GeV and $\slashed{E}_T + m_T^W >$ 60 GeV (for events with muons)
-\item At least 1 b-tagged jet (MV2c10, 77\% working point)
-\item Exactly 1 photon, $p_T >$ 50 GeV
-\item Photon isolation cuts: topo$E_T$cone40$<$4 GeV
-\item Reverse Neural Network Cut: NNOutput$<$0.93 electron channel, NNOutput$<$0.92 muon channel
-\end{itemize}
-
-Distributions of kinematic variables in the electron (muon) channels are shown in Figure \ref{fig:VR2ej} (\ref{fig:VR2muj}).
-\begin{table}[h]
-\begin{center}
-{\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{c|c|c}
-\hline
-Channel:     &  e+jets   & $\mu$+jets  \\  \hline 
-$t\bar{t}+\gamma$ SF    &  PUT IN VALUE   & PUT IN VALUE	\\ \hline %Change Put in post fit values
-\end{tabular}
-\caption{Fit result $t\bar{t}+\gamma$ normalization scale factors including both statistical and systematic uncertainties}
-\label{tab:VR2SFs}
-}
-\end{center}
-\end{table}
-%Change : Add Discussion on agreement, allowing normalization into fit, change to postfit plots?
-
-\begin{figure}[h!]
-\centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_lep_pt.png}}\hfil  %Change to AfterScaling
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png}}
-\vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_MWT.png}}\hfil  %Change to AfterScaling
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_ST.png}}
-\caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the electron channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
-\label{fig:VR2ej}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_lep_pt.png}}\hfil  %Change to AfterScaling
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png}}
-\vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_MWT.png}}\hfil  %Change to AfterScaling
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_ST.png}}
-\caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the muon channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
-\label{fig:VR2muj}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Fake Rates}
+\subsection{Fake Rates}
 \label{sec:Fakes}
 
 Photons and leptons can be faked by various other particles depending on how they interact within the detector.  Section \ref{sec:FakeLep} discusses how jets faking leptons are accounted for, and Sections \ref{sec:FakePho} and \ref{sec:FakePho2} discuss how electrons and jets can appear as photons and enter the signal region.  Photon fake rates and scale factors are determined using data-driven techniques and truth information in the MC samples.  Information in the truth record of the reconstructed photons is found using the \textbf{MCTruthClassifier} tool which performs a \textit{Truth to Cluster} matching algorithm based on geometric separations, $\Delta R$, between various truth-level physics objects.
@@ -718,7 +596,7 @@ A photon is considered an electron fake if the truth particle ID is equal to the
 
 A photon is considered a hadronic fake if the truth photon originates from any hadron or when the truth particle is a hadron.  These hadrons can be any meson or baryon within the initial hard interaction.
 
-\subsection{Electron $\rightarrow$ Photon Fakes}
+\subsubsection{Electron $\rightarrow$ Photon Fakes}
 \label{sec:FakePho}
 
 In multiple scenarios it is possible to reconstruct an electron incorrectly within the ATLAS detector i.e., if the track is unable to be associated to the shower in the electromagnetic calorimeter the object can be reconstructed as a photon instead of an electron.  Additionally if an electron radiates all of its energy as a photon the object will be correctly reconstructed as a photon but it is not a prompt photon from the hard interaction.  The second type of faked photon does not correspond to a genuine signal like photon as it originates from an electron.  As other background events can enter the signal region through these fake processes, understanding how often this happens is imperative.  Modeling of the detector in MC is known to be inaccurate when regarding fakes.  As such a data driven method has been used to calculate scale factors for events with MC photons that are not matched to truth photons in order to calculate appropriate scale factors for these MC events.
@@ -786,7 +664,7 @@ As shown in Figure \ref{fig:EGammaSFs}, the 2D scale factors generally agree wit
 
 %Change Add More - Crystal Ball talk?
 
-\subsection{Jet $\rightarrow$ Lepton Fakes}
+\subsubsection{Jet $\rightarrow$ Lepton Fakes}
 \label{sec:FakeLep}
 The final state is determined by the decay of the W boson throughout this search, resulting in a charged lepton and a neutrino.  However, this can be faked by the QCD multi-jet background if a jet is misidentified as a lepton.  Non-prompt and fake leptons can pass the event selection and come from predominantly QCD multi-jet processes with an associated photon.  These leptons can arise from semi-leptonic decay of bottom and charm quarks.  The electron final state has additional contributions from photon conversions in the electromagnetic calorimeter while muons can be faked from highly energetic hadrons that punch-through to the hadronic calorimeter before beginning their shower leaving only tracks similar to muons throughout the electromagnetic calorimeter.  
 
@@ -809,7 +687,7 @@ The real efficiencies, $\epsilon_\text{real}$, are estimated using the tag-and-p
 \[ w_i = \frac{\epsilon_\text{fake}}{\epsilon_\text{real}-\epsilon_\text{fake}}(\epsilon_\text{real}-\delta_i) \]
 where $\delta_i$ is 1 if the event passes the tight selection and 0 otherwise.  These event weights are applied to the loose data sample to estimate the fake contributions from jets faking leptons.
 
-\subsection{Jet $\rightarrow$ Photon Fakes}
+\subsubsection{Jet $\rightarrow$ Photon Fakes}
 \label{sec:FakePho2}
 
 The ABCD method is used to determine the number of hadrons that fake photons in the analysis.  As was shown in Section \ref{sec:BKGnoPho} the multi-jet background is poorly modeled, particularly at the high energies of Run-2.  An accurate estimation of this background that does not rely on the inaccurate MC modelling is done created a data driven technique.  Scale factors to match MC predictions to data are derived in control regions with enriched hadronic fake contributions and applied in the signal region.  The majority of hadronic fake photon events come from $t\bar{t}$ events where a final state jet radiates a non-prompt photon.  Additional small contributions come from similar topologies from W+jets and single top events.  
@@ -931,6 +809,131 @@ Given that the amount of preselection events expected to pass the final event se
 %\end{center}
 %\end{table}
 %Change Use theta as a systematic variation for the number of events with hadron fakes
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Backgrounds With Photons}
+\label{sec:BKGPho}
+
+Standard Model processes that are produced with an extra real photon are an irreducible background for this search as they can share the same final state as the signal events.  The largest contributors of these irreducible backgrounds are the major background samples discussed in the previous section with an associated photon ($t\bar{t}+\gamma$ and W+jets+$\gamma$).  Special Monte Carlo samples are produced for these samples (along with Z+jets+$\gamma$) that have higher statistics of these photon enriched events than the nominal samples.  However, as these samples (X+jets+$\gamma$) are subsets of the nominal sample(X+jets), duplicate events must be removed from the nominal sample.  This is done using the \textbf{MCTruthClassifier} tool that is detailed further in Section \ref{sec:Fakes}.  All events with a photon from the hard scattering are removed from the X+jets samples as they are contained within the X+jets+$\gamma$ samples.  The fake rate scale factors can also be applied to the MC events using truth information to appropriately scale out mismodelling behavior from the MC samples.  The fake rate scale factors discussed in Section \ref{sec:Fakes} have been applied to all following figures. 
+\subsubsection{W+$\gamma$ Control Region}
+A validation region for W+jets+$\gamma$ was created as it is one of the more dominant backgrounds other than $t\bar{t}$ and $t\bar{t}+\gamma$ events.  The normalization for the W+jets+$\gamma$ validation region enters as a free parameter into the final fit. The region selection for the W+jets+$\gamma$ is as follows:
+\begin{itemize}
+\item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
+\item Exactly 1 lepton (electron or muon) $p_T >$ 25 GeV
+\item At least 2 Jets  ($p_T >$ 25 GeV) 
+\item $\slashed{E}_T >$ 30 GeV and $m_T^W >$ 30 GeV (for events with electrons)
+\item $\slashed{E}_T >$ 20 GeV and $\slashed{E}_T + m_T^W >$ 60 GeV (for events with muons)
+\item Exactly 0 b-tagged jet (MV2c10, 77\% working point)
+\item Exactly 1 photon, $p_T >$ 50 GeV
+\item Photon isolation cuts: topo$E_T$cone40$<$4 GeV
+\item Z mass cut $|m_{l\gamma}-m_Z|>$ 5 GeV
+\end{itemize}
+
+Distributions of kinematic variables in the electron (muon) channels are shown in Figure \ref{fig:VR1ej} (\ref{fig:VR1muj}).
+%\begin{table}[h]
+%\begin{center}
+%{\renewcommand{\arraystretch}{1.2}
+%\begin{tabular}{c|c|c}
+%\hline
+%Channel:     &  e+jets   & $\mu$+jets  \\  \hline 
+%W+jets+$\gamma$ SF    &  PUT IN VALUE   & PUT IN VALUE	\\ \hline  %Change Put in post fit values
+%\end{tabular}
+%\caption{Fit result W+jets+$\gamma$ normalization scale factors including both statistical and systematic uncertainties}
+%\label{tab:VR1SFs} 
+%}
+%\end{center}
+%\end{table}
+%Change : Add Discussion on agreement, allowing normalization into fit, postfit plots instead?
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_ph_pt.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_MWT.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_ST.png}}
+\caption{W+jets+$\gamma$ validation region plots for the electron channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
+\label{fig:VR1ej}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_ph_pt.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_MWT.png}}\hfil  %Change to AfterScaling These are Prefit
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_ST.png}}
+\caption{W+jets+$\gamma$ validation region plots for the muon channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
+\label{fig:VR1muj}
+\end{figure}
+
+\subsubsection{$t\bar{t}+\gamma$ Control Region}
+Another validation region was created for the other largest photon enriched samples, $t\bar{t}+\gamma$. The normalization for the $t\bar{t}+\gamma$ validation region enters as a free parameter into the final fit, and the region selection is as follows:
+\begin{itemize}
+\item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
+\item Exactly 1 lepton (electron or muon) $p_T >$ 25 GeV
+\item At least 4 Jets  ($p_T >$ 25 GeV) 
+\item $\slashed{E}_T >$ 30 GeV and $m_T^W >$ 30 GeV (for events with electrons)
+\item $\slashed{E}_T >$ 20 GeV and $\slashed{E}_T + m_T^W >$ 60 GeV (for events with muons)
+\item At least 1 b-tagged jet (MV2c10, 77\% working point)
+\item Exactly 1 photon, $p_T >$ 50 GeV
+\item Photon isolation cuts: topo$E_T$cone40$<$4 GeV
+\item Reverse Neural Network Cut: NNOutput$<$0.93 electron channel, NNOutput$<$0.92 muon channel
+\end{itemize}
+
+Distributions of kinematic variables in the electron (muon) channels are shown in Figure \ref{fig:VR2ej} (\ref{fig:VR2muj}).
+%\begin{table}[h]
+%\begin{center}
+%{\renewcommand{\arraystretch}{1.2}
+%\begin{tabular}{c|c|c}
+%\hline
+%Channel:     &  e+jets   & $\mu$+jets  \\  \hline 
+%$t\bar{t}+\gamma$ SF    &  PUT IN VALUE   & PUT IN VALUE	\\ \hline %Change Put in post fit values
+%\end{tabular}
+%\caption{Fit result $t\bar{t}+\gamma$ normalization scale factors including both statistical and systematic uncertainties}
+%\label{tab:VR2SFs}
+%}
+%\end{center}
+%\end{table}
+%Change : Add Discussion on agreement, allowing normalization into fit, change to postfit plots?
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_ph_pt.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_MWT.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_ST.png}}
+\caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the electron channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
+\label{fig:VR2ej}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_ph_pt.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_MWT.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_ST.png}}
+\caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the muon channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
+\label{fig:VR2muj}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
