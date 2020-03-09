@@ -1,2 +1,0 @@
- |       | FCNC      | t#bar{t} + jets      | t#bar{t} +  #gamma      | VV      | Single Top      | t#bar{t} + V      | W+Gam      | W + jets      | Z + jets      | Z+Gam |
- | Instrumental | 0 | 9.93e-06 | 9.93e-06 | 9.93e-06 | 9.93e-06 | 9.93e-06 | 9.93e-06 | 9.93e-06 | 9.93e-06 | 9.93e-06 |

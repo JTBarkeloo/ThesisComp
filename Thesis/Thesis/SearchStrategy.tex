@@ -2,7 +2,7 @@
 \chapter{Search Strategy}
 \label{ch:SearchStrategy}
 %Deep thoughts go here.
-This chapter will describe the major backgrounds and outline a search strategy used in the analysis.  The kinematic regions for the signal will be defined as well as the introduction of neural networks to assist with the separation of signal and background like events.
+This chapter will describe the major backgrounds and outline a search strategy used in the analysis.  The kinematic regions for the signal will be defined as well as the introduction of neural networks to assist with the separation of signal and background like events.  This chapter contains material coauthored with the ATLAS Collaboration.  I developed the signal samples and analysis framework, optimized the signal regions, and was responsible for the the background modeling in the regions shown here including the fake rate studies.  Other members of the ATLAS Collaboration developed the background samples used to produce the results presented in this chapter.
 
 
 \section{Major Backgrounds}
@@ -561,27 +561,27 @@ $t\bar{t}$  &  1.06    &  1.01	\\ \hline
 
 \begin{figure}[h!]
 \centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_MWT_postFit.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop_postFit.png}}\hfil  %lep_pt
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_met_postFit.png}}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_MWT.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_SMtop.png}}\hfil  %lep_pt
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_met.png}}
 \vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_njet_postFit.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt_postFit.png}}\hfil  
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_bjet0_pt_postFit.png}}
-\caption{Event-level plots for the =4 jet validation region after scale factors have been applied in the electron channel.  FCNC signal branching ratio is scaled to 1.5\%.}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_jet0_pt.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_bjet0_pt.png}}
+\caption{Event-level plots for the =4 jet validation region after scale factors have been applied in the electron channel.  FCNC signal branching ratio is scaled to 0.1\%.}
 \label{fig:VR3ejpostscale}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_MWT_postFit.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_SMtop_postFit.png}}\hfil %lep_pt
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_met_postFit.png}}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_MWT.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png}}\hfil %lep_pt
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_met.png}}
 \vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_njet_postFit.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt_postFit.png}}\hfil 
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_bjet0_pt_postFit.png}}
-\caption{Event-level plots for the =4 jet validation region after scale factors have been applied in the muon channel.  FCNC signal branching ratio is scaled to 1.5\%.}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png}}\hfil 
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_bjet0_pt.png}}
+\caption{Event-level plots for the =4 jet validation region after scale factors have been applied in the muon channel.  FCNC signal branching ratio is scaled to 0.1\%.}
 \label{fig:VR3mujpostscale}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -858,7 +858,7 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_njet.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_MWT.png}}\hfil  %Change to AfterScaling
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_ST.png}}
-\caption{W+jets+$\gamma$ validation region plots for the electron channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
+\caption{W+jets+$\gamma$ validation region plots for the electron channel after all scale factors are applied.  The FCNC signal sample is scaled to 1\%.} %Change % Value
 \label{fig:VR1ej}
 \end{figure}
 
@@ -871,7 +871,7 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_njet.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_MWT.png}}\hfil  %Change to AfterScaling These are Prefit
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_ST.png}}
-\caption{W+jets+$\gamma$ validation region plots for the muon channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
+\caption{W+jets+$\gamma$ validation region plots for the muon channel after all scale factors are applied.  The FCNC signal sample is scaled to 1\%.} %Change % Value
 \label{fig:VR1muj}
 \end{figure}
 
@@ -914,7 +914,7 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_njet.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_MWT.png}}\hfil  %Change to AfterScaling
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_ST.png}}
-\caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the electron channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
+\caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the electron channel after all scale factors are applied.  The FCNC signal sample is scaled to 1\%.} %Change % Value
 \label{fig:VR2ej}
 \end{figure}
 
@@ -927,7 +927,7 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_njet.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_MWT.png}}\hfil  %Change to AfterScaling
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_ST.png}}
-\caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the muon channel.  The FCNC signal sample is scaled to 1.5\%.} %Change % Value
+\caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the muon channel after all scale factors are applied.  The FCNC signal sample is scaled to 1\%.} %Change % Value
 \label{fig:VR2muj}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
