@@ -11,7 +11,8 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \subsection{Theoretical uncertainties}
 \begin{description}
-\item[\textbf{Cross Section}:]  Various cross sections for MC samples are separately varied up and down by one standard deviation for each process: $t\bar{t}$ ($\pm5.6\%$ \cite{ttXSec}), $t\bar{t}+\gamma$ ($\pm 8.0\%$ \cite{ATLAS:2018pmj}), single top(t-channel top $^{+4.0\%}_{-3.4\%}$, t-channel anti-top $^{+5.0\%}_{-4.5\%}$, s-channel top $^{+3.6\%}_{-3.1\%}$, s-channel anti-top $^{+4.8\%}_{-4.3\%}$, tW-channel $\pm 5.3\%$ \cite{SingleTopXSec}), V+jets ($\pm5\%$ \cite{VXSec}), and diboson VV ($\pm 6\%$ \cite{VXSec}).  Uncertainties on the prompt photon contribution from W/$t\bar{t}$+jets+$\gamma$ enter the fit as other nuisance parameters as the normalization is allowed to vary in the fit.
+\item[\textbf{Cross Section}:]  Various cross sections for MC samples are separately varied up and down by one standard deviation for each process: $t\bar{t}$ ($\pm5.6\%$ \cite{ttXSec}), $t\bar{t}+\gamma$ ($\pm 8.0\%$ \cite{ATLAS:2018pmj}), single top(t-channel top $^{+4.0\%}_{-3.4\%}$, t-channel anti-top $^{+5.0\%}_{-4.5\%}$, s-channel top $^{+3.6\%}_{-3.1\%}$, s-channel anti-top $^{+4.8\%}_{-4.3\%}$, tW-channel $\pm 5.3\%$ \cite{SingleTopXSec}), V+jets ($\pm5\%$ \cite{VXSec}), and diboson VV ($\pm 6\%$ \cite{VXSec}).  
+%Uncertainties on the prompt photon contribution from W/$t\bar{t}$+jets+$\gamma$ enter the fit as other nuisance parameters as the normalization is allowed to vary in the fit.
 
 \item[\textbf{Renormalization and Factorization Scale}:]  The effect of the choice of renormalization and factorization scales ($\mu_r$ and $\mu_f$) is estimated varying them independently or simultaneously up and down by a factor of 2 compared to the nominal value.  This is done using event weights and the maximum and deviations from the nominal are taken to be the up and down variations.
 
@@ -19,7 +20,7 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \item[\textbf{Initial and Final State Radiation}:] The effects of ISR are estimated by decreasing the total QCD radiation activity in the events.  These variations are avaialbe for single top and $t\bar{t}$ processes.  For single top processes the A14 tune is varied up (down) using the event weight Var3cUp (Var3cDown) and dividing (multiplying) $\mu_r$ and $\mu_f$ by a factor of 2.  For $t\bar{t}$ processes a sample with parameter $h_\text{damp}=3m_\text{top}$ is used in the same manner varying Var3cUp while the down variation uses event weights in the nominal sample.   FSR uncertainties are estimated varying parameters using the A14 tune by varying event weight (Var2) up and down. %Change if not using single top information
 
-\item[\textbf{Normalization of Prompt Photon Contribution}:]  The normalization of the prompt photon contributions that stem from the W+jets+$\gamma$ and $t\bar{t}$+jets+$\gamma$, the major backgrounds, enter the fit as free floating nuisance parameters.
+%\item[\textbf{Normalization of Prompt Photon Contribution}:]  The normalization of the prompt photon contributions that stem from the W+jets+$\gamma$ and $t\bar{t}$+jets+$\gamma$, the major backgrounds, enter the fit as free floating nuisance parameters.
 
 \item[\textbf{$\textbf{t}\bar{\textbf{t}}$ Matrix Element and Shower Generator}:]  To estimate the uncertainty based on our choice of MC generator and showering algorithm used to create the nominal sample (\textsc{Powheg-Box + Pythia}) is replaced by samples generated using \textsc{MadGraph5\_}a\textsc{MC@NLO + Pythia} and \textsc{Powheg-Box + Herwig}.
 \end{description}
