@@ -1,0 +1,245 @@
+<!--
+This xml file created automatically on: 
+2020-3-11
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="VR1_mqph" InputFile="" >
+
+    <Data HistoName="VR1_mqph_Data_regBin" InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root" HistoPath="/VR1_mqph_hists/data/"  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.001" ConstraintType="Poisson" /> 
+
+    <Sample Name="FCNC"  HistoPath="/VR1_mqph_hists/FCNC/"  HistoName="VR1_mqph_FCNC_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Pileup"  High="0.983185"  Low="0.994813"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.01755"  Low="0.982446"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.036"  Low="0.963996"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.983764"  Low="1.01624"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.01833"  Low="0.981675"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="0.1"  High="1"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_FCNC_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/FCNC/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_FCNC_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/FCNC/"   /> 
+      <HistoSys Name="EG_Scale"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_FCNC_EG_Scale_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/FCNC/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_FCNC_EG_Scale_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/FCNC/"   /> 
+      <HistoSys Name="JET_Flavor_Composition"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_FCNC_JET_Flavor_Composition_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/FCNC/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_FCNC_JET_Flavor_Composition_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/FCNC/"   /> 
+    </Sample>
+
+
+    <Sample Name="ttbar"  HistoPath="/VR1_mqph_hists/ttbar/"  HistoName="VR1_mqph_ttbar_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ttXsec"  High="1.056"  Low="0.944"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="EGamFake"  High="1.03639"  Low="0.963607"   /> 
+      <OverallSys Name="JGamFake"  High="1.18352"  Low="0.816476"   /> 
+      <OverallSys Name="PDF4"  High="0.988302"  Low="1.0117"   /> 
+      <OverallSys Name="BTag_B_NP1"  High="1.012"  Low="0.987997"   /> 
+      <OverallSys Name="BTag_B_NP2"  High="1.01326"  Low="0.986739"   /> 
+      <OverallSys Name="BTag_B_NP5"  High="0.987353"  Low="1.01265"   /> 
+      <OverallSys Name="BTag_B_NP7"  High="1.01521"  Low="0.984788"   /> 
+      <OverallSys Name="BTag_B_NP9"  High="0.98362"  Low="1.01638"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.01896"  Low="0.98104"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.0376"  Low="0.962401"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.983702"  Low="1.0163"   /> 
+      <OverallSys Name="JET_Pileup_OffsetNPV"  High="1.01178"  Low="0.988219"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.02018"  Low="0.979822"   /> 
+      <OverallSys Name="tt_Rad_HiLow"  High="1.12256"  Low="0.877436"   /> 
+      <OverallSys Name="tt_Generator"  High="1.39759"  Low="0.602413"   /> 
+      <NormFactor Name="mu_tt"  Val="1.061"  High="10"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttbar_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttbar/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttbar_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttbar/"   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttbar_EGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttbar/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttbar_EGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttbar/"   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttbar_JGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttbar/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttbar_JGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttbar/"   /> 
+      <HistoSys Name="JET_EffectiveNP_Modelling1"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttbar_JET_EffectiveNP_Modelling1_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttbar/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttbar_JET_EffectiveNP_Modelling1_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttbar/"   /> 
+      <HistoSys Name="JET_Flavor_Composition"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttbar_JET_Flavor_Composition_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttbar/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttbar_JET_Flavor_Composition_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttbar/"   /> 
+      <HistoSys Name="JET_Pileup_RhoTopology"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttbar_JET_Pileup_RhoTopology_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttbar/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttbar_JET_Pileup_RhoTopology_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttbar/"   /> 
+      <HistoSys Name="tt_Rad_HiLow"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttbar_tt_Rad_HiLow_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttbar/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttbar_tt_Rad_HiLow_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttbar/"   /> 
+      <HistoSys Name="tt_Generator"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttbar_tt_Generator_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttbar/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttbar_tt_Generator_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttbar/"   /> 
+    </Sample>
+
+
+    <Sample Name="ttgam"  HistoPath="/VR1_mqph_hists/ttgam/"  HistoName="VR1_mqph_ttgam_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ttgamXsec"  High="1.08"  Low="0.92"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Scalemurmufttgam"  High="0.984812"  Low="0.945679"   /> 
+      <OverallSys Name="PDF4"  High="0.988302"  Low="1.0117"   /> 
+      <OverallSys Name="BTag_B_NP1"  High="1.01139"  Low="0.988612"   /> 
+      <OverallSys Name="BTag_B_NP2"  High="1.0137"  Low="0.986304"   /> 
+      <OverallSys Name="BTag_B_NP5"  High="0.988943"  Low="1.01106"   /> 
+      <OverallSys Name="BTag_B_NP7"  High="1.01251"  Low="0.987493"   /> 
+      <OverallSys Name="BTag_B_NP9"  High="0.98626"  Low="1.01374"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.01131"  Low="0.988687"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.02557"  Low="0.97443"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.987683"  Low="1.01232"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.01097"  Low="0.989029"   /> 
+      <NormFactor Name="mu_ttgam"  Val="1"  High="2"  Low="0.5"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttgam_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttgam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttgam_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttgam/"   /> 
+      <HistoSys Name="BTag_B_NP1"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttgam_BTag_B_NP1_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttgam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttgam_BTag_B_NP1_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttgam/"   /> 
+      <HistoSys Name="BTag_B_NP2"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttgam_BTag_B_NP2_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttgam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttgam_BTag_B_NP2_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttgam/"   /> 
+      <HistoSys Name="MET_SoftTrk_ResoPerp"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttgam_MET_SoftTrk_ResoPerp_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttgam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttgam_MET_SoftTrk_ResoPerp_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttgam/"   /> 
+    </Sample>
+
+
+    <Sample Name="VV"  HistoPath="/VR1_mqph_hists/VV/"  HistoName="VR1_mqph_VV_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VVXsec"  High="1.06"  Low="0.94"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.0101"  Low="0.989898"   /> 
+      <OverallSys Name="Pileup"  High="1.01028"  Low="1.01026"   /> 
+      <OverallSys Name="EGamFake"  High="1.0393"  Low="0.960705"   /> 
+      <OverallSys Name="JGamFake"  High="1.16238"  Low="0.837623"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.02571"  Low="0.974291"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.01379"  Low="0.986211"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.04508"  Low="0.954923"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.980552"  Low="1.01945"   /> 
+      <OverallSys Name="JET_Pileup_OffsetNPV"  High="1.01453"  Low="0.985466"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.02548"  Low="0.974524"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_VV_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/VV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_VV_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/VV/"   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_VV_EGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/VV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_VV_EGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/VV/"   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_VV_JGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/VV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_VV_JGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/VV/"   /> 
+    </Sample>
+
+
+    <Sample Name="singleTop"  HistoPath="/VR1_mqph_hists/singleTop/"  HistoName="VR1_mqph_singleTop_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="stXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Pileup"  High="1.03675"  Low="0.98737"   /> 
+      <OverallSys Name="EGamFake"  High="1.01542"  Low="0.984578"   /> 
+      <OverallSys Name="JGamFake"  High="1.13096"  Low="0.86904"   /> 
+      <OverallSys Name="NNPDFUncertainty"  High="0.974913"  Low="1.02509"   /> 
+      <OverallSys Name="BTag_B_NP1"  High="1.01284"  Low="0.98716"   /> 
+      <OverallSys Name="BTag_B_NP2"  High="1.01477"  Low="0.985228"   /> 
+      <OverallSys Name="BTag_B_NP7"  High="1.01261"  Low="0.987392"   /> 
+      <OverallSys Name="EG_Scale"  High="1.01252"  Low="0.987479"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.0223"  Low="0.977702"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.0486"  Low="0.951552"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.980189"  Low="1.01981"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.02132"  Low="0.978684"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_singleTop_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/singleTop/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_singleTop_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/singleTop/"   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_singleTop_EGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/singleTop/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_singleTop_EGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/singleTop/"   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_singleTop_JGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/singleTop/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_singleTop_JGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/singleTop/"   /> 
+    </Sample>
+
+
+    <Sample Name="ttV"  HistoPath="/VR1_mqph_hists/ttV/"  HistoName="VR1_mqph_ttV_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="EGamFake"  High="1.02828"  Low="0.971721"   /> 
+      <OverallSys Name="JGamFake"  High="1.10109"  Low="0.898912"   /> 
+      <OverallSys Name="BTag_B_NP2"  High="1.01693"  Low="0.98307"   /> 
+      <OverallSys Name="BTag_B_NP5"  High="0.988574"  Low="1.01143"   /> 
+      <OverallSys Name="BTag_B_NP9"  High="0.987471"  Low="1.01253"   /> 
+      <OverallSys Name="EG_Scale"  High="1.01333"  Low="0.986669"   /> 
+      <OverallSys Name="JET_BJES_Response"  High="0.979917"  Low="1.02008"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="0.989729"  Low="1.01027"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttV_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttV_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttV/"   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttV_EGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttV_EGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttV/"   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttV_JGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttV_JGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttV/"   /> 
+      <HistoSys Name="MET_SoftTrk_ResoPerp"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttV_MET_SoftTrk_ResoPerp_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttV_MET_SoftTrk_ResoPerp_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttV/"   /> 
+      <HistoSys Name="EG_Scale"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttV_EG_Scale_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttV_EG_Scale_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttV/"   /> 
+      <HistoSys Name="JET_Flavor_Composition"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ttV_JET_Flavor_Composition_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ttV/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ttV_JET_Flavor_Composition_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ttV/"   /> 
+    </Sample>
+
+
+    <Sample Name="WGam"  HistoPath="/VR1_mqph_hists/WGam/"  HistoName="VR1_mqph_WGam_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="ScalemurmufWgam"  High="1.14538"  Low="0.89809"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.02969"  Low="0.970315"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.01306"  Low="0.986937"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.05735"  Low="0.942653"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.975156"  Low="1.02484"   /> 
+      <OverallSys Name="JET_Pileup_OffsetNPV"  High="1.01509"  Low="0.98491"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.0293"  Low="0.970701"   /> 
+      <NormFactor Name="mu_WGam"  Val="1"  High="2"  Low="0.5"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WGam_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WGam_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WGam/"   /> 
+      <HistoSys Name="ScalemurmufWgam"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WGam_ScalemurmufWgam_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WGam_ScalemurmufWgam_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WGam/"   /> 
+      <HistoSys Name="JET_EffectiveNP_Modelling1"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WGam_JET_EffectiveNP_Modelling1_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WGam_JET_EffectiveNP_Modelling1_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WGam/"   /> 
+      <HistoSys Name="JET_Flavor_Composition"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WGam_JET_Flavor_Composition_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WGam_JET_Flavor_Composition_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WGam/"   /> 
+      <HistoSys Name="JET_Pileup_RhoTopology"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WGam_JET_Pileup_RhoTopology_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WGam_JET_Pileup_RhoTopology_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WGam/"   /> 
+    </Sample>
+
+
+    <Sample Name="WJets"  HistoPath="/VR1_mqph_hists/WJets/"  HistoName="VR1_mqph_WJets_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Pileup"  High="1.03748"  Low="0.988753"   /> 
+      <OverallSys Name="JGamFake"  High="1.28201"  Low="0.717993"   /> 
+      <OverallSys Name="NNPDFUncertainty"  High="1.48635"  Low="0.532139"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.04021"  Low="0.959794"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.01518"  Low="0.984821"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.08183"  Low="0.91817"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.960794"  Low="1.03921"   /> 
+      <OverallSys Name="JET_Pileup_OffsetMu"  High="1.01371"  Low="0.986294"   /> 
+      <OverallSys Name="JET_Pileup_OffsetNPV"  High="1.03409"  Low="0.965906"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.0439"  Low="0.956098"   /> 
+      <NormFactor Name="mu_W"  Val="1.216"  High="10"  Low="0"  Const="False"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WJets_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WJets_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WJets/"   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WJets_JGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WJets_JGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WJets/"   /> 
+      <HistoSys Name="NNPDFUncertainty"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WJets_NNPDFUncertainty_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WJets_NNPDFUncertainty_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WJets/"   /> 
+      <HistoSys Name="JET_Flavor_Composition"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WJets_JET_Flavor_Composition_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WJets_JET_Flavor_Composition_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WJets/"   /> 
+      <HistoSys Name="JET_Pileup_OffsetNPV"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WJets_JET_Pileup_OffsetNPV_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WJets_JET_Pileup_OffsetNPV_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WJets/"   /> 
+      <HistoSys Name="JET_Pileup_RhoTopology"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_WJets_JET_Pileup_RhoTopology_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_WJets_JET_Pileup_RhoTopology_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/WJets/"   /> 
+    </Sample>
+
+
+    <Sample Name="ZJets"  HistoPath="/VR1_mqph_hists/ZJets/"  HistoName="VR1_mqph_ZJets_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.01063"  Low="0.989372"   /> 
+      <OverallSys Name="Pileup"  High="1.01989"  Low="0.989936"   /> 
+      <OverallSys Name="EGamFake"  High="1.07687"  Low="0.923135"   /> 
+      <OverallSys Name="JGamFake"  High="1.06381"  Low="0.936194"   /> 
+      <OverallSys Name="ScalemurmufZJets"  High="1.3081"  Low="0.806717"   /> 
+      <OverallSys Name="NNPDFUncertainty"  High="1.01322"  Low="0.986778"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPara"  High="0.986035"  Low="1.01396"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPerp"  High="0.96862"  Low="1.03138"   /> 
+      <OverallSys Name="MET_SoftTrk_Scale"  High="0.973157"  Low="1.02684"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.02941"  Low="0.970586"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.01939"  Low="0.98061"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.06396"  Low="0.936037"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.969636"  Low="1.03036"   /> 
+      <OverallSys Name="JET_Pileup_OffsetMu"  High="1.02741"  Low="0.972588"   /> 
+      <OverallSys Name="JET_Pileup_OffsetNPV"  High="1.02662"  Low="0.973385"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.03183"  Low="0.968167"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZJets_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZJets_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZJets/"   /> 
+      <HistoSys Name="EGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZJets_EGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZJets_EGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZJets/"   /> 
+      <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZJets_JGamFake_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZJets_JGamFake_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZJets/"   /> 
+      <HistoSys Name="ScalemurmufZJets"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZJets_ScalemurmufZJets_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZJets_ScalemurmufZJets_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZJets/"   /> 
+      <HistoSys Name="NNPDFUncertainty"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZJets_NNPDFUncertainty_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZJets_NNPDFUncertainty_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZJets/"   /> 
+      <HistoSys Name="JET_Pileup_PtTerm"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZJets_JET_Pileup_PtTerm_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZJets_JET_Pileup_PtTerm_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZJets/"   /> 
+    </Sample>
+
+
+    <Sample Name="ZGam"  HistoPath="/VR1_mqph_hists/ZGam/"  HistoName="VR1_mqph_ZGam_regBin"  InputFile="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="VjetXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="LepSF_EL_ID"  High="1.01046"  Low="0.989538"   /> 
+      <OverallSys Name="ScalemurmufZgam"  High="1.13552"  Low="0.913935"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPara"  High="0.963253"  Low="1.03675"   /> 
+      <OverallSys Name="MET_SoftTrk_ResoPerp"  High="0.971522"  Low="1.02848"   /> 
+      <OverallSys Name="MET_SoftTrk_Scale"  High="0.966863"  Low="1.03314"   /> 
+      <OverallSys Name="EG_Scale"  High="1.01112"  Low="0.988881"   /> 
+      <OverallSys Name="JET_EffectiveNP_Modelling1"  High="1.03336"  Low="0.966643"   /> 
+      <OverallSys Name="JET_EtaIntercalibration_Modeling1"  High="1.01828"  Low="0.981721"   /> 
+      <OverallSys Name="JET_Flavor_Composition"  High="1.06618"  Low="0.933824"   /> 
+      <OverallSys Name="JET_Flavor_Response"  High="0.969327"  Low="1.03067"   /> 
+      <OverallSys Name="JET_Pileup_OffsetMu"  High="1.01471"  Low="0.985286"   /> 
+      <OverallSys Name="JET_Pileup_OffsetNPV"  High="1.02169"  Low="0.97831"   /> 
+      <OverallSys Name="JET_Pileup_RhoTopology"  High="1.03717"  Low="0.962831"   /> 
+      <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZGam_Pileup_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZGam_Pileup_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZGam/"   /> 
+      <HistoSys Name="ScalemurmufZgam"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZGam_ScalemurmufZgam_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZGam_ScalemurmufZgam_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZGam/"   /> 
+      <HistoSys Name="MET_SoftTrk_ResoPerp"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZGam_MET_SoftTrk_ResoPerp_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZGam_MET_SoftTrk_ResoPerp_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZGam/"   /> 
+      <HistoSys Name="JET_EffectiveNP_Modelling1"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZGam_JET_EffectiveNP_Modelling1_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZGam_JET_EffectiveNP_Modelling1_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZGam/"   /> 
+      <HistoSys Name="JET_Flavor_Composition"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZGam_JET_Flavor_Composition_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZGam_JET_Flavor_Composition_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZGam/"   /> 
+      <HistoSys Name="JET_Flavor_Response"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZGam_JET_Flavor_Response_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZGam_JET_Flavor_Response_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZGam/"   /> 
+      <HistoSys Name="JET_Pileup_OffsetNPV"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZGam_JET_Pileup_OffsetNPV_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZGam_JET_Pileup_OffsetNPV_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZGam/"   /> 
+      <HistoSys Name="JET_Pileup_RhoTopology"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="VR1_mqph_ZGam_JET_Pileup_RhoTopology_Shape_Down_regBin"  HistoPathLow="/VR1_mqph_hists/ZGam/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="VR1_mqph_ZGam_JET_Pileup_RhoTopology_Shape_Up_regBin"  HistoPathHigh="/VR1_mqph_hists/ZGam/"   /> 
+    </Sample>
+
+
+
+  </Channel>  

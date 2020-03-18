@@ -1,0 +1,3 @@
+ |       | FCNC      | t#bar{t} + jets      | t#bar{t} +  gam      | VV      | Single Top      | t#bar{t} + V      | W+Gam      | W + jets      | Z + jets      | Z+Gam |
+ | Instrumental | 0.0552 | 0.0624 | 0.0615 | 0.0524 | 0.0583 | 0.0621 | 0.0519 | 0.0532 | 0.0627 | 0.0651 |
+ | Theory | 0 | 0.436 | 0.08 | 0.06 | 0.05 | 0 | 0.05 | 0.05 | 0.05 | 0.05 |

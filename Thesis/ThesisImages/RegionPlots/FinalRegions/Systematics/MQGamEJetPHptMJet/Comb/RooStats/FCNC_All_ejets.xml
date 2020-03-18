@@ -1,0 +1,17 @@
+<!--
+This xml file created automatically on: 
+2020-3-18
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="FCNC_All_ejets/RooStats/FCNC_All_ejets" >
+
+
+  <Input>././Comb/RooStats//FCNC_All_ejets_SR_mqph.xml</Input>
+
+  <Measurement Name="FCNC_All_ejets" Lumi="1" LumiRelErr="0.1" ExportOnly="True"  >
+    <POI>SigXsecOverSM</POI>  
+    <ParamSetting Const="True">Lumi mu_tt mu_W</ParamSetting>
+  </Measurement> 
+
+</Combination>

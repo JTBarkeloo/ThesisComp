@@ -1,0 +1,2044 @@
+-------///////                 ///////-------
+-------/////// IN PRUNING PLOT ///////-------
+-------///////                 ///////-------
+In Region : SRmu_mqph
+ -> In Sample : FCNC
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is not present
+ --->>  PDF2      is not present
+ --->>  PDF3      is not present
+ --->>  PDF4      is not present
+ --->>  PDF5      is not present
+ --->>  PDF6      is not present
+ --->>  PDF7      is not present
+ --->>  PDF8      is not present
+ --->>  PDF9      is not present
+ --->>  PDF10      is not present
+ --->>  PDF11      is not present
+ --->>  PDF12      is not present
+ --->>  PDF13      is not present
+ --->>  PDF14      is not present
+ --->>  PDF15      is not present
+ --->>  PDF16      is not present
+ --->>  PDF17      is not present
+ --->>  PDF18      is not present
+ --->>  PDF19      is not present
+ --->>  PDF20      is not present
+ --->>  PDF21      is not present
+ --->>  PDF22      is not present
+ --->>  PDF23      is not present
+ --->>  PDF24      is not present
+ --->>  PDF25      is not present
+ --->>  PDF26      is not present
+ --->>  PDF27      is not present
+ --->>  PDF28      is not present
+ --->>  PDF29      is not present
+ --->>  PDF30      is not present
+ --->>  NNPDFUncertainty      is dropped
+ --->>  BTag_C_NP1      is dropped
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is dropped
+ --->>  BTag_Light_NP2      is dropped
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is dropped
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is dropped
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is dropped
+ --->>  BTag_Light_NP11      is dropped
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is dropped
+ --->>  Muons_MS      is shape only
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is dropped
+ --->>  MET_SoftTrk_ResoPerp      is shape only
+ --->>  MET_SoftTrk_Scale      is dropped
+ --->>  EG_Resolution      is dropped
+ --->>  EG_Scale      is shape only
+ --->>  EG_Scale_AF2      is shape only
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is shape only
+ --->>  JET_EffectiveNP_Mixed2      is shape only
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is shape only
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is shape only
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is shape only
+ --->>  JET_Flavor_Composition      is shape only
+ --->>  JET_Flavor_Response      is shape only
+ --->>  JER_DataVsMC      is not present
+ --->>  JER_DataVsMCAFII      is dropped
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is shape only
+ --->>  JET_Pileup_OffsetNPV      is shape only
+ --->>  JET_Pileup_PtTerm      is dropped
+ --->>  JET_Pileup_RhoTopology      is shape only
+ --->>  JET_PunchThrough_AFII      is dropped
+ --->>  JET_RelativeNonClosure_AFII      is shape only
+ --->>  JET_PunchThrough_MC16      is not present
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
+ -> In Sample : ttbar
+ --->>  ttXsec      is norm only
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ --->>  Scalemurmufttbar      is dropped
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is dropped
+ --->>  PDF2      is dropped
+ --->>  PDF3      is dropped
+ --->>  PDF4      is norm only
+ --->>  PDF5      is dropped
+ --->>  PDF6      is dropped
+ --->>  PDF7      is dropped
+ --->>  PDF8      is dropped
+ --->>  PDF9      is dropped
+ --->>  PDF10      is dropped
+ --->>  PDF11      is dropped
+ --->>  PDF12      is dropped
+ --->>  PDF13      is dropped
+ --->>  PDF14      is dropped
+ --->>  PDF15      is dropped
+ --->>  PDF16      is dropped
+ --->>  PDF17      is dropped
+ --->>  PDF18      is dropped
+ --->>  PDF19      is dropped
+ --->>  PDF20      is dropped
+ --->>  PDF21      is dropped
+ --->>  PDF22      is dropped
+ --->>  PDF23      is dropped
+ --->>  PDF24      is dropped
+ --->>  PDF25      is dropped
+ --->>  PDF26      is dropped
+ --->>  PDF27      is dropped
+ --->>  PDF28      is dropped
+ --->>  PDF29      is dropped
+ --->>  PDF30      is dropped
+ --->>  NNPDFUncertainty      is not present
+ --->>  BTag_C_NP1      is dropped
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is dropped
+ --->>  BTag_Light_NP2      is dropped
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is dropped
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is dropped
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is dropped
+ --->>  BTag_Light_NP11      is dropped
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is dropped
+ --->>  Muons_MS      is dropped
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is dropped
+ --->>  MET_SoftTrk_ResoPerp      is norm only
+ --->>  MET_SoftTrk_Scale      is dropped
+ --->>  EG_Resolution      is dropped
+ --->>  EG_Scale      is kept
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is shape only
+ --->>  JET_EffectiveNP_Mixed2      is dropped
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is kept
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is shape only
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is dropped
+ --->>  JET_Flavor_Composition      is shape only
+ --->>  JET_Flavor_Response      is shape only
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is dropped
+ --->>  JET_Pileup_OffsetNPV      is shape only
+ --->>  JET_Pileup_PtTerm      is shape only
+ --->>  JET_Pileup_RhoTopology      is kept
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is kept
+ --->>  tt_Generator      is kept
+ -> In Sample : ttgam
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is norm only
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is norm only
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is dropped
+ --->>  PDF2      is dropped
+ --->>  PDF3      is dropped
+ --->>  PDF4      is norm only
+ --->>  PDF5      is dropped
+ --->>  PDF6      is dropped
+ --->>  PDF7      is dropped
+ --->>  PDF8      is dropped
+ --->>  PDF9      is dropped
+ --->>  PDF10      is dropped
+ --->>  PDF11      is dropped
+ --->>  PDF12      is dropped
+ --->>  PDF13      is dropped
+ --->>  PDF14      is dropped
+ --->>  PDF15      is dropped
+ --->>  PDF16      is dropped
+ --->>  PDF17      is dropped
+ --->>  PDF18      is dropped
+ --->>  PDF19      is dropped
+ --->>  PDF20      is dropped
+ --->>  PDF21      is dropped
+ --->>  PDF22      is dropped
+ --->>  PDF23      is dropped
+ --->>  PDF24      is dropped
+ --->>  PDF25      is dropped
+ --->>  PDF26      is dropped
+ --->>  PDF27      is dropped
+ --->>  PDF28      is dropped
+ --->>  PDF29      is dropped
+ --->>  PDF30      is dropped
+ --->>  NNPDFUncertainty      is not present
+ --->>  BTag_C_NP1      is dropped
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is dropped
+ --->>  BTag_Light_NP2      is dropped
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is dropped
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is dropped
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is dropped
+ --->>  BTag_Light_NP11      is dropped
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is dropped
+ --->>  Muons_MS      is dropped
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is dropped
+ --->>  MET_SoftTrk_ResoPerp      is dropped
+ --->>  MET_SoftTrk_Scale      is dropped
+ --->>  EG_Resolution      is dropped
+ --->>  EG_Scale      is kept
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed2      is dropped
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is kept
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is shape only
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is dropped
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is dropped
+ --->>  JET_Flavor_Composition      is kept
+ --->>  JET_Flavor_Response      is shape only
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is shape only
+ --->>  JET_Pileup_OffsetNPV      is dropped
+ --->>  JET_Pileup_PtTerm      is shape only
+ --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
+ -> In Sample : VV
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is norm only
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is dropped
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is not present
+ --->>  PDF2      is not present
+ --->>  PDF3      is not present
+ --->>  PDF4      is not present
+ --->>  PDF5      is not present
+ --->>  PDF6      is not present
+ --->>  PDF7      is not present
+ --->>  PDF8      is not present
+ --->>  PDF9      is not present
+ --->>  PDF10      is not present
+ --->>  PDF11      is not present
+ --->>  PDF12      is not present
+ --->>  PDF13      is not present
+ --->>  PDF14      is not present
+ --->>  PDF15      is not present
+ --->>  PDF16      is not present
+ --->>  PDF17      is not present
+ --->>  PDF18      is not present
+ --->>  PDF19      is not present
+ --->>  PDF20      is not present
+ --->>  PDF21      is not present
+ --->>  PDF22      is not present
+ --->>  PDF23      is not present
+ --->>  PDF24      is not present
+ --->>  PDF25      is not present
+ --->>  PDF26      is not present
+ --->>  PDF27      is not present
+ --->>  PDF28      is not present
+ --->>  PDF29      is not present
+ --->>  PDF30      is not present
+ --->>  NNPDFUncertainty      is dropped
+ --->>  BTag_C_NP1      is norm only
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is norm only
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is norm only
+ --->>  BTag_Light_NP2      is norm only
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is dropped
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is dropped
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is dropped
+ --->>  BTag_Light_NP11      is norm only
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is norm only
+ --->>  Muons_MS      is dropped
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is norm only
+ --->>  MET_SoftTrk_ResoPerp      is norm only
+ --->>  MET_SoftTrk_Scale      is dropped
+ --->>  EG_Resolution      is dropped
+ --->>  EG_Scale      is norm only
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed2      is dropped
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is norm only
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is dropped
+ --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Response      is norm only
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is norm only
+ --->>  JET_Pileup_OffsetNPV      is dropped
+ --->>  JET_Pileup_PtTerm      is norm only
+ --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
+ -> In Sample : singleTop
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is norm only
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is dropped
+ --->>  PDF1      is not present
+ --->>  PDF2      is not present
+ --->>  PDF3      is not present
+ --->>  PDF4      is not present
+ --->>  PDF5      is not present
+ --->>  PDF6      is not present
+ --->>  PDF7      is not present
+ --->>  PDF8      is not present
+ --->>  PDF9      is not present
+ --->>  PDF10      is not present
+ --->>  PDF11      is not present
+ --->>  PDF12      is not present
+ --->>  PDF13      is not present
+ --->>  PDF14      is not present
+ --->>  PDF15      is not present
+ --->>  PDF16      is not present
+ --->>  PDF17      is not present
+ --->>  PDF18      is not present
+ --->>  PDF19      is not present
+ --->>  PDF20      is not present
+ --->>  PDF21      is not present
+ --->>  PDF22      is not present
+ --->>  PDF23      is not present
+ --->>  PDF24      is not present
+ --->>  PDF25      is not present
+ --->>  PDF26      is not present
+ --->>  PDF27      is not present
+ --->>  PDF28      is not present
+ --->>  PDF29      is not present
+ --->>  PDF30      is not present
+ --->>  NNPDFUncertainty      is kept
+ --->>  BTag_C_NP1      is dropped
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is norm only
+ --->>  BTag_Light_NP2      is dropped
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is dropped
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is dropped
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is dropped
+ --->>  BTag_Light_NP11      is dropped
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is dropped
+ --->>  Muons_MS      is dropped
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is norm only
+ --->>  MET_SoftTrk_ResoPerp      is dropped
+ --->>  MET_SoftTrk_Scale      is dropped
+ --->>  EG_Resolution      is dropped
+ --->>  EG_Scale      is norm only
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed2      is dropped
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is dropped
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is dropped
+ --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Response      is dropped
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is dropped
+ --->>  JET_Pileup_OffsetNPV      is dropped
+ --->>  JET_Pileup_PtTerm      is dropped
+ --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
+ -> In Sample : ttV
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is not present
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is shape only
+ --->>  JVT      is shape only
+ --->>  EGamFake      is kept
+ --->>  JGamFake      is kept
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is not present
+ --->>  PDF2      is not present
+ --->>  PDF3      is not present
+ --->>  PDF4      is not present
+ --->>  PDF5      is not present
+ --->>  PDF6      is not present
+ --->>  PDF7      is not present
+ --->>  PDF8      is not present
+ --->>  PDF9      is not present
+ --->>  PDF10      is not present
+ --->>  PDF11      is not present
+ --->>  PDF12      is not present
+ --->>  PDF13      is not present
+ --->>  PDF14      is not present
+ --->>  PDF15      is not present
+ --->>  PDF16      is not present
+ --->>  PDF17      is not present
+ --->>  PDF18      is not present
+ --->>  PDF19      is not present
+ --->>  PDF20      is not present
+ --->>  PDF21      is not present
+ --->>  PDF22      is not present
+ --->>  PDF23      is not present
+ --->>  PDF24      is not present
+ --->>  PDF25      is not present
+ --->>  PDF26      is not present
+ --->>  PDF27      is not present
+ --->>  PDF28      is not present
+ --->>  PDF29      is not present
+ --->>  PDF30      is not present
+ --->>  NNPDFUncertainty      is dropped
+ --->>  BTag_C_NP1      is dropped
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is dropped
+ --->>  BTag_Light_NP2      is dropped
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is dropped
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is dropped
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is dropped
+ --->>  BTag_Light_NP11      is dropped
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is dropped
+ --->>  Muons_MS      is norm only
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is norm only
+ --->>  MET_SoftTrk_ResoPerp      is dropped
+ --->>  MET_SoftTrk_Scale      is dropped
+ --->>  EG_Resolution      is dropped
+ --->>  EG_Scale      is dropped
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed2      is dropped
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is norm only
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is norm only
+ --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Response      is norm only
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is dropped
+ --->>  JET_Pileup_OffsetNPV      is dropped
+ --->>  JET_Pileup_PtTerm      is norm only
+ --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
+ -> In Sample : WGam
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is dropped
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is kept
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is not present
+ --->>  PDF2      is not present
+ --->>  PDF3      is not present
+ --->>  PDF4      is not present
+ --->>  PDF5      is not present
+ --->>  PDF6      is not present
+ --->>  PDF7      is not present
+ --->>  PDF8      is not present
+ --->>  PDF9      is not present
+ --->>  PDF10      is not present
+ --->>  PDF11      is not present
+ --->>  PDF12      is not present
+ --->>  PDF13      is not present
+ --->>  PDF14      is not present
+ --->>  PDF15      is not present
+ --->>  PDF16      is not present
+ --->>  PDF17      is not present
+ --->>  PDF18      is not present
+ --->>  PDF19      is not present
+ --->>  PDF20      is not present
+ --->>  PDF21      is not present
+ --->>  PDF22      is not present
+ --->>  PDF23      is not present
+ --->>  PDF24      is not present
+ --->>  PDF25      is not present
+ --->>  PDF26      is not present
+ --->>  PDF27      is not present
+ --->>  PDF28      is not present
+ --->>  PDF29      is not present
+ --->>  PDF30      is not present
+ --->>  NNPDFUncertainty      is dropped
+ --->>  BTag_C_NP1      is norm only
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is norm only
+ --->>  BTag_Light_NP2      is norm only
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is dropped
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is dropped
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is dropped
+ --->>  BTag_Light_NP11      is dropped
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is norm only
+ --->>  Muons_MS      is dropped
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is dropped
+ --->>  MET_SoftTrk_ResoPerp      is norm only
+ --->>  MET_SoftTrk_Scale      is dropped
+ --->>  EG_Resolution      is norm only
+ --->>  EG_Scale      is norm only
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is norm only
+ --->>  JET_EffectiveNP_Mixed2      is norm only
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is norm only
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is norm only
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is norm only
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is norm only
+ --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Response      is dropped
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is dropped
+ --->>  JET_Pileup_OffsetNPV      is norm only
+ --->>  JET_Pileup_PtTerm      is dropped
+ --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
+ -> In Sample : WJets
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is shape only
+ --->>  JGamFake      is kept
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is not present
+ --->>  PDF2      is not present
+ --->>  PDF3      is not present
+ --->>  PDF4      is not present
+ --->>  PDF5      is not present
+ --->>  PDF6      is not present
+ --->>  PDF7      is not present
+ --->>  PDF8      is not present
+ --->>  PDF9      is not present
+ --->>  PDF10      is not present
+ --->>  PDF11      is not present
+ --->>  PDF12      is not present
+ --->>  PDF13      is not present
+ --->>  PDF14      is not present
+ --->>  PDF15      is not present
+ --->>  PDF16      is not present
+ --->>  PDF17      is not present
+ --->>  PDF18      is not present
+ --->>  PDF19      is not present
+ --->>  PDF20      is not present
+ --->>  PDF21      is not present
+ --->>  PDF22      is not present
+ --->>  PDF23      is not present
+ --->>  PDF24      is not present
+ --->>  PDF25      is not present
+ --->>  PDF26      is not present
+ --->>  PDF27      is not present
+ --->>  PDF28      is not present
+ --->>  PDF29      is not present
+ --->>  PDF30      is not present
+ --->>  NNPDFUncertainty      is kept
+ --->>  BTag_C_NP1      is dropped
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is norm only
+ --->>  BTag_Light_NP2      is norm only
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is norm only
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is norm only
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is norm only
+ --->>  BTag_Light_NP10      is norm only
+ --->>  BTag_Light_NP11      is norm only
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is dropped
+ --->>  Muons_MS      is dropped
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is norm only
+ --->>  MET_SoftTrk_ResoPerp      is dropped
+ --->>  MET_SoftTrk_Scale      is norm only
+ --->>  EG_Resolution      is norm only
+ --->>  EG_Scale      is dropped
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is norm only
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed2      is dropped
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is norm only
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is dropped
+ --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Response      is norm only
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is dropped
+ --->>  JET_Pileup_OffsetNPV      is dropped
+ --->>  JET_Pileup_PtTerm      is dropped
+ --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
+ -> In Sample : ZJets
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is shape only
+ --->>  Pileup      is shape only
+ --->>  JVT      is shape only
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is kept
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is not present
+ --->>  ScalemurmufZJets      is kept
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is not present
+ --->>  PDF2      is not present
+ --->>  PDF3      is not present
+ --->>  PDF4      is not present
+ --->>  PDF5      is not present
+ --->>  PDF6      is not present
+ --->>  PDF7      is not present
+ --->>  PDF8      is not present
+ --->>  PDF9      is not present
+ --->>  PDF10      is not present
+ --->>  PDF11      is not present
+ --->>  PDF12      is not present
+ --->>  PDF13      is not present
+ --->>  PDF14      is not present
+ --->>  PDF15      is not present
+ --->>  PDF16      is not present
+ --->>  PDF17      is not present
+ --->>  PDF18      is not present
+ --->>  PDF19      is not present
+ --->>  PDF20      is not present
+ --->>  PDF21      is not present
+ --->>  PDF22      is not present
+ --->>  PDF23      is not present
+ --->>  PDF24      is not present
+ --->>  PDF25      is not present
+ --->>  PDF26      is not present
+ --->>  PDF27      is not present
+ --->>  PDF28      is not present
+ --->>  PDF29      is not present
+ --->>  PDF30      is not present
+ --->>  NNPDFUncertainty      is kept
+ --->>  BTag_C_NP1      is norm only
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is norm only
+ --->>  BTag_Light_NP2      is norm only
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is norm only
+ --->>  BTag_Light_NP5      is norm only
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is norm only
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is norm only
+ --->>  BTag_Light_NP11      is norm only
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is dropped
+ --->>  Muons_MS      is dropped
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is norm only
+ --->>  MET_SoftTrk_ResoPerp      is norm only
+ --->>  MET_SoftTrk_Scale      is norm only
+ --->>  EG_Resolution      is dropped
+ --->>  EG_Scale      is norm only
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed2      is dropped
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is norm only
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is norm only
+ --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Response      is norm only
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is dropped
+ --->>  JET_Pileup_OffsetNPV      is norm only
+ --->>  JET_Pileup_PtTerm      is dropped
+ --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
+ -> In Sample : ZGam
+ --->>  ttXsec      is not present
+ --->>  ttgamXsec      is not present
+ --->>  VjetXsec      is norm only
+ --->>  VVXsec      is not present
+ --->>  Lumi      is norm only
+ --->>  stXsec      is not present
+ --->>  LepSF_EL_Trigger      is dropped
+ --->>  LepSF_EL_Reco      is dropped
+ --->>  LepSF_EL_ID      is dropped
+ --->>  LepSF_EL_Isol      is dropped
+ --->>  LepSF_MU_ID_STAT      is dropped
+ --->>  LepSF_MU_ID_STAT_LOWPT      is dropped
+ --->>  LepSF_MU_ID_SYST      is dropped
+ --->>  LepSF_MU_ID_SYST_LOWPT      is dropped
+ --->>  LepSF_MU_Isol_STAT      is dropped
+ --->>  LepSF_MU_Isol_SYST      is dropped
+ --->>  LepSF_Mu_TTVA_STAT      is dropped
+ --->>  LepSF_Mu_TTVA_SYST      is dropped
+ --->>  LepSF_Mu_Trigger_STAT      is dropped
+ --->>  LepSF_Mu_Trigger_SYST      is dropped
+ --->>  PhotonSF_ID      is dropped
+ --->>  PhotonSF_effIso      is dropped
+ --->>  Pileup      is kept
+ --->>  JVT      is shape only
+ --->>  EGamFake      is dropped
+ --->>  JGamFake      is dropped
+ --->>  Scalemurmufttbar      is not present
+ --->>  Scalemurmufttgam      is not present
+ --->>  ScalemurmufWgam      is not present
+ --->>  ScalemurmufZgam      is kept
+ --->>  ScalemurmufZJets      is not present
+ --->>  ScalemurmufVV      is not present
+ --->>  Scalemurmuft      is not present
+ --->>  PDF1      is not present
+ --->>  PDF2      is not present
+ --->>  PDF3      is not present
+ --->>  PDF4      is not present
+ --->>  PDF5      is not present
+ --->>  PDF6      is not present
+ --->>  PDF7      is not present
+ --->>  PDF8      is not present
+ --->>  PDF9      is not present
+ --->>  PDF10      is not present
+ --->>  PDF11      is not present
+ --->>  PDF12      is not present
+ --->>  PDF13      is not present
+ --->>  PDF14      is not present
+ --->>  PDF15      is not present
+ --->>  PDF16      is not present
+ --->>  PDF17      is not present
+ --->>  PDF18      is not present
+ --->>  PDF19      is not present
+ --->>  PDF20      is not present
+ --->>  PDF21      is not present
+ --->>  PDF22      is not present
+ --->>  PDF23      is not present
+ --->>  PDF24      is not present
+ --->>  PDF25      is not present
+ --->>  PDF26      is not present
+ --->>  PDF27      is not present
+ --->>  PDF28      is not present
+ --->>  PDF29      is not present
+ --->>  PDF30      is not present
+ --->>  NNPDFUncertainty      is dropped
+ --->>  BTag_C_NP1      is norm only
+ --->>  BTag_C_NP2      is dropped
+ --->>  BTag_C_NP3      is dropped
+ --->>  BTag_C_NP4      is dropped
+ --->>  BTag_C_NP5      is dropped
+ --->>  BTag_C_NP6      is dropped
+ --->>  BTag_C_NP7      is dropped
+ --->>  BTag_C_NP8      is dropped
+ --->>  BTag_C_NP9      is dropped
+ --->>  BTag_C_NP10      is dropped
+ --->>  BTag_C_NP11      is dropped
+ --->>  BTag_C_NP12      is dropped
+ --->>  BTag_C_NP13      is dropped
+ --->>  BTag_C_NP14      is dropped
+ --->>  BTag_C_NP15      is dropped
+ --->>  BTag_C_NP16      is dropped
+ --->>  BTag_C_NP17      is dropped
+ --->>  BTag_C_NP18      is dropped
+ --->>  BTag_C_NP19      is dropped
+ --->>  BTag_C_NP20      is dropped
+ --->>  BTag_Light_NP1      is norm only
+ --->>  BTag_Light_NP2      is norm only
+ --->>  BTag_Light_NP3      is dropped
+ --->>  BTag_Light_NP4      is dropped
+ --->>  BTag_Light_NP5      is dropped
+ --->>  BTag_Light_NP6      is dropped
+ --->>  BTag_Light_NP7      is dropped
+ --->>  BTag_Light_NP8      is dropped
+ --->>  BTag_Light_NP9      is dropped
+ --->>  BTag_Light_NP10      is dropped
+ --->>  BTag_Light_NP11      is dropped
+ --->>  BTag_Light_NP12      is dropped
+ --->>  BTag_Light_NP13      is dropped
+ --->>  BTag_Light_NP14      is dropped
+ --->>  BTag_Light_NP15      is dropped
+ --->>  BTag_Light_NP16      is dropped
+ --->>  BTag_Light_NP17      is dropped
+ --->>  BTag_Light_NP18      is dropped
+ --->>  BTag_Light_NP19      is dropped
+ --->>  BTag_Light_NP20      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP1      is dropped
+ --->>  BTag_B_NP2      is dropped
+ --->>  BTag_B_NP3      is dropped
+ --->>  BTag_B_NP4      is dropped
+ --->>  BTag_B_NP5      is dropped
+ --->>  BTag_B_NP6      is dropped
+ --->>  BTag_B_NP7      is dropped
+ --->>  BTag_B_NP8      is dropped
+ --->>  BTag_B_NP9      is dropped
+ --->>  BTag_B_NP10      is dropped
+ --->>  BTag_B_NP11      is dropped
+ --->>  BTag_B_NP12      is dropped
+ --->>  BTag_B_NP13      is dropped
+ --->>  BTag_B_NP14      is dropped
+ --->>  BTag_B_NP15      is dropped
+ --->>  BTag_B_NP16      is dropped
+ --->>  BTag_B_NP17      is dropped
+ --->>  BTag_B_NP18      is dropped
+ --->>  BTag_B_NP19      is dropped
+ --->>  BTag_B_NP20      is dropped
+ --->>  BTag_B_NP21      is dropped
+ --->>  BTag_B_NP22      is dropped
+ --->>  BTag_B_NP23      is dropped
+ --->>  BTag_B_NP24      is dropped
+ --->>  BTag_B_NP25      is dropped
+ --->>  BTag_B_NP26      is dropped
+ --->>  BTag_B_NP27      is dropped
+ --->>  BTag_B_NP28      is dropped
+ --->>  BTag_B_NP29      is dropped
+ --->>  BTag_B_NP30      is dropped
+ --->>  BTag_B_NP31      is dropped
+ --->>  BTag_B_NP32      is dropped
+ --->>  BTag_B_NP33      is dropped
+ --->>  BTag_B_NP34      is dropped
+ --->>  BTag_B_NP35      is dropped
+ --->>  BTag_B_NP36      is dropped
+ --->>  BTag_B_NP37      is dropped
+ --->>  BTag_B_NP38      is dropped
+ --->>  BTag_B_NP39      is dropped
+ --->>  BTag_B_NP40      is dropped
+ --->>  BTag_B_NP41      is dropped
+ --->>  BTag_B_NP42      is dropped
+ --->>  BTag_B_NP43      is dropped
+ --->>  BTag_B_NP44      is dropped
+ --->>  BTag_B_NP45      is dropped
+ --->>  Muons_ID      is norm only
+ --->>  Muons_MS      is dropped
+ --->>  Muons_Scale      is dropped
+ --->>  Muons_Sagitta_ResBias      is dropped
+ --->>  Muons_Sagitta_Rho      is dropped
+ --->>  MET_SoftTrk_ResoPara      is norm only
+ --->>  MET_SoftTrk_ResoPerp      is norm only
+ --->>  MET_SoftTrk_Scale      is norm only
+ --->>  EG_Resolution      is dropped
+ --->>  EG_Scale      is norm only
+ --->>  EG_Scale_AF2      is dropped
+ --->>  JET_BJES_Response      is dropped
+ --->>  JET_EffectiveNP_Detector1      is dropped
+ --->>  JET_EffectiveNP_Detector2      is dropped
+ --->>  JET_EffectiveNP_Mixed1      is dropped
+ --->>  JET_EffectiveNP_Mixed2      is norm only
+ --->>  JET_EffectiveNP_Mixed3      is dropped
+ --->>  JET_EffectiveNP_Modelling1      is norm only
+ --->>  JET_EffectiveNP_Modelling2      is dropped
+ --->>  JET_EffectiveNP_Modelling3      is dropped
+ --->>  JET_EffectiveNP_Modelling4      is dropped
+ --->>  JET_EffectiveNP_Statistical1      is dropped
+ --->>  JET_EffectiveNP_Statistical2      is dropped
+ --->>  JET_EffectiveNP_Statiscal3      is dropped
+ --->>  JET_EffectiveNP_Statistical4      is dropped
+ --->>  JET_EffectiveNP_Statistical5      is dropped
+ --->>  JET_EffectiveNP_Statistical6      is dropped
+ --->>  JET_EtaIntercalibration_Modeling1      is norm only
+ --->>  JET_EtaInterCalibration_NonClosure_highE      is dropped
+ --->>  JET_EtaIntercalibration_NonClosure_negEta      is dropped
+ --->>  JET+EtaIntercalibration_NonClosure_posEta      is dropped
+ --->>  JET_EtaIntercalibration_TotalStat      is dropped
+ --->>  JET_Flavor_Composition      is norm only
+ --->>  JET_Flavor_Response      is norm only
+ --->>  JER_DataVsMC      is dropped
+ --->>  JER_DataVsMCAFII      is not present
+ --->>  JER_EffectiveNP_1      is dropped
+ --->>  JER_EffectiveNP_2      is dropped
+ --->>  JER_EffectiveNP_3      is dropped
+ --->>  JER_EffectiveNP_4      is dropped
+ --->>  JER_EffectiveNP_5      is dropped
+ --->>  JER_EffectiveNP_6      is dropped
+ --->>  JER_EffectiveNP_7restTerm      is dropped
+ --->>  JET_Pileup_OffsetMu      is norm only
+ --->>  JET_Pileup_OffsetNPV      is norm only
+ --->>  JET_Pileup_PtTerm      is norm only
+ --->>  JET_Pileup_RhoTopology      is norm only
+ --->>  JET_PunchThrough_AFII      is not present
+ --->>  JET_RelativeNonClosure_AFII      is not present
+ --->>  JET_PunchThrough_MC16      is dropped
+ --->>  JET_SingleParticle_HighPt      is dropped
+ --->>  tt_Rad_HiLow      is not present
+ --->>  tt_Generator      is not present
