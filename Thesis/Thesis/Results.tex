@@ -67,10 +67,12 @@ The nominal value is then varied up and down by this symmetrized value.  However
 Smoothing is a technique used to average statistics across bins.  This prevents large statistical spikes in many systematic uncertainties that are expected to provide small contributions.  The smoothing algorithm depends on two parameters, the tolerance and maximal number of slope changes taking advantage of bin and neighboring bin information.  Distributions are rebinned until the statistical uncertainty of each bin is below the tolerance and then the number of slope changes in the distribution is checked.  If the number of slope changes is smaller than the threshold of four the distribution is kept, else the first step is performed again with the tolerance value halved.  The smoothing algorithm 353QH \cite{Friedman:695770} is run to avoid artificially flat uncertaties being introduced in the first two steps.  All uncertainties are smoothed unless stated otherwise.  Smoothing does not change the overall normalizations of the uncertainty.
 
 \subsubsection{Pruning}
+\label{sec:Pruning}
 \textit{Pruning} uncertainties is done in order to reduce the number of nuisance parameters (NP) and stabalize the fit.  Uncertainties that would only have a small impact on the end result are removed.  An initial fit is calculated for each NP using the $\pm 1 \sigma$ variation, if the effect on the uncertainty is less than the given threshold of 1\% the contribution is removed from further fits. %Change to match final value on % threshold
 
 \section{Statistical Treatment of Results}
-A profile likelihood fit is performed simultaneously on the SR and W+$\gamma$+jets and $t\bar{t} +\gamma$+jets CRs.  The \textbf{TRExFitter} framework \cite{TRExFitter} was used for this analysis which provides a framework built upon existing code such as the \textbf{RooStats} project \cite{Moneta:2010pm}.
+\label{sec:StatTreatment}
+A profile likelihood fit is performed on the SR.  The \textbf{TRExFitter} framework \cite{TRExFitter} was used for this analysis which provides a framework built upon existing code such as the \textbf{RooStats} project \cite{Moneta:2010pm}.
 Following \cite{Lista:2016chp} as well as the fit preformed in \cite{GregorFCNC} we can define a likelihood function $\mathcal{L}$ that is generally defined in the following manner:
 \[ \mathcal{L} = \mathcal{L}(\mu,\theta|\overrightarrow{x})
 \]
@@ -131,40 +133,40 @@ Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal bra
 
 
 \section{Nuisance Parameters}
-The statistical analysis allows the uncertainties discussed in Section \ref{sec:NPUncertainties} to enter into the fits as nuisance parameters (NPs).  Each of these NPs is considered in all of the fit regions independently and dropped (pruned away) if it's effect is less than 1\%.  Many of the parameters are dropped and for some only the normalization or the shape impact is dropped.  A large number of NPs are considered for each region and include theory, experimental, and modeling uncertainties.
+The statistical analysis allows the uncertainties discussed in Section \ref{sec:NPUncertainties} to enter into the fits as nuisance parameters (NPs).  Each of these NPs is considered in all of the fit regions independently and dropped (pruned away) if it's effect is less than 1\%.  Many of the parameters are dropped and for some only the normalization or the shape impact is dropped.  A large number of NPs are considered for each region and include theory, experimental, and modeling uncertainties.  Various plots showing which nuisance parameters are kept and dropped, pull values for the nuisance parameters, the bin by bin $\gamma$ normalization factors, the goodness of fit, and correlation matrix between nuisance parameters are presented in this section for the best fit regions.
 
 %\subsection{$e$+jets Channel}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Pruning.png}
-	\caption[Nuisance parameters after pruning for $e$+jets channel]{Overview of nuisance parameters after pruning for the $e$+jets channel.  If shape or normalization impacts are smaller than 1\% that part of the nuisance parameter will be dropped in the final fit. }
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Pruning.png}
+	\caption[Nuisance parameters after pruning for $e$+jets channel]{Overview of nuisance parameters after pruning for the $e$+jets channel.  If shape or normalization impacts are smaller than 1\% that part of the nuisance parameter will be dropped in the final fit.}
 	\label{fig:Pruningejets}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/NuisPar.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/NuisPar.png}
 	\caption{Pull values for the various nuisance parameters considered in the fit for the $e$+jets channel.}
 	\label{fig:NPejets}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/Gammas.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Gammas.png}
 	\caption{Bin by bin normalization $\gamma$ factors used in each region for the $e$+jets channel.}
 	\label{fig:Gammasejets}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/LHoodPlots/NLLscan_SigXsecOverSM.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/LHoodPlots/NLLscan_SigXsecOverSM.png}
 	\caption{Negative-log likelihood (goodness of fit) as a function of signal strength using data in all regions for the $e$+jets channel.}
 	\label{fig:NLLejets}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_ejets/CorrMatrix.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/CorrMatrix.png}
 	\caption[Correlation matrix  with at least one coefficient above 20\% for $e$+jets channel]{Correlation matrix  with at least one coefficient above 20\% for $e$+jets channel }
 	\label{fig:Correjets}
 \end{figure}
@@ -173,44 +175,190 @@ The statistical analysis allows the uncertainties discussed in Section \ref{sec:
 %\subsection{$\mu$+jets Channel}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Pruning.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Pruning.png}
 	\caption[Nuisance parameters after pruning for $\mu$+jets channel]{Overview of nuisance parameters after pruning for the $\mu$+jets channel.  If shape or normalization impacts are smaller than 1\% that part of the nuisance parameter will be dropped in the final fit. }
 	\label{fig:Pruningmujets}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/NuisPar.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/NuisPar.png}
 	\caption{Pull values for the various nuisance parameters considered in the fit for the $\mu$+jets channel.}
 	\label{fig:NPmujets}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/Gammas.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Gammas.png}
 	\caption{Bin by bin normalization $\gamma$ factors used in each region for the $\mu$+jets channel.}
 	\label{fig:Gammasmujets}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/LHoodPlots/NLLscan_SigXsecOverSM.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/LHoodPlots/NLLscan_SigXsecOverSM.png}
 	\caption{Negative-log likelihood (goodness of fit) as a function of signal strength using data in all regions for the $\mu$+jets channel.}
 	\label{fig:NLLmujets}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/FCNC_All_mujets/CorrMatrix.png}
+	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/CorrMatrix.png}
 	\caption[Correlation matrix  with at least one coefficient above 20\% for $\mu$+jets channel]{Correlation matrix  with at least one coefficient above 20\% for $\mu$+jets channel }
 	\label{fig:Corrmujets}
 \end{figure}
 % Change - Add Ranking Plots
 
+\section{Post-fit Signal Region Plots}
+\label{sec:PostFitSR}
+Every variable distribution contains shape information and as such will have slight differences in the final limit value after fitting the distributions including variations from the nuisance parameters.  Simultaneous fits are done on well-modeled variables with largest separation, as shown in Table \ref{tab:Separations}.  In addition to these separate fits combinations of fits are done and the best results are presented in this section.  Further fit results are presented in Appendix \ref{app:AddFits}. The variable with the best tested fit for the e+jets signal region is the invariant mass of the up type quark and the photon, $m_{q\gamma}$, which is near the mass of the top quark for the FCNC mode being searched for. The variable with the best tested fit for the $\mu$+jets signal region is the transverse momentum of the photon.  The post-fit effects of all systematics are listed in Appendix \ref{app:Syst_Eff} (Tables \ref{tab:ejetsSyst} and \ref{tab:mujetsSyst}).
+
+\begin{figure}[]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_ph_pt_postFit.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_lep_pt_postFit.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_jet0_pt_postFit.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_drlph_postFit.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_m_lgam_postFit.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_bjet0_pt_postFit.png}}
+\caption{Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $m_{l \gamma}$ (e), and b-jet $p_T$ (f) in the final signal region for the electron channel }
+\label{fig:fitSRej1}
+\end{figure}
+
+
+\begin{figure}[]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_mqph_postFit.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_SMtop_postFit.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_met_postFit.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_njet_postFit.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_MWT_postFit.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_ST_postFit.png}}
+\caption{Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) in the final signal region for the electron channel}
+\label{fig:fitSRej2}
+\end{figure}
+
+
+\begin{figure}[]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_ph_pt_postFit.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_lep_pt_postFit.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_jet0_pt_postFit.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_drlph_postFit.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_m_lgam_postFit.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_bjet0_pt_postFit.png}}
+\caption{Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $m_{l \gamma}$ (e), and b-jet $p_T$ (f) in the final signal region for the muon channel}
+\label{fig:fitSRmuj1}
+\end{figure}
+
+
+\begin{figure}[]
+\centering
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_mqph_postFit.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_SMtop_postFit.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_met_postFit.png}}
+\vspace{-3.mm}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_njet_postFit.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_MWT_postFit.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_ST_postFit.png}}
+\caption{Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) in the final signal region for the muon channel}
+\label{fig:fitSRmuj2}
+\end{figure}
+
+\subsection{Post-fit Data and MC Yields}
+\begin{table}[h!]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ccc}
+\hhline{===}
+Sample  &  Events e+jets (Fit on $m_{q\gamma}$ ) & Events $\mu$+jets (Fit on $\gamma p_{T}$)  \\  \hline 
+FCNC, signal		& 0.0 $\pm$ 1.7 & 0.6 $\pm$ 7.0\\
+$t\bar{t}$            		& 162.9 $\pm$ 30.6 & 253.5 $\pm$ 55.6\\
+$t\bar{t}+\gamma$           & 125.1 $\pm$ 12.3 & 165.6 $\pm$ 16.6\\
+W+jets			& 14.4 $\pm$ 7.9 & 35.1 $\pm$ 18.5\\   
+W+jets+$\gamma$		& 67.1 $\pm$ 15.3 & 68.6 $\pm$ 14.6\\
+Z+jets	            	& 13.9 $\pm$ 5.6 & 8.0 $\pm$ 4.7\\
+Z+jets+$\gamma$		& 7.2 $\pm$ 3.6 & 8.4 $\pm$ 2.6\\
+Single top 		           & 31.4 $\pm$ 6.7 & 33.0 $\pm$ 6.4\\
+Diboson (VV)		          	& 1.7 $\pm$ 0.7 & 2.1 $\pm$ 0.8\\
+$t\bar{t}+V$	           & 1.2 $\pm$ 0.2 & 1.6 $\pm$ 0.3 \\ \hline
+Total MC 			& 424.9 $\pm$ 29.3 & 575.9 $\pm$ 72.9\\ \hline
+Data		                     	& 429 & 573\\ \hhline{===}
+\end{tabular}
+\caption{Post-fit signal region event yields}
+\label{tab:postfitSRYields}
+}
+\end{center}
+\end{table}
+
+
+
 \section{Limit on Branching Ratio t$\rightarrow$q$\gamma$}
 \label{sec:Limits}
-Combining searches with small stats from Lizas: \cite{Junk:1999kv}
+Limits are calculated using the $CL_\text{s}$ method to place an upper bound on the signal strength, $\mu$.  This signal strength can then be interpreted as a branching ratio or a cross section by comparing to the nominal value used for signal simulation as discussed in Section \ref{sec:StatTreatment}.  Table \ref{tab:UpperLimitsMu} shows the 95\% confidence limit on the signal strength and the interpretations in terms of the branching ratio and cross section are shown in Table \ref{tab:UpperLimitsBR} and Table \ref{tab:UpperLimitsXS}, respectively. Figure \ref{fig:UpperLimMu} shows the observed upper limits for the signal strength.
+%Combining searches with small stats from Lizas: \cite{Junk:1999kv}
+\begin{table}[h!]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ccccc}
+\hhline{=====}
+Channel  	&  Obs. Limit			&	Exp. Limit -$\sigma$	& Exp. Limit	& Exp. Limit +$\sigma$  \\  \hline 
+e+jets	& $0.119$ 	& $0.094$	& $0.131$ & $0.178$	\\ 
+$\mu$+jets	& $0.153$ 	& $0.103$	& $0.142$ & $0.193$	\\ 
+Combined	& $0.096$ 	& $0.080$	& $0.110$ & $0.153$	\\
+\hhline{=====}
+\end{tabular}
+\caption{Expected and obversed upper limits on signal strength $\mu$ used in the fit}
+\label{tab:UpperLimitsMu}
+}
+\end{center}
+\end{table}
 
+
+\begin{table}[h!]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ccccc}
+\hhline{=====}
+Channel  	&  Obs. Limit			&	Exp. Limit -$\sigma$	& Exp. Limit	& Exp. Limit +$\sigma$  \\  \hline 
+e+jets	& $1.19\times10^{-4}$ 	& $0.94\times10^{-4}$	& $1.31\times10^{-4}$ & $1.78\times10^{-4}$	\\ 
+$\mu$+jets	& $1.53\times10^{-4}$ 	& $1.03\times10^{-4}$	& $1.42\times10^{-4}$ & $1.93\times10^{-4}$	\\ 
+Combined	& $0.96\times10^{-4}$ 	& $0.80\times10^{-4}$	& $1.10\times10^{-4}$ & $1.53\times10^{-4}$	\\
+\hhline{=====}
+\end{tabular}
+\caption{Upper limits on the branching ratio BR(t$\rightarrow q \gamma$)}
+\label{tab:UpperLimitsBR}
+}
+\end{center}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ccc}
+\hhline{===}
+Channel  	&  Obs. Limit	& Exp. Limit	 \\  \hline 
+e+jets	& 64 fb	& 71 fb 	\\ 
+$\mu$+jets	& 83 fb	& 77 fb 	\\ 
+Combined	& 50 fb	& 60 fb 	\\
+\hhline{===}
+\end{tabular}
+\caption{Observed and expected limits on the cross section $\sigma(pp\rightarrow tt \rightarrow Wb q \gamma$)}
+\label{tab:UpperLimitsXS}
+}
+\end{center}
+\end{table}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/LimitPlot.png}
+	\caption{95\% confidence level upper limits on the signal strength, $\mu$,
+	}
+	\label{fig:UpperLimMu}
+\end{figure}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %This chapter contains co-authored material from Ref.~\cite{Dijet2017}, written as part of the ATLAS Collaboration.

@@ -192,7 +192,6 @@ This xml file created automatically on:
       <OverallSys Name="Lumi"  High="1.05"  Low="0.95"   /> 
       <OverallSys Name="Pileup"  High="0.918219"  Low="1.06869"   /> 
       <OverallSys Name="JGamFake"  High="1.30255"  Low="0.69745"   /> 
-      <OverallSys Name="ScalemurmufWJets"  High="10.4441"  Low="0.537481"   /> 
       <OverallSys Name="NNPDFUncertainty"  High="1.11177"  Low="0.888233"   /> 
       <OverallSys Name="BTag_C_NP1"  High="1.07748"  Low="0.922518"   /> 
       <OverallSys Name="BTag_C_NP3"  High="0.983699"  Low="1.0163"   /> 
@@ -215,7 +214,6 @@ This xml file created automatically on:
       <NormFactor Name="mu_W"  Val="1.216"  High="10"  Low="0"  Const="False"   /> 
       <HistoSys Name="Pileup"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="SR_mqph_WJets_Pileup_Shape_Down_regBin"  HistoPathLow="/SR_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="SR_mqph_WJets_Pileup_Shape_Up_regBin"  HistoPathHigh="/SR_mqph_hists/WJets/"   /> 
       <HistoSys Name="JGamFake"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="SR_mqph_WJets_JGamFake_Shape_Down_regBin"  HistoPathLow="/SR_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="SR_mqph_WJets_JGamFake_Shape_Up_regBin"  HistoPathHigh="/SR_mqph_hists/WJets/"   /> 
-      <HistoSys Name="ScalemurmufWJets"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="SR_mqph_WJets_ScalemurmufWJets_Shape_Down_regBin"  HistoPathLow="/SR_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="SR_mqph_WJets_ScalemurmufWJets_Shape_Up_regBin"  HistoPathHigh="/SR_mqph_hists/WJets/"   /> 
       <HistoSys Name="NNPDFUncertainty"  HistoFileLow="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameLow="SR_mqph_WJets_NNPDFUncertainty_Shape_Down_regBin"  HistoPathLow="/SR_mqph_hists/WJets/"  HistoFileHigh="FCNC_All_ejets/RooStats/FCNC_All_ejets_combined_FCNC_All_ejets_model.root"  HistoNameHigh="SR_mqph_WJets_NNPDFUncertainty_Shape_Up_regBin"  HistoPathHigh="/SR_mqph_hists/WJets/"   /> 
     </Sample>
 

@@ -722,7 +722,7 @@ Channel:     &  e+jets   &$\mu$+jets \\  \hline
 $N(A)^\text{h-fake}_\text{MC}$ Converted & $481 \pm 11 $   &  $124\pm 7$	\\ 
 $N(B)^\text{h-fake}_\text{MC}$ Converted & $4921 \pm 37 $   &  $1126\pm 19 $      \\ 
 $N(C)^\text{h-fake}_\text{MC}$ Converted & $24606 \pm 99 $   &  $26575\pm 108 $    \\ 
-$N(D)^\text{h-fake}_\text{MC}$ Converted & $2631 \pm 31 $   &  $2805\pm 35$      \\ \hline %Change Put in post fit values
+$N(D)^\text{h-fake}_\text{MC}$ Converted & $2631 \pm 31 $   &  $2805\pm 35$      \\ \hline
 $N(A)^\text{h-fake}_\text{MC}$ Unconverted & $414\pm 12$         &  $112\pm 6$	\\ 
 $N(B)^\text{h-fake}_\text{MC}$ Unconverted & $2236\pm 23$       &  $551 \pm 14$       \\ 
 $N(C)^\text{h-fake}_\text{MC}$ Unconverted & $11661\pm 136$   &  $12338\pm61$     \\ 
@@ -819,7 +819,7 @@ Given that the amount of preselection events expected to pass the final event se
 \label{sec:BKGPho}
 
 Standard Model processes that are produced with an extra real photon are an irreducible background for this search as they can share the same final state as the signal events.  The largest contributors of these irreducible backgrounds are the major background samples discussed in the previous section with an associated photon ($t\bar{t}+\gamma$ and W+jets+$\gamma$).  Special Monte Carlo samples are produced for these samples (along with Z+jets+$\gamma$) that have higher statistics of these photon enriched events than the nominal samples.  However, as these samples (X+jets+$\gamma$) are subsets of the nominal sample(X+jets), duplicate events must be removed from the nominal sample.  This is done using the \textbf{MCTruthClassifier} tool that is detailed further in Section \ref{sec:Fakes}.  All events with a photon from the hard scattering are removed from the X+jets samples as they are contained within the X+jets+$\gamma$ samples.  The fake rate scale factors can also be applied to the MC events using truth information to appropriately scale out mismodelling behavior from the MC samples.  The fake rate scale factors discussed in Section \ref{sec:Fakes} have been applied to all following figures. 
-\subsubsection{W+$\gamma$ Control Region}
+\subsubsection{W+$\gamma$ Validation Region}
 A validation region for W+jets+$\gamma$ was created as it is one of the more dominant backgrounds other than $t\bar{t}$ and $t\bar{t}+\gamma$ events.  The normalization for the W+jets+$\gamma$ validation region enters as a free parameter into the final fit. The region selection for the W+jets+$\gamma$ is as follows:
 \begin{itemize}
 \item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
@@ -833,7 +833,7 @@ A validation region for W+jets+$\gamma$ was created as it is one of the more dom
 \item Z mass cut $|m_{l\gamma}-m_Z|>$ 5 GeV
 \end{itemize}
 
-Distributions of kinematic variables in the electron (muon) channels are shown in Figure \ref{fig:VR1ej} (\ref{fig:VR1muj}).
+Distributions of kinematic variables in the electron (muon) channels are shown in Figure \ref{fig:VR1ej} (\ref{fig:VR1muj}). Post-fit distributions for the best fit presented in Section \ref{sec:PostFitSR} are included in Appendix \ref{app:ValPlots}.
 %\begin{table}[h]
 %\begin{center}
 %{\renewcommand{\arraystretch}{1.2}
@@ -852,11 +852,11 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 \begin{figure}[h!]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_lep_pt.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png}}
 \vspace{-3.mm}
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_MWT.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_MWT.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_ST.png}}
 \caption{W+jets+$\gamma$ validation region plots for the electron channel after all scale factors are applied.  The FCNC signal sample is scaled to 1\%.} %Change % Value
 \label{fig:VR1ej}
@@ -865,17 +865,17 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 \begin{figure}[h!]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_lep_pt.png}}\hfil 
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png}}
 \vspace{-3.mm}
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_MWT.png}}\hfil  %Change to AfterScaling These are Prefit
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_MWT.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_ST.png}}
 \caption{W+jets+$\gamma$ validation region plots for the muon channel after all scale factors are applied.  The FCNC signal sample is scaled to 1\%.} %Change % Value
 \label{fig:VR1muj}
 \end{figure}
 
-\subsubsection{$t\bar{t}+\gamma$ Control Region}
+\subsubsection{$t\bar{t}+\gamma$ Validation Region}
 Another validation region was created for the other largest photon enriched samples, $t\bar{t}+\gamma$. The normalization for the $t\bar{t}+\gamma$ validation region enters as a free parameter into the final fit, and the region selection is as follows:
 \begin{itemize}
 \item All of the Initial Event Selection as outlined in Section \ref{sec:InitSelec}
@@ -889,7 +889,7 @@ Another validation region was created for the other largest photon enriched samp
 \item Reverse Neural Network Cut: NNOutput$<$0.93 electron channel, NNOutput$<$0.92 muon channel
 \end{itemize}
 
-Distributions of kinematic variables in the electron (muon) channels are shown in Figure \ref{fig:VR2ej} (\ref{fig:VR2muj}).
+Distributions of kinematic variables in the electron (muon) channels are shown in Figure \ref{fig:VR2ej} (\ref{fig:VR2muj}).  Post-fit distributions for the best fit presented in Section \ref{sec:PostFitSR} are included in Appendix \ref{app:ValPlots}.
 %\begin{table}[h]
 %\begin{center}
 %{\renewcommand{\arraystretch}{1.2}
@@ -908,11 +908,11 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 \begin{figure}[h!]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_lep_pt.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png}}
 \vspace{-3.mm}
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_MWT.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_MWT.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_ST.png}}
 \caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the electron channel after all scale factors are applied.  The FCNC signal sample is scaled to 1\%.} %Change % Value
 \label{fig:VR2ej}
@@ -921,11 +921,11 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 \begin{figure}[h!]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_lep_pt.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_lep_pt.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png}}
 \vspace{-3.mm}
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_MWT.png}}\hfil  %Change to AfterScaling
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_MWT.png}}\hfil 
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_ST.png}}
 \caption{$t\bar{t}$+jets+$\gamma$ validation region plots for the muon channel after all scale factors are applied.  The FCNC signal sample is scaled to 1\%.} %Change % Value
 \label{fig:VR2muj}
@@ -941,62 +941,118 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 
 \section{Signal Region}
 \label{sec:SRPlots}
-After the calculation and application of various scale factors kinematic and event-level distributions with the final selection cuts are shown in this section.  The signal MC is scaled to BR($t\rightarrow q\gamma$) = 0.01\%.  Figures \ref{fig:SRej1} and \ref{fig:SRej2} show the distributions in the electron channel while Figures \ref{fig:SRmuj1} and \ref{fig:SRmuj2} show the muon channel.  %Change value to what BR isused
+After the calculation and application of various scale factors this section presents distributions of the pre-fit kinematic and event-level variables with the final selection cuts.  The signal MC is scaled to BR($t\rightarrow q\gamma$) = $10^{-4}$ (0.01\%).  Figures \ref{fig:SRej1} and \ref{fig:SRej2} show the distributions in the electron channel while Figures \ref{fig:SRmuj1} and \ref{fig:SRmuj2} show the muon channel.  %Change value to what BR isused
 
+\subsection{Pre-fit Signal Region Plots}
 \begin{figure}[]
 \centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_lep_pt.png}}\hfil  %Change to AfterScaling/postfit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_jet0_pt.png}}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_ph_pt.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_lep_pt.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_jet0_pt.png}}
 \vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_drlph.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_phiso.png}}\hfil  %Change to AfterScaling/postfit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_bjet0_pt.png}}
-\caption{Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $\gamma_\text{topoetcone40}$ (e), and b-jet $p_T$ (f) distributions in the final signal region with scale factors applied for the electron channel }
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_drlph.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_m_lgam.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_bjet0_pt.png}}
+\caption{Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $m_{l \gamma}$ (e), and b-jet $p_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the electron channel }
 \label{fig:SRej1}
 \end{figure}
 
 
 \begin{figure}[]
 \centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_mqph.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_SMtop.png}}\hfil  %Change to AfterScaling/postfit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_met.png}}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_mqph.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_SMtop.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_met.png}}
 \vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_MWT.png}}\hfil  %Change to AfterScaling/postfit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_ST.png}}
-\caption{FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) distributions in the final signal region with scale factors applied for the electron channel}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_MWT.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_ST.png}}
+\caption{FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the electron channel}
 \label{fig:SRej2}
 \end{figure}
 
 
 \begin{figure}[]
 \centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_ph_pt.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_lep_pt.png}}\hfil  %Change to AfterScaling/postfit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_jet0_pt.png}}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_ph_pt.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_lep_pt.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_jet0_pt.png}}
 \vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_drlph.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_phiso.png}}\hfil  %Change to AfterScaling/postfit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_bjet0_pt.png}}
-\caption{Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $\gamma_\text{topoetcone40}$ (e), and b-jet $p_T$ (f) distributions in the final signal region with scale factors applied for the muon channel}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_drlph.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_m_lgam.png}}\hfil  t
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_bjet0_pt.png}}
+\caption{Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $m_{l \gamma}$ (e), and b-jet $p_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the muon channel}
 \label{fig:SRmuj1}
 \end{figure}
 
 
 \begin{figure}[]
 \centering
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_mqph.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_SMtop.png}}\hfil  %Change to AfterScaling/postfit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_met.png}}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_mqph.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_SMtop.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_met.png}}
 \vspace{-3.mm}
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_njet.png}}\hfil
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_MWT.png}}\hfil  %Change to AfterScaling/postfit
-\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_ST.png}}
-\caption{FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) distributions in the final signal region with scale factors applied for the muon channel}
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_njet.png}}\hfil
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_MWT.png}}\hfil  
+\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_ST.png}}
+\caption{FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the muon channel}
 \label{fig:SRmuj2}
 \end{figure}
+
+%\begin{figure}[]
+%\centering
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_ph_pt.png}}\hfil
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_lep_pt.png}}\hfil  %Change to AfterScaling/postfit
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_jet0_pt.png}}
+%\vspace{-3.mm}
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_drlph.png}}\hfil
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_phiso.png}}\hfil  %Change to AfterScaling/postfit
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_bjet0_pt.png}}
+%\caption{Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $\gamma_\text{topoetcone40}$ (e), and b-jet $p_T$ (f) distributions in the final signal region with scale factors applied for the electron channel }
+%\label{fig:SRej1}
+%\end{figure}
+%
+%
+%\begin{figure}[]
+%\centering
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_mqph.png}}\hfil
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_SMtop.png}}\hfil  %Change to AfterScaling/postfit
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_met.png}}
+%\vspace{-3.mm}
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_njet.png}}\hfil
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_MWT.png}}\hfil  %Change to AfterScaling/postfit
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/SR_ST.png}}
+%\caption{FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) distributions in the final signal region with scale factors applied for the electron channel}
+%\label{fig:SRej2}
+%\end{figure}
+%
+%
+%\begin{figure}[]
+%\centering
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_ph_pt.png}}\hfil
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_lep_pt.png}}\hfil  %Change to AfterScaling/postfit
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_jet0_pt.png}}
+%\vspace{-3.mm}
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_drlph.png}}\hfil
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_phiso.png}}\hfil  %Change to AfterScaling/postfit
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_bjet0_pt.png}}
+%\caption{Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $\gamma_\text{topoetcone40}$ (e), and b-jet $p_T$ (f) distributions in the final signal region with scale factors applied for the muon channel}
+%\label{fig:SRmuj1}
+%\end{figure}
+%
+%
+%\begin{figure}[]
+%\centering
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_mqph.png}}\hfil
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_SMtop.png}}\hfil  %Change to AfterScaling/postfit
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_met.png}}
+%\vspace{-3.mm}
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_njet.png}}\hfil
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_MWT.png}}\hfil  %Change to AfterScaling/postfit
+%\subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/SR_ST.png}}
+%\caption{FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) distributions in the final signal region with scale factors applied for the muon channel}
+%\label{fig:SRmuj2}
+%\end{figure}
 
 
 \begin{table}[h!]
@@ -1005,20 +1061,20 @@ After the calculation and application of various scale factors kinematic and eve
 \begin{tabular}{ccc}
 \hhline{===}
 Sample  &  Events e+jets   & Events $\mu$+jets   \\  \hline 
-FCNC, signal			& VALUE $\pm$ err & VALUE $\pm$ err\\
-$t\bar{t}$            		& VALUE $\pm$ err & VALUE $\pm$ err\\
-$t\bar{t}+\gamma$           & VALUE $\pm$ err & VALUE $\pm$ err\\
-W+jets			& VALUE $\pm$ err & VALUE $\pm$ err\\   
-W+jets+$\gamma$		& VALUE $\pm$ err & VALUE $\pm$ err\\
-Z+jets	            	& VALUE $\pm$ err & VALUE $\pm$ err\\
-Z+jets+$\gamma$		& VALUE $\pm$ err & VALUE $\pm$ err\\
-Single top 		           & VALUE $\pm$ err & VALUE $\pm$ err\\
-Diboson (VV)		          	& VALUE $\pm$ err & VALUE $\pm$ err\\
-$t\bar{t}+V$	           & VALUE $\pm$ err & VALUE $\pm$ err\\ \hline
-Total MC 			& VALUE $\pm$ err & VALUE $\pm$ err\\ \hline
-Data		                     	& VALUE $\pm$ err & VALUE $\pm$ err\\ \hhline{===}
+FCNC, signal	(BR($t\rightarrow q\gamma$)=$10^{-4}$)		& 69.0 $\pm$ 4.1 & 90.7 $\pm$ 4.9\\
+$t\bar{t}$            		& 151.7 $\pm$ 60.3 & 195.9$\pm$ 58.1\\
+$t\bar{t}+\gamma$           & 125.1 $\pm$ 13.1 & 168.2 $\pm$ 17.9\\
+W+jets			& 17.3 $\pm$ 8.9 & 31.1 $\pm$ 19.1\\   
+W+jets+$\gamma$		& 60.9 $\pm$ 14.2 & 72.1 $\pm$ 16.2\\
+Z+jets	            	& 14.9 $\pm$ 9.9 & 7.0 $\pm$ 4.6\\
+Z+jets+$\gamma$		& 6.9 $\pm$ 3.5 & 8.3 $\pm$ 2.6\\
+Single Top 		           & 28.9 $\pm$ 6.8 & 31.5 $\pm$ 6.6\\
+Diboson (VV)		          	& 1.6 $\pm$ 0.6 & 1.9 $\pm$ 0.9\\
+$t\bar{t}+V$	           & 1.3 $\pm$ 0.3 & 1.5 $\pm$ 0.3\\ \hline
+Total MC 			& 408.6 $\pm$ 70.2 & 517.8 $\pm$ 78.7\\ \hline
+Data		                     	& 429 & 573 \\ \hhline{===}
 \end{tabular}
-\caption{Signal region event yields after all scale factors and cuts are applied }
+\caption{Pre-fit signal region event yields after all scale factors and cuts are applied including combined statistical and systematic errors }
 \label{tab:SRYields}
 }
 \end{center}

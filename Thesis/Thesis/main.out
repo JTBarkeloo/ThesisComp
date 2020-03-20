@@ -68,21 +68,24 @@
 \BOOKMARK [3][-]{subsubsection.5.6.2.2}{ Jet \040Lepton Fakes}{subsection.5.6.2}% 68
 \BOOKMARK [3][-]{subsubsection.5.6.2.3}{ Jet \040Photon Fakes}{subsection.5.6.2}% 69
 \BOOKMARK [2][-]{subsection.5.6.3}{ \040Backgrounds With Photons}{section.5.6}% 70
-\BOOKMARK [3][-]{subsubsection.5.6.3.1}{ W+ Control Region}{subsection.5.6.3}% 71
-\BOOKMARK [3][-]{subsubsection.5.6.3.2}{ tbart+ Control Region}{subsection.5.6.3}% 72
+\BOOKMARK [3][-]{subsubsection.5.6.3.1}{ W+ Validation Region}{subsection.5.6.3}% 71
+\BOOKMARK [3][-]{subsubsection.5.6.3.2}{ tbart+ Validation Region}{subsection.5.6.3}% 72
 \BOOKMARK [1][-]{section.5.7}{ \040Signal Region}{subsubsection.4.3.5.1}% 73
-\BOOKMARK [0][-]{table.caption.93}{Analysis And Results}{}% 74
-\BOOKMARK [1][-]{section.6.1}{ \040Systematic Uncertainties}{table.caption.93}% 75
-\BOOKMARK [2][-]{subsection.6.1.1}{ \040Theoretical uncertainties}{section.6.1}% 76
-\BOOKMARK [2][-]{subsection.6.1.2}{ \040Experimental Uncertainties}{section.6.1}% 77
-\BOOKMARK [2][-]{subsection.6.1.3}{ \040Symmetrization, Smoothing, and Pruning of Systematic Uncertainties}{section.6.1}% 78
-\BOOKMARK [3][-]{subsubsection.6.1.3.1}{ Symmetrization}{subsection.6.1.3}% 79
-\BOOKMARK [3][-]{subsubsection.6.1.3.2}{ Smoothing}{subsection.6.1.3}% 80
-\BOOKMARK [3][-]{subsubsection.6.1.3.3}{ Pruning}{subsection.6.1.3}% 81
-\BOOKMARK [1][-]{section.6.2}{ \040Statistical Treatment of Results}{table.caption.93}% 82
-\BOOKMARK [1][-]{section.6.3}{ \040Nuisance Parameters}{table.caption.93}% 83
-\BOOKMARK [1][-]{section.6.4}{ \040Limit on Branching Ratio tq}{table.caption.93}% 84
-\BOOKMARK [0][-]{section.6.4}{Outlook and Conclusions}{}% 85
-\BOOKMARK [1][-]{section.7.1}{ \040Comparison with Complementary Searches}{section.6.4}% 86
-\BOOKMARK [1][-]{section.7.2}{ \040Future Directions}{section.6.4}% 87
-\BOOKMARK [1][-]{section.7.3}{ \040Conclusion}{section.6.4}% 88
+\BOOKMARK [2][-]{subsection.5.7.1}{ \040Pre-fit Signal Region Plots}{section.5.7}% 74
+\BOOKMARK [0][-]{table.caption.93}{Analysis And Results}{}% 75
+\BOOKMARK [1][-]{section.6.1}{ \040Systematic Uncertainties}{table.caption.93}% 76
+\BOOKMARK [2][-]{subsection.6.1.1}{ \040Theoretical uncertainties}{section.6.1}% 77
+\BOOKMARK [2][-]{subsection.6.1.2}{ \040Experimental Uncertainties}{section.6.1}% 78
+\BOOKMARK [2][-]{subsection.6.1.3}{ \040Symmetrization, Smoothing, and Pruning of Systematic Uncertainties}{section.6.1}% 79
+\BOOKMARK [3][-]{subsubsection.6.1.3.1}{ Symmetrization}{subsection.6.1.3}% 80
+\BOOKMARK [3][-]{subsubsection.6.1.3.2}{ Smoothing}{subsection.6.1.3}% 81
+\BOOKMARK [3][-]{subsubsection.6.1.3.3}{ Pruning}{subsection.6.1.3}% 82
+\BOOKMARK [1][-]{section.6.2}{ \040Statistical Treatment of Results}{table.caption.93}% 83
+\BOOKMARK [1][-]{section.6.3}{ \040Nuisance Parameters}{table.caption.93}% 84
+\BOOKMARK [1][-]{section.6.4}{ \040Post-fit Signal Region Plots}{table.caption.93}% 85
+\BOOKMARK [2][-]{subsection.6.4.1}{ \040Post-fit Data and MC Yields}{section.6.4}% 86
+\BOOKMARK [1][-]{section.6.5}{ \040Limit on Branching Ratio tq}{table.caption.93}% 87
+\BOOKMARK [0][-]{figure.caption.112}{Outlook and Conclusions}{}% 88
+\BOOKMARK [1][-]{section.7.1}{ \040Comparison with Complementary Searches}{figure.caption.112}% 89
+\BOOKMARK [1][-]{section.7.2}{ \040Future Directions}{figure.caption.112}% 90
+\BOOKMARK [1][-]{section.7.3}{ \040Conclusion}{figure.caption.112}% 91
