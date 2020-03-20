@@ -101,6 +101,8 @@
 \contentsline {chapter}{\number@appendix {6}{F} \uppercase {Validation Region Plots}}{188}{figure.caption.129}% 
 \contentsline {chapter}{\number@appendix {7}{G} \uppercase {Additional Fits}}{193}{figure.caption.133}% 
 \contentsline {section}{ \numberline {G.1} Alternative Fit Method: Both Channels $m_{q\gamma }$}{193}{section.G.1}% 
-\contentsline {section}{ \numberline {G.2} Alternative Fit Method: Both Channels $\gamma $ $p_T$}{196}{section.G.2}% 
-\contentsline {chapter}{\number@appendix {8}{H} \uppercase {Post-fit Effect of Systematic Uncertainties }}{200}{table.caption.141}% 
-\contentsline {chapter}{REFERENCES CITED}{208}{table.H.2}% 
+\contentsline {subsection}{ \numberline {G.1.1} Validation Region Plots: Fit on $m_{q\gamma }$ in $\mu $+jets Region}{196}{subsection.G.1.1}% 
+\contentsline {section}{ \numberline {G.2} Alternative Fit Method: Both Channels $\gamma $ $p_T$}{199}{section.G.2}% 
+\contentsline {subsection}{ \numberline {G.2.1} Validation Region Plots: Fit on $\gamma $ $p_T$ in e+jets Region}{202}{subsection.G.2.1}% 
+\contentsline {chapter}{\number@appendix {8}{H} \uppercase {Post-fit Effect of Systematic Uncertainties }}{205}{figure.caption.145}% 
+\contentsline {chapter}{REFERENCES CITED}{213}{table.H.2}% 

@@ -120,7 +120,10 @@ S.~Abachi et~al.
 
 \bibitem{TopWG}
 LHC Top~Working Group.
-\newblock Lhctopwg summary plots, 2019.
+\newblock Lhctopwg summary plots.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCTopWGSummaryPlots}.
+\newblock Accessed: 2019-09-27.
 
 \bibitem{Abazov:2004cs}
 V.~M. Abazov et~al.
@@ -199,7 +202,10 @@ Esma Mobs.
 
 \bibitem{ATLASLumi}
 The~ATLAS Collaboration.
-\newblock Luminosity public results run 2, 2019.
+\newblock Luminosity public results run 2.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
+\newblock Accessed2019-09-27.
 
 \bibitem{ATLAS}
 {The ATLAS Experiment at the CERN Large Hadron Collider}.
@@ -405,7 +411,11 @@ The~ATLAS collaboration.
 
 \bibitem{JetCleanTwiki}
 S.~Schramm.
-\newblock Howtocleanjets2016 : Jet-based event cleaning, 2016.
+\newblock Howtocleanjets2016 : Jet-based event cleaning.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/HowToCleanJets2016},
+  2016.
+\newblock Accessed: 2019-10-11.
 
 \bibitem{CMSct}
 Albert~M Sirunyan et~al.
@@ -416,7 +426,9 @@ Albert~M Sirunyan et~al.
 
 \bibitem{BTagImg}
 N.~Bartosik.
-\newblock File:b-tagging diagram.png, 2016.
+\newblock File:b-tagging diagram.png.
+\newblock \url{https://commons.wikimedia.org/wiki/File:B-tagging_diagram.png}.
+\newblock Accessed: 2019-10-18.
 
 \bibitem{BJet1718}
 Francesco~Armando Di~Bello.
@@ -438,7 +450,9 @@ Morad Aaboud et~al.
 
 \bibitem{Keras}
 F.~Chollet et~al.
-\newblock Keras: The python deep learning library, 2019.
+\newblock Keras: The python deep learning library.
+\newblock \url{https://keras.io}, 2019.
+\newblock Accessed: 2019-10-25.
 
 \bibitem{TensorFlow}
 Martín Abadi et~al.
@@ -453,7 +467,9 @@ Diederik~P. Kingma and Jimmy Ba.
 
 \bibitem{NNImage}
 A.~Karpathy.
-\newblock Cs231n convolutional neural networks for visual recognition, 2015.
+\newblock Cs231n convolutional neural networks for visual recognition.
+\newblock \url{http://cs231n.github.io/neural-networks-1/}, 2015.
+\newblock Accessed:2019-10-25.
 
 \bibitem{ScikitLearn}
 Fabian Pedregosa et~al.
@@ -469,7 +485,10 @@ The~ATLAS collaboration.
 
 \bibitem{ttXSec}
 ATLAS Collaboration.
-\newblock Nnlo+nnll top-quark-pair cross sections, 2015.
+\newblock Nnlo+nnll top-quark-pair cross sections.
+\newblock \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO},
+  2015.
+\newblock Accessed: 2019-12-25.
 
 \bibitem{ATLAS:2018pmj}
 The~ATLAS collaboration.
@@ -480,11 +499,18 @@ The~ATLAS collaboration.
 
 \bibitem{SingleTopXSec}
 ATLAS Collaboration.
-\newblock Nlo single-top channel cross sections, 2017.
+\newblock Nlo single-top channel cross sections.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopRefXsec}, 2017.
+\newblock Accessed: 2019-12-25.
 
 \bibitem{VXSec}
 ATLAS Collaboration.
-\newblock Pmgweakbosonprocesses, 2019.
+\newblock Pmgweakbosonprocesses.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/PmgWeakBosonProcesses},
+  2019.
+\newblock Accessed: 2019-12-25.
 
 \bibitem{ATLAS-CONF-2019-021}
 {Luminosity determination in $pp$ collisions at $\sqrt{s}=13$ TeV using the
@@ -515,7 +541,9 @@ J~H Friedman.
 
 \bibitem{TRExFitter}
 ATLAS Collaboration.
-\newblock Trexfitter (previously known as tthfitter), 2019.
+\newblock Trexfitter (previously known as tthfitter).
+\newblock \url{https://gitlab.cern.ch/TRExStats/TRExFitter}, 2019.
+\newblock Accessed: 2019-12-25.
 
 \bibitem{Moneta:2010pm}
 Lorenzo Moneta, Kevin Belasco, Kyle~S. Cranmer, S.~Kreiss, Alfio Lazzaro,
@@ -546,12 +574,6 @@ S.~S. Wilks.
 \newblock {The Large-Sample Distribution of the Likelihood Ratio for Testing
   Composite Hypotheses}.
 \newblock {\em Annals Math. Statist.}, 9(1):60--62, 1938.
-
-\bibitem{Junk:1999kv}
-Thomas Junk.
-\newblock {Confidence level computation for combining searches with small
-  statistics}.
-\newblock {\em Nucl. Instrum. Meth.}, A434:435--443, 1999.
 
 \bibitem{Buesser:2013pza}
 Karsten Buesser.

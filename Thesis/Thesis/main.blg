@@ -14,28 +14,8 @@ A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: appendicies.aux
 The style file: unsrt.bst
 Database file #1: main.bib
-Warning--entry type for "TopWG" isn't style-file defined
---line 741 of file main.bib
-Warning--entry type for "ATLASLumi" isn't style-file defined
---line 757 of file main.bib
-Warning--entry type for "BTagImg" isn't style-file defined
---line 773 of file main.bib
 Warning--entry type for "MaxThesis" isn't style-file defined
---line 1001 of file main.bib
-Warning--entry type for "JetCleanTwiki" isn't style-file defined
---line 1845 of file main.bib
-Warning--entry type for "Keras" isn't style-file defined
---line 1953 of file main.bib
-Warning--entry type for "NNImage" isn't style-file defined
---line 1969 of file main.bib
-Warning--entry type for "ttXSec" isn't style-file defined
---line 2651 of file main.bib
-Warning--entry type for "SingleTopXSec" isn't style-file defined
---line 2689 of file main.bib
-Warning--entry type for "VXSec" isn't style-file defined
---line 2703 of file main.bib
-Warning--entry type for "TRExFitter" isn't style-file defined
---line 2779 of file main.bib
+--line 1005 of file main.bib
 Warning--empty journal in TopMass2017
 Warning--empty journal in GregorFCNC
 Warning--empty journal in ATLASCoords
@@ -59,45 +39,45 @@ Warning--empty author in ATL-PHYS-PUB-2015-015
 Warning--empty journal in Friedman:695770
 Warning--there's a number but no volume in Friedman:695770
 Warning--empty journal in Buesser:2013pza
-You've used 103 entries,
+You've used 102 entries,
             1791 wiz_defined-function locations,
-            1072 strings with 19674 characters,
-and the built_in function-call counts, 20085 in all, are:
-= -- 1711
-> -- 809
+            1083 strings with 20325 characters,
+and the built_in function-call counts, 20066 in all, are:
+= -- 1738
+> -- 805
 < -- 7
-+ -- 321
-- -- 218
-* -- 1250
-:= -- 3279
-add.period$ -- 303
-call.type$ -- 103
-change.case$ -- 100
++ -- 319
+- -- 217
+* -- 1234
+:= -- 3293
+add.period$ -- 320
+call.type$ -- 102
+change.case$ -- 99
 chr.to.int$ -- 0
-cite$ -- 126
-duplicate$ -- 900
-empty$ -- 2104
-format.name$ -- 218
+cite$ -- 125
+duplicate$ -- 891
+empty$ -- 2081
+format.name$ -- 217
 if$ -- 4470
 int.to.chr$ -- 0
-int.to.str$ -- 103
-missing$ -- 85
-newline$ -- 509
-num.names$ -- 95
-pop$ -- 247
+int.to.str$ -- 102
+missing$ -- 84
+newline$ -- 524
+num.names$ -- 94
+pop$ -- 239
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 375
+skip$ -- 352
 stack$ -- 0
-substring$ -- 1242
-swap$ -- 122
+substring$ -- 1221
+swap$ -- 121
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 23
-while$ -- 168
-width$ -- 106
-write$ -- 1083
-(There were 34 warnings)
+while$ -- 166
+width$ -- 105
+write$ -- 1109
+(There were 24 warnings)
