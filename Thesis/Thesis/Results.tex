@@ -2,7 +2,7 @@
 \chapter{Analysis And Results}
 \label{ch:Results}
 %Deep thoughts go here.
-This search is to attempt to observe the FCNC decay of a top quark $t \rightarrow q \gamma$ or to set an upper limit on the branching ratio of this decay process is no observation occurs.  As there was on significant excess of events in the collected data an upper limit on the branching ratio is set.  This chapter will discuss  the methods used to set the upper limit on the branching ratio as well as discussion of the systematic uncertainties within the experiment.   This chapter contains material coauthored by the ATLAS Collaboration.  I took advantage of the common tools developed by the ATLAS Collaboration for fitting and limit setting for the final results presented in this chapter.
+This search is to attempt to observe the FCNC decay of a top quark $t \rightarrow q \gamma$ or to set an upper limit on the branching ratio of this decay process if no observation occurs.  As there is no significant excess of events in the collected data an upper limit on the branching ratio is set.  This chapter will discuss  the methods used to set the upper limit on the branching ratio as well as the systematic uncertainties within the experiment.   This chapter contains material coauthored by the ATLAS Collaboration.  I took advantage of the common tools developed by the ATLAS Collaboration for fitting and limit setting for the final results presented in this chapter.
 
 \section{Systematic Uncertainties}
 \label{sec:NPUncertainties}
@@ -18,11 +18,11 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \item[\textbf{PDF Uncertainty}:]  The PDF uncertainty is estimated using the PDF4LHC15 error set which contains 30 eigen variations which enter the fit as individual nuisance parameters.
 
-\item[\textbf{Initial and Final State Radiation}:] The effects of ISR are estimated by decreasing the total QCD radiation activity in the events.  These variations are avaialbe for single top and $t\bar{t}$ processes.  For single top processes the A14 tune is varied up (down) using the event weight Var3cUp (Var3cDown) and dividing (multiplying) $\mu_r$ and $\mu_f$ by a factor of 2.  For $t\bar{t}$ processes a sample with parameter $h_\text{damp}=3m_\text{top}$ is used in the same manner varying Var3cUp while the down variation uses event weights in the nominal sample.   FSR uncertainties are estimated varying parameters using the A14 tune by varying event weight (Var2) up and down. %Change if not using single top information
+\item[\textbf{Initial and Final State Radiation}:] The effects of ISR are estimated by decreasing the total QCD radiation activity in the events.  These variations are available for single top and $t\bar{t}$ processes.  For single top processes the A14 tune is varied up (down) using the event weight Var3cUp (Var3cDown) and dividing (multiplying) $\mu_r$ and $\mu_f$ by a factor of 2.  For $t\bar{t}$ processes a sample with parameter $h_\text{damp}=3m_\text{top}$ is used in the same manner varying Var3cUp while the down variation uses event weights in the nominal sample.   FSR uncertainties are estimated varying parameters using the A14 tune by varying event weight (Var2) up and down. %Change if not using single top information
 
 %\item[\textbf{Normalization of Prompt Photon Contribution}:]  The normalization of the prompt photon contributions that stem from the W+jets+$\gamma$ and $t\bar{t}$+jets+$\gamma$, the major backgrounds, enter the fit as free floating nuisance parameters.
 
-\item[\textbf{$\textbf{t}\bar{\textbf{t}}$ Matrix Element and Shower Generator}:]  To estimate the uncertainty based on our choice of MC generator and showering algorithm used to create the nominal sample (\textsc{Powheg-Box + Pythia}) is replaced by samples generated using \textsc{MadGraph5\_}a\textsc{MC@NLO + Pythia} and \textsc{Powheg-Box + Herwig}.
+\item[\textbf{$\textbf{t}\bar{\textbf{t}}$ Matrix Element and Shower Generator}:]  To estimate the uncertainty based on the choice of MC generator and showering algorithm used to create the nominal sample (\textsc{Powheg-Box + Pythia}) is replaced by using samples generated using \textsc{MadGraph5\_}a\textsc{MC@NLO + Pythia} and \textsc{Powheg-Box + Herwig}.
 \end{description}
 
 \subsection{Experimental Uncertainties}
@@ -40,13 +40,13 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 \item[\textbf{Jet Energy Scale}:] The jet energy scale (JES) and its uncertainty are derived using combinations of measurements in both simulation and data.  The \textit{CategoryReduction} reduction parameter set (30 nuisance parameters) are varied up and down and used for categories such as \textit{in-situ} jet energy corrections, flavor composition and response, $\eta$ inter-calibration, b-jet energy scale, and pile-up.
 
-\item[\textbf{Jet Energy Resolution}:] The jet energy resolution (JER) is measured independently for data and MC using two techniques \cite{ATL-PHYS-PUB-2015-015} which results in 8 separate nuisance parameters.  These nuisance parameters are one sided, as such the uncertainty is symmetrized.
+\item[\textbf{Jet Energy Resolution}:] The jet energy resolution (JER) is measured independently for data and MC using two techniques \cite{ATL-PHYS-PUB-2015-015} which results in 8 separate nuisance parameters.  These nuisance parameters are one-sided, as such the uncertainty is symmetrized.
 
 %\item[\textbf{Jet Flavor Fraction}:]  Uncertainty arising from jet flavor composition the ratio of light-quark initiated to gluon-initiated jets is varied.  Nominally a 50:50 ratio is assumed with an uncertainty of 100\%.
 
-\item[\textbf{Jet Vertex Tagging}:]  The cut on the jet vertex tagging (JVT) discriminant is varied up and down \cite{JetJVT} and the certainty on the JVT scale factor is calculated which is then propagated through this analysis.
+\item[\textbf{Jet Vertex Tagging}:]  The cut on the jet vertex tagging (JVT) discriminant is varied up and down \cite{JetJVT} and the certainty on the JVT scale factor is calculated and then propagated through this analysis.
 
-\item[\textbf{b-tagging}:]  Efficiencies for the various b-tagging working points are measured in data and scale factors are derived for simulation depending on the jet flavor.  The uncertainties on these scale factors are provided by the Flavor Tagging group for b, c, and light jets.
+\item[\textbf{b-tagging}:]  Efficiencies for the various b-tagging working points are measured in data, and scale factors are derived for simulation depending on the jet flavor.  The uncertainties on these scale factors are provided by the Flavor Tagging group for b, c, and light jets.
 
 \item[\textbf{$\slashed{E}$ Uncertainties}:]  Uncertainties on the lepton, photon, jet scale and resolution are propagated through to the missing transverse energy.  As such the impact on the $\slashed{E}$ uncertainty is estimated when evaluating the shift on the other variables.
 
@@ -59,21 +59,21 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 Symmetrization and smoothing are methods used to minimize statistical fluctuations in various systematic sources.  Symmetrization centers the systematic uncertainty around a mean value and smoothing averages the expected number of events across bins in order to remove statistical fluctuations.
 
 \subsubsection{Symmetrization}
-Two-sided symmetrization is preformed when up and down variations are provided for any given systematic.  The difference between these variations is calculated and the half sum of the absolute deviations from the nominal is taken as a symmetric variation:
+Two-sided symmetrization is performed when up and down variations are provided for any given systematic.  The difference between these variations is calculated and the half sum of the absolute deviations from the nominal is taken as a symmetric variation:
 \[ \text{ Symmetric Variation } = \frac{|\text{up} - \text{nominal}| +|\text{down}-\text{nominal}|}{2}  \]
-The nominal value is then varied up and down by this symmetrized value.  However, if only an up or a down variation is provided for a systematic one-sided symmetrization is used by mirroring the absolute deviation about the nominal value.  Experimental systematic sources are generally symmetrized while signal and background modelling contributions are not.
+The nominal value is then varied up and down by this symmetrized value.  However, if only an up or a down variation is provided for a systematic one-sided symmetrization is used by mirroring the absolute deviation about the nominal value.  Experimental systematic sources are generally symmetrized while signal and background modeling contributions are not.
 
 \subsubsection{Smoothing}
-Smoothing is a technique used to average statistics across bins.  This prevents large statistical spikes in many systematic uncertainties that are expected to provide small contributions.  The smoothing algorithm depends on two parameters, the tolerance and maximal number of slope changes taking advantage of bin and neighboring bin information.  Distributions are rebinned until the statistical uncertainty of each bin is below the tolerance and then the number of slope changes in the distribution is checked.  If the number of slope changes is smaller than the threshold of four the distribution is kept, else the first step is performed again with the tolerance value halved.  The smoothing algorithm 353QH \cite{Friedman:695770} is run to avoid artificially flat uncertaties being introduced in the first two steps.  All uncertainties are smoothed unless stated otherwise.  Smoothing does not change the overall normalizations of the uncertainty.
+Smoothing is a technique used to average statistics across bins.  This prevents large statistical spikes in many systematic uncertainties that are expected to provide small contributions.  The smoothing algorithm depends on two parameters: the tolerance and the maximal number of slope changes taking advantage of bin and neighboring bin information.  Distributions are rebinned until the statistical uncertainty of each bin is below the tolerance and then the number of slope changes in the distribution is checked.  If the number of slope changes is smaller than the threshold of four, then the distribution is kept, or else the first step is performed again with the tolerance value halved.  The smoothing algorithm 353QH \cite{Friedman:695770} is run to avoid artificially flat uncertainties being introduced in the first two steps.  All uncertainties are smoothed unless stated otherwise.  Smoothing does not change the overall normalizations of the uncertainty.
 
 \subsubsection{Pruning}
 \label{sec:Pruning}
-\textit{Pruning} uncertainties is done in order to reduce the number of nuisance parameters (NP) and stabalize the fit.  Uncertainties that would only have a small impact on the end result are removed.  An initial fit is calculated for each NP using the $\pm 1 \sigma$ variation, if the effect on the uncertainty is less than the given threshold of 1\% the contribution is removed from further fits. %Change to match final value on % threshold
+\textit{Pruning} uncertainties is done in order to reduce the number of nuisance parameters (NP) and stabalize the fit.  Uncertainties that would only have a small impact on the end result are removed.  An initial fit is calculated for each NP using the $\pm 1 \sigma$ variation, and if the effect on the uncertainty is less than the given threshold of 1\%, the contribution is removed from further fits. %Change to match final value on % threshold
 
 \section{Statistical Treatment of Results}
 \label{sec:StatTreatment}
-A profile likelihood fit is performed on the SR.  The \textbf{TRExFitter} framework \cite{TRExFitter} was used for this analysis which provides a framework built upon existing code such as the \textbf{RooStats} project \cite{Moneta:2010pm}.
-Following \cite{Lista:2016chp} as well as the fit preformed in \cite{GregorFCNC} we can define a likelihood function $\mathcal{L}$ that is generally defined in the following manner:
+A profile likelihood fit is performed on the SR.  The \textbf{TRExFitter} framework \cite{TRExFitter} was used for this analysis which provides a framework built upon existing code such as the \textbf{RooStats} project\cite{Moneta:2010pm}.
+Following \cite{Lista:2016chp} as well as the fit preformed in \cite{GregorFCNC} a likelihood function, $\mathcal{L}$, can be defined generally in the following manner:
 \[ \mathcal{L} = \mathcal{L}(\mu,\theta|\overrightarrow{x})
 \]
 where the parameter $\mu$ is defined as the signal strength and $\theta$ as the set of nuisance parameters for the systematic uncertainties.  The parameter of interest in the fit is proxied as  $\overrightarrow{x}$.  The likelihood is computed using the following:
@@ -89,31 +89,31 @@ using the following parameters:
 \item $N_\text{r,i}$ is the observed number of events in bin $i$ of region $r$
 \item $N_\text{r,i}^\text{s}$ is the expected number of signal events in bin $i$ of region $r$
 \item $N_\text{bkg}$ is the number of background processes that are considered in the fit
-\item $b$ is the index that runs over all catagories of backgrounds considered
+\item $b$ is the index that runs over all cataeories of backgrounds considered
 \item $N_\text{r,i}^\text{b}$ is the expected number of events of background $b$ in bin $i$ of region $r$
 \item $N_\text{NP}$ is the total number of nuisance parameters (NPs) considered in the fit
 \item $j$ is the index that runs over the number of NPs
-\item $G(x|\mu,\sigma_{j})$ is a Gaussian function with mean $\mu$ and width $\sigma_\text{j}$ for the source of systematic uncertainty $j$ (this Gaussian is replaced with a Poisson function for statstisical uncertainties due to MC statistics)
+\item $G(x|\mu,\sigma_{j})$ is a Gaussian function with mean $\mu$ and width $\sigma_\text{j}$ for the source of systematic uncertainty $j$ (this Gaussian is replaced with a Poisson function for statistical uncertainties due to MC statistics)
 \end{itemize}
 
 The signal strength, $\mu$, enters the likelihood as
 \[ N_\text{r,i}^\text{s} = \mu \cdot N_\text{input,r}^\text{s} \cdot \rho_\text{r,i}
 \]
-with the number of signal events in region $r$, $N_\text{input,r}^\text{s}$ is scaled using the effective cross section $\sigma_\text{eff}^\text{coup}$ and $\rho_\text{r,i}$, the fraction of signal events in the respective bin $i$ and region $r$. 
+with the number of signal events in region $r$, $N_\text{input,r}^\text{s}$ scaled using the effective cross section $\sigma_\text{eff}^\text{coup}$ and $\rho_\text{r,i}$, the fraction of signal events in the respective bin $i$ and region $r$. 
 
 The decay mode effective cross section is given by:
 \[\sigma_\text{eff, input}^\text{decay} = 2\times \sigma(pp\rightarrow t\bar{t}) \times \mathcal{B}(t\rightarrow Wb) \times \mathcal{B}(W\rightarrow l \nu)\times \mathcal{B}_\text{input}(t \rightarrow q \gamma)
 \]
-where $\sigma(pp\rightarrow t\bar{t}) =831.76$ pb, $\mathcal{B}(t\rightarrow bW) \approx1$, and $\mathcal{B}(W\rightarrow l \nu) =32.58\%$ .  The effective cross sections and couplings in the signal region are shown assuming the branching ratio to the FCNC decay mode $\mathcal{B}(t\rightarrow q \gamma) = 10^{-3}$ for q=u,c.  This implies that the total effective cross section used for the FCNC signal samples, $\sigma_\text{eff, input}^\text{decay}$, is 542 fb.  The final states of this analysis include both up type quark decay modes and the assumption is made that $\mathcal{B}(t\rightarrow u\gamma)$=$\mathcal{B}(t\rightarrow c\gamma)$.  As can be seen in figures of the Signal Region distributions in Section \ref{sec:SRPlots} the single top event rate is around 7\% of the total MC background.  Due to this the effect of the production mode ($u\rightarrow t\gamma$) is not further considered as the final state for single top production with an association photon has significant kinematic differences to the regions in this analysis.  These events would appear as a further subset of the single top background.  Reconstructing an invariant mass around the top quark mass from the photon and the leading light jet is a key input to the neural network discriminator.  This is unlikely to occur in the production mode.
+where $\sigma(pp\rightarrow t\bar{t}) =831.76$ pb, $\mathcal{B}(t\rightarrow bW) \approx1$, and $\mathcal{B}(W\rightarrow l \nu) =32.58\%$ .  The effective cross sections and couplings in the signal region are shown assuming the branching ratio to the FCNC decay mode $\mathcal{B}(t\rightarrow q \gamma) = 10^{-3}$ for q=u,c.  This implies that the total effective cross section used for the FCNC signal samples, $\sigma_\text{eff, input}^\text{decay}$, is 542 fb.  The final states of this analysis include both up type quark decay modes and the assumption is made that $\mathcal{B}(t\rightarrow u\gamma)$=$\mathcal{B}(t\rightarrow c\gamma)$.  As can be seen in figures of the Signal Region distributions in Section \ref{sec:SRPlots} the single top event rate is around 7\% of the total MC background.  Due to this the effect of the production mode ($u\rightarrow t\gamma$) is not further considered, as the final state for single top production with an association photon has significant kinematic differences to the regions in this analysis.  These events would appear as a further subset of the single top background.  Reconstructing an invariant mass around the top quark mass from the photon and the leading light jet is a key input to the neural network discriminator.  This is unlikely to occur in the production mode.
 
 A profile likelihood approach for treatment of nuisance parameters\cite{Cowan:2010js} (systematic uncertainties presented in Section \ref{sec:NPUncertainties}) is used.
 
-Physically we can interpret this signal strength as the ratio of the signal cross section to the predicted signal cross section.  However if both the decay mode and production (prod) mode are considered then we can interpret $\mu$ as 
+Physically this signal strength can be interpreted as the ratio of the signal cross section to the predicted signal cross section.  However if both the decay mode and production (prod) mode are considered then we can interpret $\mu$ as 
 \[\mu = \frac{N_\text{fit}^\text{decay} + N_\text{fit}^\text{prod.}}{N_\text{input}^\text{decay} + N_\text{input}^\text{prod.}}
 \]then it follows that 
 \[\mu = \frac{\epsilon^\text{decay}\times \mathcal{A}^\text{decay} \times \sigma^\text{decay}_\text{eff, fit}\times L+\epsilon^\text{prod.}\times \mathcal{A}^\text{prod.} \times \sigma^\text{prod.}_\text{eff, fit} \times L}{\epsilon^\text{decay}\times \mathcal{A}^\text{decay} \times \sigma^\text{decay}_\text{eff, input} \times L+\epsilon^\text{prod.}\times \mathcal{A}^\text{prod.} \times \sigma^\text{prod.}_\text{eff, input}\times L}
 \]
-where the fitted (input) number of signal events per coupling (production/decay) $N_\text{fit (input)}^\text{coupling}$, the signal efficiencies $\sigma^\text{coupling}$, the detector acceptances $\mathcal{A}^\text{coupling}$, the fitted (input) effective cross sections $\sigma_\text{eff,fit(input)}^\text{coupling}$, and the luminosity $L$.  If it is then assumed that the detector acceptances and signal efficiencies are independent from the coupling strength and the fact that the signal samples have the same dependence on the coupling strength ($\sigma_\text{eff}^\text{decay}/ \sigma_\text{eff}^\text{prod.} = \text{constant}$) we can simplify the expression for the signal strength to the following form:
+where the fitted (input) number of signal events per coupling (production/decay) $N_\text{fit (input)}^\text{coupling}$, the signal efficiencies $\sigma^\text{coupling}$, the detector acceptances $\mathcal{A}^\text{coupling}$, the fitted (input) effective cross sections $\sigma_\text{eff,fit(input)}^\text{coupling}$, and the luminosity $L$.  If it is then assumed that the detector acceptances and signal efficiencies are independent from the coupling strength and the fact that the signal samples have the same dependence on the coupling strength ($\sigma_\text{eff}^\text{decay}/ \sigma_\text{eff}^\text{prod.} = \text{constant}$), the expression for the signal strength can be simplified to the following form:
 \[ \mu = \frac{\sigma_\text{eff,fit}^\text{decay}}{\sigma_\text{eff,input}^\text{decay}}=\frac{\sigma_\text{eff,fit}^\text{prod.}}{\sigma_\text{eff,input}^\text{prod.}}
 \]
 
@@ -122,7 +122,7 @@ For this search the signal strength can be classified in terms of the branching 
 
 \[ \mu = \frac{\mathcal{B}(t\rightarrow q\gamma) \times \mathcal{B}(t\rightarrow Wb)}{\mathcal{B}_\text{input}(t\rightarrow q\gamma) \times \mathcal{B}_\text{input}(t\rightarrow Wb)}
 \]
-Under the assumption that the top quark nominally decays only to a b quark and a W boson and the negligible decay mode being searched for this can be rewritten as 
+Under the assumption that the top quark nominally decays only to a b quark and a W boson ($\mathcal{B}(t\rightarrow bW)=1$) and the FCNC decay mode being searched is small ($\mathcal{B}(t\rightarrow q\gamma) << \mathcal{B}(t\rightarrow bW)$) this can be rewritten as 
 \[ \mu = \frac{\mathcal{B}(t\rightarrow q\gamma) \times|1-\mathcal{B}(t\rightarrow q\gamma)|}{\mathcal{B}_\text{input}(t\rightarrow q\gamma) \times|1-\mathcal{B}_\text{input}(t\rightarrow q\gamma)|}
 \]
 \[ \mu \approx \frac{\mathcal{B}(t\rightarrow q\gamma)}{\mathcal{B}_\text{input}(t\rightarrow q\gamma)}
@@ -133,7 +133,7 @@ Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal bra
 
 
 \section{Nuisance Parameters}
-The statistical analysis allows the uncertainties discussed in Section \ref{sec:NPUncertainties} to enter into the fits as nuisance parameters (NPs).  Each of these NPs is considered in all of the fit regions independently and dropped (pruned away) if it's effect is less than 1\%.  Many of the parameters are dropped and for some only the normalization or the shape impact is dropped.  A large number of NPs are considered for each region and include theory, experimental, and modeling uncertainties.  Various plots showing which nuisance parameters are kept and dropped, pull values for the nuisance parameters, the bin by bin $\gamma$ normalization factors, the goodness of fit, and correlation matrix between nuisance parameters are presented in this section for the best fit regions.
+The statistical analysis allows the uncertainties discussed in Section \ref{sec:NPUncertainties} to enter into the fits as nuisance parameters (NPs).  Each of these NPs is considered in all of the fit regions independently and dropped (pruned away) if its effect is less than 1\%.  Many of the parameters are dropped and for some only the normalization or the shape impact is dropped.  A large number of NPs are considered for each region and include theory, experimental, and modeling uncertainties.  Various plots showing which nuisance parameters are kept and dropped, pull values for the nuisance parameters, the bin by bin $\gamma$ normalization factors, the goodness of fit, and correlation matrix between nuisance parameters are presented in this section for the best fit regions.
 
 %\subsection{$e$+jets Channel}
 \begin{figure}[h!]
@@ -167,7 +167,7 @@ The statistical analysis allows the uncertainties discussed in Section \ref{sec:
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/CorrMatrix.png}
-	\caption[Correlation matrix  with at least one coefficient above 20\% for $e$+jets channel]{Correlation matrix  with at least one coefficient above 20\% for $e$+jets channel }
+	\caption[Correlation matrix  with at least one coefficient above 20\% for $e$+jets channel]{Correlation matrix  with at least one coefficient above 20\% for $e$+jets channel. }
 	\label{fig:Correjets}
 \end{figure}
 
@@ -204,7 +204,7 @@ The statistical analysis allows the uncertainties discussed in Section \ref{sec:
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/CorrMatrix.png}
-	\caption[Correlation matrix  with at least one coefficient above 20\% for $\mu$+jets channel]{Correlation matrix  with at least one coefficient above 20\% for $\mu$+jets channel }
+	\caption[Correlation matrix  with at least one coefficient above 20\% for $\mu$+jets channel]{Correlation matrix  with at least one coefficient above 20\% for $\mu$+jets channel. }
 	\label{fig:Corrmujets}
 \end{figure}
 % Change - Add Ranking Plots
@@ -222,7 +222,7 @@ Every variable distribution contains shape information and as such will have sli
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_drlph_postFit.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_m_lgam_postFit.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_bjet0_pt_postFit.png}}
-\caption{Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $m_{l \gamma}$ (e), and b-jet $p_T$ (f) in the final signal region for the electron channel }
+\caption{Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $m_{l \gamma}$ (e), and b-jet $p_T$ (f) in the final signal region for the electron channel. }
 \label{fig:fitSRej1}
 \end{figure}
 
@@ -236,7 +236,7 @@ Every variable distribution contains shape information and as such will have sli
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_njet_postFit.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_MWT_postFit.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_ejets/Plots/SR_ST_postFit.png}}
-\caption{Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) in the final signal region for the electron channel}
+\caption{Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) in the final signal region for the electron channel.}
 \label{fig:fitSRej2}
 \end{figure}
 
@@ -250,7 +250,7 @@ Every variable distribution contains shape information and as such will have sli
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_drlph_postFit.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_m_lgam_postFit.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_bjet0_pt_postFit.png}}
-\caption{Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $m_{l \gamma}$ (e), and b-jet $p_T$ (f) in the final signal region for the muon channel}
+\caption{Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma}$ (d), $m_{l \gamma}$ (e), and b-jet $p_T$ (f) in the final signal region for the muon channel.}
 \label{fig:fitSRmuj1}
 \end{figure}
 
@@ -264,7 +264,7 @@ Every variable distribution contains shape information and as such will have sli
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_njet_postFit.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_MWT_postFit.png}}\hfil  
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/FCNC_All_mujets/Plots/SRmu_ST_postFit.png}}
-\caption{Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) in the final signal region for the muon channel}
+\caption{Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), $\slashed{E}_T$ (c), $N_\text{jets}$ (d),  $m_T^W$ (e), and $S_T$ (f) in the final signal region for the muon channel.}
 \label{fig:fitSRmuj2}
 \end{figure}
 
@@ -288,7 +288,7 @@ $t\bar{t}+V$	           & 1.2 $\pm$ 0.2 & 1.6 $\pm$ 0.3 \\ \hline
 Total MC 			& 424.9 $\pm$ 29.3 & 575.9 $\pm$ 72.9\\ \hline
 Data		                     	& 429 & 573\\ \hhline{===}
 \end{tabular}
-\caption{Post-fit signal region event yields}
+\caption{Post-fit signal region event yields.}
 \label{tab:postfitSRYields}
 }
 \end{center}
@@ -311,7 +311,7 @@ $\mu$+jets	& $0.153$ 	& $0.103$	& $0.142$ & $0.193$	\\
 Combined	& $0.096$ 	& $0.080$	& $0.110$ & $0.153$	\\
 \hhline{=====}
 \end{tabular}
-\caption{Expected and obversed upper limits on signal strength $\mu$ used in the fit}
+\caption{Expected and observed upper limits on signal strength $\mu$ used in the fit.}
 \label{tab:UpperLimitsMu}
 }
 \end{center}
@@ -329,7 +329,7 @@ $\mu$+jets	& $1.53\times10^{-4}$ 	& $1.03\times10^{-4}$	& $1.42\times10^{-4}$ & 
 Combined	& $0.96\times10^{-4}$ 	& $0.80\times10^{-4}$	& $1.10\times10^{-4}$ & $1.53\times10^{-4}$	\\
 \hhline{=====}
 \end{tabular}
-\caption{Upper limits on the branching ratio BR(t$\rightarrow q \gamma$)}
+\caption{Upper limits on the branching ratio BR(t$\rightarrow q \gamma$).}
 \label{tab:UpperLimitsBR}
 }
 \end{center}
@@ -346,7 +346,7 @@ $\mu$+jets	& 83 fb	& 77 fb 	\\
 Combined	& 50 fb	& 60 fb 	\\
 \hhline{===}
 \end{tabular}
-\caption{Observed and expected limits on the cross section $\sigma(pp\rightarrow tt \rightarrow Wb q \gamma$)}
+\caption{Observed and expected limits on the cross section $\sigma(pp\rightarrow tt \rightarrow Wb q \gamma$).}
 \label{tab:UpperLimitsXS}
 }
 \end{center}
@@ -355,7 +355,7 @@ Combined	& 50 fb	& 60 fb 	\\
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.5\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/LimitPlot.png}
-	\caption{95\% confidence level upper limits on the signal strength $\mu$
+	\caption{95\% confidence level upper limits on the signal strength $\mu$.
 	}
 	\label{fig:UpperLimMu}
 \end{figure}

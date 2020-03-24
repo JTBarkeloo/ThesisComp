@@ -31,7 +31,9 @@
 \usepackage{tabularx}
 \setcounter{tocdepth}{3}% Include \subsubsection in ToC
 %\usepackage{hyperref} %If you get an error due to hyperref package, delete your old INT.aux file then recompile.
-
+%\usepackage[nonatbib]
+\usepackage[style=numeric-comp,backend=biber,sorting=none]{biblatex}
+\addbibresource{main.bib}
 \pdfstringdefDisableCommands{\let\uppercase\relax}
 
 \justifiedtrue
@@ -69,16 +71,26 @@
 \include{Results}
 \include{Conclusion}
 %%%%%%%%%\include{Ben}
-
+%
 \setcounter{tocdepth}{-1}
 \appendix
 \include{appendicies}
 %%%%%%%%%%%%%%%%%%%%
 
 
-\bibliographystyle{unsrt}
-\bibliography{main}%%disbib.bib uses BibTex formatting.
+%\bibliographystyle{unsrt}
+%\bibliography{main}%%disbib.bib uses BibTex formatting.
+%\printbibliography
 
+\begingroup
+\interlinepenalty=10000\relax
+\widowpenalty=10000\relax
+\clubpenalty=10000\relax
+\raggedbottom
+\setstretch{0.9}
+\setlength\bibitemsep{11pt}
+\printbibliography[title={REFERENCES CITED},heading=bibintoc]
+\endgroup
 
 
 

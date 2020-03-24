@@ -1,3 +1,4 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {USenglish}{}
 \contentsline {chapter}{\numberline {I}\uppercase {Introduction}}{1}{Doc-Start}% 
 \contentsline {section}{ \numberline {1.1} The Standard Model Top Quark}{1}{section.1.1}% 
@@ -105,4 +106,4 @@
 \contentsline {section}{ \numberline {G.2} Alternative Fit Method: Both Channels $\gamma $ $p_T$}{199}{section.G.2}% 
 \contentsline {subsection}{ \numberline {G.2.1} Validation Region Plots: Fit on $\gamma $ $p_T$ in e+jets Region}{202}{subsection.G.2.1}% 
 \contentsline {chapter}{\number@appendix {8}{H} \uppercase {Post-fit Effect of Systematic Uncertainties }}{205}{figure.caption.145}% 
-\contentsline {chapter}{REFERENCES CITED}{213}{table.H.2}% 
+\contentsline {chapter}{REFERENCES CITED}{213}{appendix*.146}% 

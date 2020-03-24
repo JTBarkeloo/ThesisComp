@@ -49,7 +49,7 @@
 \newif\if@numsections
 \newif\if@contnumb
 \newif\if@draftimage
-\DeclareOption{dissertation}{\@dissertationtrue\thesistrue\natbibtrue}
+\DeclareOption{dissertation}{\@dissertationtrue\thesistrue}%\natbibtrue}  %Barkeloo - changed natbibtrue to a comment
 \DeclareOption{msthesis}{\@dissertationfalse\thesistrue}
 \DeclareOption{draftimages}{\draftimagetrue\PassOptionsToPackage{draft}{graphicx}}
 \DeclareOption{draftcopy}{\drafttrue\draftcopytrue\boundtrue}

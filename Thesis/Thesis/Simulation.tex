@@ -11,7 +11,7 @@ To draw conclusions from ATLAS experimental data it is necessary to make accurat
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/MCFlow.png}
-	\caption[A pictoral view of the different steps for the creation of a MC event.]{A pictoral view of the different steps for the creation of a MC event. \cite{MaxThesis} 
+	\caption[A pictoral view of the different steps for the creation of a MC event.]{A pictoral view of the different steps for the creation of a MC event\cite{MaxThesis}.
 	}
 	\label{fig:SimMCFlow}
 \end{figure}
@@ -23,17 +23,17 @@ Particle interactions at LHC energies do not involve the entire proton.  The con
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/PDF.png}
-	\caption[The bands are the momentum fraction, $x$, times the unpolarized parton distribution function obtained in NNLO NNPDF3.0 global analysis at scales $\mu^2= 10$ GeV and $\mu^2 = 100 \text{ GeV}^2$]{The bands are the momentum fraction, $x$, times the unpolarized parton distribution function obtained in NNLO NNPDF3.0 global analysis at scales $\mu^2= 10 \text{ GeV}^2$ and $\mu^2 = 100 \text{ GeV}^2$ \cite{PDG2018} 
+	\caption[The bands are the momentum fraction, $x$, times the unpolarized parton distribution function obtained in NNLO NNPDF3.0 global analysis at scales $\mu^2= 10$ GeV and $\mu^2 = 100 \text{ GeV}^2$.]{The bands are the momentum fraction, $x$, times the unpolarized parton distribution function obtained in NNLO NNPDF3.0 global analysis at scales $\mu^2= 10 \text{ GeV}^2$ and $\mu^2 = 100 \text{ GeV}^2$ \cite{PDG2018} .
 	}
 	\label{fig:PDF}
 \end{figure}
-The PDFs and hard scattering processes are included in the calculation of the Matrix Elements (ME) of any interaction.  Hard scattering processes can be descibed by Feynman diagrams, a representation of their amplitudes.  Combining the PDFs and hard scattering amplitudes gives the probability of a particular interaction occuring.  Calculation of the MEs is the first stage of simulation and is done to a specified order in perturbation theory: leading order (LO), next-to-leading order (NLO), etc.  Higher order calculations lead to more accurate predictions but grow in complexity exponentially making them harder to calculate both theoretically and computationally, often restricting how accurate a process can be simulated.  
+The PDFs and hard scattering processes are included in the calculation of the Matrix Elements (ME) of any interaction.  Hard scattering processes can be descibed by Feynman diagrams, a representation of their amplitudes.  Combining the PDFs and hard scattering amplitudes gives the probability of a particular interaction occuring.  Calculation of the MEs is the first stage of simulation and is done to a specified order in perturbation theory: leading order (LO), next-to-leading order (NLO), etc.  Higher order calculations lead to more accurate predictions but grow in complexity exponentially making them harder to calculate both theoretically and computationally, often restricting how accurately a process can be simulated.  
 
 \subsection{Parton Shower Calculation}
 The next stage of simulating an event is the parton shower.  These parton shower calculations deal with the quantum chromodynamic processes.  In any interaction the particles that carry color can spontaneously emit gluons which can go on to create more gluons or quark-antiquark pairs.  Depending on when this happens in the hard scattering process it is called initial state radiation (ISR) or final state radiation (FSR).   The hard scattering partons as well as any additional radiated particles are used as inputs to parton shower calculations which determine how the quarks and gluons proceed through to the final state particles seen in the detector.  This includes calculation of hadronization processes and futher decay processes into the final state particles.
 
 \subsection{Detector Simulation}
-The final stage of creating an MC event is the detector simulation.  The information from the event generators are processed using \textsc{geant4} \cite{Geant4} and a detailed model of the ATLAS detector.  \textsc{geant4} simulates how various particles propagate through and interact with the material properties of the detector and where they leave energy which would then be measured by the ATLAS detector in an actual event.  The result of this MC event construction flow is a collection of simulated data that is similar in structure to actual data collected using the ATLAS experiment.  The energy deposits in both MC and real data are combined using the same software for physics objects are reconstruction.  For MC events this allows for comparison between the physics object reconstruction and the truth record, or the types of particles fed into the detector simulation.
+The final stage of creating an MC event is the detector simulation.  The information from the event generators are processed using \textsc{geant4} \cite{Geant4} and a detailed model of the ATLAS detector.  \textsc{geant4} simulates how various particles propagate through and interact with the material properties of the detector and where they leave energy which would then be measured by the ATLAS detector in an actual event.  The result of this MC event construction flow is a collection of simulated data that is similar in structure to actual data collected using the ATLAS experiment.  The energy deposits in both MC and real data are combined using the same software used for physics object reconstruction.  For MC events this allows for comparison between the physics object reconstruction and the truth record, or the types of particles fed into the detector simulation.
 
 \subsection{Monte Carlo Generators Used for LHC Physics}
 
@@ -54,7 +54,7 @@ A common event file format developed at the Les Houches Accords \cite{Alwall:200
 %%%%%%% FCNC Generation
 \section{Creation of Flavor Changing Neutral Current Signal Events}
 \label{Sec:MG5Sig}
-To create simulated signal events the typical Standard Model models must be extended to include higher order terms.  A Universal FeynRules Output (UFO, \cite{UFO})   model was created to include dimension 6 operators (\cite{Dim6TermsOld, Dim6Terms}).  These individual operators are turned on for the specific final state being produced.  The original operators can be reduced to a minimal set of coupling to anomalous finals states (i.e. FCNC final states)\cite{TopCouplingsAguilarSaavedra}, used for event production.  This effective field theory method of signal production is beneficial as it allows for production of signal events that are not dependent on any particular BSM model.  This method of including dimension-6 effective operators can be used to produce any of the top FCNC channels, for example in the $t\rightarrow qZ$ process \cite{FCNCtqZ} and $t\rightarrow qH$ \cite{UFOModel}.
+To create simulated signal events the typical Standard Model models must be extended to include higher order terms.  A Universal FeynRules Output (UFO, \cite{UFO})   model was created to include dimension 6 operators (\cite{Dim6TermsOld, Dim6Terms}).  These individual operators are turned on for the specific final state being produced.  The original operators can be reduced to a minimal set of coupling to anomalous final states (i.e., FCNC final states)\cite{TopCouplingsAguilarSaavedra}, used for event production.  This effective field theory method of signal production is beneficial as it allows for production of signal events that are not dependent on any particular BSM model.  This method of including dimension-6 effective operators can be used to produce any of the top FCNC channels, for example in the $t\rightarrow qZ$ process \cite{FCNCtqZ} and $t\rightarrow qH$ \cite{UFOModel}.
 
 \subsection{FCNC Events Produced With MadGraph5 aMC@NLO}
 
@@ -69,7 +69,7 @@ Signal events have been produced using MadGraph5 aMC@NLO following the Work of D
 \end{figure}
 
 
-The minimal couplings mean there is one scalar coupling introduced for each decay mode, $t\rightarrow c\gamma$ and $t\rightarrow u\gamma$.  All possible final states are shown in the figures in this section: the leptonic and hadronic decays of the W boson from the top quark that decays through the typical standard model decay mode $t\rightarrow bW$. 
+The minimal couplings mean there is one scalar coupling introduced for each decay mode, $t\rightarrow c\gamma$ and $t\rightarrow u\gamma$.  All possible final states are shown in the figures in this section: the leptonic and hadronic decays of the W boson from the top quark that decays through the typical Standard Model decay mode $t\rightarrow bW$. 
 
 \begin{figure}[h!]
 	\centering
@@ -95,12 +95,12 @@ The lepton validation plots in Figure \ref{fig:LepVal} only show events where th
 	}
 	\label{fig:QuarkVal}
 \end{figure}
-No unexpected deviations from the Standard model produced $t\bar{t}$ samples are seen in any of the validation plots.  The deviations seen in Figure \ref{fig:QuarkVal} are misplaced quarks from NLO processes.  The shifted mean values in the up and charm $p_T$ spectrum are also expected.  In those samples the up or charm quark is coming directly from the top quark as opposed to a W boson, which means it will have significantly boosted momentum. 
+No unexpected deviations from the Standard Model produced $t\bar{t}$ samples are seen in any of the validation plots.  The deviations seen in Figure \ref{fig:QuarkVal} are misplaced quarks from NLO processes.  The shifted mean values in the up and charm $p_T$ spectrum are also expected.  In those samples the up or charm quark is coming directly from the top quark as opposed to a W boson, which means it will have significantly boosted momentum. 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.8\columnwidth]{../ThesisImages/FCNCValidation/photon.png}
-	\caption{Normalized $p_T$ of the photons produced by the model for each FCNC final state search and an official $t\bar{t}$ sample, there is 0 contribution from the official $t\bar{t}$ sample.
+	\caption{Normalized $p_T$ of the photons produced by the model for each FCNC final state search and an official $t\bar{t}$ sample.  There is 0 contribution from the official $t\bar{t}$ sample.
 	}
 %	\label{fig:SimMCFlow}
 \end{figure}
@@ -111,12 +111,12 @@ In the model there are left-and right-handed scalar couplings.  Investigation in
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.8\columnwidth]{../ThesisImages/FCNCValidation/PhotonLHRH.png}
-	\caption{ Normalized $p_T$ of the photons produced by the model using the Left-handed (LH) and Right-handed (RH) couplings
+	\caption{ Normalized $p_T$ of the photons produced by the model using the Left-handed (LH) and Right-handed (RH) couplings.
 	}
 	\label{fig:LHRHcomp}
 \end{figure}
 
-No differences in final state kinematics were shown in the right-handed coupling compared to the left-handed coupling.  Due to this, only one coupling value was used in the production.  In the end only leptonic decays of the W were produced officially.  The leptonic state is simpler to search for than a final state not involving leptons because of the much larger backgrounds from QCD processes.  The lepton offers many handles for searching for these rare FCNC decays.  Using the leptonic final state it is not necessary to use combinatorics for event reconstruction as each object is unique and comes from one particular object.  In this analysis the final state involves a light jet and a photon (from the FCNC decay), and a lepton, photon, and b-jet (from the Standard Model top decay).
+No differences in final state kinematics were shown in the right-handed coupling compared to the left-handed coupling.  Due to this, only one coupling value was used in the production.  In the end only leptonic decays of the W were produced officially.  The leptonic state is simpler to search for than a final state not involving leptons because of the much larger backgrounds from QCD processes.  The lepton offers many handles for searching for these rare FCNC decays.  While using the leptonic final state it is not necessary to use combinatorics for event reconstruction as each object is unique and comes from one particular object.  In this analysis the final state involves a light jet and a photon (from the FCNC decay), and a lepton, photon, and b-jet (from the Standard Model top decay).
 
 
 
@@ -129,25 +129,25 @@ After the events are simulated, or collected in case of real data, the collectio
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/ParticleInteractions.jpg}
-	\caption[Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.]{Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.  Solid lines indicate interactions while dashed lines indicate that no interactions typically occur in that section of the detector. \cite{ParticleInteractions} 
+	\caption[Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.]{Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.  Solid lines indicate interactions while dashed lines indicate that no interactions typically occur in that section of the detector \cite{ParticleInteractions}.
 	}
 	\label{fig:ATLASInteractions}
 \end{figure}
 
 
 \subsection{Electrons}
-Electrons interacting with within the ATLAS detector leave a track in the Inner Detector as well as a cluster of energy in the electromagnetic calorimeter.  The track and cluster are required to be matched together to be identified as an electron candidate\cite{ElectronID}.  As electrons move through the detector they create electromagnetic showers through bremsstrahlung which can produce electron-positron pairs.  The process continues as the particles continue to give energy to the detector.  This collection of electrons, positrons, and photons creates a signature energy cluster in the calorimeter.  
+Electrons interacting within the ATLAS detector leave a track in the Inner Detector as well as a cluster of energy in the electromagnetic calorimeter.  The track and cluster are required to be matched together to be identified as an electron candidate\cite{ElectronID}.  As electrons move through the detector they create electromagnetic showers through bremsstrahlung which can produce electron-positron pairs.  The process continues as the particles continue to give energy to the detector.  This collection of electrons, positrons, and photons creates a signature energy cluster in the calorimeter.  
 
 Electron identification algorithms are applied to the electron candidates to separate prompt and isolated electron candidates from electrons that come from backgrounds such as converted photons and misidentified jets.  The electron idenification algorithms use a sliding window ( $3\times5$ in $\eta \times \phi$) in the high granularity section of the LAr electromagnetic calorimeter to search for electron cluster ``seeds'' greater than 2.5 GeV.  Clusters are created around these seeds to form the electromagnetic shower and remove possible duplicate electron signals by containing them within the cluster.  Further pattern recognition for the track fitting allows even larger amounts of energy into the shower to account for bremsstrahlung in the shower shape.  Tracks and clusters are then matched to give electron candidates.  
 
-Electrons coming from background jets or photon conversion are called non-prompt as they do not originate from a signal object/the primary vertex.  In order to reject these electrons, other discriminating variables are used in addition to the track-cluster matching.  These variables inclue the amount of energy leakage into the hadronic calorimeter, thee shower development throughout the electromagnetic calorimeter, and the amount of radiation measured in the TRT.  Three electron identification working points are used: Loose, Medium, and Tight.  Each of these operating points have their own level of background rejection and signal efficiency.  Working points with higher background rejection are a subset of those with lower background rejection.
+Electrons coming from background jets or photon conversion are called non-prompt as they do not originate from a signal object or the primary vertex.  In order to reject these electrons, other discriminating variables are used in addition to the track-cluster matching.  These variables include the amount of energy leakage into the hadronic calorimeter, the shower development throughout the electromagnetic calorimeter, and the amount of radiation measured in the TRT.  Three electron identification working points are used: Loose, Medium, and Tight.  Each of these operating points have their own level of background rejection and signal efficiency.  Working points with higher background rejection are a subset of those with lower background rejection.
 
 Isolation variables are another useful tool in the identification of signal electrons from converted photons produced in hadron decays and light hadron misidentification.  These variables are defined by a cone size around the electron candidate and are the sum of the transverse variable (momentum or energy) of all of the tracks within the cone, $p_{T}^{\text{cone0.2}}$ with a cone of $\Delta R =0.2$ (or 10 GeV/$E_T$, for high energy electrons) and $E_{T, Topo}^{\text{varcone0.4}}$ with a cone defined in a similar manner.  
 
 Because the LAr calorimeter is a sampling calorimeter, the energy deposits must be calibrated and scaled such that the true electron energy is read out and not just the small amount of energy deposited into the active layers as discussed in Section \ref{sec:EMHCal}.  The energy scale is calibrated to be uniform throughout the detector.  Any residual differences between data and simulation are corrected.  The calibration strategy was developed for optimal preformance in LHC Run 1\cite{ElectronCalib1} and updated for the conditions of LHC Run 2\cite{ElectronCalib2}.
 
 \subsection{Muons}
-Muons behave differently from other particles as they traverse the detector.  They act as minimum-ionizing-particles (MIPs) throughout the calorimeter.  The Muon Spectrometer (MS), Section \ref{sec:MuCal}, specializes in precision measurements of muons.  The Inner Detector (ID) plays a pivotal role in the identification of muons as it offers an independent measure of the muon characteristics.  The muron reconstruction process uses a specific set of variables as well\cite{MuonID}.  These variables include: \textit{ q/p significance}: the difference in the ratio of track charge and momentum measured with the ID and MS, $\rho'$: the difference between the transverse momenta measured with the ID and MS, and $\chi^2$ of the combined track fit using tracks from both the ID and MS.
+Muons behave differently from other particles as they traverse the detector.  They act as minimum-ionizing-particles (MIPs) throughout the calorimeter.  The Muon Spectrometer (MS), Section \ref{sec:MuCal}, specializes in precision measurements of muons.  The Inner Detector (ID) plays a pivotal role in the identification of muons as it offers an independent measure of the muon characteristics.  The muon reconstruction process uses a specific set of variables as well\cite{MuonID}.  These variables include: \textit{ q/p significance}: the difference in the ratio of track charge and momentum measured with the ID and MS, $\rho'$: the difference between the transverse momenta measured with the ID and MS, and $\chi^2$ of the combined track fit using tracks from both the ID and MS.
 
 Muons are separated out into four separate types depending on their interactions with the various subdetectors.  The best muon candidates are combined muons that use hits in the MS to trace back to a track in the ID in order to reconstruct the entire muon track.  Segment-tagged muons are muon candidates that leave a track in the ID but only a segment in the MS instead of a full track.  Segment-tagged muons can occur because of the muon having low $p_T$ or crossing through a region of the MS with reduced acceptance.  Extrapolated muons require only tracks in the MS and are used in regions of $\eta, \phi$ phase space that the ID does not cover.  Calorimeter-tagged muons are muons identified by MIPs in the calorimeters and are used to find muons that cross the ID and MS in regions where cabling might prevent particle detection.
 
@@ -156,7 +156,7 @@ Muons also have their own set of isolation criteria which is track-based $p_{T}^
 High $p_T$ jets that punch through the hadronic calorimeter can leave tracks in the MS which could be identified as muons.  These would be identified as a bad or a fake muon because of the high-hit multiplicities they leave in the MS as opposed to a single track left by a muon as it is a MIP.  Another source of bad muons is a mismeasured ID track that gets incorrectly matched to segments in the MS.  Fake muons are a source of fake missing transverse energy, $ \slashed{E}_T$
 
 \subsection{Photons}
-Photons behave very similarly to electrons in the calorimeter in that they also produce an electromagnetic shower in the calorimeter.  However, they are neutrally charged particles meaning that they should not leave a track in the ID as they do not bend and produce bremsstrahlung photons traveling through the magnetic field.  Prompt photons pair-produce electrons in the tracker, but this process can be identified as the associated cluster in the electromagnetic calorimeter is matched to two tracks with opposite charge.  This process produces what is called a converted photon.  Unconverted photons have no matching tracks associated with an electromagnetic cluster.    
+Photons behave very similarly to electrons in the calorimeter in that they also produce an electromagnetic shower in the calorimeter.  However, they are neutrally charged particles meaning that they should not leave a track in the ID as they do not bend and produce bremsstrahlung photons traveling through the magnetic field.  Prompt photons pair-produce electrons in the tracker, but this process can be identified by using the associated cluster in the electromagnetic calorimeter if it is matched to two tracks with opposite charge.  This process produces what is called a converted photon.  Unconverted photons have no matching tracks associated with an electromagnetic cluster.   
 
 \begin{center}
 \begin{table}
@@ -182,9 +182,8 @@ EM Strip Layer & Lateral shower width, $\sqrt{(\Sigma E_i (i-i_\text{max})^2)/(\
 \end{tabularx}
 \normalsize
 }}
-\caption[Photon identification variables used for \textit{loose} and \textit{tight} photon identification]{Photon identification variables used for \textit{loose} and \textit{tight} photon identification, taken from \cite{PhotonID}}
+\caption[Photon identification variables used for \textit{loose} and \textit{tight} photon identification.]{Photon identification variables used for \textit{loose} and \textit{tight} photon identification, taken from \cite{PhotonID}.}
 \label{tab:PhotonVars}
-
 \end{table}
 \end{center}
 
@@ -200,12 +199,12 @@ Contrasting with electromagnetic showers produced by electrons and photons, hadr
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/VarJetAlgs.png}
-	\caption[A sample parton-level event with many random soft jet objects, clustered with four different jets algorithms, illustrating the areas of the resulting hard jets. For kt and Cambridge/Aachen the detailed shapes are in part determined by the specific set of ghosts used, and change when the ghosts are modified]{A sample parton-level event with many random soft jet objects, clustered with four different jets algorithms, illustrating the areas of the resulting hard jets. For kt and Cambridge/Aachen the detailed shapes are in part determined by the specific set of ghosts used, and change when the ghosts are modified \cite{antikt} 
+	\caption[A sample parton-level event with many random soft jet objects, clustered with four different jets algorithms, illustrating the areas of the resulting hard jets. For kt and Cambridge/Aachen the detailed shapes are in part determined by the specific set of ghosts used, and change when the ghosts are modified.]{A sample parton-level event with many random soft jet objects, clustered with four different jets algorithms, illustrating the areas of the resulting hard jets. For kt and Cambridge/Aachen the detailed shapes are in part determined by the specific set of ghosts used, and change when the ghosts are modified\cite{antikt}. 
 	}
 	\label{fig:VarJetAlgs}
 \end{figure}
 
-The jets in this analysis use the anti-$k_T$ algorithm \cite{antikt} with a radius parameter $R=0.4$.  Jets are not physical objects but collections of clustered particles so how they are defined can change the physics objects that are eventually analyzed.  The anti-$k_T$ algorithm is preferred because it is infrared and collinear safe.  Infrared safe jet algorithms do not merge two jets with a soft emission between them.  Adding or removing a soft term between two jets should not change which objects are called jets.  Collinear safe jet algorithms do not change the jet collection if the high transverse momentum particles is split or merged .  Another added benefit of the anti-$k_T$ jet finding algorithm is that it produces roughly circular jet objects, thereby simplifying the calculation of the energy density and simplifying the calibration of the jet object.
+The jets in this analysis use the anti-$k_T$ algorithm \cite{antikt} with a radius parameter $R=0.4$.  Jets are not physical objects but collections of clustered particles so how they are defined can change the physics objects that are eventually analyzed.  The anti-$k_T$ algorithm is preferred because it is infrared and collinear safe.  Infrared safe jet algorithms do not merge two jets with a soft emission between them.  Adding or removing a soft term between two jets should not change which objects are called jets.  Collinear safe jet algorithms do not change the jet collection if the high transverse momentum particles are split or merged.  Another added benefit of the anti-$k_T$ jet finding algorithm is that it produces roughly circular jet objects, thereby simplifying the calculation of the energy density and simplifying the calibration of the jet object.
 
 The anti=$k_T$ algorithm calculates the distance between an object $i$ and all possible jet objects $j$ ($d_{ij}$) and the beam ($d_{iB}$)
 \[ d_{ij} = \text{min}(k_{ti}^{2p},k_{tj}^{2p})\frac{\Delta^2_{ij}}{R},\qquad 
@@ -227,7 +226,7 @@ While jets originate from any quark, jets coming from b quarks can be identified
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.5\columnwidth]{../ThesisImages/Simulation/B-tagging_diagram.png}
-	\caption[Pictoral representation of an event with a b-jet showing the secondary vertex and impact parameter]{Pictoral representation of an event with a b-jet showing the secondary vertex and impact parameter \cite{BTagImg} 
+	\caption[Pictoral representation of an event with a b-jet showing the secondary vertex and impact parameter.]{Pictoral representation of an event with a b-jet showing the secondary vertex and impact parameter\cite{BTagImg}. 
 	}
 	\label{fig:BTagVars}
 \end{figure}
@@ -239,7 +238,7 @@ The MVA used in this analysis is the MV2c10, the discriminant used for b-jet ide
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/Simulation/BTagMV2c10andRejVsEff.png}
-	\caption[The MV2c10 output for b, c, and light flavored jets in simulated $t\bar{t}$ and the background rejection as a function of the b-jet efficiency]{The MV2c10 output for b, c, and light flavored jets in simulated $t\bar{t}$ and the background rejection as a function of the b-jet efficiency \cite{BJetMVA}
+	\caption[The MV2c10 output for b, c, and light flavored jets in simulated $t\bar{t}$ and the background rejection as a function of the b-jet efficiency.]{The MV2c10 output for b, c, and light flavored jets in simulated $t\bar{t}$ and the background rejection as a function of the b-jet efficiency\cite{BJetMVA}.
 	}
 	\label{fig:BTag}
 \end{figure}
@@ -251,13 +250,13 @@ The MVA used in this analysis is the MV2c10, the discriminant used for b-jet ide
 \subsection{Missing Transverse Energy}
 The remaining signal object that has yet to be discussed is the neutrino coming from the W boson decay.  Neutrinos do not interact with the detectors as they pass through the ATLAS detector.  The only way to measure any properties of the neutrino in ATLAS events is to use conservation of momentum.  As previously mentioned the collision energy is unknown as partons do not carry a consistent fraction of the beam proton energy.  However, in the transverse plane to the beamline the total momentum is known to be very small.  Before the collision there is on the order of 1 GeV of momentum in the transverse plane.  Therefore, the total transverse momentum of the collision products should be approximately zero.
 
-Any imbalance in the momentum is referred to as Missing Transverse Momentum ($\slashed{E}_T$).  The negative vector sum of all reconstructed objects plus an additional soft term are used to calculate the missing energy in the x-plane and the y-plane\cite{METreco}.  A magnitude and an aziumuthal angle are calculated to give the \textbf{$\slashed{E}_T$} vector in the transverse plane but this does not directly correspond to a neutrino which also has a momentum in the z direction.
+Any imbalance in the momentum is referred to as Missing Transverse Momentum ($\slashed{E}_T$).  The negative vector sum of all reconstructed objects plus an additional soft term are used to calculate the missing energy in the x-plane and the y-plane\cite{METreco}.  A magnitude and an aziumuthal angle are calculated to give the \textbf{$\slashed{E}_T$} vector in the transverse plane, but this does not directly correspond to a neutrino which also has a momentum in the z direction.
 
 \subsubsection{Neutrino Reconstruction}
 In this analysis the signal contains only one source of missing energy, therefore all of the missing energy can be used to reconstruct a neturino object.  There is an ambiguity in the choice of the neutrino z-momentum.  To find the z-momentum a $\chi^2$ minimization is done:
 \[ \chi^2 = \chi_{\text{SMTop}}^2 + \chi_{\text{W}}^2 \]
 \[ \chi^2 = \frac{(m_{\text{bjet},l,\nu}-m_t)^2}{\sigma_{\text{SMTop}}^2} + \frac{(m_{l,\nu}-m_W)^2}{\sigma_W^2} \]
-The widths $sigma_{\text{SMTop}}$ and $\sigma_W^2$ are determined from signal Monte Carlo.  The event objects are combined to calculate the invariant mass of the top quark (the combination of the b-jet, lepton, and neutrino) and the W boson (combination of the lepton and neutrino).  The $\chi^2$ minimization is is done while varying the z-momentum of the neturino.  The neutrino momentum that corresponds to the smallest $\chi^2$ value is given assigned to the neutrino object for further use in the analysis.  The $\chi^2$ values are also used as a discriminating variable and fed into a neural network (Section \ref{sec:NN}).
+The widths $sigma_{\text{SMTop}}$ and $\sigma_W^2$ are determined from signal Monte Carlo.  The event objects are combined to calculate the invariant mass of the top quark (the combination of the b-jet, lepton, and neutrino) and the W boson (combination of the lepton and neutrino).  The $\chi^2$ minimization is done while varying the z-momentum of the neturino.  The neutrino momentum that corresponds to the smallest $\chi^2$ value is assigned to the neutrino object for further use in the analysis.  The $\chi^2$ values are also used as a discriminating variable and fed into a neural network (Section \ref{sec:NN}).
 
 
 
