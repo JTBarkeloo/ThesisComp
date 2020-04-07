@@ -2,14 +2,14 @@
 \chapter{Analysis And Results}
 \label{ch:Results}
 %Deep thoughts go here.
-This search is to attempt to observe the FCNC decay of a top quark $t \rightarrow q \gamma$ or to set an upper limit on the branching ratio of this decay process if no observation occurs.  As there is no significant excess of events in the collected data an upper limit on the branching ratio is set.  This chapter will discuss  the methods used to set the upper limit on the branching ratio as well as the systematic uncertainties within the experiment.   This chapter contains material coauthored by the ATLAS Collaboration.  I took advantage of the common tools developed by the ATLAS Collaboration for fitting and limit setting for the final results presented in this chapter.
+This search attempts to observe the FCNC decay of a top quark $t \rightarrow q \gamma$ or to set an upper limit on the branching ratio of this decay process if no observation occurs.  As there is no significant excess of events in the collected data an upper limit on the branching ratio is set.  This chapter will discuss  the methods used to set the upper limit on the branching ratio as well as the systematic uncertainties within the experiment.   This chapter contains material coauthored by the ATLAS Collaboration.  I took advantage of the common tools developed by the ATLAS Collaboration for fitting and limit setting for the final results presented in this chapter.
 
 \section{Systematic Uncertainties}
 \label{sec:NPUncertainties}
 Various sources of uncertainty are considered for any analysis in high energy physics.  Statistical and systematic uncertainties are studied and propagated through to the final upper limit set on the branching ratio.  The statistical errors are related to the amount of data collected or MC events that are available and created for analysis.  More data events or more MC simulated events lead to a smaller statistical error due to random fluctuations of stochastic processes.  In this section the systematic errors will be discussed.  Systematic errors are derived from limitations from detector construction or a lack of complete understanding of physics objects or algorithms used in reconstruction.  Some sources of systematic uncertainties are provided centrally within ATLAS from studies carried out by other analysis teams such as errors on the jet energy resolution (JER) or luminosity amongst others. Other sources are particular to the analysis such as errors propagating from deriving data-driven backgrounds as discussed in the previous chapter.
 This section will briefly introduce and discuss the theoretical systematic uncertainties considered in this analysis including the modeling and experimental uncertainties as well as a discussion on systematic smoothing, symmetrization, and pruning used in the final fit. 
 
-\subsection{Theoretical uncertainties}
+\subsection{Theoretical Uncertainties}
 \begin{description}
 \item[\textbf{Cross Section}:]  Various cross sections for MC samples are separately varied up and down by one standard deviation for each process: $t\bar{t}$ ($\pm5.6\%$ \cite{ttXSec}), $t\bar{t}+\gamma$ ($\pm 8.0\%$ \cite{ATLAS:2018pmj}), single top(t-channel top $^{+4.0\%}_{-3.4\%}$, t-channel anti-top $^{+5.0\%}_{-4.5\%}$, s-channel top $^{+3.6\%}_{-3.1\%}$, s-channel anti-top $^{+4.8\%}_{-4.3\%}$, tW-channel $\pm 5.3\%$ \cite{SingleTopXSec}), V+jets ($\pm5\%$ \cite{VXSec}), and diboson VV ($\pm 6\%$ \cite{VXSec}).  
 %Uncertainties on the prompt photon contribution from W/$t\bar{t}$+jets+$\gamma$ enter the fit as other nuisance parameters as the normalization is allowed to vary in the fit.
@@ -22,18 +22,18 @@ This section will briefly introduce and discuss the theoretical systematic uncer
 
 %\item[\textbf{Normalization of Prompt Photon Contribution}:]  The normalization of the prompt photon contributions that stem from the W+jets+$\gamma$ and $t\bar{t}$+jets+$\gamma$, the major backgrounds, enter the fit as free floating nuisance parameters.
 
-\item[\textbf{$\textbf{t}\bar{\textbf{t}}$ Matrix Element and Shower Generator}:]  To estimate the uncertainty based on the choice of MC generator and showering algorithm used to create the nominal sample (\textsc{Powheg-Box + Pythia}) is replaced by using samples generated using \textsc{MadGraph5\_}a\textsc{MC@NLO + Pythia} and \textsc{Powheg-Box + Herwig}.
+\item[\textbf{$\textbf{t}\bar{\textbf{t}}$ Matrix Element and Shower Generator}:]  To estimate the uncertainty based on the choice of MC generator and showering algorithm, the nominal choice (\textsc{Powheg-Box + Pythia}) is replaced with samples generated using \textsc{MadGraph5\_}a\textsc{MC@NLO + Pythia} and \textsc{Powheg-Box + Herwig}.
 \end{description}
 
 \subsection{Experimental Uncertainties}
 \begin{description}
-\item[\textbf{Luminosity}:] The uncertainty in the combined 2015--2018 integrated luminosity is 1.7  \cite{ATLAS-CONF-2019-021}, obtained using the LUCID-2 detector \cite{LUCID2} for the primary luminosity measurements using x-y beam separation scans.
+\item[\textbf{Luminosity}:] The uncertainty in the combined 2015--2018 integrated luminosity is 1.7\%  \cite{ATLAS-CONF-2019-021}, obtained using the LUCID-2 detector \cite{LUCID2} for the primary luminosity measurements using x-y beam separation scans.
 
 \item[\textbf{Pile-up}:]  Events are re-weighted in the MC samples to match the number of interactions per bunch crossing in data.  Systematic uncertainties for pile-up are evaluated by scaling these distributions up and down.
 
 \item[\textbf{Lepton Identification and Trigger}:]   Lepton efficiencies contain the trigger, reconstruction, identification, and isolation efficiencies.  Scale factors are used to correct any deviation from data in the MC simulation.  Correction factors are derived from $Z\rightarrow ll$ and $J/ \psi \rightarrow ll$ decays for electrons \cite{ElectronID} and muons \cite{MuonID}.
 
-\item[\textbf{Lepton Energy Scale and Resolution}:]  The lepton energy (momentum) is calibrated using MC -based techniques.  Correction factors derived from dileptonic Z boson decay channels are applied to account for detector calibration mismodeling.  For electrons, the energy scale and resolution are calculated together with photons as the EGamma energy scale and resolution.  Various efficiencies are derived for the EGamma scale and resolution, e.g., varying the amount of material in front of the calorimeters, using various MC generators, and considering varying background fits \cite{ElectronID, PhotonID}.
+\item[\textbf{Lepton Energy Scale and Resolution}:]  The lepton energy (momentum) is calibrated using MC-based techniques.  Correction factors derived from dileptonic Z boson decay channels are applied to account for detector calibration mismodeling.  For electrons, the energy scale and resolution are calculated together with photons as the EGamma energy scale and resolution.  Various efficiencies are derived for the EGamma scale and resolution, e.g., varying the amount of material in front of the calorimeters, using various MC generators, and considering varying background fits \cite{ElectronID, PhotonID}.
 \item[\textbf{Photon Efficiency}:]  Scale factors for isolation are measured as described in Ref. \cite{Lesage:2017uzg} while additional scale factors for the photon ID efficiency are derived for photons using enriched $Z\rightarrow ee$ events where the similarity between electrons and photons in our detector is exploited using the matrix method as described in Section \ref{sec:FakePho}. These sets of scale factors are combined into a single set that is applied to MC simulation based on photon information.
 
 \item[\textbf{Photon Energy Scale and Resolution}:]  Photon energy scale and resolution are calculated together with electron energy scale and resolution.
@@ -73,7 +73,7 @@ Smoothing is a technique used to average statistics across bins.  This prevents 
 \section{Statistical Treatment of Results}
 \label{sec:StatTreatment}
 A profile likelihood fit is performed on the SR.  The \textbf{TRExFitter} framework \cite{TRExFitter} was used for this analysis which provides a framework built upon existing code such as the \textbf{RooStats} project\cite{Moneta:2010pm}.
-Following \cite{Lista:2016chp} as well as the fit preformed in \cite{GregorFCNC} a likelihood function, $\mathcal{L}$, can be defined generally in the following manner:
+Following \cite{Lista:2016chp} as well as the fit performed in \cite{GregorFCNC} a likelihood function, $\mathcal{L}$, can be defined generally in the following manner:
 \[ \mathcal{L} = \mathcal{L}(\mu,\theta|\overrightarrow{x})
 \]
 where the parameter $\mu$ is defined as the signal strength and $\theta$ as the set of nuisance parameters for the systematic uncertainties.  The parameter of interest in the fit is proxied as  $\overrightarrow{x}$.  The likelihood is computed using the following:
@@ -89,7 +89,7 @@ using the following parameters:
 \item $N_\text{r,i}$ is the observed number of events in bin $i$ of region $r$
 \item $N_\text{r,i}^\text{s}$ is the expected number of signal events in bin $i$ of region $r$
 \item $N_\text{bkg}$ is the number of background processes that are considered in the fit
-\item $b$ is the index that runs over all cataeories of backgrounds considered
+\item $b$ is the index that runs over all categories of backgrounds considered
 \item $N_\text{r,i}^\text{b}$ is the expected number of events of background $b$ in bin $i$ of region $r$
 \item $N_\text{NP}$ is the total number of nuisance parameters (NPs) considered in the fit
 \item $j$ is the index that runs over the number of NPs
@@ -113,7 +113,7 @@ Physically this signal strength can be interpreted as the ratio of the signal cr
 \]then it follows that 
 \[\mu = \frac{\epsilon^\text{decay}\times \mathcal{A}^\text{decay} \times \sigma^\text{decay}_\text{eff, fit}\times L+\epsilon^\text{prod.}\times \mathcal{A}^\text{prod.} \times \sigma^\text{prod.}_\text{eff, fit} \times L}{\epsilon^\text{decay}\times \mathcal{A}^\text{decay} \times \sigma^\text{decay}_\text{eff, input} \times L+\epsilon^\text{prod.}\times \mathcal{A}^\text{prod.} \times \sigma^\text{prod.}_\text{eff, input}\times L}
 \]
-where the fitted (input) number of signal events per coupling (production/decay) $N_\text{fit (input)}^\text{coupling}$, the signal efficiencies $\sigma^\text{coupling}$, the detector acceptances $\mathcal{A}^\text{coupling}$, the fitted (input) effective cross sections $\sigma_\text{eff,fit(input)}^\text{coupling}$, and the luminosity $L$.  If it is then assumed that the detector acceptances and signal efficiencies are independent from the coupling strength and the fact that the signal samples have the same dependence on the coupling strength ($\sigma_\text{eff}^\text{decay}/ \sigma_\text{eff}^\text{prod.} = \text{constant}$), the expression for the signal strength can be simplified to the following form:
+where the fitted (input) number of signal events per coupling (production/decay) $N_\text{fit (input)}^\text{coupling}$, the signal efficiencies $\epsilon^\text{coupling}$, the detector acceptances $\mathcal{A}^\text{coupling}$, the fitted (input) effective cross sections $\sigma_\text{eff,fit(input)}^\text{coupling}$, and the luminosity $L$.  If it is then assumed that the detector acceptances and signal efficiencies are independent from the coupling strength and the fact that the signal samples have the same dependence on the coupling strength ($\sigma_\text{eff}^\text{decay}/ \sigma_\text{eff}^\text{prod.} = \text{constant}$), the expression for the signal strength can be simplified to the following form:
 \[ \mu = \frac{\sigma_\text{eff,fit}^\text{decay}}{\sigma_\text{eff,input}^\text{decay}}=\frac{\sigma_\text{eff,fit}^\text{prod.}}{\sigma_\text{eff,input}^\text{prod.}}
 \]
 
@@ -127,13 +127,16 @@ Under the assumption that the top quark nominally decays only to a b quark and a
 \]
 \[ \mu \approx \frac{\mathcal{B}(t\rightarrow q\gamma)}{\mathcal{B}_\text{input}(t\rightarrow q\gamma)}
 \]
-Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal branching ratio) are tested in order to calculated expected and observed limits using the $\text{CL}_\text{s}$ technique\cite{Read:2002hq} and presented in Section \ref{sec:Limits}.  The $\text{CL}_\text{s}$ technique makes use of a test statistic based on the negative log likelihood motivated by  Wilks' theorem that allows approximate aymptotic behavior $-2 \text{ln} \mathcal{L}(\mu)$ as a $\chi^2$ goodness of fit \cite{Wilks:1938dza}. %Change - maybe move?
+Values of $\mu$ between 0 (background-only hypothosis) and 2 (2x the nominal branching ratio) are tested in order to calculate expected and observed limits using the $\text{CL}_\text{s}$ technique\cite{Read:2002hq} and presented in Section \ref{sec:Limits}.  The $\text{CL}_\text{s}$ technique makes use of a test statistic based on the negative log likelihood motivated by  Wilks' theorem that allows approximate aymptotic behavior $-2 \text{ln} \mathcal{L}(\mu)$ as a $\chi^2$ goodness of fit \cite{Wilks:1938dza}. %Change - maybe move?
 
 
 
 
 \section{Nuisance Parameters}
 The statistical analysis allows the uncertainties discussed in Section \ref{sec:NPUncertainties} to enter into the fits as nuisance parameters (NPs).  Each of these NPs is considered in all of the fit regions independently and dropped (pruned away) if its effect is less than 1\%.  Many of the parameters are dropped and for some only the normalization or the shape impact is dropped.  A large number of NPs are considered for each region and include theory, experimental, and modeling uncertainties.  Various plots showing which nuisance parameters are kept and dropped, pull values for the nuisance parameters, the bin by bin $\gamma$ normalization factors, the goodness of fit, and correlation matrix between nuisance parameters are presented in this section for the best fit regions.
+
+Most of the nuisance parameters have little to no effect on the fits, as seen in Figures \ref{fig:NPejets} and \ref{fig:NPmujets}.  The parameters with the strongest pulls typically deal with properties of the photon and light jets.  This is due to the weights applied on the input variables $m_{q\gamma}$ and $\gamma_{p_T}$ (as well as other jet related variables) within the neural network, as discussed in Section \ref{sec:NN}.  Any significant change to the photon or jets of an event will result in a pull as can be seen by the ISR/FSR pulls and when the showering algorithm is changed.  This analysis is also sensitive to pile-up reweighting as this can directly effect the energy of the jets considered in the analysis and therefore have an effect on $m_{q\gamma}$ and other jet variables considered in the neural network.  Both the $e\rightarrow \gamma$ and $j\rightarrow \gamma$ fake rates are also pulled which is not surprising since their estimation comes along with a large uncertainty.
+
 
 %\subsection{$e$+jets Channel}
 \begin{figure}[h!]

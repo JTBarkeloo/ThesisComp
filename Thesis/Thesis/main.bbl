@@ -505,6 +505,33 @@
       \verb 10.1103/PhysRevD.44.1473, 10.1103/PhysRevD.59.039901
       \endverb
     \endentry
+    \entry{QuarkConfinement}{article}{}
+      \name{author}{1}{}{%
+        {{hash=71a81eae45ca11d1925b29ac97990acd}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Kenneth\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{71a81eae45ca11d1925b29ac97990acd}
+      \strng{fullhash}{71a81eae45ca11d1925b29ac97990acd}
+      \strng{bibnamehash}{71a81eae45ca11d1925b29ac97990acd}
+      \strng{authorbibnamehash}{71a81eae45ca11d1925b29ac97990acd}
+      \strng{authornamehash}{71a81eae45ca11d1925b29ac97990acd}
+      \strng{authorfullhash}{71a81eae45ca11d1925b29ac97990acd}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{Confinement of Quarks}}
+      \field{year}{1974}
+      \field{pages}{45\bibrangedash 59}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.10.2445
+      \endverb
+    \endentry
     \entry{GrossmanLecture}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=23351b7b1399f6b9fa07f49187f17f29}{%
@@ -807,8 +834,8 @@
       \strng{authorbibnamehash}{f09874857939cc6e43f3ca180517fee9}
       \strng{authornamehash}{f09874857939cc6e43f3ca180517fee9}
       \strng{authorfullhash}{f09874857939cc6e43f3ca180517fee9}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -1223,8 +1250,8 @@
       \strng{authorbibnamehash}{82d4e07edfdc97e832a49645cbd08ff5}
       \strng{authornamehash}{82d4e07edfdc97e832a49645cbd08ff5}
       \strng{authorfullhash}{82d4e07edfdc97e832a49645cbd08ff5}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -1253,8 +1280,8 @@
       \strng{authornamehash}{64b801af020d22f00f8c63d5f10dec61}
       \strng{authorfullhash}{64b801af020d22f00f8c63d5f10dec61}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}}
@@ -1262,8 +1289,8 @@
       \field{title}{Luminosity Public Results Run 2}
     \endentry
     \entry{ATLAS}{article}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Instrum.}
       \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
@@ -1387,8 +1414,8 @@
       \strng{authorbibnamehash}{2170ccf8c9755504b2a27250a81bde13}
       \strng{authornamehash}{2170ccf8c9755504b2a27250a81bde13}
       \strng{authorfullhash}{2170ccf8c9755504b2a27250a81bde13}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{Proceedings, 25th International Workshop on Vertex Detectors (Vertex 2016): La Biodola, Elba Island, Livorno, Italy, September 26-30, 2016}}
@@ -1416,8 +1443,8 @@
       \strng{authorbibnamehash}{2966b4224877e59cbcaae14a694bb6cd}
       \strng{authornamehash}{2966b4224877e59cbcaae14a694bb6cd}
       \strng{authorfullhash}{2966b4224877e59cbcaae14a694bb6cd}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{Proceedings, 2015 European Physical Society Conference on High Energy Physics (EPS-HEP 2015): Vienna, Austria, July 22-29, 2015}}
@@ -1608,8 +1635,8 @@
       \strng{authorbibnamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authornamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authorfullhash}{4034275bca42b52c1a394d599186c42e}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Instrum. Meth.}
@@ -2939,6 +2966,32 @@
       \verb{eprint}
       \verb 1201.0490
       \endverb
+    \endentry
+    \entry{ROCAnalysis}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9c15aa0b2a7683cefeaa12c991d0b1c2}{%
+           family={Fawcett},
+           familyi={F\bibinitperiod},
+           given={Tom.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c15aa0b2a7683cefeaa12c991d0b1c2}
+      \strng{fullhash}{9c15aa0b2a7683cefeaa12c991d0b1c2}
+      \strng{bibnamehash}{9c15aa0b2a7683cefeaa12c991d0b1c2}
+      \strng{authorbibnamehash}{9c15aa0b2a7683cefeaa12c991d0b1c2}
+      \strng{authornamehash}{9c15aa0b2a7683cefeaa12c991d0b1c2}
+      \strng{authorfullhash}{9c15aa0b2a7683cefeaa12c991d0b1c2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pattern Recognition Letters}
+      \field{month}{12}
+      \field{title}{{An introduction to ROC analysis}}
+      \field{volume}{27}
+      \field{year}{2006}
+      \field{pages}{861\bibrangedash 874}
+      \range{pages}{14}
     \endentry
     \entry{MatrixMethod}{article}{}
       \name{author}{1}{}{%

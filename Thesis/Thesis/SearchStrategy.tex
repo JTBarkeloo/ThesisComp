@@ -17,7 +17,7 @@ The dominant backgrounds in this search are Standard Model $t\bar{t}$, Standard 
 
 \item[\textbf{Fake Leptons}:] Non-prompt or fake electrons and muons can arise from semi-leptonic decay of $b$ and $c$ quarks.  For electrons additional contributions from photon conversions and jets in the electromagnetic calorimeter can lead to lepton fakes.  Muons can be faked via energetic showers in the hadronic calorimeter or from hadrons that punch through the hadronic calorimeter.  The matrix method is used to estimate the number of events with fake leptons as described in Section \ref{sec:FakeLep}.
 
-\item[\textbf{Fake Photons}:] The number of events with fake photons is estimated using a $Z\rightarrow e^+ e^-$ tag-and-probe method discussed in Section \ref{sec:FakePho}.  Further, the ABCD method is used in Section \ref{sec:FakePho2} to estimate the number of fake photon events that arise from a jet faking a photon.
+\item[\textbf{Fake Photons}:] The number of events with fake photons is estimated using a $Z\rightarrow e^+ e^-$ tag-and-probe method discussed in Section \ref{sec:FakePho}.  Further, the ABCD method is used in Section \ref{sec:FakePho2} to estimate the number of fake photon events that arise from a jet faking a photon.  
 
 \end{description}
 \subsection{Overlap Removal}
@@ -28,7 +28,7 @@ Tracks and energy deposits within the detector can, in some cases, be used to re
 As specialized higher statistic samples are used for processes with prompt photons, a double counting of events could occur with the nominal MC samples.  For example, in addition to the $t\bar{t}$ sample a sample of $t\bar{t}+\gamma$ events are used.  This is true for the W+jets/Z+jets and special samples of W+jets+$\gamma$ and Z+jets+$\gamma$.  Therefore a truth based matching scheme is used to remove events in the nominal samples that match with the photon types produced in the specialized $+\gamma$ samples i.e., they contain a truth photon that does not originate from a hadron or lepton.
 
 \section{Event Selection}
-This analysis is searching for $t\bar{t}$ candidate events where one of the top quarks decays through the most common decay path (a W boson that decays leptonically to an electron or muon and a bottom quark) and the other through the FCNC diagram to an up type light quark and a photon.  The selected decay path is then $t\bar{t} \rightarrow Wbq\gamma \rightarrow l\nu b q \gamma$ such that the final state will contain at least two jets, exactly one of which is b-tagged using the MV2c10 algorithm, exactly one massive lepton (an electron or muon), exactly one highly energetic photon, missing transverse energy from the neutrino, and a large transverse W mass.  The transverse W mass requirement selects events that have a lepton and $\slashed{E}_T$ which are consistent with a leptonically decaying W boson, defined as:
+This analysis is searching for $t\bar{t}$ candidate events where one of the top quarks decays through the most common decay path (a W boson that decays leptonically to an electron or muon and a bottom quark) and the other through the FCNC diagram to an up type light quark and a photon.  The selected decay path is then $t\bar{t} \rightarrow Wbq\gamma \rightarrow l\nu b q \gamma$ such that the final state will contain at least two jets, exactly one of which is b-tagged using the MV2c10 algorithm, exactly one lepton (an electron or muon), exactly one highly energetic photon, missing transverse energy from the neutrino, and a large transverse W mass.  The transverse W mass requirement selects events that have a lepton and $\slashed{E}_T$ which are consistent with a leptonically decaying W boson, defined as:
 \[ m_T^{W} =  \sqrt{2\times p_{T_l}\times \slashed{E}_T \times (1 - \text{cos}(\phi_l -\phi_{\text{MET}}))}\]
 which is largest when the lepton and missing transverse energy are close in $\phi$ as would be expected from the decay products of a boosted W boson.  Events are selected loosely to include all possible kinematic regions of interest and then skimmed down to the individual regions for various studies.  This includes events that will not enter the signal region such as events with 0 photons or events with 0 b-jets that are used to derive and test scale factors on the largest background samples and account for mismodeling of MC simulations. 
 
@@ -81,7 +81,11 @@ $p_T (b)$                       &  0.51    &  0.53	\\ \hline
 \end{center}
 \end{table}
 
-\[ \text{Separation} = \sum_{i}^{bins} \frac {n_{s i}-n_{b i}}{n_{s i}+n_{b i}}\]
+\begin{equation}
+ \text{Separation} = \sum_{i}^{bins} \frac {n_{s i}-n_{b i}}{n_{s i}+n_{b i}}
+\end{equation}
+
+Signal and background distributions are normalized separately to one for the calculation of the separation.  The backgrounds are pre-normalized with the process cross sections such that the relative representation of each background is accurate to the final distributions of the analysis.
 
 Typically the kinematic variables with photon information have the biggest separation values.  This is expected because the signal photon comes directly from the decay of a top quark and is much more energetic than background photons.  Shape comparison plots for the $e$+jets channel and additional plots for other investigated variables are shown in Appendix \ref{app:NN}.  The largest difference in separation between the $e$+jets and $\mu$+jets channels is the photon isolation value.  This is due to the fact that all backgrounds are included and fake photon contamination from a large Z+jets background is expected.  Both networks perform similarly in their separation of signal and background events.  The network is able to learn and compensate for this behavior with the help of other variables that include the lepton and photon: $\Delta R_{l \gamma}$ and $m_{l\gamma}$.
 
@@ -124,8 +128,8 @@ The neural networks are trained on MC events that have a chance of being in the 
 \vspace{-4.5mm}
 \subfloat[$\slashed{E}_T  $]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/met.png}}\hfil
 \subfloat[$p_T (b)$ ]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/bjet0_pt.png}}   
-\caption{Normalized variables showing the shapes of neural network input variables for the $\mu$+jets channel: $\Delta R_{l \gamma}$, E (lepton), $\slashed{E}_T  $, and $p_T (b)$}
-\label{fig:VarPlots3.}
+\caption{Normalized variables showing the shapes of neural network input variables for the $\mu$+jets channel: $\Delta R_{l \gamma}$, E (lepton), $\slashed{E}_T  $, and $p_T (b)$.}
+\label{fig:VarPlots3}
 \end{figure}
 
 
@@ -200,7 +204,7 @@ where $N(\text{event}_{NN} \geq 0.5|\text{signal})$ ($N(\text{event}_{NN} \geq 0
 
 \subsection{Hidden Layer Studies}
 \label{sec:HiddenStudies}
-The general performance of the neural network was studied with a varying number of hidden layers (1, 2, and 3) in both the $e$+jets and $\mu$+jets channels.   All of the networks are trained on the same set of variables and with the same train-test split input data.  For each of the channels the \textit{Receiver Operating Characterisitic} (ROC) curves are shown in Figure \ref{fig:ROCHidden}.  The ROC curves show the value of $1-\epsilon_{\text{bkg}}$ as a function of the true positive rate, $\epsilon_{\text{signal}}$.  A figure of merit is the Area Under the Curve (AUC) which is a measure of how close the resulting values are to the optimal value of unity. 
+The general performance of the neural network was studied with a varying number of hidden layers (1, 2, and 3) in both the $e$+jets and $\mu$+jets channels.   All of the networks are trained on the same set of variables and with the same train-test split input data.  For each of the channels the \textit{Receiver Operating Characterisitic} (ROC)\cite{ROCAnalysis} curves are shown in Figure \ref{fig:ROCHidden}.  The ROC curves show the value of $1-\epsilon_{\text{bkg}}$ as a function of the true positive rate, $\epsilon_{\text{signal}}$.  A figure of merit is the Area Under the Curve (AUC) which is a measure of how close the resulting values are to the optimal value of unity. 
 
 \begin{figure}[h!]
 \centering
@@ -210,7 +214,7 @@ The general performance of the neural network was studied with a varying number 
 \label{fig:ROCHidden}
 \end{figure}
 
-The AUC for 2 hidden layers and 3 hidden layers are identical within rounding errors for both channels.  As such the network with 2 hidden layers has been chosen as it is computationally simpler.   The normalized neural network output values are shown in Figure \ref{fig:HiddenSigBkg}.  Adding a second hidden layer significantly improves the performance of the network but a third layer does not.  The output shapes change slightly when the third hidden layer is added due to the network learning differently from similar data.  However, as the AUC shows, the performance of 2 and 3 hidden layers is identical.   Figures \ref{fig:Acc2Hid} and \ref{fig:Loss2Hid} show the accuracy metric and the loss function as a function of the training epoch for the networks trained with 2 hidden layers.   The accuracy plot behavior is expected as the validation data sets do not have dropout regularization applied to them.  These networks are also trained without further reduction of Z+jets background meaning the $e$+jets sample has a larger background contamination that makes the validation testing more volatile.  This is due to the increased number of similar events in that sample that can be more heavily dependent on specific weights across the network for identification.
+The AUC for 2 hidden layers and 3 hidden layers are identical within rounding errors for both channels.  As such the network with 2 hidden layers has been chosen as it is computationally simpler.   The normalized neural network output values are shown in Figure \ref{fig:HiddenSigBkg}.  Adding a second hidden layer significantly improves the performance of the network but a third layer does not.  The output shapes change slightly when the third hidden layer is added due to the network learning differently from similar data.  However, as the AUC shows, the performance of 2 and 3 hidden layers is identical.   Figures \ref{fig:Acc2Hid} and \ref{fig:Loss2Hid} show the accuracy metric and the loss function as a function of the training epoch for the networks trained with 2 hidden layers.   The accuracy plot behavior is expected as the validation datasets do not have dropout regularization applied to them.  These networks are also trained without further reduction of Z+jets background meaning the $e$+jets sample has a larger background contamination that makes the validation testing more volatile.  This is due to the increased number of similar events in that sample that can be more heavily dependent on specific weights across the network for identification.
 
 \begin{figure}[h!]
 \centering
@@ -256,7 +260,7 @@ After the model has been fully trained, it is tested on all of the Monte Carlo f
 
 \subsection{B-Tagging Working Point Studies}
 \label{sec:btagNN}
-The b-tagging working point selection was performed with similar neural network studies.  Three neural networks were trained with the datasets using the jet information and total scaled events for each of the major b-tagging working points: 70\%, 77\%, and 85\%.  Changing the working point alters a number of things about the signal and background data sets such as which jets are b-tagged and therefore which jets are combined into the higher level variables (e.g., $m_{q\gamma}$ and $m_{Wb}$).  The total number of events that pass the pre-selection to the neural network is also changed for all of the datasets since the neural networks are only trained on events with 1 b-tagged jet.  Similar sets of plots to Section \ref{sec:HiddenStudies} will be presented in this section.
+The b-tagging working point selection was performed with similar neural network studies.  Three neural networks were trained with the datasets using the jet information and total scaled events for each of the major b-tagging working points: 70\%, 77\%, and 85\%.  Changing the working point alters a number of things about the signal and background datasets such as which jets are b-tagged and therefore which jets are combined into the higher level variables (e.g., $m_{q\gamma}$ and $m_{Wb}$).  The total number of events that pass the preselection to the neural network is also changed for all of the datasets since the neural networks are only trained on events with 1 b-tagged jet.  Similar sets of plots to Section \ref{sec:HiddenStudies} will be presented in this section.
 
 This selection of neural networks were trained in parallel with one, two, and three hidden layers.  The only results shown are the 2 hidden layer outputs as they perform equally or better than the others as previously discussed.  The accuracy and loss plots for these networks are shown in Figures \ref{fig:BTagEAccLoss} and \ref{fig:BTagMuAccLoss}.  The neural network output and significance plots shown in Figures \ref{fig:BTagEOutSig} and \ref{fig:BTagMuOutSig} follow.  
 
@@ -359,7 +363,7 @@ These basic event selection values are applied to every event, in both MC and Da
 
 \subsection{Triggers}
 \label{sec:GTRIGDEC}
-Different HLT triggers are used for data taking periods for each year of Run 2.  This analysis takes advantage of single lepton triggers for electrons and muons to dramatically reduce backgrounds due to QCD events without leptons.  
+Different HLT triggers are used for data taking periods for each year of Run-2.  This analysis takes advantage of single lepton triggers for electrons and muons to dramatically reduce backgrounds due to QCD events without leptons.  
 
 \begin{table}[]
 \small
@@ -375,7 +379,7 @@ Year  &  $p_T$ threshold [GeV]   & Identification Menu & Isolation Menu & L1 See
 2016-2018  &   $\geq 60   $ &   Medium  &  None	&  -	\\  
  &  $\geq 140 $ &   Loose  &  None	&  -	 \\ \hline     
 \end{tabular}
-\caption{The electron trigger requirements in the event selections.}
+\caption{The electron trigger requirements in the event selections as called using AnalysisTop.}
 \label{tab:ElectronTrigs}
 }
 \end{center}
@@ -393,7 +397,7 @@ Year  &  $p_T$ threshold [GeV]   & Identification Menu & Isolation Menu & L1 See
 2016-2018  &   $\geq 26   $ &  None  &   Gradient (Medium) 	&  -	\\
   &   $\geq 50   $ &   None  &  None	&  -	\\ \hline   
 \end{tabular}
-\caption{The muon trigger requirements in the event selections.}
+\caption{The muon trigger requirements in the event selections as called using AnalysisTop.}
 \label{tab:MuonTrigs}
 }
 \end{center}
@@ -401,9 +405,9 @@ Year  &  $p_T$ threshold [GeV]   & Identification Menu & Isolation Menu & L1 See
 
 
 
-\section{Data and MC Pre-Selection Cuts}
+\section{Data and MC Preselection Cuts}
 \label{sec:preselcuts}
-The Signal Region pre-selection is defined to select events that have an opportunity to enter the final search selection.  This pre-selection selects events with exactly one massive lepton, at least two jets (at least one of which is b-tagged at the 77\% working point), transverse momentum, and exactly one photon such that it resembles the expected final-state toplogy for the signal.  All of the events have the same initial set of criteria for determining whether or not the event is further examined for this analysis, applying to both MC and Data.  These initial checks are as follows:
+The Signal Region preselection is defined to select events that have an opportunity to enter the final search selection.  This preselection selects events with exactly one massive lepton, at least two jets (at least one of which is b-tagged at the 77\% working point), transverse momentum, and exactly one photon such that it resembles the expected final-state toplogy for the signal.  All of the events have the same initial set of criteria for determining whether or not the event is further examined for this analysis, applying to both MC and Data.  These initial checks are as follows:
 %% Preselection Itemization
 \begin{itemize}
 \item Exactly 1 lepton (electron or muon) $p_T >$ 25 GeV
@@ -422,7 +426,7 @@ Signal photons, which originate from a top quark decay, are very high $p_T$ wher
 \centering
 \subfloat[electron channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png}}\hfil
 \subfloat[muon channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}}
-\caption{Photon $p_T$ in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1.5\%.}
+\caption{Photon $p_T$ in the signal region preselection region.  FCNC signal branching ratio is scaled to 1.5\%.}
 \label{fig:PreSelPlots1}
 \end{figure}
 
@@ -435,7 +439,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 \vspace{-3.mm} \setcounter{subfigure}{0}
 \subfloat[electron channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_MWT.png}}\hfil
 \subfloat[muon channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_MWT.png}}
-\caption{$S_T$ and $m_T^W$ in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1.5\%.}
+\caption{$S_T$ and $m_T^W$ in the signal region preselection region.  FCNC signal branching ratio is scaled to 1.5\%.}
 \label{fig:PreSelPlotsST}
 \end{figure}
 
@@ -446,7 +450,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 \vspace{-3.mm} \setcounter{subfigure}{0}
 \subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_mqph.png}}\hfil
 \subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_mqph.png}}
-\caption{Top mass candidates in the signal region pre-selection: $m_{W b}$ and $m_{q\gamma}$. FCNC signal branching ratio is scaled to 1.5\%.}
+\caption{Top mass candidates in the signal region preselection: $m_{W b}$ and $m_{q\gamma}$. FCNC signal branching ratio is scaled to 1.5\%.}
 \label{fig:PreSelTopMasses}
 \end{figure}
 
@@ -458,7 +462,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 %\vspace{-3.mm} \setcounter{subfigure}{0}
 %\subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_drqph.png}}\hfil
 %\subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_drqph.png}}
-%\caption{Distance between the photon and closest light jet, $\Delta R_{l \gamma}$, and closest light jet, $\Delta R_{q\gamma}$, in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1.5\%}
+%\caption{Distance between the photon and closest light jet, $\Delta R_{l \gamma}$, and closest light jet, $\Delta R_{q\gamma}$, in the signal region preselection region.  FCNC signal branching ratio is scaled to 1.5\%}
 %\label{fig:PreSeDeltaRs}
 %\end{figure}
 
@@ -472,7 +476,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_bjet0_pt.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_met.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_njet.png}}
-\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region pre-selection for the electron+jets channel.  FCNC signal branching ratio is scaled to 1.5\%. }
+\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region preselection for the electron+jets channel.  FCNC signal branching ratio is scaled to 1.5\%. }
 \label{fig:PreSelPlots2}
 \end{figure}
 
@@ -486,7 +490,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_bjet0_pt.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_met.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_njet.png}}
-\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region pre-selection for the muon+jets channel.  FCNC signal branching ratio is scaled to 1.5\%.}
+\caption{Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), $\slashed{E}_T$ (e), and $n_{\text{jets}}$ (f) plots in the signal region preselection for the muon+jets channel.  FCNC signal branching ratio is scaled to 1.5\%.}
 \label{fig:PreSelPlots3}
 \end{figure}
 
@@ -494,7 +498,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 \centering
 \subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_NNejet.png}}\hfil
 \subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_NNmujet.png}}
-\caption{Output of the neural network in the signal region pre-selection region.  FCNC signal branching ratio is scaled to 1.5\%.}
+\caption{Output of the neural network in the signal region preselection region.  FCNC signal branching ratio is scaled to 1.5\%.}
 \label{fig:PreSelPlots5}
 \end{figure}
 
@@ -711,7 +715,7 @@ To quantify the correlation between these variables, a double ratio $\theta_{\te
 {\sfrac{N_\text{A,MC}^{\text{h-fake}}}{N_\text{B,MC}^{\text{h-fake}}}}
 \]
  
- The number of events in MC samples where the truth photon comes from a hadron is listed in Table \ref{tab:abcdYieldsMC}.  A closure test is performed on these yields for the correction factor $\theta_\text{MC}$ as shown in Table \ref{tab:abcdTheta}.  A systematic uncertainty of 50\% is set to this correction factor to account for further imperfect MC modeling.
+ The number of events in MC samples where the truth photon comes from a hadron is listed in Table \ref{tab:abcdYieldsMC}.  A closure test is performed on these yields for the correction factor $\theta_\text{MC}$ as shown in Table \ref{tab:abcdTheta}.  A cautious systematic uncertainty of 50\% is set to this correction factor to account for further imperfect MC modeling .
 \begin{table}[h]
 \begin{center}
 {\renewcommand{\arraystretch}{1.2}
@@ -885,7 +889,7 @@ Another validation region was created for the other largest photon enriched samp
 \item At least 1 b-tagged jet (MV2c10, 77\% working point)
 \item Exactly 1 photon, $p_T >$ 50 GeV
 \item Photon isolation cuts: topo$E_T$cone40$<$4 GeV
-\item Reverse neural network Cut: NNOutput$<$0.93 electron channel, NNOutput$<$0.92 muon channel
+\item Reverse neural network cut: NNOutput$<$0.93 electron channel, NNOutput$<$0.92 muon channel
 \end{itemize}
 
 Distributions of kinematic variables in the electron(muon) channels are shown in Figure \ref{fig:VR2ej}(\ref{fig:VR2muj}).  Post-fit distributions for the best fit presented in Section \ref{sec:PostFitSR} are included in Appendix \ref{app:ValPlots}.

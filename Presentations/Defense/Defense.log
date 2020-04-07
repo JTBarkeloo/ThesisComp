@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  23 MAR 2020 12:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  7 APR 2020 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -663,23 +663,374 @@ Package caption Info: Hyperref support is turned off
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
 (c:/texlive/2018/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer
-.sty) (./Defense.aux)
+.sty) (c:/texlive/2018/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018-12-12 L3 programming layer (loader) 
+
+(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018-12-12 L3 programming layer (code)
+\c_max_int=\count158
+\l_tmpa_int=\count159
+\l_tmpb_int=\count160
+\g_tmpa_int=\count161
+\g_tmpb_int=\count162
+\g__kernel_prg_map_int=\count163
+\c_log_iow=\count164
+\l_iow_line_count_int=\count165
+\l__iow_line_target_int=\count166
+\l__iow_one_indent_int=\count167
+\l__iow_indent_int=\count168
+\c_zero_dim=\dimen194
+\c_max_dim=\dimen195
+\l_tmpa_dim=\dimen196
+\l_tmpb_dim=\dimen197
+\g_tmpa_dim=\dimen198
+\g_tmpb_dim=\dimen199
+\c_zero_skip=\skip57
+\c_max_skip=\skip58
+\l_tmpa_skip=\skip59
+\l_tmpb_skip=\skip60
+\g_tmpa_skip=\skip61
+\g_tmpb_skip=\skip62
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count169
+\l__intarray_loop_int=\count170
+\c__intarray_sp_dim=\dimen256
+\g__intarray_font_int=\count171
+\c__fp_leading_shift_int=\count172
+\c__fp_middle_shift_int=\count173
+\c__fp_trailing_shift_int=\count174
+\c__fp_big_leading_shift_int=\count175
+\c__fp_big_middle_shift_int=\count176
+\c__fp_big_trailing_shift_int=\count177
+\c__fp_Bigg_leading_shift_int=\count178
+\c__fp_Bigg_middle_shift_int=\count179
+\c__fp_Bigg_trailing_shift_int=\count180
+\c__kernel_randint_max_int=\count181
+\g__fp_array_int=\count182
+\l__fp_array_loop_int=\count183
+\l__sort_length_int=\count184
+\l__sort_min_int=\count185
+\l__sort_top_int=\count186
+\l__sort_max_int=\count187
+\l__sort_true_max_int=\count188
+\l__sort_block_int=\count189
+\l__sort_begin_int=\count190
+\l__sort_end_int=\count191
+\l__sort_A_int=\count192
+\l__sort_B_int=\count193
+\l__sort_C_int=\count194
+\l__tl_analysis_normal_int=\count195
+\l__tl_analysis_index_int=\count196
+\l__tl_analysis_nesting_int=\count197
+\l__tl_analysis_type_int=\count198
+\l__regex_internal_a_int=\count199
+\l__regex_internal_b_int=\count266
+\l__regex_internal_c_int=\count267
+\l__regex_balance_int=\count268
+\l__regex_group_level_int=\count269
+\l__regex_mode_int=\count270
+\c__regex_cs_in_class_mode_int=\count271
+\c__regex_cs_mode_int=\count272
+\l__regex_catcodes_int=\count273
+\l__regex_default_catcodes_int=\count274
+\c__regex_catcode_D_int=\count275
+\c__regex_catcode_S_int=\count276
+\c__regex_catcode_L_int=\count277
+\c__regex_catcode_O_int=\count278
+\c__regex_catcode_A_int=\count279
+\c__regex_all_catcodes_int=\count280
+\l__regex_show_lines_int=\count281
+\l__regex_min_state_int=\count282
+\l__regex_max_state_int=\count283
+\l__regex_left_state_int=\count284
+\l__regex_right_state_int=\count285
+\l__regex_capturing_group_int=\count286
+\l__regex_min_pos_int=\count287
+\l__regex_max_pos_int=\count288
+\l__regex_curr_pos_int=\count289
+\l__regex_start_pos_int=\count290
+\l__regex_success_pos_int=\count291
+\l__regex_curr_char_int=\count292
+\l__regex_curr_catcode_int=\count293
+\l__regex_last_char_int=\count294
+\l__regex_case_changed_char_int=\count295
+\l__regex_curr_state_int=\count296
+\l__regex_step_int=\count297
+\l__regex_min_active_int=\count298
+\l__regex_max_active_int=\count299
+\l__regex_replacement_csnames_int=\count300
+\l__regex_match_count_int=\count301
+\l__regex_min_submatch_int=\count302
+\l__regex_submatch_int=\count303
+\l__regex_zeroth_submatch_int=\count304
+\g__regex_trace_regex_int=\count305
+\c_empty_box=\box54
+\l_tmpa_box=\box55
+\l_tmpb_box=\box56
+\g_tmpa_box=\box57
+\g_tmpb_box=\box58
+\l__box_top_dim=\dimen257
+\l__box_bottom_dim=\dimen258
+\l__box_left_dim=\dimen259
+\l__box_right_dim=\dimen260
+\l__box_top_new_dim=\dimen261
+\l__box_bottom_new_dim=\dimen262
+\l__box_left_new_dim=\dimen263
+\l__box_right_new_dim=\dimen264
+\l__box_internal_box=\box59
+\l__coffin_internal_box=\box60
+\l__coffin_internal_dim=\dimen265
+\l__coffin_offset_x_dim=\dimen266
+\l__coffin_offset_y_dim=\dimen267
+\l__coffin_x_dim=\dimen268
+\l__coffin_y_dim=\dimen269
+\l__coffin_x_prime_dim=\dimen270
+\l__coffin_y_prime_dim=\dimen271
+\c_empty_coffin=\box61
+\l__coffin_aligned_coffin=\box62
+\l__coffin_aligned_internal_coffin=\box63
+\l_tmpa_coffin=\box64
+\l_tmpb_coffin=\box65
+\l__coffin_display_coffin=\box66
+\l__coffin_display_coord_coffin=\box67
+\l__coffin_display_pole_coffin=\box68
+\l__coffin_display_offset_dim=\dimen272
+\l__coffin_display_x_dim=\dimen273
+\l__coffin_display_y_dim=\dimen274
+\g__file_internal_ior=\read2
+\l__coffin_bounding_shift_dim=\dimen275
+\l__coffin_left_corner_dim=\dimen276
+\l__coffin_right_corner_dim=\dimen277
+\l__coffin_bottom_corner_dim=\dimen278
+\l__coffin_top_corner_dim=\dimen279
+\l__coffin_scaled_total_height_dim=\dimen280
+\l__coffin_scaled_width_dim=\dimen281
+\l__seq_internal_a_int=\count306
+\l__seq_internal_b_int=\count307
+)
+(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2018-12-12 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count308
+))
+(c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count309
+\g__xparse_grabber_int=\count310
+\l__xparse_m_args_int=\count311
+\l__xparse_mandatory_args_int=\count312
+\l__xparse_v_nesting_int=\count313
+)
+(c:/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2018-10-17 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen282
+\l__xtemplate_tmp_int=\count314
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip63
+)
+Package: xfrac 2018-10-17 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box69
+\l__xfrac_tmp_box=\box70
+\l__xfrac_denominator_bot_sep_dim=\dimen283
+\l__xfrac_numerator_bot_sep_dim=\dimen284
+\l__xfrac_numerator_top_sep_dim=\dimen285
+\l__xfrac_slash_left_sep_dim=\dimen286
+\l__xfrac_slash_right_sep_dim=\dimen287
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
+
+Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
+(xtemplate)             line 80.
+
+)
+(./Defense.aux)
 \openout1 = `Defense.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+ (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -717,16 +1068,16 @@ LaTeX Font Info:    ... okay on input line 18.
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count158
-\scratchdimen=\dimen194
-\scratchbox=\box54
-\nofMPsegments=\count159
-\nofMParguments=\count160
+\scratchcounter=\count315
+\scratchdimen=\dimen288
+\scratchbox=\box71
+\nofMPsegments=\count316
+\nofMParguments=\count317
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count161
-\MPscratchDim=\dimen195
-\MPnumerator=\count162
-\makeMPintoPDFobject=\count163
+\MPscratchCnt=\count318
+\MPscratchDim=\dimen289
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
 \everyMPtoPDFconversion=\toks44
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -746,8 +1097,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 18.
+\AtBeginShipoutBox=\box72
+Package hyperref Info: Link coloring OFF on input line 20.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -755,68 +1106,68 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count164
+\c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 (./Defense.out) (./Defense.out)
 \@outlinefile=\write5
 \openout5 = `Defense.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 18.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 18.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 18.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 18.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 18.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 18.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 18.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 18.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 18.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 18.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 18.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 18.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 18.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 18.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 18.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 18.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 18.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 18.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 18.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-8.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-18.
+20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 18.
+ut line 20.
 
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -845,407 +1196,721 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./Defense.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 22.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 18.
+line 36.
 
 (c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 20.
-
-<../uo_logo_green_on_white_2.jpg, id=70, 803.0pt x 451.6875pt>
+<../uo_logo_green_on_white_2.jpg, id=82, 803.0pt x 451.6875pt>
 File: ../uo_logo_green_on_white_2.jpg Graphic file (type jpg)
 <use ../uo_logo_green_on_white_2.jpg>
-Package pdftex.def Info: ../uo_logo_green_on_white_2.jpg  used on input line 34
+Package pdftex.def Info: ../uo_logo_green_on_white_2.jpg  used on input line 36
 .
 (pdftex.def)             Requested size: 113.81102pt x 64.01463pt.
 
-Overfull \hbox (0.79945pt too wide) in paragraph at lines 34--34
+Overfull \hbox (0.79945pt too wide) in paragraph at lines 36--36
  []|  [] 
- []
-
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
  []
 
 [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <../uo_logo_green_on_white_2.jpg>] (./Defense.toc)
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
+ <../uo_logo_green_on_white_2.jpg>] [2
 
-[2
+] (./Defense.toc) [3
 
 ]
-<../../Thesis/ThesisImages/Theory/SMTopDecays2.png, id=122, 1224.82594pt x 432.
+<Images/SMParticles.png, id=134, 770.88pt x 737.75626pt>
+File: Images/SMParticles.png Graphic file (type png)
+<use Images/SMParticles.png>
+Package pdftex.def Info: Images/SMParticles.png  used on input line 74.
+(pdftex.def)             Requested size: 136.5733pt x 130.69655pt.
+ [4
+
+ <./Images/SMParticles.png>]
+<../../Thesis/ThesisImages/ttbarevent.jpg, id=154, 722.7pt x 515.9275pt>
+File: ../../Thesis/ThesisImages/ttbarevent.jpg Graphic file (type jpg)
+<use ../../Thesis/ThesisImages/ttbarevent.jpg>
+Package pdftex.def Info: ../../Thesis/ThesisImages/ttbarevent.jpg  used on inpu
+t line 89.
+(pdftex.def)             Requested size: 164.85008pt x 117.68451pt.
+
+[5
+
+ <../../Thesis/ThesisImages/ttbarevent.jpg>]
+<../../Thesis/ThesisImages/Theory/LOPairProdDiags.png, id=171, 740.7675pt x 384
+.6872pt>
+File: ../../Thesis/ThesisImages/Theory/LOPairProdDiags.png Graphic file (type p
+ng)
+<use ../../Thesis/ThesisImages/Theory/LOPairProdDiags.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/LOPairProdDiags.png  
+used on input line 103.
+(pdftex.def)             Requested size: 226.6176pt x 117.68451pt.
+ [6
+
+ <../../Thesis/ThesisImages/Theory/LOPairProdDiags.png>]
+<../../Thesis/ThesisImages/Theory/ttprodxsec.png, id=190, 569.12625pt x 386.644
+5pt>
+File: ../../Thesis/ThesisImages/Theory/ttprodxsec.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/Theory/ttprodxsec.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/ttprodxsec.png  used 
+on input line 111.
+(pdftex.def)             Requested size: 242.51373pt x 164.75758pt.
+ [7
+
+ <../../Thesis/ThesisImages/Theory/ttprodxsec.png>]
+<../../Thesis/ThesisImages/topdecay.png, id=208, 355.3275pt x 349.305pt>
+File: ../../Thesis/ThesisImages/topdecay.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/topdecay.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/topdecay.png  used on input 
+line 127.
+(pdftex.def)             Requested size: 107.55098pt x 105.72504pt.
+<../../Thesis/ThesisImages/Theory/topdecayproducts.jpg, id=209, 602.25pt x 470.
+75874pt>
+File: ../../Thesis/ThesisImages/Theory/topdecayproducts.jpg Graphic file (type 
+jpg)
+<use ../../Thesis/ThesisImages/Theory/topdecayproducts.jpg>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/topdecayproducts.jpg 
+ used on input line 127.
+(pdftex.def)             Requested size: 169.01035pt x 132.10606pt.
+
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 127--127
+[][]  
+ []
+
+[8
+
+ <../../Thesis/ThesisImages/topdecay.png> <../../Thesis/ThesisImages/Theory/top
+decayproducts.jpg>]
+<../../Thesis/ThesisImages/Theory/SMTopDecays2.png, id=226, 1224.82594pt x 432.
 11438pt>
 File: ../../Thesis/ThesisImages/Theory/SMTopDecays2.png Graphic file (type png)
 
 <use ../../Thesis/ThesisImages/Theory/SMTopDecays2.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/SMTopDecays2.png  use
-d on input line 65.
+d on input line 152.
 (pdftex.def)             Requested size: 307.28987pt x 108.41075pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[3
+ [9
 
  <../../Thesis/ThesisImages/Theory/SMTopDecays2.png>]
-<../../Thesis/ThesisImages/fcncttbar.png, id=145, 423.08063pt x 419.31656pt>
-File: ../../Thesis/ThesisImages/fcncttbar.png Graphic file (type png)
-<use ../../Thesis/ThesisImages/fcncttbar.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/fcncttbar.png  used on input
- line 85.
-(pdftex.def)             Requested size: 107.55333pt x 106.59479pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[4
-
- <../../Thesis/ThesisImages/fcncttbar.png>]
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[5
-
-]
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[6
-
-]
-<Images/btag77/mujetsboth2hidnpart0sigbkg.png, id=182, 462.528pt x 346.896pt>
-File: Images/btag77/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
-<use Images/btag77/mujetsboth2hidnpart0sigbkg.png>
-Package pdftex.def Info: Images/btag77/mujetsboth2hidnpart0sigbkg.png  used on 
-input line 149.
-(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-<Images/btag77/mujetsboth2hidnpart0SigVsBR.png, id=183, 462.528pt x 346.896pt>
-File: Images/btag77/mujetsboth2hidnpart0SigVsBR.png Graphic file (type png)
-<use Images/btag77/mujetsboth2hidnpart0SigVsBR.png>
-Package pdftex.def Info: Images/btag77/mujetsboth2hidnpart0SigVsBR.png  used on
- input line 149.
-(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-<Images/btag77/mujetsboth2hidnpart0CutVsBR.png, id=184, 462.528pt x 346.896pt>
-File: Images/btag77/mujetsboth2hidnpart0CutVsBR.png Graphic file (type png)
-<use Images/btag77/mujetsboth2hidnpart0CutVsBR.png>
-Package pdftex.def Info: Images/btag77/mujetsboth2hidnpart0CutVsBR.png  used on
- input line 149.
-(pdftex.def)             Requested size: 125.37404pt x 94.0284pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[7
-
- <./Images/btag77/mujetsboth2hidnpart0sigbkg.png> <./Images/btag77/mujetsboth2h
-idnpart0SigVsBR.png> <./Images/btag77/mujetsboth2hidnpart0CutVsBR.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 213.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 213.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 213.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 213.
-
-<../../Thesis/ThesisImages/ZeeFakeDiagram.png, id=200, 976.64874pt x 508.90125p
-t>
-File: ../../Thesis/ThesisImages/ZeeFakeDiagram.png Graphic file (type png)
-<use ../../Thesis/ThesisImages/ZeeFakeDiagram.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/ZeeFakeDiagram.png  used on 
-input line 221.
-(pdftex.def)             Requested size: 245.83282pt x 128.0947pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[8
-
- <../../Thesis/ThesisImages/ZeeFakeDiagram.png>]
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[9
-
-]
-<../../Thesis/ThesisImages/TruthStudyFakes.png, id=228, 1543.7675pt x 618.31pt>
-
-File: ../../Thesis/ThesisImages/TruthStudyFakes.png Graphic file (type png)
-<use ../../Thesis/ThesisImages/TruthStudyFakes.png>
-Package pdftex.def Info: ../../Thesis/ThesisImages/TruthStudyFakes.png  used on
- input line 247.
-(pdftex.def)             Requested size: 307.28987pt x 123.07486pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
+<../../Thesis/ThesisImages/gimdeltaSa.png, id=246, 474.27188pt x 131.74219pt>
+File: ../../Thesis/ThesisImages/gimdeltaSa.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/gimdeltaSa.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/gimdeltaSa.png  used on inpu
+t line 168.
+(pdftex.def)             Requested size: 138.2795pt x 38.4113pt.
 
 [10
 
- <../../Thesis/ThesisImages/TruthStudyFakes.png>]
-Overfull \hbox (1.15842pt too wide) in paragraph at lines 276--276
-[][]  
+ <../../Thesis/ThesisImages/gimdeltaSa.png>]
+<../../Thesis/ThesisImages/Theory/GIMDiagrams.png, id=260, 1157.07281pt x 518.6
+878pt>
+File: ../../Thesis/ThesisImages/Theory/GIMDiagrams.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/Theory/GIMDiagrams.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/GIMDiagrams.png  used
+ on input line 181.
+(pdftex.def)             Requested size: 184.3758pt x 82.65141pt.
+ [11
+
+ <../../Thesis/ThesisImages/Theory/GIMDiagrams.png>]
+<../../Thesis/ThesisImages/cabibboangle.png, id=276, 718.18312pt x 155.07938pt>
+
+File: ../../Thesis/ThesisImages/cabibboangle.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/cabibboangle.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/cabibboangle.png  used on in
+put line 196.
+(pdftex.def)             Requested size: 122.91406pt x 26.5406pt.
+
+Overfull \hbox (22.06198pt too wide) detected at line 196
+\OT1/mathkerncmss/m/sl/10 u[] \OT1/cmss/m/n/10 + \OT1/mathkerncmss/m/sl/10 c[] 
+\OT1/cmss/m/n/10 + (\OT1/mathkerncmss/m/sl/10 d[] \OT1/cmss/m/n/10 + \OT1/mathk
+erncmss/m/sl/10 s[]\OT1/cmss/m/n/10 ) [][] \OML/cmm/m/it/10 ^^R[] \OT1/cmss/m/n
+/10 + (\OT1/mathkerncmss/m/sl/10 s[] \OT1/cmss/m/n/10 + \OT1/mathkerncmss/m/sl/
+10 d[]\OT1/cmss/m/n/10 ) [][] \OML/cmm/m/it/10 ^^R[] \OT1/cmss/m/n/10 + (\OT1/m
+athkerncmss/m/sl/10 s[] \OT1/cmss/m/n/10 + \OT1/mathkerncmss/m/sl/10 d[] \OMS/c
+msy/m/n/10 ^^@ \OT1/mathkerncmss/m/sl/10 d[] \OMS/cmsy/m/n/10 ^^@ \OT1/mathkern
+cmss/m/sl/10 s[]\OT1/cmss/m/n/10 )\OT1/mathkerncmss/m/sl/10 sin\OML/cmm/m/it/10
+ ^^R[]\OT1/mathkerncmss/m/sl/10 cos\OML/cmm/m/it/10 ^^R[]
  []
 
-<Images/Dataee.png, id=243, 700.6175pt x 474.77374pt>
-File: Images/Dataee.png Graphic file (type png)
-<use Images/Dataee.png>
-Package pdftex.def Info: Images/Dataee.png  used on input line 276.
-(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
-<Images/Dataeg.png, id=244, 700.6175pt x 474.77374pt>
-File: Images/Dataeg.png Graphic file (type png)
-<use Images/Dataeg.png>
-Package pdftex.def Info: Images/Dataeg.png  used on input line 276.
-(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
-<Images/MCVgamee.png, id=245, 700.6175pt x 474.77374pt>
-File: Images/MCVgamee.png Graphic file (type png)
-<use Images/MCVgamee.png>
-Package pdftex.def Info: Images/MCVgamee.png  used on input line 276.
-(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
-<Images/MCVgameg.png, id=246, 700.6175pt x 474.77374pt>
-File: Images/MCVgameg.png Graphic file (type png)
-<use Images/MCVgameg.png>
-Package pdftex.def Info: Images/MCVgameg.png  used on input line 276.
-(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[11
-
- <./Images/Dataee.png> <./Images/Dataeg.png> <./Images/MCVgamee.png> <./Images/
-MCVgameg.png>]
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
+<../../Thesis/ThesisImages/Theory/gimdeltaS.png, id=277, 965.85844pt x 131.7421
+9pt>
+File: ../../Thesis/ThesisImages/Theory/gimdeltaS.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/Theory/gimdeltaS.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/gimdeltaS.png  used o
+n input line 196.
+(pdftex.def)             Requested size: 276.559pt x 37.72179pt.
 [12
 
+ <../../Thesis/ThesisImages/cabibboangle.png> <../../Thesis/ThesisImages/Theory
+/gimdeltaS.png>]
+<../../Thesis/ThesisImages/CKMMatrix.png, id=292, 953.81343pt x 119.69719pt>
+File: ../../Thesis/ThesisImages/CKMMatrix.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/CKMMatrix.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/CKMMatrix.png  used on input
+ line 208.
+(pdftex.def)             Requested size: 307.28987pt x 38.56323pt.
+ [13
+
+ <../../Thesis/ThesisImages/CKMMatrix.png>]
+<../../Thesis/ThesisImages/ModelLimits.png, id=309, 1411.52344pt x 572.1375pt>
+File: ../../Thesis/ThesisImages/ModelLimits.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/ModelLimits.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/ModelLimits.png  used on inp
+ut line 214.
+(pdftex.def)             Requested size: 307.28987pt x 124.55238pt.
+ [14
+
+ <../../Thesis/ThesisImages/ModelLimits.png>]
+<../../Thesis/ThesisImages/Theory/AllFCNCLimits.png, id=326, 1987.425pt x 1777.
+64125pt>
+File: ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png Graphic file (type png
+)
+<use ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/AllFCNCLimits.png  us
+ed on input line 229.
+(pdftex.def)             Requested size: 169.01036pt x 151.16531pt.
+ [15
+
+ <../../Thesis/ThesisImages/Theory/AllFCNCLimits.png>] [16
+
 ]
-<Images/pt1DSF.png, id=272, 525.46312pt x 356.83313pt>
-File: Images/pt1DSF.png Graphic file (type png)
-<use Images/pt1DSF.png>
-Package pdftex.def Info: Images/pt1DSF.png  used on input line 301.
-(pdftex.def)             Requested size: 147.49782pt x 100.16304pt.
-<Images/eta1DSF.png, id=273, 700.6175pt x 475.7775pt>
-File: Images/eta1DSF.png Graphic file (type png)
-<use Images/eta1DSF.png>
-Package pdftex.def Info: Images/eta1DSF.png  used on input line 301.
-(pdftex.def)             Requested size: 147.49782pt x 100.16304pt.
+<../../Thesis/ThesisImages/fcncttbar.png, id=358, 423.08063pt x 419.31656pt>
+File: ../../Thesis/ThesisImages/fcncttbar.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/fcncttbar.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/fcncttbar.png  used on input
+ line 255.
+(pdftex.def)             Requested size: 92.1879pt x 91.36696pt.
+ [17
 
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
+ <../../Thesis/ThesisImages/fcncttbar.png>]
+<../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png, id=374, 1413.02907p
+t x 490.83376pt>
+File: ../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png Graphic file (t
+ype png)
+<use ../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.
+png  used on input line 269.
+(pdftex.def)             Requested size: 307.28987pt x 106.7405pt.
+ [18
 
-[13
+ <../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png>]
+<../../Thesis/ThesisImages/LHCImages/atlasdet.jpg, id=388, 802.6788pt x 561.778
+8pt>
+File: ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg Graphic file (type jpg)
+<use ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg>
+Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/atlasdet.jpg  used
+ on input line 275.
+(pdftex.def)             Requested size: 276.559pt x 193.55673pt.
+ [19
 
- <./Images/pt1DSF.png> <./Images/eta1DSF.png>]
-Overfull \hbox (2.59097pt too wide) in paragraph at lines 326--326
+ <../../Thesis/ThesisImages/LHCImages/atlasdet.jpg>]
+<../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg, id=401, 903.375
+pt x 732.7375pt>
+File: ../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg Graphic fil
+e (type jpg)
+<use ../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/ParticleInteracti
+ons.jpg  used on input line 280.
+(pdftex.def)             Requested size: 245.83282pt x 199.39587pt.
+ [20
+
+ <../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg>]
+<../../Thesis/ThesisImages/LHCImages/ATLASLumi.png, id=414, 798.985pt x 574.145
+pt>
+File: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png Graphic file (type png)
+
+<use ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/ATLASLumi.png  use
+d on input line 298.
+(pdftex.def)             Requested size: 147.50119pt x 105.98738pt.
+<../../Thesis/ThesisImages/HardScatCrosSecs.png, id=415, 631.60968pt x 872.5096
+9pt>
+File: ../../Thesis/ThesisImages/HardScatCrosSecs.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/HardScatCrosSecs.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/HardScatCrosSecs.png  used o
+n input line 298.
+(pdftex.def)             Requested size: 138.2795pt x 191.02078pt.
+ [21
+
+ <../../Thesis/ThesisImages/LHCImages/ATLASLumi.png> <../../Thesis/ThesisImages
+/HardScatCrosSecs.png>]
+<../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png, id=429, 798.985pt 
+x 574.145pt>
+File: ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png Graphic file (
+type png)
+<use ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/meanIntperCrossing
+.png  used on input line 321.
+(pdftex.def)             Requested size: 130.59912pt x 93.845pt.
+<../../Thesis/ThesisImages/LHCImages/ATLASTDAQR2.png, id=430, 1104.125pt x 883.
+3pt>
+File: ../../Thesis/ThesisImages/LHCImages/ATLASTDAQR2.png Graphic file (type pn
+g)
+<use ../../Thesis/ThesisImages/LHCImages/ATLASTDAQR2.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/LHCImages/ATLASTDAQR2.png  u
+sed on input line 321.
+(pdftex.def)             Requested size: 145.9622pt x 116.76039pt.
+ [22
+
+ <../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png> <../../Thesis/The
+sisImages/LHCImages/ATLASTDAQR2.png>]
+File: ../../Thesis/ThesisImages/fcncttbar.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/fcncttbar.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/fcncttbar.png  used on input
+ line 344.
+(pdftex.def)             Requested size: 92.1879pt x 91.36696pt.
+ [23
+
+]
+<../../Thesis/ThesisImages/backgrounds.png, id=457, 1179.65718pt x 693.34032pt>
+
+File: ../../Thesis/ThesisImages/backgrounds.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/backgrounds.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/backgrounds.png  used on inp
+ut line 353.
+(pdftex.def)             Requested size: 215.10196pt x 126.42511pt.
+ [24
+
+ <../../Thesis/ThesisImages/backgrounds.png>] [25
+
+] [26
+
+]
+[27
+
+] [28
+
+]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 419--419
 [][]  
  []
 
-<Images/dataPhotonElectronPT.png, id=289, 700.6175pt x 475.7775pt>
-File: Images/dataPhotonElectronPT.png Graphic file (type png)
-<use Images/dataPhotonElectronPT.png>
-Package pdftex.def Info: Images/dataPhotonElectronPT.png  used on input line 32
-6.
-(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
-<Images/dataElectronElectronPT.png, id=290, 700.6175pt x 475.7775pt>
-File: Images/dataElectronElectronPT.png Graphic file (type png)
-<use Images/dataElectronElectronPT.png>
-Package pdftex.def Info: Images/dataElectronElectronPT.png  used on input line 
-326.
-(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
-<Images/mcPhotonElectronPT.png, id=291, 700.6175pt x 475.7775pt>
-File: Images/mcPhotonElectronPT.png Graphic file (type png)
-<use Images/mcPhotonElectronPT.png>
-Package pdftex.def Info: Images/mcPhotonElectronPT.png  used on input line 326.
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png, id=524, 700.6
+175pt x 474.77374pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png Graphic f
+ile (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
+EptDa.png  used on input line 419.
+(pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png, id=525, 700.6
+175pt x 474.77374pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png Graphic f
+ile (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
+EptMC.png  used on input line 419.
+(pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png, id=5
+26, 700.6175pt x 474.77374pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png 
+Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
+PConvertedptDa.png  used on input line 419.
+(pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png, id=5
+27, 700.6175pt x 474.77374pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png 
+Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
+PConvertedptMC.png  used on input line 419.
+(pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png, id
+=528, 700.6175pt x 474.77374pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.pn
+g Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png
+>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
+PUnconvertedptDa.png  used on input line 419.
+(pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png, id
+=529, 700.6175pt x 474.77374pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.pn
+g Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png
+>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
+PUnconvertedptMC.png  used on input line 419.
+(pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
+[29
 
-(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
-<Images/mcElectronElectronPT.png, id=292, 700.6175pt x 475.7775pt>
-File: Images/mcElectronElectronPT.png Graphic file (type png)
-<use Images/mcElectronElectronPT.png>
-Package pdftex.def Info: Images/mcElectronElectronPT.png  used on input line 32
-6.
-(pdftex.def)             Requested size: 125.37404pt x 85.13531pt.
+ <../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png> <../../Thesi
+s/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png> <../../Thesis/ThesisImage
+s/SearchStrategy/FakeRates/2dEPConvertedptDa.png> <../../Thesis/ThesisImages/Se
+archStrategy/FakeRates/2dEPConvertedptMC.png> <../../Thesis/ThesisImages/Search
+Strategy/FakeRates/2dEPUnconvertedptDa.png> <../../Thesis/ThesisImages/SearchSt
+rategy/FakeRates/2dEPUnconvertedptMC.png>]
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DConverted.png, id=544, 70
+0.6175pt x 475.7775pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DConverted.png Graphi
+c file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DConverted.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DC
+onverted.png  used on input line 436.
+(pdftex.def)             Requested size: 140.12247pt x 95.15381pt.
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png, id=545, 
+525.46312pt x 356.83313pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png Grap
+hic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DU
+nconverted.png  used on input line 436.
+(pdftex.def)             Requested size: 140.12247pt x 95.15381pt.
+ [30
 
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
+ <../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DConverted.png> <../../Th
+esis/ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png>]
+<../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png, id=561, 642.14906pt
+ x 542.025pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png Graphic file (t
+ype png)
+<use ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.
+png  used on input line 444.
+(pdftex.def)             Requested size: 153.64493pt x 129.6834pt.
+ [31
+
+ <../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png>]
+Overfull \hbox (19.73634pt too wide) detected at line 466
+[] \OT1/cmss/m/n/10 = [][][] = []
  []
 
-[14
+File: ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png Graphic file (t
+ype png)
+<use ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.
+png  used on input line 466.
+(pdftex.def)             Requested size: 140.12247pt x 118.26993pt.
+[32
 
- <./Images/dataPhotonElectronPT.png> <./Images/dataElectronElectronPT.png> <./I
-mages/mcPhotonElectronPT.png> <./Images/mcElectronElectronPT.png>]
-<Images/2DSF.png, id=306, 700.6175pt x 475.7775pt>
-File: Images/2DSF.png Graphic file (type png)
-<use Images/2DSF.png>
-Package pdftex.def Info: Images/2DSF.png  used on input line 331.
-(pdftex.def)             Requested size: 307.28987pt x 208.67484pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
+]
+Overfull \hbox (2.74178pt too wide) in paragraph at lines 507--507
+[][]  
  []
 
-[15
+<../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsConverted.png, id=590, 525.
+46312pt x 356.83313pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsConverted.png Graphic 
+file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsConverted.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsCon
+verted.png  used on input line 507.
+(pdftex.def)             Requested size: 117.9987pt x 80.12608pt.
+<../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png, id=591, 525
+.46312pt x 356.83313pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png Graphic
+ file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsCo
+nverted.png  used on input line 507.
+(pdftex.def)             Requested size: 117.9987pt x 80.12608pt.
+<../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png, id=592, 52
+5.46312pt x 356.83313pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png Graphi
+c file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnc
+onverted.png  used on input line 507.
+(pdftex.def)             Requested size: 117.9987pt x 80.12608pt.
+<../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png, id=593, 5
+25.46312pt x 356.83313pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png Graph
+ic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUn
+converted.png  used on input line 507.
+(pdftex.def)             Requested size: 117.9987pt x 80.12608pt.
+[33
 
- <./Images/2DSF.png>]
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
+ <../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsConverted.png> <../../Thes
+is/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png> <../../Thesis/ThesisIm
+ages/SearchStrategy/ABCD/ejetsUnconverted.png> <../../Thesis/ThesisImages/Searc
+hStrategy/ABCD/mujetsUnconverted.png>]
+<Images/neural_net2.jpeg, id=611, 793.96625pt x 389.455pt>
+File: Images/neural_net2.jpeg Graphic file (type jpg)
+<use Images/neural_net2.jpeg>
+Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 519.
+(pdftex.def)             Requested size: 215.10196pt x 105.5108pt.
+ [34
 
-[16
+ <./Images/neural_net2.jpeg>]
+<Images/AdamComparison.png, id=626, 336.25626pt x 326.21875pt>
+File: Images/AdamComparison.png Graphic file (type png)
+<use Images/AdamComparison.png>
+Package pdftex.def Info: Images/AdamComparison.png  used on input line 532.
+(pdftex.def)             Requested size: 107.55333pt x 104.34235pt.
+
+[35
+
+ <./Images/AdamComparison.png>] [36
+
+]
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/ejetsboth2hidnpart0accuarcy.png, id=656, 462.528pt x 346.896pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
+sults/btag77/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
+ults/btag77/ejetsboth2hidnpart0accuarcy.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input 
+line 559.
+(pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/ejetsboth2hidnpart0loss.png, id=657, 462.528pt x 346.896pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
+sults/btag77/ejetsboth2hidnpart0loss.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
+ults/btag77/ejetsboth2hidnpart0loss.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line
+ 559.
+(pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/ejetsboth2hidnpart0sigbkg.png, id=658, 462.528pt x 346.896pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
+sults/btag77/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
+ults/btag77/ejetsboth2hidnpart0sigbkg.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0sigbkg.png  used on input li
+ne 559.
+(pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/significanceejetsboth2hidnpart02.png, id=659, 1129.21875pt x 752.8125pt
+>
+File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
+sults/btag77/significanceejetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
+ults/btag77/significanceejetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/BestResults/btag77/significanceejetsboth2hidnpart02.png  used on i
+nput line 559.
+(pdftex.def)             Requested size: 130.59912pt x 87.0598pt.
+ [37
+
+ <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResult
+s/btag77/ejetsboth2hidnpart0accuarcy.png> <../../Thesis/ThesisImages/SearchStra
+tegy/HiddenLayerStudiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0loss.png> 
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/ejetsboth2hidnpart0sigbkg.png> <../../Thesis/ThesisImages/SearchStrateg
+y/HiddenLayerStudiesBR0.002/BestResults/btag77/significanceejetsboth2hidnpart02
+.png>] [38
+
+] [39
+
+] [40
+
+] [41
+
+]
+<../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJ
+et/LimitPlot.png, id=731, 700.6175pt x 474.77374pt>
+File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetP
+HptMJet/LimitPlot.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPH
+ptMJet/LimitPlot.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
+tematics/MQGamEJetPHptMJet/LimitPlot.png  used on input line 586.
+(pdftex.def)             Requested size: 153.64493pt x 104.1173pt.
+ [42
+
+ <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptM
+Jet/LimitPlot.png>] [43
+
+] [44
+
+] [45
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 352.
+(hyperref)                removing `\translate ' on input line 615.
 
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[17
+[46
 
 ]
-<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=336, 580.41844pt x 432.11438
+<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=781, 580.41844pt x 432.11438
 pt>
 File: ../../Thesis/ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/Theory/FCNCLoop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/FCNCLoop.png  used on
- input line 360.
+ input line 623.
 (pdftex.def)             Requested size: 122.91406pt x 91.50494pt.
-<../../Thesis/ThesisImages/penguinFCNC.png, id=337, 1020.81375pt x 629.35126pt>
+<../../Thesis/ThesisImages/penguinFCNC.png, id=782, 1020.81375pt x 629.35126pt>
 
 File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/penguinFCNC.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/penguinFCNC.png  used on inp
-ut line 360.
+ut line 623.
 (pdftex.def)             Requested size: 122.91406pt x 75.77817pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[18
+ [47
 
  <../../Thesis/ThesisImages/Theory/FCNCLoop.png> <../../Thesis/ThesisImages/pen
-guinFCNC.png>]
-<Images/correlations.png, id=346, 346.896pt x 346.896pt>
-File: Images/correlations.png Graphic file (type png)
-<use Images/correlations.png>
-Package pdftex.def Info: Images/correlations.png  used on input line 365.
-(pdftex.def)             Requested size: 188.29498pt x 188.29593pt.
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[19
-
- <./Images/correlations.png>]
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[20
+guinFCNC.png>] [48
 
 ]
-Overfull \hbox (8.68301pt too wide) in paragraph at lines 438--438
+Overfull \hbox (8.68301pt too wide) in paragraph at lines 698--698
 []\OT1/cmss/m/n/10 ['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam
 ','deltaRbl',  
  []
 
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[21
+[49
 
 ]
-<../../Thesis/ThesisImages/2017PeakLumiByFill.pdf, id=371, 569.12625pt x 408.52
-625pt>
-File: ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf Graphic file (type pdf)
-<use ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf>
-Package pdftex.def Info: ../../Thesis/ThesisImages/2017PeakLumiByFill.pdf  used
- on input line 443.
-(pdftex.def)             Requested size: 307.28987pt x 220.58842pt.
-
-Overfull \vbox (8.85541pt too high) detected at line 443
- []
-
-
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[22
-
- <../../Thesis/ThesisImages/2017PeakLumiByFill.pdf, page is rotated 90 degrees>
-]
-<../../Thesis/ThesisImages/BSMDiagrams.png, id=422, 1166.10657pt x 630.10406pt>
+<../../Thesis/ThesisImages/BSMDiagrams.png, id=807, 1166.10657pt x 630.10406pt>
 
 File: ../../Thesis/ThesisImages/BSMDiagrams.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/BSMDiagrams.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/BSMDiagrams.png  used on inp
-ut line 447.
+ut line 704.
 (pdftex.def)             Requested size: 307.28987pt x 166.04416pt.
+ [50
 
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[23
-
- <../../Thesis/ThesisImages/BSMDiagrams.png>]
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[24
+ <../../Thesis/ThesisImages/BSMDiagrams.png>] [51
 
 ]
-Overfull \hbox (69.12396pt too wide) has occurred while \output is active
- [][][][] 
+<../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png, id=822, 903.375pt 
+x 924.45375pt>
+File: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png Graphic file (
+type png)
+<use ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram
+.png  used on input line 737.
+(pdftex.def)             Requested size: 149.49155pt x 152.98842pt.
+ [52
+
+ <../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>]
+<../../Thesis/ThesisImages/Simulation/VarJetAlgs.png, id=831, 912.40875pt x 649
+.67719pt>
+File: ../../Thesis/ThesisImages/Simulation/VarJetAlgs.png Graphic file (type pn
+g)
+<use ../../Thesis/ThesisImages/Simulation/VarJetAlgs.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/VarJetAlgs.png  u
+sed on input line 747.
+(pdftex.def)             Requested size: 215.10196pt x 153.1599pt.
+ [53
+
+ <../../Thesis/ThesisImages/Simulation/VarJetAlgs.png>]
+<../../Thesis/ThesisImages/IRCollinearSafety.png, id=840, 813.79031pt x 642.149
+06pt>
+File: ../../Thesis/ThesisImages/IRCollinearSafety.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/IRCollinearSafety.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/IRCollinearSafety.png  used 
+on input line 752.
+(pdftex.def)             Requested size: 215.10196pt x 169.72775pt.
+ [54
+
+ <../../Thesis/ThesisImages/IRCollinearSafety.png>]
+File: ../../Thesis/ThesisImages/HardScatCrosSecs.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/HardScatCrosSecs.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/HardScatCrosSecs.png  used o
+n input line 769.
+(pdftex.def)             Requested size: 153.64493pt x 212.24236pt.
+
+Overfull \vbox (0.50934pt too high) detected at line 769
  []
 
-[25
+[55
+
+]
+Overfull \hbox (1.15842pt too wide) in paragraph at lines 792--792
+[][]  
+ []
+
+<Images/Dataee.png, id=856, 700.6175pt x 474.77374pt>
+File: Images/Dataee.png Graphic file (type png)
+<use Images/Dataee.png>
+Package pdftex.def Info: Images/Dataee.png  used on input line 792.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/Dataeg.png, id=857, 700.6175pt x 474.77374pt>
+File: Images/Dataeg.png Graphic file (type png)
+<use Images/Dataeg.png>
+Package pdftex.def Info: Images/Dataeg.png  used on input line 792.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/MCVgamee.png, id=858, 700.6175pt x 474.77374pt>
+File: Images/MCVgamee.png Graphic file (type png)
+<use Images/MCVgamee.png>
+Package pdftex.def Info: Images/MCVgamee.png  used on input line 792.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+<Images/MCVgameg.png, id=859, 700.6175pt x 474.77374pt>
+File: Images/MCVgameg.png Graphic file (type png)
+<use Images/MCVgameg.png>
+Package pdftex.def Info: Images/MCVgameg.png  used on input line 792.
+(pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
+[56
+
+ <./Images/Dataee.png> <./Images/Dataeg.png> <./Images/MCVgamee.png> <./Images/
+MCVgameg.png>]
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/mujetsboth2hidnpart0accuarcy.png, id=867, 462.528pt x 346.896pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
+sults/btag77/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
+ults/btag77/mujetsboth2hidnpart0accuarcy.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png  used on input
+ line 808.
+(pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/mujetsboth2hidnpart0loss.png, id=868, 462.528pt x 346.896pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
+sults/btag77/mujetsboth2hidnpart0loss.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
+ults/btag77/mujetsboth2hidnpart0loss.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0loss.png  used on input lin
+e 808.
+(pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/mujetsboth2hidnpart0sigbkg.png, id=869, 462.528pt x 346.896pt>
+File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
+sults/btag77/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
+ults/btag77/mujetsboth2hidnpart0sigbkg.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0sigbkg.png  used on input l
+ine 808.
+(pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
+<../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
+/btag77/significancemujetsboth2hidnpart02.png, id=870, 1129.21875pt x 752.8125p
+t>
+File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
+sults/btag77/significancemujetsboth2hidnpart02.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
+ults/btag77/significancemujetsboth2hidnpart02.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
+udiesBR0.002/BestResults/btag77/significancemujetsboth2hidnpart02.png  used on 
+input line 808.
+(pdftex.def)             Requested size: 130.59912pt x 87.0598pt.
+ [57
+
+ <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResult
+s/btag77/mujetsboth2hidnpart0accuarcy.png> <../../Thesis/ThesisImages/SearchStr
+ategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0loss.png
+> <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResul
+ts/btag77/mujetsboth2hidnpart0sigbkg.png> <../../Thesis/ThesisImages/SearchStra
+tegy/HiddenLayerStudiesBR0.002/BestResults/btag77/significancemujetsboth2hidnpa
+rt02.png>] [58
+
+] [59
 
 ]
 \tf@nav=\write6
@@ -1257,22 +1922,27 @@ Overfull \hbox (69.12396pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `Defense.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 475.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 475.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 822.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 822.
  (./Defense.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 475.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 475.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 822.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 822.
 Package rerunfilecheck Info: File `Defense.out' has not changed.
-(rerunfilecheck)             Checksum: 756A8018CAC44E4AAB6B8867577C7819;829.
+(rerunfilecheck)             Checksum: 791CC5F868E8093CA5B53ECB71925DE9;1005.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 3.25pt have occurred.
+
  ) 
 Here is how much of TeX's memory you used:
- 18533 strings out of 492616
- 352525 string characters out of 6132769
- 431032 words of memory out of 5000000
- 21944 multiletter control sequences out of 15000+600000
- 13595 words of font info for 50 fonts, out of 8000000 for 9000
+ 28934 strings out of 492616
+ 566278 string characters out of 6132769
+ 604636 words of memory out of 5000000
+ 32191 multiletter control sequences out of 15000+600000
+ 549127 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,22n,55p,791b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,76p,791b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-di
@@ -1283,19 +1953,20 @@ c/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
 .pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/20
 18/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Defense.pdf (25 pages, 1081136 bytes).
+ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb>
+Output written on Defense.pdf (59 pages, 5496873 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
- 64 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 999 PDF objects out of 1000 (max. 8388607)
+ 807 compressed objects within 9 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 461 words of extra memory for PDF output out of 10000 (max. 10000000)
 

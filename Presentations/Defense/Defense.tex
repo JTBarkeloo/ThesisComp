@@ -14,10 +14,12 @@
 \usepackage{ amssymb }
 \usepackage{appendixnumberbeamer}
 %\usepackage{tikz-feynman}
+
+\usepackage{xfrac}
 \usepackage{graphicx}
 \begin{document}
-\title{Search for the Flavor Changing Neutral Current, $t\rightarrow q \gamma$ in Top Pair Events Using the ATLAS Detector}
-\author[Barkeloo]{Jason Barkeloo}
+\title[Search for $t\rightarrow q\gamma$ in Top Pair Events \hfill]{Search for the Flavor Changing Neutral Current, $t\rightarrow q \gamma$ in Top Pair Events Using the ATLAS Detector}
+\author[Barkeloo, Defense]{Jason Barkeloo}
 
 \titlegraphic{\hspace*{6.75cm}~%
    \includegraphics[width=4cm]{../uo_logo_green_on_white_2.jpg}
@@ -32,12 +34,97 @@
 
 \date{April 16, 2020}
 \frame{\titlepage}
-\frame{\frametitle{Overview}\tableofcontents[]}%hidesubsections]}
-\section{Brief Background}
+\frame{\frametitle{Welcome!}
+Thank you for your flexibility given our current situation! \\~\
+
+Defense proceedings:
+\begin{itemize}
+\item Open/public presentation in this room with followup questions
+\item Committee and myself will adjourn to a separate room to conclude
+\item Committee will deliberate and I will return to this room \\~\
+\end{itemize}
+
+General Guidelines:
+\begin{itemize}
+\item Please mute if not speaking  \\~\
+\end{itemize}
+
+\centering
+\textbf{Thank you for attending!}
+}
+
+\frame{\frametitle{Overview}\tableofcontents[hideallsubsections]}%hidesubsections]}
+\section{Background}
 %\frame{\frametitle{Table of Contents}\tableofcontents[currentsection,hideothersubsections]}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The Standard Model}
+\frame{\frametitle{The Standard Model}
+\begin{figure}
+	\includegraphics[width=4.8cm]{Images/SMParticles.png}
+	%\captionof{figure}{\href{https://en.wikipedia.org/wiki/Standard_Model}{List of standard model particles}}
+\end{figure}
+\begin{itemize}
+\item Best working description of fundamental particles and their interactions
+	\begin{itemize}
+	\item Experimentally precise and well behaved
+	\end{itemize}
+	
+	\vspace{\baselineskip}
+\end{itemize}
+}
 
 \subsection{The Top Quark}
+
+\frame{\frametitle{The Top Quark}
+\begin{itemize}
+\item Heaviest fundamental particle, $172.5 GeV$
+\item Lifetime $5x10^{-25}s$, decays before hadronization
+	\begin{itemize}
+	\item Allows us to study the decay of a single quark
+	\end{itemize}
+\end{itemize}
+\begin{figure}
+	\includegraphics[height=0.5\textheight]{../../Thesis/ThesisImages/ttbarevent.jpg}
+\end{figure}
+}
+
+\frame{\frametitle{Top Quark Pair Production}
+\begin{itemize}
+\item Leading order processes for top quark production
+	\begin{itemize}
+	\item Quark-antiquark annihilation $\approx 10\%$
+	\item Gluon-gluon fusion $\approx 90\%$
+	\end{itemize}
+\end{itemize}
+\centering
+
+	\includegraphics[height=0.5\textheight]{../../Thesis/ThesisImages/Theory/LOPairProdDiags.png}
+	\captionof{figure}{Leading order $t\bar{t}$ diagrams}
+}
+\frame{\frametitle{Top Quark Pair Production}
+\begin{itemize}
+\item At $\sqrt{s}=13TeV$ for $m_{t}=172.5GeV$, $\sigma_{t\bar{t}} = 831.76pb$
+\end{itemize}
+\centering
+	\includegraphics[height=0.7\textheight]{../../Thesis/ThesisImages/Theory/ttprodxsec.png}
+	\captionof{figure}{$t\bar{t}$ production cross section \href{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCTopWGSummaryPlots}{[TopWGSummaryPlots]}}
+}
+\frame{\frametitle{Top Quark Decays}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item Standard model top branching ratio to bW $\simeq 100\%$
+\end{itemize}
+\centering
+ \includegraphics[width=0.7\textwidth]{../../Thesis/ThesisImages/topdecay.png}
+ \captionof{figure}{Leptonic final state diagram for a top decay}
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+     \includegraphics[width=1.1\textwidth]{../../Thesis/ThesisImages/Theory/topdecayproducts.jpg}
+    \captionof{figure}{Top quark pair decay final states \href{https://images.nature.com/full/nature-assets/nature/journal/v429/n6992/images/nature02589-f2.2.jpg}{[Nature]}}
+\end{column}
+\end{columns}
+}
 
 \frame{\frametitle{Top Quark Decays in the SM}
 \centering
@@ -54,10 +141,10 @@
 \begin{column}{0.5\textwidth}
 \begin{itemize}
 \item $t\rightarrow q_{u,c} X\approx 10^{-17} - 10^{-12}$
-\item Limits on $t\rightarrow \gamma q$ processes: \href{https://arxiv.org/abs/1511.03951}{[JHEP 04 (2016) 035]}
+\item Limits on $t\rightarrow \gamma q$ processes: \href{http://inspirehep.net/record/1750600?ln=en}{[Phys.Lett. B800 135082]}
 	\begin{itemize}
-	\item $t\rightarrow \gamma u < 1.3 x10^{-4}$
-	\item $t\rightarrow \gamma c < 1.7 x 10^{-3}$
+	\item $t\rightarrow \gamma u < 2.8 x10^{-5}$
+	\item $t\rightarrow \gamma c <  18 x 10^{-5}$
 	\end{itemize}
 \end{itemize}
 \end{column}
@@ -65,11 +152,94 @@
 }
 
 
+\subsection{Historical Background}
+\frame{\frametitle{GIM Mechanism}
+\begin{itemize}
+\item Cabibbo model - 3 quarks (u, d, s)
+\item Studies of kaon decays showed the existence of $K^+ \rightarrow \mu^+ \nu_\mu$ but an absence of predicted $K_{L}^0 \rightarrow \mu^+ \mu^-$
+\item Even in the absence of a tree level decay $K_{L}^0$ decay the box diagram would be possible through an exchange of W bosons
+\item Weak neutral current interactions in the uds model  have the form
+\[
+u\bar{u}+ (d\bar{d}\cos^2\theta_C+s\bar{s}\sin^2\theta_C)) +(s\bar{d} + d\bar{s})sin\theta_C cos\theta_C
+\]
+\end{itemize}
+\centering
+\includegraphics[width=0.45\textwidth]{../../Thesis/ThesisImages/gimdeltaSa.png}
+}
 
-\subsection{FCNC at the LHC} 
+\frame{\frametitle{GIM Mechanism}
+\centering
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/Theory/GIMDiagrams.png}
 
+\begin{itemize}
+\item Glashow, Iliopoulos, and Maiani \href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.2.1285}{[Phys. Rev. D (1970)]} propose a machanism through which FCNCs are suppressed in loop diagrams
+	\begin{itemize}
+	\item Introduction of charm quark
+	\end{itemize}
+\item Kaon decays imply no neutral current/natural suppression of neutral current
+\end{itemize}
+}
+
+\frame{\frametitle{GIM Mechanism}
+\centering
+\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/cabibboangle.png}
+\begin{itemize}
+\item The addition of the charm changes our weak neutral current interactions
+\item With four quarks the weak neutral interactions now have the form:
+\[
+u\bar{u} + c\bar{c} + (d\bar{d}+s\bar{s}) \cos^2\theta_C + (s\bar{s} + d\bar{d})\sin^2\theta_C +(s\bar{d} + d\bar{s} - d\bar{s} - s\bar{d})sin\theta_C cos\theta_C
+\]
+\item Flavor changing neutral current diagrams cancel out at tree level (as $m_{c} \rightarrow m_{u}$)
+\end{itemize}
+\centering
+\includegraphics[width=0.9\textwidth]{../../Thesis/ThesisImages/Theory/gimdeltaS.png}
+}
+
+
+\frame{\frametitle{CKM Matrix}
+\includegraphics[width=1.\textwidth]{../../Thesis/ThesisImages/CKMMatrix.png}
+\captionof{figure}{CKM Matrix}
+\begin{itemize}
+\item Decay rates proportional to $|V_{tX}|^2$
+\item Top decay through a $W^{\pm}$ boson is a charged current interaction. 
+\item Flavor changing processes are proportional to off-diagonal elements of the CKM matrix
+\item GIM/CKM suppression of these FCNC processes in the Standard Model make them unlikely to be seen without some new physics
+\end{itemize}
+}
+\subsection{Current Limits} 
+\frame{\frametitle{Top Flavor Changing Neutral Currents (FCNCs)}
+\includegraphics[width=1.\textwidth]{../../Thesis/ThesisImages/ModelLimits.png}
+\captionof{table}{Branching ratio enhancements in various beyond the standard model theories \href{https://arxiv.org/pdf/1311.2028.pdf}{[Snowmass Top Report]}}
+
+}
+
+\frame{\frametitle{Top Flavor Changing Neutral Currents}
+\begin{itemize}
+\item Current Limits on FCNC Decays
+\end{itemize}
+\centering
+\includegraphics[width=0.55\textwidth]{../../Thesis/ThesisImages/Theory/AllFCNCLimits.png}
+\begin{itemize}
+\item Limits on $t\rightarrow q \gamma$ processes: \href{https://arxiv.org/abs/1511.03951}{[JHEP 04 (2016) 035]}
+	\begin{itemize}
+	\item $t\rightarrow \gamma u < 2.8 x10^{-5}$
+	\item $t\rightarrow \gamma c <  18 x 10^{-5}$
+	\end{itemize}
+\end{itemize}
+}
+
+\frame{\frametitle{Monte Carlo Production of FCNC Signal Samples}
+\begin{itemize}
+\item Due to the low cross sections we must create our own Monte Carlo Samples for our Signal
+\item An effective field theory approach was taken in the creation of the model [Degrande et al. Phys. Rev. D 91, 034024 (2015)]
+\item This model takes advantage of dimension-6 operators
+\end{itemize}
+\[ \mathcal{L}_{SM} = \mathcal{L}_{SM}^{(4)} + \mathcal{L}^{eff} \text{ where } \mathcal{L}^{eff} = \frac{1}{\Lambda^2} \sum_{k} C_{k}^{(6)}Q_{k}^{(6)}
+\]
+\[ \mathcal{L}^{eff}_{tq\gamma} =  C \sigma^{\mu\nu}q_{\nu}(\lambda^{L}_{ct}P_L + \lambda^{R}_{ct}P_{R}) t A_{\mu} +H.c.
+\]
+}
 \frame{\frametitle{FCNC: What are we looking for? $t\bar{t}\rightarrow W (\rightarrow l \nu) b+ q\gamma$}
-Will further investigate BJets here.
 \begin{itemize}
 \item Final state topology
 	\begin{itemize}
@@ -81,145 +251,114 @@ Will further investigate BJets here.
 	\end{itemize}
 \end{itemize}
 \centering
-\includegraphics[width=0.35\textwidth]{../../Thesis/ThesisImages/fcncttbar.png}
+\includegraphics[width=0.3\textwidth]{../../Thesis/ThesisImages/fcncttbar.png}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%\subsection{Object Preselection Cuts }
-%\frame{\frametitle{Object Preselection}
-%\begin{itemize}
-%\item We preselect events with objects that look like similar to our expected topology
-%\item Require:
-%	\begin{itemize}
-%	\item Exactly one lepton (e or $\mu$) $\geq$ 25 GeV
-%	\item Exactly one good photon $\geq$ 15GeV
-%	\item Missing Transverse Energy $\geq$ 30GeV
-%	\item $\geq 1$ Jets
-%	\end{itemize}
-%\item Further exploration of the BJets will be discussed
-%\end{itemize}
-%}
-\section{B-tagging Working Point Selection}
-\subsection{B-tagging Background}
-\frame{\frametitle{B-tagging}
-\begin{columns}
-\begin{column}{0.5\textwidth}
+\section{The LHC and ATLAS}
+\subsection{The Large Hadron Detector}
+
+\frame{\frametitle{The Large Hadron Collider}
+\centering
+\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/LHCImages/LHCDetecPlacement.png}
 \begin{itemize}
-\item B Hadrons travel a measureable distance before decay
-\item Tracks originate from outside of interaction point (Seconday Vertex)
-\item Backtracking tracks in displaced vertex gives an impact parameter
-\item Decay chain MVA attempts to reconstruct decay of the jet
-\item Outputs of these algorithms used in a BDT to determine if a Jet is from a b-quark
+\item 27km ring beneath Franco-Swiss border
+
+\item Collides protons at center of mass energy 13TeV
+\item Over 10 Quadrillion ($10^{15}$) events produced within the ATLAS detector so far
+\end{itemize}
+}
+
+\subsection{The ATLAS Detector}
+\frame{\frametitle{The ATLAS Detector}
+\centering
+\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/LHCImages/atlasdet.jpg}
+}
+
+\frame{\frametitle{Particles in ATLAS}
+\centering 
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/Simulation/ParticleInteractions.jpg}
+}
+
+\frame{\frametitle{ATLAS Data}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\centering 
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/LHCImages/ATLASLumi.png}
+\begin{itemize}
+\item Total Luminosity at $\sqrt{s} = 13TeV$:  $139 \text{fb}^{-1}$
+\item The number of events we see is $N=\sigma L$
+\item $N_{tot} \approx 14x10^{15}$ events produced during the 13TeV data runs
+\item $N_{t\bar{t}} \approx 116x10^6$
 \end{itemize}
 \end{column}
 \begin{column}{0.5\textwidth}
-%\centering
-%\includegraphics[height=.65\textheight]{../../Thesis/ThesisImages/SimulationNN/B-tagging_diagram.png}
+\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/HardScatCrosSecs.png}
 \end{column}
 \end{columns}
 }
 
-\frame{\frametitle{Mv2c10}
-MV2c10 is used to tag b-jets. The c10 implies a 10\% c-jet fraction in the background training sample.  Can use various fixed-cut working points for b-jet identification.  \\
-Using a different working point can change which jets are identified as originating from b-quarks in the analysis.
-%\begin{center}
-%\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/SimulationNN/BTagMV2c10andRejVsEff.png}\\
-%\href{https://arxiv.org/pdf/1805.01845.pdf}{JHEP 08 (2018) 89}
-%\end{center}
-}
-
-
-\subsection{Neural Network on B-tagging WPs}
-
-\frame{\frametitle{Neural Network Reminder}
+\frame{\frametitle{ATLAS Data Acquisition}
 \begin{columns}
-\begin{column}{0.48\textwidth}
-\centering
-\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0sigbkg.png} 
-%\includegraphics[width=0.85\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significancemujetsboth2hidnpart02.png}
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+\item Average 33.7 collisions per crossing during Run 2, 40MHz collision rate
+\item Raw uncompressed event: 1.6 MB
+\item Around 64 TB/s data
+\item 2 Stage Trigger System
+\begin{itemize}
+\item Level 1 - Hardware based, coarse object reconstruction, reduces rate to under 100 kHz
+\item High-Level Trigger: Software based, performs reconstruction as close to offline as possible, reduces rate to 1 kHz
+\end{itemize}
+\item Still save 10s of PB per year
+\end{itemize}
 \end{column}
-\begin{column}{0.48\textwidth}
-\centering
-\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0SigVsBR.png} 
-\includegraphics[width=0.85\textwidth]{Images/btag77/mujetsboth2hidnpart0CutVsBR.png} 
+\begin{column}{0.5\textwidth}
+\centering 
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/LHCImages/ATLASTDAQR2.png}
 \end{column}
 \end{columns}
-Branching ratio with Significance = 2:  1.18e-5
+}
+%\frame{\frametitle{More ATLAS}
+%}
+
+\section{Searching for Flavor Changing Neutral Current Signatures}
+\subsection{Object Selection}
+
+
+\subsection{Region Creation}
+
+\frame{\frametitle{Object Preselection}
+\begin{itemize}
+\item We preselect events with objects that look like similar to our expected topology
+\item Require:
+	\begin{itemize}
+	\item Exactly one lepton (e or $\mu$) $\geq$ 25 GeV
+	\item Exactly one good photon $\geq$ 15GeV
+	\item Missing Transverse Energy $\geq$ 30GeV
+	\item $\geq 1$ Jets
+	\end{itemize}
+\end{itemize}
+\centering
+\includegraphics[width=0.3\textwidth]{../../Thesis/ThesisImages/fcncttbar.png}
+}
+
+\frame{\frametitle{Background Processes}
+\begin{itemize}
+\item Due to all of the processes at hadron colliders it is important to model similar event topologies well.
+\item Major backgrounds include $t\bar{t}$, W+Jets, Z+Jets, + processes with an associated photon
+\end{itemize}
+\centering
+\includegraphics[width=0.7\textwidth]{../../Thesis/ThesisImages/backgrounds.png}
 }
 
 
-%\frame{\frametitle{Neural Network Results}
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%%\rotatebox{90}{Muon Channel        } 
-%\end{column}
-%\begin{column}{0.33\textwidth}
-%\begin{itemize}
-%\item  70\% Working Point
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag70/modelouts/significanceejetsboth2hidnpart02.png} \\
-%\tiny BR with Sig=2: $1.25\times10^{-5}$\\
-%\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag70/modelouts/significancemujetsboth2hidnpart02.png}\\
-%BR with Sig=2: $1.31\times10^{-5}$
-%\end{column}
-%\begin{column}{0.33\textwidth}
-%\begin{itemize}
-%\item 77\% Working Point
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significanceejetsboth2hidnpart02.png} \\
-%\tiny BR with Sig=2: $1.23\times10^{-5}$\\
-%\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag77/modelouts/significancemujetsboth2hidnpart02.png}\\
-%BR with Sig=2: $1.18\times10^{-5}$
-%\end{column}
-%\begin{column}{0.33\textwidth}
-%\begin{itemize}
-%\item 85\% Working Point
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag85/modelouts/significanceejetsboth2hidnpart02.png} \\
-%\tiny BR with Sig=2: $1.28\times10^{-5}$\\
-%\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SimulationNN/{HiddenLayerStudiesBR0.002}/btag85/modelouts/significancemujetsboth2hidnpart02.png}\\
-%BR with Sig=2: $1.19\times10^{-5}$
-%\end{column}
-%\end{columns}
-%}
-
-%\frame{\frametitle{Preselection Objects with $N_{BJet}= 1$ }
-%\begin{columns}
-%\begin{column}{0.02\textwidth}
-%\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
-%%\rotatebox{90}{Muon Channel        } 
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item $\gamma_{iso}$
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/photon0_iso.png} \\
-%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/photon0_iso.png}
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{itemize}
-%\item $\Delta R_{j\gamma}$
-%\end{itemize}
-%\includegraphics[width=.95\textwidth]{Images/ejetsvarplots/deltaRjgam.png} \\
-%\includegraphics[width=.95\textwidth]{Images/mujetsvarplots/deltaRjgam.png}
-%\end{column}
-%\end{columns}
-%}
-
-
-%%%%%%%%%%%%%%%%
-\section{$e\rightarrow \gamma$ Fake Rate: Initial Studies}
-\subsection{Initial Studies}
-
-\frame{\frametitle{Fake Rate Studies}
-\begin{centering}
-\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/ZeeFakeDiagram.png}\\
-\end{centering}
-Want to be able to correct the number of fake photons predicted in MC to those present in Data
+\frame{\frametitle{0 Photon Backgrounds}
 }
 
+\frame{\frametitle{Real Photon Backgrounds}
+}
+\subsection{Fake Rates}
 
 \frame{\frametitle{Fake Rate Object Selection}
 \begin{itemize}
@@ -228,121 +367,245 @@ Want to be able to correct the number of fake photons predicted in MC to those p
 \item Require:
 	\begin{itemize}
 	\item Common Object Selection (MET,Jets,Triggers, etc.)
-	\item Exactly 1Bjet
+%	\item Exactly 1Bjet
 	\item $Z\rightarrow ee:$ 2 Opposite Sign Electrons, 86.1 GeV $< m_{e^+ e^-} <$96.1 GeV
 	\item $Z\rightarrow e\gamma :$1 Electron, $\geq$1 Photon,  86.1 GeV $< m_{e \gamma} <$96.1 GeV
 
 	\end{itemize}
 \item Tag and Probe Method used 
+
 \end{itemize}
 }
 
+\frame{\frametitle{Scale Factor}
+\[ \text{FR}^{\text{e-fake}}=\frac{N_{e,\gamma}}{N_{e,e}}\]
 
-
-\frame{\frametitle{Truth Study / Scale Factor}
-\begin{center}
-\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/TruthStudyFakes.png}
-\end{center}
-Catagories: Simple mis-match, mis-match to truth photon (Reco pt $\geq$10\% higher than truth), non prompt photon, prompt photons
+\[  \text{SF}^{\text{e-fake}}_{\text{FR}} = \frac{\text{FR}^{\text{e-fake}}_{\text{data}}}{\text{FR}^{\text{e-fake}}_{\text{MC}}}\]
+This scale factor is calculated for converted and unconverted photons as well as in bins of $\eta$ and $\phi$
+\begin{itemize}
+\item Converted photons pair produce before the ECAL leaving tracks in the Inner Detector
+\item Unconverted photons only pair produce inside of the ECAL
+\end{itemize}
 }
 
-\subsection{Basic 1D Fake Rate Scale Factor}
-
-\frame{Data and MC \frametitle{$m_{ee}, m_{e\gamma}$}
+\frame{\frametitle{Data and MC Distributions}
 \begin{columns}
 \begin{column}{0.02\textwidth}
-\rotatebox{90}{$m_{e\gamma}$ \qquad \qquad \qquad $m_{ee}$\qquad} 
+\rotatebox{90}{MC \qquad \qquad Data\qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item Probe $e$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png} \\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png} \\
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item Converted $\gamma$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png} \\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png}
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item Unconverted $\gamma$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png} \\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png}
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{2D Fake Rates}
+\begin{columns}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Converted $\gamma$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DConverted.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Unconverted $\gamma$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png}
+\end{column}
+\end{columns} 
+}
+
+
+\frame{\frametitle{$j\rightarrow \gamma$ Fake Rate Studies}
+Majority of hadronic fake photons are from $t\bar{t}$ events where a final state jet radiates a non-prompt photon.  Similarly  radiated photons for W+jets and single top processes can enter the signal region through the radiation of a non-prompt photon. \\
+\begin{centering}
+\includegraphics[width=.5\textwidth]{../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png}\\
+\end{centering}
+}
+
+\frame{\frametitle{ABCD Method}
+\begin{columns}
+\begin{column}{0.48\textwidth}
+\[\frac{N_D^{\text{h-fake}}}{N_C^{\text{h-fake}}}=\frac{N_A^{\text{h-fake}}}{N_B^{\text{h-fake}}}
+\text{ and }
+\frac{N_D^{\text{h-fake}}}{N_A^{\text{h-fake}}}=\frac{N_C^{\text{h-fake}}}{N_B^{\text{h-fake}}}
+\]
+Want uncorrelated variables, use a correction factor to account to ensure closure\linespread{1.5}
+\[\theta_{\text{MC}}=\frac
+{\sfrac{N_\text{D,MC}^{\text{h-fake}}}{N_\text{C,MC}^{\text{h-fake}}}}
+{\sfrac{N_\text{A,MC}^{\text{h-fake}}}{N_\text{B,MC}^{\text{h-fake}}}}\]
+\[N_\text{D,est.}^{\text{h-fake}} = \frac{N_\text{A,data}^{\text{h-fake}}\times N_\text{C,data}^{\text{h-fake}}}{N_\text{B,data}^{\text{h-fake}}}\times \theta_\text{MC}
+\]
+\end{column}
+\begin{column}{0.48\textwidth}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png}
+\[\text{SF}^\text{h-fake} = \frac{N^\text{h-fake}_\text{D,est.}}{N^\text{h-fake}_\text{D,MC}}
+\]
+\end{column}
+\end{columns}
+}
+
+%
+\frame{\frametitle{}
+
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{$\mu$ channel  \qquad \qquad $e$ channel \qquad} 
 %\rotatebox{90}{Muon Channel        } 
 \end{column}
 \begin{column}{0.48\textwidth}
 \begin{itemize}
-\item Data
+\item Converted Photons
 %\item  MCee integral small range: 424,051.  - Vgam: 429789 - All 430225
 %\item DATAee integral small range: 468,832
 %\item MCeg integral small range: 110822     - Vgam: 115066 - All 152420
 %\item DATAeg integral small range: 118198
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/Dataee.png} \\
-\includegraphics[width=.85\textwidth]{Images/Dataeg.png}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsConverted.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png}
 \end{column}
 \begin{column}{0.48\textwidth}
 \begin{itemize}
-\item Monte Carlo
+\item Unconverted Photons
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/MCVgamee.png} \\
-\includegraphics[width=.85\textwidth]{Images/MCVgameg.png}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png}
 \end{column}
 \end{columns}
+\begin{table}[h]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{c|c|c}
+\hline
+Channel:     & Converted& Unconverted  \\  \hline 
+Electron Channel  & $1.28\pm 0.34$     &   $1.99 \pm 0.52$	\\ 
+Muon Channel        & $1.23 \pm 0.50$   &   $2.27 \pm 0.92$\\ \hline %Change Put in post fit values
+\end{tabular}
+}
+\end{center}
+\end{table}
 }
 
-
-\frame{\frametitle{Scale Factor}
-\[ \text{FR}^{\text{e-fake}}=\frac{N_{e,\gamma}}{N_{e,e}+N_{e,\gamma}}\]
-
-\[  \text{SF}^{\text{e-fake}}_{\text{FR}} = \frac{\text{FR}^{\text{e-fake}}_{\text{data}}}{\text{FR}^{\text{e-fake}}_{\text{MC}}}\]
-Basic Scale Factor can be calculated for the entire spectrum:
-$\text{FR}^{\text{e-fake}}_{\text{data}} = 0.201$\\
-$\text{FR}^{\text{e-fake}}_{\text{MC}} = 0.212$\\
-$\text{SF}^{\text{e-fake}}_{\text{FR}} =0.953$
-}
-
-\frame{\frametitle{Scale Factors As Functions of Probe pt and eta}
-\begin{columns}
-\begin{column}{0.48\textwidth}
-Probe $p_T$
-\includegraphics[width=\textwidth]{Images/pt1DSF.png}
-\end{column}
-\begin{column}{0.48\textwidth}
-Probe $\eta$
-\includegraphics[width=\textwidth]{Images/eta1DSF.png}
-\end{column}
-\end{columns}
-Good to check but in practice these are done using 2D Scale Factors
-}
-
-\subsection{2D Fake Rate Scale Factor}
-
-\frame{\frametitle{Data and MC Distributions}
-\begin{columns}
-\begin{column}{0.02\textwidth}
-\rotatebox{90}{ee region \qquad \qquad e$\gamma$ region\qquad} 
-%\rotatebox{90}{Muon Channel        } 
-\end{column}
-\begin{column}{0.48\textwidth}
+\subsection{Neural Network Optimization}
+\frame{\frametitle{Neural Networks}
 \begin{itemize}
-\item Data
+\item Advanced pattern recognition used to classify events
+\item A dense neural network is used with various low and high level variable inputs
+\item Supervised learning used to approximate any multidimensional function
 \end{itemize}
-\includegraphics[width=.85\textwidth]{Images/dataPhotonElectronPT.png} \\
-\includegraphics[width=.85\textwidth]{Images/dataElectronElectronPT.png}
-\end{column}
-\begin{column}{0.48\textwidth}
-\begin{itemize}
-\item Monte Carlo
-\end{itemize}
-\includegraphics[width=.85\textwidth]{Images/mcPhotonElectronPT.png} \\
-\includegraphics[width=.85\textwidth]{Images/mcElectronElectronPT.png}
-\end{column}
-\end{columns}
-}
-
-\frame{\frametitle{Next Steps - 2D Fake Rate}
 \centering
-\includegraphics[width=\textwidth]{Images/2DSF.png}
+\includegraphics[width=0.7\textwidth]{Images/neural_net2.jpeg}
+\captionof{figure}{\href{http://cs231n.github.io/neural-networks-1/}{[Ref: Neural Network]}}
+}
+\frame{\frametitle{Neural Network Optimizers}
+\begin{itemize}
+\item Various optimization functions can be used, I make use of Adam (Adaptive Moment Estimation)
+\begin{itemize}
+\item Adam computes adaptive learning rates for every parameter and stores a history of the parameters used to calculate the next step
+\item Stores first (mean) and second (uncentered variance) moments of the gradients used during training
+\item Converges very fast and is less computationally intensive
+\end{itemize}
+\end{itemize}
+\centering
+\includegraphics[width=0.35\textwidth]{Images/AdamComparison.png}
+\captionof{figure}{\href{https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/}{[Ref:Machine Learning Mastry]}}
 }
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Outlook and Conclusions}
-
-\frame{\frametitle{Outlook}
+\frame{\frametitle{Neural Network Model Inputs}
 \begin{itemize}
-\item As always, still lots to be done
-\item Fake Rate: $e\rightarrow\gamma$ has been investigated, further systematic investigations will continue
-\item Fake Rate: $j\rightarrow \gamma$ to be investigated soon
-\item Was able to squeak an extra factor of 2 out of Neural Network since I had to redo it for working points anyway
-\item Questions?
+\item Using keras on top of tensorflow various network architectures were tested
+\item Networks are set up with 1 input layer, 2 hidden layers of 10 nodes, and 1 output node
+\item Each hidden layer has 20\% dropout to prevent overtraining by removing codependency between nodes
+\item Batch size of 100 used and each network is allowed 200 epochs (with patience=50), all models converge and end early with reasonable batch sizes
+\item Optimizer: Adam
+\item Loss Function: Binary Cross Entropy
 \end{itemize}
+}
+
+\frame{\frametitle{Neural Network Example Outputs}
+e+jets Channel Example
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png} \\
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/ejetsboth2hidnpart0loss.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/ejetsboth2hidnpart0sigbkg.png} \\
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/significanceejetsboth2hidnpart02.png}
+\end{column}
+
+\end{columns}
+}
+
+\frame{\frametitle{Analysis}
+}
+\frame{\frametitle{Signal Region Plots}
+}
+\frame{\frametitle{Systematic Uncertainties - Nuisance Parameters}
+}
+\frame{\frametitle{$\text{CL}_{s}$ Method - Limit Setting}
+}
+\frame{\frametitle{Result - Limit on BR($t\rightarrow q\gamma$)}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.5\columnwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/LimitPlot.png}
+\end{figure}
+\begin{table}[h!]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ccc}
+Channel  	&  Obs. Limit		& Exp. Limit	  \\  \hline 
+e+jets	& $1.19\times10^{-4}$ 	& $1.31(^{+0.47}_{-0.36})\times10^{-4}$ 	\\ 
+$\mu$+jets	& $1.53\times10^{-4}$ 	& $1.42(^{+0.51}_{-0.39})\times10^{-4}$ 	\\ 
+Combined	& $0.96\times10^{-4}$ 	& $1.10(^{+0.43}_{-0.30})\times10^{-4}$ 	\\
+\end{tabular}
+}
+\end{center}
+\end{table}
+}
+
+\section{Conclusion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frame{\frametitle{Conclusions}
+\begin{itemize}
+\item Limits have been set on the process $t\rightarrow q \gamma$
+\item Neural network implementation improved result by up to 30\% compared to stats only improvement
+\end{itemize}
+}
+
+\frame{\frametitle{Thank You}
+\begin{centering}
+Special thank you to my committee: \\
+David Strom (Chair) \\
+Spencer Chang \\
+Dev Sinha \\
+My Advisor: Jim Brau \\
+\end{centering}
+}
+\frame{\frametitle{Questions?}
 }
 
 
@@ -359,10 +622,7 @@ Good to check but in practice these are done using 2D Scale Factors
 \includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/penguinFCNC.png}
 }
 
-\frame{\frametitle{NN Input Variable Correlations}
-\centering
-\includegraphics[height=.8\textheight]{Images/correlations.png}
-}
+
 
 \frame{\frametitle{Neural Network Model Inputs}
 \centering
@@ -437,10 +697,7 @@ met & 0.47 \\
 
 }
 
-\frame{\frametitle{Integrated Luminosity}
-\centering
-\includegraphics[width=1.\textwidth]{../../Thesis/ThesisImages/2017PeakLumiByFill.pdf}
-}
+
 \frame{\frametitle{A Couple BSM Diagrams}
 \centering
 \includegraphics[width=1.\textwidth]{../../Thesis/ThesisImages/BSMDiagrams.png}
@@ -460,6 +717,96 @@ met & 0.47 \\
 \item If $d_{iB}$ is the minimum i is labelled as a final jet and removed from the list of particles
 \item Repeat until all particles are part of a jet with distance between jet axes $\Delta_{ij}$ is greater than R
 \end{itemize}
+}
+\frame{\frametitle{B-tagging}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item B Hadrons travel a measureable distance before decay
+\item Tracks originate from outside of interaction point (Seconday Vertex)
+\item Backtracking tracks in displaced vertex gives an impact parameter
+\item Decay chain MVA attempts to reconstruct decay of the jet
+\item Outputs of these algorithms used in a BDT to determine if a Jet is from a b-quark
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\centering
+\includegraphics[height=.65\textheight]{../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png}
+\end{column}
+\end{columns}
+}
+
+
+\frame{\frametitle{Jet Algorithms}
+\centering
+\includegraphics[width=.7\textwidth]{../../Thesis/ThesisImages/Simulation/VarJetAlgs.png}
+\begin{itemize}
+\item IR Safety: Adding soft emission particle does not change final jet configuration
+\item Collinear Safety: Splitting a jet into 2 collinear jets yields the same result, jet size does not matter
+\end{itemize}
+}
+\frame{\frametitle{Jet Algorithms}
+\centering
+\includegraphics[width=.7\textwidth]{../../Thesis/ThesisImages/IRCollinearSafety.png} \\
+Courtesy - John Myers
+}
+
+\frame{\frametitle{What's in the data?}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\centering 
+\includegraphics[width=1.\textwidth]{../../Thesis/ThesisImages/HardScatCrosSecs.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item The number of events we see is $N=\sigma L$
+\item $\sigma_{t\bar{t}}=$ 831.76pb
+\item $N_{t\bar{t}} \approx 116x10^6$
+\item $N_{tot} \approx 14x10^{15}$ events produced during the 13TeV data runs
+\end{itemize}
+\end{column}
+\end{columns}
+}
+
+\frame{egamma fake rate Data and MC \frametitle{$m_{ee}, m_{e\gamma}$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{$m_{e\gamma}$ \qquad \qquad \qquad $m_{ee}$\qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Data
+\end{itemize}
+\includegraphics[width=.85\textwidth]{Images/Dataee.png} \\
+\includegraphics[width=.85\textwidth]{Images/Dataeg.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+\item Monte Carlo
+\end{itemize}
+\includegraphics[width=.85\textwidth]{Images/MCVgamee.png} \\
+\includegraphics[width=.85\textwidth]{Images/MCVgameg.png}
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{Neural Network Example Outputs}
+mu+jets Channel Example
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png} \\
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/mujetsboth2hidnpart0loss.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/mujetsboth2hidnpart0sigbkg.png} \\
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/significancemujetsboth2hidnpart02.png}
+\end{column}
+
+\end{columns}
+}
+\frame{\frametitle{Duplicate Event Removal}
 }
 
 %\frame{\frametitle{B-tagging}
