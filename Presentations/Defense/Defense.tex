@@ -297,6 +297,26 @@ u\bar{u} + c\bar{c} + (d\bar{d}+s\bar{s}) \cos^2\theta_C + (s\bar{s} + d\bar{d})
 \end{columns}
 }
 
+%\frame{\frametitle{Events in ATLAS}
+%\begin{columns}
+%\begin{column}{0.5\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{../../Thesis/ThesisImages/LHCImages/2012_highPileup.png}
+%\end{column}
+%\begin{column}{0.5\textwidth}
+%\begin{itemize}
+%\item LHC provides around 600 million interactions/second
+%\item Save compelling events $\rightarrow$ 10s of PB/year
+%\item Extremely large, messy data sets
+%\item Detector well modeled with \textsc{Geant4} 
+%\item Monte Carlo techniques used for background event generation
+%\end{itemize}
+%\end{column}
+%\end{columns}
+%}
+
+
+
 \frame{\frametitle{ATLAS Data Acquisition}
 \begin{columns}
 \begin{column}{0.6\textwidth}
@@ -314,8 +334,8 @@ u\bar{u} + c\bar{c} + (d\bar{d}+s\bar{s}) \cos^2\theta_C + (s\bar{s} + d\bar{d})
 \end{column}
 \begin{column}{0.5\textwidth}
 \centering 
-\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png}
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/LHCImages/ATLASTDAQR2.png}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/LHCImages/meanIntperCrossing.png}
+\includegraphics[width=.9\textwidth]{../../Thesis/ThesisImages/LHCImages/ATLASTDAQR2.png}
 \end{column}
 \end{columns}
 }
@@ -328,15 +348,15 @@ u\bar{u} + c\bar{c} + (d\bar{d}+s\bar{s}) \cos^2\theta_C + (s\bar{s} + d\bar{d})
 
 \subsection{Region Creation}
 
-\frame{\frametitle{Object Preselection}
+\frame{\frametitle{Signal Region Preselection}
 \begin{itemize}
-\item We preselect events with objects that look like similar to our expected topology
+\item Preselect events with objects that look like similar to our expected topology
 \item Require:
 	\begin{itemize}
 	\item Exactly one lepton (e or $\mu$) $\geq$ 25 GeV
-	\item Exactly one good photon $\geq$ 15GeV
-	\item Missing Transverse Energy $\geq$ 30GeV
-	\item $\geq 1$ Jets
+	\item Exactly one good photon $\geq$ 50GeV
+	\item Missing transverse energy $\geq$ 30GeV
+	\item $\geq 2$ jets (at least 1 b-tag)
 	\end{itemize}
 \end{itemize}
 \centering
@@ -349,18 +369,183 @@ u\bar{u} + c\bar{c} + (d\bar{d}+s\bar{s}) \cos^2\theta_C + (s\bar{s} + d\bar{d})
 \item Major backgrounds include $t\bar{t}$, W+Jets, Z+Jets, + processes with an associated photon
 \end{itemize}
 \centering
-\includegraphics[width=0.7\textwidth]{../../Thesis/ThesisImages/backgrounds.png}
+\includegraphics[width=0.6\textwidth]{../../Thesis/ThesisImages/backgrounds.png}
+}
+
+
+\frame{\frametitle{Preselection Objects}
+
+\begin{columns}
+\begin{column}{0.02\textwidth}
+
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  Leading Jet $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_jet0_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_jet0_pt.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Photon $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lepton $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_lep_pt.png}\\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_lep_pt.png}
+\end{column}
+\end{columns}
+
+}
+
+\frame{\frametitle{Top Quarks}
+Tops must be reconstructed from these basic physics objects along with b-jets and $E_{T}^\text{miss}$
+\begin{itemize}
+\item Neutrino z-axis direction is ambiguous, determined by minimization of: $\chi^2 = \frac{(m_{b,l,\nu}-m_t)^2}{\sigma^2_{SMtop}}+\frac{(m_{l,\nu}-m_W)^2}{\sigma^2_W} $
+\end{itemize}
+\begin{columns}
+%\begin{column}{0.33\textwidth}
+%\centering
+%\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_met.png}\\
+%\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_met.png}
+%\end{column} 
+\begin{column}{0.55\textwidth}
+SM Top: $m_{Wb}$\\
+\centering
+\includegraphics[width=.45\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_SMtop.png}
+\includegraphics[width=.45\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_SMtop.png}
+\end{column}
+\begin{column}{0.55\textwidth}
+FCNC Top: $m_{q\gamma}$\\
+\centering
+\includegraphics[width=.45\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_mqph.png}
+\includegraphics[width=.45\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_mqph.png}
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{Additional Processes}
+\begin{itemize}
+\item QCD Backgrounds are difficult to model at the energies and interaction rates of the LHC
+\begin{itemize}
+\item Develop 0 photon regions for scale factors for major backgrounds ($t\bar{t}$ and W+jets)
+\end{itemize}
+\item Photon misidentification i.e., particles being reconstructed as particles ($e\rightarrow \gamma$, $j\rightarrow \gamma$)
+\begin{itemize}
+\item $e\rightarrow \gamma$: $Z\rightarrow ee$ tag and probe method used for SF calculation
+\item $j\rightarrow \gamma$: ABCD method used for SF calculation
+\end{itemize}
+\end{itemize}
 }
 
 
 \frame{\frametitle{0 Photon Backgrounds}
+
+Select events with objects that look like similar to our expected topology for major backgrounds ($t\bar{t}$, W+jets)
+Require:
+\begin{itemize}
+	\item Common Object Selection (MET,Triggers, etc.)
+	\item Exactly one lepton (e or $\mu$) $\geq$ 25 GeV
+	\item Number of Jets to define Regions:
+	\begin{itemize}
+	\item W+jets enriched region: $n_\text{jets}=3$
+	\item Validation Region: $n_\text{jets}= 4$ 
+	\item $t\bar{t}$+jets enriched region: $n_\text{jets}\geq 5$
+	\end{itemize}
+	\item Exactly 1 b-tagged jet
+	\item $\geq 2$ jets (at least 1 b-tag)
+\end{itemize}
+Calculate scale factors simultaneously:
+\[ 
+\begin{bmatrix}  
+N(W)_{3j} & N(t\bar{t})_{3j} \\ N(W)_{5+j} & N(t\bar{t})_{5+j} \end{bmatrix} \begin{bmatrix} W_{SF} \\ t\bar{t}_{SF} \end{bmatrix} =
+ \begin{bmatrix} N(\text{data-bkg})_{3j} \\N(\text{data-bkg})_{5j} \end{bmatrix}
+\]
+\begin{table}[h]
+\begin{center}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ccc}
+\hline
+Sample     &  e+jets SF   & $\mu$+jets SF  \\  \hline 
+W+jets    &  1.22   &  1.25	\\
+$t\bar{t}$  &  1.06    &  1.01	\\ \hline
+\end{tabular}
+}
+\end{center}
+\end{table}
+}
+\frame{\frametitle{0 Photon Scale Factors, $m_{Wb}$ distributions before SF}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  W+jets Enriched
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR1_SMtop.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/CR1_SMtop.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item $t\bar{t}$ Enriched
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR2_SMtop.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/CR2_SMtop.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Validation Region
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png}
+\end{column}
+\end{columns}
 }
 
-\frame{\frametitle{Real Photon Backgrounds}
+
+\frame{\frametitle{0 Photon Regions: VR before/after SF, electron channel}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{After SF \qquad  Before SF} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  $n_\text{bjets}$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_nbjet.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_nbjet.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lead Jet $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_jet0_pt.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item $m_{Wb}$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_SMtop.png} 
+\end{column}
+\end{columns}
 }
+
+
 \subsection{Fake Rates}
-
-\frame{\frametitle{Fake Rate Object Selection}
+\frame{\frametitle{$e\rightarrow \gamma$ Fake Rate Object Selection}
 \begin{itemize}
 \item Want to calculate fake rate in events which could enter the signal region.
 \item Create 2 control regions: $Z\rightarrow ee$ and $Z\rightarrow e \gamma$
@@ -377,7 +562,7 @@ u\bar{u} + c\bar{c} + (d\bar{d}+s\bar{s}) \cos^2\theta_C + (s\bar{s} + d\bar{d})
 \end{itemize}
 }
 
-\frame{\frametitle{Scale Factor}
+\frame{\frametitle{$e\rightarrow \gamma$ Scale Factor}
 \[ \text{FR}^{\text{e-fake}}=\frac{N_{e,\gamma}}{N_{e,e}}\]
 
 \[  \text{SF}^{\text{e-fake}}_{\text{FR}} = \frac{\text{FR}^{\text{e-fake}}_{\text{data}}}{\text{FR}^{\text{e-fake}}_{\text{MC}}}\]
@@ -388,62 +573,34 @@ This scale factor is calculated for converted and unconverted photons as well as
 \end{itemize}
 }
 
-\frame{\frametitle{Data and MC Distributions}
+\frame{\frametitle{$e\rightarrow \gamma$ 2D Fake Rates}
 \begin{columns}
-\begin{column}{0.02\textwidth}
-\rotatebox{90}{MC \qquad \qquad Data\qquad} 
-%\rotatebox{90}{Muon Channel        } 
-\end{column}
-\begin{column}{0.32\textwidth}
-\begin{itemize}
-\item Probe $e$
-\end{itemize}
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png} \\
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png} \\
-\end{column}
-\begin{column}{0.32\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{itemize}
 \item Converted $\gamma$
 \end{itemize}
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png} \\
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/2DConverted.png}
+%\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DConverted.png}
 \end{column}
-\begin{column}{0.32\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{itemize}
 \item Unconverted $\gamma$
 \end{itemize}
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png} \\
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png}
-\end{column}
-\end{columns}
-}
-
-\frame{\frametitle{2D Fake Rates}
-\begin{columns}
-\begin{column}{0.48\textwidth}
-\begin{itemize}
-\item Converted $\gamma$
-\end{itemize}
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DConverted.png}
-\end{column}
-\begin{column}{0.48\textwidth}
-\begin{itemize}
-\item Unconverted $\gamma$
-\end{itemize}
-\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/2DUnconverted.png}
+%\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png}
 \end{column}
 \end{columns} 
 }
 
 
-\frame{\frametitle{$j\rightarrow \gamma$ Fake Rate Studies}
+\frame{\frametitle{$j\rightarrow \gamma$ Fake Rates}
 Majority of hadronic fake photons are from $t\bar{t}$ events where a final state jet radiates a non-prompt photon.  Similarly  radiated photons for W+jets and single top processes can enter the signal region through the radiation of a non-prompt photon. \\
 \begin{centering}
 \includegraphics[width=.5\textwidth]{../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png}\\
 \end{centering}
 }
 
-\frame{\frametitle{ABCD Method}
+\frame{\frametitle{$j\rightarrow \gamma$ ABCD Method}
 \begin{columns}
 \begin{column}{0.48\textwidth}
 \[\frac{N_D^{\text{h-fake}}}{N_C^{\text{h-fake}}}=\frac{N_A^{\text{h-fake}}}{N_B^{\text{h-fake}}}
@@ -465,9 +622,9 @@ Want uncorrelated variables, use a correction factor to account to ensure closur
 \end{columns}
 }
 
+
 %
 \frame{\frametitle{}
-
 \begin{columns}
 \begin{column}{0.02\textwidth}
 \rotatebox{90}{$\mu$ channel  \qquad \qquad $e$ channel \qquad} 
@@ -506,6 +663,41 @@ Muon Channel        & $1.23 \pm 0.50$   &   $2.27 \pm 0.92$\\ \hline %Change Put
 \end{table}
 }
 
+
+
+\frame{\frametitle{Post SF Preselection Objects}
+
+\begin{columns}
+\begin{column}{0.02\textwidth}
+
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  Leading Jet $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots/PreSel_jet0_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plots/PreSel_jet0_pt.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Photon $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots/PreSel_ph_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plots/PreSel_ph_pt.png}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lepton $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots/PreSel_lep_pt.png}\\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plots/PreSel_lep_pt.png}
+\end{column}
+\end{columns}
+
+}
+
 \subsection{Neural Network Optimization}
 \frame{\frametitle{Neural Networks}
 \begin{itemize}
@@ -516,19 +708,6 @@ Muon Channel        & $1.23 \pm 0.50$   &   $2.27 \pm 0.92$\\ \hline %Change Put
 \centering
 \includegraphics[width=0.7\textwidth]{Images/neural_net2.jpeg}
 \captionof{figure}{\href{http://cs231n.github.io/neural-networks-1/}{[Ref: Neural Network]}}
-}
-\frame{\frametitle{Neural Network Optimizers}
-\begin{itemize}
-\item Various optimization functions can be used, I make use of Adam (Adaptive Moment Estimation)
-\begin{itemize}
-\item Adam computes adaptive learning rates for every parameter and stores a history of the parameters used to calculate the next step
-\item Stores first (mean) and second (uncentered variance) moments of the gradients used during training
-\item Converges very fast and is less computationally intensive
-\end{itemize}
-\end{itemize}
-\centering
-\includegraphics[width=0.35\textwidth]{Images/AdamComparison.png}
-\captionof{figure}{\href{https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/}{[Ref:Machine Learning Mastry]}}
 }
 
 \frame{\frametitle{Neural Network Model Inputs}
@@ -558,12 +737,119 @@ e+jets Channel Example
 \end{columns}
 }
 
+%%%%%%%%%%%FIX FIX fix Fix Fix fix
+\frame{\frametitle{}
+Explain about VRs, closer to SR than preselec
+Maybe show NN output in VR2\\
+\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots/PreSel_NNejet.png}
+\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plots/PreSel_NNmujet.png}
+}
+
+\subsection{Validation Region and Signal Region Fits}
+
+
+\frame{\frametitle{Validation Regions: $W+\text{jets}+\gamma$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  $\gamma p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_ph_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_ph_pt.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lead Jet $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item $m_{Wb}$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png} 
+\end{column}
+\end{columns}
+}
+
+\frame{\frametitle{Validation Regions: $t\bar{t}+\text{jets}+\gamma$}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon Channel \qquad  Electron Channel} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  $\gamma p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_ph_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_ph_pt.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lead Jet $p_T$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item $m_{Wb}$
+\end{itemize}
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png} 
+\end{column}
+\end{columns}
+}
+
+
 \frame{\frametitle{Analysis}
 }
-\frame{\frametitle{Signal Region Plots}
+\frame{\frametitle{Pre-fit Signal Region Plots}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon channel  \qquad \qquad Electron channel \qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.48\textwidth}
+$m_{q\gamma}$\\
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_mqph.png} \\
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_mqph.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+$\gamma p_T$ \\
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_ph_pt.png} \\
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_ph_pt.png}
+\end{column}
+\end{columns}
 }
 \frame{\frametitle{Systematic Uncertainties - Nuisance Parameters}
 }
+\frame{\frametitle{Post-fit Signal Region Plots}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{Muon channel  \qquad \qquad Electron channel \qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.48\textwidth}
+$m_{q\gamma}$\\
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_mqph_postFit.png} \\
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_mqph_postFit.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+$\gamma p_T$ \\
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_ph_pt_postFit.png} \\
+\includegraphics[width=.6\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_ph_pt_postFit.png}
+\end{column}
+\end{columns}
+}
+
 \frame{\frametitle{$\text{CL}_{s}$ Method - Limit Setting}
 }
 \frame{\frametitle{Result - Limit on BR($t\rightarrow q\gamma$)}
@@ -606,10 +892,19 @@ My Advisor: Jim Brau \\
 \end{centering}
 }
 \frame{\frametitle{Questions?}
+\centering
+\includegraphics[width=.7\textwidth]{../../Thesis/ThesisImages/JasonAtATLAS.jpg}
 }
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \appendix
@@ -790,7 +1085,49 @@ Courtesy - John Myers
 \end{column}
 \end{columns}
 }
+\frame{\frametitle{$e\rightarrow \gamma$ Data and MC Distributions}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{MC \qquad \qquad Data\qquad} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item Probe $e$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png} \\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png} \\
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item Converted $\gamma$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png} \\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png}
+\end{column}
+\begin{column}{0.32\textwidth}
+\begin{itemize}
+\item Unconverted $\gamma$
+\end{itemize}
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png} \\
+\includegraphics[width=.95\textwidth]{../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png}
+\end{column}
+\end{columns}
+}
 
+\frame{\frametitle{Neural Network Optimizers}
+\begin{itemize}
+\item Various optimization functions can be used, I make use of Adam (Adaptive Moment Estimation)
+\begin{itemize}
+\item Adam computes adaptive learning rates for every parameter and stores a history of the parameters used to calculate the next step
+\item Stores first (mean) and second (uncentered variance) moments of the gradients used during training
+\item Converges very fast and is less computationally intensive
+\end{itemize}
+\end{itemize}
+\centering
+\includegraphics[width=0.35\textwidth]{Images/AdamComparison.png}
+\captionof{figure}{\href{https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/}{[Ref:Machine Learning Mastry]}}
+}
 \frame{\frametitle{Neural Network Example Outputs}
 mu+jets Channel Example
 \begin{columns}
@@ -818,6 +1155,37 @@ mu+jets Channel Example
 \[ \mathcal{L}^{eff}_{tq\gamma} = - e \bar{c} \frac{i \sigma^{\mu\nu}q_{\nu}}{m_t}(\lambda^{L}_{ct}P_L + \lambda^{R}_{ct}P_{R}) t A_{\mu} +H.c.
 \]
 }
+
+\frame{\frametitle{0 Photon Regions: VR before/after SF, muon channel}
+\begin{columns}
+\begin{column}{0.02\textwidth}
+\rotatebox{90}{After SF \qquad  Before SF} 
+%\rotatebox{90}{Muon Channel        } 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item  $n_\text{bjets}$
+\end{itemize}
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_nbjet.png} \\
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item Lead Jet $p_T$
+\end{itemize}
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png} \\
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png} 
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{itemize}
+\item $m_{Wb}$
+\end{itemize}
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png} \\
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png} 
+\end{column}
+\end{columns}
+}
+
 
 \end{document}
 

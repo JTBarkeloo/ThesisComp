@@ -9,7 +9,8 @@
 \beamer@sectionintoc {3}{Searching for Flavor Changing Neutral Current Signatures}{23}{0}{3}
 \beamer@subsectionintoc {3}{1}{Object Selection}{23}{0}{3}
 \beamer@subsectionintoc {3}{2}{Region Creation}{23}{0}{3}
-\beamer@subsectionintoc {3}{3}{Fake Rates}{27}{0}{3}
-\beamer@subsectionintoc {3}{4}{Neural Network Optimization}{34}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{43}{0}{4}
-\beamer@sectionintoc {5}{Backup}{46}{1}{5}
+\beamer@subsectionintoc {3}{3}{Fake Rates}{31}{0}{3}
+\beamer@subsectionintoc {3}{4}{Neural Network Optimization}{38}{0}{3}
+\beamer@subsectionintoc {3}{5}{Validation Region and Signal Region Fits}{42}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{50}{0}{4}
+\beamer@sectionintoc {5}{Backup}{53}{1}{5}
