@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  8 APR 2020 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.6)  10 APR 2020 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1482,12 +1482,12 @@ Package pdftex.def Info: ../../Thesis/ThesisImages/fcncttbar.png  used on input
 File: ../../Thesis/ThesisImages/backgrounds.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/backgrounds.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/backgrounds.png  used on inp
-ut line 373.
+ut line 375.
 (pdftex.def)             Requested size: 184.3758pt x 108.36589pt.
  [24
 
  <../../Thesis/ThesisImages/backgrounds.png>]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 407--407
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 409--409
 [][]  
  []
 
@@ -1498,7 +1498,7 @@ _ejets/Plots/PreSel_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 ejets/Plots/PreSel_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_ejets/Plots/PreSel_jet0_pt.png  used on input line 407.
+eSelection/FCNC_All_ejets/Plots/PreSel_jet0_pt.png  used on input line 409.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_muje
 ts/Plots/PreSel_jet0_pt.png, id=479, 598.235pt x 674.52pt>
@@ -1507,7 +1507,7 @@ _mujets/Plots/PreSel_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 mujets/Plots/PreSel_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_mujets/Plots/PreSel_jet0_pt.png  used on input line 407.
+eSelection/FCNC_All_mujets/Plots/PreSel_jet0_pt.png  used on input line 409.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejet
 s/Plots/PreSel_ph_pt.png, id=480, 598.235pt x 674.52pt>
@@ -1516,7 +1516,7 @@ _ejets/Plots/PreSel_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 ejets/Plots/PreSel_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png  used on input line 407.
+eSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png  used on input line 409.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_muje
 ts/Plots/PreSel_ph_pt.png, id=481, 598.235pt x 674.52pt>
@@ -1525,7 +1525,7 @@ _mujets/Plots/PreSel_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 mujets/Plots/PreSel_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png  used on input line 407.
+eSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png  used on input line 409.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejet
 s/Plots/PreSel_lep_pt.png, id=482, 598.235pt x 674.52pt>
@@ -1534,7 +1534,7 @@ _ejets/Plots/PreSel_lep_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 ejets/Plots/PreSel_lep_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_ejets/Plots/PreSel_lep_pt.png  used on input line 407.
+eSelection/FCNC_All_ejets/Plots/PreSel_lep_pt.png  used on input line 409.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_muje
 ts/Plots/PreSel_lep_pt.png, id=483, 598.235pt x 674.52pt>
@@ -1543,7 +1543,7 @@ _mujets/Plots/PreSel_lep_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 mujets/Plots/PreSel_lep_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_mujets/Plots/PreSel_lep_pt.png  used on input line 407.
+eSelection/FCNC_All_mujets/Plots/PreSel_lep_pt.png  used on input line 409.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 [25
 
@@ -1563,7 +1563,7 @@ _ejets/Plots/PreSel_SMtop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 ejets/Plots/PreSel_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_ejets/Plots/PreSel_SMtop.png  used on input line 433.
+eSelection/FCNC_All_ejets/Plots/PreSel_SMtop.png  used on input line 435.
 (pdftex.def)             Requested size: 76.05414pt x 85.74542pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_muje
 ts/Plots/PreSel_SMtop.png, id=500, 598.235pt x 674.52pt>
@@ -1572,7 +1572,7 @@ _mujets/Plots/PreSel_SMtop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 mujets/Plots/PreSel_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_mujets/Plots/PreSel_SMtop.png  used on input line 433.
+eSelection/FCNC_All_mujets/Plots/PreSel_SMtop.png  used on input line 435.
 (pdftex.def)             Requested size: 76.05414pt x 85.74542pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejet
 s/Plots/PreSel_mqph.png, id=501, 598.235pt x 674.52pt>
@@ -1581,7 +1581,7 @@ _ejets/Plots/PreSel_mqph.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 ejets/Plots/PreSel_mqph.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_ejets/Plots/PreSel_mqph.png  used on input line 433.
+eSelection/FCNC_All_ejets/Plots/PreSel_mqph.png  used on input line 435.
 (pdftex.def)             Requested size: 76.05414pt x 85.74542pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_muje
 ts/Plots/PreSel_mqph.png, id=502, 598.235pt x 674.52pt>
@@ -1590,7 +1590,7 @@ _mujets/Plots/PreSel_mqph.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_
 mujets/Plots/PreSel_mqph.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Pr
-eSelection/FCNC_All_mujets/Plots/PreSel_mqph.png  used on input line 433.
+eSelection/FCNC_All_mujets/Plots/PreSel_mqph.png  used on input line 435.
 (pdftex.def)             Requested size: 76.05414pt x 85.74542pt.
  [26
 
@@ -1602,13 +1602,13 @@ s/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_mqph.png>
 ts/Plots/PreSel_mqph.png>] [27
 
 ]
-Overfull \vbox (12.02812pt too high) detected at line 484
+Overfull \vbox (12.02812pt too high) detected at line 486
  []
 
 [28
 
 ]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 513--513
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 515--515
 [][]  
  []
 
@@ -1620,7 +1620,7 @@ edNormFactor/FCNC_All_ejets/Plots/CR1_SMtop.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/CR1_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR1_SMtop.png  used on inp
-ut line 513.
+ut line 515.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/FCNC_All_mujets/Plots/CR1_SMtop.png, id=546, 598.235pt x 674.52pt>
@@ -1630,7 +1630,7 @@ edNormFactor/FCNC_All_mujets/Plots/CR1_SMtop.png Graphic file (type png)
 dNormFactor/FCNC_All_mujets/Plots/CR1_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/CR1_SMtop.png  used on in
-put line 513.
+put line 515.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/FCNC_All_ejets/Plots/CR2_SMtop.png, id=547, 598.235pt x 674.52pt>
@@ -1640,7 +1640,7 @@ edNormFactor/FCNC_All_ejets/Plots/CR2_SMtop.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/CR2_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR2_SMtop.png  used on inp
-ut line 513.
+ut line 515.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/FCNC_All_mujets/Plots/CR2_SMtop.png, id=548, 598.235pt x 674.52pt>
@@ -1650,7 +1650,7 @@ edNormFactor/FCNC_All_mujets/Plots/CR2_SMtop.png Graphic file (type png)
 dNormFactor/FCNC_All_mujets/Plots/CR2_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/CR2_SMtop.png  used on in
-put line 513.
+put line 515.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/FCNC_All_ejets/Plots/VR3_SMtop.png, id=549, 598.235pt x 674.52pt>
@@ -1660,7 +1660,7 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png  used on inp
-ut line 513.
+ut line 515.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/FCNC_All_mujets/Plots/VR3_SMtop.png, id=550, 598.235pt x 674.52pt>
@@ -1670,7 +1670,7 @@ edNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png Graphic file (type png)
 dNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png  used on in
-put line 513.
+put line 515.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 [29
 
@@ -1684,7 +1684,7 @@ Plots/CR2_SMtop.png> <../../Thesis/ThesisImages/RegionPlots/AfterScaling/Contro
 lRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png> <../../Thesis/
 ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_A
 ll_mujets/Plots/VR3_SMtop.png>]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 544--544
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 546--546
 [][]  
  []
 
@@ -1696,7 +1696,7 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_nbjet.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_nbjet.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_nbjet.png  used on inp
-ut line 544.
+ut line 546.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/WithSF/FCNC_All_ejets/Plots/VR3_nbjet.png, id=567, 598.235pt x 674.52pt
@@ -1707,7 +1707,7 @@ edNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_nbjet.png Graphic file (type png)
 dNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_nbjet.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_nbjet.png  used
- on input line 544.
+ on input line 546.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/FCNC_All_ejets/Plots/VR3_jet0_pt.png, id=568, 598.235pt x 674.52pt>
@@ -1717,7 +1717,7 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_jet0_pt.png  used on i
-nput line 544.
+nput line 546.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/WithSF/FCNC_All_ejets/Plots/VR3_jet0_pt.png, id=569, 598.235pt x 674.52
@@ -1729,7 +1729,7 @@ edNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_jet0_pt.png Graphic file (type png
 dNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_jet0_pt.png  us
-ed on input line 544.
+ed on input line 546.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png Graphic file (type png)
@@ -1737,7 +1737,7 @@ edNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png Graphic file (type png)
 dNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_SMtop.png  used on inp
-ut line 544.
+ut line 546.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
 mFactor/WithSF/FCNC_All_ejets/Plots/VR3_SMtop.png, id=570, 598.235pt x 674.52pt
@@ -1748,7 +1748,7 @@ edNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_SMtop.png Graphic file (type png)
 dNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_SMtop.png  used
- on input line 544.
+ on input line 546.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 [30
 
@@ -1769,14 +1769,14 @@ top.png>] [31
 File: ../../Thesis/ThesisImages/2DConverted.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/2DConverted.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/2DConverted.png  used on inp
-ut line 593.
+ut line 595.
 (pdftex.def)             Requested size: 160.55933pt x 108.79721pt.
 <../../Thesis/ThesisImages/2DUnconverted.png, id=615, 700.6175pt x 474.77374pt>
 
 File: ../../Thesis/ThesisImages/2DUnconverted.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/2DUnconverted.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/2DUnconverted.png  used on i
-nput line 593.
+nput line 595.
 (pdftex.def)             Requested size: 160.55933pt x 108.79721pt.
  [33
 
@@ -1788,12 +1788,12 @@ File: ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png Graphic file (t
 ype png)
 <use ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.
-png  used on input line 601.
+png  used on input line 603.
 (pdftex.def)             Requested size: 153.64493pt x 129.6834pt.
  [34
 
  <../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png>]
-Overfull \hbox (19.73634pt too wide) detected at line 623
+Overfull \hbox (19.73634pt too wide) detected at line 625
 [] \OT1/cmss/m/n/10 = [][][] = []
  []
 
@@ -1801,12 +1801,12 @@ File: ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png Graphic file (t
 ype png)
 <use ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCDpictoral.
-png  used on input line 623.
+png  used on input line 625.
 (pdftex.def)             Requested size: 140.12247pt x 118.26993pt.
 [35
 
 ]
-Overfull \hbox (2.74178pt too wide) in paragraph at lines 664--664
+Overfull \hbox (2.74178pt too wide) in paragraph at lines 666--666
 [][]  
  []
 
@@ -1816,7 +1816,7 @@ File: ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsConverted.png Graphic
 file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsConverted.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsCon
-verted.png  used on input line 664.
+verted.png  used on input line 666.
 (pdftex.def)             Requested size: 117.9987pt x 80.12608pt.
 <../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png, id=661, 525
 .46312pt x 356.83313pt>
@@ -1824,7 +1824,7 @@ File: ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png Graphic
  file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsCo
-nverted.png  used on input line 664.
+nverted.png  used on input line 666.
 (pdftex.def)             Requested size: 117.9987pt x 80.12608pt.
 <../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png, id=662, 52
 5.46312pt x 356.83313pt>
@@ -1832,7 +1832,7 @@ File: ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png Graphi
 c file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnconverted.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCD/ejetsUnc
-onverted.png  used on input line 664.
+onverted.png  used on input line 666.
 (pdftex.def)             Requested size: 117.9987pt x 80.12608pt.
 <../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png, id=663, 5
 25.46312pt x 356.83313pt>
@@ -1840,10 +1840,10 @@ File: ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png Graph
 ic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUnconverted.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/ABCD/mujetsUn
-converted.png  used on input line 664.
+converted.png  used on input line 666.
 (pdftex.def)             Requested size: 117.9987pt x 80.12608pt.
 
-Overfull \vbox (4.69962pt too high) detected at line 664
+Overfull \vbox (4.69962pt too high) detected at line 666
  []
 
 [36
@@ -1852,7 +1852,7 @@ Overfull \vbox (4.69962pt too high) detected at line 664
 is/ThesisImages/SearchStrategy/ABCD/mujetsConverted.png> <../../Thesis/ThesisIm
 ages/SearchStrategy/ABCD/ejetsUnconverted.png> <../../Thesis/ThesisImages/Searc
 hStrategy/ABCD/mujetsUnconverted.png>]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 699--699
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 701--701
 [][]  
  []
 
@@ -1863,7 +1863,7 @@ Plots/PreSel_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/P
 lots/PreSel_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/pre
-sel/FCNC_All_ejets/Plots/PreSel_jet0_pt.png  used on input line 699.
+sel/FCNC_All_ejets/Plots/PreSel_jet0_pt.png  used on input line 701.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plot
 s/PreSel_jet0_pt.png, id=684, 598.235pt x 674.52pt>
@@ -1872,7 +1872,7 @@ File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/
 Plots/PreSel_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/pre
-sel/FCNC_All_mujets/Plots/PreSel_jet0_pt.png  used on input line 699.
+sel/FCNC_All_mujets/Plots/PreSel_jet0_pt.png  used on input line 701.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots
 /PreSel_ph_pt.png, id=685, 598.235pt x 674.52pt>
@@ -1881,7 +1881,7 @@ Plots/PreSel_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/P
 lots/PreSel_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/pre
-sel/FCNC_All_ejets/Plots/PreSel_ph_pt.png  used on input line 699.
+sel/FCNC_All_ejets/Plots/PreSel_ph_pt.png  used on input line 701.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plot
 s/PreSel_ph_pt.png, id=686, 598.235pt x 674.52pt>
@@ -1890,7 +1890,7 @@ File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/
 Plots/PreSel_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/pre
-sel/FCNC_All_mujets/Plots/PreSel_ph_pt.png  used on input line 699.
+sel/FCNC_All_mujets/Plots/PreSel_ph_pt.png  used on input line 701.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots
 /PreSel_lep_pt.png, id=687, 598.235pt x 674.52pt>
@@ -1899,7 +1899,7 @@ Plots/PreSel_lep_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/P
 lots/PreSel_lep_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/pre
-sel/FCNC_All_ejets/Plots/PreSel_lep_pt.png  used on input line 699.
+sel/FCNC_All_ejets/Plots/PreSel_lep_pt.png  used on input line 701.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plot
 s/PreSel_lep_pt.png, id=688, 598.235pt x 674.52pt>
@@ -1908,7 +1908,7 @@ File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/
 Plots/PreSel_lep_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/pre
-sel/FCNC_All_mujets/Plots/PreSel_lep_pt.png  used on input line 699.
+sel/FCNC_All_mujets/Plots/PreSel_lep_pt.png  used on input line 701.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 [37
 
@@ -1923,7 +1923,7 @@ sel/FCNC_All_mujets/Plots/PreSel_lep_pt.png>]
 <Images/neural_net2.jpeg, id=704, 793.96625pt x 389.455pt>
 File: Images/neural_net2.jpeg Graphic file (type jpg)
 <use Images/neural_net2.jpeg>
-Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 711.
+Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 713.
 (pdftex.def)             Requested size: 215.10196pt x 105.5108pt.
  [38
 
@@ -1931,37 +1931,37 @@ Package pdftex.def Info: Images/neural_net2.jpeg  used on input line 711.
 
 ]
 <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
-/btag77/ejetsboth2hidnpart0accuarcy.png, id=735, 462.528pt x 346.896pt>
+/btag77/ejetsboth2hidnpart0accuarcy.png, id=734, 462.528pt x 346.896pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
 sults/btag77/ejetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
 ults/btag77/ejetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
 udiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png  used on input 
-line 738.
+line 740.
 (pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
 <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
-/btag77/ejetsboth2hidnpart0loss.png, id=736, 462.528pt x 346.896pt>
+/btag77/ejetsboth2hidnpart0loss.png, id=735, 462.528pt x 346.896pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
 sults/btag77/ejetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
 ults/btag77/ejetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
 udiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0loss.png  used on input line
- 738.
+ 740.
 (pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
 <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
-/btag77/ejetsboth2hidnpart0sigbkg.png, id=737, 462.528pt x 346.896pt>
+/btag77/ejetsboth2hidnpart0sigbkg.png, id=736, 462.528pt x 346.896pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
 sults/btag77/ejetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
 ults/btag77/ejetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
 udiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0sigbkg.png  used on input li
-ne 738.
+ne 740.
 (pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
 <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
-/btag77/significanceejetsboth2hidnpart02.png, id=738, 1129.21875pt x 752.8125pt
+/btag77/significanceejetsboth2hidnpart02.png, id=737, 1129.21875pt x 752.8125pt
 >
 File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
 sults/btag77/significanceejetsboth2hidnpart02.png Graphic file (type png)
@@ -1969,10 +1969,10 @@ sults/btag77/significanceejetsboth2hidnpart02.png Graphic file (type png)
 ults/btag77/significanceejetsboth2hidnpart02.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
 udiesBR0.002/BestResults/btag77/significanceejetsboth2hidnpart02.png  used on i
-nput line 738.
+nput line 740.
 (pdftex.def)             Requested size: 130.59912pt x 87.0598pt.
 
-Overfull \vbox (4.52937pt too high) detected at line 738
+Overfull \vbox (4.52937pt too high) detected at line 740
  []
 
 [40
@@ -1985,81 +1985,81 @@ tegy/HiddenLayerStudiesBR0.002/BestResults/btag77/ejetsboth2hidnpart0loss.png>
 y/HiddenLayerStudiesBR0.002/BestResults/btag77/significanceejetsboth2hidnpart02
 .png>]
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots
-/PreSel_NNejet.png, id=757, 598.235pt x 674.52pt>
+/PreSel_NNejet.png, id=756, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/
 Plots/PreSel_NNejet.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/P
 lots/PreSel_NNejet.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/pre
-sel/FCNC_All_ejets/Plots/PreSel_NNejet.png  used on input line 746.
-(pdftex.def)             Requested size: 122.91406pt x 138.58626pt.
+sel/FCNC_All_ejets/Plots/PreSel_NNejet.png  used on input line 757.
+(pdftex.def)             Requested size: 130.59912pt x 147.25241pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plot
-s/PreSel_NNmujet.png, id=758, 598.235pt x 674.52pt>
+s/PreSel_NNmujet.png, id=757, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets
 /Plots/PreSel_NNmujet.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/
 Plots/PreSel_NNmujet.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/pre
-sel/FCNC_All_mujets/Plots/PreSel_NNmujet.png  used on input line 746.
-(pdftex.def)             Requested size: 122.91406pt x 138.58626pt.
+sel/FCNC_All_mujets/Plots/PreSel_NNmujet.png  used on input line 757.
+(pdftex.def)             Requested size: 130.59912pt x 147.25241pt.
  [41
 
  <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plot
 s/PreSel_NNejet.png> <../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel
 /FCNC_All_mujets/Plots/PreSel_NNmujet.png>]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 779--779
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 790--790
 [][]  
  []
 
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_eje
-ts/Plots/VR1_ph_pt.png, id=773, 598.235pt x 674.52pt>
+ts/Plots/VR1_ph_pt.png, id=772, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_ejets/Plots/VR1_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _ejets/Plots/VR1_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_ejets/Plots/VR1_ph_pt.png  used on input line 779.
+otonRegions/FCNC_All_ejets/Plots/VR1_ph_pt.png  used on input line 790.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_muj
-ets/Plots/VR1_ph_pt.png, id=774, 598.235pt x 674.52pt>
+ets/Plots/VR1_ph_pt.png, id=773, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_mujets/Plots/VR1_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _mujets/Plots/VR1_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_mujets/Plots/VR1_ph_pt.png  used on input line 779.
+otonRegions/FCNC_All_mujets/Plots/VR1_ph_pt.png  used on input line 790.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_eje
-ts/Plots/VR1_jet0_pt.png, id=775, 598.235pt x 674.52pt>
+ts/Plots/VR1_jet0_pt.png, id=774, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_ejets/Plots/VR1_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _ejets/Plots/VR1_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png  used on input line 779.
+otonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png  used on input line 790.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_muj
-ets/Plots/VR1_jet0_pt.png, id=776, 598.235pt x 674.52pt>
+ets/Plots/VR1_jet0_pt.png, id=775, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_mujets/Plots/VR1_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _mujets/Plots/VR1_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png  used on input line 779.
+otonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png  used on input line 790.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_ejets/Plots/VR1_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _ejets/Plots/VR1_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png  used on input line 779.
+otonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png  used on input line 790.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_mujets/Plots/VR1_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _mujets/Plots/VR1_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png  used on input line 779.
+otonRegions/FCNC_All_mujets/Plots/VR1_jet0_pt.png  used on input line 790.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 [42
 
@@ -2069,59 +2069,59 @@ hotonRegions/FCNC_All_mujets/Plots/VR1_ph_pt.png> <../../Thesis/ThesisImages/Re
 gionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR1_jet0_pt.png> <..
 /../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets
 /Plots/VR1_jet0_pt.png>]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 809--809
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 820--820
 [][]  
  []
 
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_eje
-ts/Plots/VR2_ph_pt.png, id=792, 598.235pt x 674.52pt>
+ts/Plots/VR2_ph_pt.png, id=789, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_ejets/Plots/VR2_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _ejets/Plots/VR2_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_ejets/Plots/VR2_ph_pt.png  used on input line 809.
+otonRegions/FCNC_All_ejets/Plots/VR2_ph_pt.png  used on input line 820.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_muj
-ets/Plots/VR2_ph_pt.png, id=793, 598.235pt x 674.52pt>
+ets/Plots/VR2_ph_pt.png, id=790, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_mujets/Plots/VR2_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _mujets/Plots/VR2_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_mujets/Plots/VR2_ph_pt.png  used on input line 809.
+otonRegions/FCNC_All_mujets/Plots/VR2_ph_pt.png  used on input line 820.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_eje
-ts/Plots/VR2_jet0_pt.png, id=794, 598.235pt x 674.52pt>
+ts/Plots/VR2_jet0_pt.png, id=791, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_ejets/Plots/VR2_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _ejets/Plots/VR2_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png  used on input line 809.
+otonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png  used on input line 820.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_muj
-ets/Plots/VR2_jet0_pt.png, id=795, 598.235pt x 674.52pt>
+ets/Plots/VR2_jet0_pt.png, id=792, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_mujets/Plots/VR2_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _mujets/Plots/VR2_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png  used on input line 809.
+otonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png  used on input line 820.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_ejets/Plots/VR2_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _ejets/Plots/VR2_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png  used on input line 809.
+otonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png  used on input line 820.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 File: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_Al
 l_mujets/Plots/VR2_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All
 _mujets/Plots/VR2_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/BeforeScaling/Ph
-otonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png  used on input line 809.
+otonRegions/FCNC_All_mujets/Plots/VR2_jet0_pt.png  used on input line 820.
 (pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 [43
 
@@ -2130,320 +2130,331 @@ ets/Plots/VR2_ph_pt.png> <../../Thesis/ThesisImages/RegionPlots/BeforeScaling/P
 hotonRegions/FCNC_All_mujets/Plots/VR2_ph_pt.png> <../../Thesis/ThesisImages/Re
 gionPlots/BeforeScaling/PhotonRegions/FCNC_All_ejets/Plots/VR2_jet0_pt.png> <..
 /../Thesis/ThesisImages/RegionPlots/BeforeScaling/PhotonRegions/FCNC_All_mujets
-/Plots/VR2_jet0_pt.png>] [44
-
-]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 831--831
+/Plots/VR2_jet0_pt.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 839--839
 [][]  
  []
 
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/
-Plots/SR_mqph.png, id=825, 598.235pt x 674.52pt>
+Plots/SR_mqph.png, id=808, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_e
 jets/Plots/SR_mqph.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ej
 ets/Plots/SR_mqph.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
-tematics/FCNC_All_ejets/Plots/SR_mqph.png  used on input line 831.
+tematics/FCNC_All_ejets/Plots/SR_mqph.png  used on input line 839.
 (pdftex.def)             Requested size: 88.49959pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_A
-ll_mujets/Plots/SRmu_mqph.png, id=826, 598.235pt x 674.52pt>
+ll_mujets/Plots/SRmu_mqph.png, id=809, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/F
 CNC_All_mujets/Plots/SRmu_mqph.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FC
 NC_All_mujets/Plots/SRmu_mqph.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
-tematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_mqph.png  used on input line 831.
+tematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_mqph.png  used on input line 839.
 (pdftex.def)             Requested size: 88.49959pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/
-Plots/SR_ph_pt.png, id=827, 598.235pt x 674.52pt>
+Plots/SR_ph_pt.png, id=810, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_e
 jets/Plots/SR_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ej
 ets/Plots/SR_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
-tematics/FCNC_All_ejets/Plots/SR_ph_pt.png  used on input line 831.
+tematics/FCNC_All_ejets/Plots/SR_ph_pt.png  used on input line 839.
 (pdftex.def)             Requested size: 88.49959pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_A
-ll_mujets/Plots/SRmu_ph_pt.png, id=828, 598.235pt x 674.52pt>
+ll_mujets/Plots/SRmu_ph_pt.png, id=811, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/F
 CNC_All_mujets/Plots/SRmu_ph_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FC
 NC_All_mujets/Plots/SRmu_ph_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
-tematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_ph_pt.png  used on input line 831.
+tematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_ph_pt.png  used on input line 839.
 
 (pdftex.def)             Requested size: 88.49959pt x 99.78416pt.
 
-Overfull \vbox (2.55748pt too high) detected at line 831
+Overfull \vbox (2.55748pt too high) detected at line 839
  []
 
-[45
+[44
 
  <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets
 /Plots/SR_mqph.png> <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systema
 tics/PhotonPT/FCNC_All_mujets/Plots/SRmu_mqph.png> <../../Thesis/ThesisImages/R
 egionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_ph_pt.png> <../../T
 hesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_All_mujet
-s/Plots/SRmu_ph_pt.png>] [46
+s/Plots/SRmu_ph_pt.png>]
+<../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJ
+et/Comb/NuisPar_comp.png, id=827, 798.985pt x 1407.2575pt>
+File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetP
+HptMJet/Comb/NuisPar_comp.png Graphic file (type png)
+<use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPH
+ptMJet/Comb/NuisPar_comp.png>
+Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
+tematics/MQGamEJetPHptMJet/Comb/NuisPar_comp.png  used on input line 874.
+(pdftex.def)             Requested size: 119.84285pt x 211.07951pt.
 
-]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 851--851
+Overfull \vbox (4.76314pt too high) detected at line 874
+ []
+
+[45
+
+ <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptM
+Jet/Comb/NuisPar_comp.png>]
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 892--892
 [][]  
  []
 
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/
-Plots/SR_mqph_postFit.png, id=857, 598.235pt x 674.52pt>
+Plots/SR_mqph_postFit.png, id=842, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_e
 jets/Plots/SR_mqph_postFit.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ej
 ets/Plots/SR_mqph_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
-tematics/FCNC_All_ejets/Plots/SR_mqph_postFit.png  used on input line 851.
+tematics/FCNC_All_ejets/Plots/SR_mqph_postFit.png  used on input line 892.
 (pdftex.def)             Requested size: 88.49959pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_A
-ll_mujets/Plots/SRmu_mqph_postFit.png, id=858, 598.235pt x 674.52pt>
+ll_mujets/Plots/SRmu_mqph_postFit.png, id=843, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/F
 CNC_All_mujets/Plots/SRmu_mqph_postFit.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FC
 NC_All_mujets/Plots/SRmu_mqph_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
 tematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_mqph_postFit.png  used on input li
-ne 851.
+ne 892.
 (pdftex.def)             Requested size: 88.49959pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/
-Plots/SR_ph_pt_postFit.png, id=859, 598.235pt x 674.52pt>
+Plots/SR_ph_pt_postFit.png, id=844, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_e
 jets/Plots/SR_ph_pt_postFit.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ej
 ets/Plots/SR_ph_pt_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
-tematics/FCNC_All_ejets/Plots/SR_ph_pt_postFit.png  used on input line 851.
+tematics/FCNC_All_ejets/Plots/SR_ph_pt_postFit.png  used on input line 892.
 (pdftex.def)             Requested size: 88.49959pt x 99.78416pt.
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FCNC_A
-ll_mujets/Plots/SRmu_ph_pt_postFit.png, id=860, 598.235pt x 674.52pt>
+ll_mujets/Plots/SRmu_ph_pt_postFit.png, id=845, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/F
 CNC_All_mujets/Plots/SRmu_ph_pt_postFit.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/PhotonPT/FC
 NC_All_mujets/Plots/SRmu_ph_pt_postFit.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
 tematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_ph_pt_postFit.png  used on input l
-ine 851.
+ine 892.
 (pdftex.def)             Requested size: 88.49959pt x 99.78416pt.
 
-Overfull \vbox (2.55748pt too high) detected at line 851
+Overfull \vbox (2.55748pt too high) detected at line 892
  []
 
-[47
+[46
 
  <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets
 /Plots/SR_mqph_postFit.png> <../../Thesis/ThesisImages/RegionPlots/FinalRegions
 /Systematics/PhotonPT/FCNC_All_mujets/Plots/SRmu_mqph_postFit.png> <../../Thesi
 s/ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_ph_
 pt_postFit.png> <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics
-/PhotonPT/FCNC_All_mujets/Plots/SRmu_ph_pt_postFit.png>] [48
-
-]
+/PhotonPT/FCNC_All_mujets/Plots/SRmu_ph_pt_postFit.png>]
 <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJ
-et/LimitPlot.png, id=889, 700.6175pt x 474.77374pt>
+et/LimitPlot.png, id=860, 700.6175pt x 474.77374pt>
 File: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetP
 HptMJet/LimitPlot.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPH
 ptMJet/LimitPlot.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/FinalRegions/Sys
-tematics/MQGamEJetPHptMJet/LimitPlot.png  used on input line 872.
+tematics/MQGamEJetPHptMJet/LimitPlot.png  used on input line 913.
 (pdftex.def)             Requested size: 153.64493pt x 104.1173pt.
- [49
+ [47
 
  <../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptM
-Jet/LimitPlot.png>] [50
+Jet/LimitPlot.png>] [48
 
-] [51
+] [49
 
 ]
-<../../Thesis/ThesisImages/JasonAtATLAS.jpg, id=924, 963.6pt x 642.4pt>
+<../../Thesis/ThesisImages/JasonAtATLAS.jpg, id=895, 963.6pt x 642.4pt>
 File: ../../Thesis/ThesisImages/JasonAtATLAS.jpg Graphic file (type jpg)
 <use ../../Thesis/ThesisImages/JasonAtATLAS.jpg>
 Package pdftex.def Info: ../../Thesis/ThesisImages/JasonAtATLAS.jpg  used on in
-put line 897.
+put line 941.
 (pdftex.def)             Requested size: 215.10196pt x 143.3967pt.
- [52
+ [50
 
  <../../Thesis/ThesisImages/JasonAtATLAS.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 910.
+(hyperref)                removing `\translate ' on input line 954.
 
-[53
+[51
 
 ]
-<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=943, 580.41844pt x 432.11438
+<../../Thesis/ThesisImages/Theory/FCNCLoop.png, id=912, 580.41844pt x 432.11438
 pt>
 File: ../../Thesis/ThesisImages/Theory/FCNCLoop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/Theory/FCNCLoop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Theory/FCNCLoop.png  used on
- input line 918.
+ input line 962.
 (pdftex.def)             Requested size: 122.91406pt x 91.50494pt.
-<../../Thesis/ThesisImages/penguinFCNC.png, id=944, 1020.81375pt x 629.35126pt>
+<../../Thesis/ThesisImages/penguinFCNC.png, id=913, 1020.81375pt x 629.35126pt>
 
 File: ../../Thesis/ThesisImages/penguinFCNC.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/penguinFCNC.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/penguinFCNC.png  used on inp
-ut line 918.
+ut line 962.
 (pdftex.def)             Requested size: 122.91406pt x 75.77817pt.
- [54
+ [52
 
  <../../Thesis/ThesisImages/Theory/FCNCLoop.png> <../../Thesis/ThesisImages/pen
-guinFCNC.png>] [55
+guinFCNC.png>] [53
 
 ]
-Overfull \hbox (8.68301pt too wide) in paragraph at lines 993--993
+Overfull \hbox (8.68301pt too wide) in paragraph at lines 1037--1037
 []\OT1/cmss/m/n/10 ['photon0iso','photon0pt','mqgam','mlgam','mtSM','deltaRjgam
 ','deltaRbl',  
  []
 
-[56
+[54
 
 ]
-<../../Thesis/ThesisImages/BSMDiagrams.png, id=967, 1166.10657pt x 630.10406pt>
+<../../Thesis/ThesisImages/BSMDiagrams.png, id=937, 1166.10657pt x 630.10406pt>
 
 File: ../../Thesis/ThesisImages/BSMDiagrams.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/BSMDiagrams.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/BSMDiagrams.png  used on inp
-ut line 999.
+ut line 1043.
 (pdftex.def)             Requested size: 307.28987pt x 166.04416pt.
- [57
+ [55
 
- <../../Thesis/ThesisImages/BSMDiagrams.png>] [58
+ <../../Thesis/ThesisImages/BSMDiagrams.png>] [56
 
 ]
-<../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png, id=982, 903.375pt 
+<../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png, id=953, 903.375pt 
 x 924.45375pt>
 File: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png Graphic file (
 type png)
 <use ../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/B-tagging_diagram
-.png  used on input line 1032.
+.png  used on input line 1076.
 (pdftex.def)             Requested size: 146.05923pt x 149.46764pt.
- [59
+ [57
 
  <../../Thesis/ThesisImages/Simulation/B-tagging_diagram.png>]
-<../../Thesis/ThesisImages/Simulation/VarJetAlgs.png, id=991, 912.40875pt x 649
+<../../Thesis/ThesisImages/Simulation/VarJetAlgs.png, id=962, 912.40875pt x 649
 .67719pt>
 File: ../../Thesis/ThesisImages/Simulation/VarJetAlgs.png Graphic file (type pn
 g)
 <use ../../Thesis/ThesisImages/Simulation/VarJetAlgs.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/Simulation/VarJetAlgs.png  u
-sed on input line 1042.
+sed on input line 1086.
 (pdftex.def)             Requested size: 215.10196pt x 153.1599pt.
- [60
+ [58
 
  <../../Thesis/ThesisImages/Simulation/VarJetAlgs.png>]
-<../../Thesis/ThesisImages/IRCollinearSafety.png, id=1000, 813.79031pt x 642.14
-906pt>
+<../../Thesis/ThesisImages/IRCollinearSafety.png, id=971, 813.79031pt x 642.149
+06pt>
 File: ../../Thesis/ThesisImages/IRCollinearSafety.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/IRCollinearSafety.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/IRCollinearSafety.png  used 
-on input line 1047.
+on input line 1091.
 (pdftex.def)             Requested size: 215.10196pt x 169.72775pt.
- [61
+ [59
 
  <../../Thesis/ThesisImages/IRCollinearSafety.png>]
 File: ../../Thesis/ThesisImages/HardScatCrosSecs.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/HardScatCrosSecs.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/HardScatCrosSecs.png  used o
-n input line 1064.
+n input line 1108.
 (pdftex.def)             Requested size: 153.64493pt x 212.24236pt.
 
-Overfull \vbox (5.92598pt too high) detected at line 1064
+Overfull \vbox (5.92598pt too high) detected at line 1108
  []
 
-[62
+[60
 
 ]
-Overfull \hbox (1.15842pt too wide) in paragraph at lines 1087--1087
+Overfull \hbox (1.15842pt too wide) in paragraph at lines 1131--1131
 [][]  
  []
 
-<Images/Dataee.png, id=1016, 700.6175pt x 474.77374pt>
+<Images/Dataee.png, id=986, 700.6175pt x 474.77374pt>
 File: Images/Dataee.png Graphic file (type png)
 <use Images/Dataee.png>
-Package pdftex.def Info: Images/Dataee.png  used on input line 1087.
+Package pdftex.def Info: Images/Dataee.png  used on input line 1131.
 (pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
-<Images/Dataeg.png, id=1017, 700.6175pt x 474.77374pt>
+<Images/Dataeg.png, id=987, 700.6175pt x 474.77374pt>
 File: Images/Dataeg.png Graphic file (type png)
 <use Images/Dataeg.png>
-Package pdftex.def Info: Images/Dataeg.png  used on input line 1087.
+Package pdftex.def Info: Images/Dataeg.png  used on input line 1131.
 (pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
-<Images/MCVgamee.png, id=1018, 700.6175pt x 474.77374pt>
+<Images/MCVgamee.png, id=988, 700.6175pt x 474.77374pt>
 File: Images/MCVgamee.png Graphic file (type png)
 <use Images/MCVgamee.png>
-Package pdftex.def Info: Images/MCVgamee.png  used on input line 1087.
+Package pdftex.def Info: Images/MCVgamee.png  used on input line 1131.
 (pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
-<Images/MCVgameg.png, id=1019, 700.6175pt x 474.77374pt>
+<Images/MCVgameg.png, id=989, 700.6175pt x 474.77374pt>
 File: Images/MCVgameg.png Graphic file (type png)
 <use Images/MCVgameg.png>
-Package pdftex.def Info: Images/MCVgameg.png  used on input line 1087.
+Package pdftex.def Info: Images/MCVgameg.png  used on input line 1131.
 (pdftex.def)             Requested size: 125.37404pt x 84.95572pt.
-[63
+[61
 
  <./Images/Dataee.png> <./Images/Dataeg.png> <./Images/MCVgamee.png> <./Images/
 MCVgameg.png>]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 1116--1116
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 1160--1160
 [][]  
  []
 
-<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png, id=1027, 700.
-6175pt x 474.77374pt>
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png, id=998, 700.6
+175pt x 474.77374pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png Graphic f
 ile (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
-EptDa.png  used on input line 1116.
+EptDa.png  used on input line 1160.
 (pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
-<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png, id=1028, 700.
-6175pt x 474.77374pt>
+<../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png, id=999, 700.6
+175pt x 474.77374pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png Graphic f
 ile (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
-EptMC.png  used on input line 1116.
+EptMC.png  used on input line 1160.
 (pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
 <../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png, id=1
-029, 700.6175pt x 474.77374pt>
+000, 700.6175pt x 474.77374pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png 
 Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
-PConvertedptDa.png  used on input line 1116.
+PConvertedptDa.png  used on input line 1160.
 (pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
 <../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png, id=1
-030, 700.6175pt x 474.77374pt>
+001, 700.6175pt x 474.77374pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png 
 Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
-PConvertedptMC.png  used on input line 1116.
+PConvertedptMC.png  used on input line 1160.
 (pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
 <../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png, id
-=1031, 700.6175pt x 474.77374pt>
+=1002, 700.6175pt x 474.77374pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.pn
 g Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png
 >
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
-PUnconvertedptDa.png  used on input line 1116.
+PUnconvertedptDa.png  used on input line 1160.
 (pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
 <../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png, id
-=1032, 700.6175pt x 474.77374pt>
+=1003, 700.6175pt x 474.77374pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.pn
 g Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png
 >
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dE
-PUnconvertedptMC.png  used on input line 1116.
+PUnconvertedptMC.png  used on input line 1160.
 (pdftex.def)             Requested size: 93.41795pt x 63.30203pt.
-[64
+[62
 
  <../../Thesis/ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png> <../../Thesi
 s/ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png> <../../Thesis/ThesisImage
@@ -2451,50 +2462,50 @@ s/SearchStrategy/FakeRates/2dEPConvertedptDa.png> <../../Thesis/ThesisImages/Se
 archStrategy/FakeRates/2dEPConvertedptMC.png> <../../Thesis/ThesisImages/Search
 Strategy/FakeRates/2dEPUnconvertedptDa.png> <../../Thesis/ThesisImages/SearchSt
 rategy/FakeRates/2dEPUnconvertedptMC.png>]
-<Images/AdamComparison.png, id=1040, 336.25626pt x 326.21875pt>
+<Images/AdamComparison.png, id=1011, 336.25626pt x 326.21875pt>
 File: Images/AdamComparison.png Graphic file (type png)
 <use Images/AdamComparison.png>
-Package pdftex.def Info: Images/AdamComparison.png  used on input line 1130.
+Package pdftex.def Info: Images/AdamComparison.png  used on input line 1174.
 (pdftex.def)             Requested size: 107.55333pt x 104.34235pt.
 
-Overfull \vbox (2.77597pt too high) detected at line 1130
+Overfull \vbox (2.77597pt too high) detected at line 1174
  []
 
-[65
+[63
 
  <./Images/AdamComparison.png>]
 <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
-/btag77/mujetsboth2hidnpart0accuarcy.png, id=1051, 462.528pt x 346.896pt>
+/btag77/mujetsboth2hidnpart0accuarcy.png, id=1022, 462.528pt x 346.896pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
 sults/btag77/mujetsboth2hidnpart0accuarcy.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
 ults/btag77/mujetsboth2hidnpart0accuarcy.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
 udiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png  used on input
- line 1145.
+ line 1189.
 (pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
 <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
-/btag77/mujetsboth2hidnpart0loss.png, id=1052, 462.528pt x 346.896pt>
+/btag77/mujetsboth2hidnpart0loss.png, id=1023, 462.528pt x 346.896pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
 sults/btag77/mujetsboth2hidnpart0loss.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
 ults/btag77/mujetsboth2hidnpart0loss.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
 udiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0loss.png  used on input lin
-e 1145.
+e 1189.
 (pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
 <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
-/btag77/mujetsboth2hidnpart0sigbkg.png, id=1053, 462.528pt x 346.896pt>
+/btag77/mujetsboth2hidnpart0sigbkg.png, id=1024, 462.528pt x 346.896pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
 sults/btag77/mujetsboth2hidnpart0sigbkg.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRes
 ults/btag77/mujetsboth2hidnpart0sigbkg.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
 udiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0sigbkg.png  used on input l
-ine 1145.
+ine 1189.
 (pdftex.def)             Requested size: 130.59912pt x 97.95065pt.
 <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResults
-/btag77/significancemujetsboth2hidnpart02.png, id=1054, 1129.21875pt x 752.8125
+/btag77/significancemujetsboth2hidnpart02.png, id=1025, 1129.21875pt x 752.8125
 pt>
 File: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestRe
 sults/btag77/significancemujetsboth2hidnpart02.png Graphic file (type png)
@@ -2502,13 +2513,13 @@ sults/btag77/significancemujetsboth2hidnpart02.png Graphic file (type png)
 ults/btag77/significancemujetsboth2hidnpart02.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/SearchStrategy/HiddenLayerSt
 udiesBR0.002/BestResults/btag77/significancemujetsboth2hidnpart02.png  used on 
-input line 1145.
+input line 1189.
 (pdftex.def)             Requested size: 130.59912pt x 87.0598pt.
 
-Overfull \vbox (4.52937pt too high) detected at line 1145
+Overfull \vbox (4.52937pt too high) detected at line 1189
  []
 
-[66
+[64
 
  <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResult
 s/btag77/mujetsboth2hidnpart0accuarcy.png> <../../Thesis/ThesisImages/SearchStr
@@ -2516,27 +2527,25 @@ ategy/HiddenLayerStudiesBR0.002/BestResults/btag77/mujetsboth2hidnpart0loss.png
 > <../../Thesis/ThesisImages/SearchStrategy/HiddenLayerStudiesBR0.002/BestResul
 ts/btag77/mujetsboth2hidnpart0sigbkg.png> <../../Thesis/ThesisImages/SearchStra
 tegy/HiddenLayerStudiesBR0.002/BestResults/btag77/significancemujetsboth2hidnpa
-rt02.png>] [67
-
-] [68
+rt02.png>] [65
 
 ]
-Overfull \hbox (0.79733pt too wide) in paragraph at lines 1187--1187
+Overfull \hbox (0.79733pt too wide) in paragraph at lines 1232--1232
 [][]  
  []
 
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_mujets/Plots/VR3_nbjet.png, id=1082, 598.235pt x 674.52pt>
+mFactor/FCNC_All_mujets/Plots/VR3_nbjet.png, id=1044, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_mujets/Plots/VR3_nbjet.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCode
 dNormFactor/FCNC_All_mujets/Plots/VR3_nbjet.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_nbjet.png  used on in
-put line 1187.
-(pdftex.def)             Requested size: 86.19589pt x 97.1802pt.
+put line 1232.
+(pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png, id=1083, 598.235pt x 674.52
+mFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png, id=1045, 598.235pt x 674.52
 pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png Graphic file (type png)
@@ -2545,20 +2554,20 @@ edNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png Graphic file (type png)
 dNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png  use
-d on input line 1187.
-(pdftex.def)             Requested size: 86.19589pt x 97.1802pt.
+d on input line 1232.
+(pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png, id=1084, 598.235pt x 674.52pt>
+mFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png, id=1046, 598.235pt x 674.52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCode
 dNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png  used on 
-input line 1187.
-(pdftex.def)             Requested size: 86.19589pt x 97.1802pt.
+input line 1232.
+(pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png, id=1085, 598.235pt x 674.
+mFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png, id=1047, 598.235pt x 674.
 52pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png Graphic file (type pn
@@ -2567,18 +2576,18 @@ g)
 dNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png  u
-sed on input line 1187.
-(pdftex.def)             Requested size: 86.19589pt x 97.1802pt.
+sed on input line 1232.
+(pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png Graphic file (type png)
 <use ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCode
 dNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png  used on in
-put line 1187.
-(pdftex.def)             Requested size: 86.19589pt x 97.1802pt.
+put line 1232.
+(pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
 <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNor
-mFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png, id=1086, 598.235pt x 674.52
+mFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png, id=1048, 598.235pt x 674.52
 pt>
 File: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCod
 edNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png Graphic file (type png)
@@ -2587,13 +2596,9 @@ edNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png Graphic file (type png)
 dNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png>
 Package pdftex.def Info: ../../Thesis/ThesisImages/RegionPlots/AfterScaling/Con
 trolRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png  use
-d on input line 1187.
-(pdftex.def)             Requested size: 86.19589pt x 97.1802pt.
-
-Overfull \vbox (10.90512pt too high) detected at line 1187
- []
-
-[69
+d on input line 1232.
+(pdftex.def)             Requested size: 81.12527pt x 91.46796pt.
+[66
 
  <../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNo
 rmFactor/FCNC_All_mujets/Plots/VR3_nbjet.png> <../../Thesis/ThesisImages/Region
@@ -2604,6 +2609,14 @@ egions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png> <../../Thesis
 F/FCNC_All_mujets/Plots/VR3_jet0_pt.png> <../../Thesis/ThesisImages/RegionPlots
 /AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/V
 R3_SMtop.png>]
+<Images/CLs.png, id=1056, 823.57687pt x 584.93532pt>
+File: Images/CLs.png Graphic file (type png)
+<use Images/CLs.png>
+Package pdftex.def Info: Images/CLs.png  used on input line 1236.
+(pdftex.def)             Requested size: 307.28987pt x 218.24345pt.
+ [67
+
+ <./Images/CLs.png>]
 \tf@nav=\write6
 \openout6 = `Defense.nav'.
 
@@ -2613,64 +2626,52 @@ R3_SMtop.png>]
 \tf@snm=\write8
 \openout8 = `Defense.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1190.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1238.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1238.
  (./Defense.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1238.
 
+Package rerunfilecheck Info: File `Defense.out' has not changed.
+(rerunfilecheck)             Checksum: A1485E7E57175FA184C5269FF40B6DDD;1097.
 
-
-Package rerunfilecheck Warning: File `Defense.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Defense.out':
-(rerunfilecheck)             Before: 54D7212D8236E598D4D4ED4A31D0DD51;1096
-(rerunfilecheck)             After:  F3E6848B85B30918DD11A8E80C0B5BE7;1096.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.25pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 29221 strings out of 492616
- 591030 string characters out of 6132769
- 606393 words of memory out of 5000000
- 32418 multiletter control sequences out of 15000+600000
+ 29222 strings out of 492616
+ 591537 string characters out of 6132769
+ 606205 words of memory out of 5000000
+ 32422 multiletter control sequences out of 15000+600000
  549127 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,76p,791b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.3.5.43} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.4.39} has been referenced but does not e
-xist, replaced by a fixed one
-
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmssi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/symbols/msam10.pfb>
-Output written on Defense.pdf (69 pages, 6501971 bytes).
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb>
+Output written on Defense.pdf (67 pages, 6654457 bytes).
 PDF statistics:
- 1201 PDF objects out of 1440 (max. 8388607)
- 949 compressed objects within 10 object streams
- 158 named destinations out of 1000 (max. 500000)
- 724 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1172 PDF objects out of 1200 (max. 8388607)
+ 920 compressed objects within 10 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 734 words of extra memory for PDF output out of 10000 (max. 10000000)
 

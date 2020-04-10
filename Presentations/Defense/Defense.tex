@@ -18,7 +18,7 @@
 \usepackage{xfrac}
 \usepackage{graphicx}
 \begin{document}
-\title[Search for $t\rightarrow q\gamma$ in Top Pair Events \hfill]{Search for the Flavor Changing Neutral Current, $t\rightarrow q \gamma$ in Top Pair Events Using the ATLAS Detector}
+\title[Search for $t\rightarrow q\gamma$ in Top Pair Events \hfill]{Search for the Flavor Changing Neutral Current, $t\rightarrow q \gamma$, in Top Pair Events Using the ATLAS Detector}
 \author[Barkeloo, Defense]{Jason Barkeloo}
 
 \titlegraphic{\hspace*{6.75cm}~%
@@ -366,7 +366,9 @@ u\bar{u} + c\bar{c} + (d\bar{d}+s\bar{s}) \cos^2\theta_C + (s\bar{s} + d\bar{d})
 \frame{\frametitle{Background Processes}
 \begin{itemize}
 \item Due to all of the processes at hadron colliders it is important to model similar event topologies well.
-\item Major backgrounds include $t\bar{t}$, W+Jets, Z+Jets, + processes with an associated photon
+\item Major backgrounds include $t\bar{t}$, W+Jets, and processes with an associated photon
+\item Minor Backgrounds: Z+Jets, Single Top
+\item Very Minor Backgrounds: Diboson, tt+V
 \end{itemize}
 \centering
 \includegraphics[width=0.6\textwidth]{../../Thesis/ThesisImages/backgrounds.png}
@@ -721,7 +723,7 @@ Muon Channel        & $1.23 \pm 0.50$   &   $2.27 \pm 0.92$\\ \hline %Change Put
 \end{itemize}
 }
 
-\frame{\frametitle{Neural Network Example Outputs}
+\frame{\frametitle{Neural Network Outputs}
 e+jets Channel Example
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -738,14 +740,23 @@ e+jets Channel Example
 }
 
 %%%%%%%%%%%FIX FIX fix Fix Fix fix
-\frame{\frametitle{}
-Explain about VRs, closer to SR than preselec
-Maybe show NN output in VR2\\
-\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots/PreSel_NNejet.png}
-\includegraphics[width=.4\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plots/PreSel_NNmujet.png}
+\frame{\frametitle{Scaled Preselection Neural Network Outputs}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+Electron Channel
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_ejets/Plots/PreSel_NNejet.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+Muon Channel
+\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/presel/FCNC_All_mujets/Plots/PreSel_NNmujet.png}
+\end{column}
+
+\end{columns}
+Deviations not unexpected, all SFs optimized for SR
 }
 
-\subsection{Validation Region and Signal Region Fits}
+\subsection{Validation Regions and Signal Region Fits}
 
 
 \frame{\frametitle{Validation Regions: $W+\text{jets}+\gamma$}
@@ -808,9 +819,6 @@ Maybe show NN output in VR2\\
 \end{columns}
 }
 
-
-\frame{\frametitle{Analysis}
-}
 \frame{\frametitle{Pre-fit Signal Region Plots}
 \begin{columns}
 \begin{column}{0.02\textwidth}
@@ -830,6 +838,39 @@ $\gamma p_T$ \\
 \end{columns}
 }
 \frame{\frametitle{Systematic Uncertainties - Nuisance Parameters}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+\item Most systematics do not effect fit
+\item Largest pulls from Photon and Jet related variables
+\item ISR/FSR Variation
+\item $j\rightarrow\gamma$ fake rate
+\item Changing MC generator
+\item Each of these between 1.5-2.5\% effect relative to nominal uncertainty
+\end{itemize}
+Statistically dominated limit
+%\% effect of largest systematics relative to nominal
+%\begin{table}[h]
+%\begin{center}
+%{\renewcommand{\arraystretch}{1.2}
+%\begin{tabular}{cc}
+%\hline
+%Systematic     &  e+jets   \\  \hline 
+%Pile-up   &  +2  \\
+%$j\rightarrow\gamma$ fake  &  1.06\\
+%$t\bar{t}$ ISR/FSR & \\
+%ME Gen/Showering  & \\
+%\end{tabular}
+%}
+%\end{center}
+%\end{table}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=.78\textwidth]{../../Thesis/ThesisImages/RegionPlots/FinalRegions/Systematics/MQGamEJetPHptMJet/Comb/NuisPar_comp.png}
+\end{column}
+
+\end{columns}
+
 }
 \frame{\frametitle{Post-fit Signal Region Plots}
 \begin{columns}
@@ -850,8 +891,8 @@ $\gamma p_T$ \\
 \end{columns}
 }
 
-\frame{\frametitle{$\text{CL}_{s}$ Method - Limit Setting}
-}
+%\frame{\frametitle{$\text{CL}_{s}$ Method - Limit Setting}
+%}
 \frame{\frametitle{Result - Limit on BR($t\rightarrow q\gamma$)}
 \begin{figure}[ht!]
 	\centering
@@ -877,8 +918,9 @@ Combined	& $0.96\times10^{-4}$ 	& $1.10(^{+0.43}_{-0.30})\times10^{-4}$ 	\\
 
 \frame{\frametitle{Conclusions}
 \begin{itemize}
-\item Limits have been set on the process $t\rightarrow q \gamma$
-\item Neural network implementation improved result by up to 30\% compared to stats only improvement
+\item Limits have been set on the process $t\rightarrow q \gamma$, the best current limit on $t\rightarrow c\gamma$
+\item Neural network implementation improved result by up to 30\% compared to stats only improvement from 8 TeV result
+\item Continuing to prod the Standard Model from all angles is important in searching for new physics
 \end{itemize}
 }
 
@@ -889,6 +931,8 @@ David Strom (Chair) \\
 Spencer Chang \\
 Dev Sinha \\
 My Advisor: Jim Brau \\
+
+And thank you all for coming!\\
 \end{centering}
 }
 \frame{\frametitle{Questions?}
@@ -1128,7 +1172,7 @@ Courtesy - John Myers
 \includegraphics[width=0.35\textwidth]{Images/AdamComparison.png}
 \captionof{figure}{\href{https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/}{[Ref:Machine Learning Mastry]}}
 }
-\frame{\frametitle{Neural Network Example Outputs}
+\frame{\frametitle{Neural Network Outputs}
 mu+jets Channel Example
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -1143,8 +1187,9 @@ mu+jets Channel Example
 
 \end{columns}
 }
-\frame{\frametitle{Duplicate Event Removal}
-}
+
+%\frame{\frametitle{Duplicate Event Removal}
+%}
 
 %\frame{\frametitle{B-tagging}
 %\centering
@@ -1166,26 +1211,29 @@ mu+jets Channel Example
 \begin{itemize}
 \item  $n_\text{bjets}$
 \end{itemize}
-\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_nbjet.png} \\
-\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png} 
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_nbjet.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_nbjet.png} 
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
 \item Lead Jet $p_T$
 \end{itemize}
-\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png} \\
-\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png} 
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_jet0_pt.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_jet0_pt.png} 
 \end{column}
 \begin{column}{0.33\textwidth}
 \begin{itemize}
 \item $m_{Wb}$
 \end{itemize}
-\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png} \\
-\includegraphics[width=.85\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png} 
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_mujets/Plots/VR3_SMtop.png} \\
+\includegraphics[width=.8\textwidth]{../../Thesis/ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png} 
 \end{column}
 \end{columns}
 }
 
+\frame{\frametitle{}
+\includegraphics[width=1.\textwidth]{Images/CLs.png}
+}
 
 \end{document}
 

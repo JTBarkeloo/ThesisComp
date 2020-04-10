@@ -11,6 +11,6 @@
 \beamer@subsectionintoc {3}{2}{Region Creation}{23}{0}{3}
 \beamer@subsectionintoc {3}{3}{Fake Rates}{31}{0}{3}
 \beamer@subsectionintoc {3}{4}{Neural Network Optimization}{38}{0}{3}
-\beamer@subsectionintoc {3}{5}{Validation Region and Signal Region Fits}{42}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{50}{0}{4}
-\beamer@sectionintoc {5}{Backup}{53}{1}{5}
+\beamer@subsectionintoc {3}{5}{Validation Regions and Signal Region Fits}{42}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{48}{0}{4}
+\beamer@sectionintoc {5}{Backup}{51}{1}{5}

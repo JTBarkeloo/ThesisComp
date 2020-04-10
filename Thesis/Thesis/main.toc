@@ -11,8 +11,8 @@
 \contentsline {subsection}{ \numberline {2.3.2} Fermion Masses}{10}{subsection.2.3.2}% 
 \contentsline {subsection}{ \numberline {2.3.3} The CKM Matrix}{12}{subsection.2.3.3}% 
 \contentsline {section}{ \numberline {2.4} The Top Quark}{13}{section.2.4}% 
-\contentsline {subsection}{ \numberline {2.4.1} Discovering The Top Quark}{14}{subsection.2.4.1}% 
-\contentsline {subsection}{ \numberline {2.4.2} Production and Decay At Hadron Colliders}{16}{subsection.2.4.2}% 
+\contentsline {subsection}{ \numberline {2.4.1} Discovering the Top Quark}{14}{subsection.2.4.1}% 
+\contentsline {subsection}{ \numberline {2.4.2} Production and Decay at Hadron Colliders}{16}{subsection.2.4.2}% 
 \contentsline {subsection}{ \numberline {2.4.3} Beyond the Standard Model Top Quark Physics}{20}{subsection.2.4.3}% 
 \contentsline {section}{ \numberline {2.5} The Flavor-Changing Neutral Current}{21}{section.2.5}% 
 \contentsline {subsection}{ \numberline {2.5.1} The Standard Model Flavor Sector}{21}{subsection.2.5.1}% 
@@ -90,7 +90,7 @@
 \contentsline {chapter}{\numberline {VII}\uppercase {Outlook and Conclusions}}{165}{figure.caption.113}% 
 \contentsline {section}{ \numberline {7.1} Comparison with Complementary Searches}{165}{section.7.1}% 
 \contentsline {section}{ \numberline {7.2} Future Directions}{166}{section.7.2}% 
-\contentsline {section}{ \numberline {7.3} Conclusion}{166}{section.7.3}% 
+\contentsline {section}{ \numberline {7.3} Conclusion}{167}{section.7.3}% 
  \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
 \contentsline {chapter}{\number@appendix {1}{A} \uppercase {Derivation Information (TOPQ1)}}{168}{section.7.3}% 
 \contentsline {chapter}{\number@appendix {2}{B} \uppercase {Complete List of Monte Carlo Samples Used}}{169}{table.caption.114}% 

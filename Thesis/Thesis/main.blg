@@ -1,26 +1,26 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[28] biber-MSWIN32:315> INFO - === 
-[56] Biber.pm:371> INFO - Reading 'main.bcf'
-[173] Biber.pm:889> INFO - Found 104 citekeys in bib section 0
-[186] Biber.pm:4093> INFO - Processing section 0
-[200] Biber.pm:4254> INFO - Looking for bibtex format file 'main.bib' for section 0
-[213] bibtex.pm:1523> INFO - LaTeX decoding ...
-[486] bibtex.pm:1340> INFO - Found BibTeX data source 'main.bib'
-[636] Utils.pm:193> WARN - month field 'Jul' in entry 'LHCAccComplex' is not an integer - this will probably not sort properly.
-[651] Utils.pm:193> WARN - month field 'Sep' in entry 'Capeans:1291633' is not an integer - this will probably not sort properly.
-[669] Utils.pm:193> WARN - month field 'Nov' in entry 'MaxThesis' is not an integer - this will probably not sort properly.
-[768] Utils.pm:193> WARN - month field 'Mar' in entry 'ParticleInteractions' is not an integer - this will probably not sort properly.
-[775] Utils.pm:193> WARN - month field 'Aug' in entry 'ElectronCalib2' is not an integer - this will probably not sort properly.
-[791] Utils.pm:193> WARN - month field 'Jul' in entry 'JetCleaning' is not an integer - this will probably not sort properly.
-[848] Utils.pm:193> WARN - month field 'Jun' in entry 'ATLAS-CONF-2019-021' is not an integer - this will probably not sort properly.
-[855] Utils.pm:193> WARN - month field 'Jul' in entry 'ATL-PHYS-PUB-2015-015' is not an integer - this will probably not sort properly.
-[858] Utils.pm:193> WARN - month field 'Oct' in entry 'Friedman:695770' is not an integer - this will probably not sort properly.
-[907] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\JTBar\AppData\Local\Temp\1AIbJhzk0f\main.bib_17364.utf8, line 1213, warning: 44 characters of junk seen at toplevel
-[969] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[969] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[969] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[969] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1031] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1063] bbl.pm:739> INFO - Output to main.bbl
-[1067] Biber.pm:110> INFO - WARNINGS: 10
+[39] biber-MSWIN32:315> INFO - === 
+[93] Biber.pm:371> INFO - Reading 'main.bcf'
+[354] Biber.pm:889> INFO - Found 105 citekeys in bib section 0
+[370] Biber.pm:4093> INFO - Processing section 0
+[386] Biber.pm:4254> INFO - Looking for bibtex format file 'main.bib' for section 0
+[406] bibtex.pm:1523> INFO - LaTeX decoding ...
+[927] bibtex.pm:1340> INFO - Found BibTeX data source 'main.bib'
+[1160] Utils.pm:193> WARN - month field 'Jul' in entry 'LHCAccComplex' is not an integer - this will probably not sort properly.
+[1183] Utils.pm:193> WARN - month field 'Sep' in entry 'Capeans:1291633' is not an integer - this will probably not sort properly.
+[1225] Utils.pm:193> WARN - month field 'Nov' in entry 'MaxThesis' is not an integer - this will probably not sort properly.
+[1468] Utils.pm:193> WARN - month field 'Mar' in entry 'ParticleInteractions' is not an integer - this will probably not sort properly.
+[1476] Utils.pm:193> WARN - month field 'Aug' in entry 'ElectronCalib2' is not an integer - this will probably not sort properly.
+[1501] Utils.pm:193> WARN - month field 'Jul' in entry 'JetCleaning' is not an integer - this will probably not sort properly.
+[1568] Utils.pm:193> WARN - month field 'Jun' in entry 'ATLAS-CONF-2019-021' is not an integer - this will probably not sort properly.
+[1576] Utils.pm:193> WARN - month field 'Jul' in entry 'ATL-PHYS-PUB-2015-015' is not an integer - this will probably not sort properly.
+[1581] Utils.pm:193> WARN - month field 'Oct' in entry 'Friedman:695770' is not an integer - this will probably not sort properly.
+[1669] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\JTBar\AppData\Local\Temp\7N_fcB_kpS\main.bib_8496.utf8, line 1232, warning: 44 characters of junk seen at toplevel
+[1768] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1769] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1769] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1769] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[1859] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1900] bbl.pm:739> INFO - Output to main.bbl
+[1905] Biber.pm:110> INFO - WARNINGS: 10
