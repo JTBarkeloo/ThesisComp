@@ -3542,6 +3542,59 @@
       \verb 1810.05487
       \endverb
     \endentry
+    \entry{CEPC-SPPCStudyGroup:2015csa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8221805d7fba754e61219703e888b6ca}{%
+           family={{CEPC-SPPC Study Group}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8221805d7fba754e61219703e888b6ca}
+      \strng{fullhash}{8221805d7fba754e61219703e888b6ca}
+      \strng{bibnamehash}{8221805d7fba754e61219703e888b6ca}
+      \strng{authorbibnamehash}{8221805d7fba754e61219703e888b6ca}
+      \strng{authornamehash}{8221805d7fba754e61219703e888b6ca}
+      \strng{authorfullhash}{8221805d7fba754e61219703e888b6ca}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics and Detector}}
+      \field{year}{2015}
+    \endentry
+    \entry{Bruning:2652313}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cbc360b27e87760e5df8754cce347968}{%
+           family={Bruning},
+           familyi={B\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=0f35b31f5678225c2b5a1a9e9302965a}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{574a5a2fc92ff14969fd09b5089b2d2b}
+      \strng{fullhash}{574a5a2fc92ff14969fd09b5089b2d2b}
+      \strng{bibnamehash}{574a5a2fc92ff14969fd09b5089b2d2b}
+      \strng{authorbibnamehash}{574a5a2fc92ff14969fd09b5089b2d2b}
+      \strng{authornamehash}{574a5a2fc92ff14969fd09b5089b2d2b}
+      \strng{authorfullhash}{574a5a2fc92ff14969fd09b5089b2d2b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{{Exploring the Energy Frontier with Deep Inelastic Scattering at the LHC A contribution to the update of the European Strategy on Particle Physics}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2652313
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2652313
+      \endverb
+    \endentry
     \entry{Benedikt:2015kqj}{article}{}
       \name{author}{2}{}{%
         {{hash=36cb5d13668330a21ef92a653afbaf3a}{%

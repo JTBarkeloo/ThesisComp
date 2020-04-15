@@ -36,12 +36,12 @@ Since the bunches of particles are charged they will naturally diverge while tra
 
 \subsection{Luminosity}
 The amount of data collected at collider experiments is determined not only by the center of mass energy of colliding particles but also the rate of events produced.  This rate is called the luminosity and can be determined by the square of the number of particles in each bunch (since any one in one bunch can interact with any one in the other), the time between bunches, and the cross section of the bunch (or probability of a collision).
-\[ \mathcal{L}=\frac{1}{\sigma}\frac{dN}{dt} \]
-For any given proton-proton pair the luminosity can be expressed as:
-\[ \mathcal{L}=\frac{1}{4\pi \sigma_x \sigma_y} \]
+\[ d\mathcal{L}=\frac{1}{\sigma}\frac{dN}{dt} \]
+For any given proton-proton pair $1/\sigma$ can be expressed as:
+\[ \frac{1}{\sigma}=\frac{1}{4\pi \sigma_x \sigma_y} \]
 and can be expanded for the whole beam with the inclusion of the number of protons per bunch ($N_1$ and $N_2$), the number of bunches ($N_b$), and the frequency at which the bunches overlap ($f$) to:
 \[ \mathcal{L}=\frac{N_1 N_2 N_b f}{4 \pi \sigma_x \sigma_y} \]
-which can be iterated over the running time of the LHC (the total time with beams of proper size and energy propagating through the LHC) giving the total delivered luminosity.  This total integrated luminosity as a function of time during LHC Run-2 is shown in Figure \ref{fig:ATLASLumi}.  This luminosity value can be mulitplied by the probability, or cross section, of any particular final state to obtain the number of times that final state is produced with a given luminosity.
+which can be integrated over the running time of the LHC (the total time with beams of proper size and energy propagating through the LHC) giving the total delivered luminosity.  This total integrated luminosity as a function of time during LHC Run-2 is shown in Figure \ref{fig:ATLASLumi}.  This luminosity value can be mulitplied by the probability, or cross section, of any particular final state to obtain the number of times that final state is produced with a given luminosity.
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=.7\columnwidth]{../ThesisImages/LHCImages/ATLASLumi.png}
@@ -147,7 +147,7 @@ The IBL was added during Long Shutdown I (2016) of the LHC and is closer to the 
 \end{figure}
 
 The next layer from the beam pipe, as detailed in Figure \ref{fig:ATLASInnerDet}, is the Pixel Detector which is a series of high granularity silicon pixel detectors which measure a position when a charged particle passes through them.  These silicon pixels are n-doped silicon wafers biased with a high voltage that allow for the creation of electron hole pairs.  The electron then drifts toward the electrode which creates the position signal in the readout electronics.  In addition to the IBL there are three more cylindrical layers which are designed to ensure single pixel isolation and minimize leakage.  The pixels are $50 \times 400\mu\text{m}^2$.  For complete coverage to the cylindrical system, endcaps are placed on each side of the central barrel.  These endcaps consist of four wheels that have trapezoid shaped silicon pixels.  The three barrel layers consist of 67 million pixels and the endcaps total an additional 13 million pixels.
-After the Pixel Detector is the Semiconductor Tracker (SCT) which is also made up of barrel and endcap detecors.  The barrel SCT is four cylindrical layers of silicon microstrip trackers where the endcaps are nine discs on each side of the barrel made up of either silicon or galium arsenide semiconductors.  The SCT contains over $60\text{m}^2$ of silicon detectors with over 6 million readout channels.
+After the Pixel Detector is the Semiconductor Tracker (SCT) which is also made up of barrel and endcap detectors.  The barrel SCT is four cylindrical layers of silicon microstrip trackers where the endcaps are nine discs on each side of the barrel made up of either silicon or galium arsenide semiconductors.  The SCT contains over $60\text{m}^2$ of silicon detectors with over 6 million readout channels.
 
 \begin{figure}[ht!]
 	\centering
@@ -159,13 +159,13 @@ After the Pixel Detector is the Semiconductor Tracker (SCT) which is also made u
 
 The final part of the Inner Detector is the Transition Radiation Tracker (TRT) \cite{Mindur:2017nqn}.  The TRT is a straw detector surrounding the SCT.  Every straw is a 4 mm in diameter Kapton tube with a 0.03 mm diameter gold-plated tungsten wire in its center.  In the barrel region there are 50,000 straws that are each 144 cm long and an additional 250,000 straws in both endcaps which are 39 cm in length.  Each straw is filled with an active gas mixture made up of mostly Xenon or Argon. 
 
-When charged particles traverse across the TRT straws they ionize the active gas mixture and produce ionization clusters.  The amount of clusters created depends on how far the charged partcile traveled through the TRT (5-6 clusters per mm).  The straw walls are held at a high negative voltage such that the primary electrons are accelerated toward the gold-plated tungsten wire anode creating more ionization by liberating more electrons from the active gas and producing a detectable signal which is amplified and read out.  Transition radiation occurs when a particle makes a transition between materials with different dielectric constants and the energy radiated is directly proportional to the Lorentz factor of the particle.  This allows for an excellent discrimination between electrons and charged pions.
+When charged particles traverse across the TRT straws they ionize the active gas mixture and produce ionization clusters.  The amount of clusters created depends on how far the charged particle traveled through the TRT (5-6 clusters per mm).  The straw walls are held at a high negative voltage such that the primary electrons are accelerated toward the gold-plated tungsten wire anode creating more ionization by liberating more electrons from the active gas and producing a detectable signal which is amplified and read out.  Transition radiation occurs when a particle makes a transition between materials with different dielectric constants and the energy radiated is directly proportional to the Lorentz factor of the particle.  This allows for an excellent discrimination between electrons and charged pions.
 
 
 
 \subsection{Electromagnetic and Hadronic Calorimeters}
 \label{sec:EMHCal}
-While the inner detector focuses on tracking the charged particles as they pass through the detector the ATLAS Calorimeter system is designed to absorb and measure the energy of neutral and charged particles.  The exceptions to this are muons which are able to penetrate through the calorimeters into the muon and neutrinos which do not interact at all within the ATLAS detector.  The calorimeters can be broken down into two major systems, the Liquid Argon (LAr) calorimeter\cite{CERN-LHCC-96-041} and the tile calorimeter (TileCal)\cite{CERN-LHCC-96-042}.  Both of these systems are shown in Figure \ref{fig:ATLASCaloSys}.
+While the inner detector focuses on tracking the charged particles as they pass through the detector the ATLAS Calorimeter system is designed to absorb and measure the energy of neutral and charged particles.  The exceptions to this are muons which are able to penetrate through the calorimeters into the muon system and neutrinos which do not interact at all within the ATLAS detector.  The calorimeters can be broken down into two major systems, the Liquid Argon (LAr) calorimeter\cite{CERN-LHCC-96-041} and the tile calorimeter (TileCal)\cite{CERN-LHCC-96-042}.  Both of these systems are shown in Figure \ref{fig:ATLASCaloSys}.
 
 \begin{figure}[ht!]
 	\centering
