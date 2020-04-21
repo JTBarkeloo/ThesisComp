@@ -416,6 +416,10 @@ Degree awarded \@degreemonth ~\thedegreeyear
 \centerline{\copyright ~\thedegreeyear ~\@author}
 \centerline{This work is licensed under a Creative Commons}
 \centerline{\textbf{Attribution-NonCommercial-NoDerivs (United States) License.}}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.2\columnwidth]{CCImage.png}
+\end{figure}
 \end{spacing}
 \fi
 \ifbound{\centering\@bounddisclaimer}\else\vfill\fi\vfil

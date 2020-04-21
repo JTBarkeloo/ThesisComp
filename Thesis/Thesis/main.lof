@@ -1,417 +1,417 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {USenglish}{}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Summary of $t\bar {t}$ production cross sections as a function of center of mass energy at Fermilab's Tevatron and CERN's LHC.}}{15}{figure.caption.3}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Summary of single-top production cross sections as a function of center of mass energy at Fermilab's Tevatron and CERN's LHC.}}{16}{figure.caption.4}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Leading order diagrams for $t\bar {t}$ production at hadron colliders.}}{17}{figure.caption.5}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Leading order diagrams for single top quark production.}}{18}{figure.caption.6}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Top quark decays in the Standard Model.}}{18}{figure.caption.7}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Categorization of top quark pair decays in the Standard Model based on the decays of the W bosons.}}{20}{figure.caption.9}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Box diagram of $K_L^0 \rightarrow \mu ^+ \mu ^-$ through the exchange of W bosons.\relax }}{24}{figure.caption.10}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Box diagrams of $K_L^0 \rightarrow \mu ^+ \mu ^-$ through the exchange of W bosons after the inclusion of the charm quark.\relax }}{24}{figure.caption.11}% 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces An example loop diagram of a top quark decaying to a light quark and a photon.\relax }}{25}{figure.caption.12}% 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Flavor changing neutral current top quark decays.\relax }}{29}{figure.caption.14}% 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Flavor changing neutral current limits from a variety of expeiments in every channel $t\rightarrow uX$(top) and $t\rightarrow cX$(bottom).}}{30}{figure.caption.15}% 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces FCNC diagram for the search in single top production at the electron-proton collider HERA.\relax }}{31}{figure.caption.16}% 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces FCNC diagram for the search in single top production at the electron-positron collider, LEP.\relax }}{31}{figure.caption.17}% 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces FCNC diagram for the search in single top production with the ATLAS detector.}}{32}{figure.caption.18}% 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Flavor changing neutral current theoretical branching ratios and experimental limits (both ATLAS and CMS) updated through 2018. }}{32}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Map of LHC and the various detector experiments: ATLAS, CMS, LHCb, and ALICE located under the Franco-Swiss border near Geneva.}}{35}{figure.caption.20}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic of the CERN accelerator complex.}}{36}{figure.caption.21}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Total integrated luminosity as a function of time delivered by the LHC(green), recorded (yellow) and declared good for physics analysis (blue) by the ATLAS detector throughout Run-2 consisting entirely of 13 TeV $pp$ collisions.}}{39}{figure.caption.22}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Luminosity-weighted distribution of the mean number of interactions per bunch crossing for the entirety of Run-2 shown by individual years, 2015 (yellow), 2016(orange), 2017 (purple), 2018 (green), as well as an integrated total (blue).}}{40}{figure.caption.23}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces A candidate dimuon event ($Z\rightarrow \mu ^+ \mu ^-$) with 28 reconstructed verticies collected in 2018 with the ATLAS detector.}}{40}{figure.caption.24}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces A candidate dimuon event ($Z\rightarrow \mu ^+ \mu ^-$) with 65 reconstructed verticies collected in 2017 with the ATLAS detector.}}{41}{figure.caption.25}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic of the ATLAS detector.}}{42}{figure.caption.26}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Coordinate system used in the ATLAS Collaboration.}}{44}{figure.caption.27}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic of the windings of the ATLAS magnet.}}{45}{figure.caption.28}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Schematic of the ATLAS inner detector.}}{46}{figure.caption.29}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Unfolded transverse (left) and longitudinal (right) impact parameter resolutions measured with (Run-2) and without (Run-1) the IBL as a function of $p_T$.}}{47}{figure.caption.30}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Blown up schematic of the ATLAS inner detector with more detail.}}{48}{figure.caption.31}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Schematic of the ATLAS hadronic and electromagnetic calorimeter systems.}}{49}{figure.caption.32}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Sketch of the accordian structure used in the LAr Calorimeter.}}{50}{figure.caption.33}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Number of radiation lengths throughout the LAr calorimeter as a function of $|\eta |$.}}{51}{figure.caption.34}% 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Number of interaction lengths throughout the LAr calorimeter as a function of $|\eta |$.}}{52}{figure.caption.35}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Schematic of the ATLAS muon detector.}}{53}{figure.caption.36}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Flow diagram of the ATLAS trigger and data acquisition system used in Run-2.}}{56}{figure.caption.37}% 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A pictoral view of the different steps for the creation of a MC event.}}{59}{figure.caption.38}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The bands are the momentum fraction, $x$, times the unpolarized parton distribution function obtained in NNLO NNPDF3.0 global analysis at scales $\mu ^2= 10$ GeV and $\mu ^2 = 100 \text { GeV}^2$.}}{60}{figure.caption.39}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Normalized kinematics ($p_T$, $m_t$, and $y_t$) of individual top quarks produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. \relax }}{63}{figure.caption.40}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Normalized kinematics ($p_T$, $m_{t\bar {t}}$, and $y_{t\bar {t}}$) of the $t\bar {t}$ system produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. \relax }}{64}{figure.caption.41}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Normalized $p_T$ of the electron and muons produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. \relax }}{64}{figure.caption.42}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Normalized $p_T$ of the up, charm, and bottom quarks produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. \relax }}{65}{figure.caption.43}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Normalized $p_T$ of the photons produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. There is 0 contribution from the official $t\bar {t}$ sample. \relax }}{65}{figure.caption.44}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Normalized $p_T$ of the photons produced by the model using the Left-handed (LH) and Right-handed (RH) couplings. \relax }}{66}{figure.caption.45}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.}}{68}{figure.caption.46}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces A sample parton-level event with many random soft jet objects, clustered with four different jets algorithms, illustrating the areas of the resulting hard jets. For kt and Cambridge/Aachen the detailed shapes are in part determined by the specific set of ghosts used, and change when the ghosts are modified.}}{75}{figure.caption.48}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Pictoral representation of an event with a b-jet showing the secondary vertex and impact parameter.}}{77}{figure.caption.49}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces The MV2c10 output for b, c, and light flavored jets in simulated $t\bar {t}$ and the background rejection as a function of the b-jet efficiency.}}{78}{figure.caption.50}% 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\gamma _{iso}$ topo$E_{T}$cone40, $\gamma _{p_T}$, $m_{q \gamma }$, $m_{l \gamma }$, $m_{bW}$, and $\Delta R_{j\gamma }$. \relax }}{87}{figure.caption.52}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Summary of $t\bar {t}$ production cross sections as a function of center-of-mass energy at Fermilab's Tevatron and CERN's LHC.}}{15}{figure.caption.4}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Summary of single-top production cross sections as a function of center-of-mass energy at Fermilab's Tevatron and CERN's LHC.}}{16}{figure.caption.5}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Leading order diagrams for $t\bar {t}$ production at hadron colliders.}}{17}{figure.caption.6}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Leading order diagrams for single top quark production.}}{18}{figure.caption.7}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Top quark decays in the Standard Model.}}{18}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Categorization of top quark pair decays in the Standard Model based on the decays of the W bosons.}}{20}{figure.caption.10}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Box diagram of $K_L^0 \rightarrow \mu ^+ \mu ^-$ through the exchange of W bosons.\relax }}{24}{figure.caption.11}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Box diagrams of $K_L^0 \rightarrow \mu ^+ \mu ^-$ through the exchange of W bosons after the inclusion of the charm quark.\relax }}{24}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces An example loop diagram of a top quark decaying to a light quark and a photon.\relax }}{25}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Flavor-changing neutral current top quark decays.\relax }}{29}{figure.caption.15}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Flavor-changing neutral current limits from a variety of experiments in every channel $t\rightarrow uX$(top) and $t\rightarrow cX$(bottom).}}{30}{figure.caption.16}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces FCNC diagram for the search in single top production at the electron-proton collider HERA.\relax }}{31}{figure.caption.17}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces FCNC diagram for the search in single top production at the electron-positron collider, LEP.\relax }}{31}{figure.caption.18}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces FCNC diagram for the search in single top production with the ATLAS detector.}}{32}{figure.caption.19}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Flavor-changing neutral current theoretical branching ratios and experimental limits (both ATLAS and CMS) updated through 2018. }}{32}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Map of LHC and the various detector experiments: ATLAS, CMS, LHCb, and ALICE located under the Franco-Swiss border near Geneva.}}{35}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic of the CERN accelerator complex.}}{36}{figure.caption.22}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Total integrated luminosity as a function of time delivered by the LHC (green), recorded (yellow) and declared good for physics analysis (blue) by the ATLAS detector throughout Run-2 consisting entirely of 13 TeV $pp$ collisions.}}{39}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Luminosity-weighted distribution of the mean number of interactions per bunch crossing for the entirety of Run-2 shown by individual years, 2015 (yellow), 2016 (orange), 2017 (purple), 2018 (green), as well as an integrated total (blue).}}{40}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A candidate dimuon event ($Z\rightarrow \mu ^+ \mu ^-$) with 28 reconstructed vertices collected in 2018 with the ATLAS detector.}}{41}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces A candidate dimuon event ($Z\rightarrow \mu ^+ \mu ^-$) with 65 reconstructed vertices collected in 2017 with the ATLAS detector.}}{41}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic of the ATLAS detector.}}{42}{figure.caption.27}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Coordinate system used in the ATLAS Collaboration.}}{44}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic of the windings of the ATLAS magnet.}}{45}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Schematic of the ATLAS inner detector.}}{46}{figure.caption.30}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Unfolded transverse (left) and longitudinal (right) impact parameter resolutions measured with (Run-2) and without (Run-1) the IBL as a function of $p_T$.}}{47}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Blown up schematic of the ATLAS inner detector with more detail.}}{48}{figure.caption.32}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Schematic of the ATLAS hadronic and electromagnetic calorimeter systems.}}{49}{figure.caption.33}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sketch of the accordian structure used in the LAr Calorimeter.}}{50}{figure.caption.34}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Number of radiation lengths throughout the LAr calorimeter as a function of $|\eta |$.}}{51}{figure.caption.35}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Number of interaction lengths throughout the LAr calorimeter as a function of $|\eta |$.}}{52}{figure.caption.36}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Schematic of the ATLAS muon detector.}}{54}{figure.caption.37}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Flow diagram of the ATLAS trigger and data acquisition system used in Run-2.}}{56}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A pictoral view of the different steps for the creation of a MC event.}}{59}{figure.caption.39}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The bands are the momentum fraction, $x$, times the unpolarized parton distribution function obtained in NNLO NNPDF3.0 global analysis at scales $\mu ^2= 10$ GeV and $\mu ^2 = 100 \text { GeV}^2$.}}{60}{figure.caption.40}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Normalized kinematics ($p_T$, $m_t$, and $y_t$) of individual top quarks produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. \relax }}{63}{figure.caption.41}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Normalized kinematics ($p_T$, $m_{t\bar {t}}$, and $y_{t\bar {t}}$) of the $t\bar {t}$ system produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. \relax }}{64}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Normalized $p_T$ of the electron and muons produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. \relax }}{64}{figure.caption.43}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Normalized $p_T$ of the up, charm, and bottom quarks produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. \relax }}{65}{figure.caption.44}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Normalized $p_T$ of the photons produced by the model for each FCNC final state search and an official $t\bar {t}$ sample. There is 0 contribution from the official $t\bar {t}$ sample. \relax }}{65}{figure.caption.45}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Normalized $p_T$ of the photons produced by the model using the Left-handed (LH) and Right-handed (RH) couplings. \relax }}{66}{figure.caption.46}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Cross section of a simulated ATLAS detector showing how various particles interact with ATLAS subsystems.}}{68}{figure.caption.47}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces A sample parton-level event with many random soft jet objects, clustered with four different jets algorithms, illustrating the areas of the resulting hard jets. For kt and Cambridge/Aachen the detailed shapes are in part determined by the specific set of ghosts used, and change when the ghosts are modified.}}{75}{figure.caption.49}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Pictoral representation of an event with a b-jet showing the secondary vertex and impact parameter.}}{77}{figure.caption.50}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces The MV2c10 output for b, c, and light flavored jets in simulated $t\bar {t}$ and the background rejection as a function of the b-jet efficiency.}}{78}{figure.caption.51}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\gamma _{iso}$ topo$E_{T}$cone40, $\gamma _{p_T}$, $m_{q \gamma }$, $m_{l \gamma }$, $m_{bW}$, and $\Delta R_{j\gamma }$. \relax }}{87}{figure.caption.53}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma _{iso}$ topo$E_{T}$cone40}}}{87}{subfigure.1.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma _{p_T}$}}}{87}{subfigure.1.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{q \gamma }$}}}{87}{subfigure.1.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{l \gamma }$}}}{87}{subfigure.1.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m_{bW}$}}}{87}{subfigure.1.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\Delta R_{j\gamma }$}}}{87}{subfigure.1.6}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\Delta R_{b l}$, $m_{T}^{W}$ , $S_T$, $n_{\text {jets}}$, $\chi ^{2}_{W}$, and $p_T (q)$.\relax }}{88}{figure.caption.53}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\Delta R_{b l}$, $m_{T}^{W}$ , $S_T$, $n_{\text {jets}}$, $\chi ^{2}_{W}$, and $p_T (q)$.\relax }}{88}{figure.caption.54}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{b l}$}}}{88}{subfigure.2.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_{T}^{W}$ }}}{88}{subfigure.2.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$S_T$}}}{88}{subfigure.2.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$n_{\text {jets}}$}}}{88}{subfigure.2.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\chi ^{2}_{W}$}}}{88}{subfigure.2.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$p_T (q)$}}}{88}{subfigure.2.6}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\Delta R_{l \gamma }$, E (lepton), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $, and $p_T (b)$.\relax }}{89}{figure.caption.54}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: $\Delta R_{l \gamma }$, E (lepton), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $, and $p_T (b)$.\relax }}{89}{figure.caption.55}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{l \gamma }$}}}{89}{subfigure.3.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {E (lepton)}}}{89}{subfigure.3.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $}}}{89}{subfigure.3.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$p_T (b)$ }}}{89}{subfigure.3.4}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Pictoral representation of neural network architecture with 3 input variables, 2 hidden layers with 4 nodes each, and 1 output layer.}}{92}{figure.caption.55}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces ROC Curves are shown for both search channels for a varying number of hidden layers. Orange lines correspond to one hidden layer, blue to 2 hidden layers and green to 3 hidden layers. The blue and green curves have near identical AUC values: 0.950 and 0.951 for the $e$+jets case and $0.962$ for the $\mu $+jets cases.\relax }}{95}{figure.caption.56}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Pictoral representation of neural network architecture with three input variables, two hidden layers with four nodes each, and one output layer.}}{92}{figure.caption.56}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ROC Curves are shown for both search channels for a varying number of hidden layers. Orange lines correspond to one hidden layer, blue to 2 hidden layers and green to 3 hidden layers. The blue and green curves have near identical AUC values: 0.950 and 0.951 for the $e$+jets case and $0.962$ for the $\mu $+jets cases.\relax }}{95}{figure.caption.57}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets ROC Curves}}}{95}{subfigure.5.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets ROC Curves}}}{95}{subfigure.5.2}% 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Accuracy plots for both channels for the 2 hidden layer neural network.\relax }}{96}{figure.caption.57}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Accuracy plots for both channels for the 2 hidden layer neural network.\relax }}{96}{figure.caption.58}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets Accuracy Curves}}}{96}{subfigure.6.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets Accuracy Curves}}}{96}{subfigure.6.2}% 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Loss plots for both channels for the 2 hidden layer neural network.\relax }}{97}{figure.caption.58}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Loss plots for both channels for the 2 hidden layer neural network.\relax }}{97}{figure.caption.59}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets Loss Curve}}}{97}{subfigure.7.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets Loss Curve}}}{97}{subfigure.7.2}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized neural network output signal and background distribution plots are shown for both search channels for a varying number of hidden layers.\relax }}{98}{figure.caption.59}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized neural network output signal and background distribution plots are shown for both search channels for a varying number of hidden layers.\relax }}{98}{figure.caption.60}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets:1 Hidden Layer}}}{98}{subfigure.8.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$e$+jets:2 Hidden Layers}}}{98}{subfigure.8.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$e$+jets:3 Hidden Layers}}}{98}{subfigure.8.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\mu $+jets:1 Hidden Layer}}}{98}{subfigure.8.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\mu $+jets:2 Hidden Layers}}}{98}{subfigure.8.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\mu $+jets:3 Hidden Layers}}}{98}{subfigure.8.6}% 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Significance plots for both channels for the 2 hidden layer neural network.}}{98}{figure.caption.60}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Significance plots for both channels for the two hidden layer neural network.}}{98}{figure.caption.61}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$e$+jets}}}{98}{subfigure.9.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu $+jets}}}{98}{subfigure.9.2}% 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Accuracy and loss plots for the $e$+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{100}{figure.caption.61}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Accuracy and loss plots for the $e$+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{100}{figure.caption.62}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP Loss}}}{100}{subfigure.10.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP Loss}}}{100}{subfigure.10.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP Loss}}}{100}{subfigure.10.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Accuracy}}}{100}{subfigure.10.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Accuracy}}}{100}{subfigure.10.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Accuracy}}}{100}{subfigure.10.6}% 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Accuracy and loss plots for the $\mu $+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{100}{figure.caption.62}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Accuracy and loss plots for the $\mu $+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{100}{figure.caption.63}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP Loss}}}{100}{subfigure.11.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP Loss}}}{100}{subfigure.11.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP Loss}}}{100}{subfigure.11.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Accuracy}}}{100}{subfigure.11.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Accuracy}}}{100}{subfigure.11.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Accuracy}}}{100}{subfigure.11.6}% 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Neural network output and significance plots for the $e$+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{101}{figure.caption.63}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Neural network output and significance plots for the $e$+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{101}{figure.caption.64}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP NN output}}}{101}{subfigure.12.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP NN output}}}{101}{subfigure.12.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP NN output}}}{101}{subfigure.12.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Significance}}}{101}{subfigure.12.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Significance}}}{101}{subfigure.12.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Significance}}}{101}{subfigure.12.6}% 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Neural network output and significance plots for the $\mu $+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{101}{figure.caption.64}% 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Neural network output and significance plots for the $\mu $+jets channel at 70\%, 77\%, and 85\% b-tagging working points.\relax }}{101}{figure.caption.65}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {70\% WP NN output}}}{101}{subfigure.13.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {77\% WP NN output}}}{101}{subfigure.13.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {85\% WP NN output}}}{101}{subfigure.13.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {70\% WP Significance}}}{101}{subfigure.13.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {77\% WP Significance}}}{101}{subfigure.13.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {85\% WP Significance}}}{101}{subfigure.13.6}% 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Photon $p_T$ in the signal region preselection region. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{105}{figure.caption.68}% 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Photon $p_T$ in the signal region preselection region. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{105}{figure.caption.69}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {electron channel}}}{105}{subfigure.14.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {muon channel}}}{105}{subfigure.14.2}% 
-\contentsline {figure}{\numberline {5.15}{\ignorespaces $S_T$ and $m_T^W$ in the signal region preselection region. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{106}{figure.caption.69}% 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces $S_T$ and $m_T^W$ in the signal region preselection region. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{106}{figure.caption.70}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {electron channel}}}{106}{subfigure.15.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {muon channel}}}{106}{subfigure.15.2}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {electron channel}}}{106}{subfigure.15.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {muon channel}}}{106}{subfigure.15.2}% 
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Top mass candidates in the signal region preselection: $m_{W b}$ and $m_{q\gamma }$. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{107}{figure.caption.70}% 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Top mass candidates in the signal region preselection: $m_{W b}$ and $m_{q\gamma }$. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{107}{figure.caption.71}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {electron channel}}}{107}{subfigure.16.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {muon channel}}}{107}{subfigure.16.2}% 
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (e), and $n_{\text {jets}}$ (f) plots in the signal region preselection for the electron+jets channel. FCNC signal branching ratio is scaled to 1.5\%. \relax }}{108}{figure.caption.71}% 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (e), and $n_{\text {jets}}$ (f) plots in the signal region preselection for the electron+jets channel. FCNC signal branching ratio is scaled to 1.5\%. \relax }}{108}{figure.caption.72}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{108}{subfigure.17.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{108}{subfigure.17.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{108}{subfigure.17.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{108}{subfigure.17.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{108}{subfigure.17.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{108}{subfigure.17.6}% 
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (e), and $n_{\text {jets}}$ (f) plots in the signal region preselection for the muon+jets channel. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{109}{figure.caption.72}% 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Photon $p_T$ (a), leading light jet $p_T$ (b), lepton $p_T$ (c), b-jet $p_T$(d), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (e), and $n_{\text {jets}}$ (f) plots in the signal region preselection for the muon+jets channel. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{109}{figure.caption.73}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{109}{subfigure.18.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{109}{subfigure.18.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{109}{subfigure.18.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{109}{subfigure.18.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{109}{subfigure.18.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{109}{subfigure.18.6}% 
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Output of the neural network in the signal region preselection region. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{110}{figure.caption.73}% 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Output of the neural network in the signal region preselection region. FCNC signal branching ratio is scaled to 1.5\%.\relax }}{110}{figure.caption.74}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {electron channel}}}{110}{subfigure.19.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {muon channel}}}{110}{subfigure.19.2}% 
-\contentsline {figure}{\numberline {5.20}{\ignorespaces $S_T$ distributions in the 3(a,d), 4(b,e), and 5+(c,f) jets control and validation regions. The electron channel is shown on the top and the muon channel on the bottom, before scale factors are determined.\relax }}{113}{figure.caption.74}% 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces $S_T$ distributions in the 3 (a, d), 4 (b, e), and 5+ (c, f) jets control and validation regions. The electron channel is shown on the top and the muon channel on the bottom, before scale factors are determined.\relax }}{113}{figure.caption.75}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{113}{subfigure.20.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{113}{subfigure.20.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{113}{subfigure.20.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{113}{subfigure.20.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{113}{subfigure.20.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{113}{subfigure.20.6}% 
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Event-level plots for the =4 jet validation region after scale factors have been applied in the electron channel. FCNC signal branching ratio is scaled to 0.1\%.\relax }}{114}{figure.caption.76}% 
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Event-level plots for the =4 jet validation region after scale factors have been applied in the electron channel. FCNC signal branching ratio is scaled to 0.1\%.\relax }}{114}{figure.caption.77}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{114}{subfigure.21.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{114}{subfigure.21.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{114}{subfigure.21.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{114}{subfigure.21.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{114}{subfigure.21.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{114}{subfigure.21.6}% 
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Event-level plots for the =4 jet validation region after scale factors have been applied in the muon channel. FCNC signal branching ratio is scaled to 0.1\%.\relax }}{115}{figure.caption.77}% 
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Event-level plots for the =4 jet validation region after scale factors have been applied in the muon channel. FCNC signal branching ratio is scaled to 0.1\%.\relax }}{115}{figure.caption.78}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{115}{subfigure.22.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{115}{subfigure.22.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{115}{subfigure.22.3}% 
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{115}{subfigure.22.4}% 
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{115}{subfigure.22.5}% 
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{115}{subfigure.22.6}% 
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Probe $p_T$ vs leading electron $p_T$ in $Z\rightarrow e^+ e^- $ Data Events.\relax }}{118}{figure.caption.78}% 
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Probe $p_T$ vs leading electron $p_T$ in $Z\rightarrow e^+ e^- $ Data Events.\relax }}{118}{figure.caption.79}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Probe: Electrons}}}{118}{subfigure.23.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Probe: Converted Photons}}}{118}{subfigure.23.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Probe: Unconverted Photons}}}{118}{subfigure.23.3}% 
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Probe $p_T$ vs leading electron $p_T$ in $Z\rightarrow e^+ e^- $ MC Events.\relax }}{119}{figure.caption.79}% 
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Probe $p_T$ vs leading electron $p_T$ in $Z\rightarrow e^+ e^- $ MC Events.\relax }}{119}{figure.caption.80}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Probe: Electrons}}}{119}{subfigure.24.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Probe: Converted Photons}}}{119}{subfigure.24.2}% 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Probe: Unconverted Photons}}}{119}{subfigure.24.3}% 
-\contentsline {figure}{\numberline {5.25}{\ignorespaces 2-Dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events for unconverted and converted photon types shown with statistical uncertainties.\relax }}{121}{figure.caption.80}% 
+\contentsline {figure}{\numberline {5.25}{\ignorespaces 2-dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events for unconverted and converted photon types shown with statistical uncertainties.\relax }}{121}{figure.caption.81}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Converted Photons}}}{121}{subfigure.25.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unconverted Photons}}}{121}{subfigure.25.2}% 
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Pictoral representation of the regions used for the ABCD method in this search.\relax }}{125}{figure.caption.81}% 
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Regions used for the ABCD method shown for both converted and unconverted photon types. MC events are shown in the gradient histogram and data events are shown with the black points. All final signal region cuts are included except the neural network cut to give enough statistics in the regions for the ABCD method to be a reasonable estimate of the fake rate scale factor.\relax }}{127}{figure.caption.84}% 
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Pictoral representation of the regions used for the ABCD method in this search.\relax }}{125}{figure.caption.82}% 
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Regions used for the ABCD method shown for both converted and unconverted photon types. MC events are shown in the gradient histogram and data events are shown with the black points. All final signal region cuts are included except the neural network cut to give enough statistics in the regions for the ABCD method to be a reasonable estimate of the fake rate scale factor.\relax }}{127}{figure.caption.85}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Electron Channel, Converted Photons}}}{127}{subfigure.27.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Muon Channel, Converted Photons}}}{127}{subfigure.27.2}% 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Electron Channel, Unconverted Photons}}}{127}{subfigure.27.1}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Muon Channel, Unconverted Photons}}}{127}{subfigure.27.2}% 
-\contentsline {figure}{\numberline {5.28}{\ignorespaces W+jets+$\gamma $ validation region plots for the electron channel after all scale factors are applied. The FCNC signal sample is scaled to 1\%.\relax }}{130}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{130}{subfigure.28.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{130}{subfigure.28.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{130}{subfigure.28.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{130}{subfigure.28.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{130}{subfigure.28.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{130}{subfigure.28.6}% 
-\contentsline {figure}{\numberline {5.29}{\ignorespaces W+jets+$\gamma $ validation region plots for the muon channel after all scale factors are applied. The FCNC signal sample is scaled to 1\%.\relax }}{131}{figure.caption.87}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{131}{subfigure.29.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{131}{subfigure.29.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{131}{subfigure.29.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{131}{subfigure.29.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{131}{subfigure.29.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{131}{subfigure.29.6}% 
-\contentsline {figure}{\numberline {5.30}{\ignorespaces $t\bar {t}$+jets+$\gamma $ validation region plots for the electron channel after all scale factors are applied. The FCNC signal sample is scaled to 1\%.\relax }}{133}{figure.caption.88}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{133}{subfigure.30.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{133}{subfigure.30.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{133}{subfigure.30.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{133}{subfigure.30.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{133}{subfigure.30.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{133}{subfigure.30.6}% 
-\contentsline {figure}{\numberline {5.31}{\ignorespaces $t\bar {t}$+jets+$\gamma $ validation region plots for the muon channel after all scale factors are applied. The FCNC signal sample is scaled to 1\%.\relax }}{134}{figure.caption.89}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{134}{subfigure.31.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{134}{subfigure.31.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{134}{subfigure.31.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{134}{subfigure.31.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{134}{subfigure.31.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{134}{subfigure.31.6}% 
-\contentsline {figure}{\numberline {5.32}{\ignorespaces Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the electron channel. \relax }}{136}{figure.caption.90}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{136}{subfigure.32.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{136}{subfigure.32.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{136}{subfigure.32.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{136}{subfigure.32.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{136}{subfigure.32.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{136}{subfigure.32.6}% 
-\contentsline {figure}{\numberline {5.33}{\ignorespaces FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the electron channel.\relax }}{137}{figure.caption.91}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{137}{subfigure.33.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{137}{subfigure.33.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{137}{subfigure.33.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{137}{subfigure.33.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{137}{subfigure.33.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{137}{subfigure.33.6}% 
-\contentsline {figure}{\numberline {5.34}{\ignorespaces Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the muon channel.\relax }}{138}{figure.caption.92}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{138}{subfigure.34.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{138}{subfigure.34.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{138}{subfigure.34.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{138}{subfigure.34.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{138}{subfigure.34.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{138}{subfigure.34.6}% 
-\contentsline {figure}{\numberline {5.35}{\ignorespaces FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the muon channel.\relax }}{139}{figure.caption.93}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{139}{subfigure.35.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{139}{subfigure.35.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{139}{subfigure.35.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{139}{subfigure.35.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{139}{subfigure.35.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{139}{subfigure.35.6}% 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Nuisance parameters after pruning for $e$+jets channel}}{151}{figure.caption.95}% 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Pull values for the various nuisance parameters considered in the fit for the $e$+jets channel.\relax }}{152}{figure.caption.96}% 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Bin by bin normalization $\gamma $ factors used in each region for the $e$+jets channel.\relax }}{152}{figure.caption.97}% 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Negative-log likelihood (goodness of fit) as a function of signal strength using data in all regions for the $e$+jets channel.\relax }}{153}{figure.caption.98}% 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Correlation matrix with at least one coefficient above 20\% for $e$+jets channel}}{153}{figure.caption.99}% 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Nuisance parameters after pruning for $\mu $+jets channel}}{154}{figure.caption.100}% 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Pull values for the various nuisance parameters considered in the fit for the $\mu $+jets channel.\relax }}{155}{figure.caption.101}% 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Bin by bin normalization $\gamma $ factors used in each region for the $\mu $+jets channel.\relax }}{155}{figure.caption.102}% 
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Negative-log likelihood (goodness of fit) as a function of signal strength using data in all regions for the $\mu $+jets channel.\relax }}{156}{figure.caption.103}% 
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Correlation matrix with at least one coefficient above 20\% for $\mu $+jets channel}}{156}{figure.caption.104}% 
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) in the final signal region for the electron channel. \relax }}{158}{figure.caption.105}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{158}{subfigure.11.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{158}{subfigure.11.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{158}{subfigure.11.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{158}{subfigure.11.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{158}{subfigure.11.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{158}{subfigure.11.6}% 
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) in the final signal region for the electron channel.\relax }}{159}{figure.caption.106}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{159}{subfigure.12.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{159}{subfigure.12.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{159}{subfigure.12.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{159}{subfigure.12.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{159}{subfigure.12.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{159}{subfigure.12.6}% 
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) in the final signal region for the muon channel.\relax }}{160}{figure.caption.107}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{160}{subfigure.13.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{160}{subfigure.13.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{160}{subfigure.13.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{160}{subfigure.13.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{160}{subfigure.13.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{160}{subfigure.13.6}% 
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) in the final signal region for the muon channel.\relax }}{161}{figure.caption.108}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{161}{subfigure.14.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{161}{subfigure.14.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{161}{subfigure.14.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{161}{subfigure.14.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{161}{subfigure.14.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{161}{subfigure.14.6}% 
-\contentsline {figure}{\numberline {6.15}{\ignorespaces 95\% confidence level upper limits on the signal strength $\mu $. \relax }}{163}{figure.caption.113}% 
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: [E (bjet), $\eta _b$, $\Delta R_{jb}$, E (light jet), light jet $\eta $, and $\chi ^2_\nu $ the total $\chi ^2$ fit value. \relax }}{176}{figure.caption.121}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {E (bjet)}}}{176}{subfigure.1.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\eta _b$}}}{176}{subfigure.1.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta R_{jb}$}}}{176}{subfigure.1.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {E (light jet)}}}{176}{subfigure.1.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {light jet $\eta $}}}{176}{subfigure.1.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\chi ^2_\nu $}}}{176}{subfigure.1.6}% 
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: [lepton $p_T$, lepton $\eta $, lepton isolation , $chi^2_{\text {SM}}$ the bW$\chi ^2$ value from neutrino reconstrucion ,photon E, and photon $\eta $. \relax }}{177}{figure.caption.122}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {lepton $p_T$}}}{177}{subfigure.2.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {lepton $\eta $}}}{177}{subfigure.2.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {lepton isolation}}}{177}{subfigure.2.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\chi ^2_{\text {bW}}$}}}{177}{subfigure.2.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {photon E}}}{177}{subfigure.2.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {photon $\eta $}}}{177}{subfigure.2.6}% 
-\contentsline {figure}{\numberline {D.3}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: $\Delta R_{l \gamma }$, E (lepton), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $, and $p_T (b)$.\relax }}{178}{figure.caption.123}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{l \gamma }$}}}{178}{subfigure.3.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {E (lepton)}}}{178}{subfigure.3.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $}}}{178}{subfigure.3.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$p_T (b)$ }}}{178}{subfigure.3.4}% 
-\contentsline {figure}{\numberline {D.4}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: $\gamma _{iso}$ topo$E_{T}$cone40, $\gamma _{p_T}$, $m_{q \gamma }$, $m_{l \gamma }$, $m_{bW}$, and $\Delta R_{j\gamma }$.\relax }}{179}{figure.caption.124}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma _{iso}$ topo$E_{T}$cone40}}}{179}{subfigure.4.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma _{p_T}$}}}{179}{subfigure.4.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{q \gamma }$}}}{179}{subfigure.4.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{l \gamma }$}}}{179}{subfigure.4.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m_{bW}$}}}{179}{subfigure.4.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\Delta R_{j\gamma }$}}}{179}{subfigure.4.6}% 
-\contentsline {figure}{\numberline {D.5}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: $\Delta R_{b l}$, $m_{T}^{W}$ , $S_T$, $n_{\text {jets}}$, $\chi ^{2}_{W}$, and $p_T (q)$.\relax }}{180}{figure.caption.125}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{b l}$}}}{180}{subfigure.5.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_{T}^{W}$ }}}{180}{subfigure.5.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$S_T$}}}{180}{subfigure.5.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$n_{\text {jets}}$}}}{180}{subfigure.5.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\chi ^{2}_{W}$}}}{180}{subfigure.5.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$p_T (q)$}}}{180}{subfigure.5.6}% 
-\contentsline {figure}{\numberline {D.6}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: [E (bjet), $\eta _b$, $\Delta R_{jb}$, E (light jet), light jet $\eta $, and $\chi ^2_\nu $ the total $\chi ^2$ fit value. \relax }}{181}{figure.caption.126}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {E (bjet)}}}{181}{subfigure.6.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\eta _b$}}}{181}{subfigure.6.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta R_{jb}$}}}{181}{subfigure.6.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {E (light jet)}}}{181}{subfigure.6.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {light jet $\eta $}}}{181}{subfigure.6.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\chi ^2_\nu $}}}{181}{subfigure.6.6}% 
-\contentsline {figure}{\numberline {D.7}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: [lepton $p_T$, lepton $\eta $, lepton isolation , $chi^2_{\text {SM}}$ the bW$\chi ^2$ value from neutrino reconstrucion, photon E, and photon $\eta $. \relax }}{182}{figure.caption.127}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {lepton $p_T$}}}{182}{subfigure.7.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {lepton $\eta $}}}{182}{subfigure.7.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {lepton isolation}}}{182}{subfigure.7.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\chi ^2_{\text {bW}}$}}}{182}{subfigure.7.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {photon E}}}{182}{subfigure.7.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {photon $\eta $}}}{182}{subfigure.7.6}% 
-\contentsline {figure}{\numberline {E.1}{\ignorespaces 2-Dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events within a 5 GeV mass window around the Z boson (2.5 GeV on each side) for unconverted and converted photon types shown with statistical uncertainties.\relax }}{184}{figure.caption.128}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Converted Photons}}}{184}{subfigure.1.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unconverted Photons}}}{184}{subfigure.1.2}% 
-\contentsline {figure}{\numberline {E.2}{\ignorespaces 2-Dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events within a 15 GeV mass window around the Z boson (7.5 GeV on each side) for unconverted and converted photon types shown with statistical uncertainties.\relax }}{185}{figure.caption.129}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Converted Photons}}}{185}{subfigure.2.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unconverted Photons}}}{185}{subfigure.2.2}% 
-\contentsline {figure}{\numberline {E.3}{\ignorespaces 2-Dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events within a 20 GeV mass window around the Z boson (10 GeV on each side) for unconverted and converted photon types shown with statistical uncertainties.\relax }}{186}{figure.caption.130}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Converted Photons}}}{186}{subfigure.3.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unconverted Photons}}}{186}{subfigure.3.2}% 
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $n_{jet}$ (d), $m_T^W$ (e), and $S_T$ (f) in the W+$\gamma $ validation region for the electron channel. \relax }}{188}{figure.caption.131}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{188}{subfigure.1.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{188}{subfigure.1.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{188}{subfigure.1.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{188}{subfigure.1.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{188}{subfigure.1.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{188}{subfigure.1.6}% 
-\contentsline {figure}{\numberline {F.2}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), leading b-jet $p_T$ (d), $m_T^W$ (e), and $S_T$ (f) in the $t\bar {t}$+jets+$\gamma $ validation region for the electron channel. \relax }}{189}{figure.caption.132}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{189}{subfigure.2.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{189}{subfigure.2.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{189}{subfigure.2.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{189}{subfigure.2.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{189}{subfigure.2.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{189}{subfigure.2.6}% 
-\contentsline {figure}{\numberline {F.3}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $n_{jet}$ (d), $m_T^W$ (e), and $S_T$ (f) in the W+$\gamma $ validation region for the muon channel. \relax }}{190}{figure.caption.133}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{190}{subfigure.3.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{190}{subfigure.3.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{190}{subfigure.3.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{190}{subfigure.3.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{190}{subfigure.3.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{190}{subfigure.3.6}% 
-\contentsline {figure}{\numberline {F.4}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), leading b-jet $p_T$ (d), $m_T^W$ (e), and $S_T$ (f) in the $t\bar {t}$+jets+$\gamma $ validation region for the muon channel. \relax }}{191}{figure.caption.134}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{191}{subfigure.4.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{191}{subfigure.4.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{191}{subfigure.4.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{191}{subfigure.4.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{191}{subfigure.4.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{191}{subfigure.4.6}% 
-\contentsline {figure}{\numberline {G.1}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) in the final signal region for the muon channel fitting on $m_{q\gamma }$. \relax }}{193}{figure.caption.135}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{193}{subfigure.1.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{193}{subfigure.1.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{193}{subfigure.1.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{193}{subfigure.1.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{193}{subfigure.1.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{193}{subfigure.1.6}% 
-\contentsline {figure}{\numberline {G.2}{\ignorespaces Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) in the final signal region for the muon channel fitting on $m_{q\gamma }$.\relax }}{194}{figure.caption.136}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{194}{subfigure.2.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{194}{subfigure.2.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{194}{subfigure.2.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{194}{subfigure.2.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{194}{subfigure.2.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{194}{subfigure.2.6}% 
-\contentsline {figure}{\numberline {G.3}{\ignorespaces Limits on the signal strength $\mu $ for the alternative fit using $m_{q\gamma }$ in both regions. \relax }}{195}{figure.caption.137}% 
-\contentsline {figure}{\numberline {G.4}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $n_{jet}$ (d), $m_T^W$ (e), and $S_T$ (f) in the W+$\gamma $ validation region for the $\mu $+jets channel for alternative fit using $m_{q\gamma }$ in both regions.\relax }}{196}{figure.caption.139}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{196}{subfigure.4.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{196}{subfigure.4.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{196}{subfigure.4.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{196}{subfigure.4.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{196}{subfigure.4.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{196}{subfigure.4.6}% 
-\contentsline {figure}{\numberline {G.5}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), leading b-jet $p_T$ (d), $m_T^W$ (e), and $S_T$ (f) in the $t\bar {t}$+jets+$\gamma $ validation region for the $\mu $+jets channel for alternative fit using $m_{q\gamma }$ in both regions.\relax }}{197}{figure.caption.140}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{197}{subfigure.5.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{197}{subfigure.5.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{197}{subfigure.5.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{197}{subfigure.5.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{197}{subfigure.5.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{197}{subfigure.5.6}% 
-\contentsline {figure}{\numberline {G.6}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) in the final signal region for the electron channel fitting on $\gamma $ $p_T$.\relax }}{199}{figure.caption.141}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{199}{subfigure.6.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{199}{subfigure.6.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{199}{subfigure.6.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{199}{subfigure.6.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{199}{subfigure.6.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{199}{subfigure.6.6}% 
-\contentsline {figure}{\numberline {G.7}{\ignorespaces Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) in the final signal region for the electron channel fitting on $\gamma $ $p_T$.\relax }}{200}{figure.caption.142}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{200}{subfigure.7.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{200}{subfigure.7.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{200}{subfigure.7.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{200}{subfigure.7.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{200}{subfigure.7.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{200}{subfigure.7.6}% 
-\contentsline {figure}{\numberline {G.8}{\ignorespaces Limits on the signal strength $\mu $ for the alternative fit using $\gamma $ $p_T$ in both regions. \relax }}{201}{figure.caption.143}% 
-\contentsline {figure}{\numberline {G.9}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $n_{jet}$ (d), $m_T^W$ (e), and $S_T$ (f) in the W+$\gamma $ validation region for the e+jets channel for alternative fit using $\gamma $ $p_T$ in both regions. \relax }}{202}{figure.caption.145}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{202}{subfigure.9.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{202}{subfigure.9.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{202}{subfigure.9.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{202}{subfigure.9.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{202}{subfigure.9.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{202}{subfigure.9.6}% 
-\contentsline {figure}{\numberline {G.10}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), leading b-jet $p_T$ (d), $m_T^W$ (e), and $S_T$ (f) in the $t\bar {t}$+jets+$\gamma $ validation region for the e+jets channel for alternative fit using $\gamma $ $p_T$ in both regions. \relax }}{203}{figure.caption.146}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{203}{subfigure.10.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{203}{subfigure.10.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{203}{subfigure.10.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{203}{subfigure.10.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{203}{subfigure.10.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{203}{subfigure.10.6}% 
+\contentsline {figure}{\numberline {5.28}{\ignorespaces W+jets+$\gamma $ validation region plots for the electron channel after all scale factors are applied. The FCNC signal sample is scaled to 1\%.\relax }}{131}{figure.caption.87}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{131}{subfigure.28.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{131}{subfigure.28.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{131}{subfigure.28.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{131}{subfigure.28.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{131}{subfigure.28.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{131}{subfigure.28.6}% 
+\contentsline {figure}{\numberline {5.29}{\ignorespaces W+jets+$\gamma $ validation region plots for the muon channel after all scale factors are applied. The FCNC signal sample is scaled to 1\%.\relax }}{132}{figure.caption.88}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{132}{subfigure.29.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{132}{subfigure.29.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{132}{subfigure.29.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{132}{subfigure.29.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{132}{subfigure.29.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{132}{subfigure.29.6}% 
+\contentsline {figure}{\numberline {5.30}{\ignorespaces $t\bar {t}$+jets+$\gamma $ validation region plots for the electron channel after all scale factors are applied. The FCNC signal sample is scaled to 1\%.\relax }}{134}{figure.caption.89}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{134}{subfigure.30.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{134}{subfigure.30.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{134}{subfigure.30.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{134}{subfigure.30.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{134}{subfigure.30.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{134}{subfigure.30.6}% 
+\contentsline {figure}{\numberline {5.31}{\ignorespaces $t\bar {t}$+jets+$\gamma $ validation region plots for the muon channel after all scale factors are applied. The FCNC signal sample is scaled to 1\%.\relax }}{135}{figure.caption.90}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{135}{subfigure.31.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{135}{subfigure.31.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{135}{subfigure.31.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{135}{subfigure.31.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{135}{subfigure.31.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{135}{subfigure.31.6}% 
+\contentsline {figure}{\numberline {5.32}{\ignorespaces Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the electron channel. \relax }}{137}{figure.caption.91}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{137}{subfigure.32.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{137}{subfigure.32.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{137}{subfigure.32.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{137}{subfigure.32.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{137}{subfigure.32.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{137}{subfigure.32.6}% 
+\contentsline {figure}{\numberline {5.33}{\ignorespaces FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the electron channel.\relax }}{138}{figure.caption.92}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{138}{subfigure.33.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{138}{subfigure.33.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{138}{subfigure.33.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{138}{subfigure.33.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{138}{subfigure.33.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{138}{subfigure.33.6}% 
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the muon channel.\relax }}{139}{figure.caption.93}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{139}{subfigure.34.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{139}{subfigure.34.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{139}{subfigure.34.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{139}{subfigure.34.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{139}{subfigure.34.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{139}{subfigure.34.6}% 
+\contentsline {figure}{\numberline {5.35}{\ignorespaces FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) pre-fit distributions in the final signal region with scale factors applied for the muon channel.\relax }}{140}{figure.caption.94}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{140}{subfigure.35.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{140}{subfigure.35.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{140}{subfigure.35.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{140}{subfigure.35.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{140}{subfigure.35.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{140}{subfigure.35.6}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Nuisance parameters after pruning for $e$+jets channel}}{153}{figure.caption.96}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Pull values for the various nuisance parameters considered in the fit for the $e$+jets channel.\relax }}{154}{figure.caption.97}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Bin by bin normalization $\gamma $ factors used in each region for the $e$+jets channel.\relax }}{154}{figure.caption.98}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Negative-log likelihood (goodness of fit) as a function of signal strength using data in all regions for the $e$+jets channel.\relax }}{155}{figure.caption.99}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Correlation matrix with at least one coefficient above 20\% for $e$+jets channel}}{155}{figure.caption.100}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Nuisance parameters after pruning for $\mu $+jets channel}}{156}{figure.caption.101}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Pull values for the various nuisance parameters considered in the fit for the $\mu $+jets channel.\relax }}{157}{figure.caption.102}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Bin by bin normalization $\gamma $ factors used in each region for the $\mu $+jets channel.\relax }}{157}{figure.caption.103}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Negative-log likelihood (goodness of fit) as a function of signal strength using data in all regions for the $\mu $+jets channel.\relax }}{158}{figure.caption.104}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Correlation matrix with at least one coefficient above 20\% for $\mu $+jets channel}}{158}{figure.caption.105}% 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) in the final signal region for the electron channel. \relax }}{160}{figure.caption.106}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{160}{subfigure.11.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{160}{subfigure.11.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{160}{subfigure.11.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{160}{subfigure.11.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{160}{subfigure.11.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{160}{subfigure.11.6}% 
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) in the final signal region for the electron channel.\relax }}{161}{figure.caption.107}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{161}{subfigure.12.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{161}{subfigure.12.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{161}{subfigure.12.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{161}{subfigure.12.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{161}{subfigure.12.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{161}{subfigure.12.6}% 
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) in the final signal region for the muon channel.\relax }}{162}{figure.caption.108}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{162}{subfigure.13.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{162}{subfigure.13.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{162}{subfigure.13.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{162}{subfigure.13.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{162}{subfigure.13.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{162}{subfigure.13.6}% 
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) in the final signal region for the muon channel.\relax }}{163}{figure.caption.109}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{163}{subfigure.14.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{163}{subfigure.14.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{163}{subfigure.14.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{163}{subfigure.14.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{163}{subfigure.14.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{163}{subfigure.14.6}% 
+\contentsline {figure}{\numberline {6.15}{\ignorespaces 95\% confidence level upper limits on the signal strength $\mu $. \relax }}{165}{figure.caption.114}% 
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: [E (b-jet) (a), $\eta _b$ (b), $\Delta R_{jb}$ (c), E (light jet) (d), light jet $\eta $ (e), and $\chi ^2_\nu $ (f) the total $\chi ^2$ fit value. \relax }}{178}{figure.caption.122}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {E (bjet)}}}{178}{subfigure.1.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\eta _b$}}}{178}{subfigure.1.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta R_{jb}$}}}{178}{subfigure.1.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {E (light jet)}}}{178}{subfigure.1.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {light jet $\eta $}}}{178}{subfigure.1.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\chi ^2_\nu $}}}{178}{subfigure.1.6}% 
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $\mu $+jets channel: [lepton $p_T$ (a), lepton $\eta $ (b), lepton isolation (c), $chi^2_{\text {SM}}$ the bW$\chi ^2$ value from neutrino reconstruction (d), photon E (e), and photon $\eta $ (f).\relax }}{179}{figure.caption.123}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {lepton $p_T$}}}{179}{subfigure.2.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {lepton $\eta $}}}{179}{subfigure.2.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {lepton isolation}}}{179}{subfigure.2.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\chi ^2_{\text {bW}}$}}}{179}{subfigure.2.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {photon E}}}{179}{subfigure.2.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {photon $\eta $}}}{179}{subfigure.2.6}% 
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: $\Delta R_{l \gamma }$ (a), E (lepton) (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), and $p_T (b)$ (d).\relax }}{180}{figure.caption.124}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{l \gamma }$}}}{180}{subfigure.3.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {E (lepton)}}}{180}{subfigure.3.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T $}}}{180}{subfigure.3.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$p_T (b)$ }}}{180}{subfigure.3.4}% 
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: $\gamma _{iso}$ topo$E_{T}$cone40 (a), $\gamma _{p_T}$ (b), $m_{q \gamma }$ (c), $m_{l \gamma }$ (d), $m_{bW}$ (e), and $\Delta R_{j\gamma }$ (f).\relax }}{181}{figure.caption.125}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma _{iso}$ topo$E_{T}$cone40}}}{181}{subfigure.4.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma _{p_T}$}}}{181}{subfigure.4.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{q \gamma }$}}}{181}{subfigure.4.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{l \gamma }$}}}{181}{subfigure.4.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m_{bW}$}}}{181}{subfigure.4.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\Delta R_{j\gamma }$}}}{181}{subfigure.4.6}% 
+\contentsline {figure}{\numberline {D.5}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: $\Delta R_{b l}$ (a), $m_{T}^{W}$ (b), $S_T$ (c), $n_{\text {jets}}$ (d), $\chi ^{2}_{W}$ (e), and $p_T (q)$ (f).\relax }}{182}{figure.caption.126}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta R_{b l}$}}}{182}{subfigure.5.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_{T}^{W}$ }}}{182}{subfigure.5.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$S_T$}}}{182}{subfigure.5.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$n_{\text {jets}}$}}}{182}{subfigure.5.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\chi ^{2}_{W}$}}}{182}{subfigure.5.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$p_T (q)$}}}{182}{subfigure.5.6}% 
+\contentsline {figure}{\numberline {D.6}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: E (b-jet) (a), $\eta _b$ (b), $\Delta R_{jb}$ (c), E (light jet) (d), light jet $\eta $ (e), and $\chi ^2_\nu $ the total $\chi ^2$ fit value (f). \relax }}{183}{figure.caption.127}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {E (bjet)}}}{183}{subfigure.6.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\eta _b$}}}{183}{subfigure.6.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta R_{jb}$}}}{183}{subfigure.6.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {E (light jet)}}}{183}{subfigure.6.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {light jet $\eta $}}}{183}{subfigure.6.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\chi ^2_\nu $}}}{183}{subfigure.6.6}% 
+\contentsline {figure}{\numberline {D.7}{\ignorespaces Normalized variables showing the shapes of neural network input variables for the $e$+jets channel: lepton $p_T$ (a), lepton $\eta $ (b), lepton isolation (c), $chi^2_{\text {SM}}$ the bW$\chi ^2$ value from neutrino reconstruction (d), photon E (e), and photon $\eta $ (f).\relax }}{184}{figure.caption.128}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {lepton $p_T$}}}{184}{subfigure.7.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {lepton $\eta $}}}{184}{subfigure.7.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {lepton isolation}}}{184}{subfigure.7.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\chi ^2_{\text {bW}}$}}}{184}{subfigure.7.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {photon E}}}{184}{subfigure.7.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {photon $\eta $}}}{184}{subfigure.7.6}% 
+\contentsline {figure}{\numberline {E.1}{\ignorespaces 2-dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events within a 5 GeV mass window around the Z boson (2.5 GeV on each side) for unconverted and converted photon types shown with statistical uncertainties.\relax }}{186}{figure.caption.129}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Converted Photons}}}{186}{subfigure.1.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unconverted Photons}}}{186}{subfigure.1.2}% 
+\contentsline {figure}{\numberline {E.2}{\ignorespaces 2-dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events within a 15 GeV mass window around the Z boson (7.5 GeV on each side) for unconverted and converted photon types shown with statistical uncertainties.\relax }}{187}{figure.caption.130}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Converted Photons}}}{187}{subfigure.2.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unconverted Photons}}}{187}{subfigure.2.2}% 
+\contentsline {figure}{\numberline {E.3}{\ignorespaces 2-dimensional scale factors derived using the $Z\rightarrow e^+ e^- $ events within a 20 GeV mass window around the Z boson (10 GeV on each side) for unconverted and converted photon types shown with statistical uncertainties.\relax }}{188}{figure.caption.131}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Converted Photons}}}{188}{subfigure.3.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unconverted Photons}}}{188}{subfigure.3.2}% 
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $n_{jet}$ (d), $m_T^W$ (e), and $S_T$ (f) in the W+$\gamma $ validation region for the electron channel. \relax }}{190}{figure.caption.132}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{190}{subfigure.1.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{190}{subfigure.1.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{190}{subfigure.1.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{190}{subfigure.1.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{190}{subfigure.1.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{190}{subfigure.1.6}% 
+\contentsline {figure}{\numberline {F.2}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), leading b-jet $p_T$ (d), $m_T^W$ (e), and $S_T$ (f) in the $t\bar {t}$+jets+$\gamma $ validation region for the electron channel. \relax }}{191}{figure.caption.133}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{191}{subfigure.2.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{191}{subfigure.2.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{191}{subfigure.2.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{191}{subfigure.2.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{191}{subfigure.2.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{191}{subfigure.2.6}% 
+\contentsline {figure}{\numberline {F.3}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $n_{jet}$ (d), $m_T^W$ (e), and $S_T$ (f) in the W+$\gamma $ validation region for the muon channel. \relax }}{192}{figure.caption.134}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{192}{subfigure.3.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{192}{subfigure.3.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{192}{subfigure.3.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{192}{subfigure.3.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{192}{subfigure.3.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{192}{subfigure.3.6}% 
+\contentsline {figure}{\numberline {F.4}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), leading b-jet $p_T$ (d), $m_T^W$ (e), and $S_T$ (f) in the $t\bar {t}$+jets+$\gamma $ validation region for the muon channel. \relax }}{193}{figure.caption.135}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{193}{subfigure.4.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{193}{subfigure.4.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{193}{subfigure.4.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{193}{subfigure.4.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{193}{subfigure.4.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{193}{subfigure.4.6}% 
+\contentsline {figure}{\numberline {G.1}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) in the final signal region for the muon channel fitting on $m_{q\gamma }$. \relax }}{195}{figure.caption.136}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{195}{subfigure.1.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{195}{subfigure.1.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{195}{subfigure.1.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{195}{subfigure.1.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{195}{subfigure.1.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{195}{subfigure.1.6}% 
+\contentsline {figure}{\numberline {G.2}{\ignorespaces Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) in the final signal region for the muon channel fitting on $m_{q\gamma }$.\relax }}{196}{figure.caption.137}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{196}{subfigure.2.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{196}{subfigure.2.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{196}{subfigure.2.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{196}{subfigure.2.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{196}{subfigure.2.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{196}{subfigure.2.6}% 
+\contentsline {figure}{\numberline {G.3}{\ignorespaces Limits on the signal strength $\mu $ for the alternative fit using $m_{q\gamma }$ in both regions. \relax }}{197}{figure.caption.138}% 
+\contentsline {figure}{\numberline {G.4}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $n_{jet}$ (d), $m_T^W$ (e), and $S_T$ (f) in the W+$\gamma $ validation region for the $\mu $+jets channel for alternative fit using $m_{q\gamma }$ in both regions.\relax }}{198}{figure.caption.140}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{198}{subfigure.4.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{198}{subfigure.4.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{198}{subfigure.4.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{198}{subfigure.4.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{198}{subfigure.4.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{198}{subfigure.4.6}% 
+\contentsline {figure}{\numberline {G.5}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), leading b-jet $p_T$ (d), $m_T^W$ (e), and $S_T$ (f) in the $t\bar {t}$+jets+$\gamma $ validation region for the $\mu $+jets channel for alternative fit using $m_{q\gamma }$ in both regions.\relax }}{199}{figure.caption.141}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{199}{subfigure.5.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{199}{subfigure.5.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{199}{subfigure.5.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{199}{subfigure.5.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{199}{subfigure.5.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{199}{subfigure.5.6}% 
+\contentsline {figure}{\numberline {G.6}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $\Delta R_{l\gamma }$ (d), $m_{l \gamma }$ (e), and b-jet $p_T$ (f) in the final signal region for the electron channel fitting on $\gamma $ $p_T$.\relax }}{201}{figure.caption.142}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{201}{subfigure.6.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{201}{subfigure.6.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{201}{subfigure.6.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{201}{subfigure.6.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{201}{subfigure.6.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{201}{subfigure.6.6}% 
+\contentsline {figure}{\numberline {G.7}{\ignorespaces Post-fit distributions for FCNC top candidate mass (a), Standard Model top candidate mass (b), ${\mathchoice {{\setbox \z@ \hbox {$\mathsurround \z@ \displaystyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \displaystyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \textstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \textstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}{{\setbox \z@ \hbox {$\mathsurround \z@ \scriptscriptstyle E$}\setbox \tw@ \hbox {$\mathsurround \z@ \scriptscriptstyle /$}\dimen 4\wd \z@ \dimen@ \ht \tw@ \advance \dimen@ -\dp \tw@ \advance \dimen@ -\ht \z@ \advance \dimen@ \dp \z@ \divide \dimen@ \tw@ \advance \dimen@ -0\ht \tw@ \advance \dimen@ -0\dp \tw@ \dimen@ii 0\wd \z@ \raise -\dimen@ \hbox to\dimen 4{\hss \kern \dimen@ii \box \tw@ \kern -\dimen@ii \hss }\hbox to\z@ {\hss \hbox to\dimen 4{\hss \box \z@ \hss }}}}}_T$ (c), $N_\text {jets}$ (d), $m_T^W$ (e), and $S_T$ (f) in the final signal region for the electron channel fitting on $\gamma $ $p_T$.\relax }}{202}{figure.caption.143}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{202}{subfigure.7.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{202}{subfigure.7.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{202}{subfigure.7.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{202}{subfigure.7.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{202}{subfigure.7.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{202}{subfigure.7.6}% 
+\contentsline {figure}{\numberline {G.8}{\ignorespaces Limits on the signal strength $\mu $ for the alternative fit using $\gamma $ $p_T$ in both regions. \relax }}{203}{figure.caption.144}% 
+\contentsline {figure}{\numberline {G.9}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), $n_{jet}$ (d), $m_T^W$ (e), and $S_T$ (f) in the W+$\gamma $ validation region for the e+jets channel for alternative fit using $\gamma $ $p_T$ in both regions. \relax }}{204}{figure.caption.146}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{204}{subfigure.9.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{204}{subfigure.9.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{204}{subfigure.9.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{204}{subfigure.9.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{204}{subfigure.9.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{204}{subfigure.9.6}% 
+\contentsline {figure}{\numberline {G.10}{\ignorespaces Post-fit distributions for Photon $p_T$ (a), lepton $p_T$ (b), leading light jet $p_T$ (c), leading b-jet $p_T$ (d), $m_T^W$ (e), and $S_T$ (f) in the $t\bar {t}$+jets+$\gamma $ validation region for the e+jets channel for alternative fit using $\gamma $ $p_T$ in both regions. \relax }}{205}{figure.caption.147}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{205}{subfigure.10.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{205}{subfigure.10.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{205}{subfigure.10.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{205}{subfigure.10.4}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{205}{subfigure.10.5}% 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{205}{subfigure.10.6}% 

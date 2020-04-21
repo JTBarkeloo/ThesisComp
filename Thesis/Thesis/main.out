@@ -1,6 +1,6 @@
-\BOOKMARK [0][-]{Doc-Start}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.1.1}{ \040The Standard Model Top Quark}{Doc-Start}% 2
-\BOOKMARK [1][-]{section.1.2}{ \040Searching for FCNC Top Quark Decays}{Doc-Start}% 3
+\BOOKMARK [0][-]{figure.caption.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{ \040The Standard Model Top Quark}{figure.caption.1}% 2
+\BOOKMARK [1][-]{section.1.2}{ \040Searching for FCNC Top Quark Decays}{figure.caption.1}% 3
 \BOOKMARK [0][-]{section.1.2}{Theory}{}% 4
 \BOOKMARK [1][-]{section.2.1}{ \040The Standard Model Particles}{section.1.2}% 5
 \BOOKMARK [1][-]{section.2.2}{ \040The Standard Model Interactions}{section.1.2}% 6
@@ -17,12 +17,12 @@
 \BOOKMARK [2][-]{subsection.2.5.2}{ \040The GIM Mechanism}{section.2.5}% 17
 \BOOKMARK [2][-]{subsection.2.5.3}{ \040New Physics With Enhancements to FCNCs}{section.2.5}% 18
 \BOOKMARK [2][-]{subsection.2.5.4}{ \040Current Measurements of Top FCNCs}{section.2.5}% 19
-\BOOKMARK [0][-]{figure.caption.19}{The Large Hadron Collider and the ATLAS Detector}{}% 20
-\BOOKMARK [1][-]{section.3.1}{ \040The Large Hadron Collider}{figure.caption.19}% 21
+\BOOKMARK [0][-]{figure.caption.20}{The Large Hadron Collider and the ATLAS Detector}{}% 20
+\BOOKMARK [1][-]{section.3.1}{ \040The Large Hadron Collider}{figure.caption.20}% 21
 \BOOKMARK [2][-]{subsection.3.1.1}{ \040LHC Magnets}{section.3.1}% 22
 \BOOKMARK [2][-]{subsection.3.1.2}{ \040Luminosity}{section.3.1}% 23
-\BOOKMARK [2][-]{subsection.3.1.3}{ \040Pileup}{section.3.1}% 24
-\BOOKMARK [1][-]{section.3.2}{ \040The ATLAS Detector}{figure.caption.19}% 25
+\BOOKMARK [2][-]{subsection.3.1.3}{ \040Pile-up}{section.3.1}% 24
+\BOOKMARK [1][-]{section.3.2}{ \040The ATLAS Detector}{figure.caption.20}% 25
 \BOOKMARK [2][-]{subsection.3.2.1}{ \040Common Detector Variables and the ATLAS Coordinate System}{section.3.2}% 26
 \BOOKMARK [2][-]{subsection.3.2.2}{ \040Magnet Setup}{section.3.2}% 27
 \BOOKMARK [2][-]{subsection.3.2.3}{ \040Inner Detector}{section.3.2}% 28
@@ -37,7 +37,7 @@
 \BOOKMARK [2][-]{subsection.4.1.2}{ \040Parton Shower Calculation}{section.4.1}% 37
 \BOOKMARK [2][-]{subsection.4.1.3}{ \040Detector Simulation}{section.4.1}% 38
 \BOOKMARK [2][-]{subsection.4.1.4}{ \040Monte Carlo Generators Used for LHC Physics}{section.4.1}% 39
-\BOOKMARK [1][-]{section.4.2}{ \040Creation of Flavor Changing Neutral Current Signal Events}{subsubsection.3.2.6.2}% 40
+\BOOKMARK [1][-]{section.4.2}{ \040Creation of Flavor-Changing Neutral Current Signal Events}{subsubsection.3.2.6.2}% 40
 \BOOKMARK [2][-]{subsection.4.2.1}{ \040FCNC Events Produced With MadGraph5 aMC@NLO}{section.4.2}% 41
 \BOOKMARK [1][-]{section.4.3}{ \040Object Reconstruction}{subsubsection.3.2.6.2}% 42
 \BOOKMARK [2][-]{subsection.4.3.1}{ \040Electrons}{section.4.3}% 43
@@ -72,20 +72,20 @@
 \BOOKMARK [3][-]{subsubsection.5.6.3.2}{ tbart+ Validation Region}{subsection.5.6.3}% 72
 \BOOKMARK [1][-]{section.5.7}{ \040Signal Region}{subsubsection.4.3.5.1}% 73
 \BOOKMARK [2][-]{subsection.5.7.1}{ \040Pre-fit Signal Region Plots}{section.5.7}% 74
-\BOOKMARK [0][-]{table.caption.94}{Analysis And Results}{}% 75
-\BOOKMARK [1][-]{section.6.1}{ \040Systematic Uncertainties}{table.caption.94}% 76
+\BOOKMARK [0][-]{table.caption.95}{Analysis And Results}{}% 75
+\BOOKMARK [1][-]{section.6.1}{ \040Systematic Uncertainties}{table.caption.95}% 76
 \BOOKMARK [2][-]{subsection.6.1.1}{ \040Theoretical Uncertainties}{section.6.1}% 77
 \BOOKMARK [2][-]{subsection.6.1.2}{ \040Experimental Uncertainties}{section.6.1}% 78
 \BOOKMARK [2][-]{subsection.6.1.3}{ \040Symmetrization, Smoothing, and Pruning of Systematic Uncertainties}{section.6.1}% 79
 \BOOKMARK [3][-]{subsubsection.6.1.3.1}{ Symmetrization}{subsection.6.1.3}% 80
 \BOOKMARK [3][-]{subsubsection.6.1.3.2}{ Smoothing}{subsection.6.1.3}% 81
 \BOOKMARK [3][-]{subsubsection.6.1.3.3}{ Pruning}{subsection.6.1.3}% 82
-\BOOKMARK [1][-]{section.6.2}{ \040Statistical Treatment of Results}{table.caption.94}% 83
-\BOOKMARK [1][-]{section.6.3}{ \040Nuisance Parameters}{table.caption.94}% 84
-\BOOKMARK [1][-]{section.6.4}{ \040Post-fit Signal Region Plots}{table.caption.94}% 85
+\BOOKMARK [1][-]{section.6.2}{ \040Statistical Treatment of Results}{table.caption.95}% 83
+\BOOKMARK [1][-]{section.6.3}{ \040Nuisance Parameters}{table.caption.95}% 84
+\BOOKMARK [1][-]{section.6.4}{ \040Post-fit Signal Region Plots}{table.caption.95}% 85
 \BOOKMARK [2][-]{subsection.6.4.1}{ \040Post-fit Data and MC Yields}{section.6.4}% 86
-\BOOKMARK [1][-]{section.6.5}{ \040Limit on Branching Ratio tq}{table.caption.94}% 87
-\BOOKMARK [0][-]{figure.caption.113}{Outlook and Conclusions}{}% 88
-\BOOKMARK [1][-]{section.7.1}{ \040Comparison with Complementary Searches}{figure.caption.113}% 89
-\BOOKMARK [1][-]{section.7.2}{ \040Future Directions}{figure.caption.113}% 90
-\BOOKMARK [1][-]{section.7.3}{ \040Conclusion}{figure.caption.113}% 91
+\BOOKMARK [1][-]{section.6.5}{ \040Limit on Branching Ratio tq}{table.caption.95}% 87
+\BOOKMARK [0][-]{figure.caption.114}{Outlook and Conclusions}{}% 88
+\BOOKMARK [1][-]{section.7.1}{ \040Comparison with Complementary Searches}{figure.caption.114}% 89
+\BOOKMARK [1][-]{section.7.2}{ \040Future Directions}{figure.caption.114}% 90
+\BOOKMARK [1][-]{section.7.3}{ \040Conclusion}{figure.caption.114}% 91
