@@ -91,7 +91,7 @@ Typically the kinematic variables with photon information have the biggest separ
 
 The neural networks are trained on MC events that have a chance of being in the signal region after basic event-level cuts and are optimized for signal significance.  Only events with one photon ($>15$ GeV) and one b-jet (MV2c10 77\% working point) are classified by the neural network.  The 77\% working point was chosen by training the neural network on events with only one b-jet at each working point: 70\%, 77\%, and 85\%, and picking the network and working point with the best estimated significance.  The b-tagging neural network study is shown in Section \ref{sec:btagNN}.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 \centering
 \subfloat[$\gamma_{iso}$ topo$E_{T}$cone40]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/photon0_iso.png}}\hfil
 \subfloat[$\gamma_{p_T}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/photon0_pt.png}}
@@ -107,7 +107,7 @@ The neural networks are trained on MC events that have a chance of being in the 
 
 
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 \centering
 \subfloat[$\Delta R_{b l}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/deltaRbl.png}}\hfil
 \subfloat[$m_{T}^{W}$ ]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/MWT.png}}
@@ -121,7 +121,7 @@ The neural networks are trained on MC events that have a chance of being in the 
 \label{fig:VarPlots2}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[$\Delta R_{l \gamma}$]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/deltaRlgam.png}}\hfil
 \subfloat[E (lepton)]{\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/varplots/lepton_e.png}}
@@ -151,7 +151,7 @@ where $y$ is a binary indicator (0 or 1) if class label is the correct classific
 
 Weighting the signal events this way allows the network to separate the signal and background events in a way that is significantly less harsh than without the weights by taking advantage of the loss function being used.  This improves the estimated significance of the neural network cut after the signal events are rescaled to their proper normalization values.  
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\columnwidth]{../ThesisImages/SearchStrategy/neural_net2.jpeg}
 	\caption[Pictoral representation of neural network architecture with three input variables, two hidden layers with four nodes each, and one output layer.]{Pictoral representation of neural network architecture with three input variables, two hidden layers with four nodes each, and one output layer\cite{NNImage}.}
@@ -206,7 +206,7 @@ where $N(\text{event}_{NN} \geq 0.5|\text{signal})$ ($N(\text{event}_{NN} \geq 0
 \label{sec:HiddenStudies}
 The general performance of the neural network was studied with a varying number of hidden layers (1, 2, and 3) in both the $e$+jets and $\mu$+jets channels.   All of the networks were trained on the same set of variables and with the same train-test split input data.  For each of the channels the \textit{Receiver Operating Characterisitic} (ROC)\cite{ROCAnalysis} curves are shown in Figure \ref{fig:ROCHidden}.  The ROC curves show the value of $1-\epsilon_{\text{bkg}}$ as a function of the true positive rate, $\epsilon_{\text{signal}}$.  A figure of merit is the Area Under the Curve (AUC) which is a measure of how close the resulting values are to the optimal value of unity. 
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[$e$+jets ROC Curves]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/btag77/modelouts/ejetsbothroc.png}}\hfil
 \subfloat[$\mu$+jets ROC Curves]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/btag77/modelouts/mujetsbothroc.png}}
@@ -216,7 +216,7 @@ The general performance of the neural network was studied with a varying number 
 
 The AUC for two hidden layers and three hidden layers are identical within rounding errors for both channels.  As such the network with two hidden layers has been chosen as it is computationally simpler.   The normalized neural network output values are shown in Figure \ref{fig:HiddenSigBkg}.  Adding a second hidden layer significantly improves the performance of the network but a third layer does not.  The output shapes change slightly when the third hidden layer is added due to the network learning differently from similar data.  However, as the AUC shows, the performances of two and three hidden layers are identical.   Figures \ref{fig:Acc2Hid} and \ref{fig:Loss2Hid} show the accuracy metric and the loss function as a function of the training epoch for the networks trained with two hidden layers.   The accuracy plot behavior is expected as the validation datasets do not have dropout regularization applied to them.  These networks are also trained without further reduction of Z+jets background meaning the $e$+jets sample has a larger background contamination that makes the validation testing more volatile.  This is due to the increased number of similar events in that sample that can be more heavily dependent on specific weights across the network for identification.
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[$e$+jets Accuracy Curves]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/ejetsboth2hidnpart0accuarcy.png}}\hfil
 \subfloat[$\mu$+jets Accuracy Curves]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/mujetsboth2hidnpart0accuarcy.png}}
@@ -224,7 +224,7 @@ The AUC for two hidden layers and three hidden layers are identical within round
 \label{fig:Acc2Hid}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[$e$+jets Loss Curve]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/ejetsboth2hidnpart0loss.png}}\hfil
 \subfloat[$\mu$+jets Loss Curve]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/mujetsboth2hidnpart0loss.png}}
@@ -236,7 +236,7 @@ The main metric used in choosing which network has the best physics reach is the
 \[ \text{significance} = \frac{N_{s}}{\sqrt{N_s +N_b}}\]
 where $N_{s}$ is the number of signal events that pass the cut and $N_b$ is the number of background events that pass the neural network cut.
 After the model has been fully trained, it is tested on all of the Monte Carlo simulations for signal and background.  The signal samples are normalized to various branching ratios (in the range $10^{-5}\rightarrow 3\times 10^{-3}$) and full LHC Run-2 luminosity, and the significance is calculated as a function of the cut on the output of the neural network $P(\text{signal})$.  The network with the output cut for the smallest branching ratio with a maximum significance of 2 is chosen, a rough estimate of where the expected limit could be set.  The significance as a function of the neural network output cut is shown in Figure \ref{fig:Sig2Hid}.
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[$e$+jets:1 Hidden Layer]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/btag77/modelouts/ejetsboth1hidnpart0sigbkg.png}}\hfil
 \subfloat[$e$+jets:2 Hidden Layers]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/btag77/modelouts/ejetsboth2hidnpart0sigbkg.png}}\hfil
@@ -249,7 +249,7 @@ After the model has been fully trained, it is tested on all of the Monte Carlo s
 \label{fig:HiddenSigBkg}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[$e$+jets]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/significanceejetsboth2hidnpart02.png}}\hfil
 \subfloat[$\mu$+jets]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/significancemujetsboth2hidnpart02.png}}
@@ -264,7 +264,7 @@ The b-tagging working point selection was performed with similar neural network 
 
 This selection of neural networks were trained in parallel with one, two, and three hidden layers.  The only results shown are the two hidden layer outputs as they perform equally to or better than the others as previously discussed.  The accuracy and loss plots for these networks are shown in Figures \ref{fig:BTagEAccLoss} and \ref{fig:BTagMuAccLoss}.  The neural network output and significance plots are shown in Figures \ref{fig:BTagEOutSig} and \ref{fig:BTagMuOutSig}.  
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[70\% WP Loss]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag70/ejetsboth2hidnpart0loss.png}}\hfil
 \subfloat[77\% WP Loss]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/ejetsboth2hidnpart0loss.png}}\hfil
@@ -277,7 +277,7 @@ This selection of neural networks were trained in parallel with one, two, and th
 \label{fig:BTagEAccLoss}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[70\% WP Loss]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag70/mujetsboth2hidnpart0loss.png}}\hfil
 \subfloat[77\% WP Loss]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/mujetsboth2hidnpart0loss.png}}\hfil
@@ -290,7 +290,7 @@ This selection of neural networks were trained in parallel with one, two, and th
 \label{fig:BTagMuAccLoss}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[70\% WP NN output]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag70/ejetsboth2hidnpart0sigbkg.png}}\hfil
 \subfloat[77\% WP NN output]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/ejetsboth2hidnpart0sigbkg.png}}\hfil
@@ -303,7 +303,7 @@ This selection of neural networks were trained in parallel with one, two, and th
 \label{fig:BTagEOutSig}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[70\% WP NN output]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag70/mujetsboth2hidnpart0sigbkg.png}}\hfil
 \subfloat[77\% WP NN output]{\includegraphics[width=.33\columnwidth]{../ThesisImages/SearchStrategy/{HiddenLayerStudiesBR0.002}/BestResults/btag77/mujetsboth2hidnpart0sigbkg.png}}\hfil
@@ -365,7 +365,7 @@ These basic event selection values are applied to every event, in both MC and Da
 \label{sec:GTRIGDEC}
 Different HLT triggers are used for data-taking periods for each year of Run-2.  This analysis takes advantage of single lepton triggers for electrons and muons to dramatically reduce backgrounds due to QCD events without leptons.  
 
-\begin{table}[]
+\begin{table}[!htb]
 \small
 \begin{center}
 {\renewcommand{\arraystretch}{1.2}
@@ -385,7 +385,7 @@ Year  &  $p_T$ threshold [GeV]   & Identification Menu & Isolation Menu & L1 See
 \end{center}
 \end{table}
 
-\begin{table}[]
+\begin{table}[!htb]
 \small
 \begin{center}
 {\renewcommand{\arraystretch}{1.2}
@@ -422,7 +422,7 @@ These plots are also produced before additional scale factors are added to accou
 
 Signal photons, which originate from a top quark decay, are very high $p_T$ whereas background photons typically result from soft processes.  A cut on the photon candidate $p_T$ removes much of the backgrounds while keeping a majority of the signal.  The photon $p_T$ in the preselection region is shown in Figure \ref{fig:PreSelPlots1}.  
 %%SR Pre Selection Plots
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[electron channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png}}\hfil
 \subfloat[muon channel]{\includegraphics[width=.45\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}}
@@ -432,7 +432,7 @@ Signal photons, which originate from a top quark decay, are very high $p_T$ wher
 
 Other variables of interest, i.e., those being used as inputs into the neural network, are also showed in this section.  Figure \ref{fig:PreSelPlotsST} shows the $S_T$ and $m_T^W$ distributions.  Figure \ref{fig:PreSelTopMasses} shows the invariant mass distributions for both top quark candidates, $m_{Wb}$ and $m_{q\gamma}$.  The kinematic variables for the electron channel are shown in Figure \ref{fig:PreSelPlots2} and for the muon channel in Figure \ref{fig:PreSelPlots3}.  The neural network output of these events is shown in Figure \ref{fig:PreSelPlots5}.
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ST.png}}\hfil
 \subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ST.png}}
@@ -443,7 +443,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 \label{fig:PreSelPlotsST}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_SMtop.png}}\hfil
 \subfloat{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_SMtop.png}}
@@ -467,7 +467,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 %\end{figure}
 
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_ph_pt.png}} \hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_jet0_pt.png}} \hfil  
@@ -481,7 +481,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 \end{figure}
 
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_ph_pt.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_jet0_pt.png}}\hfil  
@@ -494,7 +494,7 @@ Other variables of interest, i.e., those being used as inputs into the neural ne
 \label{fig:PreSelPlots3}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[electron channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_ejets/Plots/PreSel_NNejet.png}}\hfil
 \subfloat[muon channel]{\includegraphics[width=.5\columnwidth]{../ThesisImages/RegionPlots/BeforeScaling/PreSelection/FCNC_All_mujets/Plots/PreSel_NNmujet.png}}
@@ -525,7 +525,7 @@ These control and validation regions are defined as follows:
 \item Zero photons, $p_T >$ 15 GeV
 \end{itemize}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/CR1_ST.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/FCNC_All_ejets/Plots/VR3_ST.png}}\hfil  
@@ -547,7 +547,7 @@ N(W)_{3j} & N(t\bar{t})_{3j} \\ N(W)_{5+j} & N(t\bar{t})_{5+j} \end{bmatrix} \be
 Figure \ref{fig:CRSTs} shows the $S_T$ distribution in both electron and muon channels before scale factors are calculated for all three kinematically separate regions.  The large mismodeling occurs at low $S_T$ values as expected as QCD processes will typically add low-energy jets to the events.  The Figures \ref{fig:VR3ejpostscale} (electron channel) and \ref{fig:VR3mujpostscale} (muon channel) show various event-level variable plots for the validation region after the scale factors have been applied.  The problem areas in the $S_T$ distributions are not present in regions containing a photon.  The scale factors do an excellent job scaling all of the kinematic regimes within regions enriched with signal like events, shown in Figures \ref{fig:SRej2} (f) and \ref{fig:SRmuj2} (f).
 
 The derived scale factors using these regions are shown in Table \ref{tab:CR12SFs}.
-\begin{table}[h]
+\begin{table}[!htb]
 \begin{center}
 {\renewcommand{\arraystretch}{1.2}
 \begin{tabular}{ccc}
@@ -563,7 +563,7 @@ $t\bar{t}$  &  1.06    &  1.01	\\ \hline
 \end{table}
 
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_MWT.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_ejets/Plots/VR3_SMtop.png}}\hfil  %lep_pt
@@ -576,7 +576,7 @@ $t\bar{t}$  &  1.06    &  1.01	\\ \hline
 \label{fig:VR3ejpostscale}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_MWT.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/AfterScaling/ControlRegions/HardCodedNormFactor/WithSF/FCNC_All_mujets/Plots/VR3_SMtop.png}}\hfil %lep_pt
@@ -626,18 +626,18 @@ A tag-and-probe method is employed to determine the fake rate for $e\rightarrow 
 
 Distributions of the $p_T$ spectra of tag electrons and the probe electrons and photons (both converted and unconverted) in data and MC are shown in Figures \ref{fig:DataEgammaDist} and \ref{fig:McEgammaDist}.
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
-\subfloat[Probe: Electrons]{\includegraphics[width=.65\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png}} \\
+\subfloat[Probe: Electrons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEEptDa.png}} \\
 \subfloat[Probe: Converted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptDa.png}}\hfil
 \subfloat[Probe: Unconverted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptDa.png}}\hfil
 \caption{Probe $p_T$ vs leading electron $p_T$ in $Z\rightarrow e^+ e^- $ Data Events.}
 \label{fig:DataEgammaDist}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
-\subfloat[Probe: Electrons]{\includegraphics[width=.65\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png}}\\
+\subfloat[Probe: Electrons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEEptMC.png}}\\
 \subfloat[Probe: Converted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEPConvertedptMC.png}}\hfil
 \subfloat[Probe: Unconverted Photons]{\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2dEPUnconvertedptMC.png}}\hfil
 \caption{Probe $p_T$ vs leading electron $p_T$ in $Z\rightarrow e^+ e^- $ MC Events.}
@@ -653,7 +653,7 @@ where the tails of the Z-boson peak are included as $N_\text{e, $\gamma$/e}^\tex
 \[  \text{SF}_{\text{FR}}^{\text{e-fake}} =\frac{ \text{FR}_{\text{d.d.}}^{\text{e-fake}}}{ \text{FR}_{\text{MC}}^{\text{e-fake}} }.\]
 
 To give a sense of size the overall scale factor is derived to be $0.97 \pm 0.01$(stat).  In practice the scale factor is derived in bins of probe $p_T$ and $\eta$ as well as converted and unconverted photon types.  
-\begin{figure}[h!]
+\begin{figure}[!htb]
 \centering
 \subfloat[Converted Photons]{\includegraphics[width=.75\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2DConverted.png}}\\
 \subfloat[Unconverted Photons]{\includegraphics[width=.75\columnwidth]{../ThesisImages/SearchStrategy/FakeRates/2DUnconverted.png}}
@@ -699,7 +699,7 @@ The ABCD method requires four orthogonal and non-correlated regions of phase spa
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\columnwidth]{../ThesisImages/SearchStrategy/ABCDpictoral.png}
+	\includegraphics[width=.4\columnwidth]{../ThesisImages/SearchStrategy/ABCDpictoral.png}
 	\caption{Pictoral representation of the regions used for the ABCD method in this search.}
 	\label{fig:ABCD}
 \end{figure}
@@ -947,7 +947,7 @@ Distributions of kinematic variables in the electron (muon) channels are shown i
 After the calculation and application of various scale factors this section presents distributions of the pre-fit kinematic and event-level variables with the final selection cuts.  The signal MC is scaled to BR($t\rightarrow q\gamma$) = $10^{-4}$ (0.01\%).  Figures \ref{fig:SRej1} and \ref{fig:SRej2} show the distributions in the electron channel while Figures \ref{fig:SRmuj1} and \ref{fig:SRmuj2} show the muon channel.  %Change value to what BR isused
 
 \subsection{Pre-fit Signal Region Plots}
-\begin{figure}[]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_ph_pt.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_lep_pt.png}}\hfil  
@@ -961,7 +961,7 @@ After the calculation and application of various scale factors this section pres
 \end{figure}
 
 
-\begin{figure}[]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_mqph.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_ejets/Plots/SR_SMtop.png}}\hfil  
@@ -975,7 +975,7 @@ After the calculation and application of various scale factors this section pres
 \end{figure}
 
 
-\begin{figure}[]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_ph_pt.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_lep_pt.png}}\hfil  
@@ -989,7 +989,7 @@ After the calculation and application of various scale factors this section pres
 \end{figure}
 
 
-\begin{figure}[]
+\begin{figure}[!htb]
 \centering
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_mqph.png}}\hfil
 \subfloat[]{\includegraphics[width=.33\columnwidth]{../ThesisImages/RegionPlots/FinalRegions/Systematics/FCNC_All_mujets/Plots/SRmu_SMtop.png}}\hfil  

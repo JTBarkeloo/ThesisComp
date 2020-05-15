@@ -1,9 +1,11 @@
-\documentclass[dissertation, copyright, final, gsmodern]{uothesis_3}
+%\documentclass[dissertation, copyright, final, gsmodern]{uothesis_3}
+\documentclass[dissertation, copyright, final, letterpaper, gsmodern, justified, numbers, sort&compress, numsections]{uothesis_3}
 \setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{4}
 \usepackage[linktocpage]{hyperref}
 \usepackage[USenglish]{babel}
 \usepackage{todonotes}
+\usepackage{geometry}
 \usepackage{subfig}
 \usepackage{enumitem}
 \usepackage{caption}
@@ -38,14 +40,19 @@
 
 \justifiedtrue
 
+\usepackage{array}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+
+
 % hold floats in their (sub)section
+\usepackage{float}
 \usepackage{placeins}
-\let\Oldsection\section
-\renewcommand{\section}{\FloatBarrier\Oldsection}
-\let\Oldsubsection\subsection
-\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
-\let\Oldsubsubsection\subsubsection
-\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
+%\let\Oldsection\section
+%\renewcommand{\section}{\FloatBarrier\Oldsection}
+%\let\Oldsubsection\subsection
+%\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+%\let\Oldsubsubsection\subsubsection
+%\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
 
 \renewcommand{\labelitemi}{$\bullet$}
 
@@ -83,11 +90,11 @@
 %\printbibliography
 
 \begingroup
-\interlinepenalty=10000\relax
-\widowpenalty=10000\relax
-\clubpenalty=10000\relax
+\interlinepenalty=10000
+\widowpenalty=10000
+\clubpenalty=10000
 \raggedbottom
-\setstretch{0.9}
+\setstretch{0.95}
 \setlength\bibitemsep{11pt}
 \printbibliography[title={REFERENCES CITED},heading=bibintoc]
 \endgroup

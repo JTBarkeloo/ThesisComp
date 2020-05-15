@@ -398,7 +398,7 @@ This \@papertype\ has been accepted and approved
 \@advisor & Advisor\\
 \@committee\\ \\ 
 and & \\ \\
-\@graddean & Vice Provost and Dean of the Graduate School
+\@graddean & Interim Vice Provost and Dean of the Graduate School
 \end{tabular}\\*[\baselineskip]
 Original approval signatures are on file with the
 University of Oregon Graduate School.\\*[\baselineskip]
